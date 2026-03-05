@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Ekoresiliens – Webbinarier & kunskapsresurser</title>
+<title>Ekoresiliens – Evenemang & kunskapsresurser</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
 <style>
@@ -178,10 +178,10 @@ footer a:hover{text-decoration:underline;}
 </header>
 
 <div class="hero">
-  <h1>Gratis webbinarier om<br><em>hållbarhet & natur</em></h1>
-  <p>Samlar kommande webbinarier, kunskapsresurser och verktyg om klimat, biologisk mångfald, agroforestry och skogsträdgårdar – automatiskt uppdaterat varje dag.</p>
+  <h1>Gratis evenemang om<br><em>hållbarhet & natur</em></h1>
+  <p>Samlar kommande evenemang, kunskapsresurser och verktyg om klimat, biologisk mångfald, agroforestry och skogsträdgårdar – automatiskt uppdaterat varje dag.</p>
   <div class="stats-row">
-    <div class="stat"><span class="stat-num" id="statWebinars">—</span><span class="stat-label">Kommande webbinarier</span></div>
+    <div class="stat"><span class="stat-num" id="statWebinars">—</span><span class="stat-label">Kommande evenemang</span></div>
     <div class="stat"><span class="stat-num" id="statSources">—</span><span class="stat-label">Källor</span></div>
     <div class="stat"><span class="stat-num" id="statKB">—</span><span class="stat-label">Kunskapsresurser</span></div>
     <div class="stat"><span class="stat-num">Gratis</span><span class="stat-label">Alltid kostnadsfritt</span></div>
@@ -189,7 +189,7 @@ footer a:hover{text-decoration:underline;}
 </div>
 
 <div class="tab-bar">
-  <button class="tab-btn active" id="tab-webbinarier" onclick="switchTab('webbinarier')">📅 Webbinarier</button>
+  <button class="tab-btn active" id="tab-webbinarier" onclick="switchTab('webbinarier')">📅 Evenemang</button>
   <button class="tab-btn" id="tab-kunskapsbank" onclick="switchTab('kunskapsbank')">📚 Kunskapsbanker &amp; Verktyg</button>
 </div>
 
@@ -231,6 +231,15 @@ footer a:hover{text-decoration:underline;}
         </div>
 
         <div class="filter-group">
+          <div class="filter-group-label">Typ</div>
+          <div class="chip-group" id="typeChips">
+            <div class="chip active" data-type="all"   onclick="selectType(this)">Alla</div>
+            <div class="chip" data-type="webinar"      onclick="selectType(this)">Webbinarium</div>
+            <div class="chip" data-type="physical"     onclick="selectType(this)">Fysiskt</div>
+          </div>
+        </div>
+
+        <div class="filter-group">
           <div class="filter-group-label">Källa</div>
           <div class="source-list" id="sourceList">
             <!-- Genereras dynamiskt från data -->
@@ -241,7 +250,7 @@ footer a:hover{text-decoration:underline;}
 
     <main>
       <div class="toolbar">
-        <div class="result-count">Visar <strong id="visibleCount">—</strong> webbinarier</div>
+        <div class="result-count">Visar <strong id="visibleCount">—</strong> evenemang</div>
         <select class="sort-select" id="sortSelect" onchange="applyFilters()">
           <option value="date">Sortera: Närmast datum</option>
           <option value="source">Sortera: Källa</option>
@@ -250,12 +259,12 @@ footer a:hover{text-decoration:underline;}
       </div>
       <div id="webinarsLoading" class="state-box">
         <div class="spinner"></div>
-        <p>Hämtar kommande webbinarier…</p>
+        <p>Hämtar kommande evenemang…</p>
       </div>
       <div class="cards-grid" id="cardsGrid" style="display:none"></div>
       <div class="state-box" id="emptyState" style="display:none">
         <div class="icon">🌱</div>
-        <p>Inga webbinarier matchar sökningen.<br>Prova att justera filtren!</p>
+        <p>Inga evenemang matchar sökningen.<br>Prova att justera filtren!</p>
       </div>
     </main>
   </div>
@@ -290,6 +299,10 @@ footer a:hover{text-decoration:underline;}
       <div class="chip" data-cat="agroforestry"         onclick="selectCat(this,'kbCatChips')"><span class="chip-dot" style="background:#2d6a2d"></span>Agroforestry</div>
       <div class="chip" data-cat="skogstradgard"        onclick="selectCat(this,'kbCatChips')"><span class="chip-dot" style="background:#1a5c1a"></span>Skogsträdgård</div>
     </div>
+    <span class="filter-label">Källa:</span>
+    <div class="source-list" id="kbSourceList">
+      <!-- Genereras dynamiskt från data -->
+    </div>
     <input class="inline-search" type="text" placeholder="Sök resurser..." id="kbSearch" oninput="renderKB()">
   </div>
   <div class="kb-wrap">
@@ -306,7 +319,7 @@ footer a:hover{text-decoration:underline;}
 </div>
 
 <footer>
-  <p>Ekoresiliens är en oberoende samlingstjänst för gröna webbinarier och kunskapsresurser.<br>
+  <p>Ekoresiliens är en oberoende samlingstjänst för gröna evenemang och kunskapsresurser.<br>
   Skapad av <a href="https://github.com/emmawastring">Emma Wastring</a> &nbsp;|&nbsp;
   Källdata från respektive organisation &nbsp;|&nbsp;
   <a href="https://github.com/emmawastring/ekoresiliens">GitHub</a> &nbsp;|&nbsp;
@@ -370,7 +383,7 @@ async function loadWebinars() {
   } catch(e) {
     document.getElementById('webinarsLoading').innerHTML = `
       <div class="icon">⚠️</div>
-      <p>Kunde inte ladda webbinarier.</p>
+      <p>Kunde inte ladda evenemang.</p>
       <span class="error-detail">${e.message}</span>
       <p style="margin-top:.8rem;font-size:.8rem">Kör scrapers lokalt: <code>python -m scrapers.run_all</code></p>`;
   }
@@ -383,6 +396,7 @@ async function loadKB() {
     allKB = await res.json();
     document.getElementById('statKB').textContent = allKB.length;
     document.getElementById('kbLoading').style.display = 'none';
+    buildKBSourceList();
     renderKB();
   } catch(e) {
     document.getElementById('kbLoading').innerHTML = `
@@ -405,7 +419,25 @@ const SOURCE_LABELS = {
   'SLU Urban':'SLU Urbana landskap', 'BV Webinar':'Boverket Webbinarier',
   'BV Kalender':'Boverket Kalender', 'ÖF':'Omställningsfonden',
   'NV Kal':'NV Kalendarium', AH:'Aktuell Hållbarhet',
-  'SLU Play':'SLU Play'
+  'SLU Play':'SLU Play', 'Trees for Me':'Trees for Me',
+  'SV':'Svenskt Vatten', 'Klimat 2030':'Klimat 2030',
+  'B&B':'Business & Biodiversity',
+  'LS Skåne':'LS Skåne', 'LS Västra Götaland':'LS VG',
+  'LS Blekinge':'LS Blekinge', 'LS Dalarna':'LS Dalarna',
+  'LS Gotland':'LS Gotland', 'LS Gävleborg':'LS Gävleborg',
+  'LS Halland':'LS Halland', 'LS Jämtland':'LS Jämtland',
+  'LS Jönköping':'LS Jönköping', 'LS Kalmar':'LS Kalmar',
+  'LS Kronoberg':'LS Kronoberg', 'LS Norrbotten':'LS Norrbotten',
+  'LS Stockholm':'LS Stockholm', 'LS Södermanland':'LS Södermanland',
+  'LS Uppsala':'LS Uppsala', 'LS Värmland':'LS Värmland',
+  'LS Västmanland':'LS Västmanland', 'LS Örebro':'LS Örebro',
+  'LS Östergötland':'LS Östergötland',
+  EM:'Energimyndigheten', Ekocentrum:'Ekocentrum',
+  WSP:'WSP', MCF:'Miljöcenter Framtid',
+  RI:'Ragnar Itterström Institutet', LRF:'Lantbrukarnas Riksförbund',
+  KR:'Klimatriksdagen', SGI:'Statens geotek. inst.',
+  Ekologigruppen:'Ekologigruppen', KA:'Klimatanpassning',
+  HFH:'Holma Folkhögskola'
 };
 
 function buildSourceList() {
@@ -427,6 +459,34 @@ function buildSourceList() {
   });
 }
 
+function buildKBSourceList() {
+  const list = document.getElementById('kbSourceList');
+  list.innerHTML = '';
+  
+  // Lägg till "Alla" alternativet först
+  const allLabel = document.createElement('label');
+  allLabel.className = 'source-item';
+  allLabel.innerHTML = `
+    <input type="checkbox" ${activeKBSource === 'all' ? 'checked' : ''} value="all" onchange="selectKBSource(this)">
+    <span class="source-logo">ALL</span>
+    Alla källor`;
+  list.appendChild(allLabel);
+  
+  // Inkludera alla källor från kunskapsresurser
+  const allSources = [...new Set(allKB.map(r => r.source_name || r.source))].sort();
+  allSources.forEach(src => {
+    const count = allKB.filter(r => (r.source_name || r.source) === src).length;
+    const label = document.createElement('label');
+    label.className = 'source-item';
+    label.innerHTML = `
+      <input type="checkbox" ${activeKBSource === 'all' || activeKBSource === src ? 'checked' : ''} value="${src}" onchange="selectKBSource(this)">
+      <span class="source-logo">${src.substring(0,3).toUpperCase()}</span>
+      ${src}
+      <span style="margin-left:auto;font-size:.7rem;color:#9aaa98">${count}</span>`;
+    list.appendChild(label);
+  });
+}
+
 // ═══════════════════════════════════════════
 // TABS
 // ═══════════════════════════════════════════
@@ -440,7 +500,7 @@ function switchTab(name) {
 // ═══════════════════════════════════════════
 // CHIP HANDLERS
 // ═══════════════════════════════════════════
-let activeCat = 'all', activeTime = 'all', activeKBType = 'all', activeKBCat = 'all';
+let activeCat = 'all', activeTime = 'all', activeType = 'all', activeKBType = 'all', activeKBCat = 'all', activeKBSource = 'all';
 
 function selectCat(el, groupId) {
   document.querySelectorAll('#' + groupId + ' .chip').forEach(c => c.classList.remove('active'));
@@ -453,9 +513,26 @@ function selectTime(el) {
   document.querySelectorAll('#timeChips .chip').forEach(c => c.classList.remove('active'));
   el.classList.add('active'); activeTime = el.dataset.time; applyFilters();
 }
+function selectType(el) {
+  document.querySelectorAll('#typeChips .chip').forEach(c => c.classList.remove('active'));
+  el.classList.add('active'); activeType = el.dataset.type; applyFilters();
+}
 function selectKBType(el) {
   document.querySelectorAll('#kbTypeChips .chip').forEach(c => c.classList.remove('active'));
   el.classList.add('active'); activeKBType = el.dataset.kbtype; renderKB();
+}
+function selectKBSource(el) {
+  if (el.value === 'all') {
+    // Om "Alla" väljs, avmarkera alla andra
+    document.querySelectorAll('#kbSourceList input').forEach(c => c.checked = false);
+    el.checked = true;
+    activeKBSource = 'all';
+  } else {
+    // Om en specifik källa väljs, avmarkera "Alla"
+    document.querySelector('#kbSourceList input[value="all"]').checked = false;
+    activeKBSource = el.checked ? el.value : 'all';
+  }
+  renderKB();
 }
 
 // ═══════════════════════════════════════════
@@ -477,6 +554,12 @@ function applyFilters() {
   let f = allWebinars.filter(w => {
     if (srcs.length && !srcs.includes(w.source_id)) return false;
     if (activeCat !== 'all' && !(w.categories || []).includes(activeCat)) return false;
+    if (activeType !== 'all') {
+      const text = (w.title + ' ' + (w.description || '')).toLowerCase();
+      const isWebinar = /\b(webbinar|online|zoom|teams|digitalt|livestream)\b/i.test(text);
+      if (activeType === 'webinar' && !isWebinar) return false;
+      if (activeType === 'physical' && isWebinar) return false;
+    }
     if (activeTime !== 'all' && w.date_iso) {
       const wDate = new Date(w.date_iso + 'T00:00:00');
       const diff  = (wDate - today) / 86400000;
@@ -545,6 +628,7 @@ function renderKB() {
   let f = allKB.filter(r => {
     if (activeKBType !== 'all' && r.type !== activeKBType) return false;
     if (activeKBCat  !== 'all' && !(r.cats || []).includes(activeKBCat)) return false;
+    if (activeKBSource !== 'all' && (r.source_name || r.source) !== activeKBSource) return false;
     if (q && !r.title.toLowerCase().includes(q) && !(r.desc||'').toLowerCase().includes(q)) return false;
     return true;
   });
@@ -554,14 +638,15 @@ function renderKB() {
   if (!f.length) { cont.innerHTML = ''; empty.style.display = 'block'; return; }
   empty.style.display = 'none';
 
-  // Gruppera per source_name
-  const sources = [...new Set(f.map(r => r.source_name || r.source))];
-  cont.innerHTML = sources.map(src => {
-    const items = f.filter(r => (r.source_name || r.source) === src);
+  // Gruppera per kategori
+  const categories = [...new Set(f.flatMap(r => r.cats || []))].sort();
+  cont.innerHTML = categories.map(cat => {
+    const items = f.filter(r => (r.cats || []).includes(cat));
+    if (items.length === 0) return '';
     return `
     <div class="kb-section">
       <div class="kb-section-title">
-        ${src}
+        ${tl(cat)}
         <span class="src-badge">${items.length} resurser</span>
       </div>
       <div class="kb-grid">

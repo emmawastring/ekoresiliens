@@ -7,8 +7,12 @@ Körs av GitHub Actions dagligen, men kan också köras manuellt:
 
 import json
 import os
+import sys
 from datetime import datetime, timezone
 from pathlib import Path
+
+# Add parent directory to path for imports
+sys.path.insert(0, str(Path(__file__).parent.parent))
 
 from scrapers.slu import SLUScraper
 from scrapers.naturvardsverket import NaturvardsverketScraper
@@ -27,6 +31,22 @@ from scrapers.omstallningsfonden import OmstallningsfondenScraper
 from scrapers.nv_kalendarium import NVKalendariumScraper
 from scrapers.aktuell_hallbarhet import AktuellHallbarhetScraper
 from scrapers.slu_play import SLUPlayScraper
+from scrapers.treesforme import TreesForMeScraper
+from scrapers.svenskt_vatten import SvensktVattenScraper
+from scrapers.klimat2030 import Klimat2030Scraper
+from scrapers.business_biodiversity import BusinessBiodiversityScraper
+from scrapers.lansstyrelsen import LansstyrelseScraper
+from scrapers.energimyndigheten import EnergimyndighetenScraper
+from scrapers.ekocentrum import EkocentrumScraper
+from scrapers.wsp import WSPScraper
+from scrapers.mcf import MCFScraper
+from scrapers.ri import RIScraper
+from scrapers.lrf import LRFScraper
+from scrapers.klimatriksdagen import KlimatriksdagenScraper
+from scrapers.sgi import SGIScraper
+from scrapers.ekologigruppen import EkologigruppenScraper
+from scrapers.klimatanpassning import KlimatanpassningScraper
+from scrapers.holmafolkhogskola import HolmafolkhogskolaScraper
 
 SCRAPERS = [
     SLUScraper(),
@@ -46,6 +66,42 @@ SCRAPERS = [
     NVKalendariumScraper(),
     AktuellHallbarhetScraper(),
     SLUPlayScraper(),
+    TreesForMeScraper(),
+    SvensktVattenScraper(),
+    Klimat2030Scraper(),
+    BusinessBiodiversityScraper(),
+    # Länsstyrelsens kalendrar
+    LansstyrelseScraper("Skåne", "https://www.lansstyrelsen.se/skane/om-oss/kalender/kalenderhandelser---skane/"),
+    LansstyrelseScraper("Västra Götaland", "https://www.lansstyrelsen.se/vastra-gotaland/om-oss/kalender.html"),
+    LansstyrelseScraper("Blekinge", "https://www.lansstyrelsen.se/blekinge/om-oss/kalender.html"),
+    LansstyrelseScraper("Dalarna", "https://www.lansstyrelsen.se/dalarna/om-oss/kalender.html"),
+    LansstyrelseScraper("Gotland", "https://www.lansstyrelsen.se/gotland/om-oss/kalender.html"),
+    LansstyrelseScraper("Gävleborg", "https://www.lansstyrelsen.se/gavleborg/om-oss/kalender.html"),
+    LansstyrelseScraper("Halland", "https://www.lansstyrelsen.se/halland/om-oss/kalender.html"),
+    LansstyrelseScraper("Jämtland", "https://www.lansstyrelsen.se/jamtland/om-oss/kalender.html"),
+    LansstyrelseScraper("Jönköping", "https://www.lansstyrelsen.se/jonkoping/om-oss/kalender.html"),
+    LansstyrelseScraper("Kalmar", "https://www.lansstyrelsen.se/kalmar/om-oss/kalender.html"),
+    LansstyrelseScraper("Kronoberg", "https://www.lansstyrelsen.se/kronoberg/om-oss/kalender.html"),
+    LansstyrelseScraper("Norrbotten", "https://www.lansstyrelsen.se/norrbotten/om-oss/kalender.html"),
+    LansstyrelseScraper("Stockholm", "https://www.lansstyrelsen.se/stockholm/om-oss/kalender.html"),
+    LansstyrelseScraper("Södermanland", "https://www.lansstyrelsen.se/sodermanland/om-oss/kalender.html"),
+    LansstyrelseScraper("Uppsala", "https://www.lansstyrelsen.se/uppsala/om-oss/kalender.html"),
+    LansstyrelseScraper("Värmland", "https://www.lansstyrelsen.se/varmland/om-oss/kalender.html"),
+    LansstyrelseScraper("Västmanland", "https://www.lansstyrelsen.se/vastmanland/om-oss/kalender.html"),
+    LansstyrelseScraper("Örebro", "https://www.lansstyrelsen.se/orebro/om-oss/kalender.html"),
+    LansstyrelseScraper("Östergötland", "https://www.lansstyrelsen.se/ostergotland/om-oss/kalender.html"),
+    # Nya miljö- och hållbarkhetskällor
+    EnergimyndighetenScraper(),
+    EkocentrumScraper(),
+    WSPScraper(),
+    MCFScraper(),
+    RIScraper(),
+    LRFScraper(),
+    KlimatriksdagenScraper(),
+    SGIScraper(),
+    EkologigruppenScraper(),
+    KlimatanpassningScraper(),
+    HolmafolkhogskolaScraper(),
 ]
 
 OUTPUT_PATH = Path(__file__).parent.parent / "data" / "webinars.json"
