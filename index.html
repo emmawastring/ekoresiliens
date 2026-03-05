@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Ekoresiliens – Lär dig om hållbarhet & natur</title>
+<title>Ekoresiliens – Webbinarier & kunskapsresurser</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
 <style>
@@ -16,106 +16,107 @@
 html{scroll-behavior:smooth;}
 body{font-family:'DM Sans',sans-serif;background:var(--cream);color:var(--charcoal);min-height:100vh;}
 
-/* ── HEADER ── */
+/* HEADER */
 header{background:var(--charcoal);padding:0 2rem;display:flex;align-items:center;justify-content:space-between;height:68px;position:sticky;top:0;z-index:100;border-bottom:3px solid var(--fern);}
-.logo{font-family:'Playfair Display',serif;font-size:1.5rem;color:var(--sage);letter-spacing:.03em;display:flex;align-items:center;}
+.logo{font-family:'Playfair Display',serif;font-size:1.5rem;color:var(--sage);letter-spacing:.03em;}
 .logo span{color:var(--accent);font-style:italic;}
-.header-actions{display:flex;gap:12px;align-items:center;}
-.btn-primary{background:var(--fern);color:#fff;border:none;padding:10px 20px;border-radius:30px;font-family:'DM Sans',sans-serif;font-size:.9rem;font-weight:500;cursor:pointer;transition:background .2s;}
+.header-right{display:flex;align-items:center;gap:1rem;}
+.updated-info{font-size:.75rem;color:var(--sage);opacity:.7;}
+.btn-primary{background:var(--fern);color:#fff;border:none;padding:9px 18px;border-radius:30px;font-family:'DM Sans',sans-serif;font-size:.85rem;font-weight:500;cursor:pointer;transition:background .2s;text-decoration:none;display:inline-flex;align-items:center;gap:6px;}
 .btn-primary:hover{background:var(--moss);}
-.btn-ghost{background:transparent;color:var(--sage);border:1px solid var(--sage);padding:9px 18px;border-radius:30px;font-family:'DM Sans',sans-serif;font-size:.85rem;cursor:pointer;transition:all .2s;}
-.btn-ghost:hover{background:var(--sage);color:var(--charcoal);}
 
-/* ── HERO ── */
-.hero{background:var(--moss);background-image:radial-gradient(ellipse at 20% 50%,rgba(88,129,87,.6) 0%,transparent 60%),radial-gradient(ellipse at 80% 20%,rgba(163,184,153,.3) 0%,transparent 50%);padding:3.5rem 2rem 2.5rem;text-align:center;position:relative;overflow:hidden;}
+/* HERO */
+.hero{background:var(--moss);background-image:radial-gradient(ellipse at 20% 50%,rgba(88,129,87,.6) 0%,transparent 60%),radial-gradient(ellipse at 80% 20%,rgba(163,184,153,.3) 0%,transparent 50%);padding:3rem 2rem 2.5rem;text-align:center;position:relative;overflow:hidden;}
 .hero::before{content:'';position:absolute;inset:0;background-image:url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none'%3E%3Cg fill='%23a3b899' fill-opacity='0.08'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");opacity:.5;}
-.hero h1{font-family:'Playfair Display',serif;font-size:clamp(1.8rem,4vw,3rem);color:var(--parchment);line-height:1.2;margin-bottom:.8rem;position:relative;}
+.hero h1{font-family:'Playfair Display',serif;font-size:clamp(1.7rem,4vw,2.8rem);color:var(--parchment);line-height:1.2;margin-bottom:.7rem;position:relative;}
 .hero h1 em{color:var(--sage);font-style:italic;}
-.hero p{color:var(--mist);font-size:1rem;max-width:600px;margin:0 auto 1.5rem;font-weight:300;line-height:1.7;position:relative;}
-.stats-row{display:flex;gap:1.5rem;justify-content:center;flex-wrap:wrap;position:relative;}
-.stat{background:rgba(255,255,255,.08);border:1px solid rgba(163,184,153,.3);border-radius:12px;padding:.7rem 1.2rem;text-align:center;}
-.stat-num{font-family:'Playfair Display',serif;font-size:1.6rem;color:var(--sage);display:block;}
-.stat-label{font-size:.75rem;color:var(--mist);opacity:.8;}
+.hero p{color:var(--mist);font-size:.95rem;max-width:600px;margin:0 auto 1.5rem;font-weight:300;line-height:1.7;position:relative;}
+.stats-row{display:flex;gap:1.2rem;justify-content:center;flex-wrap:wrap;position:relative;}
+.stat{background:rgba(255,255,255,.08);border:1px solid rgba(163,184,153,.3);border-radius:12px;padding:.6rem 1rem;text-align:center;}
+.stat-num{font-family:'Playfair Display',serif;font-size:1.5rem;color:var(--sage);display:block;}
+.stat-label{font-size:.72rem;color:var(--mist);opacity:.8;}
 
-/* ── TABS ── */
+/* TABS */
 .tab-bar{background:var(--charcoal);border-bottom:1px solid rgba(163,184,153,.2);display:flex;padding:0 2rem;position:sticky;top:68px;z-index:99;overflow-x:auto;}
 .tab-btn{background:none;border:none;color:var(--sage);font-family:'DM Sans',sans-serif;font-size:.9rem;padding:0 1.4rem;height:48px;cursor:pointer;position:relative;display:flex;align-items:center;gap:7px;opacity:.6;transition:opacity .2s;white-space:nowrap;flex-shrink:0;}
 .tab-btn:hover{opacity:.9;}
 .tab-btn.active{color:#fff;opacity:1;}
 .tab-btn.active::after{content:'';position:absolute;bottom:0;left:0;right:0;height:3px;background:var(--fern);border-radius:3px 3px 0 0;}
-.tab-badge{background:var(--accent);color:#fff;font-size:.65rem;font-weight:700;padding:2px 6px;border-radius:10px;min-width:18px;text-align:center;}
 .tab-panel{display:none;}
 .tab-panel.active{display:block;}
 
-/* ── FILTER BAR (used on sparade + kb tabs) ── */
-.panel-filter-bar{background:#fff;border-bottom:1px solid var(--mist);padding:.8rem 2rem;display:flex;align-items:center;gap:1rem;flex-wrap:wrap;max-width:100%;position:sticky;top:116px;z-index:90;box-shadow:0 2px 8px rgba(58,90,64,.04);}
-.panel-filter-bar .filter-label{font-size:.75rem;font-weight:600;color:var(--bark);text-transform:uppercase;letter-spacing:.08em;white-space:nowrap;}
-.panel-filter-bar .chip-group{display:flex;flex-wrap:wrap;gap:5px;}
-.inline-search{padding:7px 12px 7px 32px;border:1.5px solid var(--mist);border-radius:9px;font-family:'DM Sans',sans-serif;font-size:.85rem;background:#fff url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 24 24' fill='none' stroke='%23588157' stroke-width='2'%3E%3Ccircle cx='11' cy='11' r='8'/%3E%3Cpath d='m21 21-4.35-4.35'/%3E%3C/svg%3E") no-repeat 9px center;color:var(--charcoal);min-width:200px;}
-.inline-search:focus{outline:none;border-color:var(--fern);}
-
-/* ── LAYOUT (webinars tab) ── */
-.main-wrap{max-width:1280px;margin:0 auto;padding:2rem;display:flex;gap:2rem;align-items:flex-start;}
-aside{width:260px;flex-shrink:0;position:sticky;top:130px;}
-.filter-card{background:#fff;border:1px solid var(--mist);border-radius:16px;padding:1.5rem;margin-bottom:1rem;box-shadow:0 2px 12px rgba(58,90,64,.06);}
-.filter-title{font-family:'Playfair Display',serif;font-size:1.05rem;color:var(--moss);margin-bottom:1rem;display:flex;align-items:center;gap:8px;}
-.search-box{width:100%;padding:10px 14px 10px 36px;border:1.5px solid var(--mist);border-radius:10px;font-family:'DM Sans',sans-serif;font-size:.9rem;background:var(--cream) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%23588157' stroke-width='2'%3E%3Ccircle cx='11' cy='11' r='8'/%3E%3Cpath d='m21 21-4.35-4.35'/%3E%3C/svg%3E") no-repeat 10px center;color:var(--charcoal);transition:border-color .2s;margin-bottom:.5rem;}
-.search-box:focus{outline:none;border-color:var(--fern);}
-.filter-group{margin-bottom:1.2rem;}
-.filter-group-label{font-size:.75rem;font-weight:500;color:var(--bark);text-transform:uppercase;letter-spacing:.08em;margin-bottom:.6rem;}
-.chip-group{display:flex;flex-wrap:wrap;gap:6px;}
-.chip{border:1.5px solid var(--mist);background:var(--cream);color:var(--charcoal);font-size:.78rem;padding:5px 11px;border-radius:20px;cursor:pointer;transition:all .15s;font-family:'DM Sans',sans-serif;white-space:nowrap;}
+/* FILTER BAR */
+.panel-filter-bar{background:#fff;border-bottom:1px solid var(--mist);padding:.7rem 2rem;display:flex;align-items:center;gap:.8rem;flex-wrap:wrap;position:sticky;top:116px;z-index:90;box-shadow:0 2px 8px rgba(58,90,64,.04);}
+.filter-label{font-size:.72rem;font-weight:600;color:var(--bark);text-transform:uppercase;letter-spacing:.08em;white-space:nowrap;flex-shrink:0;}
+.chip-row{display:flex;flex-wrap:wrap;gap:5px;}
+.chip{border:1.5px solid var(--mist);background:var(--cream);color:var(--charcoal);font-size:.76rem;padding:4px 10px;border-radius:20px;cursor:pointer;transition:all .15s;font-family:'DM Sans',sans-serif;white-space:nowrap;}
 .chip:hover{border-color:var(--fern);color:var(--fern);}
 .chip.active{background:var(--fern);color:#fff;border-color:var(--fern);}
-.chip-dot{width:8px;height:8px;border-radius:50%;display:inline-block;margin-right:5px;}
-.source-list{display:flex;flex-direction:column;gap:6px;}
-.source-item{display:flex;align-items:center;gap:8px;font-size:.85rem;cursor:pointer;padding:4px 0;color:var(--charcoal);}
-.source-item input[type=checkbox]{accent-color:var(--fern);width:15px;height:15px;}
-.source-logo{font-size:.7rem;font-weight:600;background:var(--mist);padding:2px 6px;border-radius:4px;color:var(--moss);white-space:nowrap;}
+.chip-dot{width:7px;height:7px;border-radius:50%;display:inline-block;margin-right:4px;}
+.inline-search{padding:6px 12px 6px 30px;border:1.5px solid var(--mist);border-radius:9px;font-family:'DM Sans',sans-serif;font-size:.84rem;background:#fff url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='13' height='13' viewBox='0 0 24 24' fill='none' stroke='%23588157' stroke-width='2'%3E%3Ccircle cx='11' cy='11' r='8'/%3E%3Cpath d='m21 21-4.35-4.35'/%3E%3C/svg%3E") no-repeat 9px center;color:var(--charcoal);min-width:180px;}
+.inline-search:focus{outline:none;border-color:var(--fern);}
 
-/* ── MAIN CONTENT ── */
+/* MAIN LAYOUT */
+.main-wrap{max-width:1280px;margin:0 auto;padding:2rem;display:flex;gap:2rem;align-items:flex-start;}
+aside{width:250px;flex-shrink:0;position:sticky;top:134px;}
+.filter-card{background:#fff;border:1px solid var(--mist);border-radius:16px;padding:1.4rem;margin-bottom:1rem;box-shadow:0 2px 12px rgba(58,90,64,.06);}
+.filter-title{font-family:'Playfair Display',serif;font-size:1rem;color:var(--moss);margin-bottom:.9rem;display:flex;align-items:center;gap:8px;}
+.search-box{width:100%;padding:9px 12px 9px 34px;border:1.5px solid var(--mist);border-radius:10px;font-family:'DM Sans',sans-serif;font-size:.87rem;background:var(--cream) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='15' height='15' viewBox='0 0 24 24' fill='none' stroke='%23588157' stroke-width='2'%3E%3Ccircle cx='11' cy='11' r='8'/%3E%3Cpath d='m21 21-4.35-4.35'/%3E%3C/svg%3E") no-repeat 10px center;color:var(--charcoal);transition:border-color .2s;margin-bottom:.5rem;}
+.search-box:focus{outline:none;border-color:var(--fern);}
+.filter-group{margin-bottom:1.1rem;}
+.filter-group-label{font-size:.72rem;font-weight:600;color:var(--bark);text-transform:uppercase;letter-spacing:.08em;margin-bottom:.5rem;}
+.chip-group{display:flex;flex-wrap:wrap;gap:5px;}
+.source-list{display:flex;flex-direction:column;gap:5px;}
+.source-item{display:flex;align-items:center;gap:7px;font-size:.83rem;cursor:pointer;padding:3px 0;color:var(--charcoal);}
+.source-item input[type=checkbox]{accent-color:var(--fern);width:14px;height:14px;}
+.source-logo{font-size:.68rem;font-weight:700;background:var(--mist);padding:2px 5px;border-radius:4px;color:var(--moss);white-space:nowrap;}
+
+/* CONTENT AREA */
 main{flex:1;min-width:0;}
-.toolbar{display:flex;align-items:center;justify-content:space-between;margin-bottom:1.5rem;flex-wrap:wrap;gap:1rem;}
-.result-count{font-size:.9rem;color:var(--bark);}
+.toolbar{display:flex;align-items:center;justify-content:space-between;margin-bottom:1.2rem;flex-wrap:wrap;gap:.8rem;}
+.result-count{font-size:.88rem;color:var(--bark);}
 .result-count strong{color:var(--charcoal);}
-.sort-select{border:1.5px solid var(--mist);background:#fff;padding:8px 12px;border-radius:10px;font-family:'DM Sans',sans-serif;font-size:.85rem;color:var(--charcoal);cursor:pointer;}
+.sort-select{border:1.5px solid var(--mist);background:#fff;padding:7px 11px;border-radius:9px;font-family:'DM Sans',sans-serif;font-size:.83rem;color:var(--charcoal);cursor:pointer;}
 .sort-select:focus{outline:none;border-color:var(--fern);}
 
-/* ── CARDS ── */
-.cards-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:1.2rem;}
-.card{background:#fff;border:1px solid var(--mist);border-radius:16px;overflow:hidden;box-shadow:0 2px 12px rgba(58,90,64,.05);transition:transform .2s,box-shadow .2s;display:flex;flex-direction:column;}
-.card:hover{transform:translateY(-3px);box-shadow:0 8px 28px rgba(58,90,64,.12);}
+/* LOADING / ERROR */
+.state-box{text-align:center;padding:4rem 2rem;color:#7a8f78;}
+.state-box .icon{font-size:2.8rem;margin-bottom:.8rem;}
+.state-box p{font-size:.9rem;line-height:1.6;}
+.state-box.error .icon::after{content:''}
+.spinner{width:36px;height:36px;border:3px solid var(--mist);border-top-color:var(--fern);border-radius:50%;animation:spin .8s linear infinite;margin:0 auto 1rem;}
+@keyframes spin{to{transform:rotate(360deg)}}
+.error-detail{font-size:.78rem;color:#b85c3a;margin-top:.5rem;background:#fff3ee;padding:.5rem .8rem;border-radius:8px;display:inline-block;}
+
+/* WEBINAR CARDS */
+.cards-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:1.1rem;}
+a.card{background:#fff;border:1px solid var(--mist);border-radius:16px;overflow:hidden;box-shadow:0 2px 12px rgba(58,90,64,.05);transition:transform .2s,box-shadow .2s;display:flex;flex-direction:column;text-decoration:none;color:inherit;cursor:pointer;}
+a.card:hover{transform:translateY(-3px);box-shadow:0 8px 28px rgba(58,90,64,.12);}
 .card-stripe{height:5px;}
-.card-body{padding:1.2rem;flex:1;display:flex;flex-direction:column;gap:.6rem;}
+.card-body{padding:1.1rem;flex:1;display:flex;flex-direction:column;gap:.5rem;}
 .card-meta{display:flex;align-items:center;justify-content:space-between;}
-.card-source{font-size:.72rem;font-weight:600;text-transform:uppercase;letter-spacing:.06em;color:var(--bark);background:var(--parchment);padding:3px 8px;border-radius:5px;}
-.card-meta-right{display:flex;align-items:center;gap:6px;}
-.card-free{font-size:.72rem;background:#e8f5e9;color:#2e7d32;padding:3px 8px;border-radius:5px;font-weight:600;}
-.save-btn{background:none;border:none;cursor:pointer;font-size:1.1rem;line-height:1;padding:2px 4px;opacity:.3;transition:opacity .15s,transform .15s;}
-.save-btn:hover{opacity:.8;transform:scale(1.2);}
-.save-btn.saved{opacity:1;filter:sepia(1) saturate(3) hue-rotate(-15deg);}
-.card-title{font-family:'Playfair Display',serif;font-size:1.05rem;line-height:1.35;color:var(--charcoal);}
-.card-desc{font-size:.83rem;color:#5a6a58;line-height:1.55;flex:1;}
-.card-tags{display:flex;flex-wrap:wrap;gap:5px;}
-.tag{font-size:.72rem;padding:3px 9px;border-radius:20px;font-weight:500;}
-.card-footer{padding:.8rem 1.2rem;background:var(--cream);border-top:1px solid var(--mist);display:flex;align-items:center;justify-content:space-between;}
-.card-date{font-size:.82rem;color:var(--moss);font-weight:500;display:flex;align-items:center;gap:5px;}
-.card-time{font-size:.78rem;color:#7a8f78;}
-.btn-register{font-size:.78rem;background:var(--moss);color:#fff;border:none;padding:6px 14px;border-radius:20px;cursor:pointer;font-family:'DM Sans',sans-serif;transition:background .2s;}
-.btn-register:hover{background:var(--fern);}
+.card-source{font-size:.7rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--bark);background:var(--parchment);padding:2px 7px;border-radius:4px;}
+.card-free{font-size:.7rem;background:#e8f5e9;color:#2e7d32;padding:2px 7px;border-radius:4px;font-weight:600;}
+.card-title{font-family:'Playfair Display',serif;font-size:1rem;line-height:1.35;color:var(--charcoal);}
+.card-desc{font-size:.8rem;color:#5a6a58;line-height:1.5;flex:1;}
+.card-tags{display:flex;flex-wrap:wrap;gap:4px;}
+.tag{font-size:.7rem;padding:2px 8px;border-radius:20px;font-weight:500;}
+.card-footer{padding:.7rem 1.1rem;background:var(--cream);border-top:1px solid var(--mist);display:flex;align-items:center;justify-content:space-between;}
+.card-date{font-size:.8rem;color:var(--moss);font-weight:500;}
+.card-time{font-size:.75rem;color:#7a8f78;}
+.card-link-hint{font-size:.75rem;color:var(--fern);font-weight:500;}
 
 /* Category colours */
-.cat-klimat   {background:#e8f4f0;color:#1b6b4e;}
-.cat-biodiv   {background:#e8f5e9;color:#2e7d32;}
-.cat-samhalle {background:#fff3e0;color:#e65100;}
-.cat-vatten   {background:#e3f2fd;color:#1565c0;}
-.cat-skog     {background:#f1f8e9;color:#33691e;}
-.cat-mat      {background:#fce4ec;color:#880e4f;}
-.cat-energi   {background:#fffde7;color:#f57f17;}
-.cat-policy   {background:#ede7f6;color:#4527a0;}
-.cat-agroforestry{background:#e6f3e6;color:#2d6a2d;}
+.cat-klimat       {background:#e8f4f0;color:#1b6b4e;}
+.cat-biodiv       {background:#e8f5e9;color:#2e7d32;}
+.cat-samhalle     {background:#fff3e0;color:#e65100;}
+.cat-vatten       {background:#e3f2fd;color:#1565c0;}
+.cat-skog         {background:#f1f8e9;color:#33691e;}
+.cat-mat          {background:#fce4ec;color:#880e4f;}
+.cat-energi       {background:#fffde7;color:#f57f17;}
+.cat-policy       {background:#ede7f6;color:#4527a0;}
+.cat-agroforestry {background:#e6f3e6;color:#2d6a2d;}
 .cat-skogstradgard{background:#d8eedb;color:#1a5c1a;}
-
 .stripe-klimat       {background:#1b6b4e;}
 .stripe-biodiv       {background:#2e7d32;}
 .stripe-samhalle     {background:#e65100;}
@@ -126,31 +127,18 @@ main{flex:1;min-width:0;}
 .stripe-policy       {background:#4527a0;}
 .stripe-agroforestry {background:#2d6a2d;}
 .stripe-skogstradgard{background:#1a5c1a;}
+.stripe-default      {background:var(--sage);}
 
-/* ── SAVED TAB ── */
-.saved-wrap{max-width:1280px;margin:0 auto;padding:2rem;}
-.saved-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:.3rem;flex-wrap:wrap;gap:1rem;}
-.saved-header h2{font-family:'Playfair Display',serif;font-size:1.5rem;color:var(--moss);}
-.saved-subtext{font-size:.85rem;color:#7a8f78;margin-bottom:1.5rem;}
-.btn-clear{background:none;border:1px solid #c9b8b8;color:#9e7272;padding:7px 14px;border-radius:20px;font-family:'DM Sans',sans-serif;font-size:.82rem;cursor:pointer;transition:all .15s;}
-.btn-clear:hover{background:#fdf0f0;border-color:#e57373;color:#c62828;}
-.empty-saved{text-align:center;padding:5rem 2rem;color:#7a8f78;}
-.empty-saved .icon{font-size:3.5rem;margin-bottom:1rem;}
-.empty-saved h3{font-family:'Playfair Display',serif;font-size:1.3rem;color:var(--bark);margin-bottom:.5rem;}
-.empty-saved p{font-size:.9rem;line-height:1.6;}
-.goto-link{display:inline-block;margin-top:1rem;background:var(--fern);color:#fff;border:none;padding:10px 22px;border-radius:30px;font-family:'DM Sans',sans-serif;font-size:.9rem;cursor:pointer;transition:background .2s;}
-.goto-link:hover{background:var(--moss);}
-
-/* ── KNOWLEDGE BANK TAB ── */
+/* KB TAB */
 .kb-wrap{max-width:1280px;margin:0 auto;padding:2rem;}
 .kb-section{margin-bottom:2.5rem;}
-.kb-section-title{font-family:'Playfair Display',serif;font-size:1.2rem;color:var(--charcoal);margin-bottom:1rem;display:flex;align-items:center;gap:10px;border-bottom:2px solid var(--mist);padding-bottom:.6rem;}
-.src-badge{font-family:'DM Sans',sans-serif;font-size:.75rem;background:var(--mist);color:var(--moss);padding:3px 10px;border-radius:20px;font-weight:600;}
-.kb-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem;}
-.kb-card{background:#fff;border:1px solid var(--mist);border-radius:14px;padding:1.2rem;box-shadow:0 2px 10px rgba(58,90,64,.04);transition:transform .15s,box-shadow .15s;display:flex;flex-direction:column;gap:.6rem;}
+.kb-section-title{font-family:'Playfair Display',serif;font-size:1.15rem;color:var(--charcoal);margin-bottom:.9rem;display:flex;align-items:center;gap:10px;border-bottom:2px solid var(--mist);padding-bottom:.5rem;}
+.src-badge{font-family:'DM Sans',sans-serif;font-size:.72rem;background:var(--mist);color:var(--moss);padding:2px 9px;border-radius:20px;font-weight:600;}
+.kb-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:.9rem;}
+.kb-card{background:#fff;border:1px solid var(--mist);border-radius:14px;padding:1.1rem;box-shadow:0 2px 10px rgba(58,90,64,.04);transition:transform .15s,box-shadow .15s;display:flex;flex-direction:column;gap:.5rem;text-decoration:none;color:inherit;cursor:pointer;}
 .kb-card:hover{transform:translateY(-2px);box-shadow:0 6px 20px rgba(58,90,64,.1);}
-.kb-card-top{display:flex;align-items:flex-start;justify-content:space-between;gap:.5rem;}
-.kb-type-badge{font-size:.7rem;font-weight:700;text-transform:uppercase;letter-spacing:.07em;padding:3px 9px;border-radius:20px;white-space:nowrap;flex-shrink:0;}
+.kb-card-top{display:flex;align-items:flex-start;justify-content:space-between;gap:.4rem;}
+.kb-type-badge{font-size:.68rem;font-weight:700;text-transform:uppercase;letter-spacing:.07em;padding:2px 8px;border-radius:20px;white-space:nowrap;flex-shrink:0;}
 .type-databas{background:#e3f2fd;color:#1565c0;}
 .type-verktyg{background:#e8f5e9;color:#2e7d32;}
 .type-rapport{background:#fff3e0;color:#e65100;}
@@ -158,58 +146,24 @@ main{flex:1;min-width:0;}
 .type-guide  {background:#e0f7fa;color:#006064;}
 .type-portal {background:#fce4ec;color:#880e4f;}
 .type-natverk{background:#f9fbe7;color:#558b2f;}
-.kb-icon{font-size:1.4rem;flex-shrink:0;}
-.kb-title{font-family:'Playfair Display',serif;font-size:.98rem;line-height:1.35;color:var(--charcoal);}
-.kb-desc{font-size:.81rem;color:#5a6a58;line-height:1.5;flex:1;}
-.kb-tags{display:flex;flex-wrap:wrap;gap:4px;}
-.kb-footer{display:flex;align-items:center;justify-content:space-between;margin-top:.3rem;}
-.kb-source-small{font-size:.72rem;color:var(--bark);background:var(--parchment);padding:2px 7px;border-radius:4px;font-weight:600;}
-.btn-visit{font-size:.75rem;background:var(--moss);color:#fff;border:none;padding:5px 12px;border-radius:14px;cursor:pointer;font-family:'DM Sans',sans-serif;transition:background .2s;text-decoration:none;display:inline-block;}
-.btn-visit:hover{background:var(--fern);}
+.kb-icon{font-size:1.3rem;flex-shrink:0;}
+.kb-title{font-family:'Playfair Display',serif;font-size:.95rem;line-height:1.3;color:var(--charcoal);}
+.kb-desc{font-size:.79rem;color:#5a6a58;line-height:1.5;flex:1;}
+.kb-tags{display:flex;flex-wrap:wrap;gap:3px;}
+.kb-footer{display:flex;align-items:center;justify-content:space-between;margin-top:.2rem;}
+.kb-source-small{font-size:.7rem;color:var(--bark);background:var(--parchment);padding:2px 6px;border-radius:4px;font-weight:600;}
+.kb-link-hint{font-size:.72rem;color:var(--fern);font-weight:500;}
 
-/* ── ACTIVE FILTER SUMMARY ── */
-.active-filters{display:flex;align-items:center;gap:.5rem;flex-wrap:wrap;}
-.active-filter-pill{font-size:.75rem;background:rgba(88,129,87,.12);color:var(--moss);border:1px solid rgba(88,129,87,.3);padding:3px 10px;border-radius:20px;display:flex;align-items:center;gap:5px;}
-.active-filter-pill button{background:none;border:none;cursor:pointer;font-size:.8rem;color:var(--moss);padding:0;line-height:1;}
-
-/* ── EMPTY ── */
-.empty-state{text-align:center;padding:4rem 2rem;color:#7a8f78;}
-.empty-state .icon{font-size:3rem;margin-bottom:1rem;}
-.empty-state p{font-size:.95rem;}
-
-/* ── MODAL ── */
-.modal-overlay{display:none;position:fixed;inset:0;background:rgba(30,42,30,.65);backdrop-filter:blur(4px);z-index:200;align-items:center;justify-content:center;}
-.modal-overlay.open{display:flex;}
-.modal{background:#fff;border-radius:20px;max-width:520px;width:90%;padding:2.5rem;position:relative;box-shadow:0 24px 60px rgba(30,42,30,.3);animation:slideUp .3s ease;}
-@keyframes slideUp{from{opacity:0;transform:translateY(30px)}to{opacity:1;transform:translateY(0)}}
-.modal-close{position:absolute;top:1.2rem;right:1.2rem;background:var(--mist);border:none;width:32px;height:32px;border-radius:50%;cursor:pointer;font-size:1rem;color:var(--charcoal);display:flex;align-items:center;justify-content:center;}
-.modal h2{font-family:'Playfair Display',serif;font-size:1.6rem;color:var(--moss);margin-bottom:.5rem;}
-.modal .sub-desc{font-size:.9rem;color:#5a6a58;margin-bottom:1.5rem;line-height:1.6;}
-.filter-summary{background:var(--cream);border:1px dashed var(--clay);border-radius:10px;padding:.8rem 1rem;font-size:.82rem;color:var(--bark);margin-bottom:1.5rem;line-height:1.7;}
-.filter-summary strong{color:var(--moss);}
-.form-field{margin-bottom:1rem;}
-.form-label{display:block;font-size:.82rem;font-weight:500;color:var(--charcoal);margin-bottom:6px;}
-.form-input{width:100%;padding:11px 14px;border:1.5px solid var(--mist);border-radius:10px;font-family:'DM Sans',sans-serif;font-size:.9rem;color:var(--charcoal);transition:border-color .2s;}
-.form-input:focus{outline:none;border-color:var(--fern);}
-.freq-group{display:flex;gap:10px;}
-.freq-btn{flex:1;padding:9px;border:1.5px solid var(--mist);background:var(--cream);border-radius:10px;cursor:pointer;font-family:'DM Sans',sans-serif;font-size:.85rem;color:var(--charcoal);transition:all .15s;}
-.freq-btn.active{border-color:var(--fern);background:#e8f4ec;color:var(--moss);font-weight:500;}
-.modal-submit{width:100%;background:var(--fern);color:#fff;border:none;padding:13px;border-radius:12px;font-family:'DM Sans',sans-serif;font-size:1rem;font-weight:500;cursor:pointer;margin-top:.5rem;transition:background .2s;}
-.modal-submit:hover{background:var(--moss);}
-.success-msg{text-align:center;padding:1rem 0;display:none;}
-.success-msg .check{font-size:3rem;margin-bottom:.5rem;}
-.success-msg h3{font-family:'Playfair Display',serif;color:var(--moss);font-size:1.4rem;margin-bottom:.5rem;}
-.success-msg p{font-size:.9rem;color:#5a6a58;}
-
-footer{background:var(--charcoal);color:var(--sage);text-align:center;padding:2rem;font-size:.82rem;margin-top:4rem;}
+footer{background:var(--charcoal);color:var(--sage);text-align:center;padding:1.5rem 2rem;font-size:.8rem;margin-top:4rem;line-height:1.8;}
 footer a{color:var(--clay);text-decoration:none;}
+footer a:hover{text-decoration:underline;}
 
 @media(max-width:768px){
   .main-wrap{flex-direction:column;padding:1rem;}
   aside{width:100%;position:static;}
-  .hero{padding:2.5rem 1.2rem 2rem;}
+  .hero{padding:2rem 1rem 1.8rem;}
   .tab-btn{padding:0 .8rem;font-size:.82rem;}
-  .panel-filter-bar{top:116px;}
+  .panel-filter-bar{top:116px;padding:.6rem 1rem;}
 }
 </style>
 </head>
@@ -217,53 +171,55 @@ footer a{color:var(--clay);text-decoration:none;}
 
 <header>
   <div class="logo">🌿 Eko<span>resiliens</span></div>
-  <div class="header-actions">
-    <button class="btn-primary" onclick="switchTab('webbinarier')">Sök webbinarier</button>
+  <div class="header-right">
+    <span class="updated-info" id="updatedInfo"></span>
+    <a class="btn-primary" href="https://github.com/emmawastring/ekoresiliens" target="_blank" rel="noopener">GitHub ↗</a>
   </div>
 </header>
 
 <div class="hero">
   <h1>Gratis webbinarier om<br><em>hållbarhet & natur</em></h1>
-  <p>Samlar öppna webbinarier, kunskapsresurser och verktyg om klimat, biologisk mångfald, agroforestry, skogsträdgårdar och samhällsutveckling – från SLU, Naturvårdsverket, Resurscentrum och fler.</p>
+  <p>Samlar kommande webbinarier, kunskapsresurser och verktyg om klimat, biologisk mångfald, agroforestry och skogsträdgårdar – automatiskt uppdaterat varje dag.</p>
   <div class="stats-row">
-    <div class="stat"><span class="stat-num" id="totalCount">—</span><span class="stat-label">Kommande webbinarier</span></div>
-    <div class="stat"><span class="stat-num">12</span><span class="stat-label">Källor</span></div>
-    <div class="stat"><span class="stat-num" id="kbCount">—</span><span class="stat-label">Kunskapsresurser</span></div>
+    <div class="stat"><span class="stat-num" id="statWebinars">—</span><span class="stat-label">Kommande webbinarier</span></div>
+    <div class="stat"><span class="stat-num" id="statSources">—</span><span class="stat-label">Källor</span></div>
+    <div class="stat"><span class="stat-num" id="statKB">—</span><span class="stat-label">Kunskapsresurser</span></div>
     <div class="stat"><span class="stat-num">Gratis</span><span class="stat-label">Alltid kostnadsfritt</span></div>
   </div>
 </div>
 
 <div class="tab-bar">
   <button class="tab-btn active" id="tab-webbinarier" onclick="switchTab('webbinarier')">📅 Webbinarier</button>
-  <button class="tab-btn" id="tab-sparade" onclick="switchTab('sparade')">🔖 Sparade <span class="tab-badge" id="savedBadge" style="display:none">0</span></button>
   <button class="tab-btn" id="tab-kunskapsbank" onclick="switchTab('kunskapsbank')">📚 Kunskapsbanker &amp; Verktyg</button>
 </div>
 
-<!-- ══════════════════════════════════════════ -->
-<!-- TAB 1 – WEBBINARIER                        -->
-<!-- ══════════════════════════════════════════ -->
+<!-- ════════════════════════════════════ -->
+<!-- TAB 1 – WEBBINARIER                 -->
+<!-- ════════════════════════════════════ -->
 <div class="tab-panel active" id="panel-webbinarier">
   <div class="main-wrap">
     <aside>
       <div class="filter-card">
         <div class="filter-title">🔍 Sök &amp; Filtrera</div>
         <input class="search-box" type="text" placeholder="Sök titel, ämne..." id="searchInput" oninput="applyFilters()">
+
         <div class="filter-group">
           <div class="filter-group-label">Kategorier</div>
           <div class="chip-group" id="catChips">
             <div class="chip active" data-cat="all" onclick="selectCat(this,'catChips')">Alla</div>
-            <div class="chip" data-cat="klimat"         onclick="selectCat(this,'catChips')"><span class="chip-dot" style="background:#1b6b4e"></span>Klimat</div>
-            <div class="chip" data-cat="biodiv"         onclick="selectCat(this,'catChips')"><span class="chip-dot" style="background:#2e7d32"></span>Biologisk mångfald</div>
-            <div class="chip" data-cat="samhalle"       onclick="selectCat(this,'catChips')"><span class="chip-dot" style="background:#e65100"></span>Samhällsutveckling</div>
-            <div class="chip" data-cat="vatten"         onclick="selectCat(this,'catChips')"><span class="chip-dot" style="background:#1565c0"></span>Vatten</div>
-            <div class="chip" data-cat="skog"           onclick="selectCat(this,'catChips')"><span class="chip-dot" style="background:#33691e"></span>Skog &amp; Mark</div>
-            <div class="chip" data-cat="mat"            onclick="selectCat(this,'catChips')"><span class="chip-dot" style="background:#880e4f"></span>Mat &amp; Jordbruk</div>
-            <div class="chip" data-cat="energi"         onclick="selectCat(this,'catChips')"><span class="chip-dot" style="background:#f57f17"></span>Energi</div>
-            <div class="chip" data-cat="policy"         onclick="selectCat(this,'catChips')"><span class="chip-dot" style="background:#4527a0"></span>Policy</div>
-            <div class="chip" data-cat="agroforestry"   onclick="selectCat(this,'catChips')"><span class="chip-dot" style="background:#2d6a2d"></span>Agroforestry</div>
-            <div class="chip" data-cat="skogstradgard"  onclick="selectCat(this,'catChips')"><span class="chip-dot" style="background:#1a5c1a"></span>Skogsträdgård</div>
+            <div class="chip" data-cat="klimat"        onclick="selectCat(this,'catChips')"><span class="chip-dot" style="background:#1b6b4e"></span>Klimat</div>
+            <div class="chip" data-cat="biodiv"        onclick="selectCat(this,'catChips')"><span class="chip-dot" style="background:#2e7d32"></span>Biologisk mångfald</div>
+            <div class="chip" data-cat="samhalle"      onclick="selectCat(this,'catChips')"><span class="chip-dot" style="background:#e65100"></span>Samhälle</div>
+            <div class="chip" data-cat="vatten"        onclick="selectCat(this,'catChips')"><span class="chip-dot" style="background:#1565c0"></span>Vatten</div>
+            <div class="chip" data-cat="skog"          onclick="selectCat(this,'catChips')"><span class="chip-dot" style="background:#33691e"></span>Skog</div>
+            <div class="chip" data-cat="mat"           onclick="selectCat(this,'catChips')"><span class="chip-dot" style="background:#880e4f"></span>Mat &amp; Jordbruk</div>
+            <div class="chip" data-cat="energi"        onclick="selectCat(this,'catChips')"><span class="chip-dot" style="background:#f57f17"></span>Energi</div>
+            <div class="chip" data-cat="policy"        onclick="selectCat(this,'catChips')"><span class="chip-dot" style="background:#4527a0"></span>Policy</div>
+            <div class="chip" data-cat="agroforestry"  onclick="selectCat(this,'catChips')"><span class="chip-dot" style="background:#2d6a2d"></span>Agroforestry</div>
+            <div class="chip" data-cat="skogstradgard" onclick="selectCat(this,'catChips')"><span class="chip-dot" style="background:#1a5c1a"></span>Skogsträdgård</div>
           </div>
         </div>
+
         <div class="filter-group">
           <div class="filter-group-label">Tidpunkt</div>
           <div class="chip-group" id="timeChips">
@@ -273,24 +229,16 @@ footer a{color:var(--clay);text-decoration:none;}
             <div class="chip" data-time="next"         onclick="selectTime(this)">Nästa månad</div>
           </div>
         </div>
+
         <div class="filter-group">
-          <div class="filter-group-label">Källorganisation</div>
+          <div class="filter-group-label">Källa</div>
           <div class="source-list" id="sourceList">
-            <label class="source-item"><input type="checkbox" checked value="SLU"  onchange="applyFilters()"><span class="source-logo">SLU</span> Sveriges lantbruksuniv.</label>
-            <label class="source-item"><input type="checkbox" checked value="NV"   onchange="applyFilters()"><span class="source-logo">NV</span> Naturvårdsverket</label>
-            <label class="source-item"><input type="checkbox" checked value="SVA"  onchange="applyFilters()"><span class="source-logo">SVA</span> Vetenskap &amp; Allmänhet</label>
-            <label class="source-item"><input type="checkbox" checked value="SKS"  onchange="applyFilters()"><span class="source-logo">SKS</span> Skogsstyrelsen</label>
-            <label class="source-item"><input type="checkbox" checked value="RC"   onchange="applyFilters()"><span class="source-logo">RC</span> Resurscentrum</label>
-            <label class="source-item"><input type="checkbox" checked value="HaV"  onchange="applyFilters()"><span class="source-logo">HaV</span> Havs- &amp; vattenmyndigh.</label>
-            <label class="source-item"><input type="checkbox" checked value="SMHI" onchange="applyFilters()"><span class="source-logo">SMHI</span> SMHI</label>
-            <label class="source-item"><input type="checkbox" checked value="AF"   onchange="applyFilters()"><span class="source-logo">AF</span> Agroforestry Sverige</label>
-            <label class="source-item"><input type="checkbox" checked value="PF"   onchange="applyFilters()"><span class="source-logo">PF</span> Permakultur Sverige</label>
-            <label class="source-item"><input type="checkbox" checked value="RB"   onchange="applyFilters()"><span class="source-logo">RB</span> Region &amp; Bostäder</label>
+            <!-- Genereras dynamiskt från data -->
           </div>
         </div>
       </div>
-      <button class="btn-primary" style="width:100%;padding:12px" onclick="openModal()">🔔 Prenumerera på denna sökning</button>
     </aside>
+
     <main>
       <div class="toolbar">
         <div class="result-count">Visar <strong id="visibleCount">—</strong> webbinarier</div>
@@ -300,367 +248,341 @@ footer a{color:var(--clay);text-decoration:none;}
           <option value="title">Sortera: Titel A–Ö</option>
         </select>
       </div>
-      <div class="cards-grid" id="cardsGrid"></div>
-      <div class="empty-state" id="emptyState" style="display:none"><div class="icon">🌱</div><p>Inga webbinarier matchar sökningen.<br>Prova att justera filtren!</p></div>
+      <div id="webinarsLoading" class="state-box">
+        <div class="spinner"></div>
+        <p>Hämtar kommande webbinarier…</p>
+      </div>
+      <div class="cards-grid" id="cardsGrid" style="display:none"></div>
+      <div class="state-box" id="emptyState" style="display:none">
+        <div class="icon">🌱</div>
+        <p>Inga webbinarier matchar sökningen.<br>Prova att justera filtren!</p>
+      </div>
     </main>
   </div>
 </div>
 
-<!-- ══════════════════════════════════════════ -->
-<!-- TAB 2 – SPARADE                            -->
-<!-- ══════════════════════════════════════════ -->
-<div class="tab-panel" id="panel-sparade">
-  <div class="panel-filter-bar">
-    <span class="filter-label">Filtrera sparade:</span>
-    <div class="chip-group" id="savedCatChips">
-      <div class="chip active" data-cat="all" onclick="selectCat(this,'savedCatChips')">Alla</div>
-      <div class="chip" data-cat="klimat"        onclick="selectCat(this,'savedCatChips')"><span class="chip-dot" style="background:#1b6b4e"></span>Klimat</div>
-      <div class="chip" data-cat="biodiv"        onclick="selectCat(this,'savedCatChips')"><span class="chip-dot" style="background:#2e7d32"></span>Biologisk mångfald</div>
-      <div class="chip" data-cat="samhalle"      onclick="selectCat(this,'savedCatChips')"><span class="chip-dot" style="background:#e65100"></span>Samhälle</div>
-      <div class="chip" data-cat="vatten"        onclick="selectCat(this,'savedCatChips')"><span class="chip-dot" style="background:#1565c0"></span>Vatten</div>
-      <div class="chip" data-cat="skog"          onclick="selectCat(this,'savedCatChips')"><span class="chip-dot" style="background:#33691e"></span>Skog</div>
-      <div class="chip" data-cat="mat"           onclick="selectCat(this,'savedCatChips')"><span class="chip-dot" style="background:#880e4f"></span>Mat &amp; Jordbruk</div>
-      <div class="chip" data-cat="energi"        onclick="selectCat(this,'savedCatChips')"><span class="chip-dot" style="background:#f57f17"></span>Energi</div>
-      <div class="chip" data-cat="policy"        onclick="selectCat(this,'savedCatChips')"><span class="chip-dot" style="background:#4527a0"></span>Policy</div>
-      <div class="chip" data-cat="agroforestry"  onclick="selectCat(this,'savedCatChips')"><span class="chip-dot" style="background:#2d6a2d"></span>Agroforestry</div>
-      <div class="chip" data-cat="skogstradgard" onclick="selectCat(this,'savedCatChips')"><span class="chip-dot" style="background:#1a5c1a"></span>Skogsträdgård</div>
-    </div>
-    <input class="inline-search" type="text" placeholder="Sök bland sparade..." id="savedSearch" oninput="renderSaved()">
-    <button class="btn-clear" onclick="clearAllSaved()">Rensa alla</button>
-  </div>
-  <div class="saved-wrap">
-    <div class="saved-header">
-      <h2>🔖 Sparade webbinarier</h2>
-    </div>
-    <p class="saved-subtext">Klicka på 🔖 på ett webbinarium för att spara det här.</p>
-    <div class="cards-grid" id="savedGrid"></div>
-    <div class="empty-saved" id="emptySaved">
-      <div class="icon">🔖</div>
-      <h3>Inga sparade webbinarier än</h3>
-      <p>Bläddra bland kommande webbinarier och spara de som intresserar dig.</p>
-      <button class="goto-link" onclick="switchTab('webbinarier')">Bläddra webbinarier →</button>
-    </div>
-  </div>
-</div>
-
-<!-- ══════════════════════════════════════════ -->
-<!-- TAB 3 – KUNSKAPSBANKER & VERKTYG           -->
-<!-- ══════════════════════════════════════════ -->
+<!-- ════════════════════════════════════ -->
+<!-- TAB 2 – KUNSKAPSBANKER & VERKTYG    -->
+<!-- ════════════════════════════════════ -->
 <div class="tab-panel" id="panel-kunskapsbank">
   <div class="panel-filter-bar">
     <span class="filter-label">Typ:</span>
-    <div class="chip-group" id="kbTypeChips">
-      <div class="chip active" data-kbtype="all"     onclick="selectKBType(this)">Alla</div>
-      <div class="chip" data-kbtype="databas"        onclick="selectKBType(this)">Databas</div>
-      <div class="chip" data-kbtype="verktyg"        onclick="selectKBType(this)">Verktyg</div>
-      <div class="chip" data-kbtype="karta"          onclick="selectKBType(this)">Karta</div>
-      <div class="chip" data-kbtype="rapport"        onclick="selectKBType(this)">Rapport</div>
-      <div class="chip" data-kbtype="guide"          onclick="selectKBType(this)">Guide</div>
-      <div class="chip" data-kbtype="portal"         onclick="selectKBType(this)">Portal</div>
-      <div class="chip" data-kbtype="natverk"        onclick="selectKBType(this)">Nätverk</div>
+    <div class="chip-row" id="kbTypeChips">
+      <div class="chip active" data-kbtype="all"    onclick="selectKBType(this)">Alla</div>
+      <div class="chip" data-kbtype="databas"       onclick="selectKBType(this)">Databas</div>
+      <div class="chip" data-kbtype="verktyg"       onclick="selectKBType(this)">Verktyg</div>
+      <div class="chip" data-kbtype="karta"         onclick="selectKBType(this)">Karta</div>
+      <div class="chip" data-kbtype="rapport"       onclick="selectKBType(this)">Rapport</div>
+      <div class="chip" data-kbtype="guide"         onclick="selectKBType(this)">Guide</div>
+      <div class="chip" data-kbtype="portal"        onclick="selectKBType(this)">Portal</div>
+      <div class="chip" data-kbtype="natverk"       onclick="selectKBType(this)">Nätverk</div>
     </div>
-    <span class="filter-label" style="margin-left:.5rem">Kategori:</span>
-    <div class="chip-group" id="kbCatChips">
-      <div class="chip active" data-cat="all"            onclick="selectCat(this,'kbCatChips')">Alla</div>
-      <div class="chip" data-cat="klimat"                onclick="selectCat(this,'kbCatChips')"><span class="chip-dot" style="background:#1b6b4e"></span>Klimat</div>
-      <div class="chip" data-cat="biodiv"                onclick="selectCat(this,'kbCatChips')"><span class="chip-dot" style="background:#2e7d32"></span>Biologisk mångfald</div>
-      <div class="chip" data-cat="skog"                  onclick="selectCat(this,'kbCatChips')"><span class="chip-dot" style="background:#33691e"></span>Skog</div>
-      <div class="chip" data-cat="vatten"                onclick="selectCat(this,'kbCatChips')"><span class="chip-dot" style="background:#1565c0"></span>Vatten</div>
-      <div class="chip" data-cat="mat"                   onclick="selectCat(this,'kbCatChips')"><span class="chip-dot" style="background:#880e4f"></span>Mat &amp; Jordbruk</div>
-      <div class="chip" data-cat="samhalle"              onclick="selectCat(this,'kbCatChips')"><span class="chip-dot" style="background:#e65100"></span>Samhälle</div>
-      <div class="chip" data-cat="policy"                onclick="selectCat(this,'kbCatChips')"><span class="chip-dot" style="background:#4527a0"></span>Policy</div>
-      <div class="chip" data-cat="agroforestry"          onclick="selectCat(this,'kbCatChips')"><span class="chip-dot" style="background:#2d6a2d"></span>Agroforestry</div>
-      <div class="chip" data-cat="skogstradgard"         onclick="selectCat(this,'kbCatChips')"><span class="chip-dot" style="background:#1a5c1a"></span>Skogsträdgård</div>
+    <span class="filter-label">Kategori:</span>
+    <div class="chip-row" id="kbCatChips">
+      <div class="chip active" data-cat="all"           onclick="selectCat(this,'kbCatChips')">Alla</div>
+      <div class="chip" data-cat="klimat"               onclick="selectCat(this,'kbCatChips')"><span class="chip-dot" style="background:#1b6b4e"></span>Klimat</div>
+      <div class="chip" data-cat="biodiv"               onclick="selectCat(this,'kbCatChips')"><span class="chip-dot" style="background:#2e7d32"></span>Biologisk mångfald</div>
+      <div class="chip" data-cat="skog"                 onclick="selectCat(this,'kbCatChips')"><span class="chip-dot" style="background:#33691e"></span>Skog</div>
+      <div class="chip" data-cat="vatten"               onclick="selectCat(this,'kbCatChips')"><span class="chip-dot" style="background:#1565c0"></span>Vatten</div>
+      <div class="chip" data-cat="mat"                  onclick="selectCat(this,'kbCatChips')"><span class="chip-dot" style="background:#880e4f"></span>Mat &amp; Jordbruk</div>
+      <div class="chip" data-cat="samhalle"             onclick="selectCat(this,'kbCatChips')"><span class="chip-dot" style="background:#e65100"></span>Samhälle</div>
+      <div class="chip" data-cat="policy"               onclick="selectCat(this,'kbCatChips')"><span class="chip-dot" style="background:#4527a0"></span>Policy</div>
+      <div class="chip" data-cat="agroforestry"         onclick="selectCat(this,'kbCatChips')"><span class="chip-dot" style="background:#2d6a2d"></span>Agroforestry</div>
+      <div class="chip" data-cat="skogstradgard"        onclick="selectCat(this,'kbCatChips')"><span class="chip-dot" style="background:#1a5c1a"></span>Skogsträdgård</div>
     </div>
     <input class="inline-search" type="text" placeholder="Sök resurser..." id="kbSearch" oninput="renderKB()">
   </div>
   <div class="kb-wrap">
-    <div id="kbContent"></div>
-    <div class="empty-state" id="kbEmpty" style="display:none"><div class="icon">📚</div><p>Inga resurser matchar sökningen.</p></div>
-  </div>
-</div>
-
-<!-- MODAL -->
-<div class="modal-overlay" id="modalOverlay" onclick="handleOverlayClick(event)">
-  <div class="modal">
-    <button class="modal-close" onclick="closeModal()">✕</button>
-    <div id="formContent">
-      <h2>🔔 Prenumerera</h2>
-      <p class="sub-desc">Få en sammanfattning med alla nya webbinarier som matchar din nuvarande sökning – direkt i inkorgen.</p>
-      <div class="filter-summary" id="filterSummary"></div>
-      <div class="form-field">
-        <label class="form-label">Din e-postadress</label>
-        <input class="form-input" type="email" placeholder="namn@exempel.se" id="emailInput">
-      </div>
-      <div class="form-field">
-        <label class="form-label">Hur ofta vill du ha utskick?</label>
-        <div class="freq-group">
-          <button class="freq-btn active" onclick="selectFreq(this)">Direkt</button>
-          <button class="freq-btn" onclick="selectFreq(this)">Dagligen</button>
-          <button class="freq-btn" onclick="selectFreq(this)">Veckovis</button>
-        </div>
-      </div>
-      <button class="modal-submit" onclick="handleSubscribe()">✅ Aktivera prenumeration</button>
+    <div id="kbLoading" class="state-box">
+      <div class="spinner"></div>
+      <p>Hämtar kunskapsresurser…</p>
     </div>
-    <div class="success-msg" id="successMsg">
-      <div class="check">🌿</div>
-      <h3>Prenumeration aktiverad!</h3>
-      <p>Du får ett bekräftelsemejl inom kort.<br>Vi hör av oss när nya webbinarier dyker upp!</p>
+    <div id="kbContent"></div>
+    <div class="state-box" id="kbEmpty" style="display:none">
+      <div class="icon">📚</div>
+      <p>Inga resurser matchar sökningen.</p>
     </div>
   </div>
 </div>
 
 <footer>
-  <p>Ekoresiliens är en oberoende samlingstjänst för gröna Webbinarier och andra gröna kunskapsresurser. <br> Skapad av Emma Wastring. &nbsp;|&nbsp; Källdata från respektive organisation. &nbsp;|&nbsp; <a href="#">Om tjänsten</a> &nbsp;|&nbsp; <a href="#">Föreslå källa</a></p>
-  <p style="margin-top:.5rem;opacity:.5">Prototyp – data är illustrativ</p>
+  <p>Ekoresiliens är en oberoende samlingstjänst för gröna webbinarier och kunskapsresurser.<br>
+  Skapad av <a href="https://github.com/emmawastring">Emma Wastring</a> &nbsp;|&nbsp;
+  Källdata från respektive organisation &nbsp;|&nbsp;
+  <a href="https://github.com/emmawastring/ekoresiliens">GitHub</a> &nbsp;|&nbsp;
+  <a href="https://github.com/emmawastring/ekoresiliens/issues">Föreslå källa</a></p>
+  <p style="margin-top:.4rem;opacity:.45;font-size:.73rem">Data uppdateras automatiskt varje dag via GitHub Actions</p>
 </footer>
 
 <script>
-const today=new Date();
-function daysAhead(n){const d=new Date(today);d.setDate(d.getDate()+n);return d;}
-function fmt(d){return d.toLocaleDateString('sv-SE',{weekday:'short',day:'numeric',month:'short'});}
+// ═══════════════════════════════════════════
+// DATA – laddas från JSON-filer i /data/
+// ═══════════════════════════════════════════
 
-// ═══════ WEBINAR DATA ═══════
-const webinars=[
-  // Existing
-  {id:1, title:"Klimatanpassning i svenska kommuner – utmaningar och möjligheter",source:"NV",  cats:["klimat","samhalle"],desc:"Genomgång av de senaste riktlinjerna för kommunal klimatanpassning samt fallstudier från Malmö, Göteborg och Östersund.",date:daysAhead(3), time:"13:00–14:30"},
-  {id:2, title:"Pollinatorernas roll i ett förändrat landskap",source:"SLU", cats:["biodiv","mat"],desc:"Forskning om hur vilda bin och fjärilar reagerar på förändringar i jordbrukslandskapet – och vad vi kan göra.",date:daysAhead(5), time:"10:00–11:30"},
-  {id:3, title:"Skogens kolförråd och klimatmålen",source:"SKS", cats:["skog","klimat"],desc:"Hur bokförs skogen i Sveriges klimatredovisning? Nya rön om avverkning, tillväxt och kolsänka.",date:daysAhead(7), time:"09:00–10:00"},
-  {id:4, title:"Havsbaserad vindkraft och marina ekosystem",source:"HaV", cats:["energi","biodiv"],desc:"Sammanvägning av energibehov och biologisk mångfald i kust- och havsplanering.",date:daysAhead(8), time:"14:00–15:30"},
-  {id:5, title:"Regenerativt jordbruk – vetenskap och praktik",source:"SLU", cats:["mat","skog","agroforestry"],desc:"Från no-till till betesdrift: vad säger forskningen om regenerativa metoder för markbiologi och kolinlagring?",date:daysAhead(10),time:"10:00–12:00"},
-  {id:6, title:"EU:s naturrestaureringsförordning – vad händer nu?",source:"NV",  cats:["policy","biodiv"],desc:"Lägesrapport om implementering av EU:s Nature Restoration Law och konsekvenser för svensk lagstiftning.",date:daysAhead(12),time:"13:00–14:00"},
-  {id:7, title:"Vattenförvaltning i ett klimatförändrat Sverige",source:"HaV", cats:["vatten","klimat"],desc:"Ny vägledning om dagvatten, grundvatten och extrema flöden från Havs- och vattenmyndigheten.",date:daysAhead(14),time:"09:30–11:00"},
-  {id:8, title:"Forskning för alla – att kommunicera komplexa miljöfrågor",source:"SVA", cats:["samhalle"],desc:"Workshop om metoder för att nå bredare publik med klimat- och naturvetenskap.",date:daysAhead(15),time:"14:00–16:00"},
-  {id:9, title:"SMHI:s klimatscenarier – regionala konsekvenser",source:"SMHI",cats:["klimat"],desc:"Projektioner för temperatur, nederbörd och extremväder i Sverige fram till 2100.",date:daysAhead(18),time:"10:00–11:30"},
-  {id:10,title:"Invasiva arter i svenska vatten",source:"HaV", cats:["biodiv","vatten"],desc:"Signalkräftan, mårdhunden och andra invasiva arter – lägesrapport och hanteringsstrategier.",date:daysAhead(19),time:"13:00–14:00"},
-  {id:11,title:"Cirkulär ekonomi i offentlig upphandling",source:"RC",  cats:["samhalle","policy"],desc:"Hur kommuner och regioner kan använda upphandling som verktyg för hållbar omställning.",date:daysAhead(21),time:"10:00–11:00"},
-  {id:12,title:"Trädgård och vild natur – biologisk mångfald hemma",source:"SVA", cats:["biodiv","skogstradgard"],desc:"Praktiska tips och forskning om hur privatpersoner kan skapa refuger för vilda djur och växter.",date:daysAhead(22),time:"18:00–19:30"},
-  {id:13,title:"Energieffektivisering i befintlig bebyggelse",source:"RC",  cats:["energi","samhalle"],desc:"Metoder, stöd och affärsmodeller för renovering av flerbostadshus med klimatperspektiv.",date:daysAhead(25),time:"13:30–15:00"},
-  {id:14,title:"Naturbaserade lösningar för dagvattenhantering",source:"NV",  cats:["vatten","samhalle"],desc:"Gröna tak, permeabla ytor och svackdiken – integrering i stadsplanering och planarbete.",date:daysAhead(28),time:"09:00–10:30"},
-  {id:15,title:"Skogsskötsel för ökad resiliens – kontinuitetsskogsbruk",source:"SKS", cats:["skog"],desc:"Hyggesfritt skogsbruk som ett alternativ: ekologiska grunder, ekonomi och certifiering.",date:daysAhead(30),time:"10:00–12:00"},
-  {id:16,title:"Mänskliga rättigheter och miljörätt – globalt och lokalt",source:"SVA", cats:["policy","samhalle"],desc:"Sambanden mellan klimaträttvisa, ursprungsfolks rättigheter och miljölagstiftning.",date:daysAhead(33),time:"14:00–15:30"},
-  {id:17,title:"Havsmiljöarbete i Östersjön – ny forskning",source:"HaV", cats:["vatten","biodiv"],desc:"Lägesrapport om övergödning, syrefria bottnar och det internationella havsmiljöarbetet.",date:daysAhead(35),time:"10:00–11:30"},
-  {id:18,title:"Agroforestry i Sverige – möjligheter och hinder",source:"SLU", cats:["agroforestry","mat","skog"],desc:"Träd på åkermark – integrering av livsmedelsproduktion och ekosystemtjänster i nordligt klimat. Med fallstudier från Skåne och Mälardalen.",date:daysAhead(38),time:"13:00–14:30"},
-  // New – agroforestry & skogsträdgård
-  {id:19,title:"Silvoarable system i Skandinavien – erfarenheter och etablering",source:"AF",  cats:["agroforestry","mat","klimat"],desc:"Svenska och danska pionjärer berättar om etablering av trädrader på åkermark, lönsamhet och hinder i policy och stödsystem.",date:daysAhead(11),time:"10:00–12:00"},
-  {id:20,title:"Skogsträdgårdens grunder – design, växtval och etablering",source:"PF",  cats:["skogstradgard","biodiv","mat"],desc:"Introduktion till skogsträdgårdsdesign enligt permakulturens principer. Guildstrukturer, pionjärarter, ätbara perenner och etableringsordning.",date:daysAhead(16),time:"18:00–20:00"},
-  {id:21,title:"Kolbindning i träd- och buskskiktet på åkermark",source:"SLU", cats:["agroforestry","klimat","skog"],desc:"Ny forskning om kolsänkepotentialen i alléodlingar och silvopastorala system samt hur det kan redovisas i klimatbokföringen.",date:daysAhead(23),time:"09:00–10:30"},
-  {id:22,title:"Ätbara skogar i urban miljö – Malmö, Uppsala och Göteborg",source:"RC",  cats:["skogstradgard","samhalle","biodiv"],desc:"Tre kommuner presenterar sina erfarenheter av att anlägga och förvalta offentliga skogsträdgårdar som naturbaserade lösningar.",date:daysAhead(27),time:"13:00–14:30"},
-  {id:23,title:"Silvopastoralt bete – träd, djur och mångfald",source:"AF",  cats:["agroforestry","biodiv","mat"],desc:"Hur integrering av träd i betesmarker påverkar djurhälsa, markbiologi, insektsliv och ekonomi för lantbrukare.",date:daysAhead(32),time:"10:00–11:30"},
-  {id:24,title:"Skogsträdgård som permakulturanläggning – design på systemnivå",source:"PF",  cats:["skogstradgard","agroforestry","mat"],desc:"Fördjupning i hur man designar en komplex skogsträdgård med stöd-, täcknads- och grödarter i samspel.",date:daysAhead(36),time:"18:30–20:30"},
-  {id:25,title:"Agroforestry och CAP – stöd, regler och framtida möjligheter",source:"AF",  cats:["agroforestry","policy"],desc:"Genomgång av EU:s jordbrukspolitik och hur lantbrukare idag kan söka stöd för träd- och buskintegrering på åkermark.",date:daysAhead(40),time:"09:30–11:00"},
-  {id:26,title:"Frukt- och bärodling i skogsträdgårdssystem",source:"SLU", cats:["skogstradgard","mat","biodiv"],desc:"SLU-forskning om sortval, planteringsavstånd, beskärning och sjukdomstryck i täta flerskiktade fruktodlingar.",date:daysAhead(44),time:"10:00–11:30"},
-];
+let allWebinars = [];
+let allKB       = [];
+let sourcesInData = [];
 
-// ═══════ KNOWLEDGE RESOURCES ═══════
-const knowledgeResources=[
-  // SLU
-  {id:'kb1', source:"SLU", type:"databas",icon:"🌾",title:"Artdatabanken – Svenska artprojektet",desc:"Nationell databas över svenska arters utbredning, rödlistning och ekologi. Uppdateras löpande med fynd och analyser.",cats:["biodiv"],url:"https://www.artdatabanken.se"},
-  {id:'kb2', source:"SLU", type:"portal", icon:"📡",title:"SLU Miljödata MVM",desc:"Öppen portal för nedladdning av svenska miljöövervakningsdata: vatten, mark, luft och biologisk mångfald.",cats:["vatten","biodiv","klimat"],url:"https://miljodata.slu.se"},
-  {id:'kb3', source:"SLU", type:"rapport",icon:"📄",title:"Hållbara jordbruk & ekosystem – rapportarkiv",desc:"Samlade vetenskapliga rapporter om hållbart jord- och skogsbruk, ekosystemtjänster och biologisk mångfald.",cats:["mat","skog","biodiv"],url:"https://www.slu.se/miljo"},
-  {id:'kb4', source:"SLU", type:"verktyg",icon:"🧮",title:"Riksskogstaxeringen – interaktivt verktyg",desc:"Utforska riksskogstaxeringens resultat per region, trädslag och tidsperiod med sök- och filterfunktioner.",cats:["skog"],url:"https://www.slu.se/riksskogstaxeringen"},
-  {id:'kb5', source:"SLU", type:"rapport",icon:"🌳",title:"Agroforestry i Sverige – kunskapssammanställning",desc:"SLU:s samlade forskning om träd på åkermark och i betesmarker i nordliga klimat, med data om kol, biodiversitet och ekonomi.",cats:["agroforestry","skog","mat","klimat"],url:"https://www.slu.se/agroforestry"},
-  {id:'kb6', source:"SLU", type:"databas",icon:"🍎",title:"Pomologiska sällskapets sortdatabas",desc:"Databas med beskrivningar, bilder och odlingsdata för hundratals svenska och nordiska fruktsorter – relevant för skogsträdgårdsdesign.",cats:["skogstradgard","mat"],url:"https://www.klasspomologi.se"},
-  // NV
-  {id:'kb7', source:"NV",  type:"portal", icon:"🏛",title:"Sveriges miljömål – uppföljningsportal",desc:"Officiell portal för uppföljning av de 16 nationella miljökvalitetsmålen med indikatorer och regionala data.",cats:["policy","klimat","biodiv"],url:"https://sverigesmiljomal.se"},
-  {id:'kb8', source:"NV",  type:"karta",  icon:"🗺️",title:"Skyddad natur – kartviewer",desc:"Interaktiv karta över nationalparker, naturreservat och Natura 2000-områden med besöksinfo och GIS-export.",cats:["biodiv"],url:"https://skyddadnatur.naturvardsverket.se"},
-  {id:'kb9', source:"NV",  type:"guide",  icon:"📘",title:"Vägledning för klimatanpassning",desc:"Steg-för-steg vägledning för kommuner och länsstyrelser om riskbedömning, planering och åtgärder.",cats:["klimat","samhalle"],url:"https://www.naturvardsverket.se/klimatanpassning"},
-  {id:'kb10',source:"NV",  type:"databas",icon:"📊",title:"Naturvårdsregistret (NVR)",desc:"Nationell förteckning över skyddade naturområden med juridiska gränser, syfte och förvaltningsplan.",cats:["biodiv","policy"],url:"https://nvpub.vic-metria.nu/naturvardsregistret"},
-  // SKS
-  {id:'kb11',source:"SKS", type:"karta",  icon:"🌲",title:"Skogens pärlor – nyckelbiotopskarta",desc:"Kartläggning av skogsområden med höga naturvärden (nyckelbiotoper) med sökfunktion per fastighet och kommun.",cats:["skog","biodiv"],url:"https://kartor.skogsstyrelsen.se"},
-  {id:'kb12',source:"SKS", type:"verktyg",icon:"🔧",title:"Heureka – skogsanalysverktyg",desc:"Planeringsverktyg för skötselanalys, kolbalans och biologisk mångfald i skogslandskapet.",cats:["skog","klimat"],url:"https://www.slu.se/heureka"},
-  {id:'kb13',source:"SKS", type:"guide",  icon:"📗",title:"Skogsstyrelsens rådgivningsguider",desc:"Praktiska guider för skogsägare: hyggesfritt skogsbruk, viltanpassning, vattenhänsyn och kulturmiljö.",cats:["skog"],url:"https://www.skogsstyrelsen.se/rad-och-stod"},
-  // HaV
-  {id:'kb14',source:"HaV", type:"portal", icon:"🌊",title:"VISS – Vatteninformationssystem Sverige",desc:"Officiell databas för statusklassning av sjöar, vattendrag, kustvatten och grundvatten enligt vattendirektivet.",cats:["vatten","policy"],url:"https://viss.lansstyrelsen.se"},
-  {id:'kb15',source:"HaV", type:"karta",  icon:"🐟",title:"Havsplaneringsportalen",desc:"Interaktiv kartportal för havsplanering med lager för naturvärden, fiskeområden och mänsklig påverkan.",cats:["vatten","biodiv","policy"],url:"https://havsplanering.havochvatten.se"},
-  // SMHI
-  {id:'kb16',source:"SMHI",type:"databas",icon:"🌡️",title:"SMHI Klimatdata – öppna observationer",desc:"Gratis nedladdning av historiska klimatmätningar: temperatur, nederbörd, sol, vind från 1700-talet till idag.",cats:["klimat"],url:"https://www.smhi.se/data"},
-  {id:'kb17',source:"SMHI",type:"verktyg",icon:"📈",title:"Klimatanalys – scenariotjänst",desc:"Interaktivt verktyg för att utforska klimatscenarier (RCP 4.5/8.5) per kommun, säsong och klimatvariabel.",cats:["klimat","samhalle"],url:"https://www.smhi.se/klimat/framtidens-klimat/klimatscenarier"},
-  // SVA
-  {id:'kb18',source:"SVA", type:"rapport",icon:"🎓",title:"VA-barometern – förtroende för forskning",desc:"Undersökning om allmänhetens syn på forskning och vetenskap i Sverige. Fritt tillgänglig som rapport och data.",cats:["samhalle"],url:"https://v-a.se/va-barometern"},
-  // RC
-  {id:'kb19',source:"RC",  type:"guide",  icon:"♻️",title:"Handbok för hållbar samhällsplanering",desc:"Praktisk vägledning för kommunal planering med fokus på ekosystemtjänster, klimatsäkring och medborgardialog.",cats:["samhalle","klimat"],url:"#"},
-  {id:'kb20',source:"RC",  type:"verktyg",icon:"🏗️",title:"Klimatkalkyl – livscykelperspektiv på byggnader",desc:"Verktyg för att beräkna klimatpåverkan under hela livscykeln för bostäder och infrastruktur.",cats:["energi","samhalle","klimat"],url:"#"},
-  // Agroforestry Sverige
-  {id:'kb21',source:"AF",  type:"portal", icon:"🌳",title:"Agroforestry Sverige – kunskapsportal",desc:"Nationell samlingsplats för information om agroforestry i Sverige: forskning, praktikerberättelser, policy och stödmöjligheter.",cats:["agroforestry","mat","skog"],url:"https://agroforestrysverige.se"},
-  {id:'kb22',source:"AF",  type:"guide",  icon:"📐",title:"Etableringsguide för alléodling",desc:"Steg-för-steg guide till etablering av trädrader på åkermark: artval, planteringsavstånd, skötselplan och lönsamhetskalkyl.",cats:["agroforestry","mat"],url:"https://agroforestrysverige.se/etablering"},
-  {id:'kb23',source:"AF",  type:"karta",  icon:"📍",title:"Karta över agroforestrygårdar i Sverige",desc:"Interaktiv karta med kontaktuppgifter och besöksinfo till gårdar som tillämpar agroforestry – för inspiration och studiebesök.",cats:["agroforestry"],url:"https://agroforestrysverige.se/karta"},
-  {id:'kb24',source:"AF",  type:"rapport",icon:"📊",title:"Ekosystemtjänster från träd på åkermark",desc:"Forskningsrapport om hur trädinslag på jordbruksmark påverkar pollinering, erosionsskydd, vattenhållning och markbiologi.",cats:["agroforestry","biodiv","mat","klimat"],url:"https://agroforestrysverige.se/forskning"},
-  {id:'kb25',source:"AF",  type:"natverk",icon:"🤝",title:"Nordiskt agroforestry-nätverk (NorAF)",desc:"Nordiskt samarbetsnätverk för forskare och praktiker inom agroforestry. Nyhetsbrev, konferenser och gemensamma projekt.",cats:["agroforestry"],url:"https://www.nordicagroforestry.org"},
-  // Permakultur Sverige
-  {id:'kb26',source:"PF",  type:"portal", icon:"🌀",title:"Permakultur Sverige – resursbank",desc:"Samlingsportal med kursutbud, artiklar, designexempel och kontakt till praktiker inom permakultur och skogsträdgård.",cats:["skogstradgard","agroforestry","biodiv"],url:"https://www.permakultur.se"},
-  {id:'kb27',source:"PF",  type:"guide",  icon:"🌿",title:"Skogsträdgård steg för steg – designmanual",desc:"Praktisk designmanual för anläggning av skogsträdgård: zonplanering, successionsdynamik, växtlistor och skötselkalender.",cats:["skogstradgard","mat","biodiv"],url:"https://www.permakultur.se/skogstradgard"},
-  {id:'kb28',source:"PF",  type:"databas",icon:"🌱",title:"Ätbara perenner – växtdatabas",desc:"Sökbar databas med hundratals ätbara perenner anpassade till nordiskt klimat, med info om zon, skötsel och användning.",cats:["skogstradgard","mat","biodiv"],url:"https://www.permakultur.se/vaxtdatabas"},
-  {id:'kb29',source:"PF",  type:"natverk",icon:"🌍",title:"Plants For A Future – internationell växtdatabas",desc:"Global referensdatabas med 8 000+ ätbara och nyttiga växter med detaljerad odlingsinfo och ekologiska egenskaper.",cats:["skogstradgard","agroforestry","biodiv","mat"],url:"https://pfaf.org"},
-  {id:'kb30',source:"PF",  type:"rapport",icon:"🏡",title:"Urbana skogsträdgårdar i Norden – fallstudier",desc:"Dokumentation av tio nordiska skogsträdgårdsprojekt med analys av design, resultat, skötselkrav och sociala effekter.",cats:["skogstradgard","samhalle","biodiv"],url:"https://www.permakultur.se/forskning"},
-];
+// Kategorietiketter
+const CAT_LABELS = {
+  klimat:'Klimat', biodiv:'Biologisk mångfald', samhalle:'Samhälle',
+  vatten:'Vatten', skog:'Skog', mat:'Mat & Jordbruk', energi:'Energi',
+  policy:'Policy', agroforestry:'Agroforestry', skogstradgard:'Skogsträdgård'
+};
+function tl(t){ return CAT_LABELS[t] || t; }
 
-// ═══════ STATE ═══════
-let activeCatW="all", activeTime="all";
-let activeCatS="all";
-let activeKBType="all", activeCatKB="all";
-let savedIds=new Set();
-
-const sNames={SLU:'SLU',NV:'Naturvårdsverket',SVA:'Vetenskap & Allmänhet',SKS:'Skogsstyrelsen',RC:'Resurscentrum',HaV:'HaV',SMHI:'SMHI',AF:'Agroforestry Sverige',PF:'Permakultur Sverige',RB:'Region & Bostäder'};
-const sFullNames={SLU:'Sveriges lantbruksuniversitet (SLU)',NV:'Naturvårdsverket',SVA:'Vetenskap & Allmänhet',SKS:'Skogsstyrelsen',RC:'Resurscentrum',HaV:'Havs- och vattenmyndigheten',SMHI:'SMHI',AF:'Agroforestry Sverige',PF:'Permakultur Sverige',RB:'Region & Bostäder'};
-function tl(t){return({klimat:'Klimat',biodiv:'Biologisk mångfald',samhalle:'Samhälle',vatten:'Vatten',skog:'Skog',mat:'Mat & Jordbruk',energi:'Energi',policy:'Policy',agroforestry:'Agroforestry',skogstradgard:'Skogsträdgård'})[t]||t;}
-
-// ═══════ TABS ═══════
-function switchTab(name){
-  document.querySelectorAll('.tab-panel').forEach(p=>p.classList.remove('active'));
-  document.querySelectorAll('.tab-btn').forEach(b=>b.classList.remove('active'));
-  document.getElementById('panel-'+name).classList.add('active');
-  document.getElementById('tab-'+name).classList.add('active');
-  if(name==='sparade')    renderSaved();
-  if(name==='kunskapsbank')renderKB();
+function fmtDate(iso) {
+  if (!iso) return '';
+  const d = new Date(iso + 'T12:00:00');
+  return d.toLocaleDateString('sv-SE', { weekday:'short', day:'numeric', month:'short' });
 }
 
-// ═══════ SHARED CHIP HANDLER ═══════
-function selectCat(el, groupId){
-  document.querySelectorAll('#'+groupId+' .chip').forEach(c=>c.classList.remove('active'));
+// ═══════════════════════════════════════════
+// INIT – hämta båda JSON-filerna parallellt
+// ═══════════════════════════════════════════
+async function init() {
+  await Promise.all([loadWebinars(), loadKB()]);
+}
+
+async function loadWebinars() {
+  try {
+    const res = await fetch('data/webinars.json?cb=' + Date.now());
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const json = await res.json();
+    allWebinars = json.events || [];
+    sourcesInData = [...new Set(allWebinars.map(e => e.source_id))].sort();
+
+    // Uppdatera "senast uppdaterad"-text
+    if (json.updated) {
+      const d = new Date(json.updated);
+      document.getElementById('updatedInfo').textContent =
+        'Uppdaterad ' + d.toLocaleDateString('sv-SE', {day:'numeric', month:'short', hour:'2-digit', minute:'2-digit'});
+    }
+
+    // Bygg källfilter dynamiskt
+    buildSourceList();
+    document.getElementById('statWebinars').textContent = allWebinars.length;
+    document.getElementById('statSources').textContent  = sourcesInData.length || '—';
+
+    document.getElementById('webinarsLoading').style.display = 'none';
+    applyFilters();
+
+  } catch(e) {
+    document.getElementById('webinarsLoading').innerHTML = `
+      <div class="icon">⚠️</div>
+      <p>Kunde inte ladda webbinarier.</p>
+      <span class="error-detail">${e.message}</span>
+      <p style="margin-top:.8rem;font-size:.8rem">Kör scrapers lokalt: <code>python -m scrapers.run_all</code></p>`;
+  }
+}
+
+async function loadKB() {
+  try {
+    const res = await fetch('data/knowledge_resources.json?cb=' + Date.now());
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    allKB = await res.json();
+    document.getElementById('statKB').textContent = allKB.length;
+    document.getElementById('kbLoading').style.display = 'none';
+    renderKB();
+  } catch(e) {
+    document.getElementById('kbLoading').innerHTML = `
+      <div class="icon">⚠️</div>
+      <p>Kunde inte ladda kunskapsresurser.</p>
+      <span class="error-detail">${e.message}</span>`;
+  }
+}
+
+// ═══════════════════════════════════════════
+// KÄLLFILTER – byggs dynamiskt från data
+// ═══════════════════════════════════════════
+const SOURCE_LABELS = {
+  SLU:'Sveriges lantbruksuniv.', NV:'Naturvårdsverket',
+  SVA:'Vetenskap & Allmänhet', SKS:'Skogsstyrelsen',
+  RC:'Resurscentrum', HaV:'Havs- & vattenmyndigh.',
+  SMHI:'SMHI', AF:'Agroforestry Sverige',
+  PF:'Permakultur Sverige', RB:'Region & Bostäder'
+};
+
+function buildSourceList() {
+  const list = document.getElementById('sourceList');
+  list.innerHTML = '';
+  // Inkludera alla kända källor + de som faktiskt finns i data
+  const allSources = [...new Set([...Object.keys(SOURCE_LABELS), ...sourcesInData])].sort();
+  allSources.forEach(src => {
+    const count = allWebinars.filter(e => e.source_id === src).length;
+    if (count === 0 && !SOURCE_LABELS[src]) return; // hoppa om okänd källa utan data
+    const label = document.createElement('label');
+    label.className = 'source-item';
+    label.innerHTML = `
+      <input type="checkbox" ${count > 0 ? 'checked' : ''} value="${src}" onchange="applyFilters()">
+      <span class="source-logo">${src}</span>
+      ${SOURCE_LABELS[src] || src}
+      ${count > 0 ? `<span style="margin-left:auto;font-size:.7rem;color:#9aaa98">${count}</span>` : ''}`;
+    list.appendChild(label);
+  });
+}
+
+// ═══════════════════════════════════════════
+// TABS
+// ═══════════════════════════════════════════
+function switchTab(name) {
+  document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('active'));
+  document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+  document.getElementById('panel-' + name).classList.add('active');
+  document.getElementById('tab-' + name).classList.add('active');
+}
+
+// ═══════════════════════════════════════════
+// CHIP HANDLERS
+// ═══════════════════════════════════════════
+let activeCat = 'all', activeTime = 'all', activeKBType = 'all', activeKBCat = 'all';
+
+function selectCat(el, groupId) {
+  document.querySelectorAll('#' + groupId + ' .chip').forEach(c => c.classList.remove('active'));
   el.classList.add('active');
-  const v=el.dataset.cat;
-  if(groupId==='catChips')      { activeCatW=v; applyFilters(); }
-  else if(groupId==='savedCatChips') { activeCatS=v; renderSaved(); }
-  else if(groupId==='kbCatChips')    { activeCatKB=v; renderKB(); }
+  const v = el.dataset.cat;
+  if (groupId === 'catChips')   { activeCat   = v; applyFilters(); }
+  if (groupId === 'kbCatChips') { activeKBCat = v; renderKB(); }
 }
-function selectTime(el){
-  document.querySelectorAll('#timeChips .chip').forEach(c=>c.classList.remove('active'));
-  el.classList.add('active'); activeTime=el.dataset.time; applyFilters();
+function selectTime(el) {
+  document.querySelectorAll('#timeChips .chip').forEach(c => c.classList.remove('active'));
+  el.classList.add('active'); activeTime = el.dataset.time; applyFilters();
+}
+function selectKBType(el) {
+  document.querySelectorAll('#kbTypeChips .chip').forEach(c => c.classList.remove('active'));
+  el.classList.add('active'); activeKBType = el.dataset.kbtype; renderKB();
 }
 
-// ═══════ WEBINARS ═══════
-function getActiveSources(){return Array.from(document.querySelectorAll('#sourceList input:checked')).map(el=>el.value);}
-function getSearchText(){return(document.getElementById('searchInput')?.value||'').toLowerCase();}
+// ═══════════════════════════════════════════
+// WEBINAR FILTER + RENDER
+// ═══════════════════════════════════════════
+function getActiveSources() {
+  return Array.from(document.querySelectorAll('#sourceList input:checked')).map(el => el.value);
+}
+function getSearchText() {
+  return (document.getElementById('searchInput')?.value || '').toLowerCase();
+}
 
-function applyFilters(){
-  const q=getSearchText(), srcs=getActiveSources(), sort=document.getElementById('sortSelect').value;
-  let f=webinars.filter(w=>{
-    if(!srcs.includes(w.source)) return false;
-    if(activeCatW!=='all'&&!w.cats.includes(activeCatW)) return false;
-    if(activeTime==='week') {const d=(w.date-today)/86400000;if(d<0||d>7) return false;}
-    if(activeTime==='month'){const d=(w.date-today)/86400000;if(d<0||d>31)return false;}
-    if(activeTime==='next') {const d=(w.date-today)/86400000;if(d<31||d>62)return false;}
-    if(q&&!w.title.toLowerCase().includes(q)&&!w.desc.toLowerCase().includes(q))return false;
+function applyFilters() {
+  const q     = getSearchText();
+  const srcs  = getActiveSources();
+  const sort  = document.getElementById('sortSelect').value;
+  const today = new Date(); today.setHours(0,0,0,0);
+
+  let f = allWebinars.filter(w => {
+    if (srcs.length && !srcs.includes(w.source_id)) return false;
+    if (activeCat !== 'all' && !(w.categories || []).includes(activeCat)) return false;
+    if (activeTime !== 'all' && w.date_iso) {
+      const wDate = new Date(w.date_iso + 'T00:00:00');
+      const diff  = (wDate - today) / 86400000;
+      if (activeTime === 'week'  && (diff < 0 || diff > 7))   return false;
+      if (activeTime === 'month' && (diff < 0 || diff > 31))  return false;
+      if (activeTime === 'next'  && (diff < 31 || diff > 62)) return false;
+    }
+    if (q && !w.title.toLowerCase().includes(q) && !(w.description||'').toLowerCase().includes(q)) return false;
     return true;
   });
-  if(sort==='date')  f.sort((a,b)=>a.date-b.date);
-  if(sort==='source')f.sort((a,b)=>a.source.localeCompare(b.source));
-  if(sort==='title') f.sort((a,b)=>a.title.localeCompare(b.title));
-  renderCards(f,'cardsGrid','emptyState');
-  document.getElementById('visibleCount').textContent=f.length;
-  document.getElementById('totalCount').textContent=webinars.length;
+
+  if (sort === 'date')   f.sort((a,b) => (a.date_iso||'').localeCompare(b.date_iso||''));
+  if (sort === 'source') f.sort((a,b) => (a.source_id||'').localeCompare(b.source_id||''));
+  if (sort === 'title')  f.sort((a,b) => a.title.localeCompare(b.title));
+
+  renderCards(f);
+  document.getElementById('visibleCount').textContent = f.length;
 }
 
-function renderCards(list,gridId,emptyId){
-  const grid=document.getElementById(gridId), empty=document.getElementById(emptyId);
-  grid.innerHTML='';
-  if(!list.length){empty.style.display='block';grid.style.display='none';return;}
-  empty.style.display='none';grid.style.display='';
-  list.forEach(w=>{
-    const pc=w.cats[0], sv=savedIds.has(w.id);
-    grid.innerHTML+=`
-    <div class="card">
+function renderCards(list) {
+  const grid  = document.getElementById('cardsGrid');
+  const empty = document.getElementById('emptyState');
+  grid.innerHTML = '';
+  if (!list.length) {
+    grid.style.display  = 'none';
+    empty.style.display = 'block';
+    return;
+  }
+  grid.style.display  = '';
+  empty.style.display = 'none';
+
+  list.forEach(w => {
+    const pc   = (w.categories && w.categories[0]) || 'default';
+    const cats = (w.categories || []).map(t => `<span class="tag cat-${t}">${tl(t)}</span>`).join('');
+    const src  = SOURCE_LABELS[w.source_id] || w.source_name || w.source_id;
+
+    grid.innerHTML += `
+    <a class="card" href="${w.url || '#'}" target="_blank" rel="noopener noreferrer">
       <div class="card-stripe stripe-${pc}"></div>
       <div class="card-body">
         <div class="card-meta">
-          <span class="card-source">${sNames[w.source]||w.source}</span>
-          <div class="card-meta-right">
-            <span class="card-free">Gratis</span>
-            <button class="save-btn${sv?' saved':''}" id="sbtn-${w.id}" onclick="toggleSave(${w.id})" title="${sv?'Ta bort bokmärke':'Spara'}">🔖</button>
-          </div>
+          <span class="card-source">${src}</span>
+          <span class="card-free">Gratis</span>
         </div>
         <div class="card-title">${w.title}</div>
-        <div class="card-desc">${w.desc}</div>
-        <div class="card-tags">${w.cats.map(t=>`<span class="tag cat-${t}">${tl(t)}</span>`).join('')}</div>
+        ${w.description ? `<div class="card-desc">${w.description}</div>` : ''}
+        <div class="card-tags">${cats}</div>
       </div>
       <div class="card-footer">
-        <div><div class="card-date">📅 ${fmt(w.date)}</div><div class="card-time">🕐 ${w.time}</div></div>
-        <button class="btn-register">Anmäl dig →</button>
+        <div>
+          <div class="card-date">📅 ${fmtDate(w.date_iso)}</div>
+          ${w.time ? `<div class="card-time">🕐 ${w.time}</div>` : ''}
+        </div>
+        <span class="card-link-hint">Läs mer →</span>
       </div>
-    </div>`;
+    </a>`;
   });
 }
 
-// ═══════ SAVE ═══════
-function toggleSave(id){
-  savedIds.has(id)?savedIds.delete(id):savedIds.add(id);
-  const btn=document.getElementById('sbtn-'+id);
-  if(btn){btn.classList.toggle('saved',savedIds.has(id));btn.title=savedIds.has(id)?'Ta bort bokmärke':'Spara';}
-  updateSavedBadge();
-  if(document.getElementById('panel-sparade').classList.contains('active'))renderSaved();
-}
-function updateSavedBadge(){
-  const b=document.getElementById('savedBadge');
-  b.style.display=savedIds.size?'inline-block':'none'; b.textContent=savedIds.size;
-}
-function renderSaved(){
-  const q=(document.getElementById('savedSearch')?.value||'').toLowerCase();
-  let saved=webinars.filter(w=>savedIds.has(w.id));
-  if(activeCatS!=='all') saved=saved.filter(w=>w.cats.includes(activeCatS));
-  if(q) saved=saved.filter(w=>w.title.toLowerCase().includes(q)||w.desc.toLowerCase().includes(q));
-  document.getElementById('savedGrid').style.display='';
-  renderCards(saved,'savedGrid','emptySaved');
-}
-function clearAllSaved(){savedIds.clear();updateSavedBadge();renderSaved();applyFilters();}
+// ═══════════════════════════════════════════
+// KNOWLEDGE BANK RENDER
+// ═══════════════════════════════════════════
+function renderKB() {
+  const q = (document.getElementById('kbSearch')?.value || '').toLowerCase();
 
-// ═══════ KNOWLEDGE BANK ═══════
-function selectKBType(el){
-  document.querySelectorAll('#kbTypeChips .chip').forEach(c=>c.classList.remove('active'));
-  el.classList.add('active'); activeKBType=el.dataset.kbtype; renderKB();
-}
-function renderKB(){
-  const q=(document.getElementById('kbSearch')?.value||'').toLowerCase();
-  let f=knowledgeResources.filter(r=>{
-    if(activeKBType!=='all'&&r.type!==activeKBType) return false;
-    if(activeCatKB!=='all'&&!r.cats.includes(activeCatKB)) return false;
-    if(q&&!r.title.toLowerCase().includes(q)&&!r.desc.toLowerCase().includes(q)) return false;
+  let f = allKB.filter(r => {
+    if (activeKBType !== 'all' && r.type !== activeKBType) return false;
+    if (activeKBCat  !== 'all' && !(r.cats || []).includes(activeKBCat)) return false;
+    if (q && !r.title.toLowerCase().includes(q) && !(r.desc||'').toLowerCase().includes(q)) return false;
     return true;
   });
-  document.getElementById('kbCount').textContent=knowledgeResources.length;
-  const cont=document.getElementById('kbContent'), empty=document.getElementById('kbEmpty');
-  if(!f.length){cont.innerHTML='';empty.style.display='block';return;}
-  empty.style.display='none';
-  const sources=[...new Set(f.map(r=>r.source))];
-  cont.innerHTML=sources.map(src=>{
-    const items=f.filter(r=>r.source===src);
-    return`<div class="kb-section">
-      <div class="kb-section-title">${sFullNames[src]||src}<span class="src-badge">${items.length} resurser</span></div>
-      <div class="kb-grid">${items.map(r=>`
-        <div class="kb-card">
-          <div class="kb-card-top"><span class="kb-icon">${r.icon}</span><span class="kb-type-badge type-${r.type}">${r.type.charAt(0).toUpperCase()+r.type.slice(1)}</span></div>
+
+  const cont  = document.getElementById('kbContent');
+  const empty = document.getElementById('kbEmpty');
+  if (!f.length) { cont.innerHTML = ''; empty.style.display = 'block'; return; }
+  empty.style.display = 'none';
+
+  // Gruppera per source_name
+  const sources = [...new Set(f.map(r => r.source_name || r.source))];
+  cont.innerHTML = sources.map(src => {
+    const items = f.filter(r => (r.source_name || r.source) === src);
+    return `
+    <div class="kb-section">
+      <div class="kb-section-title">
+        ${src}
+        <span class="src-badge">${items.length} resurser</span>
+      </div>
+      <div class="kb-grid">
+        ${items.map(r => `
+        <a class="kb-card" href="${r.url}" target="_blank" rel="noopener noreferrer">
+          <div class="kb-card-top">
+            <span class="kb-icon">${r.icon || '📄'}</span>
+            <span class="kb-type-badge type-${r.type}">${r.type.charAt(0).toUpperCase()+r.type.slice(1)}</span>
+          </div>
           <div class="kb-title">${r.title}</div>
-          <div class="kb-desc">${r.desc}</div>
-          <div class="kb-tags">${r.cats.map(t=>`<span class="tag cat-${t}">${tl(t)}</span>`).join('')}</div>
-          <div class="kb-footer"><span class="kb-source-small">${r.source}</span><a href="${r.url}" target="_blank" class="btn-visit">Öppna →</a></div>
-        </div>`).join('')}
+          <div class="kb-desc">${r.desc || ''}</div>
+          <div class="kb-tags">${(r.cats||[]).map(t=>`<span class="tag cat-${t}">${tl(t)}</span>`).join('')}</div>
+          <div class="kb-footer">
+            <span class="kb-source-small">${r.source}</span>
+            <span class="kb-link-hint">Öppna →</span>
+          </div>
+        </a>`).join('')}
       </div>
     </div>`;
   }).join('');
 }
 
-// ═══════ MODAL ═══════
-function openModal(){updateFilterSummary();document.getElementById('modalOverlay').classList.add('open');document.getElementById('formContent').style.display='block';document.getElementById('successMsg').style.display='none';}
-function closeModal(){document.getElementById('modalOverlay').classList.remove('open');}
-function handleOverlayClick(e){if(e.target===document.getElementById('modalOverlay'))closeModal();}
-function selectFreq(btn){document.querySelectorAll('.freq-btn').forEach(b=>b.classList.remove('active'));btn.classList.add('active');}
-function updateFilterSummary(){
-  const cats=activeCatW==='all'?'Alla kategorier':`<strong>${tl(activeCatW)}</strong>`;
-  const tm={all:'alla datum',week:'denna vecka',month:'denna månad',next:'nästa månad'};
-  const srcs=getActiveSources(), q=getSearchText();
-  let html=`📂 Kategorier: ${cats}<br>📅 Tidpunkt: ${tm[activeTime]}<br>🏛 Källor: ${srcs.join(', ')}`;
-  if(q)html+=`<br>🔍 Sökning: "<strong>${q}</strong>"`;
-  document.getElementById('filterSummary').innerHTML=html;
-}
-function handleSubscribe(){
-  const e=document.getElementById('emailInput');
-  if(!e.value||!e.value.includes('@')){e.style.borderColor='#e53935';e.focus();return;}
-  document.getElementById('formContent').style.display='none';
-  document.getElementById('successMsg').style.display='block';
-}
-
-applyFilters();
-renderKB();
+// ═══════════════════════════════════════════
+// START
+// ═══════════════════════════════════════════
+init();
 </script>
 </body>
 </html>

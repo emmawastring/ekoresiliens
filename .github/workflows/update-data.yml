@@ -1,0 +1,38 @@
+name: Uppdatera webbinarier
+
+on:
+  schedule:
+    # Kör varje dag kl 06:00 UTC (08:00 svensk sommartid)
+    - cron: "0 6 * * *"
+  workflow_dispatch:   # Tillåter manuell körning från GitHub UI
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write   # Behövs för att commita tillbaka till repot
+
+    steps:
+      - name: Checka ut repo
+        uses: actions/checkout@v4
+
+      - name: Sätt upp Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Installera beroenden
+        run: pip install -r requirements.txt
+
+      - name: Kör scrapers
+        run: python -m scrapers.run_all
+
+      - name: Commita uppdaterad data
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/webinars.json
+          # Commita bara om filen faktiskt ändrats
+          git diff --staged --quiet || git commit -m "🤖 Auto: uppdatera webbinarier $(date -u +'%Y-%m-%d')"
+          git push
