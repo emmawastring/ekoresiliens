@@ -18,6 +18,15 @@ from scrapers.smhi import SMHIScraper
 from scrapers.sverigesradio import SVAScraper
 from scrapers.agroforestry import AgroforestryScraper
 from scrapers.permakultur import PermakulturScraper
+from scrapers.region_vg import RegionVGScraper
+from scrapers.movium import MoviumScraper
+from scrapers.slu_urban import SLUUrbanScraper
+from scrapers.boverket_webinar import BoverketWebinarScraper
+from scrapers.boverket_kalender import BoverketKalenderScraper
+from scrapers.omstallningsfonden import OmstallningsfondenScraper
+from scrapers.nv_kalendarium import NVKalendariumScraper
+from scrapers.aktuell_hallbarhet import AktuellHallbarhetScraper
+from scrapers.slu_play import SLUPlayScraper
 
 SCRAPERS = [
     SLUScraper(),
@@ -28,6 +37,15 @@ SCRAPERS = [
     SVAScraper(),
     AgroforestryScraper(),
     PermakulturScraper(),
+    RegionVGScraper(),
+    MoviumScraper(),
+    SLUUrbanScraper(),
+    BoverketWebinarScraper(),
+    BoverketKalenderScraper(),
+    OmstallningsfondenScraper(),
+    NVKalendariumScraper(),
+    AktuellHallbarhetScraper(),
+    SLUPlayScraper(),
 ]
 
 OUTPUT_PATH = Path(__file__).parent.parent / "data" / "webinars.json"
