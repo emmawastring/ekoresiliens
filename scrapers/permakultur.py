@@ -19,11 +19,10 @@ class PermakulturScraper(BaseScraper):
                 desc = entry.get("summary", "")
                 if not self.is_relevant(title, desc):
                     continue
-                date_str = None
-                if hasattr(entry, "published_parsed") and entry.published_parsed:
-                    t = entry.published_parsed
-                    date_str = f"{t.tm_year}-{t.tm_mon:02d}-{t.tm_mday:02d}"
+                # Försök extrahera eventdatum från titel/beskrivning
+                date_str = self.parse_swedish_date(title + " " + desc)
                 if not date_str:
+                    # Om vi inte kan parsa eventdatum, hoppa över
                     continue
                 events.append(self.event(
                     title=title,
