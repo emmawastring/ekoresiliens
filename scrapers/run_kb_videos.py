@@ -6,6 +6,14 @@ from pathlib import Path
 from scrapers.youtube import YouTubeScraper
 from scrapers.movium_resources import fetch_movium_resources
 from scrapers.unity_library import fetch_unity_library_resources
+from scrapers.sciencedirect import fetch_sciencedirect_articles
+from scrapers.naturvardsverket_kb import fetch_naturvardsverket_resources
+from scrapers.boverket_kb import fetch_boverket_pbl_resources
+from scrapers.cocity_kb import fetch_cocity_resources
+from scrapers.millennium_assessment_kb import fetch_millennium_assessment_resources
+from scrapers.slu_publications_kb import fetch_slu_publications
+from scrapers.livsmedelsverket_kb import fetch_livsmedelsverket_resources
+from scrapers.movium_news_kb import fetch_movium_news
 
 
 # Channels to include: either YouTube ID or @handle/URL
@@ -28,7 +36,11 @@ def run():
         kb = []
 
     # remove existing entries from these source names to avoid duplicates
-    source_names = [name for _, name in CHANNELS] + ["SLU MOVIUM", "United Diversity Library"]
+    source_names = [name for _, name in CHANNELS] + [
+        "SLU MOVIUM", "United Diversity Library", "ScienceDirect Open Access",
+        "Naturvårdsverket", "Boverket PBL", "CoCity", "Millennium Ecosystem Assessment",
+        "Sveriges lantbruksuniversitet", "Livsmedelsverket"
+    ]
     kb = [r for r in kb if r.get('source_name') not in source_names]
 
     # Add YouTube videos
@@ -44,6 +56,32 @@ def run():
     # Add United Diversity Library resources
     print("Fetching United Diversity Library resources...")
     kb.extend(fetch_unity_library_resources())
+
+    # Add ScienceDirect articles
+    print("Fetching ScienceDirect articles...")
+    kb.extend(fetch_sciencedirect_articles())
+
+    # Add new KB scrapers
+    print("Fetching Naturvårdsverket resources...")
+    kb.extend(fetch_naturvardsverket_resources())
+
+    print("Fetching Boverket PBL resources...")
+    kb.extend(fetch_boverket_pbl_resources())
+
+    print("Fetching CoCity resources...")
+    kb.extend(fetch_cocity_resources())
+
+    print("Fetching Millennium Assessment resources...")
+    kb.extend(fetch_millennium_assessment_resources())
+
+    print("Fetching SLU publications...")
+    kb.extend(fetch_slu_publications())
+
+    print("Fetching Livsmedelsverket publications...")
+    kb.extend(fetch_livsmedelsverket_resources())
+
+    print("Fetching MOVIUM news...")
+    kb.extend(fetch_movium_news())
 
     # save back
     data_path.write_text(json.dumps(kb, ensure_ascii=False, indent=2), encoding='utf-8')
