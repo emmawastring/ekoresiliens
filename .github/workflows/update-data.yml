@@ -30,17 +30,11 @@ jobs:
       - name: Kör scrapers
         run: python -m scrapers.run_all
 
-      - name: Commita uppdaterad data
+      - name: Verifiera att data genererades
         run: |
-          git config user.name  "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/webinars.json
-          # Commita bara om filen faktiskt ändrats
-          if ! git diff --staged --quiet; then
-            git commit -m "🤖 Auto: uppdatera webbinarier $(date -u +'%Y-%m-%d')"
-            # Hämta eventuella ändringar från remote och rebase för att undvika push-error
-            git pull --rebase origin main
-            git push
+          if [ -f data/webinars.json ]; then
+            echo "✅ webinars.json genererad"
           else
-            echo "Inga ändringar att commita"
+            echo "❌ Fel: webinars.json inte genererad"
+            exit 1
           fi
