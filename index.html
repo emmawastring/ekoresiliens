@@ -47,7 +47,7 @@ header{background:var(--charcoal);padding:0 2rem;display:flex;align-items:center
 .stat-link .stat-label{font-size:.72rem;color:var(--mist);opacity:.8;}
 
 /* TABS */
-.tab-bar{background:var(--charcoal);border-bottom:1px solid rgba(163,184,153,.2);display:flex;padding:0 2rem;position:sticky;top:68px;z-index:99;overflow-x:auto;}
+.tab-bar{background:var(--charcoal);border-bottom:1px solid rgba(163,184,153,.2);display:flex;padding:0 2rem;position:sticky;top:0;z-index:99;overflow-x:auto;}
 .tab-btn{background:none;border:none;color:var(--sage);font-family:'DM Sans',sans-serif;font-size:.9rem;padding:0 1.4rem;height:48px;cursor:pointer;position:relative;display:flex;align-items:center;gap:7px;opacity:.6;transition:opacity .2s;white-space:nowrap;flex-shrink:0;}
 .tab-btn:hover{opacity:.9;}
 .tab-btn.active{color:#fff;opacity:1;}
@@ -56,7 +56,7 @@ header{background:var(--charcoal);padding:0 2rem;display:flex;align-items:center
 .tab-panel.active{display:block;}
 
 /* FILTER BAR */
-.panel-filter-bar{background:#fff;border-bottom:1px solid var(--mist);padding:.7rem 2rem;display:flex;align-items:center;gap:.8rem;flex-wrap:wrap;position:sticky;top:116px;z-index:90;box-shadow:0 2px 8px rgba(58,90,64,.04);}
+.panel-filter-bar{background:#fff;border-bottom:1px solid var(--mist);padding:.7rem 2rem;display:flex;align-items:center;gap:.8rem;flex-wrap:wrap;position:sticky;top:48px;z-index:90;box-shadow:0 2px 8px rgba(58,90,64,.04);}
 .filter-label{font-size:.72rem;font-weight:600;color:var(--bark);text-transform:uppercase;letter-spacing:.08em;white-space:nowrap;flex-shrink:0;}
 .chip-row{display:flex;flex-wrap:wrap;gap:5px;}
 .chip{border:1.5px solid var(--mist);background:var(--cream);color:var(--charcoal);font-size:.76rem;padding:4px 10px;border-radius:20px;cursor:pointer;transition:all .15s;font-family:'DM Sans',sans-serif;white-space:nowrap;}
@@ -68,7 +68,7 @@ header{background:var(--charcoal);padding:0 2rem;display:flex;align-items:center
 
 /* MAIN LAYOUT */
 .main-wrap{max-width:1280px;margin:0 auto;padding:2rem;display:flex;gap:2rem;align-items:flex-start;}
-aside{width:250px;flex-shrink:0;position:sticky;top:134px;}
+aside{width:250px;flex-shrink:0;position:sticky;top:66px;}
 .filter-card{background:#fff;border:1px solid var(--mist);border-radius:16px;padding:1.4rem;margin-bottom:1rem;box-shadow:0 2px 12px rgba(58,90,64,.06);}
 .filter-title{font-family:'Playfair Display',serif;font-size:1rem;color:var(--moss);margin-bottom:.9rem;display:flex;align-items:center;gap:8px;}
 .search-box{width:100%;padding:9px 12px 9px 34px;border:1.5px solid var(--mist);border-radius:10px;font-family:'DM Sans',sans-serif;font-size:.87rem;background:var(--cream) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='15' height='15' viewBox='0 0 24 24' fill='none' stroke='%23588157' stroke-width='2'%3E%3Ccircle cx='11' cy='11' r='8'/%3E%3Cpath d='m21 21-4.35-4.35'/%3E%3C/svg%3E") no-repeat 10px center;color:var(--charcoal);transition:border-color .2s;margin-bottom:.5rem;}
@@ -182,24 +182,62 @@ footer a:hover{text-decoration:underline;}
   .tab-btn{padding:0 .8rem;font-size:.82rem;}
   .panel-filter-bar{top:116px;padding:.6rem 1rem;}
 }
+
+/* Kollapsbar källlista */
+.source-toggle-row{display:flex;gap:6px;align-items:center;flex-wrap:wrap;margin-bottom:.3rem;}
+.btn-source-toggle{background:var(--cream);border:1.5px solid var(--mist);color:var(--charcoal);
+  font-family:'DM Sans',sans-serif;font-size:.76rem;padding:4px 10px;border-radius:20px;
+  cursor:pointer;display:flex;align-items:center;gap:4px;transition:border-color .15s;}
+.btn-source-toggle:hover{border-color:var(--fern);color:var(--fern);}
+.btn-source-toggle.active-all{background:var(--fern);color:#fff;border-color:var(--fern);}
+.source-list-collapsible{display:none;margin-top:.5rem;}
+.source-list-collapsible.open{display:flex;flex-direction:column;gap:5px;}
+
+/* ══ MOBILANPASSNING ══ */
+@media(max-width:600px){
+  .hero{padding:1.5rem 1rem 1.5rem;}
+  .hero h1{font-size:1.4rem;}
+  .hero p{font-size:.85rem;}
+  .stats-row{gap:.7rem;}
+  .stat-link{padding:.5rem .7rem;}
+  .stat-link .stat-num{font-size:1.2rem;}
+  .main-wrap{flex-direction:column;padding:.8rem;}
+  aside{width:100%;position:static;}
+  .filter-card{padding:1rem;}
+  .cards-grid{grid-template-columns:1fr;}
+  .kb-grid{grid-template-columns:1fr;}
+  .toolbar{flex-direction:column;align-items:flex-start;}
+  .logo{font-size:1.15rem;}
+  .btn-primary{padding:7px 13px;font-size:.78rem;}
+  .updated-info{display:none;}
+  .panel-filter-bar{padding:.5rem .8rem;gap:.5rem;flex-wrap:wrap;}
+  .panel-filter-bar .filter-label{width:100%;}
+  .chip{font-size:.72rem;padding:3px 8px;}
+  .card-body{padding:.8rem;}
+  .card-title{font-size:.92rem;}
+  .card-desc{display:none;}
+  a.card{border-radius:12px;}
+  footer{padding:1rem;font-size:.72rem;}
+  .creator{gap:.4rem;}
+}
+@media(max-width:400px){
+  .hero h1{font-size:1.2rem;}
+  .stats-row{flex-direction:column;align-items:center;}
+  .stat-link{width:80%;max-width:200px;}
+}
 </style>
 </head>
 <body>
 
-<header>
-  <div class="logo">🌿 Eko<span>resiliens</span></div>
-  <a class="creator" href="https://geekyfarmers.com/" target="_blank" rel="noopener">
-    <span style="font-size:.75rem;color:var(--sage);opacity:.7;">skapad av</span>
-    <img class="creator-logo" src="https://geekyfarmers.com/bilder/header-logo.jpg" alt="Geeky Farmers" onerror="this.style.display='none'">
-    <span style="font-weight:600;color:var(--clay);font-size:1.5rem;font-family:'Playfair Display',serif;">Geeky Farmers</span>
-  </a>
-  <div class="header-right">
-    <span class="updated-info" id="updatedInfo"></span>
-    <a class="btn-primary" href="https://github.com/emmawastring/ekoresiliens" target="_blank" rel="noopener">GitHub ↗</a>
-  </div>
-</header>
 
 <div class="hero">
+  <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:1.5rem;flex-wrap:wrap;gap:1rem;position:relative;z-index:2;">
+    <div class="logo">Eko<span>resiliens</span></div>
+    <div style="display:flex;align-items:center;gap:1rem;">
+      <span class="updated-info" id="updatedInfo"></span>
+      <a class="btn-primary" href="https://github.com/emmawastring/ekoresiliens" target="_blank" rel="noopener">GitHub ↗</a>
+    </div>
+  </div>
   <h1>Samlade evenemang och kunskapsresurser om<br><em>hållbarhet & natur</em></h1>
   <p>Samlar kommande evenemang, kunskapsresurser och verktyg om klimat, biologisk mångfald, agroforestry och skogsträdgårdar – automatiskt uppdaterat varje dag.</p>
   <div class="stats-row">
@@ -214,10 +252,6 @@ footer a:hover{text-decoration:underline;}
   </div>
 </div>
 
-<div class="tab-bar">
-  <button class="tab-btn active" id="tab-webbinarier" onclick="switchTab('webbinarier')">📅 Evenemang</button>
-  <button class="tab-btn" id="tab-kunskapsbank" onclick="switchTab('kunskapsbank')">📚 Kunskapsbanker &amp; Verktyg</button>
-</div>
 
 <!-- ════════════════════════════════════ -->
 <!-- TAB 1 – WEBBINARIER                 -->
@@ -278,8 +312,12 @@ footer a:hover{text-decoration:underline;}
 
         <div class="filter-group">
           <div class="filter-group-label">Källa</div>
-          <div class="source-list" id="sourceList">
-            <!-- Genereras dynamiskt från data -->
+          <div class="source-toggle-row">
+            <button class="btn-source-toggle active-all" id="srcAllBtn" onclick="selectAllSources()">Alla</button>
+            <button class="btn-source-toggle" id="srcToggleBtn" onclick="toggleSourceList()">Välj källor ▾</button>
+          </div>
+          <div class="source-list-collapsible" id="sourceListWrap">
+            <div class="source-list" id="sourceList"></div>
           </div>
         </div>
       </div>
@@ -372,8 +410,12 @@ footer a:hover{text-decoration:underline;}
 
         <div class="filter-group">
           <div class="filter-group-label">Källa</div>
-          <div class="source-list" id="kbSourceList">
-            <!-- Genereras dynamiskt från data -->
+          <div class="source-toggle-row">
+            <button class="btn-source-toggle active-all" id="kbSrcAllBtn" onclick="selectAllKBSources()">Alla</button>
+            <button class="btn-source-toggle" id="kbSrcToggleBtn" onclick="toggleKBSourceList()">Välj källor ▾</button>
+          </div>
+          <div class="source-list-collapsible" id="kbSourceListWrap">
+            <div class="source-list" id="kbSourceList"></div>
           </div>
         </div>
       </div>
@@ -403,6 +445,51 @@ footer a:hover{text-decoration:underline;}
 </footer>
 
 <script>
+
+// ═══════════════════════════════════════════
+// KÄLLLISTA TOGGLE
+// ═══════════════════════════════════════════
+function toggleSourceList() {
+  var wrap = document.getElementById('sourceListWrap');
+  var btn  = document.getElementById('srcToggleBtn');
+  var all  = document.getElementById('srcAllBtn');
+  var open = wrap.classList.toggle('open');
+  btn.textContent = open ? 'Dölj källor ▴' : 'Välj källor ▾';
+  all.classList.toggle('active-all', !open);
+}
+
+function selectAllSources() {
+  // Stäng listan och markera alla
+  var wrap = document.getElementById('sourceListWrap');
+  var btn  = document.getElementById('srcToggleBtn');
+  var all  = document.getElementById('srcAllBtn');
+  wrap.classList.remove('open');
+  btn.textContent = 'Välj källor ▾';
+  all.classList.add('active-all');
+  document.querySelectorAll('#sourceList input[type="checkbox"]').forEach(c => c.checked = true);
+  applyFilters();
+}
+
+function toggleKBSourceList() {
+  var wrap = document.getElementById('kbSourceListWrap');
+  var btn  = document.getElementById('kbSrcToggleBtn');
+  var all  = document.getElementById('kbSrcAllBtn');
+  var open = wrap.classList.toggle('open');
+  btn.textContent = open ? 'Dölj källor ▴' : 'Välj källor ▾';
+  all.classList.toggle('active-all', !open);
+}
+
+function selectAllKBSources() {
+  var wrap = document.getElementById('kbSourceListWrap');
+  var btn  = document.getElementById('kbSrcToggleBtn');
+  var all  = document.getElementById('kbSrcAllBtn');
+  wrap.classList.remove('open');
+  btn.textContent = 'Välj källor ▾';
+  all.classList.add('active-all');
+  document.querySelectorAll('#kbSourceList input[type="checkbox"]').forEach(c => c.checked = true);
+  renderKB();
+}
+
 // ═══════════════════════════════════════════
 // DATA – laddas från JSON-filer i /data/
 // ═══════════════════════════════════════════
