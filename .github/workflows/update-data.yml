@@ -38,3 +38,17 @@ jobs:
             echo "❌ Fel: webinars.json inte genererad"
             exit 1
           fi
+
+      - name: Commita och pusha data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          # Använd -f för att override .gitignore och forcea add
+          git add -f data/webinars.json
+          if ! git diff --cached --quiet; then
+            git commit -m "🤖 Auto: uppdatera webbinarier $(date -u +'%Y-%m-%d')"
+            git pull --rebase origin main || true
+            git push origin main
+          else
+            echo "ℹ️  Ingen ny data att uppdatera"
+          fi
