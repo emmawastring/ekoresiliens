@@ -1,4 +1,7 @@
-"""Länsstyrelsen - Generic scraper för alla länsstyrelsers kalendrar"""
+"""
+Länsstyrelsen – generisk scraper för alla länsstyrelsers kalendrar.
+Länsstyrelsen använder konsekvent <time datetime="YYYY-MM-DD"> vilket ger riktiga eventdatum.
+"""
 from .base import BaseScraper
 
 
@@ -9,43 +12,48 @@ class LansstyrelseScraper(BaseScraper):
         self.source_id = f"LS {region}"
         self.base_url = "https://www.lansstyrelsen.se"
         self.EVENTS_URL = url
-    
+
     def fetch(self) -> list[dict]:
         events = []
         try:
             soup = self.soup(self.EVENTS_URL)
-            event_elements = soup.select("article, .event, li")
 
-            for element in event_elements:
-                title_elem = element.select_one("h2, h3, a")
-                if not title_elem:
+            # Länsstyrelsen använder article eller li med time[datetime]
+            for item in soup.select("article, li, .event, .calendar-item"):
+                title_el = item.select_one("h2, h3, a, .title")
+                if not title_el:
+                    continue
+                title = title_el.get_text(strip=True)
+                if not title or len(title) < 5:
                     continue
 
-                title = title_elem.get_text(strip=True)
-                if not self.is_relevant(title):
-                    continue
-
-                date_elem = element.select_one("time, .date")
+                # Riktigt eventdatum från <time datetime="...">
+                time_el = item.select_one("time[datetime]")
                 date_str = None
-                if date_elem:
-                    date_str = self.parse_swedish_date(date_elem.get_text(strip=True))
+                if time_el:
+                    date_str = self.parse_swedish_date(time_el["datetime"])
+                if not date_str:
+                    date_el = item.select_one("time, .date, .event-date")
+                    if date_el:
+                        date_str = self.parse_swedish_date(date_el.get_text(strip=True))
+                if not date_str:
+                    continue
 
-                desc_elem = element.select_one("p, .excerpt")
-                description = desc_elem.get_text(strip=True) if desc_elem else ""
-
-                link_elem = element.select_one("a")
-                url = link_elem.get("href") if link_elem else self.EVENTS_URL
+                link_el = item.select_one("a[href]")
+                url = link_el["href"] if link_el else self.EVENTS_URL
                 if url and not url.startswith("http"):
                     url = self.base_url + url
 
-                if date_str:
-                    events.append(self.event(
-                        title=title,
-                        date_iso=date_str,
-                        url=url,
-                        description=description,
-                        categories=["samhalle", "klimat", "biodiv"],
-                    ))
+                desc_el = item.select_one("p, .preamble, .excerpt")
+                desc = desc_el.get_text(strip=True) if desc_el else ""
+
+                events.append(self.event(
+                    title=title,
+                    date_iso=date_str,
+                    url=url,
+                    description=desc,
+                    categories=["samhalle", "klimat", "biodiv"],
+                ))
         except Exception as e:
             print(f"    {self.name}: {e}")
         return events

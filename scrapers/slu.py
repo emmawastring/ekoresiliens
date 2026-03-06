@@ -1,6 +1,6 @@
 """
 SLU – Sveriges lantbruksuniversitet
-Hämtar evenemang via RSS-feed och kalender-sida.
+Hämtar eventdatum från kalender-HTML, inte RSS-publiceringsdatum.
 """
 
 import feedparser
@@ -11,60 +11,87 @@ class SLUScraper(BaseScraper):
     name = "Sveriges lantbruksuniversitet (SLU)"
     source_id = "SLU"
     base_url = "https://www.slu.se"
-
-    FEEDS = [
-        "https://www.slu.se/rss/evenemang/",
-        "https://www.slu.se/rss/kurser-och-utbildning/",
-    ]
+    CALENDAR_URL = "https://www.slu.se/om-slu/kalender/"
 
     CATS_MAP = {
-        "skog": ["skog"],
-        "klimat": ["klimat"],
-        "jordbruk": ["mat"],
-        "livsmedel": ["mat"],
-        "vatten": ["vatten"],
-        "biodiversitet": ["biodiv"],
-        "biologisk mångfald": ["biodiv"],
-        "agroforestry": ["agroforestry"],
-        "skogsträdgård": ["skogstradgard"],
+        "skog": ["skog"], "klimat": ["klimat"], "jordbruk": ["mat"],
+        "livsmedel": ["mat"], "vatten": ["vatten"],
+        "biodiversitet": ["biodiv"], "biologisk mångfald": ["biodiv"],
+        "agroforestry": ["agroforestry"], "skogsträdgård": ["skogstradgard"],
     }
 
     def fetch(self) -> list[dict]:
         events = []
-        for feed_url in self.FEEDS:
-            try:
-                feed = feedparser.parse(feed_url)
-                for entry in feed.entries:
-                    title = entry.get("title", "")
-                    desc = entry.get("summary", "")
-                    link = entry.get("link", "")
 
-                    if not self.is_relevant(title, desc):
-                        continue
+        # Försök 1: Hämta HTML-kalendern – SLU har strukturerade event-sidor
+        try:
+            soup = self.soup(self.CALENDAR_URL)
+            # SLU använder article-element med time[datetime] för sina evenemang
+            for item in soup.select("article, .event, .calendar-event, li.event"):
+                title_el = item.select_one("h2, h3, .event-title, a")
+                if not title_el:
+                    continue
+                title = title_el.get_text(strip=True)
+                if not title or len(title) < 5:
+                    continue
 
-                    # Datum från published eller updated
-                    date_str = None
-                    if hasattr(entry, "published_parsed") and entry.published_parsed:
-                        import time
-                        t = entry.published_parsed
-                        date_str = f"{t.tm_year}-{t.tm_mon:02d}-{t.tm_mday:02d}"
-                    elif hasattr(entry, "updated_parsed") and entry.updated_parsed:
-                        t = entry.updated_parsed
-                        date_str = f"{t.tm_year}-{t.tm_mon:02d}-{t.tm_mday:02d}"
+                # Hämta riktigt eventdatum från <time datetime="...">
+                time_el = item.select_one("time[datetime]")
+                date_str = None
+                if time_el:
+                    date_str = self.parse_swedish_date(time_el["datetime"])
+                if not date_str:
+                    date_el = item.select_one("time, .date, .event-date")
+                    if date_el:
+                        date_str = self.parse_swedish_date(date_el.get_text(strip=True))
+                if not date_str:
+                    continue
 
-                    if not date_str:
-                        continue
+                link_el = item.select_one("a[href]")
+                link = link_el["href"] if link_el else self.CALENDAR_URL
+                if link and not link.startswith("http"):
+                    link = self.base_url + link
 
-                    cats = self._guess_cats(title + " " + desc)
-                    events.append(self.event(
-                        title=title,
-                        date_iso=date_str,
-                        url=link or self.base_url + "/om-slu/kalender/",
-                        description=desc,
-                        categories=cats,
-                    ))
-            except Exception as e:
-                print(f"    SLU feed {feed_url}: {e}")
+                desc_el = item.select_one("p, .preamble, .description")
+                desc = desc_el.get_text(strip=True) if desc_el else ""
+
+                cats = self._guess_cats(title + " " + desc)
+                events.append(self.event(
+                    title=title, date_iso=date_str, url=link,
+                    description=desc, categories=cats,
+                ))
+        except Exception as e:
+            print(f"    SLU HTML: {e}")
+
+        # Försök 2: RSS som fallback – publiceringsdatum men bättre än inget
+        if not events:
+            for feed_url in [
+                "https://www.slu.se/rss/evenemang/",
+                "https://www.slu.se/rss/kurser-och-utbildning/",
+            ]:
+                try:
+                    feed = feedparser.parse(feed_url)
+                    for entry in feed.entries:
+                        title = entry.get("title", "")
+                        desc = entry.get("summary", "")
+                        if not self.is_relevant(title, desc):
+                            continue
+                        date_str = None
+                        if hasattr(entry, "published_parsed") and entry.published_parsed:
+                            t = entry.published_parsed
+                            date_str = f"{t.tm_year}-{t.tm_mon:02d}-{t.tm_mday:02d}"
+                        if not date_str:
+                            continue
+                        cats = self._guess_cats(title + " " + desc)
+                        events.append(self.event(
+                            title=title,
+                            date_iso=date_str,
+                            url=entry.get("link", self.CALENDAR_URL),
+                            description=desc,
+                            categories=cats,
+                        ))
+                except Exception as e:
+                    print(f"    SLU RSS {feed_url}: {e}")
 
         return events
 
