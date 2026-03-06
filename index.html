@@ -804,11 +804,7 @@ function renderKB() {
 // Ladda bakgrundsbild från geekyfarmers.com – faller tillbaka på grön om bilden misslyckas
 (function() {
   // Prova flera möjliga bilder på geekyfarmers.com
-  var candidates = [
-    'https://geekyfarmers.com/wp-content/uploads/2021/10/header-hero-geekyfarmers-scaled.jpg',
-    'https://geekyfarmers.com/wp-content/uploads/2021/10/header-hero-geekyfarmers.jpg',
-    'https://geekyfarmers.com/wp-content/themes/geekyfarmers/images/hero.jpg',
-  ];
+  var candidates = ['https://geekyfarmers.com/bilder/bakgrund.jpg'];
   var hero = document.querySelector('.hero');
   var idx = 0;
   function tryNext() {
