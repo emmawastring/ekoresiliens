@@ -595,6 +595,18 @@ function selectKBType(el) {
 }
 
 // ═══════════════════════════════════════════
+// FAVICON HELPER
+// ═══════════════════════════════════════════
+function getFaviconUrl(url) {
+  try {
+    const domain = new URL(url).hostname;
+    return `https://www.google.com/s2/favicons?domain=${domain}&sz=64`;
+  } catch(e) {
+    return '';
+  }
+}
+
+// ═══════════════════════════════════════════
 // WEBINAR FILTER + RENDER
 // ═══════════════════════════════════════════
 function getActiveSources() {
@@ -661,6 +673,9 @@ function renderCards(list) {
     grid.innerHTML += `
     <a class="card" href="${w.url || '#'}" target="_blank" rel="noopener noreferrer">
       <div class="card-stripe stripe-${pc}"></div>
+      <div style="height:120px;background:linear-gradient(135deg,#f5f0e8 0%,#faf7f2 100%);display:flex;align-items:center;justify-content:center;padding:0.8rem;border-bottom:1px solid var(--mist);">
+        <img src="${getFaviconUrl(w.url)}" alt="" style="max-width:60px;max-height:60px;object-fit:contain;" onerror="this.style.display='none'">
+      </div>
       <div class="card-body">
         <div class="card-meta">
           <span class="card-source">${src}</span>
@@ -711,6 +726,9 @@ function renderKB() {
   cont.innerHTML = `<div class="kb-grid">
     ${f.map(r => `
     <a class="kb-card" href="${r.url}" target="_blank" rel="noopener noreferrer">
+      <div style="height:100px;background:linear-gradient(135deg,#f5f0e8 0%,#faf7f2 100%);display:flex;align-items:center;justify-content:center;padding:0.8rem;border-bottom:1px solid var(--mist);">
+        <img src="${getFaviconUrl(r.url)}" alt="" style="max-width:50px;max-height:50px;object-fit:contain;" onerror="this.style.display='none'">
+      </div>
       <div class="kb-card-top">
         <span class="kb-icon">${r.icon || '📄'}</span>
         <span class="kb-type-badge type-${r.type}">${r.type.charAt(0).toUpperCase()+r.type.slice(1)}</span>
