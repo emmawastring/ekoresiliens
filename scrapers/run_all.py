@@ -48,6 +48,7 @@ from scrapers.ekologigruppen import EkologigruppenScraper
 from scrapers.klimatanpassning import KlimatanpassningScraper
 from scrapers.holmafolkhogskola import HolmafolkhogskolaScraper
 from scrapers.coompanion import CoompanionScraper
+from scrapers.openspace import OpenSpaceConsultingScraper
 
 SCRAPERS = [
     SLUScraper(),
@@ -104,6 +105,7 @@ SCRAPERS = [
     KlimatanpassningScraper(),
     HolmafolkhogskolaScraper(),
     CoompanionScraper(),
+    OpenSpaceConsultingScraper(),
 ]
 
 OUTPUT_PATH = Path(__file__).parent.parent / "data" / "webinars.json"
