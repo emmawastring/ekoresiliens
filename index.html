@@ -287,14 +287,7 @@ footer a:hover{text-decoration:underline;}
           </div>
         </div>
 
-        <div class="filter-group">
-          <div class="filter-group-label">Tidpunkt</div>
-          <div class="chip-group" id="timeChips">
-            <div class="chip active" data-time="all"   onclick="selectTime(this)">Alla</div>
-            <div class="chip" data-time="week"         onclick="selectTime(this)">Denna vecka</div>
-            <div class="chip" data-time="month"        onclick="selectTime(this)">Denna månad</div>
-            <div class="chip" data-time="next"         onclick="selectTime(this)">Nästa månad</div>
-          </div>
+
         </div>
 
         <div class="filter-group">
@@ -336,6 +329,7 @@ footer a:hover{text-decoration:underline;}
           <div class="chip active" data-time="all" onclick="selectTime(this)" style="font-size:.76rem;">Alla datum</div>
           <div class="chip" data-time="week" onclick="selectTime(this)" style="font-size:.76rem;">Närmsta veckan</div>
           <div class="chip" data-time="month" onclick="selectTime(this)" style="font-size:.76rem;">Närmsta månaden</div>
+          <div class="chip" data-time="next" onclick="selectTime(this)" style="font-size:.76rem;">Nästa månad</div>
         </div>
       </div>
         <select class="sort-select" id="sortSelect" onchange="applyFilters()">
