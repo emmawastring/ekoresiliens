@@ -1,9 +1,12 @@
-"""Generate/update knowledge_resources.json with YouTube videos."""
+"""Generate/update knowledge_resources.json with YouTube videos and other resources."""
 
 import json
 from pathlib import Path
 
 from scrapers.youtube import YouTubeScraper
+from scrapers.movium_resources import fetch_movium_resources
+from scrapers.unity_library import fetch_unity_library_resources
+
 
 # Channels to include: either YouTube ID or @handle/URL
 # we include all five sources specified by user
@@ -25,17 +28,26 @@ def run():
         kb = []
 
     # remove existing entries from these source names to avoid duplicates
-    source_names = [name for _, name in CHANNELS]
+    source_names = [name for _, name in CHANNELS] + ["SLU MOVIUM", "United Diversity Library"]
     kb = [r for r in kb if r.get('source_name') not in source_names]
 
+    # Add YouTube videos
     for cid, name in CHANNELS:
         scraper = YouTubeScraper(cid, name)
         print(f"Fetching videos from {name}...")
         kb.extend(scraper.fetch())
+    
+    # Add MOVIUM resources
+    print("Fetching MOVIUM resources...")
+    kb.extend(fetch_movium_resources())
+    
+    # Add United Diversity Library resources
+    print("Fetching United Diversity Library resources...")
+    kb.extend(fetch_unity_library_resources())
 
     # save back
     data_path.write_text(json.dumps(kb, ensure_ascii=False, indent=2), encoding='utf-8')
-    print(f"Wrote {len(kb)} knowledge resources (including YouTube videos)")
+    print(f"Wrote {len(kb)} knowledge resources total")
 
 
 if __name__ == '__main__':
