@@ -3171,7 +3171,10 @@ class KlimatriksdagenScraper(BaseScraper):
 ============================================================
 scrapers\lansstyrelsen.py
 ============================================================
-"""Länsstyrelsen - Generic scraper för alla länsstyrelsers kalendrar"""
+"""
+Länsstyrelsen – generisk scraper för alla länsstyrelsers kalendrar.
+Länsstyrelsen använder konsekvent <time datetime="YYYY-MM-DD"> vilket ger riktiga eventdatum.
+"""
 from .base import BaseScraper
 
 
@@ -3182,46 +3185,52 @@ class LansstyrelseScraper(BaseScraper):
         self.source_id = f"LS {region}"
         self.base_url = "https://www.lansstyrelsen.se"
         self.EVENTS_URL = url
-    
+
     def fetch(self) -> list[dict]:
         events = []
         try:
             soup = self.soup(self.EVENTS_URL)
-            event_elements = soup.select("article, .event, li")
 
-            for element in event_elements:
-                title_elem = element.select_one("h2, h3, a")
-                if not title_elem:
+            # Länsstyrelsen använder article eller li med time[datetime]
+            for item in soup.select("article, li, .event, .calendar-item"):
+                title_el = item.select_one("h2, h3, a, .title")
+                if not title_el:
+                    continue
+                title = title_el.get_text(strip=True)
+                if not title or len(title) < 5:
                     continue
 
-                title = title_elem.get_text(strip=True)
-                if not self.is_relevant(title):
-                    continue
-
-                date_elem = element.select_one("time, .date")
+                # Riktigt eventdatum från <time datetime="...">
+                time_el = item.select_one("time[datetime]")
                 date_str = None
-                if date_elem:
-                    date_str = self.parse_swedish_date(date_elem.get_text(strip=True))
+                if time_el:
+                    date_str = self.parse_swedish_date(time_el["datetime"])
+                if not date_str:
+                    date_el = item.select_one("time, .date, .event-date")
+                    if date_el:
+                        date_str = self.parse_swedish_date(date_el.get_text(strip=True))
+                if not date_str:
+                    continue
 
-                desc_elem = element.select_one("p, .excerpt")
-                description = desc_elem.get_text(strip=True) if desc_elem else ""
-
-                link_elem = element.select_one("a")
-                url = link_elem.get("href") if link_elem else self.EVENTS_URL
+                link_el = item.select_one("a[href]")
+                url = link_el["href"] if link_el else self.EVENTS_URL
                 if url and not url.startswith("http"):
                     url = self.base_url + url
 
-                if date_str:
-                    events.append(self.event(
-                        title=title,
-                        date_iso=date_str,
-                        url=url,
-                        description=description,
-                        categories=["samhalle", "klimat", "biodiv"],
-                    ))
+                desc_el = item.select_one("p, .preamble, .excerpt")
+                desc = desc_el.get_text(strip=True) if desc_el else ""
+
+                events.append(self.event(
+                    title=title,
+                    date_iso=date_str,
+                    url=url,
+                    description=desc,
+                    categories=["samhalle", "klimat", "biodiv"],
+                ))
         except Exception as e:
             print(f"    {self.name}: {e}")
         return events
+
 
 ============================================================
 scrapers\livsmedelsverket_kb.py
@@ -3711,13 +3720,8 @@ if __name__ == '__main__':
 ============================================================
 scrapers\naturvardsverket.py
 ============================================================
-"""
-Naturvårdsverket
-Hämtar evenemang via RSS och HTML-scraping av evenemangsidan.
-"""
-
+"""Naturvårdsverket – hämtar eventdatum från kalendersidan."""
 import feedparser
-from bs4 import BeautifulSoup
 from .base import BaseScraper
 
 
@@ -3725,78 +3729,78 @@ class NaturvardsverketScraper(BaseScraper):
     name = "Naturvårdsverket"
     source_id = "NV"
     base_url = "https://www.naturvardsverket.se"
-
-    EVENTS_URL = "https://www.naturvardsverket.se/om-naturvardsverket/evenemang/"
-    RSS_URL = "https://www.naturvardsverket.se/rss/nyheter/"
+    CALENDAR_URL = "https://www.naturvardsverket.se/om-naturvardsverket/kalender/"
+    RSS_URLS = [
+        "https://www.naturvardsverket.se/rss/nyheter/",
+        "https://www.naturvardsverket.se/rss/",
+    ]
 
     def fetch(self) -> list[dict]:
         events = []
-        events.extend(self._from_rss())
-        events.extend(self._from_html())
-        return events
 
-    def _from_rss(self) -> list:
-        events = []
+        # HTML-kalender – riktiga eventdatum
         try:
-            feed = feedparser.parse(self.RSS_URL)
-            for entry in feed.entries:
-                title = entry.get("title", "")
-                desc = entry.get("summary", "")
-                if not self.is_relevant(title, desc):
-                    continue
-                date_str = None
-                if hasattr(entry, "published_parsed") and entry.published_parsed:
-                    t = entry.published_parsed
-                    date_str = f"{t.tm_year}-{t.tm_mon:02d}-{t.tm_mday:02d}"
-                if not date_str:
-                    continue
-                events.append(self.event(
-                    title=title,
-                    date_iso=date_str,
-                    url=entry.get("link", self.EVENTS_URL),
-                    description=desc,
-                    categories=["klimat", "policy"],
-                ))
-        except Exception as e:
-            print(f"    NV RSS: {e}")
-        return events
-
-    def _from_html(self) -> list:
-        events = []
-        try:
-            soup = self.soup(self.EVENTS_URL)
-            # Naturvårdsverket listar evenemang i article/li-element
-            for item in soup.select("article, .event-item, li.event"):
-                title_el = item.select_one("h2, h3, .title, a")
+            soup = self.soup(self.CALENDAR_URL)
+            for item in soup.select("article, li, .event, .calendar-item"):
+                title_el = item.select_one("h2, h3, a")
                 if not title_el:
                     continue
                 title = title_el.get_text(strip=True)
-                if not title or not self.is_relevant(title):
+                if not title or len(title) < 5:
                     continue
 
-                link_el = item.select_one("a[href]")
-                link = self.base_url + link_el["href"] if link_el and link_el["href"].startswith("/") else (link_el["href"] if link_el else self.EVENTS_URL)
-
-                date_el = item.select_one("time, .date, [class*='date']")
-                date_text = date_el.get_text(strip=True) if date_el else ""
-                if date_el and date_el.get("datetime"):
-                    date_text = date_el["datetime"]
-                date_str = self.parse_swedish_date(date_text)
+                time_el = item.select_one("time[datetime]")
+                date_str = None
+                if time_el:
+                    date_str = self.parse_swedish_date(time_el["datetime"])
+                if not date_str:
+                    date_el = item.select_one("time, .date")
+                    if date_el:
+                        date_str = self.parse_swedish_date(date_el.get_text(strip=True))
                 if not date_str:
                     continue
 
-                desc_el = item.select_one("p, .description, .preamble")
+                link_el = item.select_one("a[href]")
+                link = link_el["href"] if link_el else self.CALENDAR_URL
+                if link and not link.startswith("http"):
+                    link = self.base_url + link
+
+                desc_el = item.select_one("p, .preamble")
                 desc = desc_el.get_text(strip=True) if desc_el else ""
 
                 events.append(self.event(
-                    title=title,
-                    date_iso=date_str,
-                    url=link,
-                    description=desc,
-                    categories=["klimat", "policy", "biodiv"],
+                    title=title, date_iso=date_str, url=link,
+                    description=desc, categories=["klimat", "policy", "biodiv"],
                 ))
         except Exception as e:
             print(f"    NV HTML: {e}")
+
+        # RSS-fallback
+        if not events:
+            for rss in self.RSS_URLS:
+                try:
+                    feed = feedparser.parse(rss)
+                    for entry in feed.entries:
+                        title = entry.get("title", "")
+                        desc = entry.get("summary", "")
+                        if not self.is_relevant(title, desc):
+                            continue
+                        date_str = None
+                        if hasattr(entry, "published_parsed") and entry.published_parsed:
+                            t = entry.published_parsed
+                            date_str = f"{t.tm_year}-{t.tm_mon:02d}-{t.tm_mday:02d}"
+                        if not date_str:
+                            continue
+                        events.append(self.event(
+                            title=title,
+                            date_iso=date_str,
+                            url=entry.get("link", self.CALENDAR_URL),
+                            description=desc,
+                            categories=["klimat", "policy"],
+                        ))
+                except Exception as e:
+                    print(f"    NV RSS {rss}: {e}")
+
         return events
 
 
@@ -4266,16 +4270,14 @@ scrapers\run_all.py
 Ekoresiliens – scraper orchestrator
 Kör alla scrapers och sparar resultatet till data/webinars.json
 Körs av GitHub Actions dagligen, men kan också köras manuellt:
-  python scrapers/run_all.py
+  python -m scrapers.run_all
 """
 
 import json
-import os
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
 
-# Add parent directory to path for imports
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
 from scrapers.slu import SLUScraper
@@ -4294,7 +4296,6 @@ from scrapers.boverket_kalender import BoverketKalenderScraper
 from scrapers.omstallningsfonden import OmstallningsfondenScraper
 from scrapers.nv_kalendarium import NVKalendariumScraper
 from scrapers.aktuell_hallbarhet import AktuellHallbarhetScraper
-from scrapers.slu_play import SLUPlayScraper
 from scrapers.treesforme import TreesForMeScraper
 from scrapers.svenskt_vatten import SvensktVattenScraper
 from scrapers.klimat2030 import Klimat2030Scraper
@@ -4302,17 +4303,9 @@ from scrapers.business_biodiversity import BusinessBiodiversityScraper
 from scrapers.lansstyrelsen import LansstyrelseScraper
 from scrapers.energimyndigheten import EnergimyndighetenScraper
 from scrapers.ekocentrum import EkocentrumScraper
-from scrapers.wsp import WSPScraper
-from scrapers.mcf import MCFScraper
-from scrapers.ri import RIScraper
 from scrapers.lrf import LRFScraper
 from scrapers.klimatriksdagen import KlimatriksdagenScraper
-from scrapers.sgi import SGIScraper
 from scrapers.ekologigruppen import EkologigruppenScraper
-from scrapers.klimatanpassning import KlimatanpassningScraper
-from scrapers.holmafolkhogskola import HolmafolkhogskolaScraper
-from scrapers.coompanion import CoompanionScraper
-from scrapers.openspace import OpenSpaceConsultingScraper
 
 SCRAPERS = [
     SLUScraper(),
@@ -4331,45 +4324,34 @@ SCRAPERS = [
     OmstallningsfondenScraper(),
     NVKalendariumScraper(),
     AktuellHallbarhetScraper(),
-    SLUPlayScraper(),
     TreesForMeScraper(),
     SvensktVattenScraper(),
     Klimat2030Scraper(),
     BusinessBiodiversityScraper(),
-    # Länsstyrelsens kalendrar
-    LansstyrelseScraper("Skåne", "https://www.lansstyrelsen.se/skane/om-oss/kalender/kalenderhandelser---skane/"),
+    LansstyrelseScraper("Skåne",           "https://www.lansstyrelsen.se/skane/om-oss/kalender/kalenderhandelser---skane/"),
     LansstyrelseScraper("Västra Götaland", "https://www.lansstyrelsen.se/vastra-gotaland/om-oss/kalender.html"),
-    LansstyrelseScraper("Blekinge", "https://www.lansstyrelsen.se/blekinge/om-oss/kalender.html"),
-    LansstyrelseScraper("Dalarna", "https://www.lansstyrelsen.se/dalarna/om-oss/kalender.html"),
-    LansstyrelseScraper("Gotland", "https://www.lansstyrelsen.se/gotland/om-oss/kalender.html"),
-    LansstyrelseScraper("Gävleborg", "https://www.lansstyrelsen.se/gavleborg/om-oss/kalender.html"),
-    LansstyrelseScraper("Halland", "https://www.lansstyrelsen.se/halland/om-oss/kalender.html"),
-    LansstyrelseScraper("Jämtland", "https://www.lansstyrelsen.se/jamtland/om-oss/kalender.html"),
-    LansstyrelseScraper("Jönköping", "https://www.lansstyrelsen.se/jonkoping/om-oss/kalender.html"),
-    LansstyrelseScraper("Kalmar", "https://www.lansstyrelsen.se/kalmar/om-oss/kalender.html"),
-    LansstyrelseScraper("Kronoberg", "https://www.lansstyrelsen.se/kronoberg/om-oss/kalender.html"),
-    LansstyrelseScraper("Norrbotten", "https://www.lansstyrelsen.se/norrbotten/om-oss/kalender.html"),
-    LansstyrelseScraper("Stockholm", "https://www.lansstyrelsen.se/stockholm/om-oss/kalender.html"),
-    LansstyrelseScraper("Södermanland", "https://www.lansstyrelsen.se/sodermanland/om-oss/kalender.html"),
-    LansstyrelseScraper("Uppsala", "https://www.lansstyrelsen.se/uppsala/om-oss/kalender.html"),
-    LansstyrelseScraper("Värmland", "https://www.lansstyrelsen.se/varmland/om-oss/kalender.html"),
-    LansstyrelseScraper("Västmanland", "https://www.lansstyrelsen.se/vastmanland/om-oss/kalender.html"),
-    LansstyrelseScraper("Örebro", "https://www.lansstyrelsen.se/orebro/om-oss/kalender.html"),
-    LansstyrelseScraper("Östergötland", "https://www.lansstyrelsen.se/ostergotland/om-oss/kalender.html"),
-    # Nya miljö- och hållbarkhetskällor
+    LansstyrelseScraper("Blekinge",        "https://www.lansstyrelsen.se/blekinge/om-oss/kalender.html"),
+    LansstyrelseScraper("Dalarna",         "https://www.lansstyrelsen.se/dalarna/om-oss/kalender.html"),
+    LansstyrelseScraper("Gotland",         "https://www.lansstyrelsen.se/gotland/om-oss/kalender.html"),
+    LansstyrelseScraper("Gävleborg",       "https://www.lansstyrelsen.se/gavleborg/om-oss/kalender.html"),
+    LansstyrelseScraper("Halland",         "https://www.lansstyrelsen.se/halland/om-oss/kalender.html"),
+    LansstyrelseScraper("Jämtland",        "https://www.lansstyrelsen.se/jamtland/om-oss/kalender.html"),
+    LansstyrelseScraper("Jönköping",       "https://www.lansstyrelsen.se/jonkoping/om-oss/kalender.html"),
+    LansstyrelseScraper("Kalmar",          "https://www.lansstyrelsen.se/kalmar/om-oss/kalender.html"),
+    LansstyrelseScraper("Kronoberg",       "https://www.lansstyrelsen.se/kronoberg/om-oss/kalender.html"),
+    LansstyrelseScraper("Norrbotten",      "https://www.lansstyrelsen.se/norrbotten/om-oss/kalender.html"),
+    LansstyrelseScraper("Stockholm",       "https://www.lansstyrelsen.se/stockholm/om-oss/kalender.html"),
+    LansstyrelseScraper("Södermanland",    "https://www.lansstyrelsen.se/sodermanland/om-oss/kalender.html"),
+    LansstyrelseScraper("Uppsala",         "https://www.lansstyrelsen.se/uppsala/om-oss/kalender.html"),
+    LansstyrelseScraper("Värmland",        "https://www.lansstyrelsen.se/varmland/om-oss/kalender.html"),
+    LansstyrelseScraper("Västmanland",     "https://www.lansstyrelsen.se/vastmanland/om-oss/kalender.html"),
+    LansstyrelseScraper("Örebro",          "https://www.lansstyrelsen.se/orebro/om-oss/kalender.html"),
+    LansstyrelseScraper("Östergötland",    "https://www.lansstyrelsen.se/ostergotland/om-oss/kalender.html"),
     EnergimyndighetenScraper(),
     EkocentrumScraper(),
-    WSPScraper(),
-    MCFScraper(),
-    RIScraper(),
     LRFScraper(),
     KlimatriksdagenScraper(),
-    SGIScraper(),
     EkologigruppenScraper(),
-    KlimatanpassningScraper(),
-    HolmafolkhogskolaScraper(),
-    CoompanionScraper(),
-    OpenSpaceConsultingScraper(),
 ]
 
 OUTPUT_PATH = Path(__file__).parent.parent / "data" / "webinars.json"
@@ -4383,10 +4365,6 @@ def run():
         try:
             print(f"  → Kör {scraper.name}...")
             events = scraper.fetch()
-            if not events:
-                # försök fallback
-                print(f"    (ingen data, testar generic_fetch)")
-                events = scraper.generic_fetch()
             print(f"    ✓ Hittade {len(events)} evenemang")
             all_events.extend(events)
         except Exception as e:
@@ -4394,16 +4372,13 @@ def run():
             errors.append(msg)
             print(f"    ✗ Fel: {e}")
 
-    # Sortera på datum, ta bort förflutna
-    now = datetime.now(timezone.utc)
-    upcoming = [e for e in all_events if e.get("date_iso") and e["date_iso"] >= now.isoformat()[:10]]
-    upcoming.sort(key=lambda x: x["date_iso"])
+    # INGEN datumfiltrering här – frontenden visar bara event från idag och framåt.
+    all_events.sort(key=lambda x: x.get("date_iso") or "9999-99-99")
 
-    # Deduplicera på titel+datum
     seen = set()
     unique = []
-    for e in upcoming:
-        key = (e["title"].lower().strip(), e["date_iso"])
+    for e in all_events:
+        key = (e["title"].lower().strip(), e.get("date_iso", ""))
         if key not in seen:
             seen.add(key)
             unique.append(e)
@@ -4419,7 +4394,7 @@ def run():
     OUTPUT_PATH.write_text(json.dumps(output, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"\n✅ Sparade {len(unique)} unika evenemang till {OUTPUT_PATH}")
     if errors:
-        print(f"⚠️  {len(errors)} scrapers misslyckades: {', '.join(errors)}")
+        print(f"⚠️  {len(errors)} scrapers misslyckades")
 
 
 if __name__ == "__main__":
@@ -4745,7 +4720,7 @@ scrapers\slu.py
 ============================================================
 """
 SLU – Sveriges lantbruksuniversitet
-Hämtar evenemang via RSS-feed och kalender-sida.
+Hämtar eventdatum från kalender-HTML, inte RSS-publiceringsdatum.
 """
 
 import feedparser
@@ -4756,60 +4731,87 @@ class SLUScraper(BaseScraper):
     name = "Sveriges lantbruksuniversitet (SLU)"
     source_id = "SLU"
     base_url = "https://www.slu.se"
-
-    FEEDS = [
-        "https://www.slu.se/rss/evenemang/",
-        "https://www.slu.se/rss/kurser-och-utbildning/",
-    ]
+    CALENDAR_URL = "https://www.slu.se/om-slu/kalender/"
 
     CATS_MAP = {
-        "skog": ["skog"],
-        "klimat": ["klimat"],
-        "jordbruk": ["mat"],
-        "livsmedel": ["mat"],
-        "vatten": ["vatten"],
-        "biodiversitet": ["biodiv"],
-        "biologisk mångfald": ["biodiv"],
-        "agroforestry": ["agroforestry"],
-        "skogsträdgård": ["skogstradgard"],
+        "skog": ["skog"], "klimat": ["klimat"], "jordbruk": ["mat"],
+        "livsmedel": ["mat"], "vatten": ["vatten"],
+        "biodiversitet": ["biodiv"], "biologisk mångfald": ["biodiv"],
+        "agroforestry": ["agroforestry"], "skogsträdgård": ["skogstradgard"],
     }
 
     def fetch(self) -> list[dict]:
         events = []
-        for feed_url in self.FEEDS:
-            try:
-                feed = feedparser.parse(feed_url)
-                for entry in feed.entries:
-                    title = entry.get("title", "")
-                    desc = entry.get("summary", "")
-                    link = entry.get("link", "")
 
-                    if not self.is_relevant(title, desc):
-                        continue
+        # Försök 1: Hämta HTML-kalendern – SLU har strukturerade event-sidor
+        try:
+            soup = self.soup(self.CALENDAR_URL)
+            # SLU använder article-element med time[datetime] för sina evenemang
+            for item in soup.select("article, .event, .calendar-event, li.event"):
+                title_el = item.select_one("h2, h3, .event-title, a")
+                if not title_el:
+                    continue
+                title = title_el.get_text(strip=True)
+                if not title or len(title) < 5:
+                    continue
 
-                    # Datum från published eller updated
-                    date_str = None
-                    if hasattr(entry, "published_parsed") and entry.published_parsed:
-                        import time
-                        t = entry.published_parsed
-                        date_str = f"{t.tm_year}-{t.tm_mon:02d}-{t.tm_mday:02d}"
-                    elif hasattr(entry, "updated_parsed") and entry.updated_parsed:
-                        t = entry.updated_parsed
-                        date_str = f"{t.tm_year}-{t.tm_mon:02d}-{t.tm_mday:02d}"
+                # Hämta riktigt eventdatum från <time datetime="...">
+                time_el = item.select_one("time[datetime]")
+                date_str = None
+                if time_el:
+                    date_str = self.parse_swedish_date(time_el["datetime"])
+                if not date_str:
+                    date_el = item.select_one("time, .date, .event-date")
+                    if date_el:
+                        date_str = self.parse_swedish_date(date_el.get_text(strip=True))
+                if not date_str:
+                    continue
 
-                    if not date_str:
-                        continue
+                link_el = item.select_one("a[href]")
+                link = link_el["href"] if link_el else self.CALENDAR_URL
+                if link and not link.startswith("http"):
+                    link = self.base_url + link
 
-                    cats = self._guess_cats(title + " " + desc)
-                    events.append(self.event(
-                        title=title,
-                        date_iso=date_str,
-                        url=link or self.base_url + "/om-slu/kalender/",
-                        description=desc,
-                        categories=cats,
-                    ))
-            except Exception as e:
-                print(f"    SLU feed {feed_url}: {e}")
+                desc_el = item.select_one("p, .preamble, .description")
+                desc = desc_el.get_text(strip=True) if desc_el else ""
+
+                cats = self._guess_cats(title + " " + desc)
+                events.append(self.event(
+                    title=title, date_iso=date_str, url=link,
+                    description=desc, categories=cats,
+                ))
+        except Exception as e:
+            print(f"    SLU HTML: {e}")
+
+        # Försök 2: RSS som fallback – publiceringsdatum men bättre än inget
+        if not events:
+            for feed_url in [
+                "https://www.slu.se/rss/evenemang/",
+                "https://www.slu.se/rss/kurser-och-utbildning/",
+            ]:
+                try:
+                    feed = feedparser.parse(feed_url)
+                    for entry in feed.entries:
+                        title = entry.get("title", "")
+                        desc = entry.get("summary", "")
+                        if not self.is_relevant(title, desc):
+                            continue
+                        date_str = None
+                        if hasattr(entry, "published_parsed") and entry.published_parsed:
+                            t = entry.published_parsed
+                            date_str = f"{t.tm_year}-{t.tm_mon:02d}-{t.tm_mday:02d}"
+                        if not date_str:
+                            continue
+                        cats = self._guess_cats(title + " " + desc)
+                        events.append(self.event(
+                            title=title,
+                            date_iso=date_str,
+                            url=entry.get("link", self.CALENDAR_URL),
+                            description=desc,
+                            categories=cats,
+                        ))
+                except Exception as e:
+                    print(f"    SLU RSS {feed_url}: {e}")
 
         return events
 
