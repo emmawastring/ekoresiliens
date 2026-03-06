@@ -346,7 +346,7 @@ footer a:hover{text-decoration:underline;}
 
 <footer>
   <p>Ekoresiliens är en oberoende samlingstjänst för gröna evenemang och kunskapsresurser.<br>
-  Skapad av <a href="https://github.com/emmawastring">Emma Wastring</a> &nbsp;|&nbsp;
+  Skapad av <a href="https://github.com/emmawastring">Emma Wastring</a> (<a href="https://geekyfarmers.com/" target="_blank" rel="noopener">Geeky Farmers</a>) &nbsp;|&nbsp;
   Källdata från respektive organisation &nbsp;|&nbsp;
   <a href="https://github.com/emmawastring/ekoresiliens">GitHub</a> &nbsp;|&nbsp;
   <a href="https://github.com/emmawastring/ekoresiliens/issues">Föreslå källa</a></p>
@@ -514,16 +514,20 @@ function updateSourceToggleButton() {
 function buildKBSourceList() {
   const list = document.getElementById('kbSourceList');
   list.innerHTML = '';
-  
+
   // "Välj alla/Avmarkera alla" knapp
   const buttonDiv = document.createElement('div');
   buttonDiv.style.marginBottom = '0.7rem';
   buttonDiv.innerHTML = `
     <button style="font-size:.75rem;padding:4px 8px;background:#588157;color:#fff;border:none;border-radius:6px;cursor:pointer;width:100%;font-weight:500" onclick="toggleAllKBSources()">Avmarkera alla</button>`;
   list.appendChild(buttonDiv);
-  
+
   // Inkludera alla källor från kunskapsresurser
-  const allSources = [...new Set(allKB.map(r => r.source_name || r.source))].sort();
+  // både "source_name" och "source" används eftersom vissa poster kan sakna ett av dem
+  const allSources = [...new Set(
+    allKB.flatMap(r => [r.source_name, r.source]).filter(Boolean)
+  )].sort();
+
   allSources.forEach(src => {
     const count = allKB.filter(r => (r.source_name || r.source) === src).length;
     const label = document.createElement('label');
@@ -536,7 +540,6 @@ function buildKBSourceList() {
     list.appendChild(label);
   });
 }
-
 function updateKBSourceToggleButton() {
   const allChecked = Array.from(document.querySelectorAll('#kbSourceList input[type="checkbox"]')).every(c => c.checked);
   const button = document.querySelector('#kbSourceList button');
