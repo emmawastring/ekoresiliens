@@ -443,7 +443,15 @@ const SOURCE_LABELS = {
 function buildSourceList() {
   const list = document.getElementById('sourceList');
   list.innerHTML = '';
-  // Inkludera alla kända källor + de som faktiskt finns i data
+  
+  // "Välj alla/Avmarkera alla" knapp
+  const buttonDiv = document.createElement('div');
+  buttonDiv.style.marginBottom = '0.7rem';
+  buttonDiv.innerHTML = `
+    <button style="font-size:.75rem;padding:4px 8px;background:#588157;color:#fff;border:none;border-radius:6px;cursor:pointer;width:100%;font-weight:500" onclick="toggleAllSources()">Välj alla</button>`;
+  list.appendChild(buttonDiv);
+  
+  // Inkludera alla kända kilder + de som faktiskt finns i data
   const allSources = [...new Set([...Object.keys(SOURCE_LABELS), ...sourcesInData])].sort();
   allSources.forEach(src => {
     const count = allWebinars.filter(e => e.source_id === src).length;
@@ -451,26 +459,41 @@ function buildSourceList() {
     const label = document.createElement('label');
     label.className = 'source-item';
     label.innerHTML = `
-      <input type="checkbox" ${count > 0 ? 'checked' : ''} value="${src}" onchange="applyFilters()">
+      <input type="checkbox" checked value="${src}" onchange="applyFilters()">
       <span class="source-logo">${src}</span>
       ${SOURCE_LABELS[src] || src}
-      ${count > 0 ? `<span style="margin-left:auto;font-size:.7rem;color:#9aaa98">${count}</span>` : ''}`;
+      ${count > 0 ? `<span style="margin-left:auto;font-size:.7rem;color:#9aaa98">${count}</span>` : ''}`;;
     list.appendChild(label);
   });
+}
+
+function toggleAllSources() {
+  const allChecked = Array.from(document.querySelectorAll('#sourceList input[type="checkbox"]')).every(c => c.checked);
+  const button = document.querySelector('#sourceList button');
+  document.querySelectorAll('#sourceList input[type="checkbox"]').forEach(c => {
+    c.checked = !allChecked;
+  });
+  button.textContent = allChecked ? 'Välj alla' : 'Avmarkera alla';
+  applyFilters();
+}
+
+// Uppdatera knapptext vid filterändring
+function updateSourceToggleButton() {
+  const allChecked = Array.from(document.querySelectorAll('#sourceList input[type="checkbox"]')).every(c => c.checked);
+  const button = document.querySelector('#sourceList button');
+  if (button) button.textContent = allChecked ? 'Avmarkera alla' : 'Välj alla';
 }
 
 function buildKBSourceList() {
   const list = document.getElementById('kbSourceList');
   list.innerHTML = '';
   
-  // Lägg till "Alla" alternativet först
-  const allLabel = document.createElement('label');
-  allLabel.className = 'source-item';
-  allLabel.innerHTML = `
-    <input type="checkbox" ${activeKBSource === 'all' ? 'checked' : ''} value="all" onchange="selectKBSource(this)">
-    <span class="source-logo">ALL</span>
-    Alla källor`;
-  list.appendChild(allLabel);
+  // "Välj alla/Avmarkera alla" knapp
+  const buttonDiv = document.createElement('div');
+  buttonDiv.style.marginBottom = '0.7rem';
+  buttonDiv.innerHTML = `
+    <button style="font-size:.75rem;padding:4px 8px;background:#588157;color:#fff;border:none;border-radius:6px;cursor:pointer;width:100%;font-weight:500" onclick="toggleAllKBSources()">Avmarkera alla</button>`;
+  list.appendChild(buttonDiv);
   
   // Inkludera alla källor från kunskapsresurser
   const allSources = [...new Set(allKB.map(r => r.source_name || r.source))].sort();
@@ -479,7 +502,7 @@ function buildKBSourceList() {
     const label = document.createElement('label');
     label.className = 'source-item';
     label.innerHTML = `
-      <input type="checkbox" ${activeKBSource === 'all' || activeKBSource === src ? 'checked' : ''} value="${src}" onchange="selectKBSource(this)">
+    <input type="checkbox" checked value="${src}" onchange="selectKBSourceCheckbox(this)">
       <span class="source-logo">${src.substring(0,3).toUpperCase()}</span>
       ${src}
       <span style="margin-left:auto;font-size:.7rem;color:#9aaa98">${count}</span>`;
@@ -487,9 +510,27 @@ function buildKBSourceList() {
   });
 }
 
-// ═══════════════════════════════════════════
-// TABS
-// ═══════════════════════════════════════════
+function updateKBSourceToggleButton() {
+  const allChecked = Array.from(document.querySelectorAll('#kbSourceList input[type="checkbox"]')).every(c => c.checked);
+  const button = document.querySelector('#kbSourceList button');
+  if (button) button.textContent = allChecked ? 'Avmarkera alla' : 'Välj alla';
+}
+
+function toggleAllKBSources() {
+  const allChecked = Array.from(document.querySelectorAll('#kbSourceList input[type="checkbox"]')).every(c => c.checked);
+  const button = document.querySelector('#kbSourceList button');
+  document.querySelectorAll('#kbSourceList input[type="checkbox"]').forEach(c => {
+    c.checked = !allChecked;
+  });
+  button.textContent = allChecked ? 'Välj alla' : 'Avmarkera alla';
+  renderKB();
+}
+
+function selectKBSourceCheckbox(el) {
+  updateKBSourceToggleButton();
+  renderKB();
+}
+
 function switchTab(name) {
   document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('active'));
   document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
@@ -521,25 +562,14 @@ function selectKBType(el) {
   document.querySelectorAll('#kbTypeChips .chip').forEach(c => c.classList.remove('active'));
   el.classList.add('active'); activeKBType = el.dataset.kbtype; renderKB();
 }
-function selectKBSource(el) {
-  if (el.value === 'all') {
-    // Om "Alla" väljs, avmarkera alla andra
-    document.querySelectorAll('#kbSourceList input').forEach(c => c.checked = false);
-    el.checked = true;
-    activeKBSource = 'all';
-  } else {
-    // Om en specifik källa väljs, avmarkera "Alla"
-    document.querySelector('#kbSourceList input[value="all"]').checked = false;
-    activeKBSource = el.checked ? el.value : 'all';
-  }
-  renderKB();
-}
 
 // ═══════════════════════════════════════════
 // WEBINAR FILTER + RENDER
 // ═══════════════════════════════════════════
 function getActiveSources() {
-  return Array.from(document.querySelectorAll('#sourceList input:checked')).map(el => el.value);
+  const checkedSources = Array.from(document.querySelectorAll('#sourceList input[type="checkbox"]:checked')).map(el => el.value);
+  // Om inga är markerade, behandla som "välj alla"
+  return checkedSources.length === 0 ? Array.from(document.querySelectorAll('#sourceList input[type="checkbox"]')).map(el => el.value) : checkedSources;
 }
 function getSearchText() {
   return (document.getElementById('searchInput')?.value || '').toLowerCase();
@@ -577,6 +607,7 @@ function applyFilters() {
 
   renderCards(f);
   document.getElementById('visibleCount').textContent = f.length;
+  updateSourceToggleButton();
 }
 
 function renderCards(list) {
@@ -622,13 +653,19 @@ function renderCards(list) {
 // ═══════════════════════════════════════════
 // KNOWLEDGE BANK RENDER
 // ═══════════════════════════════════════════
+function getActiveKBSources() {
+  const checked = Array.from(document.querySelectorAll('#kbSourceList input[type="checkbox"]:checked')).map(el => el.value);
+  return checked.length === 0 ? [] : checked;
+}
+
 function renderKB() {
   const q = (document.getElementById('kbSearch')?.value || '').toLowerCase();
+  const activeSources = getActiveKBSources();
 
   let f = allKB.filter(r => {
     if (activeKBType !== 'all' && r.type !== activeKBType) return false;
     if (activeKBCat  !== 'all' && !(r.cats || []).includes(activeKBCat)) return false;
-    if (activeKBSource !== 'all' && (r.source_name || r.source) !== activeKBSource) return false;
+    if (activeSources.length > 0 && !activeSources.includes(r.source_name || r.source)) return false;
     if (q && !r.title.toLowerCase().includes(q) && !(r.desc||'').toLowerCase().includes(q)) return false;
     return true;
   });
@@ -637,6 +674,7 @@ function renderKB() {
   const empty = document.getElementById('kbEmpty');
   if (!f.length) { cont.innerHTML = ''; empty.style.display = 'block'; return; }
   empty.style.display = 'none';
+  updateKBSourceToggleButton();
 
   // Gruppera per kategori
   const categories = [...new Set(f.flatMap(r => r.cats || []))].sort();
