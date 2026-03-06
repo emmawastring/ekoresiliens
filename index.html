@@ -249,6 +249,15 @@ footer a:hover{text-decoration:underline;}
         </div>
 
         <div class="filter-group">
+          <div class="filter-group-label">Språk</div>
+          <div class="chip-group" id="langChips">
+            <div class="chip active" data-lang="all"   onclick="selectLang(this)">Alla</div>
+            <div class="chip" data-lang="svenska"      onclick="selectLang(this)">Svenska</div>
+            <div class="chip" data-lang="engelska"     onclick="selectLang(this)">Engelska</div>
+          </div>
+        </div>
+
+        <div class="filter-group">
           <div class="filter-group-label">Källa</div>
           <div class="source-list" id="sourceList">
             <!-- Genereras dynamiskt från data -->
@@ -330,6 +339,15 @@ footer a:hover{text-decoration:underline;}
             <div class="chip" data-cat="skogstradgard"        onclick="selectCat(this,'kbCatChips')"><span class="chip-dot" style="background:#1a5c1a"></span>Skogsträdgård</div>
             <div class="chip" data-cat="video"             onclick="selectCat(this,'kbCatChips')"><span class="chip-dot" style="background:#6a1b9a"></span>Video</div>
             <div class="chip" data-cat="sparade"           onclick="selectCat(this,'kbCatChips')"><span class="chip-dot" style="background:#d47c52"></span>Sparade webbinarier</div>
+          </div>
+        </div>
+
+        <div class="filter-group">
+          <div class="filter-group-label">Språk</div>
+          <div class="chip-group" id="kbLangChips">
+            <div class="chip active" data-lang="all"   onclick="selectLang(this,'kbLangChips')">Alla</div>
+            <div class="chip" data-lang="svenska"      onclick="selectLang(this,'kbLangChips')">Svenska</div>
+            <div class="chip" data-lang="engelska"     onclick="selectLang(this,'kbLangChips')">Engelska</div>
           </div>
         </div>
 
@@ -583,7 +601,7 @@ function switchTab(name) {
 // ═══════════════════════════════════════════
 // CHIP HANDLERS
 // ═══════════════════════════════════════════
-let activeCat = 'all', activeTime = 'all', activeType = 'all', activeKBType = 'all', activeKBCat = 'all', activeKBSource = 'all';
+let activeCat = 'all', activeTime = 'all', activeType = 'all', activeLang = 'all', activeKBType = 'all', activeKBCat = 'all', activeKBLang = 'all', activeKBSource = 'all';
 
 function selectCat(el, groupId) {
   document.querySelectorAll('#' + groupId + ' .chip').forEach(c => c.classList.remove('active'));
@@ -599,6 +617,13 @@ function selectTime(el) {
 function selectType(el) {
   document.querySelectorAll('#typeChips .chip').forEach(c => c.classList.remove('active'));
   el.classList.add('active'); activeType = el.dataset.type; applyFilters();
+}
+function selectLang(el, groupId) {
+  document.querySelectorAll('#' + (groupId || 'langChips') + ' .chip').forEach(c => c.classList.remove('active'));
+  el.classList.add('active');
+  const v = el.dataset.lang;
+  if (groupId === 'kbLangChips') { activeKBLang = v; renderKB(); }
+  else { activeLang = v; applyFilters(); }
 }
 function selectKBType(el) {
   document.querySelectorAll('#kbTypeChips .chip').forEach(c => c.classList.remove('active'));
@@ -638,6 +663,13 @@ function applyFilters() {
   let f = allWebinars.filter(w => {
     if (srcs.length && !srcs.includes(w.source_id)) return false;
     if (activeCat !== 'all' && !(w.categories || []).includes(activeCat)) return false;
+    if (activeLang !== 'all') {
+      const text = (w.title + ' ' + (w.description || '')).toLowerCase();
+      const isSwedish = /\b(svenska|swedish|svenska|på svenska)\b/i.test(text);
+      const isEnglish = /\b(english|engelska|på engelska|in english)\b/i.test(text);
+      if (activeLang === 'svenska' && !isSwedish) return false;
+      if (activeLang === 'engelska' && !isEnglish) return false;
+    }
     if (activeType !== 'all') {
       const text = (w.title + ' ' + (w.description || '')).toLowerCase();
       const isWebinar = /\b(webbinar|online|zoom|teams|digitalt|livestream)\b/i.test(text);
@@ -722,6 +754,13 @@ function renderKB() {
   let f = allKB.filter(r => {
     if (activeKBType !== 'all' && r.type !== activeKBType) return false;
     if (activeKBCat  !== 'all' && !(r.cats || []).includes(activeKBCat)) return false;
+    if (activeKBLang !== 'all') {
+      const text = (r.title + ' ' + (r.desc || '')).toLowerCase();
+      const isSwedish = /\b(svenska|swedish|svenska|på svenska)\b/i.test(text);
+      const isEnglish = /\b(english|engelska|på engelska|in english)\b/i.test(text);
+      if (activeKBLang === 'svenska' && !isSwedish) return false;
+      if (activeKBLang === 'engelska' && !isEnglish) return false;
+    }
     if (activeSources.length > 0 && !activeSources.includes(r.source_name || r.source)) return false;
     if (q && !r.title.toLowerCase().includes(q) && !(r.desc||'').toLowerCase().includes(q)) return false;
     return true;
