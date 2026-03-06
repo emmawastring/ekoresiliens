@@ -131,6 +131,7 @@ a.card:hover{transform:translateY(-3px);box-shadow:0 8px 28px rgba(58,90,64,.12)
 
 /* KB TAB */
 .kb-wrap{max-width:1280px;margin:0 auto;padding:2rem;}
+.kb-content{flex:1;min-width:0;}
 .kb-section{margin-bottom:2.5rem;}
 .kb-section-title{font-family:'Playfair Display',serif;font-size:1.15rem;color:var(--charcoal);margin-bottom:.9rem;display:flex;align-items:center;gap:10px;border-bottom:2px solid var(--mist);padding-bottom:.5rem;}
 .src-badge{font-family:'DM Sans',sans-serif;font-size:.72rem;background:var(--mist);color:var(--moss);padding:2px 9px;border-radius:20px;font-weight:600;}
@@ -274,47 +275,62 @@ footer a:hover{text-decoration:underline;}
 <!-- TAB 2 – KUNSKAPSBANKER & VERKTYG    -->
 <!-- ════════════════════════════════════ -->
 <div class="tab-panel" id="panel-kunskapsbank">
-  <div class="panel-filter-bar">
-    <span class="filter-label">Typ:</span>
-    <div class="chip-row" id="kbTypeChips">
-      <div class="chip active" data-kbtype="all"    onclick="selectKBType(this)">Alla</div>
-      <div class="chip" data-kbtype="databas"       onclick="selectKBType(this)">Databas</div>
-      <div class="chip" data-kbtype="verktyg"       onclick="selectKBType(this)">Verktyg</div>
-      <div class="chip" data-kbtype="karta"         onclick="selectKBType(this)">Karta</div>
-      <div class="chip" data-kbtype="rapport"       onclick="selectKBType(this)">Rapport</div>
-      <div class="chip" data-kbtype="guide"         onclick="selectKBType(this)">Guide</div>
-      <div class="chip" data-kbtype="portal"        onclick="selectKBType(this)">Portal</div>
-      <div class="chip" data-kbtype="natverk"       onclick="selectKBType(this)">Nätverk</div>
-    </div>
-    <span class="filter-label">Kategori:</span>
-    <div class="chip-row" id="kbCatChips">
-      <div class="chip active" data-cat="all"           onclick="selectCat(this,'kbCatChips')">Alla</div>
-      <div class="chip" data-cat="klimat"               onclick="selectCat(this,'kbCatChips')"><span class="chip-dot" style="background:#1b6b4e"></span>Klimat</div>
-      <div class="chip" data-cat="biodiv"               onclick="selectCat(this,'kbCatChips')"><span class="chip-dot" style="background:#2e7d32"></span>Biologisk mångfald</div>
-      <div class="chip" data-cat="skog"                 onclick="selectCat(this,'kbCatChips')"><span class="chip-dot" style="background:#33691e"></span>Skog</div>
-      <div class="chip" data-cat="vatten"               onclick="selectCat(this,'kbCatChips')"><span class="chip-dot" style="background:#1565c0"></span>Vatten</div>
-      <div class="chip" data-cat="mat"                  onclick="selectCat(this,'kbCatChips')"><span class="chip-dot" style="background:#880e4f"></span>Mat &amp; Jordbruk</div>
-      <div class="chip" data-cat="samhalle"             onclick="selectCat(this,'kbCatChips')"><span class="chip-dot" style="background:#e65100"></span>Samhälle</div>
-      <div class="chip" data-cat="policy"               onclick="selectCat(this,'kbCatChips')"><span class="chip-dot" style="background:#4527a0"></span>Policy</div>
-      <div class="chip" data-cat="agroforestry"         onclick="selectCat(this,'kbCatChips')"><span class="chip-dot" style="background:#2d6a2d"></span>Agroforestry</div>
-      <div class="chip" data-cat="skogstradgard"        onclick="selectCat(this,'kbCatChips')"><span class="chip-dot" style="background:#1a5c1a"></span>Skogsträdgård</div>
-    </div>
-    <span class="filter-label">Källa:</span>
-    <div class="source-list" id="kbSourceList">
-      <!-- Genereras dynamiskt från data -->
-    </div>
-    <input class="inline-search" type="text" placeholder="Sök resurser..." id="kbSearch" oninput="renderKB()">
-  </div>
-  <div class="kb-wrap">
-    <div id="kbLoading" class="state-box">
-      <div class="spinner"></div>
-      <p>Hämtar kunskapsresurser…</p>
-    </div>
-    <div id="kbContent"></div>
-    <div class="state-box" id="kbEmpty" style="display:none">
-      <div class="icon">📚</div>
-      <p>Inga resurser matchar sökningen.</p>
-    </div>
+  <div class="main-wrap">
+    <aside>
+      <div class="filter-card">
+        <div class="filter-title">🔍 Sök &amp; Filtrera</div>
+        <input class="search-box" type="text" placeholder="Sök resurs, ämne..." id="kbSearch" oninput="renderKB()">
+
+        <div class="filter-group">
+          <div class="filter-group-label">Typ</div>
+          <div class="chip-group" id="kbTypeChips">
+            <div class="chip active" data-kbtype="all"    onclick="selectKBType(this)">Alla</div>
+            <div class="chip" data-kbtype="databas"       onclick="selectKBType(this)">Databas</div>
+            <div class="chip" data-kbtype="verktyg"       onclick="selectKBType(this)">Verktyg</div>
+            <div class="chip" data-kbtype="karta"         onclick="selectKBType(this)">Karta</div>
+            <div class="chip" data-kbtype="rapport"       onclick="selectKBType(this)">Rapport</div>
+            <div class="chip" data-kbtype="guide"         onclick="selectKBType(this)">Guide</div>
+            <div class="chip" data-kbtype="portal"        onclick="selectKBType(this)">Portal</div>
+            <div class="chip" data-kbtype="natverk"       onclick="selectKBType(this)">Nätverk</div>
+          </div>
+        </div>
+
+        <div class="filter-group">
+          <div class="filter-group-label">Kategori</div>
+          <div class="chip-group" id="kbCatChips">
+            <div class="chip active" data-cat="all"           onclick="selectCat(this,'kbCatChips')">Alla</div>
+            <div class="chip" data-cat="klimat"               onclick="selectCat(this,'kbCatChips')"><span class="chip-dot" style="background:#1b6b4e"></span>Klimat</div>
+            <div class="chip" data-cat="biodiv"               onclick="selectCat(this,'kbCatChips')"><span class="chip-dot" style="background:#2e7d32"></span>Biologisk mångfald</div>
+            <div class="chip" data-cat="skog"                 onclick="selectCat(this,'kbCatChips')"><span class="chip-dot" style="background:#33691e"></span>Skog</div>
+            <div class="chip" data-cat="vatten"               onclick="selectCat(this,'kbCatChips')"><span class="chip-dot" style="background:#1565c0"></span>Vatten</div>
+            <div class="chip" data-cat="mat"                  onclick="selectCat(this,'kbCatChips')"><span class="chip-dot" style="background:#880e4f"></span>Mat &amp; Jordbruk</div>
+            <div class="chip" data-cat="samhalle"             onclick="selectCat(this,'kbCatChips')"><span class="chip-dot" style="background:#e65100"></span>Samhälle</div>
+            <div class="chip" data-cat="policy"               onclick="selectCat(this,'kbCatChips')"><span class="chip-dot" style="background:#4527a0"></span>Policy</div>
+            <div class="chip" data-cat="agroforestry"         onclick="selectCat(this,'kbCatChips')"><span class="chip-dot" style="background:#2d6a2d"></span>Agroforestry</div>
+            <div class="chip" data-cat="skogstradgard"        onclick="selectCat(this,'kbCatChips')"><span class="chip-dot" style="background:#1a5c1a"></span>Skogsträdgård</div>
+          </div>
+        </div>
+
+        <div class="filter-group">
+          <div class="filter-group-label">Källa</div>
+          <div class="source-list" id="kbSourceList">
+            <!-- Genereras dynamiskt från data -->
+          </div>
+        </div>
+      </div>
+    </aside>
+
+    <main>
+      <div id="kbLoading" class="state-box">
+        <div class="spinner"></div>
+        <p>Hämtar kunskapsresurser…</p>
+      </div>
+      <div id="kbContent"></div>
+      <div class="state-box" id="kbEmpty" style="display:none">
+        <div class="icon">📚</div>
+        <p>Inga resurser matchar sökningen.</p>
+      </div>
+    </main>
   </div>
 </div>
 
@@ -672,39 +688,27 @@ function renderKB() {
 
   const cont  = document.getElementById('kbContent');
   const empty = document.getElementById('kbEmpty');
-  if (!f.length) { cont.innerHTML = ''; empty.style.display = 'block'; return; }
+  if (!f.length) { cont.innerHTML = ''; empty.style.display = 'block'; updateKBSourceToggleButton(); return; }
   empty.style.display = 'none';
   updateKBSourceToggleButton();
 
-  // Gruppera per kategori
-  const categories = [...new Set(f.flatMap(r => r.cats || []))].sort();
-  cont.innerHTML = categories.map(cat => {
-    const items = f.filter(r => (r.cats || []).includes(cat));
-    if (items.length === 0) return '';
-    return `
-    <div class="kb-section">
-      <div class="kb-section-title">
-        ${tl(cat)}
-        <span class="src-badge">${items.length} resurser</span>
+  // Visas i enkelt grid utan kategorisektioner
+  cont.innerHTML = `<div class="kb-grid">
+    ${f.map(r => `
+    <a class="kb-card" href="${r.url}" target="_blank" rel="noopener noreferrer">
+      <div class="kb-card-top">
+        <span class="kb-icon">${r.icon || '📄'}</span>
+        <span class="kb-type-badge type-${r.type}">${r.type.charAt(0).toUpperCase()+r.type.slice(1)}</span>
       </div>
-      <div class="kb-grid">
-        ${items.map(r => `
-        <a class="kb-card" href="${r.url}" target="_blank" rel="noopener noreferrer">
-          <div class="kb-card-top">
-            <span class="kb-icon">${r.icon || '📄'}</span>
-            <span class="kb-type-badge type-${r.type}">${r.type.charAt(0).toUpperCase()+r.type.slice(1)}</span>
-          </div>
-          <div class="kb-title">${r.title}</div>
-          <div class="kb-desc">${r.desc || ''}</div>
-          <div class="kb-tags">${(r.cats||[]).map(t=>`<span class="tag cat-${t}">${tl(t)}</span>`).join('')}</div>
-          <div class="kb-footer">
-            <span class="kb-source-small">${r.source}</span>
-            <span class="kb-link-hint">Öppna →</span>
-          </div>
-        </a>`).join('')}
+      <div class="kb-title">${r.title}</div>
+      <div class="kb-desc">${r.desc || ''}</div>
+      <div class="kb-tags">${(r.cats||[]).map(t=>`<span class="tag cat-${t}">${tl(t)}</span>`).join('')}</div>
+      <div class="kb-footer">
+        <span class="kb-source-small">${r.source}</span>
+        <span class="kb-link-hint">Öppna →</span>
       </div>
-    </div>`;
-  }).join('');
+    </a>`).join('')}
+  </div>`;
 }
 
 // ═══════════════════════════════════════════

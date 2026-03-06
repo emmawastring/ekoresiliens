@@ -9,48 +9,46 @@ class EnergimyndighetenScraper(BaseScraper):
     def fetch(self) -> list[dict]:
         events = []
         try:
-            import requests
             from bs4 import BeautifulSoup
             
-            response = requests.get(self.EVENTS_URL, timeout=10)
-            response.encoding = 'utf-8'
-            soup = BeautifulSoup(response.content, 'html.parser')
+            soup = self.soup(self.EVENTS_URL)
             
-            # Find event containers
-            for item in soup.select('article, .event, li'):
-                title_elem = item.select_one('h2, h3, a')
-                if not title_elem:
+            # Event-länkar är strukturerade som: <a>Titel - Kategori - Datum Tid</a>
+            for link in soup.select('a[href*="/kalender/"]'):
+                full_text = link.get_text(strip=True)
+                href = link.get('href', '')
+                
+                if not href or href == '/':
                     continue
                 
-                title = title_elem.get_text(strip=True)
+                # Lägg till base_url om det är en relativ länk
+                if not href.startswith('http'):
+                    href = self.base_url + href
                 
-                # Skip non-event items
+                # Exempel: "Dialogmöte laddinfrastruktur - Seminarier - 10 mars 10:00-15:00"
+                parts = full_text.split(' - ')
+                if len(parts) < 2:
+                    continue
+                
+                title = parts[0].strip()
+                if not title or len(title) < 5:
+                    continue
+                
+                # Försök extrahera datum från länktext
+                date_iso = self.parse_swedish_date(full_text)
+                if not date_iso:
+                    continue
+                
                 if not self.is_relevant(title):
                     continue
                 
-                # Extract date
-                date_elem = item.select_one('time, .date, [data-date]')
-                date_text = date_elem.get_text(strip=True) if date_elem else ""
-                date_iso = self.parse_swedish_date(date_text + " " + title)
-                
-                # Extract description
-                desc_elem = item.select_one('p, .excerpt, .description')
-                description = desc_elem.get_text(strip=True) if desc_elem else ""
-                
-                # Extract URL
-                link_elem = item.select_one('a[href]')
-                url = link_elem['href'] if link_elem else ""
-                if url and not url.startswith('http'):
-                    url = self.base_url + url
-                
-                if date_iso:
-                    events.append(self.event(
-                        title=title,
-                        date_iso=date_iso,
-                        url=url,
-                        description=description,
-                        categories=["energi", "klimat"]
-                    ))
+                events.append(self.event(
+                    title=title,
+                    date_iso=date_iso,
+                    url=href,
+                    description='',
+                    categories=["energi", "klimat"]
+                ))
         
         except Exception as e:
             print(f"Error in {self.name}: {e}")

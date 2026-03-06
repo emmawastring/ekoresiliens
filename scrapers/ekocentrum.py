@@ -9,48 +9,45 @@ class EkocentrumScraper(BaseScraper):
     def fetch(self) -> list[dict]:
         events = []
         try:
-            import requests
             from bs4 import BeautifulSoup
             
-            response = requests.get(self.EVENTS_URL, timeout=10)
-            response.encoding = 'utf-8'
-            soup = BeautifulSoup(response.content, 'html.parser')
+            soup = self.soup(self.EVENTS_URL)
             
-            # Find event containers
-            for item in soup.select('article, .event, li'):
-                title_elem = item.select_one('h2, h3, a')
-                if not title_elem:
+            # Event-titlar är i <h3><a>Titel</a></h3>, datum följer i nästa element
+            for h3 in soup.select('h3'):
+                link = h3.select_one('a')
+                if not link:
                     continue
                 
-                title = title_elem.get_text(strip=True)
+                title = link.get_text(strip=True)
+                href = link.get('href', '')
                 
-                # Skip non-event items
+                if not title or not href:
+                    continue
+                
+                if not href.startswith('http'):
+                    href = self.base_url + href
+                
+                # Försök hitta datum i följande sibling-element
+                date_text = ""
+                sibling = h3.find_next(['p', 'span', 'div'])
+                if sibling:
+                    date_text = sibling.get_text(strip=True)
+                
+                date_iso = self.parse_swedish_date(date_text + " " + title)
+                if not date_iso:
+                    continue
+                
                 if not self.is_relevant(title):
                     continue
                 
-                # Extract date
-                date_elem = item.select_one('time, .date, [data-date]')
-                date_text = date_elem.get_text(strip=True) if date_elem else ""
-                date_iso = self.parse_swedish_date(date_text + " " + title)
-                
-                # Extract description
-                desc_elem = item.select_one('p, .excerpt, .description')
-                description = desc_elem.get_text(strip=True) if desc_elem else ""
-                
-                # Extract URL
-                link_elem = item.select_one('a[href]')
-                url = link_elem['href'] if link_elem else ""
-                if url and not url.startswith('http'):
-                    url = self.base_url + url
-                
-                if date_iso:
-                    events.append(self.event(
-                        title=title,
-                        date_iso=date_iso,
-                        url=url,
-                        description=description,
-                        categories=["biodiv", "mat"]
-                    ))
+                events.append(self.event(
+                    title=title,
+                    date_iso=date_iso,
+                    url=href,
+                    description='',
+                    categories=["biodiv", "mat"]
+                ))
         
         except Exception as e:
             print(f"Error in {self.name}: {e}")
