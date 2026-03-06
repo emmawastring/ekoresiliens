@@ -286,6 +286,15 @@ footer a:hover{text-decoration:underline;}
             <div class="chip" data-cat="sparade" onclick="selectCat(this,'catChips')"><span class="chip-dot" style="background:#d47c52"></span>Sparade webbinarier</div>
           </div>
         </div>
+
+        <div class="filter-group">
+          <div class="filter-group-label">Tidpunkt</div>
+          <div class="chip-group" id="timeChips">
+            <div class="chip active" data-time="all"   onclick="selectTime(this)">Alla</div>
+            <div class="chip" data-time="week"         onclick="selectTime(this)">Denna vecka</div>
+            <div class="chip" data-time="month"        onclick="selectTime(this)">Denna månad</div>
+            <div class="chip" data-time="next"         onclick="selectTime(this)">Nästa månad</div>
+          </div>
         </div>
 
         <div class="filter-group">
