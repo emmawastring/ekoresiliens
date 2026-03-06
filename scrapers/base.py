@@ -26,18 +26,21 @@ class BaseScraper(ABC):
     }
     TIMEOUT = 15
 
-    # Nyckelord för att filtrera bort irrelevanta evenemang
-    RELEVANT_KEYWORDS = [
-        "webbinarium", "webinar", "seminarium", "föreläsning",
-        "workshop", "konferens", "online", "digitalt", "zoom",
-        "teams", "livestream", "öppet", "gratis",
-        # ämnesord
-        "klimat", "biologisk mångfald", "biodiversitet", "natur",
-        "skog", "vatten", "miljö", "hållbar", "ekosystem",
-        "agroforestry", "permakultur", "skogsträdgård",
-        "energi", "förnybar", "jordbruk", "livsmedel",
-        "samhälle", "stadsplanering", "naturvård",
+    # Nyckelord för att filtrera bort IRRELEVANTA evenemang (blacklist istället för whitelist)
+    IRRELEVANT_KEYWORDS = [
+        "shopping", "försäljning", "promotion", "discount", "köp",
+        "sport", "dans", "teater", "musik", "biljetter",
+        "konsert", "match", "äventyr", "tour", "resa",
     ]
+
+    def is_relevant(self, title: str, description: str = "") -> bool:
+        """
+        Returnerar True om eventet INTE är uppenbart irrelevant.
+        Använder blacklist istället för whitelist för att få mer data.
+        """
+        text = (title + " " + description).lower()
+        # Filtrera bara bort uppenbart irrelevant innehål
+        return not any(kw in text for kw in self.IRRELEVANT_KEYWORDS)
 
     def get(self, url: str, **kwargs) -> requests.Response:
         return requests.get(url, headers=self.HEADERS, timeout=self.TIMEOUT, **kwargs)
@@ -46,11 +49,6 @@ class BaseScraper(ABC):
         r = self.get(url, **kwargs)
         r.raise_for_status()
         return BeautifulSoup(r.text, "html.parser")
-
-    def is_relevant(self, title: str, description: str = "") -> bool:
-        """Returnerar True om eventet verkar relevant för sajten."""
-        text = (title + " " + description).lower()
-        return any(kw in text for kw in self.RELEVANT_KEYWORDS)
 
     def make_id(self, title: str, date: str) -> str:
         return hashlib.md5(f"{self.source_id}:{title}:{date}".encode()).hexdigest()[:12]
