@@ -901,8 +901,7 @@ function renderKB() {
     if (idx >= candidates.length) return; // alla misslyckades, behåll grön
     var img = new Image();
     img.onload = function() {
-      hero.style.backgroundImage =
-        'linear-gradient(rgba(20,35,20,.52),rgba(20,35,20,.52)), url(' + candidates[idx] + ')';
+      // Bild sätts på body via CSS, inget behövs här
     };
     img.onerror = function() { idx++; tryNext(); };
     img.src = candidates[idx];
