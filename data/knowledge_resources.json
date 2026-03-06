@@ -1165,6 +1165,19 @@
     "url": "https://www.yumpu.com/sv/document/view/46465891/ab-u-04-publikationer-fran-sveriges-byggindustrier"
   },
   {
+    "id": "kb107",
+    "source": "GEN",
+    "source_name": "Exempel",
+    "type": "video",
+    "icon": "💾",
+    "title": "Sparat webbinarium (demo)",
+    "desc": "Detta är ett test på kategori sparade webbinarier.",
+    "cats": [
+      "sparade"
+    ],
+    "url": "https://example.com"
+  },
+  {
     "id": "yt_zlZjwV675q4",
     "source": "Soil Food Web School",
     "source_name": "Soil Food Web School",
@@ -1553,18 +1566,5 @@
       "video"
     ],
     "url": "https://www.youtube.com/watch?v=bmklDb38k-U"
-  },
-  {
-    "id": "kb107",
-    "source": "GEN",
-    "source_name": "Exempel",
-    "type": "video",
-    "icon": "💾",
-    "title": "Sparat webbinarium (demo)",
-    "desc": "Detta är ett test på kategori sparade webbinarier.",
-    "cats": [
-      "sparade"
-    ],
-    "url": "https://example.com"
   }
 ]
