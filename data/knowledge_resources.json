@@ -1,108 +1,1570 @@
 [
-  {"id":"kb1","source":"SLU","source_name":"Sveriges lantbruksuniversitet (SLU)","type":"databas","icon":"🌾","title":"Artdatabanken – Svenska artprojektet","desc":"Nationell databas över svenska arters utbredning, rödlistning och ekologi. Uppdateras löpande med fynd och analyser.","cats":["biodiv"],"url":"https://www.artdatabanken.se"},
-  {"id":"kb2","source":"SLU","source_name":"Sveriges lantbruksuniversitet (SLU)","type":"portal","icon":"📡","title":"SLU Miljödata MVM","desc":"Öppen portal för nedladdning av svenska miljöövervakningsdata: vatten, mark, luft och biologisk mångfald.","cats":["vatten","biodiv","klimat"],"url":"https://miljodata.slu.se"},
-  {"id":"kb3","source":"SLU","source_name":"Sveriges lantbruksuniversitet (SLU)","type":"rapport","icon":"📄","title":"Hållbara jordbruk & ekosystem – rapportarkiv","desc":"Samlade vetenskapliga rapporter om hållbart jord- och skogsbruk, ekosystemtjänster och biologisk mångfald.","cats":["mat","skog","biodiv"],"url":"https://www.slu.se/miljo"},
-  {"id":"kb4","source":"SLU","source_name":"Sveriges lantbruksuniversitet (SLU)","type":"verktyg","icon":"🧮","title":"Riksskogstaxeringen – interaktivt verktyg","desc":"Utforska riksskogstaxeringens resultat per region, trädslag och tidsperiod.","cats":["skog"],"url":"https://www.slu.se/riksskogstaxeringen"},
-  {"id":"kb5","source":"SLU","source_name":"Sveriges lantbruksuniversitet (SLU)","type":"rapport","icon":"🌳","title":"Agroforestry i Sverige – kunskapssammanställning","desc":"SLU:s samlade forskning om träd på åkermark och i betesmarker i nordliga klimat.","cats":["agroforestry","skog","mat","klimat"],"url":"https://www.slu.se/agroforestry"},
-  {"id":"kb6","source":"SLU","source_name":"Sveriges lantbruksuniversitet (SLU)","type":"databas","icon":"🍎","title":"Pomologiska sällskapets sortdatabas","desc":"Databas med beskrivningar, bilder och odlingsdata för hundratals svenska och nordiska fruktsorter.","cats":["skogstradgard","mat"],"url":"https://www.klasspomologi.se"},
-  {"id":"kb7","source":"NV","source_name":"Naturvårdsverket","type":"portal","icon":"🏛","title":"Sveriges miljömål – uppföljningsportal","desc":"Officiell portal för uppföljning av de 16 nationella miljökvalitetsmålen med indikatorer och regionala data.","cats":["policy","klimat","biodiv"],"url":"https://sverigesmiljomal.se"},
-  {"id":"kb8","source":"NV","source_name":"Naturvårdsverket","type":"karta","icon":"🗺️","title":"Skyddad natur – kartviewer","desc":"Interaktiv karta över nationalparker, naturreservat och Natura 2000-områden.","cats":["biodiv"],"url":"https://skyddadnatur.naturvardsverket.se"},
-  {"id":"kb9","source":"NV","source_name":"Naturvårdsverket","type":"guide","icon":"📘","title":"Vägledning för klimatanpassning","desc":"Steg-för-steg vägledning för kommuner och länsstyrelser om riskbedömning, planering och åtgärder.","cats":["klimat","samhalle"],"url":"https://www.naturvardsverket.se/klimatanpassning"},
-  {"id":"kb10","source":"NV","source_name":"Naturvårdsverket","type":"databas","icon":"📊","title":"Naturvårdsregistret (NVR)","desc":"Nationell förteckning över skyddade naturområden med juridiska gränser, syfte och förvaltningsplan.","cats":["biodiv","policy"],"url":"https://nvpub.vic-metria.nu/naturvardsregistret"},
-  {"id":"kb11","source":"SKS","source_name":"Skogsstyrelsen","type":"karta","icon":"🌲","title":"Skogens pärlor – nyckelbiotopskarta","desc":"Kartläggning av skogsområden med höga naturvärden med sökfunktion per fastighet och kommun.","cats":["skog","biodiv"],"url":"https://kartor.skogsstyrelsen.se"},
-  {"id":"kb12","source":"SKS","source_name":"Skogsstyrelsen","type":"verktyg","icon":"🔧","title":"Heureka – skogsanalysverktyg","desc":"Planeringsverktyg för skötselanalys, kolbalans och biologisk mångfald i skogslandskapet.","cats":["skog","klimat"],"url":"https://www.slu.se/heureka"},
-  {"id":"kb13","source":"SKS","source_name":"Skogsstyrelsen","type":"guide","icon":"📗","title":"Skogsstyrelsens rådgivningsguider","desc":"Praktiska guider för skogsägare: hyggesfritt skogsbruk, viltanpassning, vattenhänsyn och kulturmiljö.","cats":["skog"],"url":"https://www.skogsstyrelsen.se/rad-och-stod"},
-  {"id":"kb14","source":"HaV","source_name":"Havs- och vattenmyndigheten","type":"portal","icon":"🌊","title":"VISS – Vatteninformationssystem Sverige","desc":"Officiell databas för statusklassning av sjöar, vattendrag, kustvatten och grundvatten.","cats":["vatten","policy"],"url":"https://viss.lansstyrelsen.se"},
-  {"id":"kb15","source":"HaV","source_name":"Havs- och vattenmyndigheten","type":"karta","icon":"🐟","title":"Havsplaneringsportalen","desc":"Interaktiv kartportal för havsplanering med lager för naturvärden, fiskeområden och mänsklig påverkan.","cats":["vatten","biodiv","policy"],"url":"https://havsplanering.havochvatten.se"},
-  {"id":"kb16","source":"SMHI","source_name":"SMHI","type":"databas","icon":"🌡️","title":"SMHI Klimatdata – öppna observationer","desc":"Gratis nedladdning av historiska klimatmätningar från 1700-talet till idag.","cats":["klimat"],"url":"https://www.smhi.se/data"},
-  {"id":"kb17","source":"SMHI","source_name":"SMHI","type":"verktyg","icon":"📈","title":"Klimatanalys – scenariotjänst","desc":"Interaktivt verktyg för att utforska klimatscenarier per kommun, säsong och klimatvariabel.","cats":["klimat","samhalle"],"url":"https://www.smhi.se/klimat/framtidens-klimat/klimatscenarier"},
-  {"id":"kb18","source":"SVA","source_name":"Vetenskap & Allmänhet","type":"rapport","icon":"🎓","title":"VA-barometern – förtroende för forskning","desc":"Undersökning om allmänhetens syn på forskning och vetenskap i Sverige.","cats":["samhalle"],"url":"https://v-a.se/va-barometern"},
-  {"id":"kb19","source":"RC","source_name":"Resurscentrum","type":"guide","icon":"♻️","title":"Handbok för hållbar samhällsplanering","desc":"Praktisk vägledning för kommunal planering med fokus på ekosystemtjänster och klimatsäkring.","cats":["samhalle","klimat"],"url":"https://www.resurscentrum.se"},
-  {"id":"kb20","source":"RC","source_name":"Resurscentrum","type":"verktyg","icon":"🏗️","title":"Klimatkalkyl – livscykelperspektiv på byggnader","desc":"Verktyg för att beräkna klimatpåverkan under hela livscykeln för bostäder och infrastruktur.","cats":["energi","samhalle","klimat"],"url":"https://www.resurscentrum.se"},
-  {"id":"kb21","source":"AF","source_name":"Agroforestry Sverige","type":"portal","icon":"🌳","title":"Agroforestry Sverige – kunskapsportal","desc":"Nationell samlingsplats för information om agroforestry: forskning, praktikerberättelser och policy.","cats":["agroforestry","mat","skog"],"url":"https://agroforestrysverige.se"},
-  {"id":"kb22","source":"AF","source_name":"Agroforestry Sverige","type":"guide","icon":"📐","title":"Etableringsguide för alléodling","desc":"Steg-för-steg guide till etablering av trädrader på åkermark: artval, planteringsavstånd och lönsamhetskalkyl.","cats":["agroforestry","mat"],"url":"https://agroforestrysverige.se/etablering"},
-  {"id":"kb23","source":"AF","source_name":"Agroforestry Sverige","type":"karta","icon":"📍","title":"Karta över agroforestrygårdar i Sverige","desc":"Interaktiv karta med kontaktuppgifter och besöksinfo till gårdar som tillämpar agroforestry.","cats":["agroforestry"],"url":"https://agroforestrysverige.se/karta"},
-  {"id":"kb24","source":"AF","source_name":"Agroforestry Sverige","type":"rapport","icon":"📊","title":"Ekosystemtjänster från träd på åkermark","desc":"Forskningsrapport om hur trädinslag på jordbruksmark påverkar pollinering, erosionsskydd och markbiologi.","cats":["agroforestry","biodiv","mat","klimat"],"url":"https://agroforestrysverige.se/forskning"},
-  {"id":"kb25","source":"AF","source_name":"Agroforestry Sverige","type":"natverk","icon":"🤝","title":"Nordiskt agroforestry-nätverk (NorAF)","desc":"Nordiskt samarbetsnätverk för forskare och praktiker. Nyhetsbrev, konferenser och gemensamma projekt.","cats":["agroforestry"],"url":"https://www.nordicagroforestry.org"},
-  {"id":"kb26","source":"PF","source_name":"Permakultur Sverige","type":"portal","icon":"🌀","title":"Permakultur Sverige – resursbank","desc":"Samlingsportal med kursutbud, artiklar, designexempel och kontakt till praktiker.","cats":["skogstradgard","agroforestry","biodiv"],"url":"https://www.permakultur.se"},
-  {"id":"kb27","source":"PF","source_name":"Permakultur Sverige","type":"guide","icon":"🌿","title":"Skogsträdgård steg för steg – designmanual","desc":"Praktisk designmanual: zonplanering, successionsdynamik, växtlistor och skötselkalender.","cats":["skogstradgard","mat","biodiv"],"url":"https://www.permakultur.se/skogstradgard"},
-  {"id":"kb28","source":"PF","source_name":"Permakultur Sverige","type":"databas","icon":"🌱","title":"Ätbara perenner – växtdatabas","desc":"Sökbar databas med hundratals ätbara perenner anpassade till nordiskt klimat.","cats":["skogstradgard","mat","biodiv"],"url":"https://www.permakultur.se/vaxtdatabas"},
-  {"id":"kb29","source":"PF","source_name":"Permakultur Sverige","type":"natverk","icon":"🌍","title":"Plants For A Future – internationell växtdatabas","desc":"Global referensdatabas med 8 000+ ätbara och nyttiga växter med detaljerad odlingsinfo.","cats":["skogstradgard","agroforestry","biodiv","mat"],"url":"https://pfaf.org"},
-  {"id":"kb30","source":"PF","source_name":"Permakultur Sverige","type":"rapport","icon":"🏡","title":"Urbana skogsträdgårdar i Norden – fallstudier","desc":"Dokumentation av tio nordiska skogsträdgårdsprojekt med analys av design och sociala effekter.","cats":["skogstradgard","samhalle","biodiv"],"url":"https://www.permakultur.se/forskning"},
-  {"id":"kb31","source":"NV","source_name":"Naturvårdsverket","type":"guide","icon":"📋","title":"Vägledning för dialog och samverkan","desc":"Praktiska råd för att organisera projekt med olika aktörer och intressen i samhällsplaneringen.","cats":["samhalle","policy"],"url":"https://www.naturvardsverket.se/4ac32a/contentassets/21f4dc14b6bf40089de0aaf2dcac03ac/vagledning-dialog-samverkan-gi-arbetet-2017-06-29.pdf"},
-  {"id":"kb32","source":"NV","source_name":"Naturvårdsverket","type":"portal","icon":"🏛","title":"Samhällsplanering och miljö","desc":"Vägledningar och stöd för hållbar samhällsplanering från Naturvårdsverket.","cats":["samhalle","policy"],"url":"https://www.naturvardsverket.se/amnesomraden/samhallsplanering/"},
-  {"id":"kb33","source":"NV","source_name":"Naturvårdsverket","type":"guide","icon":"📘","title":"Vägledning för samhällsplanering","desc":"Komplett vägledning för miljöhänsyn i samhällsplanering och byggande.","cats":["samhalle","policy"],"url":"https://www.naturvardsverket.se/vagledning-och-stod/samhallsplanering/"},
-  {"id":"kb34","source":"RC","source_name":"Resurscentrum","type":"guide","icon":"🏗️","title":"Vägledning för klimatkrav på byggnader","desc":"Praktisk guide för att implementera klimatkrav i byggprojekt och upphandling.","cats":["energi","samhalle","klimat"],"url":"https://byggtjanstcms.byggtjanst.se/globalassets/kunskapsbank/guider/vagledningklimatkravforbyggnader.pdf"},
-  {"id":"kb35","source":"RC","source_name":"Resurscentrum","type":"portal","icon":"📚","title":"Kunskapsbank för byggande","desc":"Samlingsplats för guider, verktyg och kunskap om hållbart byggande.","cats":["energi","samhalle"],"url":"https://byggtjanst.se/kunskapsbank/guider"},
-  {"id":"kb36","source":"RC","source_name":"Resurscentrum","type":"guide","icon":"📖","title":"Hållbarhetsmanual för städer","desc":"Omfattande manual för hållbar stadsutveckling med praktiska verktyg och exempel.","cats":["samhalle","klimat","biodiv"],"url":"https://library.uniteddiversity.coop/More_Books_and_Reports/Toolbox_for_Sustainable_City_Living.pdf"},
-  {"id":"kb37","source":"NV","source_name":"Naturvårdsverket","type":"guide","icon":"🏙️","title":"Urban Design Protocol","desc":"Internationell guide för hållbar stadsdesign och planeringsprocesser.","cats":["samhalle"],"url":"https://environment.govt.nz/assets/Publications/Files/urban-design-protocol-colour.pdf"},
-  {"id":"kb38","source":"RC","source_name":"Resurscentrum","type":"video","icon":"🎥","title":"Aktörer och intressen i samhällsplanering","desc":"Video om hur olika aktörer samverkar i stadsutvecklingsprojekt.","cats":["samhalle","policy"],"url":"https://www.youtube.com/watch?v=eS0PLUxabvA&ab_channel=SvenskByggtj%C3%A4nst"},
-  {"id":"kb39","source":"NV","source_name":"Naturvårdsverket","type":"karta","icon":"🗺️","title":"Översvämningsportal – avancerade kartor","desc":"Interaktiva kartor för översvämningsriskanalys och klimatanpassning.","cats":["vatten","klimat","samhalle"],"url":"https://gisapp.msb.se/Apps/oversvamningsportal/avancerade-kartor.html"},
-  {"id":"kb40","source":"LM","source_name":"Lantmäteriet","type":"portal","icon":"📊","title":"Geodata från Lantmäteriet","desc":"Officiella geodata och karttjänster för samhällsplanering och analys.","cats":["samhalle"],"url":"https://www.lantmateriet.se/sv/geodata/vara-produkter/produktlista/"},
-  {"id":"kb41","source":"NV","source_name":"Naturvårdsverket","type":"portal","icon":"🌐","title":"Svensk geodataportal","desc":"Nationell portal för geografiska data och tjänster.","cats":["samhalle"],"url":"https://www.dataportal.se/en/concepts/202_589"},
-  {"id":"kb42","source":"OT","source_name":"OpenTopography","type":"karta","icon":"🏔️","title":"OpenTopography – terrängdata","desc":"Global portal för högupplösta terrängdata och topografiska analyser.","cats":["samhalle"],"url":"https://portal.opentopography.org/"},
-  {"id":"kb43","source":"LS","source_name":"Länsstyrelsen","type":"portal","icon":"🗺️","title":"Geodataportalen","desc":"Regional geodataportal med miljö- och planeringsdata.","cats":["samhalle","biodiv"],"url":"https://ext-geodatakatalog.lansstyrelsen.se/GeodataKatalogen/srv/swe/catalog.search#/home"},
-  {"id":"kb44","source":"LS","source_name":"Länsstyrelsen","type":"karta","icon":"💧","title":"Ytvattenavrinning – lagpunkter","desc":"Karttjänst för analys av ytvattenflöden och dagvattenhantering.","cats":["vatten","samhalle"],"url":"https://ext-webbgis.lansstyrelsen.se/lsto_ytavrinning_lagpunkter/"},
-  {"id":"kb45","source":"Esri","source_name":"Esri Living Atlas","type":"karta","icon":"🌍","title":"Land Cover Explorer","desc":"Interaktiv global karttjänst för markanvändningsanalys och förändringsstudier.","cats":["samhalle","biodiv"],"url":"https://livingatlas.arcgis.com/landcoverexplorer/#mapCenter=12.52662%2C57.80724%2C13.96&mode=step&timeExtent=2017%2C2024&year=2024&month=9&renderingRule=0&downloadMode=true"},
-  {"id":"kb46","source":"BV","source_name":"Boverket","type":"guide","icon":"📋","title":"Beteckningssystem för detaljplaner","desc":"Officiell lista över beteckningar och planbestämmelser för detaljplanering.","cats":["policy","samhalle"],"url":"https://www.boverket.se/contentassets/29bb9be3ab61460992c1558ba2acfe4b/lista-over-beteckningssystemet-enligt-de-allmanna-raden-om-planbestammelser-for-detaljplan.pdf"},
-  {"id":"kb47","source":"NV","source_name":"Naturvårdsverket","type":"guide","icon":"⚖️","title":"Miljöbalken – vägledning","desc":"Komplett vägledning om miljöbalken och dess tillämpning i samhällsplanering.","cats":["policy","samhalle"],"url":"https://www.naturvardsverket.se/lagar-och-regler/om-miljobalken/"},
-  {"id":"kb48","source":"RG","source_name":"Riksdagen","type":"lag","icon":"📜","title":"Miljöbalken (1998:808)","desc":"Svensk författningssamling – miljöbalken med alla bestämmelser.","cats":["policy"],"url":"https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/miljobalk-1998808_sfs-1998-808/"},
-  {"id":"kb49","source":"NV","source_name":"Naturvårdsverket","type":"guide","icon":"🌱","title":"Ekologisk kompensation","desc":"Vägledning för att genomföra ekologisk kompensation vid exploatering.","cats":["biodiv","policy","samhalle"],"url":"https://www.naturvardsverket.se/vagledning-och-stod/samhallsplanering/ekologisk-kompensation/#E330816710"},
-  {"id":"kb50","source":"RG","source_name":"Regeringen","type":"rapport","icon":"📄","title":"SOU 2017:34 – Ekologisk kompensation","desc":"Statens offentliga utredning om ekologisk kompensation i Sverige.","cats":["biodiv","policy"],"url":"https://www.regeringen.se/rattsliga-dokument/statens-offentliga-utredningar/2017/04/sou-201734/"},
-  {"id":"kb51","source":"NV","source_name":"Naturvårdsverket","type":"guide","icon":"📘","title":"Handbok för ekologisk kompensation","desc":"Praktisk handbok med metoder och exempel för ekologisk kompensation.","cats":["biodiv","policy","samhalle"],"url":"https://www.naturvardsverket.se/4ac264/globalassets/media/publikationer-pdf/0100/978-91-620-0179-7.pdf"},
-  {"id":"kb52","source":"NV","source_name":"Naturvårdsverket","type":"guide","icon":"🦋","title":"Natura 2000 i Sverige","desc":"Vägledning om EU:s nätverk av skyddade naturområden och dess betydelse.","cats":["biodiv","policy"],"url":"https://www.naturvardsverket.se/vagledning-och-stod/skyddad-natur/natura-2000-i-sverige/#E-679475272"},
-  {"id":"kb53","source":"VC","source_name":"Viable Cities","type":"portal","icon":"🌆","title":"Viable Cities – hållbara städer","desc":"Samarbetsplattform för hållbar stadsutveckling med fokus på klimatmål.","cats":["samhalle","klimat"],"url":"https://viablecities.se/om/"},
-  {"id":"kb54","source":"NV","source_name":"Naturvårdsverket","type":"guide","icon":"🏙️","title":"3-30-300 regeln för urbana ekosystem","desc":"Internationell riktlinje för grönyta och träd i städer för bättre hälsa och klimat.","cats":["samhalle","biodiv"],"url":"https://se.thegreencities.eu/fakta-om-3-30-300/"},
-  {"id":"kb55","source":"BV","source_name":"Boverket","type":"guide","icon":"🌳","title":"Vägledning för urbana ekosystem","desc":"Ny vägledning för att stärka urbana ekosystem genom planering och design.","cats":["samhalle","biodiv"],"url":"https://www.boverket.se/sv/om-boverket/nyheter-aktuellt/nyheter/ny-vagledning-och-uppfoljning-for-att-starka-urbana-ekosystem/"},
-  {"id":"kb56","source":"FN","source_name":"FN","type":"portal","icon":"🌍","title":"Globala målen för hållbar utveckling","desc":"Agenda 2030 med 17 globala mål för hållbar utveckling.","cats":["policy","samhalle"],"url":"https://globalamalen.se/om-globala-malen/"},
-  {"id":"kb57","source":"EU","source_name":"EU","type":"portal","icon":"🇪🇺","title":"European Green Deal","desc":"EU:s strategi för klimatneutralitet och hållbar tillväxt till 2050.","cats":["policy","klimat","energi"],"url":"https://www.consilium.europa.eu/sv/policies/european-green-deal/"},
-  {"id":"kb58","source":"FI","source_name":"Finansinspektionen","type":"guide","icon":"💰","title":"EU-taxonomin för hållbara investeringar","desc":"Klassificeringssystem för att identifiera hållbara ekonomiska aktiviteter.","cats":["policy","energi","klimat"],"url":"https://www.fi.se/sv/hallbarhet/regler/taxonomi/"},
-  {"id":"kb59","source":"RG","source_name":"Regeringen","type":"portal","icon":"📋","title":"Globala mål och Agenda 2030","desc":"Svensk strategi för genomförande av FN:s hållbarhetsmål.","cats":["policy","samhalle"],"url":"https://www.regeringen.se/regeringens-politik/globala-malen-och-agenda-2030/17-globala-mal-for-hallbar-utveckling/"},
-  {"id":"kb60","source":"NV","source_name":"Naturvårdsverket","type":"portal","icon":"🎯","title":"Sveriges miljömål","desc":"De 16 nationella miljökvalitetsmålen för hållbar utveckling i Sverige.","cats":["policy","klimat","biodiv"],"url":"https://www.sverigesmiljomal.se/"},
-  {"id":"kb61","source":"NV","source_name":"Naturvårdsverket","type":"portal","icon":"🗺️","title":"Regionala handlingsplaner för grön infrastruktur","desc":"Regionala strategier för att utveckla sammanhängande grön infrastruktur.","cats":["samhalle","biodiv"],"url":"https://www.naturvardsverket.se/amnesomraden/mark-och-vattenanvandning/gron-infrastruktur/regionala-handlingsplaner/"},
-  {"id":"kb62","source":"AK","source_name":"Alingsås kommun","type":"plan","icon":"📄","title":"Klimatstrategi för Alingsås kommun","desc":"Lokalt exempel på klimatstrategi med konkreta åtgärder och mål.","cats":["samhalle","klimat"],"url":"https://www.alingsas.se/wp-content/uploads/networks/1/sites/6/2022/06/Klimatstrategi-for-Alingsas-kommun.pdf"},
-  {"id":"kb63","source":"BV","source_name":"Boverket","type":"guide","icon":"🌿","title":"Ekosystemtjänster i PBL-kunskapsbanken","desc":"Vägledningar och verktyg för att integrera ekosystemtjänster i planeringen.","cats":["samhalle","biodiv"],"url":"https://www.boverket.se/sv/PBL-kunskapsbanken/teman/ekosystemtjanster/"},
-  {"id":"kb64","source":"NV","source_name":"Naturvårdsverket","type":"portal","icon":"🌱","title":"Vägledningar om ekosystemtjänster","desc":"Samling av guider, verktyg och lärande exempel för ekosystemtjänster.","cats":["samhalle","biodiv"],"url":"https://www.naturvardsverket.se/amnesomraden/mark-och-vattenanvandning/ekosystemtjanster/vagledningar-verktyg-och-larande-exempel/"},
-  {"id":"kb65","source":"UNEP","source_name":"UNEP","type":"rapport","icon":"📊","title":"Millennium Ecosystem Assessment","desc":"Global bedömning av ekosystem och mänskligt välbefinnande.","cats":["biodiv","samhalle"],"url":"https://www.millenniumassessment.org/en/index.html"},
-  {"id":"kb66","source":"CoCity","source_name":"CoCity","type":"guide","icon":"🧰","title":"Ekosystemtjänster – verktygslåda","desc":"Praktisk verktygslåda för att arbeta med ekosystemtjänster i stadsplanering.","cats":["samhalle","biodiv"],"url":"https://www.cocity.se/wp-content/uploads/2021/11/est_en-verktygslada_low.pdf"},
-  {"id":"kb67","source":"CoCity","source_name":"CoCity","type":"guide","icon":"🌳","title":"Gröna lösningar för levande städer","desc":"Guide om naturbaserade lösningar för urbana miljöer.","cats":["samhalle","biodiv"],"url":"https://www.cocity.se/wp-content/uploads/2018/06/grona_losningar_levande_stader-1.pdf"},
-  {"id":"kb68","source":"CoCity","source_name":"CoCity","type":"guide","icon":"📈","title":"Ekosystemtjänster i stadsplanering","desc":"Fördjupad guide om ekosystemtjänster och deras värde i stadsutveckling.","cats":["samhalle","biodiv"],"url":"https://www.cocity.se/wp-content/uploads/2023/03/ekosystemtjanster-i-stadsplanering_low.pdf"},
-  {"id":"kb69","source":"BV","source_name":"Boverket","type":"verktyg","icon":"🧮","title":"ESTER – kartläggningsverktyg","desc":"Interaktivt verktyg för att kartlägga och värdera ekosystemtjänster.","cats":["samhalle","biodiv"],"url":"https://www.boverket.se/sv/PBL-kunskapsbanken/teman/ekosystemtjanster/verktyg/ester/"},
-  {"id":"kb70","source":"UNEP","source_name":"UNEP","type":"portal","icon":"💰","title":"TEEB – The Economics of Ecosystems and Biodiversity","desc":"Globalt initiativ för att integrera naturvärden i beslutsfattande.","cats":["biodiv","policy"],"url":"https://www.unep.org/topics/teeb"},
-  {"id":"kb71","source":"CICES","source_name":"CICES","type":"guide","icon":"📊","title":"Common International Classification of Ecosystem Services","desc":"Internationell klassificering av ekosystemtjänster för jämförbarhet.","cats":["biodiv","samhalle"],"url":"https://cices.eu/"},
-  {"id":"kb72","source":"BV","source_name":"Boverket","type":"material","icon":"🎨","title":"Grafiskt material – ekosystemtjänster","desc":"Visualiseringsmaterial och diagram för att kommunicera ekosystemtjänster.","cats":["samhalle","biodiv"],"url":"https://www.boverket.se/sv/samhallsplanering/sa-planeras-sverige/planeringsfragor/ekosystemtjanster/grafiskt-material-ekosystemtjanster/"},
-  {"id":"kb73","source":"BV","source_name":"Boverket","type":"verktyg","icon":"🌱","title":"Grönytefaktor (GYF)","desc":"Metod för att beräkna och värdera grönytor i stadsplanering.","cats":["samhalle","biodiv"],"url":"https://www.boverket.se/sv/PBL-kunskapsbanken/teman/ekosystemtjanster/verktyg/gronytefaktor/"},
-  {"id":"kb74","source":"CoCity","source_name":"CoCity","type":"verktyg","icon":"🧮","title":"Kalkylator för grönytefaktor","desc":"Interaktiv kalkylator för att beräkna grönytefaktor i stadsdelar.","cats":["samhalle","biodiv"],"url":"https://www.cocity.se/verktyg/qgyf/"},
-  {"id":"kb75","source":"CoCity","source_name":"CoCity","type":"guide","icon":"📊","title":"GYF för stadsdelar","desc":"Fördjupad guide om tillämpning av grönytefaktor på stadsdelsnivå.","cats":["samhalle","biodiv"],"url":"https://www.cocity.se/wp-content/uploads/2023/10/gyf_for_stadsdelar_30.pdf"},
-  {"id":"kb76","source":"NV","source_name":"Naturvårdsverket","type":"guide","icon":"🌳","title":"Grön infrastruktur – handbok","desc":"Omfattande handbok om planering och genomförande av grön infrastruktur.","cats":["samhalle","biodiv"],"url":"https://www.naturvardsverket.se/4ac168/globalassets/media/publikationer-pdf/8800/978-91-620-8843-9.pdf"},
-  {"id":"kb77","source":"NV","source_name":"Naturvårdsverket","type":"portal","icon":"📈","title":"Resultat från arbetet med grön infrastruktur","desc":"Sammanställning av projekt och erfarenheter från grön infrastruktur-arbete.","cats":["samhalle","biodiv"],"url":"https://www.naturvardsverket.se/amnesomraden/mark-och-vattenanvandning/gron-infrastruktur/resultat-av--arbetet-med-gron-infrastruktur/"},
-  {"id":"kb78","source":"BV","source_name":"Boverket","type":"guide","icon":"📗","title":"Grönplan – att arbeta med","desc":"Vägledning för kommuner om att arbeta med grönplanering.","cats":["samhalle","biodiv"],"url":"https://www.boverket.se/sv/PBL-kunskapsbanken/teman/gronplan/att-arbeta/"},
-  {"id":"kb79","source":"BV","source_name":"Boverket","type":"guide","icon":"📋","title":"Riktlinjer för grönplan","desc":"Officiella riktlinjer för grönplanering i Sverige.","cats":["samhalle","biodiv"],"url":"https://www.boverket.se/sv/PBL-kunskapsbanken/teman/gronplan/att-arbeta/riktlinjer/"},
-  {"id":"kb80","source":"NV","source_name":"Naturvårdsverket","type":"guide","icon":"🌿","title":"Grönplanering","desc":"Vägledning från Naturvårdsverket om grönplanering och gröna frågor.","cats":["samhalle","biodiv"],"url":"https://www.naturvardsverket.se/vagledning-och-stod/samhallsplanering/gronplanering/"},
-  {"id":"kb81","source":"SLU","source_name":"SLU","type":"guide","icon":"🤝","title":"Att leda samverkan i stadsutveckling","desc":"Forskningsbaserad vägledning för att leda samverkansprocesser i stadsplanering.","cats":["samhalle"],"url":"https://uu.diva-portal.org/smash/get/diva2:1040497/FULLTEXT01.pdf"},
-  {"id":"kb82","source":"SLU","source_name":"SLU","type":"verktyg","icon":"🗣️","title":"Dialogkartläggaren","desc":"Verktyg för att kartlägga och analysera dialogsystem i miljökommunikation.","cats":["samhalle"],"url":"https://environmental-communication.org/tool/kartlagga-dialogsystem/"},
-  {"id":"kb83","source":"SLU","source_name":"SLU","type":"portal","icon":"💬","title":"Mistra Environmental Communication","desc":"Forskningsprogram om miljökommunikation och samhällsdialog.","cats":["samhalle"],"url":"https://old.slu.se/site/mistra-ec/om-programmet/om-mistra-ec/?epslanguage=sv"},
-  {"id":"kb84","source":"SLU","source_name":"SLU","type":"natverk","icon":"🤝","title":"Nätverket för samhällsdialog","desc":"Professionellt nätverk för dialog och samverkan inom stadsutveckling.","cats":["samhalle"],"url":"https://www.slu.se/om-slu/organisation/institutioner/stad-land/samverkan/natverket-for-dialog-och-samverkan/"},
-  {"id":"kb85","source":"SLU","source_name":"SLU","type":"rapport","icon":"🌉","title":"Bridging silos through governance innovations","desc":"Forskningsrapport om innovationsstyrning i EU:s stadsmission.","cats":["samhalle","policy"],"url":"https://publications.slu.se/?file=publ/show&id=140502"},
-  {"id":"kb86","source":"PF","source_name":"Permakultur Sverige","type":"guide","icon":"🌀","title":"The Design Web – permakulturdesign","desc":"Klassisk guide om permakulturens designprinciper och etiska grunder.","cats":["skogstradgard","biodiv"],"url":"https://cultural-emergence.com/the-design-web/"},
-  {"id":"kb87","source":"KK","source_name":"Karlskrona kommun","type":"guide","icon":"💧","title":"Dagvattenutredning – Pottholmen","desc":"Exempel på dagvattenutredning med fokus på hållbar vattenhantering.","cats":["vatten","samhalle"],"url":"https://www.karlskrona.se/globalassets/samhallsplanering-och-trafik/planer-och-projekt/projekt/pottholmen/dagvattenutredning.pdf"},
-  {"id":"kb88","source":"NV","source_name":"Naturvårdsverket","type":"guide","icon":"🌱","title":"Skelettjord för 100-årig allé","desc":"Teknisk guide om användning av skelettjord i urbana planteringar.","cats":["samhalle","biodiv"],"url":"https://vaguiden.se/dagvatten/anlaggningswiki/skelettjord/skelettjord-till-100-arig-alle-stockholm/"},
-  {"id":"kb89","source":"Urbio","source_name":"Urbio","type":"guide","icon":"🎪","title":"Lekotoper – naturlika leklandskap","desc":"Vägledning för att skapa lekotoper – naturlika och pedagogiska lekplatser.","cats":["samhalle","biodiv"],"url":"https://urbio.se/wp-content/uploads/2024/01/Lekotoper_Vagledning_Urbio.pdf"},
-  {"id":"kb90","source":"NV","source_name":"Naturvårdsverket","type":"guide","icon":"🌿","title":"Naturbaserade lösningar","desc":"Guide för att ta fram och implementera naturbaserade lösningar.","cats":["samhalle","biodiv","vatten"],"url":"https://www.naturvardsverket.se/4ac248/globalassets/media/publikationer-pdf/7000/978-91-620-7016-2.pdf"},
-  {"id":"kb91","source":"VC","source_name":"Viable Cities","type":"guide","icon":"🏠","title":"Gröna tak – fem möjligheter","desc":"Guide om olika typer av gröna tak och deras nyttor för städer.","cats":["samhalle","biodiv"],"url":"https://viablecities.se/wp-content/uploads/2023/11/Ett-tak-fem-mojligheter_2020_3_ISBN_978-91-7899-010-8.pdf"},
-  {"id":"kb92","source":"SLU","source_name":"SLU","type":"artikel","icon":"🌳","title":"Skogsträdgård i urbana miljöer","desc":"Vetenskaplig artikel om skogsträdgårdars potential i stadsplanering.","cats":["skogstradgard","samhalle","biodiv"],"url":"https://www.sciencedirect.com/science/article/pii/S1618866725003243"},
-  {"id":"kb93","source":"LR","source_name":"Lerum kommun","type":"projekt","icon":"🌱","title":"Växtrum i Lerum","desc":"Ideellt projekt för stadsodling och lokal matproduktion.","cats":["samhalle","mat"],"url":"https://lerum.se/kultur-och-fritid/vaxtrum-i-lerum/det-har-ar-vaxtrum"},
-  {"id":"kb94","source":"FOR","source_name":"Föreningen för ekologisk odling","type":"rapport","icon":"🥕","title":"Fritidsodlare och matberedskap","desc":"Rapport om fritidsodlares bidrag till lokal matberedskap.","cats":["mat","samhalle"],"url":"https://for.se/wp-content/uploads/2025/04/FOR_rapport_beredskap_2025-04-22_slutlig_highres.pdf"},
-  {"id":"kb95","source":"GBG","source_name":"Göteborgs stad","type":"guide","icon":"🤝","title":"Idéburet offentligt partnerskap (IOP)","desc":"Guide för föreningar om att samarbeta med kommunen genom IOP-avtal.","cats":["samhalle"],"url":"https://goteborg.se/wps/portal/start/foretag-och-organisationer/foreningar/radgivning-till-foreningar/idburet-offentligt-partnerskap-iop"},
-  {"id":"kb96","source":"SLU","source_name":"SLU","type":"projekt","icon":"🏠","title":"Från källare till kök","desc":"Innovationsprojekt om urbana matsystem i miljonprogramsområden.","cats":["samhalle","mat"],"url":"https://www.slu.se/om-slu/organisation/framtidsplattformar/slu-urban-futures/projekt-och-samarbeten/living-labs/fran-kallare-till-kok/#:~:text=Fr%C3%A5n%20K%C3%A4llare%20till%20K%C3%B6k%20%C3%A4r%20ett%20innovationsprojekt%20som,attraktiv%20och%20resilient%20milj%C3%B6%20f%C3%B6r%20boende%20i%20miljonprogramsomr%C3%A5den"},
-  {"id":"kb97","source":"Coompanion","source_name":"Coompanion","type":"natverk","icon":"🤝","title":"Nätverk för lokal matberedskap","desc":"Samarbetsnätverk för lokal matberedskap och civilsamhällets roll.","cats":["samhalle","mat"],"url":"https://coompanion.se/alla-event/natverk-for-lokal-matberedskap-samverkan-med-civilsamhallet/"},
-  {"id":"kb98","source":"PF","source_name":"Permakultur Sverige","type":"portal","icon":"📚","title":"Resursbank för permakultur","desc":"Internationell resursbank med böcker, artiklar och verktyg för permakultur.","cats":["skogstradgard","biodiv"],"url":"https://library.uniteddiversity.coop/More_Books_and_Reports/"},
-  {"id":"kb99","source":"SLU","source_name":"SLU","type":"portal","icon":"🌿","title":"MOVIUM – urbana ekosystem","desc":"Kunskapscentrum för urbana ekosystem och gröna miljöer.","cats":["samhalle","biodiv"],"url":"https://movium.slu.se/nyheter/#PDF"},
-  {"id":"kb100","source":"Esri","source_name":"Esri","type":"kurs","icon":"🎓","title":"GIS och ArcGIS utbildningar","desc":"Utbildningskatalog för geografiska informationssystem och kartverktyg.","cats":["samhalle"],"url":"https://www.esri.com/training/catalog/search/"},
-  {"id":"kb101","source":"LabLab","source_name":"LabLab","type":"foretag","icon":"📊","title":"Visualisering av data","desc":"Specialister på datavisualisering och interaktiva presentationer.","cats":["samhalle"],"url":"https://lablab.se/"},
-  {"id":"kb102","source":"Tradgard","source_name":"Trädgården","type":"nyhetsbrev","icon":"📰","title":"Trädgården – jord och klimat","desc":"Nyhetsbrev om jordhälsa, klimat och hållbar odling.","cats":["mat","klimat"],"url":"https://tradgardenjorden.substack.com/"},
-  {"id":"kb103","source":"HA","source_name":"Hungry & Angry","type":"podcast","icon":"🎙️","title":"Hungry & Angry podcast","desc":"Podcast om matsystem, jordbruk och hållbar utveckling.","cats":["mat","samhalle"],"url":"https://www.hungryandangry.se/"},
-  {"id":"kb104","source":"VR","source_name":"Västra Götalandsregionen","type":"kalender","icon":"📅","title":"Regionkalender","desc":"Regional kalender för evenemang inom hållbar utveckling.","cats":["samhalle"],"url":"https://regionkalender.vgregion.se/sv/"},
-  {"id":"kb105","source":"BYGG","source_name":"Svensk Byggtjänst","type":"guide","icon":"📋","title":"ABT 06 – allmänna bestämmelser","desc":"Tekniska bestämmelser för byggande och anläggning.","cats":["samhalle","policy"],"url":"https://www.yumpu.com/sv/document/view/20331846/abt-06-kyrkans-tidning"},
-  {"id":"kb106","source":"BYGG","source_name":"Svensk Byggtjänst","type":"guide","icon":"📋","title":"ABU 04 – allmänna bestämmelser","desc":"Allmänna bestämmelser för byggande och entreprenad.","cats":["samhalle","policy"],"url":"https://www.yumpu.com/sv/document/view/46465891/ab-u-04-publikationer-fran-sveriges-byggindustrier"}
+  {
+    "id": "kb1",
+    "source": "SLU",
+    "source_name": "Sveriges lantbruksuniversitet (SLU)",
+    "type": "databas",
+    "icon": "🌾",
+    "title": "Artdatabanken – Svenska artprojektet",
+    "desc": "Nationell databas över svenska arters utbredning, rödlistning och ekologi. Uppdateras löpande med fynd och analyser.",
+    "cats": [
+      "biodiv"
+    ],
+    "url": "https://www.artdatabanken.se"
+  },
+  {
+    "id": "kb2",
+    "source": "SLU",
+    "source_name": "Sveriges lantbruksuniversitet (SLU)",
+    "type": "portal",
+    "icon": "📡",
+    "title": "SLU Miljödata MVM",
+    "desc": "Öppen portal för nedladdning av svenska miljöövervakningsdata: vatten, mark, luft och biologisk mångfald.",
+    "cats": [
+      "vatten",
+      "biodiv",
+      "klimat"
+    ],
+    "url": "https://miljodata.slu.se"
+  },
+  {
+    "id": "kb3",
+    "source": "SLU",
+    "source_name": "Sveriges lantbruksuniversitet (SLU)",
+    "type": "rapport",
+    "icon": "📄",
+    "title": "Hållbara jordbruk & ekosystem – rapportarkiv",
+    "desc": "Samlade vetenskapliga rapporter om hållbart jord- och skogsbruk, ekosystemtjänster och biologisk mångfald.",
+    "cats": [
+      "mat",
+      "skog",
+      "biodiv"
+    ],
+    "url": "https://www.slu.se/miljo"
+  },
+  {
+    "id": "kb4",
+    "source": "SLU",
+    "source_name": "Sveriges lantbruksuniversitet (SLU)",
+    "type": "verktyg",
+    "icon": "🧮",
+    "title": "Riksskogstaxeringen – interaktivt verktyg",
+    "desc": "Utforska riksskogstaxeringens resultat per region, trädslag och tidsperiod.",
+    "cats": [
+      "skog"
+    ],
+    "url": "https://www.slu.se/riksskogstaxeringen"
+  },
+  {
+    "id": "kb5",
+    "source": "SLU",
+    "source_name": "Sveriges lantbruksuniversitet (SLU)",
+    "type": "rapport",
+    "icon": "🌳",
+    "title": "Agroforestry i Sverige – kunskapssammanställning",
+    "desc": "SLU:s samlade forskning om träd på åkermark och i betesmarker i nordliga klimat.",
+    "cats": [
+      "agroforestry",
+      "skog",
+      "mat",
+      "klimat"
+    ],
+    "url": "https://www.slu.se/agroforestry"
+  },
+  {
+    "id": "kb6",
+    "source": "SLU",
+    "source_name": "Sveriges lantbruksuniversitet (SLU)",
+    "type": "databas",
+    "icon": "🍎",
+    "title": "Pomologiska sällskapets sortdatabas",
+    "desc": "Databas med beskrivningar, bilder och odlingsdata för hundratals svenska och nordiska fruktsorter.",
+    "cats": [
+      "skogstradgard",
+      "mat"
+    ],
+    "url": "https://www.klasspomologi.se"
+  },
+  {
+    "id": "kb11",
+    "source": "SKS",
+    "source_name": "Skogsstyrelsen",
+    "type": "karta",
+    "icon": "🌲",
+    "title": "Skogens pärlor – nyckelbiotopskarta",
+    "desc": "Kartläggning av skogsområden med höga naturvärden med sökfunktion per fastighet och kommun.",
+    "cats": [
+      "skog",
+      "biodiv"
+    ],
+    "url": "https://kartor.skogsstyrelsen.se"
+  },
+  {
+    "id": "kb12",
+    "source": "SKS",
+    "source_name": "Skogsstyrelsen",
+    "type": "verktyg",
+    "icon": "🔧",
+    "title": "Heureka – skogsanalysverktyg",
+    "desc": "Planeringsverktyg för skötselanalys, kolbalans och biologisk mångfald i skogslandskapet.",
+    "cats": [
+      "skog",
+      "klimat"
+    ],
+    "url": "https://www.slu.se/heureka"
+  },
+  {
+    "id": "kb13",
+    "source": "SKS",
+    "source_name": "Skogsstyrelsen",
+    "type": "guide",
+    "icon": "📗",
+    "title": "Skogsstyrelsens rådgivningsguider",
+    "desc": "Praktiska guider för skogsägare: hyggesfritt skogsbruk, viltanpassning, vattenhänsyn och kulturmiljö.",
+    "cats": [
+      "skog"
+    ],
+    "url": "https://www.skogsstyrelsen.se/rad-och-stod"
+  },
+  {
+    "id": "kb14",
+    "source": "HaV",
+    "source_name": "Havs- och vattenmyndigheten",
+    "type": "portal",
+    "icon": "🌊",
+    "title": "VISS – Vatteninformationssystem Sverige",
+    "desc": "Officiell databas för statusklassning av sjöar, vattendrag, kustvatten och grundvatten.",
+    "cats": [
+      "vatten",
+      "policy"
+    ],
+    "url": "https://viss.lansstyrelsen.se"
+  },
+  {
+    "id": "kb15",
+    "source": "HaV",
+    "source_name": "Havs- och vattenmyndigheten",
+    "type": "karta",
+    "icon": "🐟",
+    "title": "Havsplaneringsportalen",
+    "desc": "Interaktiv kartportal för havsplanering med lager för naturvärden, fiskeområden och mänsklig påverkan.",
+    "cats": [
+      "vatten",
+      "biodiv",
+      "policy"
+    ],
+    "url": "https://havsplanering.havochvatten.se"
+  },
+  {
+    "id": "kb16",
+    "source": "SMHI",
+    "source_name": "SMHI",
+    "type": "databas",
+    "icon": "🌡️",
+    "title": "SMHI Klimatdata – öppna observationer",
+    "desc": "Gratis nedladdning av historiska klimatmätningar från 1700-talet till idag.",
+    "cats": [
+      "klimat"
+    ],
+    "url": "https://www.smhi.se/data"
+  },
+  {
+    "id": "kb17",
+    "source": "SMHI",
+    "source_name": "SMHI",
+    "type": "verktyg",
+    "icon": "📈",
+    "title": "Klimatanalys – scenariotjänst",
+    "desc": "Interaktivt verktyg för att utforska klimatscenarier per kommun, säsong och klimatvariabel.",
+    "cats": [
+      "klimat",
+      "samhalle"
+    ],
+    "url": "https://www.smhi.se/klimat/framtidens-klimat/klimatscenarier"
+  },
+  {
+    "id": "kb18",
+    "source": "SVA",
+    "source_name": "Vetenskap & Allmänhet",
+    "type": "rapport",
+    "icon": "🎓",
+    "title": "VA-barometern – förtroende för forskning",
+    "desc": "Undersökning om allmänhetens syn på forskning och vetenskap i Sverige.",
+    "cats": [
+      "samhalle"
+    ],
+    "url": "https://v-a.se/va-barometern"
+  },
+  {
+    "id": "kb19",
+    "source": "RC",
+    "source_name": "Resurscentrum",
+    "type": "guide",
+    "icon": "♻️",
+    "title": "Handbok för hållbar samhällsplanering",
+    "desc": "Praktisk vägledning för kommunal planering med fokus på ekosystemtjänster och klimatsäkring.",
+    "cats": [
+      "samhalle",
+      "klimat"
+    ],
+    "url": "https://www.resurscentrum.se"
+  },
+  {
+    "id": "kb20",
+    "source": "RC",
+    "source_name": "Resurscentrum",
+    "type": "verktyg",
+    "icon": "🏗️",
+    "title": "Klimatkalkyl – livscykelperspektiv på byggnader",
+    "desc": "Verktyg för att beräkna klimatpåverkan under hela livscykeln för bostäder och infrastruktur.",
+    "cats": [
+      "energi",
+      "samhalle",
+      "klimat"
+    ],
+    "url": "https://www.resurscentrum.se"
+  },
+  {
+    "id": "kb21",
+    "source": "AF",
+    "source_name": "Agroforestry Sverige",
+    "type": "portal",
+    "icon": "🌳",
+    "title": "Agroforestry Sverige – kunskapsportal",
+    "desc": "Nationell samlingsplats för information om agroforestry: forskning, praktikerberättelser och policy.",
+    "cats": [
+      "agroforestry",
+      "mat",
+      "skog"
+    ],
+    "url": "https://agroforestrysverige.se"
+  },
+  {
+    "id": "kb22",
+    "source": "AF",
+    "source_name": "Agroforestry Sverige",
+    "type": "guide",
+    "icon": "📐",
+    "title": "Etableringsguide för alléodling",
+    "desc": "Steg-för-steg guide till etablering av trädrader på åkermark: artval, planteringsavstånd och lönsamhetskalkyl.",
+    "cats": [
+      "agroforestry",
+      "mat"
+    ],
+    "url": "https://agroforestrysverige.se/etablering"
+  },
+  {
+    "id": "kb23",
+    "source": "AF",
+    "source_name": "Agroforestry Sverige",
+    "type": "karta",
+    "icon": "📍",
+    "title": "Karta över agroforestrygårdar i Sverige",
+    "desc": "Interaktiv karta med kontaktuppgifter och besöksinfo till gårdar som tillämpar agroforestry.",
+    "cats": [
+      "agroforestry"
+    ],
+    "url": "https://agroforestrysverige.se/karta"
+  },
+  {
+    "id": "kb24",
+    "source": "AF",
+    "source_name": "Agroforestry Sverige",
+    "type": "rapport",
+    "icon": "📊",
+    "title": "Ekosystemtjänster från träd på åkermark",
+    "desc": "Forskningsrapport om hur trädinslag på jordbruksmark påverkar pollinering, erosionsskydd och markbiologi.",
+    "cats": [
+      "agroforestry",
+      "biodiv",
+      "mat",
+      "klimat"
+    ],
+    "url": "https://agroforestrysverige.se/forskning"
+  },
+  {
+    "id": "kb25",
+    "source": "AF",
+    "source_name": "Agroforestry Sverige",
+    "type": "natverk",
+    "icon": "🤝",
+    "title": "Nordiskt agroforestry-nätverk (NorAF)",
+    "desc": "Nordiskt samarbetsnätverk för forskare och praktiker. Nyhetsbrev, konferenser och gemensamma projekt.",
+    "cats": [
+      "agroforestry"
+    ],
+    "url": "https://www.nordicagroforestry.org"
+  },
+  {
+    "id": "kb26",
+    "source": "PF",
+    "source_name": "Permakultur Sverige",
+    "type": "portal",
+    "icon": "🌀",
+    "title": "Permakultur Sverige – resursbank",
+    "desc": "Samlingsportal med kursutbud, artiklar, designexempel och kontakt till praktiker.",
+    "cats": [
+      "skogstradgard",
+      "agroforestry",
+      "biodiv"
+    ],
+    "url": "https://www.permakultur.se"
+  },
+  {
+    "id": "kb27",
+    "source": "PF",
+    "source_name": "Permakultur Sverige",
+    "type": "guide",
+    "icon": "🌿",
+    "title": "Skogsträdgård steg för steg – designmanual",
+    "desc": "Praktisk designmanual: zonplanering, successionsdynamik, växtlistor och skötselkalender.",
+    "cats": [
+      "skogstradgard",
+      "mat",
+      "biodiv"
+    ],
+    "url": "https://www.permakultur.se/skogstradgard"
+  },
+  {
+    "id": "kb28",
+    "source": "PF",
+    "source_name": "Permakultur Sverige",
+    "type": "databas",
+    "icon": "🌱",
+    "title": "Ätbara perenner – växtdatabas",
+    "desc": "Sökbar databas med hundratals ätbara perenner anpassade till nordiskt klimat.",
+    "cats": [
+      "skogstradgard",
+      "mat",
+      "biodiv"
+    ],
+    "url": "https://www.permakultur.se/vaxtdatabas"
+  },
+  {
+    "id": "kb29",
+    "source": "PF",
+    "source_name": "Permakultur Sverige",
+    "type": "natverk",
+    "icon": "🌍",
+    "title": "Plants For A Future – internationell växtdatabas",
+    "desc": "Global referensdatabas med 8 000+ ätbara och nyttiga växter med detaljerad odlingsinfo.",
+    "cats": [
+      "skogstradgard",
+      "agroforestry",
+      "biodiv",
+      "mat"
+    ],
+    "url": "https://pfaf.org"
+  },
+  {
+    "id": "kb30",
+    "source": "PF",
+    "source_name": "Permakultur Sverige",
+    "type": "rapport",
+    "icon": "🏡",
+    "title": "Urbana skogsträdgårdar i Norden – fallstudier",
+    "desc": "Dokumentation av tio nordiska skogsträdgårdsprojekt med analys av design och sociala effekter.",
+    "cats": [
+      "skogstradgard",
+      "samhalle",
+      "biodiv"
+    ],
+    "url": "https://www.permakultur.se/forskning"
+  },
+  {
+    "id": "kb34",
+    "source": "RC",
+    "source_name": "Resurscentrum",
+    "type": "guide",
+    "icon": "🏗️",
+    "title": "Vägledning för klimatkrav på byggnader",
+    "desc": "Praktisk guide för att implementera klimatkrav i byggprojekt och upphandling.",
+    "cats": [
+      "energi",
+      "samhalle",
+      "klimat"
+    ],
+    "url": "https://byggtjanstcms.byggtjanst.se/globalassets/kunskapsbank/guider/vagledningklimatkravforbyggnader.pdf"
+  },
+  {
+    "id": "kb35",
+    "source": "RC",
+    "source_name": "Resurscentrum",
+    "type": "portal",
+    "icon": "📚",
+    "title": "Kunskapsbank för byggande",
+    "desc": "Samlingsplats för guider, verktyg och kunskap om hållbart byggande.",
+    "cats": [
+      "energi",
+      "samhalle"
+    ],
+    "url": "https://byggtjanst.se/kunskapsbank/guider"
+  },
+  {
+    "id": "kb36",
+    "source": "RC",
+    "source_name": "Resurscentrum",
+    "type": "guide",
+    "icon": "📖",
+    "title": "Hållbarhetsmanual för städer",
+    "desc": "Omfattande manual för hållbar stadsutveckling med praktiska verktyg och exempel.",
+    "cats": [
+      "samhalle",
+      "klimat",
+      "biodiv"
+    ],
+    "url": "https://library.uniteddiversity.coop/More_Books_and_Reports/Toolbox_for_Sustainable_City_Living.pdf"
+  },
+  {
+    "id": "kb38",
+    "source": "RC",
+    "source_name": "Resurscentrum",
+    "type": "video",
+    "icon": "🎥",
+    "title": "Aktörer och intressen i samhällsplanering",
+    "desc": "Video om hur olika aktörer samverkar i stadsutvecklingsprojekt.",
+    "cats": [
+      "samhalle",
+      "policy",
+      "video"
+    ],
+    "url": "https://www.youtube.com/watch?v=eS0PLUxabvA&ab_channel=SvenskByggtj%C3%A4nst"
+  },
+  {
+    "id": "kb40",
+    "source": "LM",
+    "source_name": "Lantmäteriet",
+    "type": "portal",
+    "icon": "📊",
+    "title": "Geodata från Lantmäteriet",
+    "desc": "Officiella geodata och karttjänster för samhällsplanering och analys.",
+    "cats": [
+      "samhalle"
+    ],
+    "url": "https://www.lantmateriet.se/sv/geodata/vara-produkter/produktlista/"
+  },
+  {
+    "id": "kb42",
+    "source": "OT",
+    "source_name": "OpenTopography",
+    "type": "karta",
+    "icon": "🏔️",
+    "title": "OpenTopography – terrängdata",
+    "desc": "Global portal för högupplösta terrängdata och topografiska analyser.",
+    "cats": [
+      "samhalle"
+    ],
+    "url": "https://portal.opentopography.org/"
+  },
+  {
+    "id": "kb43",
+    "source": "LS",
+    "source_name": "Länsstyrelsen",
+    "type": "portal",
+    "icon": "🗺️",
+    "title": "Geodataportalen",
+    "desc": "Regional geodataportal med miljö- och planeringsdata.",
+    "cats": [
+      "samhalle",
+      "biodiv"
+    ],
+    "url": "https://ext-geodatakatalog.lansstyrelsen.se/GeodataKatalogen/srv/swe/catalog.search#/home"
+  },
+  {
+    "id": "kb44",
+    "source": "LS",
+    "source_name": "Länsstyrelsen",
+    "type": "karta",
+    "icon": "💧",
+    "title": "Ytvattenavrinning – lagpunkter",
+    "desc": "Karttjänst för analys av ytvattenflöden och dagvattenhantering.",
+    "cats": [
+      "vatten",
+      "samhalle"
+    ],
+    "url": "https://ext-webbgis.lansstyrelsen.se/lsto_ytavrinning_lagpunkter/"
+  },
+  {
+    "id": "kb45",
+    "source": "Esri",
+    "source_name": "Esri Living Atlas",
+    "type": "karta",
+    "icon": "🌍",
+    "title": "Land Cover Explorer",
+    "desc": "Interaktiv global karttjänst för markanvändningsanalys och förändringsstudier.",
+    "cats": [
+      "samhalle",
+      "biodiv"
+    ],
+    "url": "https://livingatlas.arcgis.com/landcoverexplorer/#mapCenter=12.52662%2C57.80724%2C13.96&mode=step&timeExtent=2017%2C2024&year=2024&month=9&renderingRule=0&downloadMode=true"
+  },
+  {
+    "id": "kb46",
+    "source": "BV",
+    "source_name": "Boverket",
+    "type": "guide",
+    "icon": "📋",
+    "title": "Beteckningssystem för detaljplaner",
+    "desc": "Officiell lista över beteckningar och planbestämmelser för detaljplanering.",
+    "cats": [
+      "policy",
+      "samhalle"
+    ],
+    "url": "https://www.boverket.se/contentassets/29bb9be3ab61460992c1558ba2acfe4b/lista-over-beteckningssystemet-enligt-de-allmanna-raden-om-planbestammelser-for-detaljplan.pdf"
+  },
+  {
+    "id": "kb48",
+    "source": "RG",
+    "source_name": "Riksdagen",
+    "type": "lag",
+    "icon": "📜",
+    "title": "Miljöbalken (1998:808)",
+    "desc": "Svensk författningssamling – miljöbalken med alla bestämmelser.",
+    "cats": [
+      "policy"
+    ],
+    "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/miljobalk-1998808_sfs-1998-808/"
+  },
+  {
+    "id": "kb50",
+    "source": "RG",
+    "source_name": "Regeringen",
+    "type": "rapport",
+    "icon": "📄",
+    "title": "SOU 2017:34 – Ekologisk kompensation",
+    "desc": "Statens offentliga utredning om ekologisk kompensation i Sverige.",
+    "cats": [
+      "biodiv",
+      "policy"
+    ],
+    "url": "https://www.regeringen.se/rattsliga-dokument/statens-offentliga-utredningar/2017/04/sou-201734/"
+  },
+  {
+    "id": "kb53",
+    "source": "VC",
+    "source_name": "Viable Cities",
+    "type": "portal",
+    "icon": "🌆",
+    "title": "Viable Cities – hållbara städer",
+    "desc": "Samarbetsplattform för hållbar stadsutveckling med fokus på klimatmål.",
+    "cats": [
+      "samhalle",
+      "klimat"
+    ],
+    "url": "https://viablecities.se/om/"
+  },
+  {
+    "id": "kb55",
+    "source": "BV",
+    "source_name": "Boverket",
+    "type": "guide",
+    "icon": "🌳",
+    "title": "Vägledning för urbana ekosystem",
+    "desc": "Ny vägledning för att stärka urbana ekosystem genom planering och design.",
+    "cats": [
+      "samhalle",
+      "biodiv"
+    ],
+    "url": "https://www.boverket.se/sv/om-boverket/nyheter-aktuellt/nyheter/ny-vagledning-och-uppfoljning-for-att-starka-urbana-ekosystem/"
+  },
+  {
+    "id": "kb56",
+    "source": "FN",
+    "source_name": "FN",
+    "type": "portal",
+    "icon": "🌍",
+    "title": "Globala målen för hållbar utveckling",
+    "desc": "Agenda 2030 med 17 globala mål för hållbar utveckling.",
+    "cats": [
+      "policy",
+      "samhalle"
+    ],
+    "url": "https://globalamalen.se/om-globala-malen/"
+  },
+  {
+    "id": "kb57",
+    "source": "EU",
+    "source_name": "EU",
+    "type": "portal",
+    "icon": "🇪🇺",
+    "title": "European Green Deal",
+    "desc": "EU:s strategi för klimatneutralitet och hållbar tillväxt till 2050.",
+    "cats": [
+      "policy",
+      "klimat",
+      "energi"
+    ],
+    "url": "https://www.consilium.europa.eu/sv/policies/european-green-deal/"
+  },
+  {
+    "id": "kb58",
+    "source": "FI",
+    "source_name": "Finansinspektionen",
+    "type": "guide",
+    "icon": "💰",
+    "title": "EU-taxonomin för hållbara investeringar",
+    "desc": "Klassificeringssystem för att identifiera hållbara ekonomiska aktiviteter.",
+    "cats": [
+      "policy",
+      "energi",
+      "klimat"
+    ],
+    "url": "https://www.fi.se/sv/hallbarhet/regler/taxonomi/"
+  },
+  {
+    "id": "kb59",
+    "source": "RG",
+    "source_name": "Regeringen",
+    "type": "portal",
+    "icon": "📋",
+    "title": "Globala mål och Agenda 2030",
+    "desc": "Svensk strategi för genomförande av FN:s hållbarhetsmål.",
+    "cats": [
+      "policy",
+      "samhalle"
+    ],
+    "url": "https://www.regeringen.se/regeringens-politik/globala-malen-och-agenda-2030/17-globala-mal-for-hallbar-utveckling/"
+  },
+  {
+    "id": "kb62",
+    "source": "AK",
+    "source_name": "Alingsås kommun",
+    "type": "plan",
+    "icon": "📄",
+    "title": "Klimatstrategi för Alingsås kommun",
+    "desc": "Lokalt exempel på klimatstrategi med konkreta åtgärder och mål.",
+    "cats": [
+      "samhalle",
+      "klimat"
+    ],
+    "url": "https://www.alingsas.se/wp-content/uploads/networks/1/sites/6/2022/06/Klimatstrategi-for-Alingsas-kommun.pdf"
+  },
+  {
+    "id": "kb63",
+    "source": "BV",
+    "source_name": "Boverket",
+    "type": "guide",
+    "icon": "🌿",
+    "title": "Ekosystemtjänster i PBL-kunskapsbanken",
+    "desc": "Vägledningar och verktyg för att integrera ekosystemtjänster i planeringen.",
+    "cats": [
+      "samhalle",
+      "biodiv"
+    ],
+    "url": "https://www.boverket.se/sv/PBL-kunskapsbanken/teman/ekosystemtjanster/"
+  },
+  {
+    "id": "kb65",
+    "source": "UNEP",
+    "source_name": "UNEP",
+    "type": "rapport",
+    "icon": "📊",
+    "title": "Millennium Ecosystem Assessment",
+    "desc": "Global bedömning av ekosystem och mänskligt välbefinnande.",
+    "cats": [
+      "biodiv",
+      "samhalle"
+    ],
+    "url": "https://www.millenniumassessment.org/en/index.html"
+  },
+  {
+    "id": "kb66",
+    "source": "CoCity",
+    "source_name": "CoCity",
+    "type": "guide",
+    "icon": "🧰",
+    "title": "Ekosystemtjänster – verktygslåda",
+    "desc": "Praktisk verktygslåda för att arbeta med ekosystemtjänster i stadsplanering.",
+    "cats": [
+      "samhalle",
+      "biodiv"
+    ],
+    "url": "https://www.cocity.se/wp-content/uploads/2021/11/est_en-verktygslada_low.pdf"
+  },
+  {
+    "id": "kb67",
+    "source": "CoCity",
+    "source_name": "CoCity",
+    "type": "guide",
+    "icon": "🌳",
+    "title": "Gröna lösningar för levande städer",
+    "desc": "Guide om naturbaserade lösningar för urbana miljöer.",
+    "cats": [
+      "samhalle",
+      "biodiv"
+    ],
+    "url": "https://www.cocity.se/wp-content/uploads/2018/06/grona_losningar_levande_stader-1.pdf"
+  },
+  {
+    "id": "kb68",
+    "source": "CoCity",
+    "source_name": "CoCity",
+    "type": "guide",
+    "icon": "📈",
+    "title": "Ekosystemtjänster i stadsplanering",
+    "desc": "Fördjupad guide om ekosystemtjänster och deras värde i stadsutveckling.",
+    "cats": [
+      "samhalle",
+      "biodiv"
+    ],
+    "url": "https://www.cocity.se/wp-content/uploads/2023/03/ekosystemtjanster-i-stadsplanering_low.pdf"
+  },
+  {
+    "id": "kb69",
+    "source": "BV",
+    "source_name": "Boverket",
+    "type": "verktyg",
+    "icon": "🧮",
+    "title": "ESTER – kartläggningsverktyg",
+    "desc": "Interaktivt verktyg för att kartlägga och värdera ekosystemtjänster.",
+    "cats": [
+      "samhalle",
+      "biodiv"
+    ],
+    "url": "https://www.boverket.se/sv/PBL-kunskapsbanken/teman/ekosystemtjanster/verktyg/ester/"
+  },
+  {
+    "id": "kb70",
+    "source": "UNEP",
+    "source_name": "UNEP",
+    "type": "portal",
+    "icon": "💰",
+    "title": "TEEB – The Economics of Ecosystems and Biodiversity",
+    "desc": "Globalt initiativ för att integrera naturvärden i beslutsfattande.",
+    "cats": [
+      "biodiv",
+      "policy"
+    ],
+    "url": "https://www.unep.org/topics/teeb"
+  },
+  {
+    "id": "kb71",
+    "source": "CICES",
+    "source_name": "CICES",
+    "type": "guide",
+    "icon": "📊",
+    "title": "Common International Classification of Ecosystem Services",
+    "desc": "Internationell klassificering av ekosystemtjänster för jämförbarhet.",
+    "cats": [
+      "biodiv",
+      "samhalle"
+    ],
+    "url": "https://cices.eu/"
+  },
+  {
+    "id": "kb72",
+    "source": "BV",
+    "source_name": "Boverket",
+    "type": "material",
+    "icon": "🎨",
+    "title": "Grafiskt material – ekosystemtjänster",
+    "desc": "Visualiseringsmaterial och diagram för att kommunicera ekosystemtjänster.",
+    "cats": [
+      "samhalle",
+      "biodiv"
+    ],
+    "url": "https://www.boverket.se/sv/samhallsplanering/sa-planeras-sverige/planeringsfragor/ekosystemtjanster/grafiskt-material-ekosystemtjanster/"
+  },
+  {
+    "id": "kb73",
+    "source": "BV",
+    "source_name": "Boverket",
+    "type": "verktyg",
+    "icon": "🌱",
+    "title": "Grönytefaktor (GYF)",
+    "desc": "Metod för att beräkna och värdera grönytor i stadsplanering.",
+    "cats": [
+      "samhalle",
+      "biodiv"
+    ],
+    "url": "https://www.boverket.se/sv/PBL-kunskapsbanken/teman/ekosystemtjanster/verktyg/gronytefaktor/"
+  },
+  {
+    "id": "kb74",
+    "source": "CoCity",
+    "source_name": "CoCity",
+    "type": "verktyg",
+    "icon": "🧮",
+    "title": "Kalkylator för grönytefaktor",
+    "desc": "Interaktiv kalkylator för att beräkna grönytefaktor i stadsdelar.",
+    "cats": [
+      "samhalle",
+      "biodiv"
+    ],
+    "url": "https://www.cocity.se/verktyg/qgyf/"
+  },
+  {
+    "id": "kb75",
+    "source": "CoCity",
+    "source_name": "CoCity",
+    "type": "guide",
+    "icon": "📊",
+    "title": "GYF för stadsdelar",
+    "desc": "Fördjupad guide om tillämpning av grönytefaktor på stadsdelsnivå.",
+    "cats": [
+      "samhalle",
+      "biodiv"
+    ],
+    "url": "https://www.cocity.se/wp-content/uploads/2023/10/gyf_for_stadsdelar_30.pdf"
+  },
+  {
+    "id": "kb78",
+    "source": "BV",
+    "source_name": "Boverket",
+    "type": "guide",
+    "icon": "📗",
+    "title": "Grönplan – att arbeta med",
+    "desc": "Vägledning för kommuner om att arbeta med grönplanering.",
+    "cats": [
+      "samhalle",
+      "biodiv"
+    ],
+    "url": "https://www.boverket.se/sv/PBL-kunskapsbanken/teman/gronplan/att-arbeta/"
+  },
+  {
+    "id": "kb79",
+    "source": "BV",
+    "source_name": "Boverket",
+    "type": "guide",
+    "icon": "📋",
+    "title": "Riktlinjer för grönplan",
+    "desc": "Officiella riktlinjer för grönplanering i Sverige.",
+    "cats": [
+      "samhalle",
+      "biodiv"
+    ],
+    "url": "https://www.boverket.se/sv/PBL-kunskapsbanken/teman/gronplan/att-arbeta/riktlinjer/"
+  },
+  {
+    "id": "kb81",
+    "source": "SLU",
+    "source_name": "SLU",
+    "type": "guide",
+    "icon": "🤝",
+    "title": "Att leda samverkan i stadsutveckling",
+    "desc": "Forskningsbaserad vägledning för att leda samverkansprocesser i stadsplanering.",
+    "cats": [
+      "samhalle"
+    ],
+    "url": "https://uu.diva-portal.org/smash/get/diva2:1040497/FULLTEXT01.pdf"
+  },
+  {
+    "id": "kb82",
+    "source": "SLU",
+    "source_name": "SLU",
+    "type": "verktyg",
+    "icon": "🗣️",
+    "title": "Dialogkartläggaren",
+    "desc": "Verktyg för att kartlägga och analysera dialogsystem i miljökommunikation.",
+    "cats": [
+      "samhalle"
+    ],
+    "url": "https://environmental-communication.org/tool/kartlagga-dialogsystem/"
+  },
+  {
+    "id": "kb83",
+    "source": "SLU",
+    "source_name": "SLU",
+    "type": "portal",
+    "icon": "💬",
+    "title": "Mistra Environmental Communication",
+    "desc": "Forskningsprogram om miljökommunikation och samhällsdialog.",
+    "cats": [
+      "samhalle"
+    ],
+    "url": "https://old.slu.se/site/mistra-ec/om-programmet/om-mistra-ec/?epslanguage=sv"
+  },
+  {
+    "id": "kb84",
+    "source": "SLU",
+    "source_name": "SLU",
+    "type": "natverk",
+    "icon": "🤝",
+    "title": "Nätverket för samhällsdialog",
+    "desc": "Professionellt nätverk för dialog och samverkan inom stadsutveckling.",
+    "cats": [
+      "samhalle"
+    ],
+    "url": "https://www.slu.se/om-slu/organisation/institutioner/stad-land/samverkan/natverket-for-dialog-och-samverkan/"
+  },
+  {
+    "id": "kb85",
+    "source": "SLU",
+    "source_name": "SLU",
+    "type": "rapport",
+    "icon": "🌉",
+    "title": "Bridging silos through governance innovations",
+    "desc": "Forskningsrapport om innovationsstyrning i EU:s stadsmission.",
+    "cats": [
+      "samhalle",
+      "policy"
+    ],
+    "url": "https://publications.slu.se/?file=publ/show&id=140502"
+  },
+  {
+    "id": "kb86",
+    "source": "PF",
+    "source_name": "Permakultur Sverige",
+    "type": "guide",
+    "icon": "🌀",
+    "title": "The Design Web – permakulturdesign",
+    "desc": "Klassisk guide om permakulturens designprinciper och etiska grunder.",
+    "cats": [
+      "skogstradgard",
+      "biodiv"
+    ],
+    "url": "https://cultural-emergence.com/the-design-web/"
+  },
+  {
+    "id": "kb87",
+    "source": "KK",
+    "source_name": "Karlskrona kommun",
+    "type": "guide",
+    "icon": "💧",
+    "title": "Dagvattenutredning – Pottholmen",
+    "desc": "Exempel på dagvattenutredning med fokus på hållbar vattenhantering.",
+    "cats": [
+      "vatten",
+      "samhalle"
+    ],
+    "url": "https://www.karlskrona.se/globalassets/samhallsplanering-och-trafik/planer-och-projekt/projekt/pottholmen/dagvattenutredning.pdf"
+  },
+  {
+    "id": "kb89",
+    "source": "Urbio",
+    "source_name": "Urbio",
+    "type": "guide",
+    "icon": "🎪",
+    "title": "Lekotoper – naturlika leklandskap",
+    "desc": "Vägledning för att skapa lekotoper – naturlika och pedagogiska lekplatser.",
+    "cats": [
+      "samhalle",
+      "biodiv"
+    ],
+    "url": "https://urbio.se/wp-content/uploads/2024/01/Lekotoper_Vagledning_Urbio.pdf"
+  },
+  {
+    "id": "kb91",
+    "source": "VC",
+    "source_name": "Viable Cities",
+    "type": "guide",
+    "icon": "🏠",
+    "title": "Gröna tak – fem möjligheter",
+    "desc": "Guide om olika typer av gröna tak och deras nyttor för städer.",
+    "cats": [
+      "samhalle",
+      "biodiv"
+    ],
+    "url": "https://viablecities.se/wp-content/uploads/2023/11/Ett-tak-fem-mojligheter_2020_3_ISBN_978-91-7899-010-8.pdf"
+  },
+  {
+    "id": "kb92",
+    "source": "SLU",
+    "source_name": "SLU",
+    "type": "artikel",
+    "icon": "🌳",
+    "title": "Skogsträdgård i urbana miljöer",
+    "desc": "Vetenskaplig artikel om skogsträdgårdars potential i stadsplanering.",
+    "cats": [
+      "skogstradgard",
+      "samhalle",
+      "biodiv"
+    ],
+    "url": "https://www.sciencedirect.com/science/article/pii/S1618866725003243"
+  },
+  {
+    "id": "kb93",
+    "source": "LR",
+    "source_name": "Lerum kommun",
+    "type": "projekt",
+    "icon": "🌱",
+    "title": "Växtrum i Lerum",
+    "desc": "Ideellt projekt för stadsodling och lokal matproduktion.",
+    "cats": [
+      "samhalle",
+      "mat"
+    ],
+    "url": "https://lerum.se/kultur-och-fritid/vaxtrum-i-lerum/det-har-ar-vaxtrum"
+  },
+  {
+    "id": "kb94",
+    "source": "FOR",
+    "source_name": "Föreningen för ekologisk odling",
+    "type": "rapport",
+    "icon": "🥕",
+    "title": "Fritidsodlare och matberedskap",
+    "desc": "Rapport om fritidsodlares bidrag till lokal matberedskap.",
+    "cats": [
+      "mat",
+      "samhalle"
+    ],
+    "url": "https://for.se/wp-content/uploads/2025/04/FOR_rapport_beredskap_2025-04-22_slutlig_highres.pdf"
+  },
+  {
+    "id": "kb95",
+    "source": "GBG",
+    "source_name": "Göteborgs stad",
+    "type": "guide",
+    "icon": "🤝",
+    "title": "Idéburet offentligt partnerskap (IOP)",
+    "desc": "Guide för föreningar om att samarbeta med kommunen genom IOP-avtal.",
+    "cats": [
+      "samhalle"
+    ],
+    "url": "https://goteborg.se/wps/portal/start/foretag-och-organisationer/foreningar/radgivning-till-foreningar/idburet-offentligt-partnerskap-iop"
+  },
+  {
+    "id": "kb96",
+    "source": "SLU",
+    "source_name": "SLU",
+    "type": "projekt",
+    "icon": "🏠",
+    "title": "Från källare till kök",
+    "desc": "Innovationsprojekt om urbana matsystem i miljonprogramsområden.",
+    "cats": [
+      "samhalle",
+      "mat"
+    ],
+    "url": "https://www.slu.se/om-slu/organisation/framtidsplattformar/slu-urban-futures/projekt-och-samarbeten/living-labs/fran-kallare-till-kok/#:~:text=Fr%C3%A5n%20K%C3%A4llare%20till%20K%C3%B6k%20%C3%A4r%20ett%20innovationsprojekt%20som,attraktiv%20och%20resilient%20milj%C3%B6%20f%C3%B6r%20boende%20i%20miljonprogramsomr%C3%A5den"
+  },
+  {
+    "id": "kb97",
+    "source": "Coompanion",
+    "source_name": "Coompanion",
+    "type": "natverk",
+    "icon": "🤝",
+    "title": "Nätverk för lokal matberedskap",
+    "desc": "Samarbetsnätverk för lokal matberedskap och civilsamhällets roll.",
+    "cats": [
+      "samhalle",
+      "mat"
+    ],
+    "url": "https://coompanion.se/alla-event/natverk-for-lokal-matberedskap-samverkan-med-civilsamhallet/"
+  },
+  {
+    "id": "kb98",
+    "source": "PF",
+    "source_name": "Permakultur Sverige",
+    "type": "portal",
+    "icon": "📚",
+    "title": "Resursbank för permakultur",
+    "desc": "Internationell resursbank med böcker, artiklar och verktyg för permakultur.",
+    "cats": [
+      "skogstradgard",
+      "biodiv"
+    ],
+    "url": "https://library.uniteddiversity.coop/More_Books_and_Reports/"
+  },
+  {
+    "id": "kb99",
+    "source": "SLU",
+    "source_name": "SLU",
+    "type": "portal",
+    "icon": "🌿",
+    "title": "MOVIUM – urbana ekosystem",
+    "desc": "Kunskapscentrum för urbana ekosystem och gröna miljöer.",
+    "cats": [
+      "samhalle",
+      "biodiv"
+    ],
+    "url": "https://movium.slu.se/nyheter/#PDF"
+  },
+  {
+    "id": "kb100",
+    "source": "Esri",
+    "source_name": "Esri",
+    "type": "kurs",
+    "icon": "🎓",
+    "title": "GIS och ArcGIS utbildningar",
+    "desc": "Utbildningskatalog för geografiska informationssystem och kartverktyg.",
+    "cats": [
+      "samhalle"
+    ],
+    "url": "https://www.esri.com/training/catalog/search/"
+  },
+  {
+    "id": "kb101",
+    "source": "LabLab",
+    "source_name": "LabLab",
+    "type": "foretag",
+    "icon": "📊",
+    "title": "Visualisering av data",
+    "desc": "Specialister på datavisualisering och interaktiva presentationer.",
+    "cats": [
+      "samhalle"
+    ],
+    "url": "https://lablab.se/"
+  },
+  {
+    "id": "kb102",
+    "source": "Tradgard",
+    "source_name": "Trädgården",
+    "type": "nyhetsbrev",
+    "icon": "📰",
+    "title": "Trädgården – jord och klimat",
+    "desc": "Nyhetsbrev om jordhälsa, klimat och hållbar odling.",
+    "cats": [
+      "mat",
+      "klimat"
+    ],
+    "url": "https://tradgardenjorden.substack.com/"
+  },
+  {
+    "id": "kb103",
+    "source": "HA",
+    "source_name": "Hungry & Angry",
+    "type": "podcast",
+    "icon": "🎙️",
+    "title": "Hungry & Angry podcast",
+    "desc": "Podcast om matsystem, jordbruk och hållbar utveckling.",
+    "cats": [
+      "mat",
+      "samhalle"
+    ],
+    "url": "https://www.hungryandangry.se/"
+  },
+  {
+    "id": "kb104",
+    "source": "VR",
+    "source_name": "Västra Götalandsregionen",
+    "type": "kalender",
+    "icon": "📅",
+    "title": "Regionkalender",
+    "desc": "Regional kalender för evenemang inom hållbar utveckling.",
+    "cats": [
+      "samhalle"
+    ],
+    "url": "https://regionkalender.vgregion.se/sv/"
+  },
+  {
+    "id": "kb105",
+    "source": "BYGG",
+    "source_name": "Svensk Byggtjänst",
+    "type": "guide",
+    "icon": "📋",
+    "title": "ABT 06 – allmänna bestämmelser",
+    "desc": "Tekniska bestämmelser för byggande och anläggning.",
+    "cats": [
+      "samhalle",
+      "policy"
+    ],
+    "url": "https://www.yumpu.com/sv/document/view/20331846/abt-06-kyrkans-tidning"
+  },
+  {
+    "id": "kb106",
+    "source": "BYGG",
+    "source_name": "Svensk Byggtjänst",
+    "type": "guide",
+    "icon": "📋",
+    "title": "ABU 04 – allmänna bestämmelser",
+    "desc": "Allmänna bestämmelser för byggande och entreprenad.",
+    "cats": [
+      "samhalle",
+      "policy"
+    ],
+    "url": "https://www.yumpu.com/sv/document/view/46465891/ab-u-04-publikationer-fran-sveriges-byggindustrier"
+  },
+  {
+    "id": "yt_zlZjwV675q4",
+    "source": "Soil Food Web School",
+    "source_name": "Soil Food Web School",
+    "type": "video",
+    "icon": "📺",
+    "title": "Rota stickling direkt på busken",
+    "desc": "Emma visar hur du kan göra en avläggare med hjälp av en rotboll!\n\n\nFölj oss gärna här, och Geekyfarmers på Instagram och Facebook 🌱",
+    "cats": [
+      "video"
+    ],
+    "url": "https://www.youtube.com/watch?v=zlZjwV675q4"
+  },
+  {
+    "id": "yt_22iFpcdzlLo",
+    "source": "Soil Food Web School",
+    "source_name": "Soil Food Web School",
+    "type": "video",
+    "icon": "📺",
+    "title": "Starten på odlingsåret!",
+    "desc": "Äntligen höst!\nVi går igenom massor av hösttips och pratar höstsådd och vintersådd samt presenterar några växter som stolt står kvar i trädgården!\n\n\nFölj oss gärna här och Geekyfarmers på Instagram och Facebo 🍂",
+    "cats": [
+      "video"
+    ],
+    "url": "https://www.youtube.com/watch?v=22iFpcdzlLo"
+  },
+  {
+    "id": "yt_Wn1uw0ijC3U",
+    "source": "Soil Food Web School",
+    "source_name": "Soil Food Web School",
+    "type": "video",
+    "icon": "📺",
+    "title": "Vår odling i kärran, en månad senare!",
+    "desc": "Med solen i ansiktet berättar Emma om några av växterna som kommit upp, och vi skördar en liten sallad till vår lunch.\n\n\nFölj oss gärna här, och Geekyfarmers på Instagram och Facebook 🌱",
+    "cats": [
+      "video"
+    ],
+    "url": "https://www.youtube.com/watch?v=Wn1uw0ijC3U"
+  },
+  {
+    "id": "yt_t-J3cbIpa90",
+    "source": "Soil Food Web School",
+    "source_name": "Soil Food Web School",
+    "type": "video",
+    "icon": "📺",
+    "title": "Vi skördar och äter mullbärsblad",
+    "desc": "Här kommer en hel korg med tips och inspiration om vad du kan göra med mullbärsblad!\n\nFölj oss gärna här, och Geekyfarmers på Instagram och Facebook 🌳",
+    "cats": [
+      "video"
+    ],
+    "url": "https://www.youtube.com/watch?v=t-J3cbIpa90"
+  },
+  {
+    "id": "yt_dCgxTZrEeOI",
+    "source": "Soil Food Web School",
+    "source_name": "Soil Food Web School",
+    "type": "video",
+    "icon": "📺",
+    "title": "Hur vi sköter vår äng!",
+    "desc": "Vi övar på lien och förklarar hur vi tänker kring vår äng.\n\n\nFölj oss gärna här, och Geekyfarmers på Instagram och Facebook 🌱",
+    "cats": [
+      "video"
+    ],
+    "url": "https://www.youtube.com/watch?v=dCgxTZrEeOI"
+  },
+  {
+    "id": "yt_Hd5oQOBfzGY",
+    "source": "Soil Food Web School",
+    "source_name": "Soil Food Web School",
+    "type": "video",
+    "icon": "📺",
+    "title": "Kompost, skötsel och tips!",
+    "desc": "Emma och Robin på Grustorps skogsträdgård och plantskola diskuterar allt om kompost.\n\nRobin visar deras 18 dagars kompost och ger massor av tips till hur du får bra jord av din kompost.\n\n\nFölj oss gärna här, och Geekyfarmers på Instagram och Facebook 🌱",
+    "cats": [
+      "video"
+    ],
+    "url": "https://www.youtube.com/watch?v=Hd5oQOBfzGY"
+  },
+  {
+    "id": "yt_j78gcVXe4tc",
+    "source": "Soil Food Web School",
+    "source_name": "Soil Food Web School",
+    "type": "video",
+    "icon": "📺",
+    "title": "Grustorps skogsträdgård och plantskola!",
+    "desc": "Häng med till Grustorps fantastiska skogsträdgård och plantskola, vi pratar trädgård och växter, fikar och får mängder av smarta tips!\n\nKolla in grustorp.se\n\n\nFölj både oss och Grustorp på Instagram och Facebook 🌱",
+    "cats": [
+      "video"
+    ],
+    "url": "https://www.youtube.com/watch?v=j78gcVXe4tc"
+  },
+  {
+    "id": "yt_iV3LhuG1aok",
+    "source": "Soil Food Web School",
+    "source_name": "Soil Food Web School",
+    "type": "video",
+    "icon": "📺",
+    "title": "Från gödsel till örter!",
+    "desc": "Vi gör om en gammal gödselkärra till en odlingslåda.\n\n\nFölj oss gärna här, och Geekyfarmers på Instagram och Facebook 🌱",
+    "cats": [
+      "video"
+    ],
+    "url": "https://www.youtube.com/watch?v=iV3LhuG1aok"
+  },
+  {
+    "id": "yt_phWlv2S2vAU",
+    "source": "Soil Food Web School",
+    "source_name": "Soil Food Web School",
+    "type": "video",
+    "icon": "📺",
+    "title": "Slipp gräset i rabatten!",
+    "desc": "Emma visar hur du hindrar gräset att växa in i odlingen, och varför groblad är en sån fantastisk växt.\n\n\nFölj oss gärna här, och Geekyfarmers på Instagram och Facebook 🌱",
+    "cats": [
+      "video"
+    ],
+    "url": "https://www.youtube.com/watch?v=phWlv2S2vAU"
+  },
+  {
+    "id": "yt__dvtqhu1Kpo",
+    "source": "Soil Food Web School",
+    "source_name": "Soil Food Web School",
+    "type": "video",
+    "icon": "📺",
+    "title": "Gör en damm för regnvatten!",
+    "desc": "Emma har grävt massor, och äntligen slipper regnet förstöra vår väg samtidigt som ankor och andra får mer vatten!\n\n\nFölj oss gärna här, och Geekyfarmers på Instagram och Facebook 🌦",
+    "cats": [
+      "video"
+    ],
+    "url": "https://www.youtube.com/watch?v=_dvtqhu1Kpo"
+  },
+  {
+    "id": "yt_no7n6ZGYoYo",
+    "source": "Soil Food Web School",
+    "source_name": "Soil Food Web School",
+    "type": "video",
+    "icon": "📺",
+    "title": "Skörda enklare med beskärning!",
+    "desc": "Emma går loss på vinbären och visar hur du kan få ut mer av busken!\n\n\nFölj oss gärna här, och Geekyfarmers på Instagram och Facebook 🌱",
+    "cats": [
+      "video"
+    ],
+    "url": "https://www.youtube.com/watch?v=no7n6ZGYoYo"
+  },
+  {
+    "id": "yt_ZJi2HGjNyQg",
+    "source": "Soil Food Web School",
+    "source_name": "Soil Food Web School",
+    "type": "video",
+    "icon": "📺",
+    "title": "Vårat vackra hem!",
+    "desc": "Följ med på en tur genom våran trädgård och vidare när sommaren är som vackrast!\n\n\nFölj oss gärna här, och Geekyfarmers på Instagram och Facebook 🦆",
+    "cats": [
+      "video"
+    ],
+    "url": "https://www.youtube.com/watch?v=ZJi2HGjNyQg"
+  },
+  {
+    "id": "yt_i2f9M_WBbPI",
+    "source": "Soil Food Web School",
+    "source_name": "Soil Food Web School",
+    "type": "video",
+    "icon": "📺",
+    "title": "Grillen blir klar!",
+    "desc": "Grillosaurus är den mäktigaste grillen bland alla berg och skogar!\n\nMycket vinkelslipande och bankande, men vilken grill det blev! \nKolla in slutet för en riktigt lökig final..\n\n\nFölj oss gärna här, och Geekyfarmers på Instagram och Facebook 🔥",
+    "cats": [
+      "video"
+    ],
+    "url": "https://www.youtube.com/watch?v=i2f9M_WBbPI"
+  },
+  {
+    "id": "yt_6YUQsDvdvEg",
+    "source": "Soil Food Web School",
+    "source_name": "Soil Food Web School",
+    "type": "video",
+    "icon": "📺",
+    "title": "Bland ankor och höns.",
+    "desc": "Jonathan går vilse i skogen och pratar om våra fåglar, Svensk gulanka och Gotlandshöna, och deras hus, ankdamm och kläck.\n\n\nFölj oss gärna här, och Geekyfarmers på Instagram och Facebook 🐓",
+    "cats": [
+      "video"
+    ],
+    "url": "https://www.youtube.com/watch?v=6YUQsDvdvEg"
+  },
+  {
+    "id": "yt_mPBZLqCSVHs",
+    "source": "Soil Food Web School",
+    "source_name": "Soil Food Web School",
+    "type": "video",
+    "icon": "📺",
+    "title": "Pumporna tittar fram!",
+    "desc": "Emma visar hur vi gjorde med pumpasådden i år, och de har verkligen vuxit fint utan vår inblandning :)\n\n\n\nFölj oss gärna här, och Geekyfarmers på Instagram och Facebook 🐓",
+    "cats": [
+      "video"
+    ],
+    "url": "https://www.youtube.com/watch?v=mPBZLqCSVHs"
+  },
+  {
+    "id": "yt__4R_bizIVXw",
+    "source": "Naturvårdsverket",
+    "source_name": "Naturvårdsverket",
+    "type": "video",
+    "icon": "📺",
+    "title": "Välkommen till Miljöbalksdagarna 17-18 mars 2026",
+    "desc": "Välkommen till Miljöbalksdagarna 2026 hälsar Johan Kuylenstierna, generaldirektör på Naturvårdsverket. \n\nNu kan du som arbetar med tillsyn enligt miljöbalken anmäla dig! \n\nTemat i år är: tillsammans stärker vi tillsynen. \n\nTa reda på mer: https://www.naturvardsverket.se/om-oss/aktuellt/kalendarium/2026/mars/miljobalksdagarna-2026--tillsammans-starker-vi-tillsynen/",
+    "cats": [
+      "video"
+    ],
+    "url": "https://www.youtube.com/watch?v=_4R_bizIVXw"
+  },
+  {
+    "id": "yt_52lP7Brxbns",
+    "source": "Naturvårdsverket",
+    "source_name": "Naturvårdsverket",
+    "type": "video",
+    "icon": "📺",
+    "title": "Ett större problem än du tror #plast",
+    "desc": "Vissa bekymmer försvinner på en sekund – plast gör inte det.\n\nEngångsprodukter vi använder i ett ögonblick kan få långvariga konsekvenser. \nDe hamnar lätt som skräp i naturen och påverkar livet i haven. \n\nDen mesta plasten är dessutom gjord av fossil olja och orsakar utsläpp av växthusgaser. \nOnödig plast finns överallt, i kaffemuggen när du är på språng och i konfettin på festen. \nVad gör din verksamhet för att minska onödig plast?\n\nhttps://www.naturvardsverket.se/amnesomraden/plast/hallbar-plastanvandning/",
+    "cats": [
+      "video"
+    ],
+    "url": "https://www.youtube.com/shorts/52lP7Brxbns"
+  },
+  {
+    "id": "yt_h1K5XwPszDs",
+    "source": "Naturvårdsverket",
+    "source_name": "Naturvårdsverket",
+    "type": "video",
+    "icon": "📺",
+    "title": "Ersättning för åtgärder i ängs- och betesmarker",
+    "desc": "Om du vill bevara, stärka eller utveckla höga naturvärden i ängs- och betesmarker samt lövträd med målet att återställa tillhörande biologisk mångfald, då kan du ansöka om ersättning för kostnader som uppstår vid dessa åtgärder. Ansökan görs hos länsstyrelsen.\n\nLäs mer: https://www.naturvardsverket.se/bidrag/ersattning-for-atgarder-i-angs--och-betesmarker/",
+    "cats": [
+      "video"
+    ],
+    "url": "https://www.youtube.com/watch?v=h1K5XwPszDs"
+  },
+  {
+    "id": "yt_l7HUAS18gpc",
+    "source": "Naturvårdsverket",
+    "source_name": "Naturvårdsverket",
+    "type": "video",
+    "icon": "📺",
+    "title": "Vällkommen till Nämdöskärgårdens nationalpark",
+    "desc": "Nämdöskärgårdens nationalpark blir Sveriges 31:a nationalpark. Nationalparken ligger i Värmdö kommun i Stockholms län. Syftet är att bevara ett representativt och variationsrikt havs- och skärgårdslandskap i Östersjön i väsentligen oförändrat skick.\n\nDen nya nationalparken kommer att firas under en hel invigningsvecka mellan den 30 augusti och 7 september 2025. Det blir dagar fyllda med olika aktiviteter, utställningar och naturupplevelser. \n\nMer information om Nämdöskärgårdens nationalpark finns på webbplatsen sverigesnationalparker.se: https://www.sverigesnationalparker.se/park/namdoskargardens-nationalpark/",
+    "cats": [
+      "video"
+    ],
+    "url": "https://www.youtube.com/watch?v=l7HUAS18gpc"
+  },
+  {
+    "id": "yt_FDUOb7MB-IM",
+    "source": "Naturvårdsverket",
+    "source_name": "Naturvårdsverket",
+    "type": "video",
+    "icon": "📺",
+    "title": "Nämdöskärgården är Sveriges 31:a nationalpark | Naturvårdsverket",
+    "desc": "Den 19 juni 2025 fattade regeringen beslut om att bilda Sveriges 31:a nationalpark. Det är ett stort havsområde med ett tusental öar, kobbar och skär i Stockholms yttre skärgård som bildar Nämdöskärgårdens nationalpark. Invigningen äger rum mellan den 30 augusti och 7 september.\n\nLäs mer om Nämdöskärgårdens nationalpark: https://www.sverigesnationalparker.se/park/namdoskargardens-nationalpark/",
+    "cats": [
+      "video"
+    ],
+    "url": "https://www.youtube.com/watch?v=FDUOb7MB-IM"
+  },
+  {
+    "id": "yt_nBllTRI5jIo",
+    "source": "Naturvårdsverket",
+    "source_name": "Naturvårdsverket",
+    "type": "video",
+    "icon": "📺",
+    "title": "Världsmiljödagen 5 juni 2025 - Tema plastföroreningar",
+    "desc": "",
+    "cats": [
+      "video"
+    ],
+    "url": "https://www.youtube.com/shorts/nBllTRI5jIo"
+  },
+  {
+    "id": "yt_GNsDYpbjCjw",
+    "source": "Naturvårdsverket",
+    "source_name": "Naturvårdsverket",
+    "type": "video",
+    "icon": "📺",
+    "title": "Man ska fira men det är inte tillåtet att använda plastkonfetti utomhus",
+    "desc": "Sedan 2022 är det inte tillåtet att använda plastkonfetti utomhus.\n\nVarför? För att det som tar ett par sekunder att kasta ut tar timmar att städa, och det som ligger kvar bryts sakta ner till mikroplaster som sedan sprids vidare.",
+    "cats": [
+      "video"
+    ],
+    "url": "https://www.youtube.com/shorts/GNsDYpbjCjw"
+  },
+  {
+    "id": "yt_xpgilyhawIo",
+    "source": "Naturvårdsverket",
+    "source_name": "Naturvårdsverket",
+    "type": "video",
+    "icon": "📺",
+    "title": "Sveriges produktion av biogas fördubblades under 2024",
+    "desc": "Sveriges produktion av biogas fördubblades under 2024 med stöd från Klimatklivet. Insatser för klimatet som gör skillnad.\n\nDet behövs för den gröna omställningen – för att komplettera elektrifieringen av transporter och minska industrins beroende av fossil energi. Tillskottet till Sveriges energiförsörjning stärker också vår civila beredskap.\n\nBra jobbat av alla små och stora företag runt om i Sverige som tar steg för steg mot ett fossilfritt samhälle! \n\n27 000 klimatinvesteringar har nu genomförts sedan Klimatklivet startade för 10 år sedan. 🙌 \n\nhttps://www.naturvardsverket.se/om-oss/aktuellt/nyheter-och-pressmeddelanden/2025/april/biogasproduktionen-i-sverige-fordubblas/",
+    "cats": [
+      "video"
+    ],
+    "url": "https://www.youtube.com/shorts/xpgilyhawIo"
+  },
+  {
+    "id": "yt_9a19fgpjrdo",
+    "source": "Naturvårdsverket",
+    "source_name": "Naturvårdsverket",
+    "type": "video",
+    "icon": "📺",
+    "title": "Mer krävs för att nå klimatmålen – Om klimatredovisningen",
+    "desc": "Sverige ser inte ut att nå något av klimatmålen för 2030, 2040 och 2045. Särskilt utmanande är målet kopplat till skog och mark i den så kallade LULUCF-sektorn.\n\nDet långsiktiga klimatmålet är att Sverige inte ska ha några nettoutsläpp av växthusgaser år 2045. Det målet nås inte med nuvarande styrmedel. Gapet till målet är cirka 19 miljoner ton med beslutade kompletterande åtgärder. \n\nNaturvårdsverket har regeringens uppdrag att ta fram underlag till den årliga klimatredovisningen som redovisar de viktigaste klimatpolitiska besluten nationellt och på EU-nivå under perioden 1 april 2024 till och med 31 mars 2025. Underlaget omfattar även bedömningar av utsläppsutvecklingen mot de nationella etappmålen år 2030, 2040 och 2045 och Sveriges klimatåtaganden inom EU. \n\nEn samlad bedömning av utsläppsutvecklingen har gjorts med hjälp av uppdaterade utsläppsscenarier. Uppdraget har genomförts i samarbete med Energimyndigheten, Jordbruksverket, SLU - Sveriges lantbruksuniversitet, Konjunkturinstitutet, Skogsstyrelsen, Trafikverket, Trafikanalys och Transportstyrelsen.\n\nhttps://www.naturvardsverket.se/om-oss/aktuellt/nyheter-och-pressmeddelanden/2025/april/mer-kravs-for-att-na-klimatmalen/",
+    "cats": [
+      "video"
+    ],
+    "url": "https://www.youtube.com/shorts/9a19fgpjrdo"
+  },
+  {
+    "id": "yt_nPck_pjCMlk",
+    "source": "Naturvårdsverket",
+    "source_name": "Naturvårdsverket",
+    "type": "video",
+    "icon": "📺",
+    "title": "Vi vill påminna om att engångsmuggar i plast är förbjudna | Naturvårdsverket",
+    "desc": "De engångsmuggar som innehåller mer än 15 % plast är förbjudna sedan 1 januari 2024. Sedan tidigare finns förbud mot plastmuggar i frigolit. \n\nhttps://www.naturvardsverket.se/vagledning-och-stod/plast/engangsplast/",
+    "cats": [
+      "video"
+    ],
+    "url": "https://www.youtube.com/watch?v=nPck_pjCMlk"
+  },
+  {
+    "id": "yt_Br90XryeQCs",
+    "source": "Naturvårdsverket",
+    "source_name": "Naturvårdsverket",
+    "type": "video",
+    "icon": "📺",
+    "title": "Grönplanera och grön infrastruktur | Naturvårdsverket",
+    "desc": "Här förklarar vi hur grönplanering hänger ihop med grön infrastruktur.",
+    "cats": [
+      "video"
+    ],
+    "url": "https://www.youtube.com/watch?v=Br90XryeQCs"
+  },
+  {
+    "id": "yt_NoR8_mubqyU",
+    "source": "Naturvårdsverket",
+    "source_name": "Naturvårdsverket",
+    "type": "video",
+    "icon": "📺",
+    "title": "Vägledning om grönplanering",
+    "desc": "Naturvårdsverket och Boverket har gemensamt tagit fram en vägledning om grönplanering. Den ska stötta kommunernas arbete med att främja och utveckla grönstruktur i planeringen och skapa långsiktigt hållbara, hälsosamma och attraktiva livsmiljöer. Läs mer: https://www.naturvardsverket.se/vagledning-och-stod/samhallsplanering/gronplanering/",
+    "cats": [
+      "video"
+    ],
+    "url": "https://www.youtube.com/watch?v=NoR8_mubqyU"
+  },
+  {
+    "id": "yt_CNl6iU_PBWQ",
+    "source": "Naturvårdsverket",
+    "source_name": "Naturvårdsverket",
+    "type": "video",
+    "icon": "📺",
+    "title": "Verslun & veitingar  – Velkomin í sjálfbæra plastnotkun framtíðarinnar",
+    "desc": "Velkomin í sjálfbæra plastnotkun framtíðarinnar. Við höfum komið á sjálfbærum viðskiptalíkönum í lykilgeirum, og við höfum öll tekið upp nýtt neyslumynstur og nýjan lífstíl. Í þessari óskaframtíð, sérðu hvernig okkur tókst að draga úr plastnotkun, auka endurnýtingu, gera endingarbetri vörur, og hámarka nýtnina.\n\nÞú munt taka eftir því að fyrir hvert og eitt okkar er breytingin tiltölulega lítil, en að áhrifin af sjálfbærri plastnotkun eru mikil.\n\nÍ hádeginu koma viðskiptavinir með matarílát á veitingastaðinn. Þá geta þeir fengið það magn sem þeir vilja, sem dregur úr matarsóun og þar með meðhöndlun sorps. Í áfyllingarbúð má kaupa áfyllingar, eða versla eftir vigt.\nAðrar vörur eru í umhverfisvænum umbúðum. Endurnýtingargangurinn er með viðskiptalíkan sem gengur út á að leigja, lána, skipta og deila. Við sem hér vinnum getum gert við næstum allt, sem er gott, því hingað kemur dót sem fer í endurvinnsluna til endurnýtingar. Margar vörur innihalda mikið plast.\n\nÞess vegna er gott að gefa þeim réttan líftíma og hámarka nýtingu þeirra.\n\n\nhttps://www.naturvardsverket.se/amnesomraden/plast/framtidsbilder-plast/islandska/",
+    "cats": [
+      "video"
+    ],
+    "url": "https://www.youtube.com/watch?v=CNl6iU_PBWQ"
+  },
+  {
+    "id": "yt_Y6Fix060LyE",
+    "source": "Naturvårdsverket",
+    "source_name": "Naturvårdsverket",
+    "type": "video",
+    "icon": "📺",
+    "title": "Sveitarfélaginu – Velkomin í sjálfbæra plastnotkun framtíðarinnar",
+    "desc": "Velkomin í sjálfbæra plastnotkun framtíðarinnar. Við höfum komið á sjálfbærum viðskiptalíkönum í lykilgeirum, og við höfum öll tekið upp nýtt neyslumynstur og nýjan lífstíl. Í þessari óskaframtíð, sérðu hvernig okkur tókst að draga úr plastnotkun, auka endurnýtingu, gera endingarbetri vörur, og hámarka nýtnina.\n\nÞú munt taka eftir því að fyrir hvert og eitt okkar er breytingin tiltölulega lítil, en að áhrifin af sjálfbærri plastnotkun eru mikil.\n\nVið hjá sveitarfélaginu erum góð í að draga úr plastnotkun hjá okkur. Á bæjarhátíðinni tökum við skreytingar og borðbúnað saman og endurnýtum ár eftir ár.\n\nÁ torginu er boðið upp á mat sem gerður er á staðnum úr staðbundnu hráefni, og diskunum er safnað í diskarekkann. Það er liðin tíð að ruslatunnur séu yfirfullar eftir hátíðina.\n\nVið settum upp leikvistsvæði á grasi grónum hól. Leiksvæði sem náttúran hefur mótað. Við gerum ekki leiksvæði með tilbúnu undirlagi sem dreifir plastögnum, og leiktækjum sem hefta ímyndunarafl barnanna.\nLeikvistsvæði eru líka góð fyrir líffjölbreytni.\n\n\nhttps://www.naturvardsverket.se/amnesomraden/plast/framtidsbilder-plast/islandska/",
+    "cats": [
+      "video"
+    ],
+    "url": "https://www.youtube.com/watch?v=Y6Fix060LyE"
+  },
+  {
+    "id": "yt_bmklDb38k-U",
+    "source": "Naturvårdsverket",
+    "source_name": "Naturvårdsverket",
+    "type": "video",
+    "icon": "📺",
+    "title": "Heilsugæslan – Velkomin í sjálfbæra plastnotkun framtíðarinnar",
+    "desc": "Velkomin í sjálfbæra plastnotkun framtíðarinnar. Við höfum komið á sjálfbærum viðskiptalíkönum í lykilgeirum, og við höfum öll tekið upp nýtt neyslumynstur og nýjan lífstíl. Í þessari óskaframtíð, sérðu hvernig okkur tókst að draga úr plastnotkun, auka endurnýtingu, gera endingarbetri vörur, og hámarka nýtnina.\n\nÞú munt taka eftir því að fyrir hvert og eitt okkar er breytingin tiltölulega lítil, en að áhrifin af sjálfbærri plastnotkun eru mikil.\n\nEitt framfaraskrefið var að taka skref aftur á bak. Það merkir að leggja af notkun einnota plastvara án þess að gefa afslátt af hreinlæti og öryggi. Allt hitt er orðið að uppfærðri útgáfu þess sem það var. \n\nVið notum alvöru gler og postulín í matsalnum. Lækningatæki og hlífðarfatnaður eru sótthreinsuð, þvegin og endurnýtt. Enn er þörf á miklu magni plasthanska á sjúkrahúsinu. Það er erfitt að losna við þá. Þess vegna var skilavélin þróuð. Þar er notuðum hönskum hent og þeir endurunnir sem nýir hanskar, allt innan sjúkrahússins.\n\n\nhttps://www.naturvardsverket.se/amnesomraden/plast/framtidsbilder-plast/islandska/",
+    "cats": [
+      "video"
+    ],
+    "url": "https://www.youtube.com/watch?v=bmklDb38k-U"
+  },
+  {
+    "id": "kb107",
+    "source": "GEN",
+    "source_name": "Exempel",
+    "type": "video",
+    "icon": "💾",
+    "title": "Sparat webbinarium (demo)",
+    "desc": "Detta är ett test på kategori sparade webbinarier.",
+    "cats": [
+      "sparade"
+    ],
+    "url": "https://example.com"
+  }
 ]

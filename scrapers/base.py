@@ -111,6 +111,36 @@ class BaseScraper(ABC):
 
         return None
 
+    def generic_fetch(self) -> list[dict]:
+        """
+        En enkel fallback som skannar efter länkar och försöker extrahera datum
+        från länktext eller närliggande text. Används av run_all om normal fetch
+        inte hittar något.
+        """
+        events: list[dict] = []
+        try:
+            soup = self.soup(getattr(self, 'EVENTS_URL', self.base_url))
+            for link in soup.find_all('a', href=True):
+                title = link.get_text(' ', strip=True)
+                if not title:
+                    continue
+                date_iso = self.parse_swedish_date(title)
+                if not date_iso:
+                    # kolla hos grannar
+                    nearby = []
+                    for sib in list(link.previous_siblings)[:3] + list(link.next_siblings)[:3]:
+                        if hasattr(sib, 'get_text'):
+                            nearby.append(sib.get_text(' ', strip=True))
+                    date_iso = self.parse_swedish_date(' '.join(nearby))
+                if date_iso and self.is_relevant(title):
+                    url = link['href']
+                    if url and not url.startswith('http'):
+                        url = self.base_url.rstrip('/') + '/' + url.lstrip('/')
+                    events.append(self.event(title=title, date_iso=date_iso, url=url))
+        except Exception as e:
+            print(f"{self.name} generic_fetch error: {e}")
+        return events
+
     @abstractmethod
     def fetch(self) -> list[dict]:
         """Hämta och returnera lista av event-dicts."""

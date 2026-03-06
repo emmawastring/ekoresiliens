@@ -129,6 +129,12 @@ a.card:hover{transform:translateY(-3px);box-shadow:0 8px 28px rgba(58,90,64,.12)
 .stripe-skogstradgard{background:#1a5c1a;}
 .stripe-default      {background:var(--sage);}
 
+/* nya kategorier */
+.cat-video  {background:#f3e5f5;color:#6a1b9a;}
+.stripe-video {background:#6a1b9a;}
+.cat-sparade {background:#fff3e0;color:#e65100;}
+.stripe-sparade {background:#e65100;}
+
 /* KB TAB */
 .kb-wrap{max-width:1280px;margin:0 auto;padding:2rem;}
 .kb-content{flex:1;min-width:0;}
@@ -218,6 +224,8 @@ footer a:hover{text-decoration:underline;}
             <div class="chip" data-cat="policy"        onclick="selectCat(this,'catChips')"><span class="chip-dot" style="background:#4527a0"></span>Policy</div>
             <div class="chip" data-cat="agroforestry"  onclick="selectCat(this,'catChips')"><span class="chip-dot" style="background:#2d6a2d"></span>Agroforestry</div>
             <div class="chip" data-cat="skogstradgard" onclick="selectCat(this,'catChips')"><span class="chip-dot" style="background:#1a5c1a"></span>Skogsträdgård</div>
+            <div class="chip" data-cat="video" onclick="selectCat(this,'catChips')"><span class="chip-dot" style="background:#6a1b9a"></span>Video</div>
+            <div class="chip" data-cat="sparade" onclick="selectCat(this,'catChips')"><span class="chip-dot" style="background:#d47c52"></span>Sparade webbinarier</div>
           </div>
         </div>
 
@@ -308,6 +316,8 @@ footer a:hover{text-decoration:underline;}
             <div class="chip" data-cat="policy"               onclick="selectCat(this,'kbCatChips')"><span class="chip-dot" style="background:#4527a0"></span>Policy</div>
             <div class="chip" data-cat="agroforestry"         onclick="selectCat(this,'kbCatChips')"><span class="chip-dot" style="background:#2d6a2d"></span>Agroforestry</div>
             <div class="chip" data-cat="skogstradgard"        onclick="selectCat(this,'kbCatChips')"><span class="chip-dot" style="background:#1a5c1a"></span>Skogsträdgård</div>
+            <div class="chip" data-cat="video"             onclick="selectCat(this,'kbCatChips')"><span class="chip-dot" style="background:#6a1b9a"></span>Video</div>
+            <div class="chip" data-cat="sparade"           onclick="selectCat(this,'kbCatChips')"><span class="chip-dot" style="background:#d47c52"></span>Sparade webbinarier</div>
           </div>
         </div>
 
@@ -356,7 +366,8 @@ let sourcesInData = [];
 const CAT_LABELS = {
   klimat:'Klimat', biodiv:'Biologisk mångfald', samhalle:'Samhälle',
   vatten:'Vatten', skog:'Skog', mat:'Mat & Jordbruk', energi:'Energi',
-  policy:'Policy', agroforestry:'Agroforestry', skogstradgard:'Skogsträdgård'
+  policy:'Policy', agroforestry:'Agroforestry', skogstradgard:'Skogsträdgård',
+  video:'Video', sparade:'Sparade webbinarier'
 };
 function tl(t){ return CAT_LABELS[t] || t; }
 

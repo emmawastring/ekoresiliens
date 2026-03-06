@@ -115,6 +115,10 @@ def run():
         try:
             print(f"  → Kör {scraper.name}...")
             events = scraper.fetch()
+            if not events:
+                # försök fallback
+                print(f"    (ingen data, testar generic_fetch)")
+                events = scraper.generic_fetch()
             print(f"    ✓ Hittade {len(events)} evenemang")
             all_events.extend(events)
         except Exception as e:
