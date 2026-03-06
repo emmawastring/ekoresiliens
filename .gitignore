@@ -9,4 +9,5 @@ Thumbs.db
 *.egg-info/
 dist/
 build/
-.pytest_cache/
+.pytest_cache/# Genererad data – skapas av GitHub Actions
+data/webinars.json
