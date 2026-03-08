@@ -73,7 +73,7 @@ class HutSkaneScraper(BaseScraper):
 
                         events.append(self.event(
                             title=title,
-                            date=date_iso,
+                            date_iso=date_iso,
                             url=link or url,
                             description=description,
                             categories=["samhalle", "klimat"],

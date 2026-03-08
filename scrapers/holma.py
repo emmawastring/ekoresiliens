@@ -109,7 +109,7 @@ class HolmaScraper(BaseScraper):
 
                 events.append(self.event(
                     title=title,
-                    date=date_iso,
+                    date_iso=date_iso,
                     url=url,
                     description=description,
                     categories=categories,

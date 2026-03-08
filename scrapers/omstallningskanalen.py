@@ -35,7 +35,7 @@ class OmstallningskanalenScraper(BaseScraper):
 
                 events.append(self.event(
                     title=title,
-                    date=created_at or "2026-01-01",
+                    date_iso=created_at or "2026-01-01",
                     url=self.BASE_URL,
                     description=description,
                     categories=["samhalle", "klimat"],
