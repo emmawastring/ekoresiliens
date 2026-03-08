@@ -33,17 +33,17 @@ class HutSkaneScraper(BaseScraper):
                 soup = BeautifulSoup(r.text, "html.parser")
 
                 # Hitta evenemang - varje li med datum och länk
-                for article in soup.select("article.type-tribe_events, li.tribe-events-calendar-list__list-item"):
+                for article in soup.select("article.tribe-events-calendar-list__event"):
                     try:
                         # Titel
-                        title_el = article.select_one("h2 a, h3 a, .tribe-event-url")
+                        title_el = article.select_one(".tribe-events-calendar-list__event-title a, h3 a")
                         if not title_el:
                             continue
                         title = title_el.get_text(strip=True)
                         link  = title_el.get("href", "")
 
                         # Datum - från datetime-attributet
-                        date_el = article.select_one("time[datetime], abbr[title]")
+                        date_el = article.select_one("time[datetime]")
                         date_iso = None
                         if date_el and date_el.get("datetime"):
                             dt = date_el["datetime"]
