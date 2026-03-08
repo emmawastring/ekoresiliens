@@ -348,13 +348,9 @@ footer a:hover{text-decoration:underline;}
         <div class="filter-group">
           <div class="filter-group-label" onclick="toggleFilterGroup(this)">Källa</div>
           <div class="filter-group-body">
-            <div class="source-toggle-row">
-              <button class="btn-source-toggle active-all" id="srcAllBtn" onclick="selectAllSources()">Alla</button>
-              <button class="btn-source-toggle" id="srcToggleBtn" onclick="toggleSourceList()">Välj källor ▾</button>
-            </div>
-            <div class="source-list-collapsible" id="sourceListWrap">
-              <div class="source-list" id="sourceList"></div>
-            </div>
+            <select class="lan-select" id="sourceSelect" onchange="selectSourceFromDropdown(this)">
+              <option value="">Alla källor...</option>
+            </select>
           </div>
         </div>
 
@@ -531,7 +527,29 @@ footer a:hover{text-decoration:underline;}
 <script>
 
 // ═══════════════════════════════════════════
-// KÄLLLISTA TOGGLE
+// KÄLLA DROPDOWN
+// ═══════════════════════════════════════════
+function buildSourceDropdown() {
+  const sel = document.getElementById('sourceSelect');
+  if (!sel) return;
+  sel.innerHTML = '<option value="">Alla källor...</option>';
+  const allSources = [...new Set([...Object.keys(SOURCE_LABELS), ...sourcesInData])].sort();
+  allSources.forEach(src => {
+    const count = allWebinars.filter(e => e.source_id === src).length;
+    if (count === 0) return;
+    const opt = document.createElement('option');
+    opt.value = src;
+    opt.textContent = (SOURCE_LABELS[src] || src) + ' (' + count + ')';
+    sel.appendChild(opt);
+  });
+}
+function selectSourceFromDropdown(sel) {
+  activeSource = sel.value;
+  applyFilters();
+}
+// ═══════════════════════════════════════════
+// KÄLLLISTA TOGGLE (legacy - ej använd)
+
 // ═══════════════════════════════════════════
 function toggleSourceList() {
   var wrap = document.getElementById('sourceListWrap');
@@ -585,6 +603,7 @@ function toggleFilterGroup(label) {
 // ═══════════════════════════════════════════
 // PLATS FILTER
 // ═══════════════════════════════════════════
+var activeSource = '';
 var activePlaceChip = 'all';
 var activeLan = '';
 
@@ -663,7 +682,7 @@ async function loadWebinars() {
     }
 
     // Bygg källfilter dynamiskt
-    buildSourceList();
+    buildSourceDropdown();
     document.getElementById('statWebinars').textContent = allWebinars.length;
 
     document.getElementById('webinarsLoading').style.display = 'none';
@@ -875,12 +894,11 @@ function getSearchText() {
 
 function applyFilters() {
   const q     = getSearchText();
-  const srcs  = getActiveSources();
   const sort  = 'date';
   const today = new Date(); today.setHours(0,0,0,0);
 
   let f = allWebinars.filter(w => {
-    if (srcs.length && !srcs.includes(w.source_id)) return false;
+    if (activeSource && w.source_id !== activeSource) return false;
     if (activeCat !== 'all' && !(w.categories || []).includes(activeCat)) return false;
     if (activeLang !== 'all') {
       const text = (w.title + ' ' + (w.description || '')).toLowerCase();
