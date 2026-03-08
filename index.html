@@ -330,6 +330,7 @@ footer a:hover{text-decoration:underline;}
               <div class="chip" data-type="seminarium" onclick="selectType(this)">Seminarium</div>
               <div class="chip" data-type="massa" onclick="selectType(this)">Mässa</div>
               <div class="chip" data-type="forelasning" onclick="selectType(this)">Föreläsning</div>
+              <div class="chip" data-type="festival" onclick="selectType(this)">Festival</div>
             </div>
           </div>
         </div>
@@ -914,6 +915,7 @@ function applyFilters() {
         'kurs':        /kurs|utbildning|workshop/i,
         'seminarium':  /seminarium|seminarie/i,
         'massa':       /mässa|messa|expo|fair/i,
+        'festival':    /festival/i,
         'forelasning': /föreläsning|föreläsar|lecture/i,
       };
       const re = typeMap[activeType];
