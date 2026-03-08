@@ -69,7 +69,7 @@ header{background:var(--charcoal);padding:0 2rem;display:flex;align-items:center
 
 /* MAIN LAYOUT */
 .main-wrap{max-width:1280px;margin:0 auto;padding:2rem;display:flex;gap:2rem;align-items:flex-start;}
-aside{width:250px;flex-shrink:0;position:sticky;top:0;}
+aside{width:250px;flex-shrink:0;}
 .filter-card{background:rgba(245,240,232,.88);border:1px solid rgba(163,184,153,.4);border-radius:16px;padding:1.4rem;margin-bottom:1rem;box-shadow:0 4px 20px rgba(0,0,0,.15);backdrop-filter:blur(6px);}
 .filter-title{font-family:'Playfair Display',serif;font-size:1rem;color:var(--moss);margin-bottom:.9rem;display:flex;align-items:center;gap:8px;}
 .search-box{width:100%;padding:9px 12px 9px 34px;border:1.5px solid var(--mist);border-radius:10px;font-family:'DM Sans',sans-serif;font-size:.87rem;background:rgba(245,240,232,.9) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='15' height='15' viewBox='0 0 24 24' fill='none' stroke='%23588157' stroke-width='2'%3E%3Ccircle cx='11' cy='11' r='8'/%3E%3Cpath d='m21 21-4.35-4.35'/%3E%3C/svg%3E") no-repeat 10px center;color:var(--charcoal);transition:border-color .2s;margin-bottom:.5rem;}
@@ -234,6 +234,26 @@ footer a:hover{text-decoration:underline;}
   cursor:pointer;transition:all .2s;text-decoration:none;display:inline-block;}
 .tab-btn:hover{background:rgba(255,255,255,.15);border-color:var(--sage);color:#fff;}
 .tab-btn.active{background:var(--fern);border-color:var(--fern);color:#fff;font-weight:600;}
+
+/* ACCORDION FILTER */
+.filter-group{margin-bottom:.6rem;}
+.filter-group-label{font-size:.7rem;font-weight:700;letter-spacing:.08em;color:var(--bark);
+  text-transform:uppercase;margin-bottom:.4rem;cursor:pointer;user-select:none;
+  display:flex;align-items:center;justify-content:space-between;padding:4px 0;}
+.filter-group-label::after{content:'▾';font-size:.75rem;transition:transform .2s;}
+.filter-group.closed .filter-group-label::after{transform:rotate(-90deg);}
+.filter-group-body{display:block;}
+.filter-group.closed .filter-group-body{display:none;}
+
+/* PLATS + KOSTNAD CHIPS */
+.place-chips{display:flex;flex-wrap:wrap;gap:5px;margin-bottom:.5rem;}
+.place-chip{background:var(--cream);border:1.5px solid var(--mist);color:var(--charcoal);
+  font-size:.76rem;padding:4px 10px;border-radius:20px;cursor:pointer;transition:all .15s;}
+.place-chip.active{background:var(--fern);color:#fff;border-color:var(--fern);}
+.lan-select{width:100%;border:1.5px solid var(--mist);background:var(--cream);padding:5px 8px;
+  border-radius:8px;font-family:'DM Sans',sans-serif;font-size:.78rem;color:var(--charcoal);
+  cursor:pointer;margin-top:.3rem;}
+.lan-select:focus{outline:none;border-color:var(--fern);}
 </style>
 </head>
 <body>
@@ -249,7 +269,6 @@ footer a:hover{text-decoration:underline;}
         <span style="font-weight:600;color:var(--clay);font-size:1.5rem;font-family:'Playfair Display',serif;">Geeky Farmers</span>
       </a>
     </div>
-    <span class="updated-info" id="updatedInfo"></span>
   </div>
   <h1>Samlade evenemang och kunskapsresurser om<br><em>hållbarhet & natur</em></h1>
   <p>Samlar kommande evenemang, kunskapsresurser och verktyg för kunskapsspridning som ger en mer hållbar och resilient framtid – automatiskt uppdaterat varje dag.</p>
@@ -281,7 +300,7 @@ footer a:hover{text-decoration:underline;}
         <input class="search-box" type="text" placeholder="Sök titel, ämne..." id="searchInput" oninput="applyFilters()">
 
         <div class="filter-group">
-          <div class="filter-group-label">Kategorier</div>
+          <div class="filter-group-label" onclick="toggleFilterGroup(this)">Kategorier</div><div class="filter-group-body">
           <div class="chip-group" id="catChips">
             <div class="chip active" data-cat="all" onclick="selectCat(this,'catChips')">Alla</div>
             <div class="chip" data-cat="klimat"        onclick="selectCat(this,'catChips')"><span class="chip-dot" style="background:#1b6b4e"></span>Klimat</div>
@@ -310,16 +329,23 @@ footer a:hover{text-decoration:underline;}
         </div>
 
         <div class="filter-group">
-          <div class="filter-group-label">Typ</div>
-          <div class="chip-group" id="typeChips">
+          <div class="filter-group-label" onclick="toggleFilterGroup(this)">Typ</div>
+          <div class="filter-group-body">
+          <div class="chip-row" id="typeChips">
             <div class="chip active" data-type="all"   onclick="selectType(this)">Alla</div>
             <div class="chip" data-type="webinar"      onclick="selectType(this)">Webbinarium</div>
-            <div class="chip" data-type="physical"     onclick="selectType(this)">Fysiskt</div>
+            <div class="chip" data-type="kurs"         onclick="selectType(this)">Kurs</div>
+            <div class="chip" data-type="seminarium"   onclick="selectType(this)">Seminarium</div>
+            <div class="chip" data-type="massa"        onclick="selectType(this)">Mässa</div>
+            <div class="chip" data-type="forelasning"  onclick="selectType(this)">Föreläsning</div>
           </div>
+          </div>
+        </div>
         </div>
 
         <div class="filter-group">
-          <div class="filter-group-label">Språk</div>
+          <div class="filter-group-label" onclick="toggleFilterGroup(this)">Språk</div>
+          <div class="filter-group-body">
           <div class="chip-group" id="langChips">
             <div class="chip active" data-lang="all"   onclick="selectLang(this)">Alla</div>
             <div class="chip" data-lang="svenska"      onclick="selectLang(this)">Svenska</div>
@@ -328,13 +354,57 @@ footer a:hover{text-decoration:underline;}
         </div>
 
         <div class="filter-group">
-          <div class="filter-group-label">Källa</div>
+          <div class="filter-group-label" onclick="toggleFilterGroup(this)">Källa</div><div class="filter-group-body">
           <div class="source-toggle-row">
             <button class="btn-source-toggle active-all" id="srcAllBtn" onclick="selectAllSources()">Alla</button>
             <button class="btn-source-toggle" id="srcToggleBtn" onclick="toggleSourceList()">Välj källor ▾</button>
           </div>
           <div class="source-list-collapsible" id="sourceListWrap">
             <div class="source-list" id="sourceList"></div>
+          
+        <div class="filter-group">
+          <div class="filter-group-label" onclick="toggleFilterGroup(this)">Plats</div>
+          <div class="filter-group-body">
+          <div class="place-chips">
+            <span class="place-chip active" data-place="all"    onclick="selectPlace(this)">Alla</span>
+            <span class="place-chip" data-place="online"  onclick="selectPlace(this)">Online</span>
+            <span class="place-chip" data-place="fysiskt" onclick="selectPlace(this)">Fysiskt</span>
+          </div>
+          <select class="lan-select" id="lanSelect" onchange="selectLan(this)">
+            <option value="">Välj län...</option>
+              <option value="blekinge">Blekinge</option>
+              <option value="dalarna">Dalarna</option>
+              <option value="gotland">Gotland</option>
+              <option value="gävleborg">Gävleborg</option>
+              <option value="halland">Halland</option>
+              <option value="jämtland">Jämtland</option>
+              <option value="jönköping">Jönköping</option>
+              <option value="kalmar">Kalmar</option>
+              <option value="kronoberg">Kronoberg</option>
+              <option value="norrbotten">Norrbotten</option>
+              <option value="skåne">Skåne</option>
+              <option value="stockholm">Stockholm</option>
+              <option value="södermanland">Södermanland</option>
+              <option value="uppsala">Uppsala</option>
+              <option value="värmland">Värmland</option>
+              <option value="västerbotten">Västerbotten</option>
+              <option value="västernorrland">Västernorrland</option>
+              <option value="västmanland">Västmanland</option>
+              <option value="västra_götaland">Västra Götaland</option>
+              <option value="örebro">Örebro</option>
+              <option value="östergötland">Östergötland</option>
+          </select>
+          </div>
+        </div>
+        <div class="filter-group">
+          <div class="filter-group-label" onclick="toggleFilterGroup(this)">Kostnad</div>
+          <div class="filter-group-body">
+          <div class="place-chips">
+            <span class="place-chip active" data-cost="all"     onclick="selectCost(this)">Alla</span>
+            <span class="place-chip" data-cost="free"   onclick="selectCost(this)">Kostnadsfritt</span>
+            <span class="place-chip" data-cost="paid"   onclick="selectCost(this)">Betalt</span>
+            <span class="place-chip" data-cost="unknown" onclick="selectCost(this)">Okänd</span>
+          </div>
           </div>
         </div>
       </div>
@@ -350,11 +420,6 @@ footer a:hover{text-decoration:underline;}
           <div class="chip" data-time="month" onclick="selectTime(this)" style="font-size:.76rem;">Närmsta månaden</div>
         </div>
       </div>
-        <select class="sort-select" id="sortSelect" onchange="applyFilters()">
-          <option value="date">Sortera: Närmast datum</option>
-          <option value="source">Sortera: Källa</option>
-          <option value="title">Sortera: Titel A–Ö</option>
-        </select>
       </div>
       <div id="webinarsLoading" class="state-box">
         <div class="spinner"></div>
@@ -424,7 +489,8 @@ footer a:hover{text-decoration:underline;}
         </div>
 
         <div class="filter-group">
-          <div class="filter-group-label">Språk</div>
+          <div class="filter-group-label" onclick="toggleFilterGroup(this)">Språk</div>
+          <div class="filter-group-body">
           <div class="chip-group" id="kbLangChips">
             <div class="chip active" data-lang="all"   onclick="selectLang(this,'kbLangChips')">Alla</div>
             <div class="chip" data-lang="svenska"      onclick="selectLang(this,'kbLangChips')">Svenska</div>
@@ -433,7 +499,7 @@ footer a:hover{text-decoration:underline;}
         </div>
 
         <div class="filter-group">
-          <div class="filter-group-label">Källa</div>
+          <div class="filter-group-label" onclick="toggleFilterGroup(this)">Källa</div><div class="filter-group-body">
           <div class="source-toggle-row">
             <button class="btn-source-toggle active-all" id="kbSrcAllBtn" onclick="selectAllKBSources()">Alla</button>
             <button class="btn-source-toggle" id="kbSrcToggleBtn" onclick="toggleKBSourceList()">Välj källor ▾</button>
@@ -512,6 +578,50 @@ function selectAllKBSources() {
   all.classList.add('active-all');
   document.querySelectorAll('#kbSourceList input[type="checkbox"]').forEach(c => c.checked = true);
   renderKB();
+}
+
+
+// ═══════════════════════════════════════════
+// ACCORDION FILTER
+// ═══════════════════════════════════════════
+function toggleFilterGroup(label) {
+  label.closest('.filter-group').classList.toggle('closed');
+}
+
+// ═══════════════════════════════════════════
+// PLATS FILTER
+// ═══════════════════════════════════════════
+var activePlaceChip = 'all';
+var activeLan = '';
+
+function selectPlace(el) {
+  document.querySelectorAll('.place-chip[data-place]').forEach(c => c.classList.remove('active'));
+  el.classList.add('active');
+  activePlaceChip = el.dataset.place;
+  document.getElementById('lanSelect').value = '';
+  activeLan = '';
+  applyFilters();
+}
+
+function selectLan(sel) {
+  activeLan = sel.value;
+  if (activeLan) {
+    document.querySelectorAll('.place-chip[data-place]').forEach(c => c.classList.remove('active'));
+    activePlaceChip = 'all';
+  }
+  applyFilters();
+}
+
+// ═══════════════════════════════════════════
+// KOSTNAD FILTER
+// ═══════════════════════════════════════════
+var activeCost = 'all';
+
+function selectCost(el) {
+  document.querySelectorAll('.place-chip[data-cost]').forEach(c => c.classList.remove('active'));
+  el.classList.add('active');
+  activeCost = el.dataset.cost;
+  applyFilters();
 }
 
 // ═══════════════════════════════════════════
