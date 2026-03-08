@@ -1,8 +1,38 @@
 {
-  "updated": "2026-03-08T09:43:11.462318+00:00",
-  "count": 8,
+  "updated": "2026-03-08T21:54:14.203479+00:00",
+  "count": 35,
   "errors": [],
   "events": [
+    {
+      "id": "1ce40a0b834b",
+      "title": "Skogsträdgård och småskalig agroforestry",
+      "date_iso": "2025-12-19",
+      "time": "",
+      "description": "Vi öppnar för ansökningar till nästa års kurs den 1:e april 2026. Välkommen med din ansökan då!",
+      "url": "https://www.holmafolkhogskola.se/profilkurs/skogstradgard-och-smaskalig-agroforestry/",
+      "source_id": "unknown",
+      "source_name": "Holma Folkhögskola",
+      "categories": [
+        "agroforestry",
+        "mat"
+      ],
+      "free": true
+    },
+    {
+      "id": "faff39a544a2",
+      "title": "Omställnings Bar",
+      "date_iso": "2026-02-27",
+      "time": "",
+      "description": "En serie program inför Toppenmötet - Omställningskonferens 2026.\nPremiär 5 mars",
+      "url": "https://omstallningskanalen.se/programserier",
+      "source_id": "unknown",
+      "source_name": "Omställningskanalen",
+      "categories": [
+        "samhalle",
+        "klimat"
+      ],
+      "free": true
+    },
     {
       "id": "6a0207d6cb07",
       "title": "Hållbar mat: miljö, hälsa och ansvar",
@@ -19,6 +49,51 @@
       "free": true
     },
     {
+      "id": "c649c27491f3",
+      "title": "Nära Maten",
+      "date_iso": "2026-03-05",
+      "time": "",
+      "description": "Vi samlar rörelsen för ett civilt och idéburet matsystem i Västra Götaland \nNära maten är ett pilotprojekt inom Omställningsnätverket som ska utforska hur ett alternativt, folkburet livsmedelssystem kan se ut.",
+      "url": "https://omstallningskanalen.se/programserier",
+      "source_id": "unknown",
+      "source_name": "Omställningskanalen",
+      "categories": [
+        "samhalle",
+        "klimat"
+      ],
+      "free": true
+    },
+    {
+      "id": "f672cc763f31",
+      "title": "Öppet kontor #4",
+      "date_iso": "2026-03-10",
+      "time": "",
+      "description": "Behöver du ett miljöombyte, nya perspektiv eller vill bara träffa andra som också arbetar med hållbarhet? Välkommen att sitta i våra lokaler och jobba! . Hela kansliet från Hållbar Utveckling […]",
+      "url": "https://www.hutskane.se/kalender/oppet-kontor-4/",
+      "source_id": "unknown",
+      "source_name": "Hållbar Utveckling Skåne",
+      "categories": [
+        "samhalle",
+        "klimat"
+      ],
+      "free": true
+    },
+    {
+      "id": "38d90a78d3cf",
+      "title": "Hållbara transporter",
+      "date_iso": "2026-03-19",
+      "time": "",
+      "description": "På nätverksträffen om hållbara transporter samlar vi perspektiv från drivmedel, resvanor och godstransporter. Under träffen får du konkreta exempel på hur förnybara drivmedel kan ersätta fossila alternativ, hur gröna resplaner […]",
+      "url": "https://www.hutskane.se/kalender/hallbara-transporter/",
+      "source_id": "unknown",
+      "source_name": "Hållbar Utveckling Skåne",
+      "categories": [
+        "samhalle",
+        "klimat"
+      ],
+      "free": true
+    },
+    {
       "id": "65f6e9e1a2a3",
       "title": "KlimatSmartFestivalen 2026",
       "date_iso": "2026-03-21",
@@ -30,6 +105,21 @@
       "categories": [
         "biodiv",
         "mat"
+      ],
+      "free": true
+    },
+    {
+      "id": "04af21af9b6a",
+      "title": "Frukostwebbinarium: Mål 17. Genomförande och globalt partnerskap",
+      "date_iso": "2026-03-25",
+      "time": "",
+      "description": "Dags för det sjuttonde eventet i Ystadmodellens nya webbinarieserie ”Ett mål i taget”! Webbinarieserien har tagits fram inom ramen för konceptet ”FN:s hållbarhetsmål: ett smörgåsbord för nya affärer” med utgångspunkt i […]",
+      "url": "https://www.hutskane.se/kalender/frukostwebbinarium-mal-17-genomforande-och-globalt-partnerskap/",
+      "source_id": "unknown",
+      "source_name": "Hållbar Utveckling Skåne",
+      "categories": [
+        "samhalle",
+        "klimat"
       ],
       "free": true
     },
@@ -95,6 +185,21 @@
       "free": true
     },
     {
+      "id": "95561240fdbd",
+      "title": "Kommunikation, människa och beteende",
+      "date_iso": "2026-04-16",
+      "time": "",
+      "description": "Klimatbudskap överallt – men varför är det så svårt att nå fram? Varför leder vissa samtal till engagemang och handling, medan andra väcker motstånd, trötthet eller tystnad? På den här […]",
+      "url": "https://www.hutskane.se/kalender/kommunikation-manniska-och-beteende/",
+      "source_id": "unknown",
+      "source_name": "Hållbar Utveckling Skåne",
+      "categories": [
+        "samhalle",
+        "klimat"
+      ],
+      "free": true
+    },
+    {
       "id": "562c07f2d2a9",
       "title": "Öppen grundläggande hållbarhets- och miljöutbildning på Ekocentrum",
       "date_iso": "2026-04-21",
@@ -110,6 +215,21 @@
       "free": true
     },
     {
+      "id": "ad4eb3723b02",
+      "title": "Hållbar Människa: Maktens centrum – Worskhop 1",
+      "date_iso": "2026-04-21",
+      "time": "",
+      "description": "Välkommen till den första delen av Maktens centrum – en interaktiv workshop där vi tillsammans utforskar vad makt egentligen är och hur den känns. Med utgångspunkt i Martin Westins forskning […]",
+      "url": "https://www.hutskane.se/kalender/hallbar-manniska-maktens-centrum-worskhop-1/",
+      "source_id": "unknown",
+      "source_name": "Hållbar Utveckling Skåne",
+      "categories": [
+        "samhalle",
+        "klimat"
+      ],
+      "free": true
+    },
+    {
       "id": "83cb4489ecc6",
       "title": "Nätverksträff #2: workshop med fokus på intressentanalys",
       "date_iso": "2026-04-29",
@@ -121,6 +241,286 @@
       "categories": [
         "biodiv",
         "mat"
+      ],
+      "free": true
+    },
+    {
+      "id": "91c09678e8c4",
+      "title": "Hållbar Människa: Maktens centrum – Worskhop 2",
+      "date_iso": "2026-04-29",
+      "time": "",
+      "description": "Den andra delen av Maktens centrum bygger vidare på vår första workshop men är öppen även för dig som inte deltog tidigare. Här fördjupar vi oss i hur makt kan […]",
+      "url": "https://www.hutskane.se/kalender/hallbar-manniska-maktens-centrum-worskhop-2/",
+      "source_id": "unknown",
+      "source_name": "Hållbar Utveckling Skåne",
+      "categories": [
+        "samhalle",
+        "klimat"
+      ],
+      "free": true
+    },
+    {
+      "id": "f2abda19aab0",
+      "title": "PrepAlliance Partner Meeting #1: Extreme Weather and Practical Preparedness",
+      "date_iso": "2026-05-07",
+      "time": "",
+      "description": "Save the date! Welcome to our first partner meeting within PrepAlliance! We are meeting in person in Gryfino, Poland, for two intensive days focusing on climate adaptation and practical preparedness […]",
+      "url": "https://www.hutskane.se/kalender/prepalliance-partner-meeting-1-extreme-weather-and-practical-preparedness/",
+      "source_id": "unknown",
+      "source_name": "Hållbar Utveckling Skåne",
+      "categories": [
+        "samhalle",
+        "klimat"
+      ],
+      "free": true
+    },
+    {
+      "id": "711313985dca",
+      "title": "Biologisk mångfald – Från strategi till mätbara resultat",
+      "date_iso": "2026-05-22",
+      "time": "",
+      "description": "Hur kan företag, kommuner och fastighetsägare arbeta med natur och biologisk mångfald på ett konkret och resultatfokuserat sätt? Den 22 maj, på Biologiska mångfaldens dag, bjuder CSR Skåne tillsammans med […]",
+      "url": "https://www.hutskane.se/kalender/biologisk-mangfald-fran-strategi-till-matbara-resultat/",
+      "source_id": "unknown",
+      "source_name": "Hållbar Utveckling Skåne",
+      "categories": [
+        "samhalle",
+        "klimat"
+      ],
+      "free": true
+    },
+    {
+      "id": "0ef84599b0cd",
+      "title": "PrepAlliance Partner Meeting #2: Preparedness on an Individual Level – From Theory to Action",
+      "date_iso": "2026-06-02",
+      "time": "",
+      "description": "Save the date! In June, it is Sweden's turn to host PrepAlliance's second partner meeting. This meeting focuses on concrete crisis preparedness in the home and local community. We will […]",
+      "url": "https://www.hutskane.se/kalender/prepalliance-partner-meeting-2-preparedness-on-an-individual-level-from-theory-to-action/",
+      "source_id": "unknown",
+      "source_name": "Hållbar Utveckling Skåne",
+      "categories": [
+        "samhalle",
+        "klimat"
+      ],
+      "free": true
+    },
+    {
+      "id": "8a9fbffb8b06",
+      "title": "PrepAlliance Partner Meeting #3: Resource Management and Circular Preparedness",
+      "date_iso": "2026-09-25",
+      "time": "",
+      "description": "Save the date! Welcome to our third meeting, hosted by our Danish partner BOFA on Bornholm. This meeting will focus on BOFA’s innovative operations regarding waste management and resource efficiency. […]",
+      "url": "https://www.hutskane.se/kalender/prepalliance-partner-meeting-3-resource-management-and-circular-preparedness/",
+      "source_id": "unknown",
+      "source_name": "Hållbar Utveckling Skåne",
+      "categories": [
+        "samhalle",
+        "klimat"
+      ],
+      "free": true
+    },
+    {
+      "id": "bc5f4a738cbc",
+      "title": "Mat ur jorden – småskalig odling och förädling",
+      "date_iso": "2026-11-20",
+      "time": "",
+      "description": "Det är möjligt att söka till reservplats på vårens kurs. Välkommen med din ansökan!",
+      "url": "https://www.holmafolkhogskola.se/profilkurs/mat-ur-jorden/",
+      "source_id": "unknown",
+      "source_name": "Holma Folkhögskola",
+      "categories": [
+        "mat",
+        "agroforestry"
+      ],
+      "free": true
+    },
+    {
+      "id": "2783539e00cb",
+      "title": "Hållbar matlagning med lokala råvaror",
+      "date_iso": "2026-12-18",
+      "time": "",
+      "description": "Vill du lära dig mer om hur du använder hållbart och lokalt producerade råvaror i din matlagning? Ta chansen att utforska nya smakupplevelser tillsammans med andra kockar på Holma gård i höst! På kursen fokuserar vi på råvaror som är producerade på Holma och i Skåne men också i andra delar av södra",
+      "url": "https://www.holmafolkhogskola.se/profilkurs/hallbar-matlagning-med-lokala-ravaror/",
+      "source_id": "unknown",
+      "source_name": "Holma Folkhögskola",
+      "categories": [
+        "mat",
+        "agroforestry"
+      ],
+      "free": true
+    },
+    {
+      "id": "b638d975597e",
+      "title": "Hantverk fördjupning",
+      "date_iso": "2027-01-01",
+      "time": "",
+      "description": "Denna kurs är en fördjupad hantverkskurs som riktar sig till deltagare som tidigare har gått Hantverk för självhushållare, eller som har motsvarande kunskap och erfarenheter, och vill utveckla sina kunskaper och färdigheter inom byggnation och slöjd.",
+      "url": "https://www.holmafolkhogskola.se/profilkurs/hantverk-fordjupning/",
+      "source_id": "unknown",
+      "source_name": "Holma Folkhögskola",
+      "categories": [
+        "mat"
+      ],
+      "free": true
+    },
+    {
+      "id": "5e65d923ed9d",
+      "title": "Inre omställning – i kontakt med jorden, andra och hela dig",
+      "date_iso": "2027-01-01",
+      "time": "",
+      "description": "Välkommen att ansöka till kursstarten hösten 2026 den 1:e april 2026!",
+      "url": "https://www.holmafolkhogskola.se/profilkurs/inre-omstallning-i-kontakt-med-jorden-andra-och-hela-dig/",
+      "source_id": "unknown",
+      "source_name": "Holma Folkhögskola",
+      "categories": [
+        "mat",
+        "agroforestry"
+      ],
+      "free": true
+    },
+    {
+      "id": "7015869db88e",
+      "title": "Seniorkurs – Odling, skörd och gemenskap",
+      "date_iso": "2027-01-01",
+      "time": "",
+      "description": "Kursen kommer att ges igen under hösten 2026, välkommen med din ansökan till den 1:e april 2026!",
+      "url": "https://www.holmafolkhogskola.se/profilkurs/seniorkurs-odling-matlagning-och-gemenskap/",
+      "source_id": "unknown",
+      "source_name": "Holma Folkhögskola",
+      "categories": [
+        "agroforestry",
+        "mat"
+      ],
+      "free": true
+    },
+    {
+      "id": "6fdbf1e8f9ab",
+      "title": "Hantverk för självhushållare",
+      "date_iso": "2027-01-01",
+      "time": "",
+      "description": "Kursen kommer att ges igen till våren 2027, välkommen med din ansökan till den 1:e oktober 2026!",
+      "url": "https://www.holmafolkhogskola.se/profilkurs/hantverk-for-sjalvhushallare/",
+      "source_id": "unknown",
+      "source_name": "Holma Folkhögskola",
+      "categories": [
+        "mat"
+      ],
+      "free": true
+    },
+    {
+      "id": "200506ee04e4",
+      "title": "Sociokratisk facilitering, grunder och fördjupning – distans",
+      "date_iso": "2027-01-01",
+      "time": "",
+      "description": "Vill du lära dig mer om hur vi kan organisera oss så att vi styr oss själva på ett självorganiserande och hållbart sätt? Eller har du redan erfarenhet av hur sociokrati fungerar och vill fördjupa ditt arbete med bättre facilitering? Kursen är indelad i två spår som möter en bredd av lärandebehov.",
+      "url": "https://www.holmafolkhogskola.se/profilkurs/sociokrati-och-sjalvorganiserat-samarbete-distans/",
+      "source_id": "unknown",
+      "source_name": "Holma Folkhögskola",
+      "categories": [
+        "mat",
+        "agroforestry"
+      ],
+      "free": true
+    },
+    {
+      "id": "064d8f8ae1c2",
+      "title": "Livsmedelsförädling för omställare",
+      "date_iso": "2027-01-01",
+      "time": "",
+      "description": "Kursen kommer att ges igen under 2027, välkommen med din ansökan till den 1:e oktober 2026!",
+      "url": "https://www.holmafolkhogskola.se/profilkurs/livsmedelsforadling-for-omstallare/",
+      "source_id": "unknown",
+      "source_name": "Holma Folkhögskola",
+      "categories": [
+        "mat",
+        "agroforestry"
+      ],
+      "free": true
+    },
+    {
+      "id": "6352f60981ad",
+      "title": "Nötodling för sydsvenska förhållande, 25%, distans",
+      "date_iso": "2027-01-01",
+      "time": "",
+      "description": "Kursen kommer att ges igen under 2027, välkommen med din ansökan till den 1:e oktober 2026!",
+      "url": "https://www.holmafolkhogskola.se/profilkurs/notodling-for-sydsvenska-forhallande-25-distans/",
+      "source_id": "unknown",
+      "source_name": "Holma Folkhögskola",
+      "categories": [
+        "agroforestry",
+        "mat"
+      ],
+      "free": true
+    },
+    {
+      "id": "b736b72ff7aa",
+      "title": "Permakultur PDC",
+      "date_iso": "2027-01-01",
+      "time": "",
+      "description": "Kursen kommer att ges igen under 2027, välkommen med din ansökan till den 1:e oktober 2026!",
+      "url": "https://www.holmafolkhogskola.se/profilkurs/permakulturdesign-pdc/",
+      "source_id": "unknown",
+      "source_name": "Holma Folkhögskola",
+      "categories": [
+        "agroforestry",
+        "biodiv"
+      ],
+      "free": true
+    },
+    {
+      "id": "2978eea7222f",
+      "title": "Fröodling – distans",
+      "date_iso": "2027-01-01",
+      "time": "",
+      "description": "Om du vill studera nästa år öppnar vi för nya ansökningar 1:e april 2026. Välkommen med din ansökan då!",
+      "url": "https://www.holmafolkhogskola.se/profilkurs/froodling-distans/",
+      "source_id": "unknown",
+      "source_name": "Holma Folkhögskola",
+      "categories": [
+        "agroforestry",
+        "mat"
+      ],
+      "free": true
+    },
+    {
+      "id": "67231611626d",
+      "title": "Skördefest 2026",
+      "date_iso": "2027-01-01",
+      "time": "",
+      "description": "Den 12 september har vi skördefest på Holma Folkhögskola. Mer info kommer att finnas på den här sidan när det närmar sig!",
+      "url": "https://www.holmafolkhogskola.se/oppet-program/skordefest/",
+      "source_id": "unknown",
+      "source_name": "Holma Folkhögskola",
+      "categories": [
+        "samhalle"
+      ],
+      "free": true
+    },
+    {
+      "id": "8aa6fcf1c5cc",
+      "title": "Öppet hus 2026",
+      "date_iso": "2027-01-01",
+      "time": "",
+      "description": "Den 9 maj har vi Öppet Hus på Holma Folkhögskola. Mer info kommer att finnas här när det närmar sig!",
+      "url": "https://www.holmafolkhogskola.se/oppet-program/oppet-hus/",
+      "source_id": "unknown",
+      "source_name": "Holma Folkhögskola",
+      "categories": [
+        "samhalle"
+      ],
+      "free": true
+    },
+    {
+      "id": "00767afce1bb",
+      "title": "Holmasommar",
+      "date_iso": "2027-01-01",
+      "time": "",
+      "description": "Mellan den 22 juni till den 3 juli anordnar vi Holmasommar som en del av vårt 10-årsjubileum. Två veckor med kortkurser på en rad olika teman. Anmälan öppnar den 23 februari och det är först till kvarn som gäller. När platserna är slut så stängs automatiskt formuläret!",
+      "url": "https://www.holmafolkhogskola.se/oppet-program/holmasommar/",
+      "source_id": "unknown",
+      "source_name": "Holma Folkhögskola",
+      "categories": [
+        "samhalle"
       ],
       "free": true
     }
