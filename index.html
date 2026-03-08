@@ -965,7 +965,17 @@ function renderCards(list) {
       <div class="card-body">
         <div class="card-meta">
           <span class="card-source">${src}</span>
-          <span class="card-free">Gratis</span>
+          <span class="card-type" style="font-size:.72rem;color:var(--bark);font-style:italic;">${
+            (function(t,d){
+              const txt=(t+' '+(d||'')).toLowerCase();
+              if(/webbinar|zoom|teams|digitalt|livestream/.test(txt)) return 'Webbinarium';
+              if(/kurs|utbildning/.test(txt)) return 'Kurs';
+              if(/seminarium|seminarie/.test(txt)) return 'Seminarium';
+              if(/mässa|expo/.test(txt)) return 'Mässa';
+              if(/föreläsning/.test(txt)) return 'Föreläsning';
+              return 'Evenemang';
+            })(w.title, w.description)
+          }$}</span>
         </div>
         <div class="card-title">${w.title}</div>
         ${w.description ? `<div class="card-desc">${w.description}</div>` : ''}
