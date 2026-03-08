@@ -73,6 +73,7 @@ class HolmaScraper(BaseScraper):
                 date_patterns = [
                     r'(\d{1,2})\s+(januari|februari|mars|april|maj|juni|juli|augusti|september|oktober|november|december)\s+(\d{4})',
                     r'(\d{4})-(\d{2})-(\d{2})',
+                    r'(\d{1,2})\s+(januari|februari|mars|april|maj|juni|juli|augusti|september|oktober|november|december)',
                 ]
                 for pat in date_patterns:
                     m = re.search(pat, page_text, re.IGNORECASE)
@@ -83,7 +84,7 @@ class HolmaScraper(BaseScraper):
                         else:
                             day = m.group(1).zfill(2)
                             month = months.get(m.group(2).lower(), "01")
-                            year = m.group(3)
+                            year = m.group(3) if len(m.groups()) >= 3 and m.group(3) else str(datetime.now().year)
                             date_iso = f"{year}-{month}-{day}"
                         break
 

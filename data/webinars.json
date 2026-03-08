@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-08T21:54:14.203479+00:00",
+  "updated": "2026-03-08T22:09:19.384490+00:00",
   "count": 35,
   "errors": [],
   "events": [
@@ -15,6 +15,50 @@
       "categories": [
         "agroforestry",
         "mat"
+      ],
+      "free": true
+    },
+    {
+      "id": "324bc9827b8d",
+      "title": "Hantverk för självhushållare",
+      "date_iso": "2026-01-19",
+      "time": "",
+      "description": "Kursen kommer att ges igen till våren 2027, välkommen med din ansökan till den 1:e oktober 2026!",
+      "url": "https://www.holmafolkhogskola.se/profilkurs/hantverk-for-sjalvhushallare/",
+      "source_id": "unknown",
+      "source_name": "Holma Folkhögskola",
+      "categories": [
+        "mat"
+      ],
+      "free": true
+    },
+    {
+      "id": "2ce355e76dca",
+      "title": "Nötodling för sydsvenska förhållande, 25%, distans",
+      "date_iso": "2026-01-26",
+      "time": "",
+      "description": "Kursen kommer att ges igen under 2027, välkommen med din ansökan till den 1:e oktober 2026!",
+      "url": "https://www.holmafolkhogskola.se/profilkurs/notodling-for-sydsvenska-forhallande-25-distans/",
+      "source_id": "unknown",
+      "source_name": "Holma Folkhögskola",
+      "categories": [
+        "agroforestry",
+        "mat"
+      ],
+      "free": true
+    },
+    {
+      "id": "7c6c85b70bfd",
+      "title": "Livsmedelsförädling för omställare",
+      "date_iso": "2026-02-08",
+      "time": "",
+      "description": "Kursen kommer att ges igen under 2027, välkommen med din ansökan till den 1:e oktober 2026!",
+      "url": "https://www.holmafolkhogskola.se/profilkurs/livsmedelsforadling-for-omstallare/",
+      "source_id": "unknown",
+      "source_name": "Holma Folkhögskola",
+      "categories": [
+        "mat",
+        "agroforestry"
       ],
       "free": true
     },
@@ -185,6 +229,21 @@
       "free": true
     },
     {
+      "id": "e78815cd05f0",
+      "title": "Inre omställning – i kontakt med jorden, andra och hela dig",
+      "date_iso": "2026-04-01",
+      "time": "",
+      "description": "Välkommen att ansöka till kursstarten hösten 2026 den 1:e april 2026!",
+      "url": "https://www.holmafolkhogskola.se/profilkurs/inre-omstallning-i-kontakt-med-jorden-andra-och-hela-dig/",
+      "source_id": "unknown",
+      "source_name": "Holma Folkhögskola",
+      "categories": [
+        "mat",
+        "agroforestry"
+      ],
+      "free": true
+    },
+    {
       "id": "95561240fdbd",
       "title": "Kommunikation, människa och beteende",
       "date_iso": "2026-04-16",
@@ -275,6 +334,35 @@
       "free": true
     },
     {
+      "id": "71a9d95b8b2e",
+      "title": "Öppet hus 2026",
+      "date_iso": "2026-05-09",
+      "time": "",
+      "description": "Den 9 maj har vi Öppet Hus på Holma Folkhögskola. Mer info kommer att finnas här när det närmar sig!",
+      "url": "https://www.holmafolkhogskola.se/oppet-program/oppet-hus/",
+      "source_id": "unknown",
+      "source_name": "Holma Folkhögskola",
+      "categories": [
+        "samhalle"
+      ],
+      "free": true
+    },
+    {
+      "id": "bd383dae2650",
+      "title": "Seniorkurs – Odling, skörd och gemenskap",
+      "date_iso": "2026-05-15",
+      "time": "",
+      "description": "Kursen kommer att ges igen under hösten 2026, välkommen med din ansökan till den 1:e april 2026!",
+      "url": "https://www.holmafolkhogskola.se/profilkurs/seniorkurs-odling-matlagning-och-gemenskap/",
+      "source_id": "unknown",
+      "source_name": "Holma Folkhögskola",
+      "categories": [
+        "agroforestry",
+        "mat"
+      ],
+      "free": true
+    },
+    {
       "id": "711313985dca",
       "title": "Biologisk mångfald – Från strategi till mätbara resultat",
       "date_iso": "2026-05-22",
@@ -301,6 +389,48 @@
       "categories": [
         "samhalle",
         "klimat"
+      ],
+      "free": true
+    },
+    {
+      "id": "eee774e8da99",
+      "title": "Holmasommar",
+      "date_iso": "2026-06-22",
+      "time": "",
+      "description": "Mellan den 22 juni till den 3 juli anordnar vi Holmasommar som en del av vårt 10-årsjubileum. Två veckor med kortkurser på en rad olika teman. Anmälan öppnar den 23 februari och det är först till kvarn som gäller. När platserna är slut så stängs automatiskt formuläret!",
+      "url": "https://www.holmafolkhogskola.se/oppet-program/holmasommar/",
+      "source_id": "unknown",
+      "source_name": "Holma Folkhögskola",
+      "categories": [
+        "samhalle"
+      ],
+      "free": true
+    },
+    {
+      "id": "d680295bc4d3",
+      "title": "Hantverk fördjupning",
+      "date_iso": "2026-08-17",
+      "time": "",
+      "description": "Denna kurs är en fördjupad hantverkskurs som riktar sig till deltagare som tidigare har gått Hantverk för självhushållare, eller som har motsvarande kunskap och erfarenheter, och vill utveckla sina kunskaper och färdigheter inom byggnation och slöjd.",
+      "url": "https://www.holmafolkhogskola.se/profilkurs/hantverk-fordjupning/",
+      "source_id": "unknown",
+      "source_name": "Holma Folkhögskola",
+      "categories": [
+        "mat"
+      ],
+      "free": true
+    },
+    {
+      "id": "d8c3ff8c3bb2",
+      "title": "Skördefest 2026",
+      "date_iso": "2026-09-12",
+      "time": "",
+      "description": "Den 12 september har vi skördefest på Holma Folkhögskola. Mer info kommer att finnas på den här sidan när det närmar sig!",
+      "url": "https://www.holmafolkhogskola.se/oppet-program/skordefest/",
+      "source_id": "unknown",
+      "source_name": "Holma Folkhögskola",
+      "categories": [
+        "samhalle"
       ],
       "free": true
     },
@@ -350,64 +480,6 @@
       "free": true
     },
     {
-      "id": "b638d975597e",
-      "title": "Hantverk fördjupning",
-      "date_iso": "2027-01-01",
-      "time": "",
-      "description": "Denna kurs är en fördjupad hantverkskurs som riktar sig till deltagare som tidigare har gått Hantverk för självhushållare, eller som har motsvarande kunskap och erfarenheter, och vill utveckla sina kunskaper och färdigheter inom byggnation och slöjd.",
-      "url": "https://www.holmafolkhogskola.se/profilkurs/hantverk-fordjupning/",
-      "source_id": "unknown",
-      "source_name": "Holma Folkhögskola",
-      "categories": [
-        "mat"
-      ],
-      "free": true
-    },
-    {
-      "id": "5e65d923ed9d",
-      "title": "Inre omställning – i kontakt med jorden, andra och hela dig",
-      "date_iso": "2027-01-01",
-      "time": "",
-      "description": "Välkommen att ansöka till kursstarten hösten 2026 den 1:e april 2026!",
-      "url": "https://www.holmafolkhogskola.se/profilkurs/inre-omstallning-i-kontakt-med-jorden-andra-och-hela-dig/",
-      "source_id": "unknown",
-      "source_name": "Holma Folkhögskola",
-      "categories": [
-        "mat",
-        "agroforestry"
-      ],
-      "free": true
-    },
-    {
-      "id": "7015869db88e",
-      "title": "Seniorkurs – Odling, skörd och gemenskap",
-      "date_iso": "2027-01-01",
-      "time": "",
-      "description": "Kursen kommer att ges igen under hösten 2026, välkommen med din ansökan till den 1:e april 2026!",
-      "url": "https://www.holmafolkhogskola.se/profilkurs/seniorkurs-odling-matlagning-och-gemenskap/",
-      "source_id": "unknown",
-      "source_name": "Holma Folkhögskola",
-      "categories": [
-        "agroforestry",
-        "mat"
-      ],
-      "free": true
-    },
-    {
-      "id": "6fdbf1e8f9ab",
-      "title": "Hantverk för självhushållare",
-      "date_iso": "2027-01-01",
-      "time": "",
-      "description": "Kursen kommer att ges igen till våren 2027, välkommen med din ansökan till den 1:e oktober 2026!",
-      "url": "https://www.holmafolkhogskola.se/profilkurs/hantverk-for-sjalvhushallare/",
-      "source_id": "unknown",
-      "source_name": "Holma Folkhögskola",
-      "categories": [
-        "mat"
-      ],
-      "free": true
-    },
-    {
       "id": "200506ee04e4",
       "title": "Sociokratisk facilitering, grunder och fördjupning – distans",
       "date_iso": "2027-01-01",
@@ -419,36 +491,6 @@
       "categories": [
         "mat",
         "agroforestry"
-      ],
-      "free": true
-    },
-    {
-      "id": "064d8f8ae1c2",
-      "title": "Livsmedelsförädling för omställare",
-      "date_iso": "2027-01-01",
-      "time": "",
-      "description": "Kursen kommer att ges igen under 2027, välkommen med din ansökan till den 1:e oktober 2026!",
-      "url": "https://www.holmafolkhogskola.se/profilkurs/livsmedelsforadling-for-omstallare/",
-      "source_id": "unknown",
-      "source_name": "Holma Folkhögskola",
-      "categories": [
-        "mat",
-        "agroforestry"
-      ],
-      "free": true
-    },
-    {
-      "id": "6352f60981ad",
-      "title": "Nötodling för sydsvenska förhållande, 25%, distans",
-      "date_iso": "2027-01-01",
-      "time": "",
-      "description": "Kursen kommer att ges igen under 2027, välkommen med din ansökan till den 1:e oktober 2026!",
-      "url": "https://www.holmafolkhogskola.se/profilkurs/notodling-for-sydsvenska-forhallande-25-distans/",
-      "source_id": "unknown",
-      "source_name": "Holma Folkhögskola",
-      "categories": [
-        "agroforestry",
-        "mat"
       ],
       "free": true
     },
@@ -479,48 +521,6 @@
       "categories": [
         "agroforestry",
         "mat"
-      ],
-      "free": true
-    },
-    {
-      "id": "67231611626d",
-      "title": "Skördefest 2026",
-      "date_iso": "2027-01-01",
-      "time": "",
-      "description": "Den 12 september har vi skördefest på Holma Folkhögskola. Mer info kommer att finnas på den här sidan när det närmar sig!",
-      "url": "https://www.holmafolkhogskola.se/oppet-program/skordefest/",
-      "source_id": "unknown",
-      "source_name": "Holma Folkhögskola",
-      "categories": [
-        "samhalle"
-      ],
-      "free": true
-    },
-    {
-      "id": "8aa6fcf1c5cc",
-      "title": "Öppet hus 2026",
-      "date_iso": "2027-01-01",
-      "time": "",
-      "description": "Den 9 maj har vi Öppet Hus på Holma Folkhögskola. Mer info kommer att finnas här när det närmar sig!",
-      "url": "https://www.holmafolkhogskola.se/oppet-program/oppet-hus/",
-      "source_id": "unknown",
-      "source_name": "Holma Folkhögskola",
-      "categories": [
-        "samhalle"
-      ],
-      "free": true
-    },
-    {
-      "id": "00767afce1bb",
-      "title": "Holmasommar",
-      "date_iso": "2027-01-01",
-      "time": "",
-      "description": "Mellan den 22 juni till den 3 juli anordnar vi Holmasommar som en del av vårt 10-årsjubileum. Två veckor med kortkurser på en rad olika teman. Anmälan öppnar den 23 februari och det är först till kvarn som gäller. När platserna är slut så stängs automatiskt formuläret!",
-      "url": "https://www.holmafolkhogskola.se/oppet-program/holmasommar/",
-      "source_id": "unknown",
-      "source_name": "Holma Folkhögskola",
-      "categories": [
-        "samhalle"
       ],
       "free": true
     }
