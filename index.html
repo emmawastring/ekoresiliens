@@ -293,6 +293,15 @@ footer a:hover{text-decoration:underline;}
 <!-- TAB 1 – WEBBINARIER                 -->
 <!-- ════════════════════════════════════ -->
 <div class="tab-panel active" id="panel-webbinarier">
+  <div class="panel-filter-bar">
+    <span class="filter-label">Tidpunkt:</span>
+    <div class="chip-row">
+      <div class="chip active" data-time="all" onclick="selectTime(this)">Alla</div>
+      <div class="chip" data-time="week" onclick="selectTime(this)">Denna vecka</div>
+      <div class="chip" data-time="month" onclick="selectTime(this)">Denna månad</div>
+      <div class="chip" data-time="future" onclick="selectTime(this)">Kommande</div>
+    </div>
+  </div>
   <div class="main-wrap">
     <aside>
       <div class="filter-card">
