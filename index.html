@@ -242,8 +242,7 @@ footer a:hover{text-decoration:underline;}
   display:flex;align-items:center;justify-content:space-between;padding:4px 0;}
 .filter-group-label::after{content:'▾';font-size:.75rem;transition:transform .2s;}
 .filter-group.closed .filter-group-label::after{transform:rotate(-90deg);}
-.filter-group-body{display:block;}
-.filter-group.closed .filter-group-body{display:none;}
+.filter-group.closed > *:not(.filter-group-label){display:none;}
 
 /* PLATS + KOSTNAD CHIPS */
 .place-chips{display:flex;flex-wrap:wrap;gap:5px;margin-bottom:.5rem;}
@@ -300,8 +299,7 @@ footer a:hover{text-decoration:underline;}
         <input class="search-box" type="text" placeholder="Sök titel, ämne..." id="searchInput" oninput="applyFilters()">
 
         <div class="filter-group">
-          <div class="filter-group-label" onclick="toggleFilterGroup(this)">Kategorier</div><div class="filter-group-body">
-          <div class="chip-group" id="catChips">
+          <div class="filter-group-label" onclick="toggleFilterGroup(this)">Kategorier</div><div class="chip-group" id="catChips">
             <div class="chip active" data-cat="all" onclick="selectCat(this,'catChips')">Alla</div>
             <div class="chip" data-cat="klimat"        onclick="selectCat(this,'catChips')"><span class="chip-dot" style="background:#1b6b4e"></span>Klimat</div>
             <div class="chip" data-cat="biodiv"        onclick="selectCat(this,'catChips')"><span class="chip-dot" style="background:#2e7d32"></span>Biologisk mångfald</div>
@@ -323,7 +321,6 @@ footer a:hover{text-decoration:underline;}
 
         <div class="filter-group">
           <div class="filter-group-label" onclick="toggleFilterGroup(this)">Typ</div>
-          <div class="filter-group-body">
           <div class="chip-row" id="typeChips">
             <div class="chip active" data-type="all"   onclick="selectType(this)">Alla</div>
             <div class="chip" data-type="webinar"      onclick="selectType(this)">Webbinarium</div>
@@ -338,7 +335,6 @@ footer a:hover{text-decoration:underline;}
 
         <div class="filter-group">
           <div class="filter-group-label" onclick="toggleFilterGroup(this)">Språk</div>
-          <div class="filter-group-body">
           <div class="chip-group" id="langChips">
             <div class="chip active" data-lang="all"   onclick="selectLang(this)">Alla</div>
             <div class="chip" data-lang="svenska"      onclick="selectLang(this)">Svenska</div>
@@ -347,8 +343,7 @@ footer a:hover{text-decoration:underline;}
         </div>
 
         <div class="filter-group">
-          <div class="filter-group-label" onclick="toggleFilterGroup(this)">Källa</div><div class="filter-group-body">
-          <div class="source-toggle-row">
+          <div class="filter-group-label" onclick="toggleFilterGroup(this)">Källa</div><div class="source-toggle-row">
             <button class="btn-source-toggle active-all" id="srcAllBtn" onclick="selectAllSources()">Alla</button>
             <button class="btn-source-toggle" id="srcToggleBtn" onclick="toggleSourceList()">Välj källor ▾</button>
           </div>
@@ -357,7 +352,6 @@ footer a:hover{text-decoration:underline;}
           
         <div class="filter-group">
           <div class="filter-group-label" onclick="toggleFilterGroup(this)">Plats</div>
-          <div class="filter-group-body">
           <div class="place-chips">
             <span class="place-chip active" data-place="all"    onclick="selectPlace(this)">Alla</span>
             <span class="place-chip" data-place="online"  onclick="selectPlace(this)">Online</span>
@@ -391,7 +385,6 @@ footer a:hover{text-decoration:underline;}
         </div>
         <div class="filter-group">
           <div class="filter-group-label" onclick="toggleFilterGroup(this)">Kostnad</div>
-          <div class="filter-group-body">
           <div class="place-chips">
             <span class="place-chip active" data-cost="all"     onclick="selectCost(this)">Alla</span>
             <span class="place-chip" data-cost="free"   onclick="selectCost(this)">Kostnadsfritt</span>
@@ -479,7 +472,6 @@ footer a:hover{text-decoration:underline;}
 
         <div class="filter-group">
           <div class="filter-group-label" onclick="toggleFilterGroup(this)">Språk</div>
-          <div class="filter-group-body">
           <div class="chip-group" id="kbLangChips">
             <div class="chip active" data-lang="all"   onclick="selectLang(this,'kbLangChips')">Alla</div>
             <div class="chip" data-lang="svenska"      onclick="selectLang(this,'kbLangChips')">Svenska</div>
@@ -488,8 +480,7 @@ footer a:hover{text-decoration:underline;}
         </div>
 
         <div class="filter-group">
-          <div class="filter-group-label" onclick="toggleFilterGroup(this)">Källa</div><div class="filter-group-body">
-          <div class="source-toggle-row">
+          <div class="filter-group-label" onclick="toggleFilterGroup(this)">Källa</div><div class="source-toggle-row">
             <button class="btn-source-toggle active-all" id="kbSrcAllBtn" onclick="selectAllKBSources()">Alla</button>
             <button class="btn-source-toggle" id="kbSrcToggleBtn" onclick="toggleKBSourceList()">Välj källor ▾</button>
           </div>
