@@ -1,0 +1,108 @@
+<aside>
+      <div class="filter-card">
+        <div class="filter-title">🔍 Sök &amp; Filtrera</div>
+        <input class="search-box" type="text" placeholder="Sök titel, ämne..." id="searchInput" oninput="applyFilters()">
+
+        <div class="filter-group">
+          <div class="filter-group-label" onclick="toggleFilterGroup(this)">Kategorier</div><div class="filter-group-body">
+          <div class="chip-group" id="catChips">
+            <div class="chip active" data-cat="all" onclick="selectCat(this,'catChips')">Alla</div>
+            <div class="chip" data-cat="klimat"        onclick="selectCat(this,'catChips')"><span class="chip-dot" style="background:#1b6b4e"></span>Klimat</div>
+            <div class="chip" data-cat="biodiv"        onclick="selectCat(this,'catChips')"><span class="chip-dot" style="background:#2e7d32"></span>Biologisk mångfald</div>
+            <div class="chip" data-cat="samhalle"      onclick="selectCat(this,'catChips')"><span class="chip-dot" style="background:#e65100"></span>Samhälle</div>
+            <div class="chip" data-cat="vatten"        onclick="selectCat(this,'catChips')"><span class="chip-dot" style="background:#1565c0"></span>Vatten</div>
+            <div class="chip" data-cat="skog"          onclick="selectCat(this,'catChips')"><span class="chip-dot" style="background:#33691e"></span>Skog</div>
+            <div class="chip" data-cat="mat"           onclick="selectCat(this,'catChips')"><span class="chip-dot" style="background:#880e4f"></span>Mat &amp; Jordbruk</div>
+            <div class="chip" data-cat="energi"        onclick="selectCat(this,'catChips')"><span class="chip-dot" style="background:#f57f17"></span>Energi</div>
+            <div class="chip" data-cat="policy"        onclick="selectCat(this,'catChips')"><span class="chip-dot" style="background:#4527a0"></span>Policy</div>
+            <div class="chip" data-cat="agroforestry"  onclick="selectCat(this,'catChips')"><span class="chip-dot" style="background:#2d6a2d"></span>Agroforestry</div>
+            <div class="chip" data-cat="skogstradgard" onclick="selectCat(this,'catChips')"><span class="chip-dot" style="background:#1a5c1a"></span>Skogsträdgård</div>
+            <div class="chip" data-cat="video" onclick="selectCat(this,'catChips')"><span class="chip-dot" style="background:#6a1b9a"></span>Video</div>
+            <div class="chip" data-cat="sparade" onclick="selectCat(this,'catChips')"><span class="chip-dot" style="background:#d47c52"></span>Sparade webbinarier</div>
+          </div>
+        </div>
+
+        
+        </div>
+
+        <div class="filter-group">
+          <div class="filter-group-label" onclick="toggleFilterGroup(this)">Typ</div>
+          <div class="filter-group-body">
+          <div class="chip-row" id="typeChips">
+            <div class="chip active" data-type="all"   onclick="selectType(this)">Alla</div>
+            <div class="chip" data-type="webinar"      onclick="selectType(this)">Webbinarium</div>
+            <div class="chip" data-type="kurs"         onclick="selectType(this)">Kurs</div>
+            <div class="chip" data-type="seminarium"   onclick="selectType(this)">Seminarium</div>
+            <div class="chip" data-type="massa"        onclick="selectType(this)">Mässa</div>
+            <div class="chip" data-type="forelasning"  onclick="selectType(this)">Föreläsning</div>
+          </div>
+          </div>
+        </div>
+        </div>
+
+        <div class="filter-group">
+          <div class="filter-group-label" onclick="toggleFilterGroup(this)">Språk</div>
+          <div class="filter-group-body">
+          <div class="chip-group" id="langChips">
+            <div class="chip active" data-lang="all"   onclick="selectLang(this)">Alla</div>
+            <div class="chip" data-lang="svenska"      onclick="selectLang(this)">Svenska</div>
+            <div class="chip" data-lang="engelska"     onclick="selectLang(this)">Engelska</div>
+          </div>
+        </div>
+
+        <div class="filter-group">
+          <div class="filter-group-label" onclick="toggleFilterGroup(this)">Källa</div><div class="filter-group-body">
+          <div class="source-toggle-row">
+            <button class="btn-source-toggle active-all" id="srcAllBtn" onclick="selectAllSources()">Alla</button>
+            <button class="btn-source-toggle" id="srcToggleBtn" onclick="toggleSourceList()">Välj källor ▾</button>
+          </div>
+          <div class="source-list-collapsible" id="sourceListWrap">
+            <div class="source-list" id="sourceList"></div>
+          
+        <div class="filter-group">
+          <div class="filter-group-label" onclick="toggleFilterGroup(this)">Plats</div>
+          <div class="filter-group-body">
+          <div class="place-chips">
+            <span class="place-chip active" data-place="all"    onclick="selectPlace(this)">Alla</span>
+            <span class="place-chip" data-place="online"  onclick="selectPlace(this)">Online</span>
+            <span class="place-chip" data-place="fysiskt" onclick="selectPlace(this)">Fysiskt</span>
+          </div>
+          <select class="lan-select" id="lanSelect" onchange="selectLan(this)">
+            <option value="">Välj län...</option>
+              <option value="blekinge">Blekinge</option>
+              <option value="dalarna">Dalarna</option>
+              <option value="gotland">Gotland</option>
+              <option value="gävleborg">Gävleborg</option>
+              <option value="halland">Halland</option>
+              <option value="jämtland">Jämtland</option>
+              <option value="jönköping">Jönköping</option>
+              <option value="kalmar">Kalmar</option>
+              <option value="kronoberg">Kronoberg</option>
+              <option value="norrbotten">Norrbotten</option>
+              <option value="skåne">Skåne</option>
+              <option value="stockholm">Stockholm</option>
+              <option value="södermanland">Södermanland</option>
+              <option value="uppsala">Uppsala</option>
+              <option value="värmland">Värmland</option>
+              <option value="västerbotten">Västerbotten</option>
+              <option value="västernorrland">Västernorrland</option>
+              <option value="västmanland">Västmanland</option>
+              <option value="västra_götaland">Västra Götaland</option>
+              <option value="örebro">Örebro</option>
+              <option value="östergötland">Östergötland</option>
+          </select>
+          </div>
+        </div>
+        <div class="filter-group">
+          <div class="filter-group-label" onclick="toggleFilterGroup(this)">Kostnad</div>
+          <div class="filter-group-body">
+          <div class="place-chips">
+            <span class="place-chip active" data-cost="all"     onclick="selectCost(this)">Alla</span>
+            <span class="place-chip" data-cost="free"   onclick="selectCost(this)">Kostnadsfritt</span>
+            <span class="place-chip" data-cost="paid"   onclick="selectCost(this)">Betalt</span>
+            <span class="place-chip" data-cost="unknown" onclick="selectCost(this)">Okänd</span>
+          </div>
+          </div>
+        </div>
+      </div>
+    </aside>
