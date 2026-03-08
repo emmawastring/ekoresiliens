@@ -965,17 +965,7 @@ function renderCards(list) {
       <div class="card-body">
         <div class="card-meta">
           <span class="card-source">${src}</span>
-          <span class="card-type" style="font-size:.72rem;color:var(--bark);font-style:italic;">${
-            (function(t,d){
-              const txt=(t+' '+(d||'')).toLowerCase();
-              if(/webbinar|zoom|teams|digitalt|livestream/.test(txt)) return 'Webbinarium';
-              if(/kurs|utbildning/.test(txt)) return 'Kurs';
-              if(/seminarium|seminarie/.test(txt)) return 'Seminarium';
-              if(/mässa|expo/.test(txt)) return 'Mässa';
-              if(/föreläsning/.test(txt)) return 'Föreläsning';
-              return 'Evenemang';
-            })(w.title, w.description)
-          }$}</span>
+          ${(function(t,d){const txt=(t+" "+(d||"")).toLowerCase();if(/webbinar|zoom|teams|digitalt|livestream/.test(txt))return'<span class="chip" style="font-size:.7rem;padding:2px 8px;background:#e8f0e8;color:#2d6a2d;border:1px solid #b5d0b5;">Webbinarium</span>';if(/kurs|utbildning/.test(txt))return'<span class="chip" style="font-size:.7rem;padding:2px 8px;background:#e8f0e8;color:#2d6a2d;border:1px solid #b5d0b5;">Kurs</span>';if(/seminarium|seminarie/.test(txt))return'<span class="chip" style="font-size:.7rem;padding:2px 8px;background:#e8f0e8;color:#2d6a2d;border:1px solid #b5d0b5;">Seminarium</span>';if(/m\u00e4ssa|expo/.test(txt))return'<span class="chip" style="font-size:.7rem;padding:2px 8px;background:#e8f0e8;color:#2d6a2d;border:1px solid #b5d0b5;">M\u00e4ssa</span>';if(/f\u00f6rel\u00e4sning/.test(txt))return'<span class="chip" style="font-size:.7rem;padding:2px 8px;background:#e8f0e8;color:#2d6a2d;border:1px solid #b5d0b5;">F\u00f6rel\u00e4sning</span>';return'<span class="chip" style="font-size:.7rem;padding:2px 8px;background:#e8f0e8;color:#2d6a2d;border:1px solid #b5d0b5;">Evenemang</span>';})(w.title,w.description)}
         </div>
         <div class="card-title">${w.title}</div>
         ${w.description ? `<div class="card-desc">${w.description}</div>` : ''}
