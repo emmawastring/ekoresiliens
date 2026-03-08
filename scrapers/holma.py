@@ -34,7 +34,7 @@ class HolmaScraper(BaseScraper):
         "/oppet-program/holmasommar/",
     ]
 
-    def scrape(self):
+    def fetch(self):
         events = []
         headers = {"User-Agent": "Mozilla/5.0 (compatible; Ekoresiliens/1.0)"}
 

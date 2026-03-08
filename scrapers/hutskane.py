@@ -20,7 +20,7 @@ class HutSkaneScraper(BaseScraper):
         "september": "09", "oktober": "10", "november": "11", "december": "12"
     }
 
-    def scrape(self):
+    def fetch(self):
         events = []
         headers = {"User-Agent": "Mozilla/5.0 (compatible; Ekoresiliens/1.0)"}
 

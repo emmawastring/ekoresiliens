@@ -13,7 +13,7 @@ class OmstallningskanalenScraper(BaseScraper):
     API_URL     = "https://omstallningskanalen.se/api/series"
     BASE_URL    = "https://omstallningskanalen.se/programserier"
 
-    def scrape(self):
+    def fetch(self):
         events = []
         headers = {
             "User-Agent": "Mozilla/5.0 (compatible; Ekoresiliens/1.0)",
