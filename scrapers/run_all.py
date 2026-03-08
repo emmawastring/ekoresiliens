@@ -38,6 +38,9 @@ from scrapers.ekocentrum import EkocentrumScraper
 from scrapers.lrf import LRFScraper
 from scrapers.klimatriksdagen import KlimatriksdagenScraper
 from scrapers.ekologigruppen import EkologigruppenScraper
+from scrapers.holma import HolmaScraper
+from scrapers.hutskane import HutSkaneScraper
+from scrapers.omstallningskanalen import OmstallningskanalenScraper
 
 SCRAPERS = [
     SLUScraper(),
@@ -84,6 +87,9 @@ SCRAPERS = [
     LRFScraper(),
     KlimatriksdagenScraper(),
     EkologigruppenScraper(),
+    HolmaScraper(),
+    HutSkaneScraper(),
+    OmstallningskanalenScraper(),
 ]
 
 OUTPUT_PATH = Path(__file__).parent.parent / "data" / "webinars.json"
