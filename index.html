@@ -935,7 +935,7 @@ function applyFilters() {
       const diff  = (wDate - today) / 86400000;
       if (activeTime === 'week'  && (diff < 0 || diff > 7))   return false;
       if (activeTime === 'month' && (diff < 0 || diff > 31))  return false;
-      if (activeTime === 'next'  && (diff < 31 || diff > 62)) return false;
+      if (activeTime === 'future' && diff < 0) return false;
     }
     if (q && !w.title.toLowerCase().includes(q) && !(w.description||'').toLowerCase().includes(q)) return false;
     // Platsfilter
