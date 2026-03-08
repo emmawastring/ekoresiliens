@@ -886,14 +886,20 @@ function applyFilters() {
       const text = (w.title + ' ' + (w.description || '')).toLowerCase();
       const isSwedish = /\b(svenska|swedish|svenska|på svenska)\b/i.test(text);
       const isEnglish = /\b(english|engelska|på engelska|in english)\b/i.test(text);
-      if (activeLang === 'svenska' && !isSwedish) return false;
-      if (activeLang === 'engelska' && !isEnglish) return false;
+      if ((activeLang === 'sv' || activeLang === 'svenska') && !isSwedish) return false;
+      if ((activeLang === 'en' || activeLang === 'engelska') && !isEnglish) return false;
     }
     if (activeType !== 'all') {
       const text = (w.title + ' ' + (w.description || '')).toLowerCase();
-      const isWebinar = /\b(webbinar|online|zoom|teams|digitalt|livestream)\b/i.test(text);
-      if (activeType === 'webinar' && !isWebinar) return false;
-      if (activeType === 'physical' && isWebinar) return false;
+      const typeMap = {
+        'webinar':     /webbinar|online|zoom|teams|digitalt|livestream/i,
+        'kurs':        /kurs|utbildning|workshop/i,
+        'seminarium':  /seminarium|seminarie/i,
+        'massa':       /mässa|messa|expo|fair/i,
+        'forelasning': /föreläsning|föreläsar|lecture/i,
+      };
+      const re = typeMap[activeType];
+      if (re && !re.test(text)) return false;
     }
     if (activeTime !== 'all' && w.date_iso) {
       const wDate = new Date(w.date_iso + 'T00:00:00');
@@ -903,6 +909,24 @@ function applyFilters() {
       if (activeTime === 'next'  && (diff < 31 || diff > 62)) return false;
     }
     if (q && !w.title.toLowerCase().includes(q) && !(w.description||'').toLowerCase().includes(q)) return false;
+    // Platsfilter
+    if (activePlaceChip !== 'all') {
+      const loc = (w.location || w.description || '').toLowerCase();
+      if (activePlaceChip === 'online' && !/online|zoom|teams|digitalt|webinar|livestream/i.test(loc)) return false;
+      if (activePlaceChip === 'fysiskt' && /online|zoom|teams|digitalt|webinar|livestream/i.test(loc)) return false;
+    }
+    if (activeLan) {
+      const loc = (w.location || w.description || '').toLowerCase();
+      if (!loc.includes(activeLan.replace('_',' '))) return false;
+    }
+    // Kostnadsfilter
+    if (activeCost !== 'all') {
+      const isFree = w.is_free === true || w.price === 0 || /gratis|free|kostnadsfri/i.test(w.title + ' ' + (w.description||''));
+      const isPaid = w.is_free === false || (w.price && w.price > 0);
+      if (activeCost === 'free' && !isFree) return false;
+      if (activeCost === 'paid' && !isPaid) return false;
+      if (activeCost === 'unknown' && (isFree || isPaid)) return false;
+    }
     return true;
   });
 
