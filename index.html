@@ -318,14 +318,7 @@ footer a:hover{text-decoration:underline;}
           </div>
         </div>
 
-        <div class="filter-group">
-          <div class="filter-group-label">Tidpunkt</div>
-          <div class="chip-group" id="timeChips">
-            <div class="chip active" data-time="all"   onclick="selectTime(this)">Alla</div>
-            <div class="chip" data-time="week"         onclick="selectTime(this)">Denna vecka</div>
-            <div class="chip" data-time="month"        onclick="selectTime(this)">Denna månad</div>
-            <div class="chip" data-time="next"         onclick="selectTime(this)">Nästa månad</div>
-          </div>
+        
         </div>
 
         <div class="filter-group">
@@ -414,11 +407,7 @@ footer a:hover{text-decoration:underline;}
       <div class="toolbar">
         <div style="display:flex;align-items:center;gap:.5rem;flex-wrap:wrap;">
         <div class="result-count">Visar <strong id="visibleCount">—</strong> evenemang</div>
-        <div class="chip-row">
-          <div class="chip active" data-time="all" onclick="selectTime(this)" style="font-size:.76rem;">Alla datum</div>
-          <div class="chip" data-time="week" onclick="selectTime(this)" style="font-size:.76rem;">Närmsta veckan</div>
-          <div class="chip" data-time="month" onclick="selectTime(this)" style="font-size:.76rem;">Närmsta månaden</div>
-        </div>
+        
       </div>
       </div>
       <div id="webinarsLoading" class="state-box">
@@ -665,8 +654,7 @@ async function loadWebinars() {
     // Uppdatera "senast uppdaterad"-text
     if (json.updated) {
       const d = new Date(json.updated);
-      document.getElementById('updatedInfo').textContent =
-        'Uppdaterad ' + d.toLocaleDateString('sv-SE', {day:'numeric', month:'short', hour:'2-digit', minute:'2-digit'});
+      // updatedInfo removed
     }
 
     // Bygg källfilter dynamiskt
