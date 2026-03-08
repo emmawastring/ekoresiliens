@@ -871,7 +871,7 @@ function getSearchText() {
 function applyFilters() {
   const q     = getSearchText();
   const srcs  = getActiveSources();
-  const sort  = document.getElementById('sortSelect').value;
+  const sort  = 'date';
   const today = new Date(); today.setHours(0,0,0,0);
 
   let f = allWebinars.filter(w => {
