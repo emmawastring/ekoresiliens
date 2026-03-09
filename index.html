@@ -432,6 +432,7 @@ footer a:hover{text-decoration:underline;}
       <div class="filter-card">
         <div class="filter-title">🔍 Sök &amp; Filtrera</div>
         <input class="search-box" type="text" placeholder="Sök resurs, ämne..." id="kbSearch" oninput="renderKB()">
+        <div class="result-count" style="font-size:.75rem;color:var(--bark);margin:.4rem 0 .2rem">Visar <strong id="kbVisibleCount">—</strong> resurser</div>
 
         <div class="filter-group">
           <div class="filter-group-label" onclick="toggleFilterGroup(this)">Typ</div>
@@ -1033,8 +1034,10 @@ function renderKB() {
 
   const cont  = document.getElementById('kbContent');
   const empty = document.getElementById('kbEmpty');
+  const kbC = document.getElementById("kbVisibleCount"); if (kbC) kbC.textContent = f.length;
   if (!f.length) { cont.innerHTML = ''; empty.style.display = 'block'; updateKBSourceToggleButton(); return; }
   empty.style.display = 'none';
+  const kbC2 = document.getElementById("kbVisibleCount"); if (kbC2) kbC2.textContent = f.length;
   updateKBSourceToggleButton();
 
   // Visas i enkelt grid utan kategorisektioner
