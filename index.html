@@ -42,10 +42,10 @@ header{background:var(--charcoal);padding:0 2rem;display:flex;align-items:center
 .stat{background:rgba(255,255,255,.08);border:1px solid rgba(163,184,153,.3);border-radius:12px;padding:.6rem 1rem;text-align:center;}
 .stat-num{font-family:'Playfair Display',serif;font-size:1.5rem;color:var(--sage);display:block;}
 .stat-label{font-size:.72rem;color:var(--mist);opacity:.8;}
-.stat-link{background:rgba(255,255,255,.08);border:1px solid rgba(163,184,153,.3);border-radius:12px;padding:.6rem 1rem;text-align:center;cursor:pointer;transition:background .2s,border-color .2s;text-decoration:none;display:block;}
-.stat-link:hover{background:rgba(255,255,255,.18);border-color:rgba(163,184,153,.8);}
-.stat-link .stat-num{font-family:'Playfair Display',serif;font-size:1.5rem;color:var(--sage);display:block;}
-.stat-link .stat-label{font-size:.72rem;color:var(--mist);opacity:.8;}
+
+
+
+
 
 /* TABS */
 .tab-bar{background:var(--charcoal);border-bottom:1px solid rgba(163,184,153,.2);display:flex;padding:0 2rem;position:sticky;top:0;z-index:99;overflow-x:auto;}
@@ -200,8 +200,8 @@ footer a:hover{text-decoration:underline;}
   .hero h1{font-size:1.4rem;}
   .hero p{font-size:.85rem;}
   .stats-row{gap:.7rem;}
-  .stat-link{padding:.5rem .7rem;}
-  .stat-link .stat-num{font-size:1.2rem;}
+  
+  
   .main-wrap{flex-direction:column;padding:.8rem;}
   aside{width:100%;position:static;}
   .filter-card{padding:1rem;}
@@ -224,7 +224,7 @@ footer a:hover{text-decoration:underline;}
 @media(max-width:400px){
   .hero h1{font-size:1.2rem;}
   .stats-row{flex-direction:column;align-items:center;}
-  .stat-link{width:80%;max-width:200px;}
+  
 }
 
 /* TAB-BAR */
@@ -273,14 +273,6 @@ footer a:hover{text-decoration:underline;}
   <h1>Samlade evenemang och kunskapsresurser om<br><em>hållbarhet & natur</em></h1>
   <p>Samlar kommande evenemang, kunskapsresurser och verktyg för kunskapsspridning som ger en mer hållbar och resilient framtid – automatiskt uppdaterat varje dag.</p>
   <div class="stats-row">
-    <a class="stat-link" onclick="switchTab('webbinarier');return false;" href="#">
-      <span class="stat-num" id="statWebinars">—</span>
-      <span class="stat-label">Kommande evenemang</span>
-    </a>
-    <a class="stat-link" onclick="switchTab('kunskapsbank');return false;" href="#">
-      <span class="stat-num" id="statKB">—</span>
-      <span class="stat-label">Kunskapsresurser</span>
-    </a>
   </div>
   <div class="tab-bar">
     <button class="tab-btn active" onclick="switchTab('webbinarier')" id="tab-webbinarier">Evenemang</button>
