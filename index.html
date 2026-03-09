@@ -691,7 +691,7 @@ async function loadWebinars() {
 
     // Bygg källfilter dynamiskt
     buildSourceDropdown();
-    document.getElementById('statWebinars').textContent = allWebinars.length;
+    const statW = document.getElementById('statWebinars'); if (statW) statW.textContent = allWebinars.length;
 
     document.getElementById('webinarsLoading').style.display = 'none';
     applyFilters();
@@ -710,7 +710,7 @@ async function loadKB() {
     const res = await fetch('data/knowledge_resources.json?cb=' + Date.now());
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     allKB = await res.json();
-    document.getElementById('statKB').textContent = allKB.length;
+    const statK = document.getElementById('statKB'); if (statK) statK.textContent = allKB.length;
     document.getElementById('kbLoading').style.display = 'none';
     buildKBSourceList();
     renderKB();
