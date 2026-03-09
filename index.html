@@ -290,6 +290,7 @@ footer a:hover{text-decoration:underline;}
       <div class="filter-card">
         <div class="filter-title">🔍 Sök &amp; Filtrera</div>
         <input class="search-box" type="text" placeholder="Sök titel, ämne..." id="searchInput" oninput="applyFilters()">
+        <div class="result-count" style="font-size:.75rem;color:var(--bark);margin:.4rem 0 .2rem">Visar <strong id="visibleCount">—</strong> evenemang</div>
 
         <div class="filter-group">
           <div class="filter-group-label" onclick="toggleFilterGroup(this)">Tidpunkt</div>
@@ -411,7 +412,6 @@ footer a:hover{text-decoration:underline;}
     <main>
       <div class="toolbar">
         <div style="display:flex;align-items:center;gap:.5rem;flex-wrap:wrap;">
-        <div class="result-count">Visar <strong id="visibleCount">—</strong> evenemang</div>
         
       </div>
       </div>
