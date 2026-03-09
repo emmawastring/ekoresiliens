@@ -447,7 +447,8 @@ footer a:hover{text-decoration:underline;}
         <input class="search-box" type="text" placeholder="Sök resurs, ämne..." id="kbSearch" oninput="renderKB()">
 
         <div class="filter-group">
-          <div class="filter-group-label">Typ</div>
+          <div class="filter-group-label" onclick="toggleFilterGroup(this)">Typ</div>
+          <div class="filter-group-body">
           <div class="chip-group" id="kbTypeChips">
             <div class="chip active" data-kbtype="all"    onclick="selectKBType(this)">Alla</div>
             <div class="chip" data-kbtype="artikel"       onclick="selectKBType(this)">Artikel</div>
@@ -469,10 +470,12 @@ footer a:hover{text-decoration:underline;}
             <div class="chip" data-kbtype="verktyg"       onclick="selectKBType(this)">Verktyg</div>
             <div class="chip" data-kbtype="video"         onclick="selectKBType(this)">Video</div>
           </div>
+          </div>
         </div>
 
         <div class="filter-group">
-          <div class="filter-group-label">Kategori</div>
+          <div class="filter-group-label" onclick="toggleFilterGroup(this)">Kategori</div>
+          <div class="filter-group-body">
           <div class="chip-group" id="kbCatChips">
             <div class="chip active" data-cat="all"           onclick="selectCat(this,'kbCatChips')">Alla</div>
             <div class="chip" data-cat="klimat"               onclick="selectCat(this,'kbCatChips')"><span class="chip-dot" style="background:#1b6b4e"></span>Klimat</div>
@@ -487,6 +490,7 @@ footer a:hover{text-decoration:underline;}
             <div class="chip" data-cat="skogstradgard"        onclick="selectCat(this,'kbCatChips')"><span class="chip-dot" style="background:#1a5c1a"></span>Skogsträdgård</div>
             <div class="chip" data-cat="video"             onclick="selectCat(this,'kbCatChips')"><span class="chip-dot" style="background:#6a1b9a"></span>Video</div>
             <div class="chip" data-cat="sparade"           onclick="selectCat(this,'kbCatChips')"><span class="chip-dot" style="background:#d47c52"></span>Sparade webbinarier</div>
+          </div>
           </div>
         </div>
 
