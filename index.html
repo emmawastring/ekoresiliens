@@ -905,7 +905,7 @@ function applyFilters() {
 
   let f = allWebinars.filter(w => {
     if (activeSource && w.source_id !== activeSource) return false;
-    if (activeCat !== 'all' && !(w.categories || []).includes(activeCat)) return false;
+    if (activeCat !== 'all') { const cats = w.categories || []; const match = cats.includes(activeCat) || (activeCat === 'skogstradgard' && cats.includes('agroforestry')); if (!match) return false; }
     if (activeLang !== 'all') {
       const text = (w.title + ' ' + (w.description || '')).toLowerCase();
       const isSwedish = /\b(svenska|swedish|svenska|på svenska)\b/i.test(text);
