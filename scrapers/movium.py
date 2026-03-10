@@ -1,49 +1,91 @@
-"""SLU MOVIUM"""
+"""SLU Movium – hämtar via sökendpoint"""
+import requests
+import re
+from bs4 import BeautifulSoup
 from .base import BaseScraper
 
+SOURCE_NAME = "SLU Movium"
+BASE_URL    = "https://movium.slu.se"
+HEADERS     = {"User-Agent": "Mozilla/5.0"}
+
+SEARCH_TERMS = ["webbinarium", "kurs", "konferens", "seminarium", "workshop"]
 
 class MoviumScraper(BaseScraper):
-    name = "SLU MOVIUM"
+    name      = SOURCE_NAME
     source_id = "MOVIUM"
-    base_url = "https://movium.slu.se"
-    EVENTS_URL = "https://movium.slu.se/kalendarium/"
 
     def fetch(self) -> list[dict]:
         events = []
-        try:
-            soup = self.soup(self.EVENTS_URL)
-            event_elements = soup.select("article, .event, .post, li")
+        seen_urls = set()
 
-            for element in event_elements:
-                title_elem = element.select_one("h2, h3, a")
-                if not title_elem:
-                    continue
+        for term in SEARCH_TERMS:
+            page = 1
+            while True:
+                url = f"{BASE_URL}/soek/?q={term}&page={page}"
+                try:
+                    r = requests.get(url, headers=HEADERS, timeout=15)
+                    r.raise_for_status()
+                    soup = BeautifulSoup(r.text, "html.parser")
 
-                title = title_elem.get_text(strip=True)
-                if not self.is_relevant(title):
-                    continue
+                    # Sökresultat är <a class="block group ...">
+                    results = soup.find_all("a", class_="block", href=True)
+                    if not results:
+                        break
 
-                date_elem = element.select_one("time, .date, .published")
-                date_str = None
-                if date_elem:
-                    date_str = self.parse_swedish_date(date_elem.get_text(strip=True))
+                    found_any = False
+                    for a in results:
+                        # Kolla att det är Kalendarium
+                        type_el = a.find("p", class_=lambda c: c and "uppercase" in c)
+                        if not type_el:
+                            continue
+                        type_text = type_el.get_text(strip=True).lower()
+                        if "kalendarium" not in type_text:
+                            continue
 
-                desc_elem = element.select_one("p, .excerpt")
-                description = desc_elem.get_text(strip=True) if desc_elem else ""
+                        # Datum – andra p.uppercase
+                        ps = a.find_all("p", class_=lambda c: c and "uppercase" in c)
+                        date_iso = None
+                        for p in ps:
+                            m = re.search(r"(\d{4}-\d{2}-\d{2})", p.get_text())
+                            if m:
+                                date_iso = m.group(1)
+                                break
+                        if not date_iso:
+                            continue
 
-                link_elem = element.select_one("a")
-                url = link_elem.get("href") if link_elem else self.EVENTS_URL
-                if url and not url.startswith("http"):
-                    url = self.base_url + url
+                        # Titel
+                        h2 = a.find("h2")
+                        if not h2:
+                            continue
+                        title = h2.get_text(strip=True)
 
-                if date_str:
-                    events.append(self.event(
-                        title=title,
-                        date_iso=date_str,
-                        url=url,
-                        description=description,
-                        categories=["omstallning", "biodiv", "skog"],
-                    ))
-        except Exception as e:
-            print(f"    MOVIUM: {e}")
+                        # URL
+                        href = a["href"]
+                        if not href.startswith("http"):
+                            href = BASE_URL + href
+                        if href in seen_urls:
+                            continue
+                        seen_urls.add(href)
+
+                        # Beskrivning
+                        desc_el = a.find("p", class_=lambda c: c and "line-clamp" in c)
+                        desc = desc_el.get_text(strip=True) if desc_el else ""
+
+                        events.append(self.event(
+                            title=title,
+                            date_iso=date_iso,
+                            url=href,
+                            description=desc,
+                            categories=["omstallning", "samhalle"],
+                        ))
+                        found_any = True
+
+                    if not found_any:
+                        break
+                    page += 1
+
+                except Exception as e:
+                    print(f"  {SOURCE_NAME}: fel ({term} s{page}): {e}")
+                    break
+
         return events
