@@ -1,82 +1,100 @@
-"""Naturvårdsverket – hämtar eventdatum från kalendersidan."""
-import feedparser
+"""Naturvårdsverket – hämtar via sökresultat JSON"""
+import requests
+import re
+import json
+from bs4 import BeautifulSoup
 from .base import BaseScraper
 
+SOURCE_NAME = "Naturvårdsverket"
+BASE_URL    = "https://www.naturvardsverket.se"
+HEADERS     = {"User-Agent": "Mozilla/5.0"}
+
+MONTHS = {
+    "januari":1,"februari":2,"mars":3,"april":4,"maj":5,"juni":6,
+    "juli":7,"augusti":8,"september":9,"oktober":10,"november":11,"december":12
+}
+
+def url_to_date(url):
+    m = re.search(r'/kalendarium/(\d{4})/([a-z]+)/', url)
+    if m:
+        year = int(m.group(1))
+        month = MONTHS.get(m.group(2).lower())
+        if month:
+            return f"{year}-{month:02d}-01"
+    return None
+
+def extract_model(html):
+    soup = BeautifulSoup(html, "html.parser")
+    for s in soup.find_all("script"):
+        t = s.string or ""
+        if "window.__model" in t:
+            m = re.search(r"window\.__model\s*=\s*(\{.+\})\s*;?\s*$", t, re.DOTALL)
+            if m:
+                try:
+                    return json.loads(m.group(1))
+                except:
+                    pass
+    return None
 
 class NaturvardsverketScraper(BaseScraper):
-    name = "Naturvårdsverket"
-    source_id = "NV"
-    base_url = "https://www.naturvardsverket.se"
-    CALENDAR_URL = "https://www.naturvardsverket.se/om-naturvardsverket/kalender/"
-    RSS_URLS = [
-        "https://www.naturvardsverket.se/rss/nyheter/",
-        "https://www.naturvardsverket.se/rss/",
-    ]
+    name      = SOURCE_NAME
+    source_id = "naturvardsverket"
 
     def fetch(self) -> list[dict]:
         events = []
+        seen = set()
 
-        # HTML-kalender – riktiga eventdatum
-        try:
-            soup = self.soup(self.CALENDAR_URL)
-            for item in soup.select("article, li, .event, .calendar-item"):
-                title_el = item.select_one("h2, h3, a")
-                if not title_el:
-                    continue
-                title = title_el.get_text(strip=True)
-                if not title or len(title) < 5:
-                    continue
-
-                time_el = item.select_one("time[datetime]")
-                date_str = None
-                if time_el:
-                    date_str = self.parse_swedish_date(time_el["datetime"])
-                if not date_str:
-                    date_el = item.select_one("time, .date")
-                    if date_el:
-                        date_str = self.parse_swedish_date(date_el.get_text(strip=True))
-                if not date_str:
-                    continue
-
-                link_el = item.select_one("a[href]")
-                link = link_el["href"] if link_el else self.CALENDAR_URL
-                if link and not link.startswith("http"):
-                    link = self.base_url + link
-
-                desc_el = item.select_one("p, .preamble")
-                desc = desc_el.get_text(strip=True) if desc_el else ""
-
-                events.append(self.event(
-                    title=title, date_iso=date_str, url=link,
-                    description=desc, categories=["klimat", "policy", "biodiv"],
-                ))
-        except Exception as e:
-            print(f"    NV HTML: {e}")
-
-        # RSS-fallback
-        if not events:
-            for rss in self.RSS_URLS:
+        for search_term in ["evenemang", "webbinarium", "kurs", "seminarium"]:
+            page = 1
+            while True:
+                url = f"{BASE_URL}/soksida/?q={search_term}&p={page}"
                 try:
-                    feed = feedparser.parse(rss)
-                    for entry in feed.entries:
-                        title = entry.get("title", "")
-                        desc = entry.get("summary", "")
-                        if not self.is_relevant(title, desc):
+                    r = requests.get(url, headers=HEADERS, timeout=15)
+                    r.raise_for_status()
+                    model = extract_model(r.text)
+                    if not model:
+                        break
+
+                    results = (model.get("content", {})
+                                    .get("searchModel", {})
+                                    .get("results", []))
+                    if not results:
+                        break
+
+                    found_new = False
+                    for item in results:
+                        item_url = item.get("url", "")
+                        if "/kalendarium/" not in item_url:
                             continue
-                        date_str = None
-                        if hasattr(entry, "published_parsed") and entry.published_parsed:
-                            t = entry.published_parsed
-                            date_str = f"{t.tm_year}-{t.tm_mon:02d}-{t.tm_mday:02d}"
-                        if not date_str:
+                        if item_url in seen:
                             continue
+                        seen.add(item_url)
+
+                        date_iso = url_to_date(item_url)
+                        if not date_iso:
+                            continue
+
+                        title = item.get("heading", "").strip()
+                        desc  = item.get("excerpt", "").strip()
+
                         events.append(self.event(
                             title=title,
-                            date_iso=date_str,
-                            url=entry.get("link", self.CALENDAR_URL),
+                            date_iso=date_iso,
+                            url=item_url,
                             description=desc,
-                            categories=["klimat", "policy"],
+                            categories=["omstallning", "klimat", "biodiv"],
                         ))
+                        found_new = True
+
+                    total_pages = (model.get("content", {})
+                                        .get("searchModel", {})
+                                        .get("totalPages", 1))
+                    if not found_new or page >= total_pages:
+                        break
+                    page += 1
+
                 except Exception as e:
-                    print(f"    NV RSS {rss}: {e}")
+                    print(f"  {SOURCE_NAME}: fel ({search_term} s{page}): {e}")
+                    break
 
         return events
