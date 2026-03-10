@@ -317,7 +317,6 @@ footer a:hover{text-decoration:underline;}
               <div class="chip" data-cat="vatten" onclick="selectCat(this,'catChips')"><span class="chip-dot" style="background:#1565c0"></span>Vatten</div>
               <div class="chip" data-cat="energi" onclick="selectCat(this,'catChips')"><span class="chip-dot" style="background:#f57f17"></span>Energi</div>
               <div class="chip" data-cat="policy" onclick="selectCat(this,'catChips')"><span class="chip-dot" style="background:#4527a0"></span>Lag &amp; Policy</div>
-              <div class="chip" data-cat="skogstradgard" onclick="selectCat(this,'catChips')"><span class="chip-dot" style="background:#1b5e20"></span>Skogsträdgård</div>
               <div class="chip" data-cat="video" onclick="selectCat(this,'catChips')"><span class="chip-dot" style="background:#6a1b9a"></span>Video</div>
               <div class="chip" data-cat="saved" onclick="selectCat(this,'catChips')"><span class="chip-dot" style="background:#e64a19"></span>Sparade webbinarier</div>
             </div>
@@ -905,7 +904,7 @@ function applyFilters() {
 
   let f = allWebinars.filter(w => {
     if (activeSource && w.source_id !== activeSource) return false;
-    if (activeCat !== 'all') { const cats = w.categories || []; const match = cats.includes(activeCat) || (activeCat === 'skogstradgard' && cats.includes('agroforestry')); if (!match) return false; }
+    if (activeCat !== 'all') { const cats = w.categories || []; const titleDesc = (w.title + ' ' + (w.description || '')).toLowerCase(); const match = cats.includes(activeCat) || (activeCat === 'skogstradgard' && cats.includes('agroforestry')) || (activeCat === 'skog' && titleDesc.includes('forest')); if (!match) return false; }
     if (activeLang !== 'all') {
       const text = (w.title + ' ' + (w.description || '')).toLowerCase();
       const isSwedish = /\b(svenska|swedish|svenska|på svenska)\b/i.test(text);
