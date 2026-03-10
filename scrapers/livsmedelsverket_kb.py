@@ -41,7 +41,7 @@ def parse_lv_publication(link_elem, base_url):
             url = base_url + url
 
         # Determine categories - Livsmedelsverket focuses on food safety and nutrition
-        categories = ["mat", "samhalle"]  # Default categories
+        categories = ["mat", "omstallning"]  # Default categories
         title_lower = title.lower()
 
         if any(word in title_lower for word in ["klimat", "climate", "hållbar", "sustainable", "miljö", "environment"]):
@@ -49,7 +49,7 @@ def parse_lv_publication(link_elem, base_url):
         if any(word in title_lower for word in ["jordbruk", "agriculture", "lantbruk", "farming"]):
             categories.append("mat")
         if any(word in title_lower for word in ["hälsa", "health", "nutrition", "näring"]):
-            categories.append("samhalle")
+            categories.append("omstallning")
         if any(word in title_lower for word in ["policy", "regelverk", "regulation", "lag"]):
             categories.append("policy")
 

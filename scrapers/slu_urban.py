@@ -42,7 +42,7 @@ class SLUUrbanScraper(BaseScraper):
                         date_iso=date_str,
                         url=url,
                         description=description,
-                        categories=["samhalle", "biodiv", "mat"],
+                        categories=["omstallning", "biodiv", "mat"],
                     ))
         except Exception as e:
             print(f"    SLU Urban: {e}")

@@ -11,7 +11,7 @@ def fetch_unity_library_resources():
     
     # Different sections and their category mappings
     sections = [
-        ("https://library.uniteddiversity.coop/More_Books_and_Reports/", ["samhalle"], "Böcker och rapporter"),
+        ("https://library.uniteddiversity.coop/More_Books_and_Reports/", ["omstallning"], "Böcker och rapporter"),
         ("https://library.uniteddiversity.coop/Permaculture/", ["skogstradgard", "agroforestry"], "Permakultur"),
         ("https://library.uniteddiversity.coop/Permaculture/Agroforestry/", ["agroforestry"], "Agroforestry"),
         ("https://library.uniteddiversity.coop/Permaculture/Agroforestry/Forest_Gardens/", ["skogstradgard"], "Skogsträdgård"),

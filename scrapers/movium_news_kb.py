@@ -41,13 +41,13 @@ def parse_movium_news(link_elem, base_url):
             url = base_url + url
 
         # Determine categories based on MOVIUM focus (urban green, landscape architecture)
-        categories = ["samhalle", "biodiv"]  # Default categories
+        categories = ["omstallning", "biodiv"]  # Default categories
         title_lower = title.lower()
 
         if any(word in title_lower for word in ["klimat", "climate", "hållbar", "sustainable"]):
             categories.append("klimat")
         if any(word in title_lower for word in ["stad", "urban", "city", "kommun"]):
-            categories.append("samhalle")
+            categories.append("omstallning")
         if any(word in title_lower for word in ["grön", "green", "natur", "nature"]):
             categories.append("biodiv")
         if any(word in title_lower for word in ["skog", "forest", "träd", "trees"]):

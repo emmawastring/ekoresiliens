@@ -42,7 +42,7 @@ class BoverketWebinarScraper(BaseScraper):
                         date_iso=date_str,
                         url=url,
                         description=description,
-                        categories=["samhalle", "policy"],
+                        categories=["omstallning", "policy"],
                     ))
         except Exception as e:
             print(f"    BV Webinar: {e}")

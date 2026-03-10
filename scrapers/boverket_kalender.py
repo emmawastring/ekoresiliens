@@ -42,7 +42,7 @@ class BoverketKalenderScraper(BaseScraper):
                         date_iso=date_str,
                         url=url,
                         description=description,
-                        categories=["samhalle", "klimat", "biodiv"],
+                        categories=["omstallning", "klimat", "biodiv"],
                     ))
         except Exception as e:
             print(f"    BV Kalender: {e}")

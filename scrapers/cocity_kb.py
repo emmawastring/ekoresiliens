@@ -12,9 +12,9 @@ def fetch_cocity_resources():
 
     # Define the sections to scrape
     sections = [
-        ("verktyg", "Verktyg", ["verktyg", "samhalle"]),
-        ("rapporter-och-vagledningar", "Rapporter och vägledningar", ["rapport", "samhalle"]),
-        ("exempel", "Exempel", ["guide", "samhalle"])
+        ("verktyg", "Verktyg", ["verktyg", "omstallning"]),
+        ("rapporter-och-vagledningar", "Rapporter och vägledningar", ["rapport", "omstallning"]),
+        ("exempel", "Exempel", ["guide", "omstallning"])
     ]
 
     for section_slug, section_name, categories in sections:

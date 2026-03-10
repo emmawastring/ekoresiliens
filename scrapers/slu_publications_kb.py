@@ -61,7 +61,7 @@ def parse_slu_publication(entry_elem, base_url):
         year = year_elem.get_text(strip=True) if year_elem else ""
 
         # Determine categories based on content
-        categories = ["samhalle"]  # Default for SLU publications
+        categories = ["omstallning"]  # Default for SLU publications
         text_content = (title + " " + authors).lower()
 
         if any(word in text_content for word in ["klimat", "climate", "hållbar", "sustainable", "miljö", "environment"]):

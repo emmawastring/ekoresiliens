@@ -42,7 +42,7 @@ class BusinessBiodiversityScraper(BaseScraper):
                         date_iso=date_str,
                         url=url,
                         description=description,
-                        categories=["biodiv", "policy", "samhalle"],
+                        categories=["biodiv", "policy", "omstallning"],
                     ))
         except Exception as e:
             print(f"    Business & Biodiversity: {e}")

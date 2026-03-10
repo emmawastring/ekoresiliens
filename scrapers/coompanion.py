@@ -54,7 +54,7 @@ class CoompanionScraper(BaseScraper):
                     date_iso=date_iso,
                     url=url,
                     description='',
-                    categories=["samhalle", "mat"]
+                    categories=["omstallning", "mat"]
                 ))
         
         except Exception as e:

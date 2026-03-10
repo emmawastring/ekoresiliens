@@ -52,7 +52,7 @@ class SLUPlayScraper(BaseScraper):
                         date_iso=date_str,
                         url=url,
                         description=description,
-                        categories=["samhalle", "biodiv", "mat", "skog"],
+                        categories=["omstallning", "biodiv", "mat", "skog"],
                     ))
             except Exception as e:
                 print(f"    SLU Play ({playlist_url}): {e}")

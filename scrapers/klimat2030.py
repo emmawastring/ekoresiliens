@@ -42,7 +42,7 @@ class Klimat2030Scraper(BaseScraper):
                         date_iso=date_str,
                         url=url,
                         description=description,
-                        categories=["klimat", "samhalle", "policy"],
+                        categories=["klimat", "omstallning", "policy"],
                     ))
         except Exception as e:
             print(f"    Klimat 2030: {e}")

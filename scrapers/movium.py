@@ -42,7 +42,7 @@ class MoviumScraper(BaseScraper):
                         date_iso=date_str,
                         url=url,
                         description=description,
-                        categories=["samhalle", "biodiv", "skog"],
+                        categories=["omstallning", "biodiv", "skog"],
                     ))
         except Exception as e:
             print(f"    MOVIUM: {e}")

@@ -41,7 +41,7 @@ def parse_boverket_theme(link_elem, base_url):
             url = base_url + url
 
         # Determine categories based on title keywords
-        categories = ["samhalle", "policy"]  # Default for planning/building
+        categories = ["omstallning", "policy"]  # Default for planning/building
         title_lower = title.lower()
 
         if any(word in title_lower for word in ["klimat", "climate", "hållbar", "sustainable"]):

@@ -49,7 +49,7 @@ class KlimatriksdagenScraper(BaseScraper):
                         date_iso=date_iso,
                         url=url,
                         description=description,
-                        categories=["klimat", "samhalle", "policy"]
+                        categories=["klimat", "omstallning", "policy"]
                     ))
         
         except Exception as e:

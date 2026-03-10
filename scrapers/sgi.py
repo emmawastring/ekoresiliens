@@ -49,7 +49,7 @@ class SGIScraper(BaseScraper):
                         date_iso=date_iso,
                         url=url,
                         description=description,
-                        categories=["samhalle", "klimat"]
+                        categories=["omstallning", "klimat"]
                     ))
         
         except Exception as e:

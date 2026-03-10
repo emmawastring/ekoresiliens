@@ -52,7 +52,7 @@ class LansstyrelseScraper(BaseScraper):
                     date_iso=date_str,
                     url=url,
                     description=desc,
-                    categories=["samhalle", "klimat", "biodiv"],
+                    categories=["omstallning", "klimat", "biodiv"],
                 ))
         except Exception as e:
             print(f"    {self.name}: {e}")

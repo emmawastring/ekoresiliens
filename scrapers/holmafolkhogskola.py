@@ -49,7 +49,7 @@ class HolmafolkhogskolaScraper(BaseScraper):
                         date_iso=date_iso,
                         url=url,
                         description=description,
-                        categories=["mat", "biodiv", "samhalle"]
+                        categories=["mat", "biodiv", "omstallning"]
                     ))
         
         except Exception as e:

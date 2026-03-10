@@ -33,7 +33,7 @@ def fetch_movium_resources():
                 "icon": "📄",
                 "title": title,
                 "desc": "PDF från SLU MOVIUM",
-                "cats": ["samhalle", "biodiv"],
+                "cats": ["omstallning", "biodiv"],
                 "url": href
             })
     

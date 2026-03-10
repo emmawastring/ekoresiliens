@@ -42,7 +42,7 @@ class OmstallningsfondenScraper(BaseScraper):
                         date_iso=date_str,
                         url=url,
                         description=description,
-                        categories=["samhalle", "klimat", "energi"],
+                        categories=["omstallning", "klimat", "energi"],
                     ))
         except Exception as e:
             print(f"    ÖF: {e}")

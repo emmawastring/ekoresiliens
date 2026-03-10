@@ -80,7 +80,7 @@ class OpenSpaceConsultingScraper(BaseScraper):
             description = desc_elem.get_text(strip=True)[:200] + "..." if desc_elem else ""
 
             # Determine categories based on content
-            categories = ["samhalle"]  # Default category
+            categories = ["omstallning"]  # Default category
             text_lower = (title + " " + description).lower()
 
             if any(word in text_lower for word in ["klimat", "climate", "miljö", "environment"]):
@@ -90,7 +90,7 @@ class OpenSpaceConsultingScraper(BaseScraper):
             if any(word in text_lower for word in ["jordbruk", "agriculture", "lantbruk"]):
                 categories.append("mat")
             if any(word in text_lower for word in ["stad", "urban", "kommun"]):
-                categories.append("samhalle")
+                categories.append("omstallning")
 
             return {
                 "id": f"openspace_{hash(title + date_iso)}",

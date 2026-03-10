@@ -42,7 +42,7 @@ class AktuellHallbarhetScraper(BaseScraper):
                         date_iso=date_str,
                         url=url,
                         description=description,
-                        categories=["samhalle", "klimat", "energi"],
+                        categories=["omstallning", "klimat", "energi"],
                     ))
         except Exception as e:
             print(f"    AH: {e}")

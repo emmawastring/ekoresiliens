@@ -106,7 +106,7 @@ class HolmaScraper(BaseScraper):
                 elif "permakultur" in path.lower():
                     categories = ["agroforestry", "biodiv"]
                 elif "fest" in path.lower() or "hus" in path.lower() or "sommar" in path.lower():
-                    categories = ["samhalle"]
+                    categories = ["omstallning"]
 
                 events.append(self.event(
                     title=title,

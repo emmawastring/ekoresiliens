@@ -38,7 +38,7 @@ class OmstallningskanalenScraper(BaseScraper):
                     date_iso=created_at or "2026-01-01",
                     url=self.BASE_URL,
                     description=description,
-                    categories=["samhalle", "klimat"],
+                    categories=["omstallning", "klimat"],
                     source_name=self.SOURCE_NAME,
                 ))
 

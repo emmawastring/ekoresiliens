@@ -49,7 +49,7 @@ class RIScraper(BaseScraper):
                         date_iso=date_iso,
                         url=url,
                         description=description,
-                        categories=["klimat", "samhalle"]
+                        categories=["klimat", "omstallning"]
                     ))
         
         except Exception as e:

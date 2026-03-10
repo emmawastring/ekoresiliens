@@ -42,7 +42,7 @@ class SvensktVattenScraper(BaseScraper):
                         date_iso=date_str,
                         url=url,
                         description=description,
-                        categories=["vatten", "samhalle", "policy"],
+                        categories=["vatten", "omstallning", "policy"],
                     ))
         except Exception as e:
             print(f"    Svenskt Vatten: {e}")

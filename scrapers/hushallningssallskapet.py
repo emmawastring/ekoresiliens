@@ -58,7 +58,7 @@ class HushallningssallskapetScraper(BaseScraper):
                             date_iso=date_iso,
                             url=url,
                             description=desc,
-                            categories=["samhalle"],
+                            categories=["omstallning"],
                         ))
                     except Exception as e:
                         print(f"  {SOURCE_NAME}: fel för item {item.get('id')}: {e}")

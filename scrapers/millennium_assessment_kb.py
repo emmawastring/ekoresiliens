@@ -12,9 +12,9 @@ def fetch_millennium_assessment_resources():
 
     # Define the sections to scrape
     sections = [
-        ("en/Condition.html", "Condition", ["biodiv", "samhalle"]),
-        ("en/Scenarios.html", "Scenarios", ["klimat", "samhalle"]),
-        ("en/Responses.html", "Responses", ["policy", "samhalle"])
+        ("en/Condition.html", "Condition", ["biodiv", "omstallning"]),
+        ("en/Scenarios.html", "Scenarios", ["klimat", "omstallning"]),
+        ("en/Responses.html", "Responses", ["policy", "omstallning"])
     ]
 
     for section_path, section_name, categories in sections:

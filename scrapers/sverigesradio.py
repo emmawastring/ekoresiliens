@@ -29,7 +29,7 @@ class SVAScraper(BaseScraper):
                     date_iso=date_str,
                     url=entry.get("link", self.EVENTS_URL),
                     description=desc,
-                    categories=["samhalle"],
+                    categories=["omstallning"],
                 ))
         except Exception as e:
             print(f"    SVA: {e}")

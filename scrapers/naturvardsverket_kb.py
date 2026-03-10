@@ -13,17 +13,17 @@ def fetch_naturvardsverket_resources():
     # Categories from the URL
     categories = [
         ("Våtmark", ["vatten", "biodiv"]),
-        ("Skyddad natur", ["biodiv", "samhalle"]),
-        ("Samhällsplanering", ["samhalle", "policy"]),
-        ("Miljömål och miljöledning", ["samhalle", "policy"]),
-        ("Miljöbalken", ["policy", "samhalle"]),
-        ("Luft och klimat", ["klimat", "samhalle"]),
+        ("Skyddad natur", ["biodiv", "omstallning"]),
+        ("Samhällsplanering", ["omstallning", "policy"]),
+        ("Miljömål och miljöledning", ["omstallning", "policy"]),
+        ("Miljöbalken", ["policy", "omstallning"]),
+        ("Luft och klimat", ["klimat", "omstallning"]),
         ("Invasiva främmande arter", ["biodiv"]),
-        ("Allemansrätten", ["samhalle", "biodiv"]),
+        ("Allemansrätten", ["omstallning", "biodiv"]),
         ("Arter och artskydd", ["biodiv"]),
-        ("Avlopp", ["vatten", "samhalle"]),
-        ("Friluftsliv", ["samhalle", "biodiv"]),
-        ("Förorenade områden", ["samhalle", "klimat"])
+        ("Avlopp", ["vatten", "omstallning"]),
+        ("Friluftsliv", ["omstallning", "biodiv"]),
+        ("Förorenade områden", ["omstallning", "klimat"])
     ]
 
     for cat_name, cats in categories:

@@ -76,7 +76,7 @@ class HutSkaneScraper(BaseScraper):
                             date_iso=date_iso,
                             url=link or url,
                             description=description,
-                            categories=["samhalle", "klimat"],
+                            categories=["omstallning", "klimat"],
                             source_name=self.SOURCE_NAME,
                         ))
 
