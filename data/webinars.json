@@ -1,383 +1,8 @@
 {
-  "updated": "2026-03-10T11:59:09.902944+00:00",
-  "count": 145,
+  "updated": "2026-03-11T08:04:35.777829+00:00",
+  "count": 113,
   "errors": [],
   "events": [
-    {
-      "id": "54e29a765674",
-      "title": "Skolgården – grön plats i bärkraftig stad",
-      "date_iso": "2023-03-29",
-      "time": "",
-      "description": "Skolgården är en viktig plats för barns lek, som bör erbjuda naturkontakt och vara en viktig länk i den gröna infrastrukturen i en bärkraftig stad.",
-      "url": "https://movium.slu.se/kalendarium/skolgaarden-groen-plats-i-baerkraftig-stad/",
-      "source_id": "MOVIUM",
-      "source_name": "SLU Movium",
-      "categories": [
-        "omstallning",
-        "samhalle"
-      ],
-      "free": true
-    },
-    {
-      "id": "30e4ec9301ed",
-      "title": "Publika parker och stadsrum 2023",
-      "date_iso": "2023-03-29",
-      "time": "",
-      "description": "Grönare stadsrum och stråk för människan, klimatet, biodiversiteten, hälsan och estetiken. Kom till Malmö och inspireras av svenska och internationella...",
-      "url": "https://movium.slu.se/kalendarium/publika-parker-och-stadsrum-2023/",
-      "source_id": "MOVIUM",
-      "source_name": "SLU Movium",
-      "categories": [
-        "omstallning",
-        "samhalle"
-      ],
-      "free": true
-    },
-    {
-      "id": "66a97156092a",
-      "title": "Towards Greener, Healthier and Resilient Cities!",
-      "date_iso": "2023-03-29",
-      "time": "",
-      "description": "Nordic cities and communities have a long history of striving to be green and sustainable, but urban development creates new challenges and demands on u...",
-      "url": "https://movium.slu.se/kalendarium/towards-greener-healthier-and-resilient-cities/",
-      "source_id": "MOVIUM",
-      "source_name": "SLU Movium",
-      "categories": [
-        "omstallning",
-        "samhalle"
-      ],
-      "free": true
-    },
-    {
-      "id": "f11945d889de",
-      "title": "Placemaking for Children and Young People",
-      "date_iso": "2023-04-13",
-      "time": "",
-      "description": "Barn och unga vill och kan påverka stadsmiljön till det bättre om de får chansen. Ta del av erfarenheter från dem som lyckats skapa platser för och med...",
-      "url": "https://movium.slu.se/kalendarium/placemaking-for-children-and-young-people/",
-      "source_id": "MOVIUM",
-      "source_name": "SLU Movium",
-      "categories": [
-        "omstallning",
-        "samhalle"
-      ],
-      "free": true
-    },
-    {
-      "id": "d5df1ed4d95d",
-      "title": "Creating Green Cities",
-      "date_iso": "2023-05-02",
-      "time": "",
-      "description": "Hur kan vi skapa hållbara, vackra och inkluderande städer? Delta digitalt i EU-konferensen Creating Green Cities och ta reda på hur. Lyssna på inspirera...",
-      "url": "https://movium.slu.se/kalendarium/creating-green-cities/",
-      "source_id": "MOVIUM",
-      "source_name": "SLU Movium",
-      "categories": [
-        "omstallning",
-        "samhalle"
-      ],
-      "free": true
-    },
-    {
-      "id": "2fa299f9862c",
-      "title": "Publika parker och stadsrum 2024",
-      "date_iso": "2023-11-14",
-      "time": "",
-      "description": "Den gröna omställningen i alla dess aspekter kräver många svåra och modiga beslut. Nu planerar vi för årets konferens på temat Publika parker och modiga...",
-      "url": "https://movium.slu.se/kalendarium/publika-parker-och-stadsrum-2024/",
-      "source_id": "MOVIUM",
-      "source_name": "SLU Movium",
-      "categories": [
-        "omstallning",
-        "samhalle"
-      ],
-      "free": true
-    },
-    {
-      "id": "7c697109828c",
-      "title": "Öppet seminarium om barns uppväxtmiljö",
-      "date_iso": "2024-03-06",
-      "time": "",
-      "description": "Jobbar du med frågor som rör barn och ungas utemiljö? Välkomna till ett öppet seminarium på temat Uppväxtvillkor i en urbaniserad värld: Att skapa utemi...",
-      "url": "https://movium.slu.se/kalendarium/oeppet-seminarium-om-barns-uppvaextmiljoe/",
-      "source_id": "MOVIUM",
-      "source_name": "SLU Movium",
-      "categories": [
-        "omstallning",
-        "samhalle"
-      ],
-      "free": true
-    },
-    {
-      "id": "99b425be9de3",
-      "title": "Mer skog i staden!",
-      "date_iso": "2024-03-13",
-      "time": "",
-      "description": "Närskogar, mikroskogar, stadsskogar eller parklundar. Kärt barn har många namn. Gemensamt för dem är att de beskriver naturlika planteringar med skogska...",
-      "url": "https://movium.slu.se/kalendarium/mer-skog-i-staden/",
-      "source_id": "MOVIUM",
-      "source_name": "SLU Movium",
-      "categories": [
-        "omstallning",
-        "samhalle"
-      ],
-      "free": true
-    },
-    {
-      "id": "3d28ff17f1cc",
-      "title": "Webbinarium: Så når vi etappmålet 2025!​",
-      "date_iso": "2024-04-23",
-      "time": "",
-      "description": "Välkomna till vårt webbinarium om etappmålet för integrering av stadsgrönska och ekosystemtjänster i urbana miljöer, den 3 maj kl. 8.30-09.30! C/O City...",
-      "url": "https://movium.slu.se/kalendarium/webbinarium-saa-naar-vi-etappmaalet-2025/",
-      "source_id": "MOVIUM",
-      "source_name": "SLU Movium",
-      "categories": [
-        "omstallning",
-        "samhalle"
-      ],
-      "free": true
-    },
-    {
-      "id": "2d66e56c6302",
-      "title": "Demonstration och seminarium om skörd och insamlingslogistik för gräs från urbana ytor – från restprodukt till resurs i den biobaserade ekonomin",
-      "date_iso": "2024-08-27",
-      "time": "",
-      "description": "Energikontor Syd/Biogas Syd genom projektet Power Bio i samarbete med Partnerskap Alnarp och Movium vid SLU bjuder in till en inspirerande dag i Alnarp.",
-      "url": "https://movium.slu.se/kalendarium/demonstration-och-seminarium-om-skoerd-och-insamlingslogistik-foer-graes-fraan-urbana-ytor-fraan-restprodukt-till-resurs-i-den-biobaserade-ekonomin/",
-      "source_id": "MOVIUM",
-      "source_name": "SLU Movium",
-      "categories": [
-        "omstallning",
-        "samhalle"
-      ],
-      "free": true
-    },
-    {
-      "id": "8d7175d975fd",
-      "title": "Mer skog i staden! Tema: Mikroskogar",
-      "date_iso": "2024-09-26",
-      "time": "",
-      "description": "Så sent som 2021 var Place de Catalogne en stor, typiskt hårdgjord rondell i Paris med tät trafik, buller och värmeproblematik. Idag är Place de Catalog...",
-      "url": "https://movium.slu.se/kalendarium/mer-skog-i-staden-tema-mikroskogar/",
-      "source_id": "MOVIUM",
-      "source_name": "SLU Movium",
-      "categories": [
-        "omstallning",
-        "samhalle"
-      ],
-      "free": true
-    },
-    {
-      "id": "cc18467e268b",
-      "title": "Publika parker och stadsrum 2025",
-      "date_iso": "2024-12-17",
-      "time": "",
-      "description": "Vi behöver utveckla och bygga vidare i våra städer samtidigt som vi måste hushålla och om möjligt återanvända alla resurser. Utmaningarna har kanske ald...",
-      "url": "https://movium.slu.se/kalendarium/publika-parker-och-stadsrum-2025/",
-      "source_id": "MOVIUM",
-      "source_name": "SLU Movium",
-      "categories": [
-        "omstallning",
-        "samhalle"
-      ],
-      "free": true
-    },
-    {
-      "id": "5958485cab90",
-      "title": "Är stadens grönska rättvist fördelad? Frukostwebbinarium om Grönt jämlikhetsindex",
-      "date_iso": "2025-03-13",
-      "time": "",
-      "description": "Välkommen till det första tillfället i SLU Urban Futures och SLU Tankesmedjan Moviums webbinarieserie Mötesplats: Urbana Landskap. Här möts akademi och...",
-      "url": "https://movium.slu.se/kalendarium/aer-stadens-groenska-raettvist-foerdelad-frukostwebbinarium-om-groent-jaemlikhetsindex/",
-      "source_id": "MOVIUM",
-      "source_name": "SLU Movium",
-      "categories": [
-        "omstallning",
-        "samhalle"
-      ],
-      "free": true
-    },
-    {
-      "id": "fa0d953518ec",
-      "title": "Från barnvänliga platser till barnvänliga städer?",
-      "date_iso": "2025-04-02",
-      "time": "",
-      "description": "Den 19 september bjuder vi in till ett webbinarium där vi utforskar hur barns perspektiv kan bli en självklar del i stadsplaneringen – inte bara på avsk...",
-      "url": "https://movium.slu.se/kalendarium/fraan-barnvaenliga-platser-till-barnvaenliga-staeder/",
-      "source_id": "MOVIUM",
-      "source_name": "SLU Movium",
-      "categories": [
-        "omstallning",
-        "samhalle"
-      ],
-      "free": true
-    },
-    {
-      "id": "4b654fb1681e",
-      "title": "Mot dynamisk parkförvaltning – vilka möjligheter skapas genom digitaliseringen?",
-      "date_iso": "2025-04-02",
-      "time": "",
-      "description": "Lunchwebbinarium 4 juni. Digitalisering, sensorer, robotar och AI gör nu sitt intåg i parkförvaltning och skötsel av gröna ytor i städer, och vars föret...",
-      "url": "https://movium.slu.se/kalendarium/mot-dynamisk-parkfoervaltning-vilka-moejligheter-skapas-genom-digitaliseringen/",
-      "source_id": "MOVIUM",
-      "source_name": "SLU Movium",
-      "categories": [
-        "omstallning",
-        "samhalle"
-      ],
-      "free": true
-    },
-    {
-      "id": "8fa5a7978fb0",
-      "title": "Frukostwebbinarium: Urbana ekosystem – möjligheter och utmaningar med EU:s förordning om restaurering av natur och artikel 8",
-      "date_iso": "2025-04-02",
-      "time": "",
-      "description": "Mötesplats: Urbana landskap är en ny serie av webbinarier från SLU Tankesmedjan Movium och framtidsplattformen SLU Urban Futures. Här möts akademi och p...",
-      "url": "https://movium.slu.se/kalendarium/frukostwebbinarium-urbana-ekosystem-moejligheter-och-utmaningar-med-eus-foerordning-om-restaurering-av-natur-och-artikel-8/",
-      "source_id": "MOVIUM",
-      "source_name": "SLU Movium",
-      "categories": [
-        "omstallning",
-        "samhalle"
-      ],
-      "free": true
-    },
-    {
-      "id": "3bca353daaaf",
-      "title": "Stekheta städer – hur skapar vi svala oaser?",
-      "date_iso": "2025-04-02",
-      "time": "",
-      "description": "Frukostwebbinarium om klimatanpassad stadsplanering 23 maj. I det tredje och sista webbinariet för terminen fördjupar vi oss i hur vi kan planera och ge...",
-      "url": "https://movium.slu.se/kalendarium/stekheta-staeder-hur-skapar-vi-svala-oaser/",
-      "source_id": "MOVIUM",
-      "source_name": "SLU Movium",
-      "categories": [
-        "omstallning",
-        "samhalle"
-      ],
-      "free": true
-    },
-    {
-      "id": "b027785366f4",
-      "title": "Kartläggning av hälsofrämjande grönområden i städerna; hur och varför?",
-      "date_iso": "2025-04-02",
-      "time": "",
-      "description": "Urban Forests-seminarium med Helena Nordh, professor i landskapsarkitektur vid SLU.",
-      "url": "https://movium.slu.se/kalendarium/kartlaeggning-av-haelsofraemjande-groenomraaden-i-staederna-hur-och-varfoer/",
-      "source_id": "MOVIUM",
-      "source_name": "SLU Movium",
-      "categories": [
-        "omstallning",
-        "samhalle"
-      ],
-      "free": true
-    },
-    {
-      "id": "0474130a4631",
-      "title": "Lunchwebbinarium: Från AI till urbana landskap",
-      "date_iso": "2025-04-11",
-      "time": "",
-      "description": "AI påverkar redan i dag hur vi planerar och utvecklar våra städer – men vad betyder det för studier av urbana landskap och de platser vi rör oss på varj...",
-      "url": "https://movium.slu.se/kalendarium/lunchwebbinarium-fraan-ai-till-urbana-landskap/",
-      "source_id": "MOVIUM",
-      "source_name": "SLU Movium",
-      "categories": [
-        "omstallning",
-        "samhalle"
-      ],
-      "free": true
-    },
-    {
-      "id": "3b0fbc64de2a",
-      "title": "Träd och tätortsnära natur i norr",
-      "date_iso": "2025-06-24",
-      "time": "",
-      "description": "Arbetar du med anläggning av natur i och omkring våra städer och tätorter vill träffa kollegor med liknande utmaningar, och ta del av senaste forskninge...",
-      "url": "https://movium.slu.se/kalendarium/traed-och-taetortsnaera-natur-i-norr/",
-      "source_id": "MOVIUM",
-      "source_name": "SLU Movium",
-      "categories": [
-        "omstallning",
-        "samhalle"
-      ],
-      "free": true
-    },
-    {
-      "id": "13fc77969c8c",
-      "title": "När vattnet ritar om kartan – utmaningar och möjligheter för framtidens utemiljöer",
-      "date_iso": "2025-09-08",
-      "time": "",
-      "description": "",
-      "url": "https://movium.slu.se/kalendarium/naer-vattnet-ritar-om-kartan-utmaningar-och-moejligheter-foer-framtidens-utemiljoeer/",
-      "source_id": "MOVIUM",
-      "source_name": "SLU Movium",
-      "categories": [
-        "omstallning",
-        "samhalle"
-      ],
-      "free": true
-    },
-    {
-      "id": "8864d3123b0f",
-      "title": "Publika parker och stadsrum 2026",
-      "date_iso": "2025-09-22",
-      "time": "",
-      "description": "Save the date! 23 april 2026. Konferenstema: bara vackert!",
-      "url": "https://movium.slu.se/kalendarium/publika-parker-och-stadsrum-2026/",
-      "source_id": "MOVIUM",
-      "source_name": "SLU Movium",
-      "categories": [
-        "omstallning",
-        "samhalle"
-      ],
-      "free": true
-    },
-    {
-      "id": "0cf8e948cfe9",
-      "title": "Så säkrar vi maten i framtidens städer!",
-      "date_iso": "2025-10-24",
-      "time": "",
-      "description": "",
-      "url": "https://movium.slu.se/kalendarium/saa-saekrar-vi-maten-i-framtidens-staeder/",
-      "source_id": "MOVIUM",
-      "source_name": "SLU Movium",
-      "categories": [
-        "omstallning",
-        "samhalle"
-      ],
-      "free": true
-    },
-    {
-      "id": "12b529791229",
-      "title": "Hur kan grön energiproduktion integreras i befintlig stadsmiljö?",
-      "date_iso": "2025-11-26",
-      "time": "",
-      "description": "",
-      "url": "https://movium.slu.se/kalendarium/hur-kan-groen-energiproduktion-integreras-i-befintlig-stadsmiljoe/",
-      "source_id": "MOVIUM",
-      "source_name": "SLU Movium",
-      "categories": [
-        "omstallning",
-        "samhalle"
-      ],
-      "free": true
-    },
-    {
-      "id": "e85591aadfa1",
-      "title": "Bygga nytt eller bygga om?",
-      "date_iso": "2025-12-19",
-      "time": "",
-      "description": "Hur kan vi arbeta med existerande strukturer inom bostadsbeståndet?",
-      "url": "https://movium.slu.se/kalendarium/bygga-nytt-eller-bygga-om/",
-      "source_id": "MOVIUM",
-      "source_name": "SLU Movium",
-      "categories": [
-        "omstallning",
-        "samhalle"
-      ],
-      "free": true
-    },
     {
       "id": "1ce40a0b834b",
       "title": "Skogsträdgård och småskalig agroforestry",
@@ -434,66 +59,6 @@
       "categories": [
         "mat",
         "agroforestry"
-      ],
-      "free": true
-    },
-    {
-      "id": "f3f55937acbe",
-      "title": "Mötesplats Urbana Landskap – save the date",
-      "date_iso": "2026-02-09",
-      "time": "",
-      "description": "Save the date - mer information och anmälningssida kommer inom kort",
-      "url": "https://movium.slu.se/kalendarium/moetesplats-urbana-landskap-save-the-date/",
-      "source_id": "MOVIUM",
-      "source_name": "SLU Movium",
-      "categories": [
-        "omstallning",
-        "samhalle"
-      ],
-      "free": true
-    },
-    {
-      "id": "c0563efa2611",
-      "title": "Från EU-förordning till nationell restaureringsplan",
-      "date_iso": "2026-02-09",
-      "time": "",
-      "description": "Save the date - mer information och anmälningssida kommer inom kort",
-      "url": "https://movium.slu.se/kalendarium/fraan-eu-foerordning-till-nationell-restaureringsplan/",
-      "source_id": "MOVIUM",
-      "source_name": "SLU Movium",
-      "categories": [
-        "omstallning",
-        "samhalle"
-      ],
-      "free": true
-    },
-    {
-      "id": "0e3ecf4e7d0a",
-      "title": "Från hållbarhet till robusthet",
-      "date_iso": "2026-02-09",
-      "time": "",
-      "description": "Save the date - mer information och anmälningssida kommer inom kort",
-      "url": "https://movium.slu.se/kalendarium/fraan-haallbarhet-till-robusthet/",
-      "source_id": "MOVIUM",
-      "source_name": "SLU Movium",
-      "categories": [
-        "omstallning",
-        "samhalle"
-      ],
-      "free": true
-    },
-    {
-      "id": "13f67daeda86",
-      "title": "Konferens: Mat i beredskap",
-      "date_iso": "2026-02-09",
-      "time": "",
-      "description": "",
-      "url": "https://movium.slu.se/kalendarium/konferens-mat-i-beredskap/",
-      "source_id": "MOVIUM",
-      "source_name": "SLU Movium",
-      "categories": [
-        "omstallning",
-        "samhalle"
       ],
       "free": true
     },
@@ -561,21 +126,6 @@
       "free": true
     },
     {
-      "id": "6a0207d6cb07",
-      "title": "Hållbar mat: miljö, hälsa och ansvar",
-      "date_iso": "2026-03-04",
-      "time": "",
-      "description": "",
-      "url": "https://www.ekocentrum.se/events/hallbar-mat-miljo-halsa-och-ansvar/",
-      "source_id": "ekocentrum",
-      "source_name": "Ekocentrum",
-      "categories": [
-        "biodiv",
-        "mat"
-      ],
-      "free": true
-    },
-    {
       "id": "2a3319b234ba",
       "title": "Webbinarium Plockhugget",
       "date_iso": "2026-03-04",
@@ -618,77 +168,6 @@
       "source_name": "Alternativ.nu",
       "categories": [
         "omstallning"
-      ],
-      "free": true
-    },
-    {
-      "id": "f3d25e9df39e",
-      "title": "Boosta sinkon &#8211; Värmland",
-      "date_iso": "2026-03-10",
-      "time": "",
-      "description": "Hushållningssällskapet Västra – Östra Vee Lantbruk, 665 96 Väse\nEn inspirerande träff om management, foder och välmående sinkor Tisdag 10 mars 2026, 13:30-16:30 i Väse Sinperioden markerar inte slutet på laktationen – det är starten på nästa. Tiden kring sinperiod och kalvning är avgörande för mjölkkons hälsa och produktion – rätt rutiner minskar risken för sjuk",
-      "url": "https://hushallningssallskapet.se/kalender/boosta-sinkon/",
-      "source_id": "hushallningssallskapet",
-      "source_name": "Hushållningssällskapet",
-      "categories": [
-        "omstallning"
-      ],
-      "free": true
-    },
-    {
-      "id": "4564b7578aa1",
-      "title": "Digital sprutjournal Dataväxt &#8211; Borgeby",
-      "date_iso": "2026-03-10",
-      "time": "",
-      "description": "Inför kommande år införs nya krav på dokumentation i sprutjournalen. Flera nya uppgifter behöver dokumenteras, och från och med 2027 ställs även krav på att sprutjournalen ska vara digital. Utnyttja 2026 till att komma i gång med din digitala sprutjournal, så att du är väl förberedd inför de nya kra",
-      "url": "https://hushallningssallskapet.se/kalender/digital-sprutjournal-datavaxt-borgeby/",
-      "source_id": "hushallningssallskapet",
-      "source_name": "Hushållningssällskapet",
-      "categories": [
-        "omstallning"
-      ],
-      "free": true
-    },
-    {
-      "id": "262b62da77bd",
-      "title": "Årsmöte &#8211; Husby Hushållningsgille",
-      "date_iso": "2026-03-10",
-      "time": "",
-      "description": "Husby Hushållningsgille\nKallelse till medlemmar i Husby Hushållningsgille Tid Tisdagen den 10 mars 2026, kl. 19.00. Plats Svinö bygdegård. Program –  Årsmötesförhandlingar enligt stadgarna. –  Vi bjuder på lättare förtäring. Välkomna! Styrelsen Husby Hushållningsgille",
-      "url": "https://hushallningssallskapet.se/kalender/arsmote-husby-hushallningsgille-2/",
-      "source_id": "hushallningssallskapet",
-      "source_name": "Hushållningssällskapet",
-      "categories": [
-        "omstallning"
-      ],
-      "free": true
-    },
-    {
-      "id": "c16e0680b685",
-      "title": "Årsmöte i Åkerbo Hanekinds hushållningsgille",
-      "date_iso": "2026-03-10",
-      "time": "",
-      "description": "Medlemmar i Åkerbo Hanekinds gille hälsas varmt välkommna på årsmöte! Vi börjar med att lyssna till Roy Andersson, Kulturarvsstrateg, som berättar om det stora jordbruket som försåg Åtvidabergs kopparverk med livsmedel och foder. Gillet bjuder på fika, efter det blir det sedvanliga Årsmötesförhandli",
-      "url": "https://hushallningssallskapet.se/kalender/arsmote-i-akerbo-hanekinds-hushallningsgille/",
-      "source_id": "hushallningssallskapet",
-      "source_name": "Hushållningssällskapet",
-      "categories": [
-        "omstallning"
-      ],
-      "free": true
-    },
-    {
-      "id": "f672cc763f31",
-      "title": "Öppet kontor #4",
-      "date_iso": "2026-03-10",
-      "time": "",
-      "description": "Behöver du ett miljöombyte, nya perspektiv eller vill bara träffa andra som också arbetar med hållbarhet? Välkommen att sitta i våra lokaler och jobba! . Hela kansliet från Hållbar Utveckling […]",
-      "url": "https://www.hutskane.se/kalender/oppet-kontor-4/",
-      "source_id": "unknown",
-      "source_name": "Hållbar Utveckling Skåne",
-      "categories": [
-        "omstallning",
-        "klimat"
       ],
       "free": true
     },
@@ -1403,6 +882,20 @@
       "free": true
     },
     {
+      "id": "300963b558dd",
+      "title": "Trädgård för alla sinnen",
+      "date_iso": "2026-03-31",
+      "time": "",
+      "description": "Munkedals hushållningsgille – Munkedals plantskola\nVälkommen på en härlig odlingsträff för alla ytor och alla sinnen Smaken: Något för magen Hörseln: Prassel, porl eller djurläten Känseln: Struktur Synen: Vackra färger och former Doften: Blommor och örter Datum Tisdag 31 mars kl 18-20 Plats Munkedals plantskola som även bjuder på fika! Vi bjuder in",
+      "url": "https://hushallningssallskapet.se/kalender/alla-sinnen/",
+      "source_id": "hushallningssallskapet",
+      "source_name": "Hushållningssällskapet",
+      "categories": [
+        "omstallning"
+      ],
+      "free": true
+    },
+    {
       "id": "91943688b36f",
       "title": "Digital grundläggande miljö- och hållbarhetsutbildning",
       "date_iso": "2026-04-01",
@@ -1721,6 +1214,20 @@
       "free": true
     },
     {
+      "id": "60dd0ccf32c0",
+      "title": "Träff med tema förädling av sommartryffel",
+      "date_iso": "2026-05-08",
+      "time": "",
+      "description": "Hushållningssällskapet Kalmar Kronoberg Blekinge\nHushållningssällskapet Kalmar Kronoberg Blekinge (HSKKB) i samarbete med Öländska Sällskapet för Tryffel (ÖST) erbjuder en Erfa-grupp för personer intresserade av odling och förädling av sommartryffel (Tuber aestivum). Under året planeras två träffar: Del 1: Fredag den 8 maj. Samling Torslunda försö",
+      "url": "https://hushallningssallskapet.se/kalender/traff-med-tema-foradling-av-sommartryffel/",
+      "source_id": "hushallningssallskapet",
+      "source_name": "Hushållningssällskapet",
+      "categories": [
+        "omstallning"
+      ],
+      "free": true
+    },
+    {
       "id": "71a9d95b8b2e",
       "title": "Öppet hus 2026",
       "date_iso": "2026-05-09",
@@ -2028,6 +1535,20 @@
       "time": "",
       "description": "Hushållningssällskapet Halland – Lilla Böslid, Eldsberga\nVälkommen till Lilla Böslid demodag 2026! Boka in den 8 oktober för en dag med teknik och upplevelser för dig som är lantbrukare eller intresserad av lantbruk. Årets tema är ” Ny kraft till framtidens lantbruk ”, vilket innebär ett fokus på hållbarhet. På plats hittar du: Maskindemonstrationer Utstä",
       "url": "https://hushallningssallskapet.se/kalender/lilla-boslid-demodag-2026/",
+      "source_id": "hushallningssallskapet",
+      "source_name": "Hushållningssällskapet",
+      "categories": [
+        "omstallning"
+      ],
+      "free": true
+    },
+    {
+      "id": "7975bb751753",
+      "title": "Träff med tema förädling av sommartryffel",
+      "date_iso": "2026-10-20",
+      "time": "",
+      "description": "Hushållningssällskapet Kalmar Kronoberg Blekinge\nHushållningssällskapet Kalmar Kronoberg Blekinge (HSKKB) i samarbete med Öländska Sällskapet för Tryffel (ÖST) erbjuder en Erfa-grupp för personer intresserade av odling och förädling av sommartryffel (Tuber aestivum). Under året planeras två träffar: Del 1: Fredag den 8 maj. Samling Torslunda försö",
+      "url": "https://hushallningssallskapet.se/kalender/sommartryffel/",
       "source_id": "hushallningssallskapet",
       "source_name": "Hushållningssällskapet",
       "categories": [
