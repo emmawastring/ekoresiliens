@@ -67,7 +67,7 @@ SCRAPERS = [
     SvensktVattenScraper(),
     Klimat2030Scraper(),
     BusinessBiodiversityScraper(),
-    LansstyrelseScraper("Skåne",           "https://www.lansstyrelsen.se/skane/om-oss/kalender/kalenderhandelser---skane/"),
+    LansstyrelseScraper("Skåne",           "https://www.lansstyrelsen.se/skane/om-oss/kalender/"),
     LansstyrelseScraper("Västra Götaland", "https://www.lansstyrelsen.se/vastra-gotaland/om-oss/kalender.html"),
     LansstyrelseScraper("Blekinge",        "https://www.lansstyrelsen.se/blekinge/om-oss/kalender.html"),
     LansstyrelseScraper("Dalarna",         "https://www.lansstyrelsen.se/dalarna/om-oss/kalender.html"),
