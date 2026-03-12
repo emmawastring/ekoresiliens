@@ -9,6 +9,8 @@ from .base import BaseScraper
 
 class OmstallningskanalenScraper(BaseScraper):
     SOURCE_ID   = "omstallningskanalen"
+    name = SOURCE_NAME
+    source_id = "omstallningskanalen"
     SOURCE_NAME = "Omställningskanalen"
     API_URL     = "https://omstallningskanalen.se/api/series"
     BASE_URL    = "https://omstallningskanalen.se/programserier"

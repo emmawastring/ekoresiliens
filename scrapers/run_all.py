@@ -40,7 +40,6 @@ from scrapers.klimatriksdagen import KlimatriksdagenScraper
 from scrapers.ekologigruppen import EkologigruppenScraper
 from scrapers.alternativnu import AlternativnuScraper
 from scrapers.underekarna import UnderekarnaScraper
-from scrapers.naturvardsverket import NaturvardsverketScraper
 from scrapers.holma import HolmaScraper
 from scrapers.hushallningssallskapet import HushallningssallskapetScraper
 from scrapers.hutskane import HutSkaneScraper
@@ -93,7 +92,6 @@ SCRAPERS = [
     EkologigruppenScraper(),
     AlternativnuScraper(),
     UnderekarnaScraper(),
-    NaturvardsverketScraper(),
     HolmaScraper(),
     HushallningssallskapetScraper(),
     HutSkaneScraper(),

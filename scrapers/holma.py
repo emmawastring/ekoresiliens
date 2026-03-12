@@ -11,6 +11,8 @@ from .base import BaseScraper
 
 class HolmaScraper(BaseScraper):
     SOURCE_ID   = "holma"
+    name = SOURCE_NAME
+    source_id = "holma"
     SOURCE_NAME = "Holma Folkhögskola"
     BASE_URL    = "https://www.holmafolkhogskola.se"
     COURSES_URL = "https://www.holmafolkhogskola.se/kurser/"
