@@ -1,60 +1,79 @@
-"""Havs- och vattenmyndigheten"""
-import feedparser
+"""Havs- och vattenmyndigheten – kalender"""
+import requests
+import re
+from datetime import datetime
+from bs4 import BeautifulSoup
 from .base import BaseScraper
 
+SOURCE_NAME = "Havs- och vattenmyndigheten"
+BASE_URL    = "https://www.havochvatten.se"
+CAL_URL     = f"{BASE_URL}/om-oss-kontakt-och-karriar/evenemang/kalender.html"
+HEADERS     = {"User-Agent": "Mozilla/5.0"}
+
+MONTHS = {
+    "jan":1,"feb":2,"mar":3,"apr":4,"maj":5,"jun":6,
+    "jul":7,"aug":8,"sep":9,"okt":10,"nov":11,"dec":12
+}
+
+def parse_title_date(title):
+    m = re.match(r'^(\d{1,2})\s+([a-z]{3})\s+(.+)$', title.strip().lower())
+    if m:
+        day   = int(m.group(1))
+        month = MONTHS.get(m.group(2))
+        year  = datetime.now().year
+        now   = datetime.now()
+        if month and month < now.month:
+            year += 1
+        parts = title.strip().split(' ', 2)
+        clean = parts[2] if len(parts) > 2 else title
+        if month:
+            return f"{year}-{month:02d}-{day:02d}", clean
+    return None, title
 
 class HaVScraper(BaseScraper):
-    name = "Havs- och vattenmyndigheten"
-    source_id = "HaV"
-    base_url = "https://www.havochvatten.se"
-    EVENTS_URL = "https://www.havochvatten.se/om-myndigheten/kalender.html"
-    RSS_URL = "https://www.havochvatten.se/rss"
+    name      = SOURCE_NAME
+    source_id = "hav"
 
     def fetch(self) -> list[dict]:
         events = []
+        seen = set()
         try:
-            feed = feedparser.parse(self.RSS_URL)
-            for entry in feed.entries:
-                title = entry.get("title", "")
-                desc = entry.get("summary", "")
-                if not self.is_relevant(title, desc):
-                    continue
-                date_str = None
-                if hasattr(entry, "published_parsed") and entry.published_parsed:
-                    t = entry.published_parsed
-                    date_str = f"{t.tm_year}-{t.tm_mon:02d}-{t.tm_mday:02d}"
-                if not date_str:
-                    continue
-                events.append(self.event(
-                    title=title,
-                    date_iso=date_str,
-                    url=entry.get("link", self.EVENTS_URL),
-                    description=desc,
-                    categories=["vatten", "biodiv"],
-                ))
-        except Exception as e:
-            print(f"    HaV: {e}")
+            r = requests.get(CAL_URL, headers=HEADERS, timeout=15)
+            r.encoding = "utf-8"
+            r.raise_for_status()
+            soup = BeautifulSoup(r.text, "html.parser")
 
-        # HTML
-        if not events:
-            try:
-                soup = self.soup(self.EVENTS_URL)
-                for item in soup.select("article, .event-listing li, .calendar-item"):
-                    title_el = item.select_one("h2, h3, a")
-                    if not title_el:
-                        continue
-                    title = title_el.get_text(strip=True)
-                    if not title or not self.is_relevant(title):
-                        continue
-                    date_el = item.select_one("time, .date")
-                    dt = date_el.get("datetime", date_el.get_text()) if date_el else ""
-                    date_str = self.parse_swedish_date(dt)
-                    if not date_str:
-                        continue
-                    link_el = item.select_one("a[href]")
-                    link = (self.base_url + link_el["href"] if link_el and link_el["href"].startswith("/")
-                            else (link_el["href"] if link_el else self.EVENTS_URL))
-                    events.append(self.event(title=title, date_iso=date_str, url=link, categories=["vatten"]))
-            except Exception as e:
-                print(f"    HaV HTML: {e}")
+            for a in soup.select("a.hav-list__items--item-link"):
+                href      = a.get("href", "")
+                title_raw = a.get("title", "") or a.get_text(strip=True)
+                if not title_raw:
+                    continue
+
+                url = href if href.startswith("http") else BASE_URL + href
+                if url in seen:
+                    continue
+                seen.add(url)
+
+                # Datum i href
+                m = re.search(r'/(\d{4}-\d{2}-\d{2})-', href)
+                if m:
+                    date_iso    = m.group(1)
+                    clean_title = re.sub(r'^\d{1,2}\s+\w+\s+', '', title_raw).strip()
+                else:
+                    date_iso, clean_title = parse_title_date(title_raw)
+
+                if not date_iso:
+                    continue
+
+                events.append(self.event(
+                    title=clean_title or title_raw,
+                    date_iso=date_iso,
+                    url=url,
+                    description="",
+                    categories=["vatten", "biodiv", "klimat"],
+                ))
+
+        except Exception as e:
+            print(f"  {SOURCE_NAME}: fel: {e}")
+
         return events
