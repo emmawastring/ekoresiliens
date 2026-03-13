@@ -1,6 +1,6 @@
 {
-  "updated": "2026-03-12T08:11:46.229182+00:00",
-  "count": 136,
+  "updated": "2026-03-13T09:15:05.775734+00:00",
+  "count": 249,
   "errors": [],
   "events": [
     {
@@ -184,6 +184,134 @@
       "free": true
     },
     {
+      "id": "9b260d21c2f2",
+      "title": "Handläggarträff NAP och vattenkraft",
+      "date_iso": "2025-01-28",
+      "time": "",
+      "description": "",
+      "url": "https://www.havochvatten.se/om-oss-kontakt-och-karriar/evenemang/kalender/kalender/2025/extern-kalender/2025-01-28-handlaggartraff-nap-och-vattenkraft.html",
+      "source_id": "hav",
+      "source_name": "Havs- och vattenmyndigheten",
+      "categories": [
+        "vatten",
+        "biodiv",
+        "klimat"
+      ],
+      "free": true
+    },
+    {
+      "id": "7d9a4fa4d29b",
+      "title": "Havs- och vattenforum 2025",
+      "date_iso": "2025-02-05",
+      "time": "",
+      "description": "",
+      "url": "https://www.havochvatten.se/om-oss-kontakt-och-karriar/evenemang/kalender/kalender/2025/extern-kalender/2025-02-05-havs--och-vattenforum-2025.html",
+      "source_id": "hav",
+      "source_name": "Havs- och vattenmyndigheten",
+      "categories": [
+        "vatten",
+        "biodiv",
+        "klimat"
+      ],
+      "free": true
+    },
+    {
+      "id": "3d0482860b58",
+      "title": "Skogslandskapets blå tråd",
+      "date_iso": "2025-02-18",
+      "time": "",
+      "description": "",
+      "url": "https://www.havochvatten.se/om-oss-kontakt-och-karriar/evenemang/kalender/kalender/2025/extern-kalender/2025-02-18-skogslandskapets-bla-trad.html",
+      "source_id": "hav",
+      "source_name": "Havs- och vattenmyndigheten",
+      "categories": [
+        "vatten",
+        "biodiv",
+        "klimat"
+      ],
+      "free": true
+    },
+    {
+      "id": "283340b9d85f",
+      "title": "Remiss om förslag till ett tidsbegränsat förbud mot trålfiske efter pelagiska arter i centrala Östersjön utanför territorialhavet",
+      "date_iso": "2025-02-28",
+      "time": "",
+      "description": "",
+      "url": "https://www.havochvatten.se/om-oss-kontakt-och-karriar/om-havs--och-vattenmyndigheten/remisser-fran-hav/remisser/2025-02-28-remiss-om-forslag-till-ett-tidsbegransat-forbud-mot-tralfiske-efter-pelagiska-arter-i-centrala-ostersjon-utanfor-territorialhavet.html",
+      "source_id": "hav",
+      "source_name": "Havs- och vattenmyndigheten",
+      "categories": [
+        "vatten",
+        "biodiv",
+        "klimat"
+      ],
+      "free": true
+    },
+    {
+      "id": "6e18c6b5cfb8",
+      "title": "Webbinarium om vägledning för skyddsavstånd för små avloppsanläggningar",
+      "date_iso": "2025-03-04",
+      "time": "",
+      "description": "",
+      "url": "https://www.havochvatten.se/om-oss-kontakt-och-karriar/evenemang/kalender/kalender/2025/extern-kalender/2025-03-04-webbinarium-om-vagledning-for-skyddsavstand-for-sma-avloppsanlaggningar.html",
+      "source_id": "hav",
+      "source_name": "Havs- och vattenmyndigheten",
+      "categories": [
+        "vatten",
+        "biodiv",
+        "klimat"
+      ],
+      "free": true
+    },
+    {
+      "id": "4d60eb157d19",
+      "title": "Remiss om ändrade krav för det satellitbaserade kontrollsystemet för fartyg i HVMFS 2018:11",
+      "date_iso": "2025-03-06",
+      "time": "",
+      "description": "",
+      "url": "https://www.havochvatten.se/om-oss-kontakt-och-karriar/om-havs--och-vattenmyndigheten/remisser-fran-hav/remisser/2025-03-06-remiss-om-andrade-krav-for-det-satellitbaserade-kontrollsystemet-for-fartyg-i-hvmfs-201811.html",
+      "source_id": "hav",
+      "source_name": "Havs- och vattenmyndigheten",
+      "categories": [
+        "vatten",
+        "biodiv",
+        "klimat"
+      ],
+      "free": true
+    },
+    {
+      "id": "a14700bd8238",
+      "title": "Östersjökontraktet anordnar seminarium om hur Östersjön ska räddas, med fokus på förvaltningen av sill",
+      "date_iso": "2025-03-06",
+      "time": "",
+      "description": "",
+      "url": "https://www.havochvatten.se/om-oss-kontakt-och-karriar/evenemang/kalender/kalender/2025/extern-kalender/2025-03-06-ostersjokontraktet-anordnar-seminarium-om-hur-ostersjon-ska-raddas-med-fokus-pa-forvaltningen-av-sill.html",
+      "source_id": "hav",
+      "source_name": "Havs- och vattenmyndigheten",
+      "categories": [
+        "vatten",
+        "biodiv",
+        "klimat"
+      ],
+      "free": true
+    },
+    {
+      "id": "f3df73d2971e",
+      "title": "Remiss om ändring av vissa undantagna områden för fritidsfiske efter ål i sötvatten",
+      "date_iso": "2025-03-11",
+      "time": "",
+      "description": "",
+      "url": "https://www.havochvatten.se/om-oss-kontakt-och-karriar/om-havs--och-vattenmyndigheten/remisser-fran-hav/remisser/2025-03-11-remiss-om-andring-av-vissa-undantagna-omraden-for-fritidsfiske-efter-al-i-sotvatten.html",
+      "source_id": "hav",
+      "source_name": "Havs- och vattenmyndigheten",
+      "categories": [
+        "vatten",
+        "biodiv",
+        "klimat"
+      ],
+      "free": true
+    },
+    {
       "id": "5958485cab90",
       "title": "Är stadens grönska rättvist fördelad? Frukostwebbinarium om Grönt jämlikhetsindex",
       "date_iso": "2025-03-13",
@@ -195,6 +323,150 @@
       "categories": [
         "omstallning",
         "samhalle"
+      ],
+      "free": true
+    },
+    {
+      "id": "76860a9a28c9",
+      "title": "Sportfiskemässan 2025",
+      "date_iso": "2025-03-14",
+      "time": "",
+      "description": "",
+      "url": "https://www.havochvatten.se/om-oss-kontakt-och-karriar/evenemang/kalender/kalender/2025/extern-kalender/2025-03-14-sportfiskemassan-2025.html",
+      "source_id": "hav",
+      "source_name": "Havs- och vattenmyndigheten",
+      "categories": [
+        "vatten",
+        "biodiv",
+        "klimat"
+      ],
+      "free": true
+    },
+    {
+      "id": "560969f19151",
+      "title": "Utbildning om KMV till följd av markavvattning",
+      "date_iso": "2025-03-20",
+      "time": "",
+      "description": "",
+      "url": "https://www.havochvatten.se/om-oss-kontakt-och-karriar/evenemang/kalender/kalender/2025/extern-kalender/2025-03-20-utbildning-om-kmv-till-foljd-av-markavvattning.html",
+      "source_id": "hav",
+      "source_name": "Havs- och vattenmyndigheten",
+      "categories": [
+        "vatten",
+        "biodiv",
+        "klimat"
+      ],
+      "free": true
+    },
+    {
+      "id": "380e6f18dba9",
+      "title": "Remiss om undantag att sätta ut eller flytta fisk i naturen",
+      "date_iso": "2025-03-24",
+      "time": "",
+      "description": "",
+      "url": "https://www.havochvatten.se/om-oss-kontakt-och-karriar/om-havs--och-vattenmyndigheten/remisser-fran-hav/remisser/2025-03-24-remiss-om-undantag-att-satta-ut-eller-flytta-fisk-i-naturen.html",
+      "source_id": "hav",
+      "source_name": "Havs- och vattenmyndigheten",
+      "categories": [
+        "vatten",
+        "biodiv",
+        "klimat"
+      ],
+      "free": true
+    },
+    {
+      "id": "0875bbb7b0b7",
+      "title": "Slutkonferensen för LIFE Lophelia",
+      "date_iso": "2025-03-28",
+      "time": "",
+      "description": "",
+      "url": "https://www.havochvatten.se/om-oss-kontakt-och-karriar/evenemang/kalender/kalender/2025/extern-kalender/2025-03-28-slutkonferensen-for-life-lophelia.html",
+      "source_id": "hav",
+      "source_name": "Havs- och vattenmyndigheten",
+      "categories": [
+        "vatten",
+        "biodiv",
+        "klimat"
+      ],
+      "free": true
+    },
+    {
+      "id": "c9e4c6c021e3",
+      "title": "Informationsmöte om HaV:s arbete med restaureringsförordningen",
+      "date_iso": "2025-03-28",
+      "time": "",
+      "description": "",
+      "url": "https://www.havochvatten.se/om-oss-kontakt-och-karriar/evenemang/kalender/kalender/2025/extern-kalender/2025-03-28-informationsmote-om-havs-arbete-med-restaureringsforordningen.html",
+      "source_id": "hav",
+      "source_name": "Havs- och vattenmyndigheten",
+      "categories": [
+        "vatten",
+        "biodiv",
+        "klimat"
+      ],
+      "free": true
+    },
+    {
+      "id": "55bfcf49272e",
+      "title": "Dialogmöte marina ekosystem",
+      "date_iso": "2025-03-31",
+      "time": "",
+      "description": "",
+      "url": "https://www.havochvatten.se/om-oss-kontakt-och-karriar/evenemang/kalender/kalender/2025/extern-kalender/2025-03-31-dialogmote-marina-ekosystem.html",
+      "source_id": "hav",
+      "source_name": "Havs- och vattenmyndigheten",
+      "categories": [
+        "vatten",
+        "biodiv",
+        "klimat"
+      ],
+      "free": true
+    },
+    {
+      "id": "d1ca1539287f",
+      "title": "Dialogmöte limniska ekosystem",
+      "date_iso": "2025-03-31",
+      "time": "",
+      "description": "",
+      "url": "https://www.havochvatten.se/om-oss-kontakt-och-karriar/evenemang/kalender/kalender/2025/extern-kalender/2025-03-31-dialogmote-limniska-ekosystem.html",
+      "source_id": "hav",
+      "source_name": "Havs- och vattenmyndigheten",
+      "categories": [
+        "vatten",
+        "biodiv",
+        "klimat"
+      ],
+      "free": true
+    },
+    {
+      "id": "89ac17a11519",
+      "title": "OSPAR Ministermöte 2025",
+      "date_iso": "2025-04-01",
+      "time": "",
+      "description": "",
+      "url": "https://www.havochvatten.se/om-oss-kontakt-och-karriar/evenemang/kalender/kalender/2025/extern-kalender/2025-04-01-ospar-ministermote-2025.html",
+      "source_id": "hav",
+      "source_name": "Havs- och vattenmyndigheten",
+      "categories": [
+        "vatten",
+        "biodiv",
+        "klimat"
+      ],
+      "free": true
+    },
+    {
+      "id": "fe2a35f07469",
+      "title": "Frukostseminarie: Contaminants of Emerging Concern in the Baltic",
+      "date_iso": "2025-04-01",
+      "time": "",
+      "description": "",
+      "url": "https://www.havochvatten.se/om-oss-kontakt-och-karriar/evenemang/kalender/kalender/2025/extern-kalender/2025-04-01-frukostseminarie-contaminants-of-emerging-concern-in-the-baltic.html",
+      "source_id": "hav",
+      "source_name": "Havs- och vattenmyndigheten",
+      "categories": [
+        "vatten",
+        "biodiv",
+        "klimat"
       ],
       "free": true
     },
@@ -274,6 +546,38 @@
       "free": true
     },
     {
+      "id": "0c4cc85d5dd3",
+      "title": "Akvatisk ÅGP-träff 2025",
+      "date_iso": "2025-04-04",
+      "time": "",
+      "description": "",
+      "url": "https://www.havochvatten.se/om-oss-kontakt-och-karriar/evenemang/kalender/kalender/2025/extern-kalender/2025-04-04-akvatisk-agp-traff-2025.html",
+      "source_id": "hav",
+      "source_name": "Havs- och vattenmyndigheten",
+      "categories": [
+        "vatten",
+        "biodiv",
+        "klimat"
+      ],
+      "free": true
+    },
+    {
+      "id": "2e9ea462c9f9",
+      "title": "Workshop - Convention on Migratory Species (CMS)",
+      "date_iso": "2025-04-09",
+      "time": "",
+      "description": "",
+      "url": "https://www.havochvatten.se/om-oss-kontakt-och-karriar/evenemang/kalender/kalender/2025/extern-kalender/2025-04-09-workshop---convention-on-migratory-species-cms.html",
+      "source_id": "hav",
+      "source_name": "Havs- och vattenmyndigheten",
+      "categories": [
+        "vatten",
+        "biodiv",
+        "klimat"
+      ],
+      "free": true
+    },
+    {
       "id": "0474130a4631",
       "title": "Lunchwebbinarium: Från AI till urbana landskap",
       "date_iso": "2025-04-11",
@@ -285,6 +589,182 @@
       "categories": [
         "omstallning",
         "samhalle"
+      ],
+      "free": true
+    },
+    {
+      "id": "edbe8d0c7017",
+      "title": "Remiss gällande ändrade regler för fiske av lax, fiske med fast redskap och nät i Östersjön samt fiske av lax i sötvattensområdet",
+      "date_iso": "2025-05-05",
+      "time": "",
+      "description": "",
+      "url": "https://www.havochvatten.se/om-oss-kontakt-och-karriar/om-havs--och-vattenmyndigheten/remisser-fran-hav/remisser/2025-05-05-remiss-gallande-andrade-regler-for-fiske-av-lax-fiske-med-fast-redskap-och-nat-i-ostersjon-samt-fiske-av-lax-i-sotvattensomradet.html",
+      "source_id": "hav",
+      "source_name": "Havs- och vattenmyndigheten",
+      "categories": [
+        "vatten",
+        "biodiv",
+        "klimat"
+      ],
+      "free": true
+    },
+    {
+      "id": "6d06d511df77",
+      "title": "Informationsmöte om uppdatering av Åph",
+      "date_iso": "2025-05-12",
+      "time": "",
+      "description": "",
+      "url": "https://www.havochvatten.se/om-oss-kontakt-och-karriar/evenemang/kalender/kalender/2025/extern-kalender/2025-05-12-informationsmote-om-uppdatering-av-aph.html",
+      "source_id": "hav",
+      "source_name": "Havs- och vattenmyndigheten",
+      "categories": [
+        "vatten",
+        "biodiv",
+        "klimat"
+      ],
+      "free": true
+    },
+    {
+      "id": "470b98777640",
+      "title": "FN:s tredje havskonferens",
+      "date_iso": "2025-05-16",
+      "time": "",
+      "description": "",
+      "url": "https://www.havochvatten.se/om-oss-kontakt-och-karriar/evenemang/kalender/kalender/2025/extern-kalender/2025-05-16-fns-tredje-havskonferens.html",
+      "source_id": "hav",
+      "source_name": "Havs- och vattenmyndigheten",
+      "categories": [
+        "vatten",
+        "biodiv",
+        "klimat"
+      ],
+      "free": true
+    },
+    {
+      "id": "ea7d4537525e",
+      "title": "Handläggarträff - områdesskydd av limniska miljöer",
+      "date_iso": "2025-05-23",
+      "time": "",
+      "description": "",
+      "url": "https://www.havochvatten.se/om-oss-kontakt-och-karriar/evenemang/kalender/kalender/2025/extern-kalender/2025-05-23-handlaggartraff---omradesskydd-av-limniska-miljoer.html",
+      "source_id": "hav",
+      "source_name": "Havs- och vattenmyndigheten",
+      "categories": [
+        "vatten",
+        "biodiv",
+        "klimat"
+      ],
+      "free": true
+    },
+    {
+      "id": "cdeda0e6ba4a",
+      "title": "Nationell båtmiljökonferens",
+      "date_iso": "2025-05-26",
+      "time": "",
+      "description": "",
+      "url": "https://www.havochvatten.se/om-oss-kontakt-och-karriar/evenemang/kalender/kalender/2025/extern-kalender/2025-05-26-nationell-batmiljokonferens.html",
+      "source_id": "hav",
+      "source_name": "Havs- och vattenmyndigheten",
+      "categories": [
+        "vatten",
+        "biodiv",
+        "klimat"
+      ],
+      "free": true
+    },
+    {
+      "id": "e6727ee1424f",
+      "title": "Inspirationsdagar för lokal åtgärdssamordning",
+      "date_iso": "2025-05-26",
+      "time": "",
+      "description": "",
+      "url": "https://www.havochvatten.se/om-oss-kontakt-och-karriar/evenemang/kalender/kalender/2025/extern-kalender/2025-05-26-inspirationsdagar-for-lokal-atgardssamordning.html",
+      "source_id": "hav",
+      "source_name": "Havs- och vattenmyndigheten",
+      "categories": [
+        "vatten",
+        "biodiv",
+        "klimat"
+      ],
+      "free": true
+    },
+    {
+      "id": "41db39337f50",
+      "title": "Webbinarie för remiss om nationell förvaltningsplan för ål",
+      "date_iso": "2025-05-27",
+      "time": "",
+      "description": "",
+      "url": "https://www.havochvatten.se/om-oss-kontakt-och-karriar/evenemang/kalender/kalender/2025/extern-kalender/2025-05-27-webbinarie-for-remiss-om-nationell-forvaltningsplan-for-al.html",
+      "source_id": "hav",
+      "source_name": "Havs- och vattenmyndigheten",
+      "categories": [
+        "vatten",
+        "biodiv",
+        "klimat"
+      ],
+      "free": true
+    },
+    {
+      "id": "934dec01761e",
+      "title": "Remiss om ändring av föreskrifter som handlar om vägning och provtagning av fångst",
+      "date_iso": "2025-06-10",
+      "time": "",
+      "description": "",
+      "url": "https://www.havochvatten.se/om-oss-kontakt-och-karriar/om-havs--och-vattenmyndigheten/remisser-fran-hav/remisser/2025-06-10-remiss-om-andring-av-foreskrifter-som-handlar-om-vagning-och-provtagning-av-fangst.html",
+      "source_id": "hav",
+      "source_name": "Havs- och vattenmyndigheten",
+      "categories": [
+        "vatten",
+        "biodiv",
+        "klimat"
+      ],
+      "free": true
+    },
+    {
+      "id": "c15816c0b970",
+      "title": "Remiss om Sektorbeskrivning för områden av riksintresse friluftsliv 3 kap. 6 § miljöbalken",
+      "date_iso": "2025-06-16",
+      "time": "",
+      "description": "",
+      "url": "https://www.havochvatten.se/om-oss-kontakt-och-karriar/om-havs--och-vattenmyndigheten/remisser-fran-hav/remisser/2025-06-16-remiss-om-sektorbeskrivning-for-omraden-av-riksintresse-friluftsliv-3-kap.-6--miljobalken.html",
+      "source_id": "hav",
+      "source_name": "Havs- och vattenmyndigheten",
+      "categories": [
+        "vatten",
+        "biodiv",
+        "klimat"
+      ],
+      "free": true
+    },
+    {
+      "id": "17bc1377fe24",
+      "title": "Remiss om uppdatering av den svenska förvaltningsplanen för ål",
+      "date_iso": "2025-06-17",
+      "time": "",
+      "description": "",
+      "url": "https://www.havochvatten.se/om-oss-kontakt-och-karriar/om-havs--och-vattenmyndigheten/remisser-fran-hav/remisser/2025-06-17-remiss-om-uppdatering-av-den-svenska-forvaltningsplanen-for-al.html",
+      "source_id": "hav",
+      "source_name": "Havs- och vattenmyndigheten",
+      "categories": [
+        "vatten",
+        "biodiv",
+        "klimat"
+      ],
+      "free": true
+    },
+    {
+      "id": "ef93e38ebaa6",
+      "title": "Remiss om ändring av föreskrifter avseende nytt krav på tillstånd för vägningsaktörer",
+      "date_iso": "2025-06-19",
+      "time": "",
+      "description": "",
+      "url": "https://www.havochvatten.se/om-oss-kontakt-och-karriar/om-havs--och-vattenmyndigheten/remisser-fran-hav/remisser/2025-06-19-remiss-om-andring-av-foreskrifter-avseende-nytt-krav-pa-tillstand-for-vagningsaktorer.html",
+      "source_id": "hav",
+      "source_name": "Havs- och vattenmyndigheten",
+      "categories": [
+        "vatten",
+        "biodiv",
+        "klimat"
       ],
       "free": true
     },
@@ -304,6 +784,86 @@
       "free": true
     },
     {
+      "id": "921b135f7b53",
+      "title": "Remiss om ändring av föreskrifter avseende möjlighet till registrering och rapportering i elektronisk fiskeloggbok för fartyg under 12 meter",
+      "date_iso": "2025-08-27",
+      "time": "",
+      "description": "",
+      "url": "https://www.havochvatten.se/om-oss-kontakt-och-karriar/om-havs--och-vattenmyndigheten/remisser-fran-hav/remisser/2025-08-27-remiss-om-andring-av-foreskrifter-avseende-mojlighet-till-registrering-och-rapportering-i-elektronisk-fiskeloggbok-for-fartyg-under-12-meter.html",
+      "source_id": "hav",
+      "source_name": "Havs- och vattenmyndigheten",
+      "categories": [
+        "vatten",
+        "biodiv",
+        "klimat"
+      ],
+      "free": true
+    },
+    {
+      "id": "56b24a64dc8f",
+      "title": "FN-möte: Konventionen om skydd av flyttande vilda djur (CMS) - handlingsplan för skydd av den europeiska ålen",
+      "date_iso": "2025-09-01",
+      "time": "",
+      "description": "",
+      "url": "https://www.havochvatten.se/om-oss-kontakt-och-karriar/evenemang/kalender/kalender/2025/extern-kalender/2025-09-01-fn-mote-konventionen-om-skydd-av-flyttande-vilda-djur-cms---handlingsplan-for-skydd-av-den-europeiska-alen.html",
+      "source_id": "hav",
+      "source_name": "Havs- och vattenmyndigheten",
+      "categories": [
+        "vatten",
+        "biodiv",
+        "klimat"
+      ],
+      "free": true
+    },
+    {
+      "id": "70f4d36f3f59",
+      "title": "Remiss om hur biotillgänglighet hanteras i bedömningsgrunder för särskilda förorenande ämnen",
+      "date_iso": "2025-09-01",
+      "time": "",
+      "description": "",
+      "url": "https://www.havochvatten.se/om-oss-kontakt-och-karriar/om-havs--och-vattenmyndigheten/remisser-fran-hav/remisser/2025-09-01-remiss-om-hur-biotillganglighet-hanteras-i-bedomningsgrunder-for-sarskilda-fororenande-amnen.html",
+      "source_id": "hav",
+      "source_name": "Havs- och vattenmyndigheten",
+      "categories": [
+        "vatten",
+        "biodiv",
+        "klimat"
+      ],
+      "free": true
+    },
+    {
+      "id": "c741f62bc6ae",
+      "title": "Webbinarium om tillstånd till växtskyddsmedel i vattenskyddsområden",
+      "date_iso": "2025-09-02",
+      "time": "",
+      "description": "",
+      "url": "https://www.havochvatten.se/om-oss-kontakt-och-karriar/evenemang/kalender/kalender/2025/extern-kalender/2025-09-02-webbinarium-om-tillstand-till-vaxtskyddsmedel-i-vattenskyddsomraden.html",
+      "source_id": "hav",
+      "source_name": "Havs- och vattenmyndigheten",
+      "categories": [
+        "vatten",
+        "biodiv",
+        "klimat"
+      ],
+      "free": true
+    },
+    {
+      "id": "dd128136cefa",
+      "title": "Workshop om möjliga åtgärder mot marint skräp",
+      "date_iso": "2025-09-05",
+      "time": "",
+      "description": "",
+      "url": "https://www.havochvatten.se/om-oss-kontakt-och-karriar/evenemang/kalender/kalender/2025/extern-kalender/2025-09-05-workshop-om-mojliga-atgarder-mot-marint-skrap.html",
+      "source_id": "hav",
+      "source_name": "Havs- och vattenmyndigheten",
+      "categories": [
+        "vatten",
+        "biodiv",
+        "klimat"
+      ],
+      "free": true
+    },
+    {
       "id": "13fc77969c8c",
       "title": "När vattnet ritar om kartan – utmaningar och möjligheter för framtidens utemiljöer",
       "date_iso": "2025-09-08",
@@ -315,6 +875,54 @@
       "categories": [
         "omstallning",
         "samhalle"
+      ],
+      "free": true
+    },
+    {
+      "id": "a95703b6bf3c",
+      "title": "Remiss om ändring av föreskrifter avseende landningshamnar för fångster av sill, strömming och skarpsill",
+      "date_iso": "2025-09-16",
+      "time": "",
+      "description": "",
+      "url": "https://www.havochvatten.se/om-oss-kontakt-och-karriar/om-havs--och-vattenmyndigheten/remisser-fran-hav/remisser/2025-09-16-remiss-om-andring-av-foreskrifter-avseende-landningshamnar-for-fangster-av-sill-stromming-och-skarpsill.html",
+      "source_id": "hav",
+      "source_name": "Havs- och vattenmyndigheten",
+      "categories": [
+        "vatten",
+        "biodiv",
+        "klimat"
+      ],
+      "free": true
+    },
+    {
+      "id": "93cf5d9a2c93",
+      "title": "Digitalt möte om Sveriges åtgärdsprogram för havsmiljön (ÅPH)",
+      "date_iso": "2025-09-17",
+      "time": "",
+      "description": "",
+      "url": "https://www.havochvatten.se/om-oss-kontakt-och-karriar/evenemang/kalender/kalender/2025/extern-kalender/2025-09-17-digitalt-mote-om-sveriges-atgardsprogram-for-havsmiljon-aph.html",
+      "source_id": "hav",
+      "source_name": "Havs- och vattenmyndigheten",
+      "categories": [
+        "vatten",
+        "biodiv",
+        "klimat"
+      ],
+      "free": true
+    },
+    {
+      "id": "d131d0705f31",
+      "title": "Lansering av tillsynsstrategin för perioden 2026-2029",
+      "date_iso": "2025-09-17",
+      "time": "",
+      "description": "",
+      "url": "https://www.havochvatten.se/om-oss-kontakt-och-karriar/evenemang/kalender/kalender/2025/extern-kalender/2025-09-17-lansering-av-tillsynsstrategin-for-perioden-2026-2029.html",
+      "source_id": "hav",
+      "source_name": "Havs- och vattenmyndigheten",
+      "categories": [
+        "vatten",
+        "biodiv",
+        "klimat"
       ],
       "free": true
     },
@@ -334,6 +942,54 @@
       "free": true
     },
     {
+      "id": "b8783c9eacc7",
+      "title": "Webbinarium -  Naturbaserade lösningar för vatten",
+      "date_iso": "2025-09-25",
+      "time": "",
+      "description": "",
+      "url": "https://www.havochvatten.se/om-oss-kontakt-och-karriar/evenemang/kalender/kalender/2025/extern-kalender/2025-09-25-webbinarium----naturbaserade-losningar-for-vatten.html",
+      "source_id": "hav",
+      "source_name": "Havs- och vattenmyndigheten",
+      "categories": [
+        "vatten",
+        "biodiv",
+        "klimat"
+      ],
+      "free": true
+    },
+    {
+      "id": "ca0e4b6ce40b",
+      "title": "Kalkhandläggarträff 2025",
+      "date_iso": "2025-10-02",
+      "time": "",
+      "description": "",
+      "url": "https://www.havochvatten.se/om-oss-kontakt-och-karriar/evenemang/kalender/kalender/2025/extern-kalender/2025-10-02-kalkhandlaggartraff-2025.html",
+      "source_id": "hav",
+      "source_name": "Havs- och vattenmyndigheten",
+      "categories": [
+        "vatten",
+        "biodiv",
+        "klimat"
+      ],
+      "free": true
+    },
+    {
+      "id": "115779feb074",
+      "title": "Remiss gällande reglering av fiske i Kullabergs naturreservat",
+      "date_iso": "2025-10-02",
+      "time": "",
+      "description": "",
+      "url": "https://www.havochvatten.se/om-oss-kontakt-och-karriar/om-havs--och-vattenmyndigheten/remisser-fran-hav/remisser/2025-10-02-remiss-gallande-reglering-av-fiske-i-kullabergs-naturreservat.html",
+      "source_id": "hav",
+      "source_name": "Havs- och vattenmyndigheten",
+      "categories": [
+        "vatten",
+        "biodiv",
+        "klimat"
+      ],
+      "free": true
+    },
+    {
       "id": "0cf8e948cfe9",
       "title": "Så säkrar vi maten i framtidens städer!",
       "date_iso": "2025-10-24",
@@ -345,6 +1001,150 @@
       "categories": [
         "omstallning",
         "samhalle"
+      ],
+      "free": true
+    },
+    {
+      "id": "250832174a5b",
+      "title": "Remiss om tillsynsvägledning om tillämpningen av 6 § lag om allmänna vattentjänster",
+      "date_iso": "2025-10-26",
+      "time": "",
+      "description": "",
+      "url": "https://www.havochvatten.se/om-oss-kontakt-och-karriar/om-havs--och-vattenmyndigheten/remisser-fran-hav/remisser/2025-10-26-remiss-om-tillsynsvagledning-om-tillampningen-av-6--lag-om-allmanna-vattentjanster.html",
+      "source_id": "hav",
+      "source_name": "Havs- och vattenmyndigheten",
+      "categories": [
+        "vatten",
+        "biodiv",
+        "klimat"
+      ],
+      "free": true
+    },
+    {
+      "id": "b78d6099c527",
+      "title": "Nationell konferens om invasiva främmande arter",
+      "date_iso": "2025-10-29",
+      "time": "",
+      "description": "",
+      "url": "https://www.havochvatten.se/om-oss-kontakt-och-karriar/evenemang/kalender/kalender/2026/extern-kalender-2026/2025-10-29-nationell-konferens-om-invasiva-frammande-arter.html",
+      "source_id": "hav",
+      "source_name": "Havs- och vattenmyndigheten",
+      "categories": [
+        "vatten",
+        "biodiv",
+        "klimat"
+      ],
+      "free": true
+    },
+    {
+      "id": "d9f8a2e4922b",
+      "title": "Havsforskningsdagarna 2025",
+      "date_iso": "2025-11-10",
+      "time": "",
+      "description": "",
+      "url": "https://www.havochvatten.se/om-oss-kontakt-och-karriar/evenemang/kalender/kalender/2025/extern-kalender/2025-11-10-havsforskningsdagarna-2025.html",
+      "source_id": "hav",
+      "source_name": "Havs- och vattenmyndigheten",
+      "categories": [
+        "vatten",
+        "biodiv",
+        "klimat"
+      ],
+      "free": true
+    },
+    {
+      "id": "f3da9600e14d",
+      "title": "Remiss om undantag för att upprätta transportdokument samt ändrade regler för förstahandsmottagare",
+      "date_iso": "2025-11-11",
+      "time": "",
+      "description": "",
+      "url": "https://www.havochvatten.se/om-oss-kontakt-och-karriar/om-havs--och-vattenmyndigheten/remisser-fran-hav/remisser/2025-11-11-remiss-om-undantag-for-att-uppratta-transportdokument-samt-andrade-regler-for-forstahandsmottagare.html",
+      "source_id": "hav",
+      "source_name": "Havs- och vattenmyndigheten",
+      "categories": [
+        "vatten",
+        "biodiv",
+        "klimat"
+      ],
+      "free": true
+    },
+    {
+      "id": "19e4d12ae798",
+      "title": "Remiss om Förslag till ramverk för uppföljning av havsplaner",
+      "date_iso": "2025-11-19",
+      "time": "",
+      "description": "",
+      "url": "https://www.havochvatten.se/om-oss-kontakt-och-karriar/om-havs--och-vattenmyndigheten/remisser-fran-hav/remisser/2025-11-19-remiss-om-forslag-till-ramverk-for-uppfoljning-av-havsplaner.html",
+      "source_id": "hav",
+      "source_name": "Havs- och vattenmyndigheten",
+      "categories": [
+        "vatten",
+        "biodiv",
+        "klimat"
+      ],
+      "free": true
+    },
+    {
+      "id": "4cf7a8b330a7",
+      "title": "Hearing sälförvaltningsplaner",
+      "date_iso": "2025-11-19",
+      "time": "",
+      "description": "",
+      "url": "https://www.havochvatten.se/om-oss-kontakt-och-karriar/evenemang/kalender/kalender/2025/extern-kalender/2025-11-19-hearing-salforvaltningsplaner.html",
+      "source_id": "hav",
+      "source_name": "Havs- och vattenmyndigheten",
+      "categories": [
+        "vatten",
+        "biodiv",
+        "klimat"
+      ],
+      "free": true
+    },
+    {
+      "id": "e6a52a151f71",
+      "title": "Remiss om ändringar i HaV:s föreskrifter för klassificering, miljökvalitetsnormer och övervakning av ytvatten",
+      "date_iso": "2025-11-21",
+      "time": "",
+      "description": "",
+      "url": "https://www.havochvatten.se/om-oss-kontakt-och-karriar/om-havs--och-vattenmyndigheten/remisser-fran-hav/remisser/2025-11-21-remiss-om-andringar-i-havs-foreskrifter-for-klassificering-miljokvalitetsnormer-och-overvakning-av-ytvatten.html",
+      "source_id": "hav",
+      "source_name": "Havs- och vattenmyndigheten",
+      "categories": [
+        "vatten",
+        "biodiv",
+        "klimat"
+      ],
+      "free": true
+    },
+    {
+      "id": "667040b0d404",
+      "title": "Nationell yrkesfiskekonferens 2025",
+      "date_iso": "2025-11-24",
+      "time": "",
+      "description": "",
+      "url": "https://www.havochvatten.se/om-oss-kontakt-och-karriar/evenemang/kalender/kalender/2025/extern-kalender/2025-11-24-nationell-yrkesfiskekonferens-2025.html",
+      "source_id": "hav",
+      "source_name": "Havs- och vattenmyndigheten",
+      "categories": [
+        "vatten",
+        "biodiv",
+        "klimat"
+      ],
+      "free": true
+    },
+    {
+      "id": "4152a78b48b6",
+      "title": "Remiss gällande senarelagt datum för när ändrade fisketider för fiske efter lax och öring i Dalälven ska börja gälla.",
+      "date_iso": "2025-11-26",
+      "time": "",
+      "description": "",
+      "url": "https://www.havochvatten.se/om-oss-kontakt-och-karriar/om-havs--och-vattenmyndigheten/remisser-fran-hav/remisser/2025-11-26-remiss-gallande-senarelagt-datum-for-nar-andrade-fisketider-for-fiske-efter-lax-och-oring-i-dalalven-ska-borja-galla..html",
+      "source_id": "hav",
+      "source_name": "Havs- och vattenmyndigheten",
+      "categories": [
+        "vatten",
+        "biodiv",
+        "klimat"
       ],
       "free": true
     },
@@ -364,6 +1164,70 @@
       "free": true
     },
     {
+      "id": "29ea55abe6bb",
+      "title": "Webbinarium om märkning av fiskeredskap",
+      "date_iso": "2025-11-28",
+      "time": "",
+      "description": "",
+      "url": "https://www.havochvatten.se/om-oss-kontakt-och-karriar/evenemang/kalender/kalender/2026/extern-kalender-2026/2025-11-28-webbinarium-om-markning-av-fiskeredskap.html",
+      "source_id": "hav",
+      "source_name": "Havs- och vattenmyndigheten",
+      "categories": [
+        "vatten",
+        "biodiv",
+        "klimat"
+      ],
+      "free": true
+    },
+    {
+      "id": "1b300871a578",
+      "title": "Remiss om ändring i HVMFS 2018:11 om befälhavares skyldigheter att rapportera och anmäla yrkesmässigt fiske i havet",
+      "date_iso": "2025-12-08",
+      "time": "",
+      "description": "",
+      "url": "https://www.havochvatten.se/om-oss-kontakt-och-karriar/om-havs--och-vattenmyndigheten/remisser-fran-hav/remisser/2025-12-08-remiss-om-andring-i-hvmfs-201811-om-befalhavares-skyldigheter-att-rapportera-och-anmala-yrkesmassigt-fiske-i-havet.html",
+      "source_id": "hav",
+      "source_name": "Havs- och vattenmyndigheten",
+      "categories": [
+        "vatten",
+        "biodiv",
+        "klimat"
+      ],
+      "free": true
+    },
+    {
+      "id": "f56eca3f373a",
+      "title": "Remiss om övervakningsprogram för havsmiljödirektivet 2027-2032",
+      "date_iso": "2025-12-10",
+      "time": "",
+      "description": "",
+      "url": "https://www.havochvatten.se/om-oss-kontakt-och-karriar/om-havs--och-vattenmyndigheten/remisser-fran-hav/remisser/2025-12-10-remiss-om-overvakningsprogram-for-havsmiljodirektivet-2027-2032.html",
+      "source_id": "hav",
+      "source_name": "Havs- och vattenmyndigheten",
+      "categories": [
+        "vatten",
+        "biodiv",
+        "klimat"
+      ],
+      "free": true
+    },
+    {
+      "id": "aec77acd1c5a",
+      "title": "Remiss om     miljöbedömingsprocessen om    uppdatering av åtgärdsprogrammet för havsmiljön (ÅPH)",
+      "date_iso": "2025-12-12",
+      "time": "",
+      "description": "",
+      "url": "https://www.havochvatten.se/om-oss-kontakt-och-karriar/om-havs--och-vattenmyndigheten/remisser-fran-hav/remisser/2025-12-12-remiss-om-----miljobedomingsprocessen-om----uppdatering-av-atgardsprogrammet-for-havsmiljon-aph.html",
+      "source_id": "hav",
+      "source_name": "Havs- och vattenmyndigheten",
+      "categories": [
+        "vatten",
+        "biodiv",
+        "klimat"
+      ],
+      "free": true
+    },
+    {
       "id": "e85591aadfa1",
       "title": "Bygga nytt eller bygga om?",
       "date_iso": "2025-12-19",
@@ -379,13 +1243,13 @@
       "free": true
     },
     {
-      "id": "1ce40a0b834b",
+      "id": "9a27f63ddb5c",
       "title": "Skogsträdgård och småskalig agroforestry",
       "date_iso": "2025-12-19",
       "time": "",
       "description": "Vi öppnar för ansökningar till nästa års kurs den 1:e april 2026. Välkommen med din ansökan då!",
       "url": "https://www.holmafolkhogskola.se/profilkurs/skogstradgard-och-smaskalig-agroforestry/",
-      "source_id": "unknown",
+      "source_id": "holma",
       "source_name": "Holma Folkhögskola",
       "categories": [
         "agroforestry",
@@ -394,13 +1258,29 @@
       "free": true
     },
     {
-      "id": "324bc9827b8d",
+      "id": "678b5b368268",
+      "title": "Miljöövervakningsdagarna 2026",
+      "date_iso": "2026-01-09",
+      "time": "",
+      "description": "",
+      "url": "https://www.havochvatten.se/om-oss-kontakt-och-karriar/evenemang/kalender/kalender/2026/extern-kalender-2026/2026-01-09-miljoovervakningsdagarna-2026.html",
+      "source_id": "hav",
+      "source_name": "Havs- och vattenmyndigheten",
+      "categories": [
+        "vatten",
+        "biodiv",
+        "klimat"
+      ],
+      "free": true
+    },
+    {
+      "id": "4b944ff5172f",
       "title": "Hantverk för självhushållare",
       "date_iso": "2026-01-19",
       "time": "",
       "description": "Kursen kommer att ges igen till våren 2027, välkommen med din ansökan till den 1:e oktober 2026!",
       "url": "https://www.holmafolkhogskola.se/profilkurs/hantverk-for-sjalvhushallare/",
-      "source_id": "unknown",
+      "source_id": "holma",
       "source_name": "Holma Folkhögskola",
       "categories": [
         "mat"
@@ -408,13 +1288,13 @@
       "free": true
     },
     {
-      "id": "2ce355e76dca",
+      "id": "cd2f67274baf",
       "title": "Nötodling för sydsvenska förhållande, 25%, distans",
       "date_iso": "2026-01-26",
       "time": "",
       "description": "Kursen kommer att ges igen under 2027, välkommen med din ansökan till den 1:e oktober 2026!",
       "url": "https://www.holmafolkhogskola.se/profilkurs/notodling-for-sydsvenska-forhallande-25-distans/",
-      "source_id": "unknown",
+      "source_id": "holma",
       "source_name": "Holma Folkhögskola",
       "categories": [
         "agroforestry",
@@ -423,32 +1303,65 @@
       "free": true
     },
     {
-      "id": "7c6c85b70bfd",
+      "id": "616f96aa075a",
+      "title": "Frågestund om årets samlade länsstyrelsebeslut",
+      "date_iso": "2026-02-03",
+      "time": "",
+      "description": "",
+      "url": "https://www.havochvatten.se/om-oss-kontakt-och-karriar/evenemang/kalender/kalender/2026/extern-kalender-2026/2026-02-03-fragestund-om-arets-samlade-lansstyrelsebeslut.html",
+      "source_id": "hav",
+      "source_name": "Havs- och vattenmyndigheten",
+      "categories": [
+        "vatten",
+        "biodiv",
+        "klimat"
+      ],
+      "free": true
+    },
+    {
+      "id": "d14dacbf2740",
+      "title": "Frågestund bidragsbeslut anslag 1:11 - del 1",
+      "date_iso": "2026-02-03",
+      "time": "",
+      "description": "",
+      "url": "https://www.havochvatten.se/om-oss-kontakt-och-karriar/evenemang/kalender/kalender/2026/extern-kalender-2026/2026-02-03-fragestund-bidragsbeslut-anslag-111---del-1.html",
+      "source_id": "hav",
+      "source_name": "Havs- och vattenmyndigheten",
+      "categories": [
+        "vatten",
+        "biodiv",
+        "klimat"
+      ],
+      "free": true
+    },
+    {
+      "id": "0fece113cf87",
+      "title": "Undervattensbuller från sjöfart och fritidsbåtar",
+      "date_iso": "2026-02-04",
+      "time": "",
+      "description": "",
+      "url": "https://www.havochvatten.se/om-oss-kontakt-och-karriar/evenemang/kalender/kalender/2026/extern-kalender-2026/2026-02-04-undervattensbuller-fran-sjofart-och-fritidsbatar.html",
+      "source_id": "hav",
+      "source_name": "Havs- och vattenmyndigheten",
+      "categories": [
+        "vatten",
+        "biodiv",
+        "klimat"
+      ],
+      "free": true
+    },
+    {
+      "id": "7aac39580bc5",
       "title": "Livsmedelsförädling för omställare",
       "date_iso": "2026-02-08",
       "time": "",
       "description": "Kursen kommer att ges igen under 2027, välkommen med din ansökan till den 1:e oktober 2026!",
       "url": "https://www.holmafolkhogskola.se/profilkurs/livsmedelsforadling-for-omstallare/",
-      "source_id": "unknown",
+      "source_id": "holma",
       "source_name": "Holma Folkhögskola",
       "categories": [
         "mat",
         "agroforestry"
-      ],
-      "free": true
-    },
-    {
-      "id": "f3f55937acbe",
-      "title": "Mötesplats Urbana Landskap – save the date",
-      "date_iso": "2026-02-09",
-      "time": "",
-      "description": "Save the date - mer information och anmälningssida kommer inom kort",
-      "url": "https://movium.slu.se/kalendarium/moetesplats-urbana-landskap-save-the-date/",
-      "source_id": "MOVIUM",
-      "source_name": "SLU Movium",
-      "categories": [
-        "omstallning",
-        "samhalle"
       ],
       "free": true
     },
@@ -483,6 +1396,36 @@
       "free": true
     },
     {
+      "id": "5be828651afe",
+      "title": "Mötesplats Urbana Landskap: Kustplanering – save the date",
+      "date_iso": "2026-02-09",
+      "time": "",
+      "description": "Save the date - mer information och anmälningssida kommer inom kort",
+      "url": "https://movium.slu.se/kalendarium/moetesplats-urbana-landskap-kustplanering-save-the-date/",
+      "source_id": "MOVIUM",
+      "source_name": "SLU Movium",
+      "categories": [
+        "omstallning",
+        "samhalle"
+      ],
+      "free": true
+    },
+    {
+      "id": "66a97aac5e69",
+      "title": "Mötesplats Urbana Landskap: Barn & lag – save the date",
+      "date_iso": "2026-02-09",
+      "time": "",
+      "description": "Save the date - mer information och anmälningssida kommer inom kort",
+      "url": "https://movium.slu.se/kalendarium/moetesplats-urbana-landskap-barn-lag-save-the-date/",
+      "source_id": "MOVIUM",
+      "source_name": "SLU Movium",
+      "categories": [
+        "omstallning",
+        "samhalle"
+      ],
+      "free": true
+    },
+    {
       "id": "13f67daeda86",
       "title": "Konferens: Mat i beredskap",
       "date_iso": "2026-02-09",
@@ -498,13 +1441,45 @@
       "free": true
     },
     {
-      "id": "faff39a544a2",
+      "id": "2a4392604e18",
+      "title": "Akvatisk ÅGP-träff 2026",
+      "date_iso": "2026-02-18",
+      "time": "",
+      "description": "",
+      "url": "https://www.havochvatten.se/om-oss-kontakt-och-karriar/evenemang/kalender/kalender/2026/extern-kalender-2026/2026-02-18-akvatisk-agp-traff-2026.html",
+      "source_id": "hav",
+      "source_name": "Havs- och vattenmyndigheten",
+      "categories": [
+        "vatten",
+        "biodiv",
+        "klimat"
+      ],
+      "free": true
+    },
+    {
+      "id": "ffd2f0d5143c",
+      "title": "Swedish Climate Symposium Climate Research-Science, Society, Actions",
+      "date_iso": "2026-02-19",
+      "time": "",
+      "description": "",
+      "url": "https://www.havochvatten.se/om-oss-kontakt-och-karriar/evenemang/kalender/kalender/2026/extern-kalender-2026/2026-02-19-swedish-climate-symposium-climate-research-science-society-actions.html",
+      "source_id": "hav",
+      "source_name": "Havs- och vattenmyndigheten",
+      "categories": [
+        "vatten",
+        "biodiv",
+        "klimat"
+      ],
+      "free": true
+    },
+    {
+      "id": "b890b9314abc",
       "title": "Omställnings Bar",
       "date_iso": "2026-02-27",
       "time": "",
       "description": "En serie program inför Toppenmötet - Omställningskonferens 2026.\nPremiär 5 mars",
       "url": "https://omstallningskanalen.se/programserier",
-      "source_id": "unknown",
+      "source_id": "omstallningskanalen",
       "source_name": "Omställningskanalen",
       "categories": [
         "omstallning",
@@ -561,6 +1536,22 @@
       "free": true
     },
     {
+      "id": "d9e43656ab47",
+      "title": "Utlysning av medel till ideella organisationer",
+      "date_iso": "2026-03-01",
+      "time": "",
+      "description": "",
+      "url": "https://www.havochvatten.se/bidrag-utlysningar-och-anslag/utlysningar/utlysning-av-medel-till-ideella-organisationer.html",
+      "source_id": "hav",
+      "source_name": "Havs- och vattenmyndigheten",
+      "categories": [
+        "vatten",
+        "biodiv",
+        "klimat"
+      ],
+      "free": true
+    },
+    {
       "id": "2a3319b234ba",
       "title": "Webbinarium Plockhugget",
       "date_iso": "2026-03-04",
@@ -578,13 +1569,93 @@
       "free": true
     },
     {
-      "id": "c649c27491f3",
+      "id": "9e7f676aa861",
+      "title": "Webbinarium badvatten 14 april",
+      "date_iso": "2026-03-05",
+      "time": "",
+      "description": "",
+      "url": "https://www.havochvatten.se/om-oss-kontakt-och-karriar/evenemang/kalender/kalender/2026/extern-kalender-2026/2026-03-05-webbinarium-badvatten-14-april.html",
+      "source_id": "hav",
+      "source_name": "Havs- och vattenmyndigheten",
+      "categories": [
+        "vatten",
+        "biodiv",
+        "klimat"
+      ],
+      "free": true
+    },
+    {
+      "id": "5c584b84a191",
+      "title": "Webbinarium badvatten 23 april",
+      "date_iso": "2026-03-05",
+      "time": "",
+      "description": "",
+      "url": "https://www.havochvatten.se/om-oss-kontakt-och-karriar/evenemang/kalender/kalender/2026/extern-kalender-2026/2026-03-05-webbinarium-badvatten-23-april.html",
+      "source_id": "hav",
+      "source_name": "Havs- och vattenmyndigheten",
+      "categories": [
+        "vatten",
+        "biodiv",
+        "klimat"
+      ],
+      "free": true
+    },
+    {
+      "id": "bbd1ada89abc",
+      "title": "Webbinarium badvatten 5 maj",
+      "date_iso": "2026-03-05",
+      "time": "",
+      "description": "",
+      "url": "https://www.havochvatten.se/om-oss-kontakt-och-karriar/evenemang/kalender/kalender/2026/extern-kalender-2026/2026-03-05-webbinarium-badvatten-5-maj.html",
+      "source_id": "hav",
+      "source_name": "Havs- och vattenmyndigheten",
+      "categories": [
+        "vatten",
+        "biodiv",
+        "klimat"
+      ],
+      "free": true
+    },
+    {
+      "id": "3d094c5801ca",
+      "title": "Webbinarium badvatten 21 maj",
+      "date_iso": "2026-03-05",
+      "time": "",
+      "description": "",
+      "url": "https://www.havochvatten.se/om-oss-kontakt-och-karriar/evenemang/kalender/kalender/2026/extern-kalender-2026/2026-03-05-webbinarium-badvatten-21-maj.html",
+      "source_id": "hav",
+      "source_name": "Havs- och vattenmyndigheten",
+      "categories": [
+        "vatten",
+        "biodiv",
+        "klimat"
+      ],
+      "free": true
+    },
+    {
+      "id": "c412152914d1",
+      "title": "Webbinarium badvatten 2 juni",
+      "date_iso": "2026-03-05",
+      "time": "",
+      "description": "",
+      "url": "https://www.havochvatten.se/om-oss-kontakt-och-karriar/evenemang/kalender/kalender/2026/extern-kalender-2026/2026-03-05-webbinarium-badvatten-2-juni.html",
+      "source_id": "hav",
+      "source_name": "Havs- och vattenmyndigheten",
+      "categories": [
+        "vatten",
+        "biodiv",
+        "klimat"
+      ],
+      "free": true
+    },
+    {
+      "id": "00c166a05c58",
       "title": "Nära Maten",
       "date_iso": "2026-03-05",
       "time": "",
       "description": "Vi samlar rörelsen för ett civilt och idéburet matsystem i Västra Götaland \nNära maten är ett pilotprojekt inom Omställningsnätverket som ska utforska hur ett alternativt, folkburet livsmedelssystem kan se ut.",
       "url": "https://omstallningskanalen.se/programserier",
-      "source_id": "unknown",
+      "source_id": "omstallningskanalen",
       "source_name": "Omställningskanalen",
       "categories": [
         "omstallning",
@@ -607,6 +1678,38 @@
       "free": true
     },
     {
+      "id": "4cf34470edb7",
+      "title": "Information och frågestund om förslag till planen om naturrestaurering i vattenmiljöer",
+      "date_iso": "2026-03-09",
+      "time": "",
+      "description": "",
+      "url": "https://www.havochvatten.se/om-oss-kontakt-och-karriar/evenemang/kalender/kalender/2026/extern-kalender-2026/2026-03-09-information-och-fragestund-om-forslag-till-planen-om-naturrestaurering-i-vattenmiljoer.html",
+      "source_id": "hav",
+      "source_name": "Havs- och vattenmyndigheten",
+      "categories": [
+        "vatten",
+        "biodiv",
+        "klimat"
+      ],
+      "free": true
+    },
+    {
+      "id": "d088848eac39",
+      "title": "Webbinarium om vattenkraftens miljöpåverkan",
+      "date_iso": "2026-03-10",
+      "time": "",
+      "description": "",
+      "url": "https://www.havochvatten.se/om-oss-kontakt-och-karriar/evenemang/kalender/kalender/2026/extern-kalender-2026/2026-03-10-webbinarium-om-vattenkraftens-miljopaverkan.html",
+      "source_id": "hav",
+      "source_name": "Havs- och vattenmyndigheten",
+      "categories": [
+        "vatten",
+        "biodiv",
+        "klimat"
+      ],
+      "free": true
+    },
+    {
       "id": "dbe942a0972d",
       "title": "Östergötland – Biokolsworkshop",
       "date_iso": "2026-03-11",
@@ -621,44 +1724,18 @@
       "free": true
     },
     {
-      "id": "ed546a2e5ef2",
-      "title": "Årsmöte i Kullings hushållningsgille",
-      "date_iso": "2026-03-12",
+      "id": "a9506c2e1ac0",
+      "title": "Webbinarium om vattenförsörjning i fysisk planering och grundvatten framtida klimat",
+      "date_iso": "2026-03-13",
       "time": "",
-      "description": "Kullings hushållningsgille\nTorsdag 12 mars kl 18.00 på Dahlbogården, Hol Välkommen till Kullings hushållningsgilles årsmöte! Vi träffas denna gång i Hol på Dahlbogården som ingår i nätverket Smaka på Västsverige. Program Maria Oscott, VD på Dahlbogården, berättar om den framgångsrika verksamheten som har gått från traditionel",
-      "url": "https://hushallningssallskapet.se/kalender/arsmote-kulling/",
-      "source_id": "hushallningssallskapet",
-      "source_name": "Hushållningssällskapet",
+      "description": "",
+      "url": "https://www.havochvatten.se/om-oss-kontakt-och-karriar/evenemang/kalender/kalender/2026/extern-kalender-2026/2026-03-13-webbinarium-om-vattenforsorjning-i-fysisk-planering-och-grundvatten-framtida-klimat.html",
+      "source_id": "hav",
+      "source_name": "Havs- och vattenmyndigheten",
       "categories": [
-        "omstallning"
-      ],
-      "free": true
-    },
-    {
-      "id": "91794a521bda",
-      "title": "Livsmedelsproducenter: Sätt krav på ditt företags ekonomi",
-      "date_iso": "2026-03-12",
-      "time": "",
-      "description": "HIR Skåne – Gula villan, Borgeby\nKurs för landsbygdsföretagare med verksamhet inom livsmedel och besöksnäring. Det är viktigt att sätta mål för att bli mer lönsam. Vi tar dig genom stegen att förstå ekonomin och de ekonomiska begreppen för att bli lönsammare och kunna diskutera din ekonomi med rådgivare eller tex, banken. Du får lä",
-      "url": "https://hushallningssallskapet.se/kalender/livsmedelsproducenter-satt_krav_pa_ditt_foretags_ekonomi/",
-      "source_id": "hushallningssallskapet",
-      "source_name": "Hushållningssällskapet",
-      "categories": [
-        "omstallning"
-      ],
-      "free": true
-    },
-    {
-      "id": "804836c97727",
-      "title": "Årsmöte i BobergTjällmoGullbergs gille",
-      "date_iso": "2026-03-12",
-      "time": "",
-      "description": "Alla medlemmar  i BobergTjällmoGullbergs gille hälsas varmt välkomna på årsmöte! Vi börjar med mat och kaffe som Gillet bjuder på. Därefter följer ett  föredrag om täckdikning och täckdikningsplogar av Alexander von Bothmer, EDA Maskin AB. Sedan håller vi sedvanliga Årsmötesförhandlingar innan vi av",
-      "url": "https://hushallningssallskapet.se/kalender/arsmote-i-bobergtjallmogullbergs-gille/",
-      "source_id": "hushallningssallskapet",
-      "source_name": "Hushållningssällskapet",
-      "categories": [
-        "omstallning"
+        "vatten",
+        "biodiv",
+        "klimat"
       ],
       "free": true
     },
@@ -701,6 +1778,22 @@
       "source_name": "Hushållningssällskapet",
       "categories": [
         "omstallning"
+      ],
+      "free": true
+    },
+    {
+      "id": "fff4becbd179",
+      "title": "Uppdrag att förenkla regelverk i syfte att minska regelbördan för företag (2024)",
+      "date_iso": "2026-03-15",
+      "time": "",
+      "description": "",
+      "url": "https://www.havochvatten.se/om-oss-kontakt-och-karriar/om-havs--och-vattenmyndigheten/regeringsuppdrag/uppdrag-att-forenkla-regelverk-i-syfte-att-minska-regelbordan-for-foretag-2024.html",
+      "source_id": "hav",
+      "source_name": "Havs- och vattenmyndigheten",
+      "categories": [
+        "vatten",
+        "biodiv",
+        "klimat"
       ],
       "free": true
     },
@@ -831,6 +1924,21 @@
       "free": true
     },
     {
+      "id": "6bcc92b362ad",
+      "title": "Ekocentrum bjuder in till Biodiversity fresk!",
+      "date_iso": "2026-03-19",
+      "time": "",
+      "description": "",
+      "url": "https://www.ekocentrum.se/events/ekocentrum-bjuder-in-till-biodiversity-fresk/",
+      "source_id": "ekocentrum",
+      "source_name": "Ekocentrum",
+      "categories": [
+        "biodiv",
+        "mat"
+      ],
+      "free": true
+    },
+    {
       "id": "f52bd8c567ca",
       "title": "ERFA-träff Ekologisk mjölkproduktion",
       "date_iso": "2026-03-19",
@@ -845,13 +1953,13 @@
       "free": true
     },
     {
-      "id": "38d90a78d3cf",
+      "id": "3c96c6dc53f1",
       "title": "Hållbara transporter",
       "date_iso": "2026-03-19",
       "time": "",
       "description": "På nätverksträffen om hållbara transporter samlar vi perspektiv från drivmedel, resvanor och godstransporter. Under träffen får du konkreta exempel på hur förnybara drivmedel kan ersätta fossila alternativ, hur gröna resplaner […]",
       "url": "https://www.hutskane.se/kalender/hallbara-transporter/",
-      "source_id": "unknown",
+      "source_id": "hutskane",
       "source_name": "Hållbar Utveckling Skåne",
       "categories": [
         "omstallning",
@@ -1057,13 +2165,13 @@
       "free": true
     },
     {
-      "id": "04af21af9b6a",
+      "id": "94bc3988dfb3",
       "title": "Frukostwebbinarium: Mål 17. Genomförande och globalt partnerskap",
       "date_iso": "2026-03-25",
       "time": "",
       "description": "Dags för det sjuttonde eventet i Ystadmodellens nya webbinarieserie ”Ett mål i taget”! Webbinarieserien har tagits fram inom ramen för konceptet ”FN:s hållbarhetsmål: ett smörgåsbord för nya affärer” med utgångspunkt i […]",
       "url": "https://www.hutskane.se/kalender/frukostwebbinarium-mal-17-genomforande-och-globalt-partnerskap/",
-      "source_id": "unknown",
+      "source_id": "hutskane",
       "source_name": "Hållbar Utveckling Skåne",
       "categories": [
         "omstallning",
@@ -1097,6 +2205,22 @@
       "source_name": "Hushållningssällskapet",
       "categories": [
         "omstallning"
+      ],
+      "free": true
+    },
+    {
+      "id": "d5d9a5d3f703",
+      "title": "Finansiering för kartläggning och insamling av förlorade fiskeredskap",
+      "date_iso": "2026-03-27",
+      "time": "",
+      "description": "",
+      "url": "https://www.havochvatten.se/bidrag-utlysningar-och-anslag/utlysningar/finansiering-for-kartlaggning-och-insamling-av-forlorade-fiskeredskap.html",
+      "source_id": "hav",
+      "source_name": "Havs- och vattenmyndigheten",
+      "categories": [
+        "vatten",
+        "biodiv",
+        "klimat"
       ],
       "free": true
     },
@@ -1219,6 +2343,86 @@
       "free": true
     },
     {
+      "id": "1f9729ae8b2d",
+      "title": "Medelsanvändning anslag 1:11 Åtgärder för havs-och vattenmiljö (2025)",
+      "date_iso": "2026-03-31",
+      "time": "",
+      "description": "",
+      "url": "https://www.havochvatten.se/om-oss-kontakt-och-karriar/om-havs--och-vattenmyndigheten/regeringsuppdrag/regeringsuppdrag/2025/medelsanvandning-anslag-111-atgarder-for-havs-och-vattenmiljo-2025.html",
+      "source_id": "hav",
+      "source_name": "Havs- och vattenmyndigheten",
+      "categories": [
+        "vatten",
+        "biodiv",
+        "klimat"
+      ],
+      "free": true
+    },
+    {
+      "id": "cc81e65d5457",
+      "title": "Medelsanvändning anslag 1:2 Miljöövervakning med mera som disponeras av Havs- och vattenmyndigheten (2025)",
+      "date_iso": "2026-03-31",
+      "time": "",
+      "description": "",
+      "url": "https://www.havochvatten.se/om-oss-kontakt-och-karriar/om-havs--och-vattenmyndigheten/regeringsuppdrag/regeringsuppdrag/2025/medelsanvandning-anslag-12-miljoovervakning-med-mera-som-disponeras-av-havs--och-vattenmyndigheten-2025.html",
+      "source_id": "hav",
+      "source_name": "Havs- och vattenmyndigheten",
+      "categories": [
+        "vatten",
+        "biodiv",
+        "klimat"
+      ],
+      "free": true
+    },
+    {
+      "id": "cc2cac4c6983",
+      "title": "Uppdrag till Havs- och vattenmyndigheten att se över HARO-värdena samt utarbeta vägledning för hur intresset av en nationell effektiv tillgång till vattenkraftsel ska beaktas inom ramen för vattenförvaltningsarbetet (2025)",
+      "date_iso": "2026-03-31",
+      "time": "",
+      "description": "",
+      "url": "https://www.havochvatten.se/om-oss-kontakt-och-karriar/om-havs--och-vattenmyndigheten/regeringsuppdrag/regeringsuppdrag/2025/uppdrag-till-havs--och-vattenmyndigheten-att-se-over-haro-vardena-samt-utarbeta-vagledning-for-hur-intresset-av-en-nationell-effektiv-tillgang-till-vattenkraftsel-ska-beaktas-inom-ramen-for-vattenforvaltningsarbetet-2025.html",
+      "source_id": "hav",
+      "source_name": "Havs- och vattenmyndigheten",
+      "categories": [
+        "vatten",
+        "biodiv",
+        "klimat"
+      ],
+      "free": true
+    },
+    {
+      "id": "b03ded44b255",
+      "title": "Medelsanvändning anslag 1:2 Miljöövervakning med mera som disponeras av Havs- och vattenmyndigheten (2024)",
+      "date_iso": "2026-03-31",
+      "time": "",
+      "description": "",
+      "url": "https://www.havochvatten.se/om-oss-kontakt-och-karriar/om-havs--och-vattenmyndigheten/regeringsuppdrag/regeringsuppdrag/2024/medelsanvandning-anslag-12-miljoovervakning-med-mera-som-disponeras-av-havs--och-vattenmyndigheten-2024.html",
+      "source_id": "hav",
+      "source_name": "Havs- och vattenmyndigheten",
+      "categories": [
+        "vatten",
+        "biodiv",
+        "klimat"
+      ],
+      "free": true
+    },
+    {
+      "id": "9f90966d88d6",
+      "title": "Medelsanvändning anslag 1:11 Åtgärder för havs-och vattenmiljö (2024)",
+      "date_iso": "2026-03-31",
+      "time": "",
+      "description": "",
+      "url": "https://www.havochvatten.se/om-oss-kontakt-och-karriar/om-havs--och-vattenmyndigheten/regeringsuppdrag/regeringsuppdrag/2024/medelsanvandning-anslag-111-atgarder-for-havs-och-vattenmiljo-2024.html",
+      "source_id": "hav",
+      "source_name": "Havs- och vattenmyndigheten",
+      "categories": [
+        "vatten",
+        "biodiv",
+        "klimat"
+      ],
+      "free": true
+    },
+    {
       "id": "e83f26ef6801",
       "title": "Östbo häradsgille: Årsmöte",
       "date_iso": "2026-03-31",
@@ -1247,6 +2451,54 @@
       "free": true
     },
     {
+      "id": "8e885fcd479e",
+      "title": "Producent och EU:s förpackningsförordning",
+      "date_iso": "2026-04-01",
+      "time": "",
+      "description": "EU:s förordning om förpackningar och förpackningsavfall, PPWR, innebär att det kommit en ny definition av förpackningsproducent som gäller i alla medlemsländer. Vid detta tillfälle kommer Naturvårdsverket gå igenom vad detta innebär för dig som omfattas av definitionen och vilka krav du behöver leva upp till i och med att PPWR träder ikraft.",
+      "url": "https://www.naturvardsverket.se/om-oss/aktuellt/kalendarium/2026/april/producent-och-eus-forpackningsforordning/",
+      "source_id": "naturvardsverket",
+      "source_name": "Naturvårdsverket",
+      "categories": [
+        "omstallning",
+        "klimat",
+        "biodiv"
+      ],
+      "free": true
+    },
+    {
+      "id": "4f1db6d8e6b1",
+      "title": "Tillverkare och EU:s förpackningsförordning",
+      "date_iso": "2026-04-01",
+      "time": "",
+      "description": "Under detta webbinarium få du som tillverkare av förpackningar en djupare redogörelse för hur du kommer påverkas och vilka krav du behöver leva upp till i och med att EU:s förordning om förpackningar och förpackningsavfall, PPWR, träder ikraft.",
+      "url": "https://www.naturvardsverket.se/om-oss/aktuellt/kalendarium/2026/april/tillverkare-och-eus-forpackningsforordning/",
+      "source_id": "naturvardsverket",
+      "source_name": "Naturvårdsverket",
+      "categories": [
+        "omstallning",
+        "klimat",
+        "biodiv"
+      ],
+      "free": true
+    },
+    {
+      "id": "352e4ac1cbfe",
+      "title": "System för återanvändning och EU:s förpacknings­förordning",
+      "date_iso": "2026-04-01",
+      "time": "",
+      "description": "EU:s förordning om förpackningar och förpackningsavfall, PPWR, innebär förändringar för systemen för återanvändning. På detta webbinarium går Naturvårdsverket igenom vad som gäller för aktörer som är ansvariga för eller deltagare av system för återanvändbara förpackningar.",
+      "url": "https://www.naturvardsverket.se/om-oss/aktuellt/kalendarium/2026/april/system-for-ateranvandning-och-eus-forpackningsforordning/",
+      "source_id": "naturvardsverket",
+      "source_name": "Naturvårdsverket",
+      "categories": [
+        "omstallning",
+        "klimat",
+        "biodiv"
+      ],
+      "free": true
+    },
+    {
       "id": "91943688b36f",
       "title": "Digital grundläggande miljö- och hållbarhetsutbildning",
       "date_iso": "2026-04-01",
@@ -1262,13 +2514,13 @@
       "free": true
     },
     {
-      "id": "e78815cd05f0",
+      "id": "129a81490caf",
       "title": "Inre omställning – i kontakt med jorden, andra och hela dig",
       "date_iso": "2026-04-01",
       "time": "",
       "description": "Välkommen att ansöka till kursstarten hösten 2026 den 1:e april 2026!",
       "url": "https://www.holmafolkhogskola.se/profilkurs/inre-omstallning-i-kontakt-med-jorden-andra-och-hela-dig/",
-      "source_id": "unknown",
+      "source_id": "holma",
       "source_name": "Holma Folkhögskola",
       "categories": [
         "mat",
@@ -1285,6 +2537,34 @@
       "url": "https://www.alternativ.nu/index.php?topic=203702.0",
       "source_id": "alternativnu",
       "source_name": "Alternativ.nu",
+      "categories": [
+        "omstallning"
+      ],
+      "free": true
+    },
+    {
+      "id": "9c6260d16547",
+      "title": "Årsmöte i Västra Värmlands hushållningsgille",
+      "date_iso": "2026-04-07",
+      "time": "",
+      "description": "Västra Värmlands hushållningsgille\nTisdag 7 april kl. 19:00 i Allaktivitetshuset (fritidsgården), Koppom Program Sedvanliga årsmötesförhandlingar. Utdelning av Årets Kärve 2025. Underhållning av Lennart ”Bison” Bryntesson. Vi bjuder på smörgåstårta, kaffe och kaka. Varmt välkomna! Styrelsen",
+      "url": "https://hushallningssallskapet.se/kalender/arsmote-vastra-varmland/",
+      "source_id": "hushallningssallskapet",
+      "source_name": "Hushållningssällskapet",
+      "categories": [
+        "omstallning"
+      ],
+      "free": true
+    },
+    {
+      "id": "5fdf7b381508",
+      "title": "Årsstämma Örebro läns Hushållningssällskap",
+      "date_iso": "2026-04-08",
+      "time": "",
+      "description": "Örebro läns Hushållningssällskap – Stora Hjortstorps Gård, Venan 413, Örebro.\nVälkommen på årsstämma för Örebro läns Hushållningssällskap! –  Med glädje och spänst – 50 år i lantbrukets tjänst, Ann-Charlotte Wallenhammar. –  Information från Lukas Berggren, VD HS Konsult AB och Jesper Broberg, VD Frökontrollen. Tid Onsdagen den 8 april 2026, kl. 17.30. Plats Stora Hjortstorps",
+      "url": "https://hushallningssallskapet.se/kalender/arsstamma-orebro-lans-hushallningssallskap-3/",
+      "source_id": "hushallningssallskapet",
+      "source_name": "Hushållningssällskapet",
       "categories": [
         "omstallning"
       ],
@@ -1347,16 +2627,32 @@
       "free": true
     },
     {
-      "id": "95561240fdbd",
+      "id": "f92b42bdb83e",
       "title": "Kommunikation, människa och beteende",
       "date_iso": "2026-04-16",
       "time": "",
       "description": "Klimatbudskap överallt – men varför är det så svårt att nå fram? Varför leder vissa samtal till engagemang och handling, medan andra väcker motstånd, trötthet eller tystnad? På den här […]",
       "url": "https://www.hutskane.se/kalender/kommunikation-manniska-och-beteende/",
-      "source_id": "unknown",
+      "source_id": "hutskane",
       "source_name": "Hållbar Utveckling Skåne",
       "categories": [
         "omstallning",
+        "klimat"
+      ],
+      "free": true
+    },
+    {
+      "id": "3442f677db6d",
+      "title": "Utlysning inom Baltic Sea Action Plan Fund",
+      "date_iso": "2026-04-18",
+      "time": "",
+      "description": "",
+      "url": "https://www.havochvatten.se/bidrag-utlysningar-och-anslag/utlysningar/utlysning-inom-baltic-sea-action-plan-fund.html",
+      "source_id": "hav",
+      "source_name": "Havs- och vattenmyndigheten",
+      "categories": [
+        "vatten",
+        "biodiv",
         "klimat"
       ],
       "free": true
@@ -1405,13 +2701,13 @@
       "free": true
     },
     {
-      "id": "ad4eb3723b02",
+      "id": "4000d7e5bf7a",
       "title": "Hållbar Människa: Maktens centrum – Worskhop 1",
       "date_iso": "2026-04-21",
       "time": "",
       "description": "Välkommen till den första delen av Maktens centrum – en interaktiv workshop där vi tillsammans utforskar vad makt egentligen är och hur den känns. Med utgångspunkt i Martin Westins forskning […]",
       "url": "https://www.hutskane.se/kalender/hallbar-manniska-maktens-centrum-worskhop-1/",
-      "source_id": "unknown",
+      "source_id": "hutskane",
       "source_name": "Hållbar Utveckling Skåne",
       "categories": [
         "omstallning",
@@ -1444,6 +2740,21 @@
       "source_name": "Hushållningssällskapet",
       "categories": [
         "omstallning"
+      ],
+      "free": true
+    },
+    {
+      "id": "f6f5246398b0",
+      "title": "Konferens: Ett mål i taget – Ett smörgåsbord för nya affärer",
+      "date_iso": "2026-04-22",
+      "time": "",
+      "description": "Konferens: FN:s hållbarhetsmål – Ett smörgåsbord för nya affärer Efter 17 framgångsrika webbinarier är det dags att knyta ihop säcken och blicka framåt! Under vår satsning \"Ett mål i taget\" […]",
+      "url": "https://www.hutskane.se/kalender/konferens-ett-mal-i-taget/",
+      "source_id": "hutskane",
+      "source_name": "Hållbar Utveckling Skåne",
+      "categories": [
+        "omstallning",
+        "klimat"
       ],
       "free": true
     },
@@ -1491,13 +2802,13 @@
       "free": true
     },
     {
-      "id": "91c09678e8c4",
+      "id": "8d1d8b8b92bd",
       "title": "Hållbar Människa: Maktens centrum – Worskhop 2",
       "date_iso": "2026-04-29",
       "time": "",
       "description": "Den andra delen av Maktens centrum bygger vidare på vår första workshop men är öppen även för dig som inte deltog tidigare. Här fördjupar vi oss i hur makt kan […]",
       "url": "https://www.hutskane.se/kalender/hallbar-manniska-maktens-centrum-worskhop-2/",
-      "source_id": "unknown",
+      "source_id": "hutskane",
       "source_name": "Hållbar Utveckling Skåne",
       "categories": [
         "omstallning",
@@ -1536,6 +2847,22 @@
       "free": true
     },
     {
+      "id": "d147fe0a7684",
+      "title": "Uppdrag att bistå Miljömålsrådet (2018)",
+      "date_iso": "2026-05-06",
+      "time": "",
+      "description": "",
+      "url": "https://www.havochvatten.se/om-oss-kontakt-och-karriar/om-havs--och-vattenmyndigheten/regeringsuppdrag/regeringsuppdrag/2020/uppdrag-att-bista-miljomalsradet-2018.html",
+      "source_id": "hav",
+      "source_name": "Havs- och vattenmyndigheten",
+      "categories": [
+        "vatten",
+        "biodiv",
+        "klimat"
+      ],
+      "free": true
+    },
+    {
       "id": "7ad1963ddbd0",
       "title": "Ympa dina tomatplantor för en högre och säkrare skörd",
       "date_iso": "2026-05-06",
@@ -1550,13 +2877,13 @@
       "free": true
     },
     {
-      "id": "f2abda19aab0",
+      "id": "8946116c752e",
       "title": "PrepAlliance Partner Meeting #1: Extreme Weather and Practical Preparedness",
       "date_iso": "2026-05-07",
       "time": "",
       "description": "Save the date! Welcome to our first partner meeting within PrepAlliance! We are meeting in person in Gryfino, Poland, for two intensive days focusing on climate adaptation and practical preparedness […]",
       "url": "https://www.hutskane.se/kalender/prepalliance-partner-meeting-1-extreme-weather-and-practical-preparedness/",
-      "source_id": "unknown",
+      "source_id": "hutskane",
       "source_name": "Hållbar Utveckling Skåne",
       "categories": [
         "omstallning",
@@ -1579,13 +2906,13 @@
       "free": true
     },
     {
-      "id": "71a9d95b8b2e",
+      "id": "5ffc0d7807a1",
       "title": "Öppet hus 2026",
       "date_iso": "2026-05-09",
       "time": "",
       "description": "Den 9 maj har vi Öppet Hus på Holma Folkhögskola. Mer info kommer att finnas här när det närmar sig!",
       "url": "https://www.holmafolkhogskola.se/oppet-program/oppet-hus/",
-      "source_id": "unknown",
+      "source_id": "holma",
       "source_name": "Holma Folkhögskola",
       "categories": [
         "omstallning"
@@ -1607,13 +2934,13 @@
       "free": true
     },
     {
-      "id": "bd383dae2650",
+      "id": "fe6bd1136bef",
       "title": "Seniorkurs – Odling, skörd och gemenskap",
       "date_iso": "2026-05-15",
       "time": "",
       "description": "Kursen kommer att ges igen under hösten 2026, välkommen med din ansökan till den 1:e april 2026!",
       "url": "https://www.holmafolkhogskola.se/profilkurs/seniorkurs-odling-matlagning-och-gemenskap/",
-      "source_id": "unknown",
+      "source_id": "holma",
       "source_name": "Holma Folkhögskola",
       "categories": [
         "agroforestry",
@@ -1636,6 +2963,22 @@
       "free": true
     },
     {
+      "id": "d7bb0ce579c2",
+      "title": "Uppdrag att flytta ut trålgränsen för storskaligt pelagiskt trålfiske i svenska territorialhavet i Östersjön (2025)",
+      "date_iso": "2026-05-21",
+      "time": "",
+      "description": "",
+      "url": "https://www.havochvatten.se/om-oss-kontakt-och-karriar/om-havs--och-vattenmyndigheten/regeringsuppdrag/regeringsuppdrag/2025/uppdrag-att-flytta-ut-tralgransen-for-storskaligt-pelagiskt-tralfiske-i-svenska-territorialhavet-i-ostersjon-2025.html",
+      "source_id": "hav",
+      "source_name": "Havs- och vattenmyndigheten",
+      "categories": [
+        "vatten",
+        "biodiv",
+        "klimat"
+      ],
+      "free": true
+    },
+    {
       "id": "dc23375b284c",
       "title": "Vårfest på Jamtli, 22-23 maj 2026",
       "date_iso": "2026-05-22",
@@ -1650,13 +2993,13 @@
       "free": true
     },
     {
-      "id": "711313985dca",
+      "id": "398bdd28bccd",
       "title": "Biologisk mångfald – Från strategi till mätbara resultat",
       "date_iso": "2026-05-22",
       "time": "",
       "description": "Hur kan företag, kommuner och fastighetsägare arbeta med natur och biologisk mångfald på ett konkret och resultatfokuserat sätt? Den 22 maj, på Biologiska mångfaldens dag, bjuder CSR Skåne tillsammans med […]",
       "url": "https://www.hutskane.se/kalender/biologisk-mangfald-fran-strategi-till-matbara-resultat/",
-      "source_id": "unknown",
+      "source_id": "hutskane",
       "source_name": "Hållbar Utveckling Skåne",
       "categories": [
         "omstallning",
@@ -1679,13 +3022,45 @@
       "free": true
     },
     {
-      "id": "0ef84599b0cd",
+      "id": "d15b75bda12b",
+      "title": "Dialogmöte limniska ekosystem",
+      "date_iso": "2026-05-27",
+      "time": "",
+      "description": "",
+      "url": "https://www.havochvatten.se/omosskontaktochkarriar/evenemang/kalender/kalender/2025/externkalender/dialogmotelimniskaekosystem.5.324196ac195b49e4dbf7d4c8.html",
+      "source_id": "hav",
+      "source_name": "Havs- och vattenmyndigheten",
+      "categories": [
+        "vatten",
+        "biodiv",
+        "klimat"
+      ],
+      "free": true
+    },
+    {
+      "id": "b9a0a2a78238",
+      "title": "Dialogmöte marina ekosystem",
+      "date_iso": "2026-05-28",
+      "time": "",
+      "description": "",
+      "url": "https://www.havochvatten.se/omosskontaktochkarriar/evenemang/kalender/kalender/2025/externkalender/dialogmotemarinaekosystem.5.324196ac195b49e4dbfaff00.html",
+      "source_id": "hav",
+      "source_name": "Havs- och vattenmyndigheten",
+      "categories": [
+        "vatten",
+        "biodiv",
+        "klimat"
+      ],
+      "free": true
+    },
+    {
+      "id": "1aaba8e411e5",
       "title": "PrepAlliance Partner Meeting #2: Preparedness on an Individual Level – From Theory to Action",
       "date_iso": "2026-06-02",
       "time": "",
       "description": "Save the date! In June, it is Sweden's turn to host PrepAlliance's second partner meeting. This meeting focuses on concrete crisis preparedness in the home and local community. We will […]",
       "url": "https://www.hutskane.se/kalender/prepalliance-partner-meeting-2-preparedness-on-an-individual-level-from-theory-to-action/",
-      "source_id": "unknown",
+      "source_id": "hutskane",
       "source_name": "Hållbar Utveckling Skåne",
       "categories": [
         "omstallning",
@@ -1708,13 +3083,29 @@
       "free": true
     },
     {
-      "id": "eee774e8da99",
+      "id": "c5db652020b2",
+      "title": "FN:s havskonferens 2025 (2025)",
+      "date_iso": "2026-06-13",
+      "time": "",
+      "description": "",
+      "url": "https://www.havochvatten.se/om-oss-kontakt-och-karriar/om-havs--och-vattenmyndigheten/regeringsuppdrag/regeringsuppdrag/2025/fns-havskonferens-2025-2025.html",
+      "source_id": "hav",
+      "source_name": "Havs- och vattenmyndigheten",
+      "categories": [
+        "vatten",
+        "biodiv",
+        "klimat"
+      ],
+      "free": true
+    },
+    {
+      "id": "921e0ad5afb2",
       "title": "Holmasommar",
       "date_iso": "2026-06-22",
       "time": "",
       "description": "Mellan den 22 juni till den 3 juli anordnar vi Holmasommar som en del av vårt 10-årsjubileum. Två veckor med kortkurser på en rad olika teman. Anmälan öppnar den 23 februari och det är först till kvarn som gäller. När platserna är slut så stängs automatiskt formuläret!",
       "url": "https://www.holmafolkhogskola.se/oppet-program/holmasommar/",
-      "source_id": "unknown",
+      "source_id": "holma",
       "source_name": "Holma Folkhögskola",
       "categories": [
         "omstallning"
@@ -1764,13 +3155,77 @@
       "free": true
     },
     {
-      "id": "be078c80c91d",
+      "id": "830591c4761a",
+      "title": "Uppdrag om ekosystembaserade fiskemöjligheter (2026)",
+      "date_iso": "2026-06-30",
+      "time": "",
+      "description": "",
+      "url": "https://www.havochvatten.se/om-oss-kontakt-och-karriar/om-havs--och-vattenmyndigheten/regeringsuppdrag/regeringsuppdrag/2026/uppdrag-om-ekosystembaserade-fiskemojligheter-2026.html",
+      "source_id": "hav",
+      "source_name": "Havs- och vattenmyndigheten",
+      "categories": [
+        "vatten",
+        "biodiv",
+        "klimat"
+      ],
+      "free": true
+    },
+    {
+      "id": "fee098ac005b",
+      "title": "Utrivning av dammar (2026)",
+      "date_iso": "2026-06-30",
+      "time": "",
+      "description": "",
+      "url": "https://www.havochvatten.se/om-oss-kontakt-och-karriar/om-havs--och-vattenmyndigheten/regeringsuppdrag/regeringsuppdrag/2026/utrivning-av-dammar-2026.html",
+      "source_id": "hav",
+      "source_name": "Havs- och vattenmyndigheten",
+      "categories": [
+        "vatten",
+        "biodiv",
+        "klimat"
+      ],
+      "free": true
+    },
+    {
+      "id": "776f4c9c64fe",
+      "title": "Prognos för beställningsbemyndiganden (2026)",
+      "date_iso": "2026-07-24",
+      "time": "",
+      "description": "",
+      "url": "https://www.havochvatten.se/om-oss-kontakt-och-karriar/om-havs--och-vattenmyndigheten/regeringsuppdrag/regeringsuppdrag/2026/prognos-for-bestallningsbemyndiganden-2026.html",
+      "source_id": "hav",
+      "source_name": "Havs- och vattenmyndigheten",
+      "categories": [
+        "vatten",
+        "biodiv",
+        "klimat"
+      ],
+      "free": true
+    },
+    {
+      "id": "7c0fe22c133a",
+      "title": "Prognos för beställningsbemyndiganden (2025)",
+      "date_iso": "2026-07-25",
+      "time": "",
+      "description": "",
+      "url": "https://www.havochvatten.se/om-oss-kontakt-och-karriar/om-havs--och-vattenmyndigheten/regeringsuppdrag/regeringsuppdrag/2025/prognos-for-bestallningsbemyndiganden-2025.html",
+      "source_id": "hav",
+      "source_name": "Havs- och vattenmyndigheten",
+      "categories": [
+        "vatten",
+        "biodiv",
+        "klimat"
+      ],
+      "free": true
+    },
+    {
+      "id": "3d9cb8320ef3",
       "title": "Fröodling – distans",
       "date_iso": "2026-08-03",
       "time": "",
       "description": "Om du vill studera nästa år öppnar vi för nya ansökningar 1:e april 2026. Välkommen med din ansökan då!",
       "url": "https://www.holmafolkhogskola.se/profilkurs/froodling-distans/",
-      "source_id": "unknown",
+      "source_id": "holma",
       "source_name": "Holma Folkhögskola",
       "categories": [
         "agroforestry",
@@ -1779,16 +3234,32 @@
       "free": true
     },
     {
-      "id": "d680295bc4d3",
+      "id": "aefdff876a2c",
       "title": "Hantverk fördjupning",
       "date_iso": "2026-08-17",
       "time": "",
       "description": "Denna kurs är en fördjupad hantverkskurs som riktar sig till deltagare som tidigare har gått Hantverk för självhushållare, eller som har motsvarande kunskap och erfarenheter, och vill utveckla sina kunskaper och färdigheter inom byggnation och slöjd.",
       "url": "https://www.holmafolkhogskola.se/profilkurs/hantverk-fordjupning/",
-      "source_id": "unknown",
+      "source_id": "holma",
       "source_name": "Holma Folkhögskola",
       "categories": [
         "mat"
+      ],
+      "free": true
+    },
+    {
+      "id": "c134265757dd",
+      "title": "Delåtgärdsprogram för effektiv vattenförvaltning (2025)",
+      "date_iso": "2026-08-29",
+      "time": "",
+      "description": "",
+      "url": "https://www.havochvatten.se/om-oss-kontakt-och-karriar/om-havs--och-vattenmyndigheten/regeringsuppdrag/regeringsuppdrag/2025/delatgardsprogram-for-effektiv-vattenforvaltning-2025.html",
+      "source_id": "hav",
+      "source_name": "Havs- och vattenmyndigheten",
+      "categories": [
+        "vatten",
+        "biodiv",
+        "klimat"
       ],
       "free": true
     },
@@ -1823,13 +3294,13 @@
       "free": true
     },
     {
-      "id": "d8c3ff8c3bb2",
+      "id": "a844dc364374",
       "title": "Skördefest 2026",
       "date_iso": "2026-09-12",
       "time": "",
       "description": "Den 12 september har vi skördefest på Holma Folkhögskola. Mer info kommer att finnas på den här sidan när det närmar sig!",
       "url": "https://www.holmafolkhogskola.se/oppet-program/skordefest/",
-      "source_id": "unknown",
+      "source_id": "holma",
       "source_name": "Holma Folkhögskola",
       "categories": [
         "omstallning"
@@ -1865,16 +3336,80 @@
       "free": true
     },
     {
-      "id": "8a9fbffb8b06",
+      "id": "26bde227306f",
+      "title": "Utlysning av forskningsmedel för projekt om effekter av genomförda restaureringsåtgärder",
+      "date_iso": "2026-09-18",
+      "time": "",
+      "description": "",
+      "url": "https://www.havochvatten.se/bidrag-utlysningar-och-anslag/utlysningar/utlysning-av-forskningsmedel-for-projekt-om-effekter-av-genomforda-restaureringsatgarder.html",
+      "source_id": "hav",
+      "source_name": "Havs- och vattenmyndigheten",
+      "categories": [
+        "vatten",
+        "biodiv",
+        "klimat"
+      ],
+      "free": true
+    },
+    {
+      "id": "ed50640513d8",
       "title": "PrepAlliance Partner Meeting #3: Resource Management and Circular Preparedness",
       "date_iso": "2026-09-25",
       "time": "",
       "description": "Save the date! Welcome to our third meeting, hosted by our Danish partner BOFA on Bornholm. This meeting will focus on BOFA’s innovative operations regarding waste management and resource efficiency. […]",
       "url": "https://www.hutskane.se/kalender/prepalliance-partner-meeting-3-resource-management-and-circular-preparedness/",
-      "source_id": "unknown",
+      "source_id": "hutskane",
       "source_name": "Hållbar Utveckling Skåne",
       "categories": [
         "omstallning",
+        "klimat"
+      ],
+      "free": true
+    },
+    {
+      "id": "c3775572f907",
+      "title": "Uppföljning av torskbestånden (2026)",
+      "date_iso": "2026-09-30",
+      "time": "",
+      "description": "",
+      "url": "https://www.havochvatten.se/om-oss-kontakt-och-karriar/om-havs--och-vattenmyndigheten/regeringsuppdrag/regeringsuppdrag/2026/uppfoljning-av-torskbestanden-2026.html",
+      "source_id": "hav",
+      "source_name": "Havs- och vattenmyndigheten",
+      "categories": [
+        "vatten",
+        "biodiv",
+        "klimat"
+      ],
+      "free": true
+    },
+    {
+      "id": "da60e2e333cd",
+      "title": "Samförvaltningsformer för ett mer intressentdrivet åtgärdsarbete för kustekosystemens återhämtning (2025)",
+      "date_iso": "2026-09-30",
+      "time": "",
+      "description": "",
+      "url": "https://www.havochvatten.se/om-oss-kontakt-och-karriar/om-havs--och-vattenmyndigheten/regeringsuppdrag/regeringsuppdrag/2025/samforvaltningsformer-for-ett-mer-intressentdrivet-atgardsarbete-for-kustekosystemens-aterhamtning-2025.html",
+      "source_id": "hav",
+      "source_name": "Havs- och vattenmyndigheten",
+      "categories": [
+        "vatten",
+        "biodiv",
+        "klimat"
+      ],
+      "free": true
+    },
+    {
+      "id": "92b2659722b8",
+      "title": "Förvaltning av europeisk ål (2024)",
+      "date_iso": "2026-10-01",
+      "time": "",
+      "description": "",
+      "url": "https://www.havochvatten.se/om-oss-kontakt-och-karriar/om-havs--och-vattenmyndigheten/regeringsuppdrag/regeringsuppdrag/2024/forvaltning-av-europeisk-al-2024.html",
+      "source_id": "hav",
+      "source_name": "Havs- och vattenmyndigheten",
+      "categories": [
+        "vatten",
+        "biodiv",
         "klimat"
       ],
       "free": true
@@ -1890,6 +3425,38 @@
       "source_name": "Hushållningssällskapet",
       "categories": [
         "omstallning"
+      ],
+      "free": true
+    },
+    {
+      "id": "fc1aac45325e",
+      "title": "Uppdrag till Havs- och vattenmyndigheten att sammanställa och redovisa forskningsinsatser angående blåfenad tonfisk",
+      "date_iso": "2026-10-17",
+      "time": "",
+      "description": "",
+      "url": "https://www.havochvatten.se/om-oss-kontakt-och-karriar/om-havs--och-vattenmyndigheten/regeringsuppdrag/regeringsuppdrag/2025/uppdrag-till-havs--och-vattenmyndigheten-att-sammanstalla-och-redovisa-forskningsinsatser-angaende-blafenad-tonfisk.html",
+      "source_id": "hav",
+      "source_name": "Havs- och vattenmyndigheten",
+      "categories": [
+        "vatten",
+        "biodiv",
+        "klimat"
+      ],
+      "free": true
+    },
+    {
+      "id": "0e78df61d73f",
+      "title": "Prognoser (2025)",
+      "date_iso": "2026-10-20",
+      "time": "",
+      "description": "",
+      "url": "https://www.havochvatten.se/om-oss-kontakt-och-karriar/om-havs--och-vattenmyndigheten/regeringsuppdrag/regeringsuppdrag/2025/prognoser-2025.html",
+      "source_id": "hav",
+      "source_name": "Havs- och vattenmyndigheten",
+      "categories": [
+        "vatten",
+        "biodiv",
+        "klimat"
       ],
       "free": true
     },
@@ -1922,13 +3489,13 @@
       "free": true
     },
     {
-      "id": "bc5f4a738cbc",
+      "id": "1d08951d33af",
       "title": "Mat ur jorden – småskalig odling och förädling",
       "date_iso": "2026-11-20",
       "time": "",
       "description": "Det är möjligt att söka till reservplats på vårens kurs. Välkommen med din ansökan!",
       "url": "https://www.holmafolkhogskola.se/profilkurs/mat-ur-jorden/",
-      "source_id": "unknown",
+      "source_id": "holma",
       "source_name": "Holma Folkhögskola",
       "categories": [
         "mat",
@@ -1937,13 +3504,45 @@
       "free": true
     },
     {
-      "id": "2783539e00cb",
+      "id": "273dc0674d76",
+      "title": "Effekter av svall (2026)",
+      "date_iso": "2026-11-30",
+      "time": "",
+      "description": "",
+      "url": "https://www.havochvatten.se/om-oss-kontakt-och-karriar/om-havs--och-vattenmyndigheten/regeringsuppdrag/regeringsuppdrag/2026/effekter-av-svall-2026.html",
+      "source_id": "hav",
+      "source_name": "Havs- och vattenmyndigheten",
+      "categories": [
+        "vatten",
+        "biodiv",
+        "klimat"
+      ],
+      "free": true
+    },
+    {
+      "id": "2383852380b7",
+      "title": "Uppdrag att ta bort eller drastiskt minska inflyttningsområden innanför trålgränsen (2025)",
+      "date_iso": "2026-11-30",
+      "time": "",
+      "description": "",
+      "url": "https://www.havochvatten.se/om-oss-kontakt-och-karriar/om-havs--och-vattenmyndigheten/regeringsuppdrag/regeringsuppdrag/2025/uppdrag-att-ta-bort-eller-drastiskt-minska-inflyttningsomraden-innanfor-tralgransen-2025.html",
+      "source_id": "hav",
+      "source_name": "Havs- och vattenmyndigheten",
+      "categories": [
+        "vatten",
+        "biodiv",
+        "klimat"
+      ],
+      "free": true
+    },
+    {
+      "id": "394cda6e6194",
       "title": "Hållbar matlagning med lokala råvaror",
       "date_iso": "2026-12-18",
       "time": "",
       "description": "Vill du lära dig mer om hur du använder hållbart och lokalt producerade råvaror i din matlagning? Ta chansen att utforska nya smakupplevelser tillsammans med andra kockar på Holma gård i höst! På kursen fokuserar vi på råvaror som är producerade på Holma och i Skåne men också i andra delar av södra",
       "url": "https://www.holmafolkhogskola.se/profilkurs/hallbar-matlagning-med-lokala-ravaror/",
-      "source_id": "unknown",
+      "source_id": "holma",
       "source_name": "Holma Folkhögskola",
       "categories": [
         "mat",
@@ -1952,13 +3551,125 @@
       "free": true
     },
     {
-      "id": "200506ee04e4",
+      "id": "1523b0dbed5c",
+      "title": "Förberedelser inför Sveriges tillträde till BBNJ-avtalet (2026)",
+      "date_iso": "2026-12-31",
+      "time": "",
+      "description": "",
+      "url": "https://www.havochvatten.se/om-oss-kontakt-och-karriar/om-havs--och-vattenmyndigheten/regeringsuppdrag/regeringsuppdrag/2026/forberedelser-infor-sveriges-tilltrade-till-bbnj-avtalet-2026.html",
+      "source_id": "hav",
+      "source_name": "Havs- och vattenmyndigheten",
+      "categories": [
+        "vatten",
+        "biodiv",
+        "klimat"
+      ],
+      "free": true
+    },
+    {
+      "id": "f87cb6e325c9",
+      "title": "Uppdrag om kartläggning av vattenbalanser (2024)",
+      "date_iso": "2026-12-31",
+      "time": "",
+      "description": "",
+      "url": "https://www.havochvatten.se/om-oss-kontakt-och-karriar/om-havs--och-vattenmyndigheten/regeringsuppdrag/regeringsuppdrag/2024/uppdrag-om-kartlaggning-av-vattenbalanser-2024.html",
+      "source_id": "hav",
+      "source_name": "Havs- och vattenmyndigheten",
+      "categories": [
+        "vatten",
+        "biodiv",
+        "klimat"
+      ],
+      "free": true
+    },
+    {
+      "id": "9196cc2a38d1",
+      "title": "Stärka arbetet med akvatisk restaurering (2024)",
+      "date_iso": "2026-12-31",
+      "time": "",
+      "description": "",
+      "url": "https://www.havochvatten.se/om-oss-kontakt-och-karriar/om-havs--och-vattenmyndigheten/regeringsuppdrag/regeringsuppdrag/2024/starka-arbetet-med-akvatisk-restaurering-2024.html",
+      "source_id": "hav",
+      "source_name": "Havs- och vattenmyndigheten",
+      "categories": [
+        "vatten",
+        "biodiv",
+        "klimat"
+      ],
+      "free": true
+    },
+    {
+      "id": "d2242814be7d",
+      "title": "Uppdrag att vidareutveckla åtgärdssamordning för avrinningsområden (2024)",
+      "date_iso": "2026-12-31",
+      "time": "",
+      "description": "",
+      "url": "https://www.havochvatten.se/om-oss-kontakt-och-karriar/om-havs--och-vattenmyndigheten/regeringsuppdrag/regeringsuppdrag/2024/uppdrag-att-vidareutveckla-atgardssamordning-for-avrinningsomraden-2024.html",
+      "source_id": "hav",
+      "source_name": "Havs- och vattenmyndigheten",
+      "categories": [
+        "vatten",
+        "biodiv",
+        "klimat"
+      ],
+      "free": true
+    },
+    {
+      "id": "c910cf6cea17",
+      "title": "Vägledning om kommunala vattentjänstplaner (2026)",
+      "date_iso": "2026-12-31",
+      "time": "",
+      "description": "",
+      "url": "https://www.havochvatten.se/om-oss-kontakt-och-karriar/om-havs--och-vattenmyndigheten/regeringsuppdrag/regeringsuppdrag/2026/vagledning-om-kommunala-vattentjanstplaner-2026.html",
+      "source_id": "hav",
+      "source_name": "Havs- och vattenmyndigheten",
+      "categories": [
+        "vatten",
+        "biodiv",
+        "klimat"
+      ],
+      "free": true
+    },
+    {
+      "id": "073f1ff765a3",
+      "title": "Uppdrag om stöd inom Helcomarbetet (2022)",
+      "date_iso": "2026-12-31",
+      "time": "",
+      "description": "",
+      "url": "https://www.havochvatten.se/om-oss-kontakt-och-karriar/om-havs--och-vattenmyndigheten/regeringsuppdrag/regeringsuppdrag/2022/uppdrag-om-stod-inom-helcomarbetet-2022.html",
+      "source_id": "hav",
+      "source_name": "Havs- och vattenmyndigheten",
+      "categories": [
+        "vatten",
+        "biodiv",
+        "klimat"
+      ],
+      "free": true
+    },
+    {
+      "id": "aae766979174",
+      "title": "Kunskapsunderlag om vattenkraftens påverkan på ekosystem och arter (2025)",
+      "date_iso": "2026-12-31",
+      "time": "",
+      "description": "",
+      "url": "https://www.havochvatten.se/om-oss-kontakt-och-karriar/om-havs--och-vattenmyndigheten/regeringsuppdrag/regeringsuppdrag/2025/kunskapsunderlag-om-vattenkraftens-paverkan-pa-ekosystem-och-arter-2025.html",
+      "source_id": "hav",
+      "source_name": "Havs- och vattenmyndigheten",
+      "categories": [
+        "vatten",
+        "biodiv",
+        "klimat"
+      ],
+      "free": true
+    },
+    {
+      "id": "6e9102cc36cb",
       "title": "Sociokratisk facilitering, grunder och fördjupning – distans",
       "date_iso": "2027-01-01",
       "time": "",
       "description": "Vill du lära dig mer om hur vi kan organisera oss så att vi styr oss själva på ett självorganiserande och hållbart sätt? Eller har du redan erfarenhet av hur sociokrati fungerar och vill fördjupa ditt arbete med bättre facilitering? Kursen är indelad i två spår som möter en bredd av lärandebehov.",
       "url": "https://www.holmafolkhogskola.se/profilkurs/sociokrati-och-sjalvorganiserat-samarbete-distans/",
-      "source_id": "unknown",
+      "source_id": "holma",
       "source_name": "Holma Folkhögskola",
       "categories": [
         "mat",
@@ -1967,17 +3678,113 @@
       "free": true
     },
     {
-      "id": "b736b72ff7aa",
+      "id": "50156072ae1f",
       "title": "Permakultur PDC",
       "date_iso": "2027-01-01",
       "time": "",
       "description": "Kursen kommer att ges igen under 2027, välkommen med din ansökan till den 1:e oktober 2026!",
       "url": "https://www.holmafolkhogskola.se/profilkurs/permakulturdesign-pdc/",
-      "source_id": "unknown",
+      "source_id": "holma",
       "source_name": "Holma Folkhögskola",
       "categories": [
         "agroforestry",
         "biodiv"
+      ],
+      "free": true
+    },
+    {
+      "id": "432e198c5fc7",
+      "title": "Andra effektiva områdesbaserade bevarandeåtgärder (OECM) (2025)",
+      "date_iso": "2027-01-15",
+      "time": "",
+      "description": "",
+      "url": "https://www.havochvatten.se/om-oss-kontakt-och-karriar/om-havs--och-vattenmyndigheten/regeringsuppdrag/regeringsuppdrag/2025/andra-effektiva-omradesbaserade-bevarandeatgarder-oecm-2025.html",
+      "source_id": "hav",
+      "source_name": "Havs- och vattenmyndigheten",
+      "categories": [
+        "vatten",
+        "biodiv",
+        "klimat"
+      ],
+      "free": true
+    },
+    {
+      "id": "91d697f967df",
+      "title": "Sammanställa status för skyddet av marina områden och uppdatera Handlingsplan för marint områdesskydd (2025)",
+      "date_iso": "2027-02-13",
+      "time": "",
+      "description": "",
+      "url": "https://www.havochvatten.se/om-oss-kontakt-och-karriar/om-havs--och-vattenmyndigheten/regeringsuppdrag/regeringsuppdrag/2025/sammanstalla-status-for-skyddet-av-marina-omraden-och-uppdatera-handlingsplan-for-marint-omradesskydd-2025.html",
+      "source_id": "hav",
+      "source_name": "Havs- och vattenmyndigheten",
+      "categories": [
+        "vatten",
+        "biodiv",
+        "klimat"
+      ],
+      "free": true
+    },
+    {
+      "id": "0f8c48a39aec",
+      "title": "Uppföljning och utvärdering av åtgärder mot övergödning (2025)",
+      "date_iso": "2027-02-15",
+      "time": "",
+      "description": "",
+      "url": "https://www.havochvatten.se/om-oss-kontakt-och-karriar/om-havs--och-vattenmyndigheten/regeringsuppdrag/regeringsuppdrag/2025/uppfoljning-och-utvardering-av-atgarder-mot-overgodning-2025.html",
+      "source_id": "hav",
+      "source_name": "Havs- och vattenmyndigheten",
+      "categories": [
+        "vatten",
+        "biodiv",
+        "klimat"
+      ],
+      "free": true
+    },
+    {
+      "id": "ab115c36d54e",
+      "title": "En sammanhållen miljödataförvaltning och förbättrad kunskapsförsörjning om miljöfarliga utsläpp till vatten (2025)",
+      "date_iso": "2027-02-15",
+      "time": "",
+      "description": "",
+      "url": "https://www.havochvatten.se/om-oss-kontakt-och-karriar/om-havs--och-vattenmyndigheten/regeringsuppdrag/regeringsuppdrag/2025/en-sammanhallen-miljodataforvaltning-och-forbattrad-kunskapsforsorjning-om-miljofarliga-utslapp-till-vatten-2025.html",
+      "source_id": "hav",
+      "source_name": "Havs- och vattenmyndigheten",
+      "categories": [
+        "vatten",
+        "biodiv",
+        "klimat"
+      ],
+      "free": true
+    },
+    {
+      "id": "18989288ff55",
+      "title": "Förvaltningsplanerna för gråsäl, knubbsäl och vikaresäl (2025)",
+      "date_iso": "2027-02-23",
+      "time": "",
+      "description": "",
+      "url": "https://www.havochvatten.se/om-oss-kontakt-och-karriar/om-havs--och-vattenmyndigheten/regeringsuppdrag/regeringsuppdrag/2025/forvaltningsplanerna-for-grasal-knubbsal-och-vikaresal-2025.html",
+      "source_id": "hav",
+      "source_name": "Havs- och vattenmyndigheten",
+      "categories": [
+        "vatten",
+        "biodiv",
+        "klimat"
+      ],
+      "free": true
+    },
+    {
+      "id": "936c4f7837c9",
+      "title": "Förslag till nationell restaureringsplan och författningsändringar till följd av EU-förordning om restaurering av natur (2024)",
+      "date_iso": "2027-02-27",
+      "time": "",
+      "description": "",
+      "url": "https://www.havochvatten.se/om-oss-kontakt-och-karriar/om-havs--och-vattenmyndigheten/regeringsuppdrag/regeringsuppdrag/2024/forslag-till-nationell-restaureringsplan-och-forfattningsandringar-till-foljd-av-eu-forordning-om-restaurering-av-natur-2024.html",
+      "source_id": "hav",
+      "source_name": "Havs- och vattenmyndigheten",
+      "categories": [
+        "vatten",
+        "biodiv",
+        "klimat"
       ],
       "free": true
     }
