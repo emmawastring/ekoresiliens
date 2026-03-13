@@ -1036,7 +1036,7 @@ function renderKB() {
 
   let f = allKB.filter(r => {
     if (activeKBType !== 'all' && r.type !== activeKBType) return false;
-    if (activeKBCat  !== 'all' && !(r.cats || []).includes(activeKBCat)) return false;
+    if (activeKBCat.length > 0 && !activeKBCat.some(ac => (r.cats || []).includes(ac))) return false;
     if (activeKBLang !== 'all') {
       const text = (r.title + ' ' + (r.desc || '')).toLowerCase();
       const isSwedish = /\b(svenska|swedish|svenska|på svenska)\b/i.test(text);
