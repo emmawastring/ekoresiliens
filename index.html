@@ -294,8 +294,8 @@ footer a:hover{text-decoration:underline;}
           <div class="filter-group-label" onclick="toggleFilterGroup(this)">Tidpunkt</div>
           <div class="filter-group-body">
             <div class="chip-group" id="timeChips">
-              <div class="chip active" data-time="all" onclick="selectTime(this)">Alla</div>
-              <div class="chip" data-time="future" onclick="selectTime(this)">Kommande</div>
+              <div class="chip" data-time="all" onclick="selectTime(this)">Alla</div>
+              <div class="chip active" data-time="future" onclick="selectTime(this)">Kommande</div>
               <div class="chip" data-time="week" onclick="selectTime(this)">Denna vecka</div>
               <div class="chip" data-time="month" onclick="selectTime(this)">Denna månad</div>
             </div>
@@ -844,7 +844,7 @@ function switchTab(name) {
 // ═══════════════════════════════════════════
 // CHIP HANDLERS
 // ═══════════════════════════════════════════
-let activeCat = 'all', activeTime = 'all', activeType = 'all', activeLang = 'all', activeKBType = 'all', activeKBCat = 'all', activeKBLang = 'all', activeKBSource = 'all';
+let activeCat = 'all', activeTime = 'future', activeType = 'all', activeLang = 'all', activeKBType = 'all', activeKBCat = 'all', activeKBLang = 'all', activeKBSource = 'all';
 
 function selectCat(el, groupId) {
   document.querySelectorAll('#' + groupId + ' .chip').forEach(c => c.classList.remove('active'));
