@@ -10,9 +10,9 @@ from .base import BaseScraper
 
 class HutSkaneScraper(BaseScraper):
     SOURCE_ID   = "hutskane"
-    name = SOURCE_NAME
     source_id = "hutskane"
     SOURCE_NAME = "Hållbar Utveckling Skåne"
+    name = SOURCE_NAME
     BASE_URL    = "https://www.hutskane.se"
     CALENDAR_URL = "https://www.hutskane.se/kalender/lista/"
 
