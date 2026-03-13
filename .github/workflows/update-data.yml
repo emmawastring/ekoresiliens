@@ -14,12 +14,12 @@ jobs:
 
     steps:
       - name: Checka ut repo
-        uses: actions/checkout@v4
+        uses: actions/checkout@v4.2.2
         with:
           fetch-depth: 0   # få hela historiken så att vi kan pull/rebase
 
       - name: Sätt upp Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v5.4.0
         with:
           python-version: "3.11"
           cache: "pip"
