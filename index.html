@@ -662,7 +662,7 @@ function tl(t){ return CAT_LABELS[t] || t; }
 function fmtDate(iso) {
   if (!iso) return '';
   const d = new Date(iso + 'T12:00:00');
-  return d.toLocaleDateString('sv-SE', { weekday:'short', day:'numeric', month:'short' });
+  return d.toLocaleDateString('sv-SE', { weekday:'short', day:'numeric', month:'short', year:'numeric' });
 }
 
 // ═══════════════════════════════════════════
