@@ -6,9 +6,9 @@ from .base import BaseScraper
 class AgroforestryScraper(BaseScraper):
     name = "Agroforestry Sverige"
     source_id = "AF"
-    base_url = "https://agroforestrysverige.se"
-    EVENTS_URL = "https://agroforestrysverige.se/evenemang/"
-    RSS_URL = "https://agroforestrysverige.se/feed/"
+    base_url = "https://agroforestry.se"
+    EVENTS_URL = "https://agroforestry.se/evenemang/"
+    RSS_URL = "https://agroforestry.se/feed/"
 
     def fetch(self) -> list[dict]:
         events = []

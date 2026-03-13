@@ -54,7 +54,7 @@ class JordbruksverketScraper(BaseScraper):
             if any(x in tl for x in ['mat', 'livsmedel', 'kött', 'mjölk', 'spannmål']): cats = ['mat']
             if any(x in tl for x in ['bidrag', 'stöd', 'lag', 'regler']): cats = ['policy']
 
-            events.append(self.make_event(
+            events.append(self.event(
                 title=title,
                 date_iso=date_iso_val,
                 url=url or self.URL,

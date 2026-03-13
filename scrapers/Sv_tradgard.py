@@ -55,7 +55,7 @@ class SVTradgardScraper(BaseScraper):
             elif any(x in tl for x in ['biologisk mångfald', 'pollinator', 'insekt']): cats = ['biodiv']
             elif any(x in tl for x in ['mat', 'grönsak', 'odl']): cats = ['mat']
 
-            events.append(self.make_event(
+            events.append(self.event(
                 title=title,
                 date_iso=date_iso_val,
                 url=url,

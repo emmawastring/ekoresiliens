@@ -51,7 +51,7 @@ class SvenskKolinlagringScraper(BaseScraper):
             if not title or title in [e['title'] for e in events]:
                 continue
 
-            events.append(self.make_event(
+            events.append(self.event(
                 title=title[:120],
                 date_iso=date_iso_val or '',
                 url=url,
