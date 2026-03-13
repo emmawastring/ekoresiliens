@@ -1,0 +1,5 @@
+c = open('scrapers/agroforestry.py', encoding='utf-8').read()
+print('Innan:', [l for l in c.splitlines() if 'agroforestry' in l.lower() and 'http' in l.lower()])
+c = c.replace('agroforestrysverige.se', 'agroforestry.se')
+open('scrapers/agroforestry.py', 'w', encoding='utf-8').write(c)
+print('Efter:', [l for l in c.splitlines() if 'agroforestry' in l.lower() and 'http' in l.lower()])
