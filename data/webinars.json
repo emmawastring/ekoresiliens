@@ -1,6 +1,6 @@
 {
-  "updated": "2026-03-13T10:52:24.580600+00:00",
-  "count": 313,
+  "updated": "2026-03-14T08:35:09.377873+00:00",
+  "count": 312,
   "errors": [],
   "events": [
     {
@@ -590,22 +590,6 @@
       "time": "",
       "description": "",
       "url": "https://www.havochvatten.se/om-oss-kontakt-och-karriar/om-havs--och-vattenmyndigheten/remisser-fran-hav/remisser/2025-03-06-remiss-om-andrade-krav-for-det-satellitbaserade-kontrollsystemet-for-fartyg-i-hvmfs-201811.html",
-      "source_id": "hav",
-      "source_name": "Havs- och vattenmyndigheten",
-      "categories": [
-        "vatten",
-        "biodiv",
-        "klimat"
-      ],
-      "free": true
-    },
-    {
-      "id": "a14700bd8238",
-      "title": "Östersjökontraktet anordnar seminarium om hur Östersjön ska räddas, med fokus på förvaltningen av sill",
-      "date_iso": "2025-03-06",
-      "time": "",
-      "description": "",
-      "url": "https://www.havochvatten.se/om-oss-kontakt-och-karriar/evenemang/kalender/kalender/2025/extern-kalender/2025-03-06-ostersjokontraktet-anordnar-seminarium-om-hur-ostersjon-ska-raddas-med-fokus-pa-forvaltningen-av-sill.html",
       "source_id": "hav",
       "source_name": "Havs- och vattenmyndigheten",
       "categories": [
@@ -2211,6 +2195,22 @@
       "free": true
     },
     {
+      "id": "7db01ae15b36",
+      "title": "Remiss gällande förslag till undantag mot generellt förbud mot bottentrålning i marina skyddade områden i Västra Götalands län",
+      "date_iso": "2026-03-13",
+      "time": "",
+      "description": "",
+      "url": "https://www.havochvatten.se/om-oss-kontakt-och-karriar/om-havs--och-vattenmyndigheten/remisser-fran-hav/remisser/2026-03-13-remiss-gallande-forslag-till-undantag-mot-generellt-forbud-mot-bottentralning-i-marina-skyddade-omraden-i-vastra-gotalands-lan.html",
+      "source_id": "hav",
+      "source_name": "Havs- och vattenmyndigheten",
+      "categories": [
+        "vatten",
+        "biodiv",
+        "klimat"
+      ],
+      "free": true
+    },
+    {
       "id": "a9506c2e1ac0",
       "title": "Webbinarium om vattenförsörjning i fysisk planering och grundvatten framtida klimat",
       "date_iso": "2026-03-13",
@@ -2237,20 +2237,6 @@
       "source_name": "Jordbruksverket",
       "categories": [
         "policy"
-      ],
-      "free": true
-    },
-    {
-      "id": "1467e2a13519",
-      "title": "Lantbrukare: Sätt krav på ditt företags ekonomi",
-      "date_iso": "2026-03-13",
-      "time": "",
-      "description": "Sätt krav på ditt företags ekonomi – En kurs främst för lantbrukare (primärproducenter) Det är viktigt att sätta mål för att bli mer lönsam. Vi tar dig genom stegen att förstå ekonomin och de ekonomiska begreppen för att bli lönsammare och kunna diskutera din ekonomi med rådgivare eller tex, banken.",
-      "url": "https://hushallningssallskapet.se/kalender/lantbrukare-satt-krav-pa-ditt-foretags-ekonomi/",
-      "source_id": "hushallningssallskapet",
-      "source_name": "Hushållningssällskapet",
-      "categories": [
-        "omstallning"
       ],
       "free": true
     },
@@ -2648,6 +2634,21 @@
       "source_name": "Hushållningssällskapet",
       "categories": [
         "omstallning"
+      ],
+      "free": true
+    },
+    {
+      "id": "422cff3dd5d2",
+      "title": "ERFA-grupp om holistiskt planerat bete 24 mar 2026 Nyhovs Gård i Hjärnarp, Skåne",
+      "date_iso": "2026-03-24",
+      "time": "",
+      "description": "",
+      "url": "https://svenskkolinlagring.se/kalenderpost/erfa-grupp-om-holistiskt-planerat-bete-2/",
+      "source_id": "svenskkolinlagring",
+      "source_name": "Svensk Kolinlagring",
+      "categories": [
+        "omstallning",
+        "mat"
       ],
       "free": true
     },
@@ -3108,12 +3109,12 @@
       "free": true
     },
     {
-      "id": "352e4ac1cbfe",
-      "title": "System för återanvändning och EU:s förpacknings­förordning",
+      "id": "8e885fcd479e",
+      "title": "Producent och EU:s förpackningsförordning",
       "date_iso": "2026-04-01",
       "time": "",
-      "description": "EU:s förordning om förpackningar och förpackningsavfall, PPWR, innebär förändringar för systemen för återanvändning. På detta webbinarium går Naturvårdsverket igenom vad som gäller för aktörer som är ansvariga för eller deltagare av system för återanvändbara förpackningar.",
-      "url": "https://www.naturvardsverket.se/om-oss/aktuellt/kalendarium/2026/april/system-for-ateranvandning-och-eus-forpackningsforordning/",
+      "description": "EU:s förordning om förpackningar och förpackningsavfall, PPWR, innebär att det kommit en ny definition av förpackningsproducent som gäller i alla medlemsländer. Vid detta tillfälle kommer Naturvårdsverket gå igenom vad detta innebär för dig som omfattas av definitionen och vilka krav du behöver leva upp till i och med att PPWR träder ikraft.",
+      "url": "https://www.naturvardsverket.se/om-oss/aktuellt/kalendarium/2026/april/producent-och-eus-forpackningsforordning/",
       "source_id": "naturvardsverket",
       "source_name": "Naturvårdsverket",
       "categories": [
@@ -3124,12 +3125,12 @@
       "free": true
     },
     {
-      "id": "8e885fcd479e",
-      "title": "Producent och EU:s förpackningsförordning",
+      "id": "352e4ac1cbfe",
+      "title": "System för återanvändning och EU:s förpacknings­förordning",
       "date_iso": "2026-04-01",
       "time": "",
-      "description": "EU:s förordning om förpackningar och förpackningsavfall, PPWR, innebär att det kommit en ny definition av förpackningsproducent som gäller i alla medlemsländer. Vid detta tillfälle kommer Naturvårdsverket gå igenom vad detta innebär för dig som omfattas av definitionen och vilka krav du behöver leva upp till i och med att PPWR träder ikraft.",
-      "url": "https://www.naturvardsverket.se/om-oss/aktuellt/kalendarium/2026/april/producent-och-eus-forpackningsforordning/",
+      "description": "EU:s förordning om förpackningar och förpackningsavfall, PPWR, innebär förändringar för systemen för återanvändning. På detta webbinarium går Naturvårdsverket igenom vad som gäller för aktörer som är ansvariga för eller deltagare av system för återanvändbara förpackningar.",
+      "url": "https://www.naturvardsverket.se/om-oss/aktuellt/kalendarium/2026/april/system-for-ateranvandning-och-eus-forpackningsforordning/",
       "source_id": "naturvardsverket",
       "source_name": "Naturvårdsverket",
       "categories": [
@@ -3230,7 +3231,7 @@
       "title": "Blomster från jord till bord - odla dahlior",
       "date_iso": "2026-04-09",
       "time": "",
-      "description": "580 SEK",
+      "description": "380 SEK",
       "url": "https://www.sv.se/kurser-och-evenemang/tradgard-hus-och-hem/tradgard/blomster-fran-jord-till-bord-odla-dahlior-47073",
       "source_id": "sv_tradgard",
       "source_name": "SV Studieförbundet",
@@ -3272,26 +3273,12 @@
       "title": "Blomster från jord till bord - odla dahlior",
       "date_iso": "2026-04-12",
       "time": "",
-      "description": "580 SEK",
+      "description": "380 SEK",
       "url": "https://www.sv.se/kurser-och-evenemang/tradgard-hus-och-hem/tradgard/blomster-fran-jord-till-bord-odla-dahlior-47074",
       "source_id": "sv_tradgard",
       "source_name": "SV Studieförbundet",
       "categories": [
         "mat"
-      ],
-      "free": true
-    },
-    {
-      "id": "da31d599e5fb",
-      "title": "Kurs i permakultur - Naturbaserade lösningar & praktisk omställning",
-      "date_iso": "2026-04-12",
-      "time": "",
-      "description": "3 900 SEK",
-      "url": "https://www.sv.se/kurser-och-evenemang/tradgard-hus-och-hem/tradgard/kurs-i-permakultur-naturbaserade-losningar-praktisk-omstallning-58014",
-      "source_id": "sv_tradgard",
-      "source_name": "SV Studieförbundet",
-      "categories": [
-        "skogstradgard"
       ],
       "free": true
     },
@@ -3348,20 +3335,6 @@
       "source_name": "Jordbruksverket",
       "categories": [
         "omstallning"
-      ],
-      "free": true
-    },
-    {
-      "id": "e587040529ae",
-      "title": "Föreläsning- Odla snittblommor och planera växtbäddar!",
-      "date_iso": "2026-04-15",
-      "time": "",
-      "description": "250 SEK",
-      "url": "https://www.sv.se/kurser-och-evenemang/tradgard-hus-och-hem/tradgard/forelasning-odla-snittblommor-och-planera-vaxtbaddar-62385",
-      "source_id": "sv_tradgard",
-      "source_name": "SV Studieförbundet",
-      "categories": [
-        "mat"
       ],
       "free": true
     },
@@ -3479,20 +3452,6 @@
       "categories": [
         "omstallning",
         "klimat"
-      ],
-      "free": true
-    },
-    {
-      "id": "3a77a3473815",
-      "title": "Kvällskurs- Lär dig att beskära äppelträd på Kyrkås Kulturgård",
-      "date_iso": "2026-04-22",
-      "time": "",
-      "description": "450 SEK",
-      "url": "https://www.sv.se/kurser-och-evenemang/tradgard-hus-och-hem/tradgard/kvallskurs-lar-dig-att-beskara-appeltrad-pa-kyrkas-kulturgard-62386",
-      "source_id": "sv_tradgard",
-      "source_name": "SV Studieförbundet",
-      "categories": [
-        "skog"
       ],
       "free": true
     },
@@ -3662,7 +3621,7 @@
       "title": "Buketter och bakverk – gör en bukett i grenkonstruktion",
       "date_iso": "2026-05-07",
       "time": "",
-      "description": "580 SEK",
+      "description": "380 SEK",
       "url": "https://www.sv.se/kurser-och-evenemang/tradgard-hus-och-hem/tradgard/buketter-och-bakverk-gor-en-bukett-i-grenkonstruktion-47075",
       "source_id": "sv_tradgard",
       "source_name": "SV Studieförbundet",
@@ -3748,7 +3707,7 @@
       "title": "Buketter och bakverk – gör en bukett i grenkonstruktion",
       "date_iso": "2026-05-17",
       "time": "",
-      "description": "580 SEK",
+      "description": "380 SEK",
       "url": "https://www.sv.se/kurser-och-evenemang/tradgard-hus-och-hem/tradgard/buketter-och-bakverk-gor-en-bukett-i-grenkonstruktion-47076",
       "source_id": "sv_tradgard",
       "source_name": "SV Studieförbundet",
@@ -3881,7 +3840,7 @@
       "title": "Buketter och bakverk – bind en bukett i spiralteknik",
       "date_iso": "2026-05-31",
       "time": "",
-      "description": "580 SEK",
+      "description": "380 SEK",
       "url": "https://www.sv.se/kurser-och-evenemang/tradgard-hus-och-hem/tradgard/buketter-och-bakverk-bind-en-bukett-i-spiralteknik-47077",
       "source_id": "sv_tradgard",
       "source_name": "SV Studieförbundet",
@@ -3906,6 +3865,20 @@
       "free": true
     },
     {
+      "id": "8c3accc4ac77",
+      "title": "Örter och kryddor i trädgården",
+      "date_iso": "2026-06-07",
+      "time": "",
+      "description": "1 800 SEK",
+      "url": "https://www.sv.se/kurser-och-evenemang/tradgard-hus-och-hem/tradgard/orter-och-kryddor-i-tradgarden-204248",
+      "source_id": "sv_tradgard",
+      "source_name": "SV Studieförbundet",
+      "categories": [
+        "skog"
+      ],
+      "free": true
+    },
+    {
       "id": "40f90fa978c6",
       "title": "Viltet i odlingslandskapet – åtgärder som gynnar viltet",
       "date_iso": "2026-06-09",
@@ -3924,7 +3897,7 @@
       "title": "Buketter och bakverk – bind en bukett i spiralteknik",
       "date_iso": "2026-06-11",
       "time": "",
-      "description": "580 SEK",
+      "description": "380 SEK",
       "url": "https://www.sv.se/kurser-och-evenemang/tradgard-hus-och-hem/tradgard/buketter-och-bakverk-bind-en-bukett-i-spiralteknik-47078",
       "source_id": "sv_tradgard",
       "source_name": "SV Studieförbundet",
@@ -4089,7 +4062,7 @@
       "title": "Buketter och bakverk – bind en bukett i spiralteknik",
       "date_iso": "2026-08-09",
       "time": "",
-      "description": "580 SEK",
+      "description": "380 SEK",
       "url": "https://www.sv.se/kurser-och-evenemang/tradgard-hus-och-hem/tradgard/buketter-och-bakverk-bind-en-bukett-i-spiralteknik-47079",
       "source_id": "sv_tradgard",
       "source_name": "SV Studieförbundet",
@@ -4103,7 +4076,7 @@
       "title": "Buketter och bakverk – bind en bukett i spiralteknik",
       "date_iso": "2026-08-13",
       "time": "",
-      "description": "580 SEK",
+      "description": "380 SEK",
       "url": "https://www.sv.se/kurser-och-evenemang/tradgard-hus-och-hem/tradgard/buketter-och-bakverk-bind-en-bukett-i-spiralteknik-47080",
       "source_id": "sv_tradgard",
       "source_name": "SV Studieförbundet",
@@ -4139,6 +4112,20 @@
         "vatten",
         "biodiv",
         "klimat"
+      ],
+      "free": true
+    },
+    {
+      "id": "3162ffe2b391",
+      "title": "Vatten i trädgården och betonggjutning",
+      "date_iso": "2026-08-29",
+      "time": "",
+      "description": "1 800 SEK",
+      "url": "https://www.sv.se/kurser-och-evenemang/tradgard-hus-och-hem/tradgard/vatten-i-tradgarden-och-betonggjutning-204250",
+      "source_id": "sv_tradgard",
+      "source_name": "SV Studieförbundet",
+      "categories": [
+        "skog"
       ],
       "free": true
     },
@@ -4219,7 +4206,7 @@
       "title": "Kransar och kaffe - gör en krans med torkade blommor",
       "date_iso": "2026-09-17",
       "time": "",
-      "description": "580 SEK",
+      "description": "380 SEK",
       "url": "https://www.sv.se/kurser-och-evenemang/tradgard-hus-och-hem/tradgard/kransar-och-kaffe-gor-en-krans-med-torkade-blommor-47081",
       "source_id": "sv_tradgard",
       "source_name": "SV Studieförbundet",
@@ -4312,7 +4299,7 @@
       "title": "Kransar och kaffe - gör en krans med torkade blommor",
       "date_iso": "2026-10-04",
       "time": "",
-      "description": "580 SEK",
+      "description": "380 SEK",
       "url": "https://www.sv.se/kurser-och-evenemang/tradgard-hus-och-hem/tradgard/kransar-och-kaffe-gor-en-krans-med-torkade-blommor-47082",
       "source_id": "sv_tradgard",
       "source_name": "SV Studieförbundet",
@@ -4382,6 +4369,20 @@
       "free": true
     },
     {
+      "id": "c9790d16b6a3",
+      "title": "Ta hand om din skörd -Syrning och mustning",
+      "date_iso": "2026-10-24",
+      "time": "",
+      "description": "1 800 SEK",
+      "url": "https://www.sv.se/kurser-och-evenemang/tradgard-hus-och-hem/tradgard/ta-hand-om-din-skord-syrning-och-mustning-204318",
+      "source_id": "sv_tradgard",
+      "source_name": "SV Studieförbundet",
+      "categories": [
+        "omstallning"
+      ],
+      "free": true
+    },
+    {
       "id": "922be78732bb",
       "title": "Nationell biogaskonferens Ystad – förhandsinfo",
       "date_iso": "2026-11-03",
@@ -4390,20 +4391,6 @@
       "url": "https://hushallningssallskapet.se/kalender/nationell-biogaskonferens/",
       "source_id": "hushallningssallskapet",
       "source_name": "Hushållningssällskapet",
-      "categories": [
-        "omstallning"
-      ],
-      "free": true
-    },
-    {
-      "id": "2edba52f6041",
-      "title": "FoU-dagarna 2026 – ekologisk produktion",
-      "date_iso": "2026-11-12",
-      "time": "",
-      "description": "Plats: Digitalt",
-      "url": "https://jordbruksverket.se/om-jordbruksverket/kurser-och-seminarier",
-      "source_id": "jordbruksverket",
-      "source_name": "Jordbruksverket",
       "categories": [
         "omstallning"
       ],
@@ -4724,12 +4711,12 @@
       "free": true
     },
     {
-      "id": "4728bb30d246",
-      "title": "Lär dig odla dahlior, fortsättningskurs - intresseanmälan",
+      "id": "dde5d613eba5",
+      "title": "Intresseanmälan: Gemenskapsodling",
       "date_iso": "",
       "time": "",
       "description": "",
-      "url": "https://www.sv.se/kurser-och-evenemang/tradgard-hus-och-hem/tradgard/lar-dig-odla-dahlior-fortsattningskurs-intresseanmalan-79123",
+      "url": "https://www.sv.se/kurser-och-evenemang/tradgard-hus-och-hem/tradgard/intresseanmalan-gemenskapsodling-204319",
       "source_id": "sv_tradgard",
       "source_name": "SV Studieförbundet",
       "categories": [
