@@ -24152,6 +24152,19 @@
     "source_name": "United Diversity Library",
     "type": "rapport",
     "icon": "📚",
+    "title": "50_things_that_will_save_the_planet.pdf",
+    "desc": "Böcker och rapporter",
+    "cats": [
+      "omstallning"
+    ],
+    "url": "https://library.uniteddiversity.coop/More_Books_and_Reports/50_things_that_will_save_the_planet.pdf"
+  },
+  {
+    "id": "udl_2",
+    "source": "UDL",
+    "source_name": "United Diversity Library",
+    "type": "rapport",
+    "icon": "📚",
     "title": "100_simple_things_you_can_do.pdf",
     "desc": "Böcker och rapporter",
     "cats": [
@@ -24160,7 +24173,7 @@
     "url": "https://library.uniteddiversity.coop/More_Books_and_Reports/100_simple_things_you_can_do.pdf"
   },
   {
-    "id": "udl_2",
+    "id": "udl_3",
     "source": "UDL",
     "source_name": "United Diversity Library",
     "type": "rapport",
@@ -24173,33 +24186,7 @@
     "url": "https://library.uniteddiversity.coop/More_Books_and_Reports/AConciseGuidetoIslam.pdf"
   },
   {
-    "id": "udl_3",
-    "source": "UDL",
-    "source_name": "United Diversity Library",
-    "type": "rapport",
-    "icon": "📚",
-    "title": "50_things_that_will_save_the_planet.pdf",
-    "desc": "Böcker och rapporter",
-    "cats": [
-      "omstallning"
-    ],
-    "url": "https://library.uniteddiversity.coop/More_Books_and_Reports/50_things_that_will_save_the_planet.pdf"
-  },
-  {
     "id": "udl_4",
-    "source": "UDL",
-    "source_name": "United Diversity Library",
-    "type": "rapport",
-    "icon": "📚",
-    "title": "ANASTASIA",
-    "desc": "Böcker och rapporter",
-    "cats": [
-      "omstallning"
-    ],
-    "url": "https://library.uniteddiversity.coop/More_Books_and_Reports/ANASTASIA"
-  },
-  {
-    "id": "udl_5",
     "source": "UDL",
     "source_name": "United Diversity Library",
     "type": "rapport",
@@ -24212,20 +24199,20 @@
     "url": "https://library.uniteddiversity.coop/More_Books_and_Reports/A_Bi(bli)ography_of_Insurrectionary_Imagination.pdf"
   },
   {
-    "id": "udl_6",
+    "id": "udl_5",
     "source": "UDL",
     "source_name": "United Diversity Library",
     "type": "rapport",
     "icon": "📚",
-    "title": "A_Matter_of_Scale-A_book_A_solution_A_future.pdf",
+    "title": "ANASTASIA",
     "desc": "Böcker och rapporter",
     "cats": [
       "omstallning"
     ],
-    "url": "https://library.uniteddiversity.coop/More_Books_and_Reports/A_Matter_of_Scale-A_book_A_solution_A_future.pdf"
+    "url": "https://library.uniteddiversity.coop/More_Books_and_Reports/ANASTASIA"
   },
   {
-    "id": "udl_7",
+    "id": "udl_6",
     "source": "UDL",
     "source_name": "United Diversity Library",
     "type": "rapport",
@@ -24236,6 +24223,19 @@
       "omstallning"
     ],
     "url": "https://library.uniteddiversity.coop/More_Books_and_Reports/A_Field_Guide_to_Monkeywrenching.pdf"
+  },
+  {
+    "id": "udl_7",
+    "source": "UDL",
+    "source_name": "United Diversity Library",
+    "type": "rapport",
+    "icon": "📚",
+    "title": "A_Matter_of_Scale-A_book_A_solution_A_future.pdf",
+    "desc": "Böcker och rapporter",
+    "cats": [
+      "omstallning"
+    ],
+    "url": "https://library.uniteddiversity.coop/More_Books_and_Reports/A_Matter_of_Scale-A_book_A_solution_A_future.pdf"
   },
   {
     "id": "udl_8",
@@ -24490,12 +24490,12 @@
     "source_name": "United Diversity Library",
     "type": "rapport",
     "icon": "📚",
-    "title": "Counter_Insurgency_US_Army.pdf",
+    "title": "Cory_Doctorow_-_Down_and_Out_in_the_Magic_Kingdom.pdf",
     "desc": "Böcker och rapporter",
     "cats": [
       "omstallning"
     ],
-    "url": "https://library.uniteddiversity.coop/More_Books_and_Reports/Counter_Insurgency_US_Army.pdf"
+    "url": "https://library.uniteddiversity.coop/More_Books_and_Reports/Cory_Doctorow_-_Down_and_Out_in_the_Magic_Kingdom.pdf"
   },
   {
     "id": "udl_28",
@@ -24503,12 +24503,12 @@
     "source_name": "United Diversity Library",
     "type": "rapport",
     "icon": "📚",
-    "title": "Cory_Doctorow_-_Down_and_Out_in_the_Magic_Kingdom.pdf",
+    "title": "Counter_Insurgency_US_Army.pdf",
     "desc": "Böcker och rapporter",
     "cats": [
       "omstallning"
     ],
-    "url": "https://library.uniteddiversity.coop/More_Books_and_Reports/Cory_Doctorow_-_Down_and_Out_in_the_Magic_Kingdom.pdf"
+    "url": "https://library.uniteddiversity.coop/More_Books_and_Reports/Counter_Insurgency_US_Army.pdf"
   },
   {
     "id": "udl_29",
@@ -24672,12 +24672,12 @@
     "source_name": "United Diversity Library",
     "type": "rapport",
     "icon": "📚",
-    "title": "Expect_Resistance.pdf",
+    "title": "Everyone_a_Changemaker.pdf",
     "desc": "Böcker och rapporter",
     "cats": [
       "omstallning"
     ],
-    "url": "https://library.uniteddiversity.coop/More_Books_and_Reports/Expect_Resistance.pdf"
+    "url": "https://library.uniteddiversity.coop/More_Books_and_Reports/Everyone_a_Changemaker.pdf"
   },
   {
     "id": "udl_42",
@@ -24685,12 +24685,12 @@
     "source_name": "United Diversity Library",
     "type": "rapport",
     "icon": "📚",
-    "title": "Everyone_a_Changemaker.pdf",
+    "title": "Expect_Resistance.pdf",
     "desc": "Böcker och rapporter",
     "cats": [
       "omstallning"
     ],
-    "url": "https://library.uniteddiversity.coop/More_Books_and_Reports/Everyone_a_Changemaker.pdf"
+    "url": "https://library.uniteddiversity.coop/More_Books_and_Reports/Expect_Resistance.pdf"
   },
   {
     "id": "udl_43",
@@ -24776,12 +24776,12 @@
     "source_name": "United Diversity Library",
     "type": "rapport",
     "icon": "📚",
-    "title": "Guide_to_putting_on_grassroots_event.pdf",
+    "title": "Guardian_50PeopleWhoCanSaveEarth.pdf",
     "desc": "Böcker och rapporter",
     "cats": [
       "omstallning"
     ],
-    "url": "https://library.uniteddiversity.coop/More_Books_and_Reports/Guide_to_putting_on_grassroots_event.pdf"
+    "url": "https://library.uniteddiversity.coop/More_Books_and_Reports/Guardian_50PeopleWhoCanSaveEarth.pdf"
   },
   {
     "id": "udl_50",
@@ -24789,12 +24789,12 @@
     "source_name": "United Diversity Library",
     "type": "rapport",
     "icon": "📚",
-    "title": "Guardian_50PeopleWhoCanSaveEarth.pdf",
+    "title": "Guide_to_putting_on_grassroots_event.pdf",
     "desc": "Böcker och rapporter",
     "cats": [
       "omstallning"
     ],
-    "url": "https://library.uniteddiversity.coop/More_Books_and_Reports/Guardian_50PeopleWhoCanSaveEarth.pdf"
+    "url": "https://library.uniteddiversity.coop/More_Books_and_Reports/Guide_to_putting_on_grassroots_event.pdf"
   },
   {
     "id": "udl_51",
@@ -25088,12 +25088,12 @@
     "source_name": "United Diversity Library",
     "type": "rapport",
     "icon": "📚",
-    "title": "Natural_Capitalism_chapter14.pdf",
+    "title": "Natural_Capitalism_chapter13.pdf",
     "desc": "Böcker och rapporter",
     "cats": [
       "omstallning"
     ],
-    "url": "https://library.uniteddiversity.coop/More_Books_and_Reports/Natural_Capitalism_chapter14.pdf"
+    "url": "https://library.uniteddiversity.coop/More_Books_and_Reports/Natural_Capitalism_chapter13.pdf"
   },
   {
     "id": "udl_74",
@@ -25101,12 +25101,12 @@
     "source_name": "United Diversity Library",
     "type": "rapport",
     "icon": "📚",
-    "title": "Natural_Capitalism_chapter13.pdf",
+    "title": "Natural_Capitalism_chapter14.pdf",
     "desc": "Böcker och rapporter",
     "cats": [
       "omstallning"
     ],
-    "url": "https://library.uniteddiversity.coop/More_Books_and_Reports/Natural_Capitalism_chapter13.pdf"
+    "url": "https://library.uniteddiversity.coop/More_Books_and_Reports/Natural_Capitalism_chapter14.pdf"
   },
   {
     "id": "udl_75",
@@ -25166,12 +25166,12 @@
     "source_name": "United Diversity Library",
     "type": "rapport",
     "icon": "📚",
-    "title": "Natural_Capitalism_chapter6.pdf",
+    "title": "Natural_Capitalism_chapter5.pdf",
     "desc": "Böcker och rapporter",
     "cats": [
       "omstallning"
     ],
-    "url": "https://library.uniteddiversity.coop/More_Books_and_Reports/Natural_Capitalism_chapter6.pdf"
+    "url": "https://library.uniteddiversity.coop/More_Books_and_Reports/Natural_Capitalism_chapter5.pdf"
   },
   {
     "id": "udl_80",
@@ -25179,12 +25179,12 @@
     "source_name": "United Diversity Library",
     "type": "rapport",
     "icon": "📚",
-    "title": "Natural_Capitalism_chapter5.pdf",
+    "title": "Natural_Capitalism_chapter6.pdf",
     "desc": "Böcker och rapporter",
     "cats": [
       "omstallning"
     ],
-    "url": "https://library.uniteddiversity.coop/More_Books_and_Reports/Natural_Capitalism_chapter5.pdf"
+    "url": "https://library.uniteddiversity.coop/More_Books_and_Reports/Natural_Capitalism_chapter6.pdf"
   },
   {
     "id": "udl_81",
@@ -26533,13 +26533,13 @@
     "source_name": "United Diversity Library",
     "type": "rapport",
     "icon": "📚",
-    "title": "Baile-Dulra-Eco-Village-Project.pdf",
+    "title": "An_introduction_to_permaculture_sheet_mulching.pdf",
     "desc": "Permakultur",
     "cats": [
       "skogstradgard",
       "agroforestry"
     ],
-    "url": "https://library.uniteddiversity.coop/Permaculture/Baile-Dulra-Eco-Village-Project.pdf"
+    "url": "https://library.uniteddiversity.coop/Permaculture/An_introduction_to_permaculture_sheet_mulching.pdf"
   },
   {
     "id": "udl_185",
@@ -26561,13 +26561,13 @@
     "source_name": "United Diversity Library",
     "type": "rapport",
     "icon": "📚",
-    "title": "Bill_Mollison-PERMACULTURE_A_Designers_Manual.pdf",
+    "title": "Baile-Dulra-Eco-Village-Project.pdf",
     "desc": "Permakultur",
     "cats": [
       "skogstradgard",
       "agroforestry"
     ],
-    "url": "https://library.uniteddiversity.coop/Permaculture/Bill_Mollison-PERMACULTURE_A_Designers_Manual.pdf"
+    "url": "https://library.uniteddiversity.coop/Permaculture/Baile-Dulra-Eco-Village-Project.pdf"
   },
   {
     "id": "udl_187",
@@ -26575,13 +26575,13 @@
     "source_name": "United Diversity Library",
     "type": "rapport",
     "icon": "📚",
-    "title": "An_introduction_to_permaculture_sheet_mulching.pdf",
+    "title": "Bill_Mollison-PERMACULTURE_A_Designers_Manual.pdf",
     "desc": "Permakultur",
     "cats": [
       "skogstradgard",
       "agroforestry"
     ],
-    "url": "https://library.uniteddiversity.coop/Permaculture/An_introduction_to_permaculture_sheet_mulching.pdf"
+    "url": "https://library.uniteddiversity.coop/Permaculture/Bill_Mollison-PERMACULTURE_A_Designers_Manual.pdf"
   },
   {
     "id": "udl_188",
@@ -26603,20 +26603,6 @@
     "source_name": "United Diversity Library",
     "type": "rapport",
     "icon": "📚",
-    "title": "Bonfils-Refutations.pdf",
-    "desc": "Permakultur",
-    "cats": [
-      "skogstradgard",
-      "agroforestry"
-    ],
-    "url": "https://library.uniteddiversity.coop/Permaculture/Bonfils-Refutations.pdf"
-  },
-  {
-    "id": "udl_190",
-    "source": "UDL",
-    "source_name": "United Diversity Library",
-    "type": "rapport",
-    "icon": "📚",
     "title": "Bill_Mollison-Permaculture_Two-Practical_Design_for_Town_and_Country_in_Permanent_Agriculture.pdf",
     "desc": "Permakultur",
     "cats": [
@@ -26624,6 +26610,20 @@
       "agroforestry"
     ],
     "url": "https://library.uniteddiversity.coop/Permaculture/Bill_Mollison-Permaculture_Two-Practical_Design_for_Town_and_Country_in_Permanent_Agriculture.pdf"
+  },
+  {
+    "id": "udl_190",
+    "source": "UDL",
+    "source_name": "United Diversity Library",
+    "type": "rapport",
+    "icon": "📚",
+    "title": "Bonfils-Refutations.pdf",
+    "desc": "Permakultur",
+    "cats": [
+      "skogstradgard",
+      "agroforestry"
+    ],
+    "url": "https://library.uniteddiversity.coop/Permaculture/Bonfils-Refutations.pdf"
   },
   {
     "id": "udl_191",
@@ -26883,20 +26883,6 @@
     "source_name": "United Diversity Library",
     "type": "rapport",
     "icon": "📚",
-    "title": "Kinsale-Green-Theatre.pdf",
-    "desc": "Permakultur",
-    "cats": [
-      "skogstradgard",
-      "agroforestry"
-    ],
-    "url": "https://library.uniteddiversity.coop/Permaculture/Kinsale-Green-Theatre.pdf"
-  },
-  {
-    "id": "udl_210",
-    "source": "UDL",
-    "source_name": "United Diversity Library",
-    "type": "rapport",
-    "icon": "📚",
     "title": "Kato-Body_and_Earth_Are_Not_Two.pdf",
     "desc": "Permakultur",
     "cats": [
@@ -26904,6 +26890,20 @@
       "agroforestry"
     ],
     "url": "https://library.uniteddiversity.coop/Permaculture/Kato-Body_and_Earth_Are_Not_Two.pdf"
+  },
+  {
+    "id": "udl_210",
+    "source": "UDL",
+    "source_name": "United Diversity Library",
+    "type": "rapport",
+    "icon": "📚",
+    "title": "Kinsale-Green-Theatre.pdf",
+    "desc": "Permakultur",
+    "cats": [
+      "skogstradgard",
+      "agroforestry"
+    ],
+    "url": "https://library.uniteddiversity.coop/Permaculture/Kinsale-Green-Theatre.pdf"
   },
   {
     "id": "udl_211",
@@ -27442,6 +27442,19 @@
     "source_name": "United Diversity Library",
     "type": "rapport",
     "icon": "📚",
+    "title": "Agroforestry-A_Decade_of_Development.pdf",
+    "desc": "Agroforestry",
+    "cats": [
+      "agroforestry"
+    ],
+    "url": "https://library.uniteddiversity.coop/Permaculture/Agroforestry/Agroforestry-A_Decade_of_Development.pdf"
+  },
+  {
+    "id": "udl_250",
+    "source": "UDL",
+    "source_name": "United Diversity Library",
+    "type": "rapport",
+    "icon": "📚",
     "title": "Agroforestry_Research_Trust_Catalogue_2010-11.pdf",
     "desc": "Agroforestry",
     "cats": [
@@ -27450,7 +27463,7 @@
     "url": "https://library.uniteddiversity.coop/Permaculture/Agroforestry/Agroforestry_Research_Trust_Catalogue_2010-11.pdf"
   },
   {
-    "id": "udl_250",
+    "id": "udl_251",
     "source": "UDL",
     "source_name": "United Diversity Library",
     "type": "rapport",
@@ -27461,19 +27474,6 @@
       "agroforestry"
     ],
     "url": "https://library.uniteddiversity.coop/Permaculture/Agroforestry/Agroforestry_Species-Crop_Sheet_Manual.pdf"
-  },
-  {
-    "id": "udl_251",
-    "source": "UDL",
-    "source_name": "United Diversity Library",
-    "type": "rapport",
-    "icon": "📚",
-    "title": "Agroforestry-A_Decade_of_Development.pdf",
-    "desc": "Agroforestry",
-    "cats": [
-      "agroforestry"
-    ],
-    "url": "https://library.uniteddiversity.coop/Permaculture/Agroforestry/Agroforestry-A_Decade_of_Development.pdf"
   },
   {
     "id": "udl_252",
@@ -27598,12 +27598,12 @@
     "source_name": "United Diversity Library",
     "type": "rapport",
     "icon": "📚",
-    "title": "Forest_Gardens",
+    "title": "Fodder-Trees-by-Marc-Bonfils.doc",
     "desc": "Agroforestry",
     "cats": [
       "agroforestry"
     ],
-    "url": "https://library.uniteddiversity.coop/Permaculture/Agroforestry/Forest_Gardens"
+    "url": "https://library.uniteddiversity.coop/Permaculture/Agroforestry/Fodder-Trees-by-Marc-Bonfils.doc"
   },
   {
     "id": "udl_262",
@@ -27611,12 +27611,12 @@
     "source_name": "United Diversity Library",
     "type": "rapport",
     "icon": "📚",
-    "title": "Fodder-Trees-by-Marc-Bonfils.doc",
+    "title": "Forest_Gardens",
     "desc": "Agroforestry",
     "cats": [
       "agroforestry"
     ],
-    "url": "https://library.uniteddiversity.coop/Permaculture/Agroforestry/Fodder-Trees-by-Marc-Bonfils.doc"
+    "url": "https://library.uniteddiversity.coop/Permaculture/Agroforestry/Forest_Gardens"
   },
   {
     "id": "udl_263",
@@ -27728,12 +27728,12 @@
     "source_name": "United Diversity Library",
     "type": "rapport",
     "icon": "📚",
-    "title": "WoodlandsforWestCork.pdf",
+    "title": "West_Coast_Food_Forestry-A_permaculture_guide.pdf",
     "desc": "Agroforestry",
     "cats": [
       "agroforestry"
     ],
-    "url": "https://library.uniteddiversity.coop/Permaculture/Agroforestry/WoodlandsforWestCork.pdf"
+    "url": "https://library.uniteddiversity.coop/Permaculture/Agroforestry/West_Coast_Food_Forestry-A_permaculture_guide.pdf"
   },
   {
     "id": "udl_272",
@@ -27741,12 +27741,12 @@
     "source_name": "United Diversity Library",
     "type": "rapport",
     "icon": "📚",
-    "title": "West_Coast_Food_Forestry-A_permaculture_guide.pdf",
+    "title": "WoodlandsforWestCork.pdf",
     "desc": "Agroforestry",
     "cats": [
       "agroforestry"
     ],
-    "url": "https://library.uniteddiversity.coop/Permaculture/Agroforestry/West_Coast_Food_Forestry-A_permaculture_guide.pdf"
+    "url": "https://library.uniteddiversity.coop/Permaculture/Agroforestry/WoodlandsforWestCork.pdf"
   },
   {
     "id": "udl_273",
@@ -27793,6 +27793,19 @@
     "source_name": "United Diversity Library",
     "type": "rapport",
     "icon": "📚",
+    "title": "ForestGardenHandout.pdf",
+    "desc": "Skogsträdgård",
+    "cats": [
+      "skogstradgard"
+    ],
+    "url": "https://library.uniteddiversity.coop/Permaculture/Agroforestry/Forest_Gardens/ForestGardenHandout.pdf"
+  },
+  {
+    "id": "udl_277",
+    "source": "UDL",
+    "source_name": "United Diversity Library",
+    "type": "rapport",
+    "icon": "📚",
     "title": "Moulsecoomb_Forest_Garden.pdf",
     "desc": "Skogsträdgård",
     "cats": [
@@ -27801,7 +27814,7 @@
     "url": "https://library.uniteddiversity.coop/Permaculture/Agroforestry/Forest_Gardens/Moulsecoomb_Forest_Garden.pdf"
   },
   {
-    "id": "udl_277",
+    "id": "udl_278",
     "source": "UDL",
     "source_name": "United Diversity Library",
     "type": "rapport",
@@ -27814,33 +27827,7 @@
     "url": "https://library.uniteddiversity.coop/Permaculture/Agroforestry/Forest_Gardens/What_is_a_Forest_Garden.txt"
   },
   {
-    "id": "udl_278",
-    "source": "UDL",
-    "source_name": "United Diversity Library",
-    "type": "rapport",
-    "icon": "📚",
-    "title": "ForestGardenHandout.pdf",
-    "desc": "Skogsträdgård",
-    "cats": [
-      "skogstradgard"
-    ],
-    "url": "https://library.uniteddiversity.coop/Permaculture/Agroforestry/Forest_Gardens/ForestGardenHandout.pdf"
-  },
-  {
     "id": "udl_279",
-    "source": "UDL",
-    "source_name": "United Diversity Library",
-    "type": "rapport",
-    "icon": "📚",
-    "title": "A_Practical_Manual_of_Beekeeping.pdf",
-    "desc": "Bisamhälle",
-    "cats": [
-      "biodiv"
-    ],
-    "url": "https://library.uniteddiversity.coop/Beekeeping/A_Practical_Manual_of_Beekeeping.pdf"
-  },
-  {
-    "id": "udl_280",
     "source": "UDL",
     "source_name": "United Diversity Library",
     "type": "rapport",
@@ -27853,17 +27840,30 @@
     "url": "https://library.uniteddiversity.coop/Beekeeping/10_things_to_help_bees_UK.pdf"
   },
   {
+    "id": "udl_280",
+    "source": "UDL",
+    "source_name": "United Diversity Library",
+    "type": "rapport",
+    "icon": "📚",
+    "title": "Bee_Keepers_Handbook.pdf",
+    "desc": "Bisamhälle",
+    "cats": [
+      "biodiv"
+    ],
+    "url": "https://library.uniteddiversity.coop/Beekeeping/Bee_Keepers_Handbook.pdf"
+  },
+  {
     "id": "udl_281",
     "source": "UDL",
     "source_name": "United Diversity Library",
     "type": "rapport",
     "icon": "📚",
-    "title": "Bee_Keeping_Handbook.pdf",
+    "title": "A_Practical_Manual_of_Beekeeping.pdf",
     "desc": "Bisamhälle",
     "cats": [
       "biodiv"
     ],
-    "url": "https://library.uniteddiversity.coop/Beekeeping/Bee_Keeping_Handbook.pdf"
+    "url": "https://library.uniteddiversity.coop/Beekeeping/A_Practical_Manual_of_Beekeeping.pdf"
   },
   {
     "id": "udl_282",
@@ -27884,12 +27884,12 @@
     "source_name": "United Diversity Library",
     "type": "rapport",
     "icon": "📚",
-    "title": "Beekeeping-Natural_Simple_and_Ecological.pdf",
+    "title": "Bee_Keeping_Handbook.pdf",
     "desc": "Bisamhälle",
     "cats": [
       "biodiv"
     ],
-    "url": "https://library.uniteddiversity.coop/Beekeeping/Beekeeping-Natural_Simple_and_Ecological.pdf"
+    "url": "https://library.uniteddiversity.coop/Beekeeping/Bee_Keeping_Handbook.pdf"
   },
   {
     "id": "udl_284",
@@ -27897,12 +27897,12 @@
     "source_name": "United Diversity Library",
     "type": "rapport",
     "icon": "📚",
-    "title": "Bee_Keepers_Handbook.pdf",
+    "title": "Beekeeping-Natural_Simple_and_Ecological.pdf",
     "desc": "Bisamhälle",
     "cats": [
       "biodiv"
     ],
-    "url": "https://library.uniteddiversity.coop/Beekeeping/Bee_Keepers_Handbook.pdf"
+    "url": "https://library.uniteddiversity.coop/Beekeeping/Beekeeping-Natural_Simple_and_Ecological.pdf"
   },
   {
     "id": "udl_285",
@@ -27936,12 +27936,12 @@
     "source_name": "United Diversity Library",
     "type": "rapport",
     "icon": "📚",
-    "title": "Beekeeping_for_free.pdf",
+    "title": "Beekeeping_Guide.pdf",
     "desc": "Bisamhälle",
     "cats": [
       "biodiv"
     ],
-    "url": "https://library.uniteddiversity.coop/Beekeeping/Beekeeping_for_free.pdf"
+    "url": "https://library.uniteddiversity.coop/Beekeeping/Beekeeping_Guide.pdf"
   },
   {
     "id": "udl_288",
@@ -27949,12 +27949,12 @@
     "source_name": "United Diversity Library",
     "type": "rapport",
     "icon": "📚",
-    "title": "Beekeeping_Guide.pdf",
+    "title": "Beekeeping_for_free.pdf",
     "desc": "Bisamhälle",
     "cats": [
       "biodiv"
     ],
-    "url": "https://library.uniteddiversity.coop/Beekeeping/Beekeeping_Guide.pdf"
+    "url": "https://library.uniteddiversity.coop/Beekeeping/Beekeeping_for_free.pdf"
   },
   {
     "id": "udl_289",
@@ -28014,19 +28014,6 @@
     "source_name": "United Diversity Library",
     "type": "rapport",
     "icon": "📚",
-    "title": "Biodynamic_beekeeping-a_weekend.pdf",
-    "desc": "Bisamhälle",
-    "cats": [
-      "biodiv"
-    ],
-    "url": "https://library.uniteddiversity.coop/Beekeeping/Biodynamic_beekeeping-a_weekend.pdf"
-  },
-  {
-    "id": "udl_294",
-    "source": "UDL",
-    "source_name": "United Diversity Library",
-    "type": "rapport",
-    "icon": "📚",
     "title": "Biodynamic_Beekeeping_QA.pdf",
     "desc": "Bisamhälle",
     "cats": [
@@ -28035,20 +28022,20 @@
     "url": "https://library.uniteddiversity.coop/Beekeeping/Biodynamic_Beekeeping_QA.pdf"
   },
   {
-    "id": "udl_295",
+    "id": "udl_294",
     "source": "UDL",
     "source_name": "United Diversity Library",
     "type": "rapport",
     "icon": "📚",
-    "title": "Encyclopedia_Of_Bee_Culture.pdf",
+    "title": "Biodynamic_beekeeping-a_weekend.pdf",
     "desc": "Bisamhälle",
     "cats": [
       "biodiv"
     ],
-    "url": "https://library.uniteddiversity.coop/Beekeeping/Encyclopedia_Of_Bee_Culture.pdf"
+    "url": "https://library.uniteddiversity.coop/Beekeeping/Biodynamic_beekeeping-a_weekend.pdf"
   },
   {
-    "id": "udl_296",
+    "id": "udl_295",
     "source": "UDL",
     "source_name": "United Diversity Library",
     "type": "rapport",
@@ -28059,6 +28046,19 @@
       "biodiv"
     ],
     "url": "https://library.uniteddiversity.coop/Beekeeping/Colony_Collapse_Disorder.pdf"
+  },
+  {
+    "id": "udl_296",
+    "source": "UDL",
+    "source_name": "United Diversity Library",
+    "type": "rapport",
+    "icon": "📚",
+    "title": "Encyclopedia_Of_Bee_Culture.pdf",
+    "desc": "Bisamhälle",
+    "cats": [
+      "biodiv"
+    ],
+    "url": "https://library.uniteddiversity.coop/Beekeeping/Encyclopedia_Of_Bee_Culture.pdf"
   },
   {
     "id": "udl_297",
@@ -28170,12 +28170,12 @@
     "source_name": "United Diversity Library",
     "type": "rapport",
     "icon": "📚",
-    "title": "Small_Scale_Beekeeping.pdf",
+    "title": "Plans_For_a_Complete_Beekeeping_System.pdf",
     "desc": "Bisamhälle",
     "cats": [
       "biodiv"
     ],
-    "url": "https://library.uniteddiversity.coop/Beekeeping/Small_Scale_Beekeeping.pdf"
+    "url": "https://library.uniteddiversity.coop/Beekeeping/Plans_For_a_Complete_Beekeeping_System.pdf"
   },
   {
     "id": "udl_306",
@@ -28183,12 +28183,12 @@
     "source_name": "United Diversity Library",
     "type": "rapport",
     "icon": "📚",
-    "title": "Plans_For_a_Complete_Beekeeping_System.pdf",
+    "title": "Small_Scale_Beekeeping.pdf",
     "desc": "Bisamhälle",
     "cats": [
       "biodiv"
     ],
-    "url": "https://library.uniteddiversity.coop/Beekeeping/Plans_For_a_Complete_Beekeeping_System.pdf"
+    "url": "https://library.uniteddiversity.coop/Beekeeping/Small_Scale_Beekeeping.pdf"
   },
   {
     "id": "udl_307",
@@ -28365,12 +28365,12 @@
     "source_name": "United Diversity Library",
     "type": "rapport",
     "icon": "📚",
-    "title": "AMOC",
+    "title": "AMEN_to_Climate_Change_Contraction_and_Convergence.pdf",
     "desc": "Klimatförändringar",
     "cats": [
       "klimat"
     ],
-    "url": "https://library.uniteddiversity.coop/Climate_Change/AMOC"
+    "url": "https://library.uniteddiversity.coop/Climate_Change/AMEN_to_Climate_Change_Contraction_and_Convergence.pdf"
   },
   {
     "id": "udl_321",
@@ -28378,12 +28378,12 @@
     "source_name": "United Diversity Library",
     "type": "rapport",
     "icon": "📚",
-    "title": "AMEN_to_Climate_Change_Contraction_and_Convergence.pdf",
+    "title": "AMOC",
     "desc": "Klimatförändringar",
     "cats": [
       "klimat"
     ],
-    "url": "https://library.uniteddiversity.coop/Climate_Change/AMEN_to_Climate_Change_Contraction_and_Convergence.pdf"
+    "url": "https://library.uniteddiversity.coop/Climate_Change/AMOC"
   },
   {
     "id": "udl_322",
@@ -28573,12 +28573,12 @@
     "source_name": "United Diversity Library",
     "type": "rapport",
     "icon": "📚",
-    "title": "Arctic.pdf",
+    "title": "Beyond_dangerous_climate_change-emission_scenarios_for_a_new_world.pdf",
     "desc": "Klimatförändringar",
     "cats": [
       "klimat"
     ],
-    "url": "https://library.uniteddiversity.coop/Climate_Change/Arctic.pdf"
+    "url": "https://library.uniteddiversity.coop/Climate_Change/Beyond_dangerous_climate_change-emission_scenarios_for_a_new_world.pdf"
   },
   {
     "id": "udl_337",
@@ -28586,12 +28586,12 @@
     "source_name": "United Diversity Library",
     "type": "rapport",
     "icon": "📚",
-    "title": "Beyond_dangerous_climate_change-emission_scenarios_for_a_new_world.pdf",
+    "title": "Arctic.pdf",
     "desc": "Klimatförändringar",
     "cats": [
       "klimat"
     ],
-    "url": "https://library.uniteddiversity.coop/Climate_Change/Beyond_dangerous_climate_change-emission_scenarios_for_a_new_world.pdf"
+    "url": "https://library.uniteddiversity.coop/Climate_Change/Arctic.pdf"
   },
   {
     "id": "udl_338",
@@ -28612,12 +28612,12 @@
     "source_name": "United Diversity Library",
     "type": "rapport",
     "icon": "📚",
-    "title": "Buildings_and_CO2-The_Energy_Impact_of_Our_Buildings.pdf",
+    "title": "CLASP_fact_sheet_No9-Revolving_Loan_Funds.pdf",
     "desc": "Klimatförändringar",
     "cats": [
       "klimat"
     ],
-    "url": "https://library.uniteddiversity.coop/Climate_Change/Buildings_and_CO2-The_Energy_Impact_of_Our_Buildings.pdf"
+    "url": "https://library.uniteddiversity.coop/Climate_Change/CLASP_fact_sheet_No9-Revolving_Loan_Funds.pdf"
   },
   {
     "id": "udl_340",
@@ -28625,12 +28625,12 @@
     "source_name": "United Diversity Library",
     "type": "rapport",
     "icon": "📚",
-    "title": "CLASP_fact_sheet_No9-Revolving_Loan_Funds.pdf",
+    "title": "Buildings_and_CO2-The_Energy_Impact_of_Our_Buildings.pdf",
     "desc": "Klimatförändringar",
     "cats": [
       "klimat"
     ],
-    "url": "https://library.uniteddiversity.coop/Climate_Change/CLASP_fact_sheet_No9-Revolving_Loan_Funds.pdf"
+    "url": "https://library.uniteddiversity.coop/Climate_Change/Buildings_and_CO2-The_Energy_Impact_of_Our_Buildings.pdf"
   },
   {
     "id": "udl_341",
@@ -29158,12 +29158,12 @@
     "source_name": "United Diversity Library",
     "type": "rapport",
     "icon": "📚",
-    "title": "Discourses_of_climate_delay_2020.pdf",
+    "title": "DoSomethingAboutGlobalWarming.pdf",
     "desc": "Klimatförändringar",
     "cats": [
       "klimat"
     ],
-    "url": "https://library.uniteddiversity.coop/Climate_Change/Discourses_of_climate_delay_2020.pdf"
+    "url": "https://library.uniteddiversity.coop/Climate_Change/DoSomethingAboutGlobalWarming.pdf"
   },
   {
     "id": "udl_382",
@@ -29171,12 +29171,12 @@
     "source_name": "United Diversity Library",
     "type": "rapport",
     "icon": "📚",
-    "title": "DoSomethingAboutGlobalWarming.pdf",
+    "title": "Discourses_of_climate_delay_2020.pdf",
     "desc": "Klimatförändringar",
     "cats": [
       "klimat"
     ],
-    "url": "https://library.uniteddiversity.coop/Climate_Change/DoSomethingAboutGlobalWarming.pdf"
+    "url": "https://library.uniteddiversity.coop/Climate_Change/Discourses_of_climate_delay_2020.pdf"
   },
   {
     "id": "udl_383",
@@ -29392,12 +29392,12 @@
     "source_name": "United Diversity Library",
     "type": "rapport",
     "icon": "📚",
-    "title": "Food_systems_are_responsible_for_a_third_of_global_anthropogenic_GHG_emissions-Crippa_2021.pdf",
+    "title": "Forest_Resilience_Biodiversity_and_Climate_Change-A_synthesis.pdf",
     "desc": "Klimatförändringar",
     "cats": [
       "klimat"
     ],
-    "url": "https://library.uniteddiversity.coop/Climate_Change/Food_systems_are_responsible_for_a_third_of_global_anthropogenic_GHG_emissions-Crippa_2021.pdf"
+    "url": "https://library.uniteddiversity.coop/Climate_Change/Forest_Resilience_Biodiversity_and_Climate_Change-A_synthesis.pdf"
   },
   {
     "id": "udl_400",
@@ -29405,12 +29405,12 @@
     "source_name": "United Diversity Library",
     "type": "rapport",
     "icon": "📚",
-    "title": "Forest_Resilience_Biodiversity_and_Climate_Change-A_synthesis.pdf",
+    "title": "Food_systems_are_responsible_for_a_third_of_global_anthropogenic_GHG_emissions-Crippa_2021.pdf",
     "desc": "Klimatförändringar",
     "cats": [
       "klimat"
     ],
-    "url": "https://library.uniteddiversity.coop/Climate_Change/Forest_Resilience_Biodiversity_and_Climate_Change-A_synthesis.pdf"
+    "url": "https://library.uniteddiversity.coop/Climate_Change/Food_systems_are_responsible_for_a_third_of_global_anthropogenic_GHG_emissions-Crippa_2021.pdf"
   },
   {
     "id": "udl_401",
@@ -29873,12 +29873,12 @@
     "source_name": "United Diversity Library",
     "type": "rapport",
     "icon": "📚",
-    "title": "Pew_CorpClimateStrategies.pdf",
+    "title": "Plane_Truths.pdf",
     "desc": "Klimatförändringar",
     "cats": [
       "klimat"
     ],
-    "url": "https://library.uniteddiversity.coop/Climate_Change/Pew_CorpClimateStrategies.pdf"
+    "url": "https://library.uniteddiversity.coop/Climate_Change/Plane_Truths.pdf"
   },
   {
     "id": "udl_437",
@@ -29886,12 +29886,12 @@
     "source_name": "United Diversity Library",
     "type": "rapport",
     "icon": "📚",
-    "title": "Plane_Truths.pdf",
+    "title": "Pew_CorpClimateStrategies.pdf",
     "desc": "Klimatförändringar",
     "cats": [
       "klimat"
     ],
-    "url": "https://library.uniteddiversity.coop/Climate_Change/Plane_Truths.pdf"
+    "url": "https://library.uniteddiversity.coop/Climate_Change/Pew_CorpClimateStrategies.pdf"
   },
   {
     "id": "udl_438",
@@ -30107,12 +30107,12 @@
     "source_name": "United Diversity Library",
     "type": "rapport",
     "icon": "📚",
-    "title": "Ruminants_climate_change_and_climate_policy_2014.pdf",
+    "title": "Safe_and_just_Earth_system_boundaries_2023.pdf",
     "desc": "Klimatförändringar",
     "cats": [
       "klimat"
     ],
-    "url": "https://library.uniteddiversity.coop/Climate_Change/Ruminants_climate_change_and_climate_policy_2014.pdf"
+    "url": "https://library.uniteddiversity.coop/Climate_Change/Safe_and_just_Earth_system_boundaries_2023.pdf"
   },
   {
     "id": "udl_455",
@@ -30120,12 +30120,12 @@
     "source_name": "United Diversity Library",
     "type": "rapport",
     "icon": "📚",
-    "title": "Safe_and_just_Earth_system_boundaries_2023.pdf",
+    "title": "Ruminants_climate_change_and_climate_policy_2014.pdf",
     "desc": "Klimatförändringar",
     "cats": [
       "klimat"
     ],
-    "url": "https://library.uniteddiversity.coop/Climate_Change/Safe_and_just_Earth_system_boundaries_2023.pdf"
+    "url": "https://library.uniteddiversity.coop/Climate_Change/Ruminants_climate_change_and_climate_policy_2014.pdf"
   },
   {
     "id": "udl_456",
@@ -30445,12 +30445,12 @@
     "source_name": "United Diversity Library",
     "type": "rapport",
     "icon": "📚",
-    "title": "The_role_of_high-socioeconomic-status_people_in_locking_in_or_rapidly_reducing_energy-driven_greenhouse_gas_emissions_2021.pdf",
+    "title": "The_projected_effect_on_insects_vertebrates_and_plants_of_limiting_global_warming_to_1.5°C_rather_than_2°C-Warren_2018-science.aar3646.pdf",
     "desc": "Klimatförändringar",
     "cats": [
       "klimat"
     ],
-    "url": "https://library.uniteddiversity.coop/Climate_Change/The_role_of_high-socioeconomic-status_people_in_locking_in_or_rapidly_reducing_energy-driven_greenhouse_gas_emissions_2021.pdf"
+    "url": "https://library.uniteddiversity.coop/Climate_Change/The_projected_effect_on_insects_vertebrates_and_plants_of_limiting_global_warming_to_1.5°C_rather_than_2°C-Warren_2018-science.aar3646.pdf"
   },
   {
     "id": "udl_481",
@@ -30458,12 +30458,12 @@
     "source_name": "United Diversity Library",
     "type": "rapport",
     "icon": "📚",
-    "title": "The_projected_effect_on_insects_vertebrates_and_plants_of_limiting_global_warming_to_1.5°C_rather_than_2°C-Warren_2018-science.aar3646.pdf",
+    "title": "The_role_of_high-socioeconomic-status_people_in_locking_in_or_rapidly_reducing_energy-driven_greenhouse_gas_emissions_2021.pdf",
     "desc": "Klimatförändringar",
     "cats": [
       "klimat"
     ],
-    "url": "https://library.uniteddiversity.coop/Climate_Change/The_projected_effect_on_insects_vertebrates_and_plants_of_limiting_global_warming_to_1.5°C_rather_than_2°C-Warren_2018-science.aar3646.pdf"
+    "url": "https://library.uniteddiversity.coop/Climate_Change/The_role_of_high-socioeconomic-status_people_in_locking_in_or_rapidly_reducing_energy-driven_greenhouse_gas_emissions_2021.pdf"
   },
   {
     "id": "udl_482",
@@ -30999,7 +30999,7 @@
     "url": "https://library.uniteddiversity.coop/Climate_Change/zerocarbonbritain.pdf"
   },
   {
-    "id": "nv_8789857234642680361_4259726884949995488",
+    "id": "nv_-864538451025549290_-8777967605282141982",
     "title": "Vägledning och stöd",
     "source": "Naturvårdsverket",
     "source_name": "Naturvårdsverket",
@@ -31013,7 +31013,7 @@
     "desc": "Vägledning från Naturvårdsverket inom kategori: Våtmark"
   },
   {
-    "id": "nv_-7495933342659865477_4259726884949995488",
+    "id": "nv_-5689072255831857072_-8777967605282141982",
     "title": "VägledningMarkavvattning",
     "source": "Naturvårdsverket",
     "source_name": "Naturvårdsverket",
@@ -31027,7 +31027,7 @@
     "desc": "Vägledning från Naturvårdsverket inom kategori: Våtmark"
   },
   {
-    "id": "nv_1288012124542092102_4259726884949995488",
+    "id": "nv_145778102727234242_-8777967605282141982",
     "title": "VägledningRegler vid våtmarksrestaurering i områden med markavvattning",
     "source": "Naturvårdsverket",
     "source_name": "Naturvårdsverket",
@@ -31041,7 +31041,7 @@
     "desc": "Vägledning från Naturvårdsverket inom kategori: Våtmark"
   },
   {
-    "id": "nv_5035933878746159068_4259726884949995488",
+    "id": "nv_-6425343473898031323_-8777967605282141982",
     "title": "TillsynsvägledningTillsyn av markavvattnings­verksamheter",
     "source": "Naturvårdsverket",
     "source_name": "Naturvårdsverket",
@@ -31055,7 +31055,7 @@
     "desc": "Vägledning från Naturvårdsverket inom kategori: Våtmark"
   },
   {
-    "id": "nv_-8672654727899404452_4259726884949995488",
+    "id": "nv_-6016775828461723637_-8777967605282141982",
     "title": "TillsynsvägledningOmprövning och återkallelse av tillstånd till markavvattning",
     "source": "Naturvårdsverket",
     "source_name": "Naturvårdsverket",
@@ -31069,7 +31069,7 @@
     "desc": "Vägledning från Naturvårdsverket inom kategori: Våtmark"
   },
   {
-    "id": "nv_8789857234642680361_-5167378104987535929",
+    "id": "nv_-864538451025549290_6532323001284352095",
     "title": "Vägledning och stöd",
     "source": "Naturvårdsverket",
     "source_name": "Naturvårdsverket",
@@ -31083,21 +31083,7 @@
     "desc": "Vägledning från Naturvårdsverket inom kategori: Skyddad natur"
   },
   {
-    "id": "nv_4582560280909943045_-5167378104987535929",
-    "title": "Stöd och informationNatura 2000-områden för verksamhetsutövare",
-    "source": "Naturvårdsverket",
-    "source_name": "Naturvårdsverket",
-    "type": "guide",
-    "icon": "📋",
-    "url": "https://www.naturvardsverket.se/vagledning-och-stod/branscher-och-verksamheter/natura-2000-omraden-for-verksamhetsutovare/",
-    "cats": [
-      "biodiv",
-      "omstallning"
-    ],
-    "desc": "Vägledning från Naturvårdsverket inom kategori: Skyddad natur"
-  },
-  {
-    "id": "nv_7120012167099475531_-5167378104987535929",
+    "id": "nv_6502234940807194054_6532323001284352095",
     "title": "VägledningGranbarkborre i och kring skyddad natur",
     "source": "Naturvårdsverket",
     "source_name": "Naturvårdsverket",
@@ -31111,7 +31097,7 @@
     "desc": "Vägledning från Naturvårdsverket inom kategori: Skyddad natur"
   },
   {
-    "id": "nv_6255709084214213314_-5167378104987535929",
+    "id": "nv_-6776411931144088758_6532323001284352095",
     "title": "VägledningInrätta kommunala naturreservat",
     "source": "Naturvårdsverket",
     "source_name": "Naturvårdsverket",
@@ -31125,7 +31111,7 @@
     "desc": "Vägledning från Naturvårdsverket inom kategori: Skyddad natur"
   },
   {
-    "id": "nv_-7913248313893684386_-5167378104987535929",
+    "id": "nv_-3074052948194202569_6532323001284352095",
     "title": "VägledningBiotopskyddsområden",
     "source": "Naturvårdsverket",
     "source_name": "Naturvårdsverket",
@@ -31139,63 +31125,7 @@
     "desc": "Vägledning från Naturvårdsverket inom kategori: Skyddad natur"
   },
   {
-    "id": "nv_-2456515887303913882_-5167378104987535929",
-    "title": "VägledningAtt skylta i skyddad natur",
-    "source": "Naturvårdsverket",
-    "source_name": "Naturvårdsverket",
-    "type": "guide",
-    "icon": "📋",
-    "url": "https://www.naturvardsverket.se/vagledning-och-stod/skyddad-natur/att-skylta-i-skyddad-natur/",
-    "cats": [
-      "biodiv",
-      "omstallning"
-    ],
-    "desc": "Vägledning från Naturvårdsverket inom kategori: Skyddad natur"
-  },
-  {
-    "id": "nv_-1848182370714493549_-5167378104987535929",
-    "title": "VägledningRiktlinjer för entréer till nationalparker",
-    "source": "Naturvårdsverket",
-    "source_name": "Naturvårdsverket",
-    "type": "guide",
-    "icon": "📋",
-    "url": "https://www.naturvardsverket.se/vagledning-och-stod/skyddad-natur/riktlinjer-for-entreer-till-nationalparker/",
-    "cats": [
-      "biodiv",
-      "omstallning"
-    ],
-    "desc": "Vägledning från Naturvårdsverket inom kategori: Skyddad natur"
-  },
-  {
-    "id": "nv_2778339956313422613_-5167378104987535929",
-    "title": "VägledningSkötselplaner för nationalparker",
-    "source": "Naturvårdsverket",
-    "source_name": "Naturvårdsverket",
-    "type": "guide",
-    "icon": "📋",
-    "url": "https://www.naturvardsverket.se/vagledning-och-stod/skyddad-natur/skotselplaner-for-nationalparker/",
-    "cats": [
-      "biodiv",
-      "omstallning"
-    ],
-    "desc": "Vägledning från Naturvårdsverket inom kategori: Skyddad natur"
-  },
-  {
-    "id": "nv_-1636865767299393557_-5167378104987535929",
-    "title": "TillsynsvägledningTillsyn av strandskydd och vattenverksamhet i grunda havsvikar",
-    "source": "Naturvårdsverket",
-    "source_name": "Naturvårdsverket",
-    "type": "guide",
-    "icon": "📋",
-    "url": "https://www.naturvardsverket.se/vagledning-och-stod/skyddad-natur/grunda-havsvikar/",
-    "cats": [
-      "biodiv",
-      "omstallning"
-    ],
-    "desc": "Vägledning från Naturvårdsverket inom kategori: Skyddad natur"
-  },
-  {
-    "id": "nv_-3546282525413016610_-5167378104987535929",
+    "id": "nv_8767796863726319020_6532323001284352095",
     "title": "TillsynsvägledningTillsyn i jordbrukslandskapet",
     "source": "Naturvårdsverket",
     "source_name": "Naturvårdsverket",
@@ -31209,13 +31139,13 @@
     "desc": "Vägledning från Naturvårdsverket inom kategori: Skyddad natur"
   },
   {
-    "id": "nv_-4806607964654065950_-5167378104987535929",
-    "title": "VägledningUppföljning i skyddade områden",
+    "id": "nv_549560605251532818_6532323001284352095",
+    "title": "VägledningAtt skylta i skyddad natur",
     "source": "Naturvårdsverket",
     "source_name": "Naturvårdsverket",
     "type": "guide",
     "icon": "📋",
-    "url": "https://www.naturvardsverket.se/vagledning-och-stod/miljoovervakning/uppfoljning-i-skyddade-omraden/",
+    "url": "https://www.naturvardsverket.se/vagledning-och-stod/skyddad-natur/att-skylta-i-skyddad-natur/",
     "cats": [
       "biodiv",
       "omstallning"
@@ -31223,7 +31153,63 @@
     "desc": "Vägledning från Naturvårdsverket inom kategori: Skyddad natur"
   },
   {
-    "id": "nv_-169445595384072982_-5167378104987535929",
+    "id": "nv_1111762239980893306_6532323001284352095",
+    "title": "VägledningRiktlinjer för entréer till nationalparker",
+    "source": "Naturvårdsverket",
+    "source_name": "Naturvårdsverket",
+    "type": "guide",
+    "icon": "📋",
+    "url": "https://www.naturvardsverket.se/vagledning-och-stod/skyddad-natur/riktlinjer-for-entreer-till-nationalparker/",
+    "cats": [
+      "biodiv",
+      "omstallning"
+    ],
+    "desc": "Vägledning från Naturvårdsverket inom kategori: Skyddad natur"
+  },
+  {
+    "id": "nv_-8346229101522187660_6532323001284352095",
+    "title": "VägledningSkötselplaner för nationalparker",
+    "source": "Naturvårdsverket",
+    "source_name": "Naturvårdsverket",
+    "type": "guide",
+    "icon": "📋",
+    "url": "https://www.naturvardsverket.se/vagledning-och-stod/skyddad-natur/skotselplaner-for-nationalparker/",
+    "cats": [
+      "biodiv",
+      "omstallning"
+    ],
+    "desc": "Vägledning från Naturvårdsverket inom kategori: Skyddad natur"
+  },
+  {
+    "id": "nv_-1182010183514319014_6532323001284352095",
+    "title": "Stöd och informationNatura 2000-områden för verksamhetsutövare",
+    "source": "Naturvårdsverket",
+    "source_name": "Naturvårdsverket",
+    "type": "guide",
+    "icon": "📋",
+    "url": "https://www.naturvardsverket.se/vagledning-och-stod/branscher-och-verksamheter/natura-2000-omraden-for-verksamhetsutovare/",
+    "cats": [
+      "biodiv",
+      "omstallning"
+    ],
+    "desc": "Vägledning från Naturvårdsverket inom kategori: Skyddad natur"
+  },
+  {
+    "id": "nv_3280363132471207989_6532323001284352095",
+    "title": "TillsynsvägledningTillsyn av strandskydd och vattenverksamhet i grunda havsvikar",
+    "source": "Naturvårdsverket",
+    "source_name": "Naturvårdsverket",
+    "type": "guide",
+    "icon": "📋",
+    "url": "https://www.naturvardsverket.se/vagledning-och-stod/skyddad-natur/grunda-havsvikar/",
+    "cats": [
+      "biodiv",
+      "omstallning"
+    ],
+    "desc": "Vägledning från Naturvårdsverket inom kategori: Skyddad natur"
+  },
+  {
+    "id": "nv_7885009813022991843_6532323001284352095",
     "title": "VägledningInmätningsuppdrag vid områdesskydd",
     "source": "Naturvårdsverket",
     "source_name": "Naturvårdsverket",
@@ -31237,7 +31223,7 @@
     "desc": "Vägledning från Naturvårdsverket inom kategori: Skyddad natur"
   },
   {
-    "id": "nv_-5414175472163049432_-5167378104987535929",
+    "id": "nv_1645069343100454609_6532323001284352095",
     "title": "VägledningFörvaltning av fastigheter",
     "source": "Naturvårdsverket",
     "source_name": "Naturvårdsverket",
@@ -31251,7 +31237,21 @@
     "desc": "Vägledning från Naturvårdsverket inom kategori: Skyddad natur"
   },
   {
-    "id": "nv_8789857234642680361_-6828418099560312561",
+    "id": "nv_-7090705486278697358_6532323001284352095",
+    "title": "VägledningNaturminne",
+    "source": "Naturvårdsverket",
+    "source_name": "Naturvårdsverket",
+    "type": "guide",
+    "icon": "📋",
+    "url": "https://www.naturvardsverket.se/vagledning-och-stod/skyddad-natur/naturminne/",
+    "cats": [
+      "biodiv",
+      "omstallning"
+    ],
+    "desc": "Vägledning från Naturvårdsverket inom kategori: Skyddad natur"
+  },
+  {
+    "id": "nv_-864538451025549290_8806902548129734153",
     "title": "Vägledning och stöd",
     "source": "Naturvårdsverket",
     "source_name": "Naturvårdsverket",
@@ -31265,7 +31265,7 @@
     "desc": "Vägledning från Naturvårdsverket inom kategori: Samhällsplanering"
   },
   {
-    "id": "nv_3740519919435360621_-6828418099560312561",
+    "id": "nv_-8276151357926629896_8806902548129734153",
     "title": "VägledningGuide för värdering av ekosystemtjänster",
     "source": "Naturvårdsverket",
     "source_name": "Naturvårdsverket",
@@ -31279,49 +31279,7 @@
     "desc": "Vägledning från Naturvårdsverket inom kategori: Samhällsplanering"
   },
   {
-    "id": "nv_-1104235080504474462_-6828418099560312561",
-    "title": "VägledningAtt kommunicera och förankra grön infrastruktur",
-    "source": "Naturvårdsverket",
-    "source_name": "Naturvårdsverket",
-    "type": "guide",
-    "icon": "📋",
-    "url": "https://www.naturvardsverket.se/vagledning-och-stod/samhallsplanering/kommunicera-och-forankra-gron-infrastruktur/",
-    "cats": [
-      "omstallning",
-      "policy"
-    ],
-    "desc": "Vägledning från Naturvårdsverket inom kategori: Samhällsplanering"
-  },
-  {
-    "id": "nv_7728435883349866041_-6828418099560312561",
-    "title": "VägledningHandledning för att identifiera potentiellt miljöskadliga subventioner",
-    "source": "Naturvårdsverket",
-    "source_name": "Naturvårdsverket",
-    "type": "guide",
-    "icon": "📋",
-    "url": "https://www.naturvardsverket.se/vagledning-och-stod/samhallsplanering/miljoskadliga-subventioner/",
-    "cats": [
-      "omstallning",
-      "policy"
-    ],
-    "desc": "Vägledning från Naturvårdsverket inom kategori: Samhällsplanering"
-  },
-  {
-    "id": "nv_1687227926326003837_-6828418099560312561",
-    "title": "VägledningVägledning om grönplanering",
-    "source": "Naturvårdsverket",
-    "source_name": "Naturvårdsverket",
-    "type": "guide",
-    "icon": "📋",
-    "url": "https://www.naturvardsverket.se/vagledning-och-stod/samhallsplanering/gronplanering/",
-    "cats": [
-      "omstallning",
-      "policy"
-    ],
-    "desc": "Vägledning från Naturvårdsverket inom kategori: Samhällsplanering"
-  },
-  {
-    "id": "nv_4580936364523003573_-6828418099560312561",
+    "id": "nv_-1338048301695821443_8806902548129734153",
     "title": "VägledningTa hänsyn till ekosystemtjänster inom länsstyrelsens sakområden",
     "source": "Naturvårdsverket",
     "source_name": "Naturvårdsverket",
@@ -31335,7 +31293,21 @@
     "desc": "Vägledning från Naturvårdsverket inom kategori: Samhällsplanering"
   },
   {
-    "id": "nv_-2264225562700741509_-6828418099560312561",
+    "id": "nv_6404160446021931883_8806902548129734153",
+    "title": "VägledningVägledning om grönplanering",
+    "source": "Naturvårdsverket",
+    "source_name": "Naturvårdsverket",
+    "type": "guide",
+    "icon": "📋",
+    "url": "https://www.naturvardsverket.se/vagledning-och-stod/samhallsplanering/gronplanering/",
+    "cats": [
+      "omstallning",
+      "policy"
+    ],
+    "desc": "Vägledning från Naturvårdsverket inom kategori: Samhällsplanering"
+  },
+  {
+    "id": "nv_-7908901133070239817_8806902548129734153",
     "title": "VägledningStatligt stöd för restaurering och vissa skötselåtgärder i ängs- och betesmarker",
     "source": "Naturvårdsverket",
     "source_name": "Naturvårdsverket",
@@ -31349,13 +31321,13 @@
     "desc": "Vägledning från Naturvårdsverket inom kategori: Samhällsplanering"
   },
   {
-    "id": "nv_-7687671781720462245_-6828418099560312561",
-    "title": "VägledningTransportplaner",
+    "id": "nv_3239865741036539581_8806902548129734153",
+    "title": "VägledningAtt kommunicera och förankra grön infrastruktur",
     "source": "Naturvårdsverket",
     "source_name": "Naturvårdsverket",
     "type": "guide",
     "icon": "📋",
-    "url": "https://www.naturvardsverket.se/vagledning-och-stod/samhallsplanering/transportplaner/",
+    "url": "https://www.naturvardsverket.se/vagledning-och-stod/samhallsplanering/kommunicera-och-forankra-gron-infrastruktur/",
     "cats": [
       "omstallning",
       "policy"
@@ -31363,7 +31335,21 @@
     "desc": "Vägledning från Naturvårdsverket inom kategori: Samhällsplanering"
   },
   {
-    "id": "nv_8082418633011938988_-6828418099560312561",
+    "id": "nv_-2044761467602710294_8806902548129734153",
+    "title": "VägledningHandledning för att identifiera potentiellt miljöskadliga subventioner",
+    "source": "Naturvårdsverket",
+    "source_name": "Naturvårdsverket",
+    "type": "guide",
+    "icon": "📋",
+    "url": "https://www.naturvardsverket.se/vagledning-och-stod/samhallsplanering/miljoskadliga-subventioner/",
+    "cats": [
+      "omstallning",
+      "policy"
+    ],
+    "desc": "Vägledning från Naturvårdsverket inom kategori: Samhällsplanering"
+  },
+  {
+    "id": "nv_-121313830443567716_8806902548129734153",
     "title": "VägledningHandledning i samhällsekonomisk analys",
     "source": "Naturvårdsverket",
     "source_name": "Naturvårdsverket",
@@ -31377,21 +31363,7 @@
     "desc": "Vägledning från Naturvårdsverket inom kategori: Samhällsplanering"
   },
   {
-    "id": "nv_-5400516659948815420_-6828418099560312561",
-    "title": "VägledningNaturbaserade lösningar",
-    "source": "Naturvårdsverket",
-    "source_name": "Naturvårdsverket",
-    "type": "guide",
-    "icon": "📋",
-    "url": "https://www.naturvardsverket.se/vagledning-och-stod/samhallsplanering/naturbaserade-losningar/",
-    "cats": [
-      "omstallning",
-      "policy"
-    ],
-    "desc": "Vägledning från Naturvårdsverket inom kategori: Samhällsplanering"
-  },
-  {
-    "id": "nv_-2106769792010898249_-6828418099560312561",
+    "id": "nv_-6655129666695859705_8806902548129734153",
     "title": "TillsynsvägledningTillsyn väg- och spårtrafik",
     "source": "Naturvårdsverket",
     "source_name": "Naturvårdsverket",
@@ -31405,7 +31377,35 @@
     "desc": "Vägledning från Naturvårdsverket inom kategori: Samhällsplanering"
   },
   {
-    "id": "nv_-6490686972832870808_-6828418099560312561",
+    "id": "nv_7825504110636882504_8806902548129734153",
+    "title": "VägledningTransportplaner",
+    "source": "Naturvårdsverket",
+    "source_name": "Naturvårdsverket",
+    "type": "guide",
+    "icon": "📋",
+    "url": "https://www.naturvardsverket.se/vagledning-och-stod/samhallsplanering/transportplaner/",
+    "cats": [
+      "omstallning",
+      "policy"
+    ],
+    "desc": "Vägledning från Naturvårdsverket inom kategori: Samhällsplanering"
+  },
+  {
+    "id": "nv_-5936943596228509947_8806902548129734153",
+    "title": "VägledningNaturbaserade lösningar",
+    "source": "Naturvårdsverket",
+    "source_name": "Naturvårdsverket",
+    "type": "guide",
+    "icon": "📋",
+    "url": "https://www.naturvardsverket.se/vagledning-och-stod/samhallsplanering/naturbaserade-losningar/",
+    "cats": [
+      "omstallning",
+      "policy"
+    ],
+    "desc": "Vägledning från Naturvårdsverket inom kategori: Samhällsplanering"
+  },
+  {
+    "id": "nv_-2733747158389214869_8806902548129734153",
     "title": "VägledningEkologisk kompensation",
     "source": "Naturvårdsverket",
     "source_name": "Naturvårdsverket",
@@ -31419,13 +31419,13 @@
     "desc": "Vägledning från Naturvårdsverket inom kategori: Samhällsplanering"
   },
   {
-    "id": "nv_-8802472003311856456_-6828418099560312561",
-    "title": "VägledningEkosystemansatsen – att bevara och hållbart nyttja naturresurser",
+    "id": "nv_6838436501522301783_8806902548129734153",
+    "title": "VägledningSamråd vid ändring av naturmiljön",
     "source": "Naturvårdsverket",
     "source_name": "Naturvårdsverket",
     "type": "guide",
     "icon": "📋",
-    "url": "https://www.naturvardsverket.se/vagledning-och-stod/samhallsplanering/ekosystemansatsen--att-bevara-och-hallbart-nyttja-naturresurser/",
+    "url": "https://www.naturvardsverket.se/vagledning-och-stod/samhallsplanering/samrad-vid-andring-av-naturmiljon/",
     "cats": [
       "omstallning",
       "policy"
@@ -31433,7 +31433,7 @@
     "desc": "Vägledning från Naturvårdsverket inom kategori: Samhällsplanering"
   },
   {
-    "id": "nv_8789857234642680361_3454014690763286588",
+    "id": "nv_-864538451025549290_1650515957551431487",
     "title": "Vägledning och stöd",
     "source": "Naturvårdsverket",
     "source_name": "Naturvårdsverket",
@@ -31447,7 +31447,7 @@
     "desc": "Vägledning från Naturvårdsverket inom kategori: Miljömål och miljöledning"
   },
   {
-    "id": "nv_1371959164248133750_3454014690763286588",
+    "id": "nv_3730646054810138359_1650515957551431487",
     "title": "VägledningÅrlig nationell uppföljning av Sveriges miljömål",
     "source": "Naturvårdsverket",
     "source_name": "Naturvårdsverket",
@@ -31461,7 +31461,7 @@
     "desc": "Vägledning från Naturvårdsverket inom kategori: Miljömål och miljöledning"
   },
   {
-    "id": "nv_771839789549150468_3454014690763286588",
+    "id": "nv_6532594066836964875_1650515957551431487",
     "title": "VägledningMiljöledning i staten",
     "source": "Naturvårdsverket",
     "source_name": "Naturvårdsverket",
@@ -31475,7 +31475,7 @@
     "desc": "Vägledning från Naturvårdsverket inom kategori: Miljömål och miljöledning"
   },
   {
-    "id": "nv_-8742877729583742643_3454014690763286588",
+    "id": "nv_-1121079150047965670_1650515957551431487",
     "title": "VägledningEMAS för företag och organisationer",
     "source": "Naturvårdsverket",
     "source_name": "Naturvårdsverket",
@@ -31489,7 +31489,7 @@
     "desc": "Vägledning från Naturvårdsverket inom kategori: Miljömål och miljöledning"
   },
   {
-    "id": "nv_5263032150676316741_3454014690763286588",
+    "id": "nv_-7348371009554908647_1650515957551431487",
     "title": "VägledningFördjupad utvärdering av Sveriges miljömål",
     "source": "Naturvårdsverket",
     "source_name": "Naturvårdsverket",
@@ -31503,7 +31503,7 @@
     "desc": "Vägledning från Naturvårdsverket inom kategori: Miljömål och miljöledning"
   },
   {
-    "id": "nv_8789857234642680361_4701946216513199531",
+    "id": "nv_-864538451025549290_1512700486503333529",
     "title": "Vägledning och stöd",
     "source": "Naturvårdsverket",
     "source_name": "Naturvårdsverket",
@@ -31517,63 +31517,7 @@
     "desc": "Vägledning från Naturvårdsverket inom kategori: Miljöbalken"
   },
   {
-    "id": "nv_-1067101113680027058_4701946216513199531",
-    "title": "VägledningAnmäla ny miljöfarlig C-verksamhet",
-    "source": "Naturvårdsverket",
-    "source_name": "Naturvårdsverket",
-    "type": "guide",
-    "icon": "📋",
-    "url": "https://www.naturvardsverket.se/vagledning-och-stod/miljobalken/anmala-ny-miljofarlig-c-verksamhet/",
-    "cats": [
-      "policy",
-      "omstallning"
-    ],
-    "desc": "Vägledning från Naturvårdsverket inom kategori: Miljöbalken"
-  },
-  {
-    "id": "nv_2491852160099895718_4701946216513199531",
-    "title": "Stöd och informationMiljöbedömning gränsöverskridande verksamhet",
-    "source": "Naturvårdsverket",
-    "source_name": "Naturvårdsverket",
-    "type": "guide",
-    "icon": "📋",
-    "url": "https://www.naturvardsverket.se/vagledning-och-stod/miljobalken/miljobedomning-gransoverskridande-verksamhet/",
-    "cats": [
-      "policy",
-      "omstallning"
-    ],
-    "desc": "Vägledning från Naturvårdsverket inom kategori: Miljöbalken"
-  },
-  {
-    "id": "nv_6722584459463861173_4701946216513199531",
-    "title": "VägledningGränsöverskridande miljöpåverkan av planer och program",
-    "source": "Naturvårdsverket",
-    "source_name": "Naturvårdsverket",
-    "type": "guide",
-    "icon": "📋",
-    "url": "https://www.naturvardsverket.se/vagledning-och-stod/miljobalken/gransoverskridande-miljopaverkan-av-planer-och-program/",
-    "cats": [
-      "policy",
-      "omstallning"
-    ],
-    "desc": "Vägledning från Naturvårdsverket inom kategori: Miljöbalken"
-  },
-  {
-    "id": "nv_6373966467796430560_4701946216513199531",
-    "title": "TillsynsvägledningTillsyn enligt miljöbalken",
-    "source": "Naturvårdsverket",
-    "source_name": "Naturvårdsverket",
-    "type": "guide",
-    "icon": "📋",
-    "url": "https://www.naturvardsverket.se/vagledning-och-stod/miljobalken/tillsyn-enligt-miljobalken/",
-    "cats": [
-      "policy",
-      "omstallning"
-    ],
-    "desc": "Vägledning från Naturvårdsverket inom kategori: Miljöbalken"
-  },
-  {
-    "id": "nv_336860448207959436_4701946216513199531",
+    "id": "nv_7157073497099964123_1512700486503333529",
     "title": "VägledningGeografisk information (GIS) i miljöbedömningar",
     "source": "Naturvårdsverket",
     "source_name": "Naturvårdsverket",
@@ -31587,13 +31531,13 @@
     "desc": "Vägledning från Naturvårdsverket inom kategori: Miljöbalken"
   },
   {
-    "id": "nv_-1894080105094123580_4701946216513199531",
-    "title": "VägledningHänsynsreglerna – 2 kap. miljöbalken",
+    "id": "nv_2510692406331046637_1512700486503333529",
+    "title": "TillsynsvägledningTillsyn enligt miljöbalken",
     "source": "Naturvårdsverket",
     "source_name": "Naturvårdsverket",
     "type": "guide",
     "icon": "📋",
-    "url": "https://www.naturvardsverket.se/vagledning-och-stod/miljobalken/hansynsreglerna--kapitel-2-miljobalken/",
+    "url": "https://www.naturvardsverket.se/vagledning-och-stod/miljobalken/tillsyn-enligt-miljobalken/",
     "cats": [
       "policy",
       "omstallning"
@@ -31601,7 +31545,7 @@
     "desc": "Vägledning från Naturvårdsverket inom kategori: Miljöbalken"
   },
   {
-    "id": "nv_-128820016442887967_4701946216513199531",
+    "id": "nv_8513563236708108783_1512700486503333529",
     "title": "Stöd och informationUnderrättelse till regeringen",
     "source": "Naturvårdsverket",
     "source_name": "Naturvårdsverket",
@@ -31615,7 +31559,21 @@
     "desc": "Vägledning från Naturvårdsverket inom kategori: Miljöbalken"
   },
   {
-    "id": "nv_-7030554889244208864_4701946216513199531",
+    "id": "nv_5422948660919297364_1512700486503333529",
+    "title": "VägledningGränsöverskridande miljöpåverkan av planer och program",
+    "source": "Naturvårdsverket",
+    "source_name": "Naturvårdsverket",
+    "type": "guide",
+    "icon": "📋",
+    "url": "https://www.naturvardsverket.se/vagledning-och-stod/miljobalken/gransoverskridande-miljopaverkan-av-planer-och-program/",
+    "cats": [
+      "policy",
+      "omstallning"
+    ],
+    "desc": "Vägledning från Naturvårdsverket inom kategori: Miljöbalken"
+  },
+  {
+    "id": "nv_-5614859398886841826_1512700486503333529",
     "title": "Stöd och informationSå går en tillstånds­prövning enligt miljöbalken till",
     "source": "Naturvårdsverket",
     "source_name": "Naturvårdsverket",
@@ -31629,7 +31587,49 @@
     "desc": "Vägledning från Naturvårdsverket inom kategori: Miljöbalken"
   },
   {
-    "id": "nv_-1828627796025186478_4701946216513199531",
+    "id": "nv_5250394293363464427_1512700486503333529",
+    "title": "VägledningAnmäla ny miljöfarlig C-verksamhet",
+    "source": "Naturvårdsverket",
+    "source_name": "Naturvårdsverket",
+    "type": "guide",
+    "icon": "📋",
+    "url": "https://www.naturvardsverket.se/vagledning-och-stod/miljobalken/anmala-ny-miljofarlig-c-verksamhet/",
+    "cats": [
+      "policy",
+      "omstallning"
+    ],
+    "desc": "Vägledning från Naturvårdsverket inom kategori: Miljöbalken"
+  },
+  {
+    "id": "nv_-6405791274228477363_1512700486503333529",
+    "title": "Stöd och informationMiljöbedömning gränsöverskridande verksamhet",
+    "source": "Naturvårdsverket",
+    "source_name": "Naturvårdsverket",
+    "type": "guide",
+    "icon": "📋",
+    "url": "https://www.naturvardsverket.se/vagledning-och-stod/miljobalken/miljobedomning-gransoverskridande-verksamhet/",
+    "cats": [
+      "policy",
+      "omstallning"
+    ],
+    "desc": "Vägledning från Naturvårdsverket inom kategori: Miljöbalken"
+  },
+  {
+    "id": "nv_1889503949909100897_1512700486503333529",
+    "title": "VägledningHänsynsreglerna – 2 kap. miljöbalken",
+    "source": "Naturvårdsverket",
+    "source_name": "Naturvårdsverket",
+    "type": "guide",
+    "icon": "📋",
+    "url": "https://www.naturvardsverket.se/vagledning-och-stod/miljobalken/hansynsreglerna--kapitel-2-miljobalken/",
+    "cats": [
+      "policy",
+      "omstallning"
+    ],
+    "desc": "Vägledning från Naturvårdsverket inom kategori: Miljöbalken"
+  },
+  {
+    "id": "nv_-113577580752802300_1512700486503333529",
     "title": "VägledningTillståndsprövning – Tidsbegränsning – 16 kap. miljöbalken",
     "source": "Naturvårdsverket",
     "source_name": "Naturvårdsverket",
@@ -31643,7 +31643,7 @@
     "desc": "Vägledning från Naturvårdsverket inom kategori: Miljöbalken"
   },
   {
-    "id": "nv_3684391701309400851_4701946216513199531",
+    "id": "nv_3301701475290344077_1512700486503333529",
     "title": "TillsynsvägledningOmprövning och återkallelse av tillstånd",
     "source": "Naturvårdsverket",
     "source_name": "Naturvårdsverket",
@@ -31657,7 +31657,7 @@
     "desc": "Vägledning från Naturvårdsverket inom kategori: Miljöbalken"
   },
   {
-    "id": "nv_-8672654727899404452_4701946216513199531",
+    "id": "nv_-6016775828461723637_1512700486503333529",
     "title": "TillsynsvägledningOmprövning och återkallelse av tillstånd till markavvattning",
     "source": "Naturvårdsverket",
     "source_name": "Naturvårdsverket",
@@ -31671,13 +31671,13 @@
     "desc": "Vägledning från Naturvårdsverket inom kategori: Miljöbalken"
   },
   {
-    "id": "nv_-1755743032231339911_4701946216513199531",
-    "title": "VägledningMiljörapportering – 26 kap. miljöbalken",
+    "id": "nv_-2472831134369775509_1512700486503333529",
+    "title": "VägledningAnmälnings- och tillståndsplikt enligt miljöprövningsförordningen",
     "source": "Naturvårdsverket",
     "source_name": "Naturvårdsverket",
     "type": "guide",
     "icon": "📋",
-    "url": "https://www.naturvardsverket.se/vagledning-och-stod/miljobalken/miljorapportering/",
+    "url": "https://www.naturvardsverket.se/vagledning-och-stod/miljobalken/anmalnings--och-tillstandsplikt-enligt-miljoprovningsforordningen/",
     "cats": [
       "policy",
       "omstallning"
@@ -31685,7 +31685,7 @@
     "desc": "Vägledning från Naturvårdsverket inom kategori: Miljöbalken"
   },
   {
-    "id": "nv_8789857234642680361_-2962285899061761126",
+    "id": "nv_-864538451025549290_5020106867864420763",
     "title": "Vägledning och stöd",
     "source": "Naturvårdsverket",
     "source_name": "Naturvårdsverket",
@@ -31699,21 +31699,7 @@
     "desc": "Vägledning från Naturvårdsverket inom kategori: Luft och klimat"
   },
   {
-    "id": "nv_-3889448862867398360_-2962285899061761126",
-    "title": "VägledningMiljökvalitets­normer för utomhusluft",
-    "source": "Naturvårdsverket",
-    "source_name": "Naturvårdsverket",
-    "type": "guide",
-    "icon": "📋",
-    "url": "https://www.naturvardsverket.se/vagledning-och-stod/luft-och-klimat/miljokvalitetsnormer-for-utomhusluft/",
-    "cats": [
-      "klimat",
-      "omstallning"
-    ],
-    "desc": "Vägledning från Naturvårdsverket inom kategori: Luft och klimat"
-  },
-  {
-    "id": "nv_2456392465650201148_-2962285899061761126",
+    "id": "nv_6012116613676711245_5020106867864420763",
     "title": "VägledningRegler för Klimatklivet",
     "source": "Naturvårdsverket",
     "source_name": "Naturvårdsverket",
@@ -31727,7 +31713,21 @@
     "desc": "Vägledning från Naturvårdsverket inom kategori: Luft och klimat"
   },
   {
-    "id": "nv_142855881488359132_-2962285899061761126",
+    "id": "nv_5273170790264716929_5020106867864420763",
+    "title": "VägledningMiljökvalitets­normer för utomhusluft",
+    "source": "Naturvårdsverket",
+    "source_name": "Naturvårdsverket",
+    "type": "guide",
+    "icon": "📋",
+    "url": "https://www.naturvardsverket.se/vagledning-och-stod/luft-och-klimat/miljokvalitetsnormer-for-utomhusluft/",
+    "cats": [
+      "klimat",
+      "omstallning"
+    ],
+    "desc": "Vägledning från Naturvårdsverket inom kategori: Luft och klimat"
+  },
+  {
+    "id": "nv_5239262475913489004_5020106867864420763",
     "title": "VägledningKväveoxidavgiften",
     "source": "Naturvårdsverket",
     "source_name": "Naturvårdsverket",
@@ -31741,7 +31741,7 @@
     "desc": "Vägledning från Naturvårdsverket inom kategori: Luft och klimat"
   },
   {
-    "id": "nv_-5623545806507029785_-2962285899061761126",
+    "id": "nv_6570940247550725480_5020106867864420763",
     "title": "VägledningKlimateffekt­bedömningar av styrmedel och åtgärder",
     "source": "Naturvårdsverket",
     "source_name": "Naturvårdsverket",
@@ -31755,7 +31755,7 @@
     "desc": "Vägledning från Naturvårdsverket inom kategori: Luft och klimat"
   },
   {
-    "id": "nv_-1294021548167161077_-2962285899061761126",
+    "id": "nv_2730599383948457854_5020106867864420763",
     "title": "VägledningMetoder för att bedöma klimatpolitikens effektivitet",
     "source": "Naturvårdsverket",
     "source_name": "Naturvårdsverket",
@@ -31769,7 +31769,7 @@
     "desc": "Vägledning från Naturvårdsverket inom kategori: Luft och klimat"
   },
   {
-    "id": "nv_574464862757319771_-2962285899061761126",
+    "id": "nv_7393691503864458839_5020106867864420763",
     "title": "Stöd och informationVedeldning",
     "source": "Naturvårdsverket",
     "source_name": "Naturvårdsverket",
@@ -31783,7 +31783,7 @@
     "desc": "Vägledning från Naturvårdsverket inom kategori: Luft och klimat"
   },
   {
-    "id": "nv_-7574406410515105956_-2962285899061761126",
+    "id": "nv_2302049106338887218_5020106867864420763",
     "title": "VägledningBeräkna klimatpåverkan",
     "source": "Naturvårdsverket",
     "source_name": "Naturvårdsverket",
@@ -31797,21 +31797,7 @@
     "desc": "Vägledning från Naturvårdsverket inom kategori: Luft och klimat"
   },
   {
-    "id": "nv_6367051584673754453_-2962285899061761126",
-    "title": "VägledningBeräkna utsläpp av luftföroreningar",
-    "source": "Naturvårdsverket",
-    "source_name": "Naturvårdsverket",
-    "type": "guide",
-    "icon": "📋",
-    "url": "https://www.naturvardsverket.se/vagledning-och-stod/luft-och-klimat/berakna-utslapp-av-luftfororeningar/",
-    "cats": [
-      "klimat",
-      "omstallning"
-    ],
-    "desc": "Vägledning från Naturvårdsverket inom kategori: Luft och klimat"
-  },
-  {
-    "id": "nv_-6713000445089617519_-2962285899061761126",
+    "id": "nv_-212902592417024909_5020106867864420763",
     "title": "VägledningUtsläpp av metan från energisektorn",
     "source": "Naturvårdsverket",
     "source_name": "Naturvårdsverket",
@@ -31825,7 +31811,21 @@
     "desc": "Vägledning från Naturvårdsverket inom kategori: Luft och klimat"
   },
   {
-    "id": "nv_8789857234642680361_2962238393306900800",
+    "id": "nv_-2522986735610216274_5020106867864420763",
+    "title": "VägledningBeräkna utsläpp av luftföroreningar",
+    "source": "Naturvårdsverket",
+    "source_name": "Naturvårdsverket",
+    "type": "guide",
+    "icon": "📋",
+    "url": "https://www.naturvardsverket.se/vagledning-och-stod/luft-och-klimat/berakna-utslapp-av-luftfororeningar/",
+    "cats": [
+      "klimat",
+      "omstallning"
+    ],
+    "desc": "Vägledning från Naturvårdsverket inom kategori: Luft och klimat"
+  },
+  {
+    "id": "nv_-864538451025549290_-6213538843518825268",
     "title": "Vägledning och stöd",
     "source": "Naturvårdsverket",
     "source_name": "Naturvårdsverket",
@@ -31838,72 +31838,7 @@
     "desc": "Vägledning från Naturvårdsverket inom kategori: Invasiva främmande arter"
   },
   {
-    "id": "nv_7528108548641701391_2962238393306900800",
-    "title": "VägledningSäker hantering av växtdelar",
-    "source": "Naturvårdsverket",
-    "source_name": "Naturvårdsverket",
-    "type": "guide",
-    "icon": "📋",
-    "url": "https://www.naturvardsverket.se/vagledning-och-stod/invasiva-frammande-arter/saker-avfallshantering/",
-    "cats": [
-      "biodiv"
-    ],
-    "desc": "Vägledning från Naturvårdsverket inom kategori: Invasiva främmande arter"
-  },
-  {
-    "id": "nv_1743447129050878348_2962238393306900800",
-    "title": "VägledningMetodkatalog för bekämpning",
-    "source": "Naturvårdsverket",
-    "source_name": "Naturvårdsverket",
-    "type": "guide",
-    "icon": "📋",
-    "url": "https://www.naturvardsverket.se/vagledning-och-stod/invasiva-frammande-arter/metodkatalog-bekampning/",
-    "cats": [
-      "biodiv"
-    ],
-    "desc": "Vägledning från Naturvårdsverket inom kategori: Invasiva främmande arter"
-  },
-  {
-    "id": "nv_-5253888883607808328_2962238393306900800",
-    "title": "VägledningEU-förordningen om invasiva främmande arter",
-    "source": "Naturvårdsverket",
-    "source_name": "Naturvårdsverket",
-    "type": "guide",
-    "icon": "📋",
-    "url": "https://www.naturvardsverket.se/vagledning-och-stod/invasiva-frammande-arter/eu-forordningen-om-invasiva-frammande-arter/",
-    "cats": [
-      "biodiv"
-    ],
-    "desc": "Vägledning från Naturvårdsverket inom kategori: Invasiva främmande arter"
-  },
-  {
-    "id": "nv_-7783373730343547005_2962238393306900800",
-    "title": "VägledningBekämpning av invasiva främmande växter på land",
-    "source": "Naturvårdsverket",
-    "source_name": "Naturvårdsverket",
-    "type": "guide",
-    "icon": "📋",
-    "url": "https://www.naturvardsverket.se/vagledning-och-stod/invasiva-frammande-arter/bekampning-av-invasiva-frammande-vaxter-pa-land/",
-    "cats": [
-      "biodiv"
-    ],
-    "desc": "Vägledning från Naturvårdsverket inom kategori: Invasiva främmande arter"
-  },
-  {
-    "id": "nv_-458657953646882436_2962238393306900800",
-    "title": "VägledningOm länsstyrelsens arbete mot invasiva främmande landlevande växter",
-    "source": "Naturvårdsverket",
-    "source_name": "Naturvårdsverket",
-    "type": "guide",
-    "icon": "📋",
-    "url": "https://www.naturvardsverket.se/vagledning-och-stod/invasiva-frammande-arter/om-lansstyrelsens-arbete-mot-invasiva-frammande-landlevande-vaxter/",
-    "cats": [
-      "biodiv"
-    ],
-    "desc": "Vägledning från Naturvårdsverket inom kategori: Invasiva främmande arter"
-  },
-  {
-    "id": "nv_3742672956216898612_2962238393306900800",
+    "id": "nv_932332504263887359_-6213538843518825268",
     "title": "TillsynsvägledningTillsynsvägledning om invasiva främmande arter",
     "source": "Naturvårdsverket",
     "source_name": "Naturvårdsverket",
@@ -31916,7 +31851,72 @@
     "desc": "Vägledning från Naturvårdsverket inom kategori: Invasiva främmande arter"
   },
   {
-    "id": "nv_-2972398088114304811_2962238393306900800",
+    "id": "nv_1498229592582294184_-6213538843518825268",
+    "title": "VägledningSäker hantering av växtdelar",
+    "source": "Naturvårdsverket",
+    "source_name": "Naturvårdsverket",
+    "type": "guide",
+    "icon": "📋",
+    "url": "https://www.naturvardsverket.se/vagledning-och-stod/invasiva-frammande-arter/saker-avfallshantering/",
+    "cats": [
+      "biodiv"
+    ],
+    "desc": "Vägledning från Naturvårdsverket inom kategori: Invasiva främmande arter"
+  },
+  {
+    "id": "nv_5526608890708305785_-6213538843518825268",
+    "title": "VägledningMetodkatalog för bekämpning",
+    "source": "Naturvårdsverket",
+    "source_name": "Naturvårdsverket",
+    "type": "guide",
+    "icon": "📋",
+    "url": "https://www.naturvardsverket.se/vagledning-och-stod/invasiva-frammande-arter/metodkatalog-bekampning/",
+    "cats": [
+      "biodiv"
+    ],
+    "desc": "Vägledning från Naturvårdsverket inom kategori: Invasiva främmande arter"
+  },
+  {
+    "id": "nv_7495881875224710670_-6213538843518825268",
+    "title": "VägledningEU-förordningen om invasiva främmande arter",
+    "source": "Naturvårdsverket",
+    "source_name": "Naturvårdsverket",
+    "type": "guide",
+    "icon": "📋",
+    "url": "https://www.naturvardsverket.se/vagledning-och-stod/invasiva-frammande-arter/eu-forordningen-om-invasiva-frammande-arter/",
+    "cats": [
+      "biodiv"
+    ],
+    "desc": "Vägledning från Naturvårdsverket inom kategori: Invasiva främmande arter"
+  },
+  {
+    "id": "nv_7180231976693376962_-6213538843518825268",
+    "title": "VägledningBekämpning av invasiva främmande växter på land",
+    "source": "Naturvårdsverket",
+    "source_name": "Naturvårdsverket",
+    "type": "guide",
+    "icon": "📋",
+    "url": "https://www.naturvardsverket.se/vagledning-och-stod/invasiva-frammande-arter/bekampning-av-invasiva-frammande-vaxter-pa-land/",
+    "cats": [
+      "biodiv"
+    ],
+    "desc": "Vägledning från Naturvårdsverket inom kategori: Invasiva främmande arter"
+  },
+  {
+    "id": "nv_-5584148818512878768_-6213538843518825268",
+    "title": "VägledningOm länsstyrelsens arbete mot invasiva främmande landlevande växter",
+    "source": "Naturvårdsverket",
+    "source_name": "Naturvårdsverket",
+    "type": "guide",
+    "icon": "📋",
+    "url": "https://www.naturvardsverket.se/vagledning-och-stod/invasiva-frammande-arter/om-lansstyrelsens-arbete-mot-invasiva-frammande-landlevande-vaxter/",
+    "cats": [
+      "biodiv"
+    ],
+    "desc": "Vägledning från Naturvårdsverket inom kategori: Invasiva främmande arter"
+  },
+  {
+    "id": "nv_-3343561426579757246_-6213538843518825268",
     "title": "VägledningNycklar för långsiktigt arbete mot invasiva växter",
     "source": "Naturvårdsverket",
     "source_name": "Naturvårdsverket",
@@ -31929,20 +31929,7 @@
     "desc": "Vägledning från Naturvårdsverket inom kategori: Invasiva främmande arter"
   },
   {
-    "id": "nv_-6879524116193522020_2962238393306900800",
-    "title": "VägledningArbete med arter med stor spridning enligt EU-förordning om invasiva främmande arter",
-    "source": "Naturvårdsverket",
-    "source_name": "Naturvårdsverket",
-    "type": "guide",
-    "icon": "📋",
-    "url": "https://www.naturvardsverket.se/vagledning-och-stod/invasiva-frammande-arter/arter-med-stor-spridning/",
-    "cats": [
-      "biodiv"
-    ],
-    "desc": "Vägledning från Naturvårdsverket inom kategori: Invasiva främmande arter"
-  },
-  {
-    "id": "nv_-6060971841251592551_2962238393306900800",
+    "id": "nv_-6798215288247774355_-6213538843518825268",
     "title": "Stöd och informationRegler om invasiva främmande arter",
     "source": "Naturvårdsverket",
     "source_name": "Naturvårdsverket",
@@ -31955,7 +31942,20 @@
     "desc": "Vägledning från Naturvårdsverket inom kategori: Invasiva främmande arter"
   },
   {
-    "id": "nv_-2382136818137278225_2962238393306900800",
+    "id": "nv_-3702775906780874774_-6213538843518825268",
+    "title": "VägledningArbete med arter med stor spridning enligt EU-förordning om invasiva främmande arter",
+    "source": "Naturvårdsverket",
+    "source_name": "Naturvårdsverket",
+    "type": "guide",
+    "icon": "📋",
+    "url": "https://www.naturvardsverket.se/vagledning-och-stod/invasiva-frammande-arter/arter-med-stor-spridning/",
+    "cats": [
+      "biodiv"
+    ],
+    "desc": "Vägledning från Naturvårdsverket inom kategori: Invasiva främmande arter"
+  },
+  {
+    "id": "nv_1677139708950227461_-6213538843518825268",
     "title": "Stöd och informationVäxter och fröer i handeln",
     "source": "Naturvårdsverket",
     "source_name": "Naturvårdsverket",
@@ -31968,7 +31968,7 @@
     "desc": "Vägledning från Naturvårdsverket inom kategori: Invasiva främmande arter"
   },
   {
-    "id": "nv_-6720686694591119793_2962238393306900800",
+    "id": "nv_-7430303672572218777_-6213538843518825268",
     "title": "VägledningInvasiva främmande djur",
     "source": "Naturvårdsverket",
     "source_name": "Naturvårdsverket",
@@ -31981,7 +31981,7 @@
     "desc": "Vägledning från Naturvårdsverket inom kategori: Invasiva främmande arter"
   },
   {
-    "id": "nv_8920075356357009358_2962238393306900800",
+    "id": "nv_-2180504809415656703_-6213538843518825268",
     "title": "VägledningRamavtal för bekämpning av invasiva främmande arter",
     "source": "Naturvårdsverket",
     "source_name": "Naturvårdsverket",
@@ -31994,7 +31994,7 @@
     "desc": "Vägledning från Naturvårdsverket inom kategori: Invasiva främmande arter"
   },
   {
-    "id": "nv_8789857234642680361_1700177157637605595",
+    "id": "nv_-864538451025549290_-5201500723534776470",
     "title": "Vägledning och stöd",
     "source": "Naturvårdsverket",
     "source_name": "Naturvårdsverket",
@@ -32008,35 +32008,7 @@
     "desc": "Vägledning från Naturvårdsverket inom kategori: Allemansrätten"
   },
   {
-    "id": "nv_3360712167719034608_1700177157637605595",
-    "title": "Stöd och informationArrangemang i naturen",
-    "source": "Naturvårdsverket",
-    "source_name": "Naturvårdsverket",
-    "type": "guide",
-    "icon": "📋",
-    "url": "https://www.naturvardsverket.se/vagledning-och-stod/allemansratten/arrangemang-i-naturen/",
-    "cats": [
-      "omstallning",
-      "biodiv"
-    ],
-    "desc": "Vägledning från Naturvårdsverket inom kategori: Allemansrätten"
-  },
-  {
-    "id": "nv_-1165008775997786875_1700177157637605595",
-    "title": "Stöd och informationKommunicera om allemansrätten",
-    "source": "Naturvårdsverket",
-    "source_name": "Naturvårdsverket",
-    "type": "guide",
-    "icon": "📋",
-    "url": "https://www.naturvardsverket.se/vagledning-och-stod/allemansratten/kommunicera-om-allemansratten/",
-    "cats": [
-      "omstallning",
-      "biodiv"
-    ],
-    "desc": "Vägledning från Naturvårdsverket inom kategori: Allemansrätten"
-  },
-  {
-    "id": "nv_-7513086908347946802_1700177157637605595",
+    "id": "nv_3671167230401226262_-5201500723534776470",
     "title": "VägledningFrågor och svar om allemansrätten",
     "source": "Naturvårdsverket",
     "source_name": "Naturvårdsverket",
@@ -32050,21 +32022,7 @@
     "desc": "Vägledning från Naturvårdsverket inom kategori: Allemansrätten"
   },
   {
-    "id": "nv_-3947900249455260589_1700177157637605595",
-    "title": "Stöd och informationAllemansrätten för organiserad verksamhet",
-    "source": "Naturvårdsverket",
-    "source_name": "Naturvårdsverket",
-    "type": "guide",
-    "icon": "📋",
-    "url": "https://www.naturvardsverket.se/vagledning-och-stod/allemansratten/organiserad-verksamhet/",
-    "cats": [
-      "omstallning",
-      "biodiv"
-    ],
-    "desc": "Vägledning från Naturvårdsverket inom kategori: Allemansrätten"
-  },
-  {
-    "id": "nv_-5240837111066513920_1700177157637605595",
+    "id": "nv_7191676140128635947_-5201500723534776470",
     "title": "Stöd och informationAllemansrätten – juridisk vägledning",
     "source": "Naturvårdsverket",
     "source_name": "Naturvårdsverket",
@@ -32078,7 +32036,49 @@
     "desc": "Vägledning från Naturvårdsverket inom kategori: Allemansrätten"
   },
   {
-    "id": "nv_-1563021118630726563_1700177157637605595",
+    "id": "nv_-1498362334012572247_-5201500723534776470",
+    "title": "Stöd och informationArrangemang i naturen",
+    "source": "Naturvårdsverket",
+    "source_name": "Naturvårdsverket",
+    "type": "guide",
+    "icon": "📋",
+    "url": "https://www.naturvardsverket.se/vagledning-och-stod/allemansratten/arrangemang-i-naturen/",
+    "cats": [
+      "omstallning",
+      "biodiv"
+    ],
+    "desc": "Vägledning från Naturvårdsverket inom kategori: Allemansrätten"
+  },
+  {
+    "id": "nv_2584807009282568056_-5201500723534776470",
+    "title": "Stöd och informationAllemansrätten för organiserad verksamhet",
+    "source": "Naturvårdsverket",
+    "source_name": "Naturvårdsverket",
+    "type": "guide",
+    "icon": "📋",
+    "url": "https://www.naturvardsverket.se/vagledning-och-stod/allemansratten/organiserad-verksamhet/",
+    "cats": [
+      "omstallning",
+      "biodiv"
+    ],
+    "desc": "Vägledning från Naturvårdsverket inom kategori: Allemansrätten"
+  },
+  {
+    "id": "nv_-314375064057321113_-5201500723534776470",
+    "title": "Stöd och informationKommunicera om allemansrätten",
+    "source": "Naturvårdsverket",
+    "source_name": "Naturvårdsverket",
+    "type": "guide",
+    "icon": "📋",
+    "url": "https://www.naturvardsverket.se/vagledning-och-stod/allemansratten/kommunicera-om-allemansratten/",
+    "cats": [
+      "omstallning",
+      "biodiv"
+    ],
+    "desc": "Vägledning från Naturvårdsverket inom kategori: Allemansrätten"
+  },
+  {
+    "id": "nv_7388608068938816995_-5201500723534776470",
     "title": "VägledningAllemansrätten för kommuner",
     "source": "Naturvårdsverket",
     "source_name": "Naturvårdsverket",
@@ -32092,7 +32092,7 @@
     "desc": "Vägledning från Naturvårdsverket inom kategori: Allemansrätten"
   },
   {
-    "id": "nv_-1494271281586752512_1700177157637605595",
+    "id": "nv_-5999765073454534610_-5201500723534776470",
     "title": "Stöd och informationAllemansrätten för markägare",
     "source": "Naturvårdsverket",
     "source_name": "Naturvårdsverket",
@@ -32106,7 +32106,7 @@
     "desc": "Vägledning från Naturvårdsverket inom kategori: Allemansrätten"
   },
   {
-    "id": "nv_-411064804263495851_1700177157637605595",
+    "id": "nv_-5814078935398582961_-5201500723534776470",
     "title": "VägledningAllemansrätten för länsstyrelsen",
     "source": "Naturvårdsverket",
     "source_name": "Naturvårdsverket",
@@ -32120,7 +32120,7 @@
     "desc": "Vägledning från Naturvårdsverket inom kategori: Allemansrätten"
   },
   {
-    "id": "nv_8789857234642680361_6002903724425153887",
+    "id": "nv_-864538451025549290_-3468529723421602574",
     "title": "Vägledning och stöd",
     "source": "Naturvårdsverket",
     "source_name": "Naturvårdsverket",
@@ -32133,7 +32133,7 @@
     "desc": "Vägledning från Naturvårdsverket inom kategori: Arter och artskydd"
   },
   {
-    "id": "nv_-8341239438248473255_6002903724425153887",
+    "id": "nv_-2101592199704888532_-3468529723421602574",
     "title": "VägledningNematoder, insekter och spindeldjur (NIS) som biologiska bekämpningsmedel",
     "source": "Naturvårdsverket",
     "source_name": "Naturvårdsverket",
@@ -32146,7 +32146,7 @@
     "desc": "Vägledning från Naturvårdsverket inom kategori: Arter och artskydd"
   },
   {
-    "id": "nv_3914208717265786065_6002903724425153887",
+    "id": "nv_-3659748789176556023_-3468529723421602574",
     "title": "VägledningArtskyddshandboken och vägledning om artskydd",
     "source": "Naturvårdsverket",
     "source_name": "Naturvårdsverket",
@@ -32159,7 +32159,7 @@
     "desc": "Vägledning från Naturvårdsverket inom kategori: Arter och artskydd"
   },
   {
-    "id": "nv_-6215294264178137987_6002903724425153887",
+    "id": "nv_-6708123452248007654_-3468529723421602574",
     "title": "VägledningGenetiska resurser, Nagoyaprotokollet",
     "source": "Naturvårdsverket",
     "source_name": "Naturvårdsverket",
@@ -32172,7 +32172,7 @@
     "desc": "Vägledning från Naturvårdsverket inom kategori: Arter och artskydd"
   },
   {
-    "id": "nv_-1522331583504572291_6002903724425153887",
+    "id": "nv_2491401610966704246_-3468529723421602574",
     "title": "Stöd och informationKunskaps­sammanställning över and- och måsfåglar",
     "source": "Naturvårdsverket",
     "source_name": "Naturvårdsverket",
@@ -32185,7 +32185,7 @@
     "desc": "Vägledning från Naturvårdsverket inom kategori: Arter och artskydd"
   },
   {
-    "id": "nv_8789857234642680361_-7319343215281477854",
+    "id": "nv_-864538451025549290_8418080337855497950",
     "title": "Vägledning och stöd",
     "source": "Naturvårdsverket",
     "source_name": "Naturvårdsverket",
@@ -32199,7 +32199,7 @@
     "desc": "Vägledning från Naturvårdsverket inom kategori: Avlopp"
   },
   {
-    "id": "nv_-8507762362259709046_-7319343215281477854",
+    "id": "nv_-7991565116094562690_8418080337855497950",
     "title": "VägledningVillkor och krav för avloppsreningsverk",
     "source": "Naturvårdsverket",
     "source_name": "Naturvårdsverket",
@@ -32213,7 +32213,7 @@
     "desc": "Vägledning från Naturvårdsverket inom kategori: Avlopp"
   },
   {
-    "id": "nv_4257640225919949568_-7319343215281477854",
+    "id": "nv_-8842404590300122481_8418080337855497950",
     "title": "TillsynsvägledningStöd för tillsyn av avloppsreningsverk vid eventuell kemikaliebrist",
     "source": "Naturvårdsverket",
     "source_name": "Naturvårdsverket",
@@ -32227,7 +32227,7 @@
     "desc": "Vägledning från Naturvårdsverket inom kategori: Avlopp"
   },
   {
-    "id": "nv_-8109686919822033615_-7319343215281477854",
+    "id": "nv_6273384272954986096_8418080337855497950",
     "title": "Stöd och informationÅteranvändning av avloppsvatten",
     "source": "Naturvårdsverket",
     "source_name": "Naturvårdsverket",
@@ -32241,7 +32241,7 @@
     "desc": "Vägledning från Naturvårdsverket inom kategori: Avlopp"
   },
   {
-    "id": "nv_-5174115683801489393_-7319343215281477854",
+    "id": "nv_6702492679514491040_8418080337855497950",
     "title": "TillsynsvägledningTillsyn av översvämning vid fastigheter",
     "source": "Naturvårdsverket",
     "source_name": "Naturvårdsverket",
@@ -32255,7 +32255,7 @@
     "desc": "Vägledning från Naturvårdsverket inom kategori: Avlopp"
   },
   {
-    "id": "nv_6152403119070564652_-7319343215281477854",
+    "id": "nv_3430974542978029788_8418080337855497950",
     "title": "VägledningÖversyn och upprättande av kontrollprogram för miljögifter i vatten",
     "source": "Naturvårdsverket",
     "source_name": "Naturvårdsverket",
@@ -32269,7 +32269,7 @@
     "desc": "Vägledning från Naturvårdsverket inom kategori: Avlopp"
   },
   {
-    "id": "nv_-6746035058371094388_-7319343215281477854",
+    "id": "nv_-9154595456483696310_8418080337855497950",
     "title": "TillsynsvägledningFordonstvättar",
     "source": "Naturvårdsverket",
     "source_name": "Naturvårdsverket",
@@ -32283,21 +32283,7 @@
     "desc": "Vägledning från Naturvårdsverket inom kategori: Avlopp"
   },
   {
-    "id": "nv_2914878030025356945_-7319343215281477854",
-    "title": "VägledningIndustriellt avloppsvatten",
-    "source": "Naturvårdsverket",
-    "source_name": "Naturvårdsverket",
-    "type": "guide",
-    "icon": "📋",
-    "url": "https://www.naturvardsverket.se/vagledning-och-stod/avlopp/industriellt-avloppsvatten/",
-    "cats": [
-      "vatten",
-      "omstallning"
-    ],
-    "desc": "Vägledning från Naturvårdsverket inom kategori: Avlopp"
-  },
-  {
-    "id": "nv_-1395559979322959668_-7319343215281477854",
+    "id": "nv_-6900110645889828095_8418080337855497950",
     "title": "VägledningRening och kontroll av utsläpp av avloppsvatten från tätbebyggelse",
     "source": "Naturvårdsverket",
     "source_name": "Naturvårdsverket",
@@ -32311,13 +32297,13 @@
     "desc": "Vägledning från Naturvårdsverket inom kategori: Avlopp"
   },
   {
-    "id": "nv_5877866567746614779_-7319343215281477854",
-    "title": "TillsynsvägledningTillsyn på avloppsreningsverk",
+    "id": "nv_8223408657274984306_8418080337855497950",
+    "title": "VägledningIndustriellt avloppsvatten",
     "source": "Naturvårdsverket",
     "source_name": "Naturvårdsverket",
     "type": "guide",
     "icon": "📋",
-    "url": "https://www.naturvardsverket.se/vagledning-och-stod/avlopp/planera-tillsyn-over-tillstandspliktiga-avloppsreningsverk/",
+    "url": "https://www.naturvardsverket.se/vagledning-och-stod/avlopp/industriellt-avloppsvatten/",
     "cats": [
       "vatten",
       "omstallning"
@@ -32325,7 +32311,7 @@
     "desc": "Vägledning från Naturvårdsverket inom kategori: Avlopp"
   },
   {
-    "id": "nv_1572359342418069250_-7319343215281477854",
+    "id": "nv_4693235985332021225_8418080337855497950",
     "title": "VägledningHållbar dagvattenhantering",
     "source": "Naturvårdsverket",
     "source_name": "Naturvårdsverket",
@@ -32339,7 +32325,7 @@
     "desc": "Vägledning från Naturvårdsverket inom kategori: Avlopp"
   },
   {
-    "id": "nv_5460385404175971047_-7319343215281477854",
+    "id": "nv_-2384916088844908714_8418080337855497950",
     "title": "TillsynsvägledningTillsyn av dagvatten",
     "source": "Naturvårdsverket",
     "source_name": "Naturvårdsverket",
@@ -32353,7 +32339,21 @@
     "desc": "Vägledning från Naturvårdsverket inom kategori: Avlopp"
   },
   {
-    "id": "nv_8789857234642680361_-5561372378208861664",
+    "id": "nv_-5783114530030634740_8418080337855497950",
+    "title": "TillsynsvägledningTillsyn på avloppsreningsverk",
+    "source": "Naturvårdsverket",
+    "source_name": "Naturvårdsverket",
+    "type": "guide",
+    "icon": "📋",
+    "url": "https://www.naturvardsverket.se/vagledning-och-stod/avlopp/planera-tillsyn-over-tillstandspliktiga-avloppsreningsverk/",
+    "cats": [
+      "vatten",
+      "omstallning"
+    ],
+    "desc": "Vägledning från Naturvårdsverket inom kategori: Avlopp"
+  },
+  {
+    "id": "nv_-864538451025549290_6431567969327157382",
     "title": "Vägledning och stöd",
     "source": "Naturvårdsverket",
     "source_name": "Naturvårdsverket",
@@ -32367,7 +32367,7 @@
     "desc": "Vägledning från Naturvårdsverket inom kategori: Friluftsliv"
   },
   {
-    "id": "nv_7448349272382566504_-5561372378208861664",
+    "id": "nv_-5653959014804911305_6431567969327157382",
     "title": "Stöd och informationKommunal friluftslivs­planering",
     "source": "Naturvårdsverket",
     "source_name": "Naturvårdsverket",
@@ -32381,7 +32381,7 @@
     "desc": "Vägledning från Naturvårdsverket inom kategori: Friluftsliv"
   },
   {
-    "id": "nv_-5010606456013616011_-5561372378208861664",
+    "id": "nv_1838958006086413491_6431567969327157382",
     "title": "VägledningOrganiserat friluftsliv och naturturism i skyddad natur",
     "source": "Naturvårdsverket",
     "source_name": "Naturvårdsverket",
@@ -32395,7 +32395,7 @@
     "desc": "Vägledning från Naturvårdsverket inom kategori: Friluftsliv"
   },
   {
-    "id": "nv_-7999751358986041425_-5561372378208861664",
+    "id": "nv_-5992610645767967957_6431567969327157382",
     "title": "TillsynsvägledningReklamskyltar i landskapet",
     "source": "Naturvårdsverket",
     "source_name": "Naturvårdsverket",
@@ -32409,7 +32409,7 @@
     "desc": "Vägledning från Naturvårdsverket inom kategori: Friluftsliv"
   },
   {
-    "id": "nv_7835336483317477477_-5561372378208861664",
+    "id": "nv_-2733376836792832282_6431567969327157382",
     "title": "VägledningFörvaltning av det statliga ledsystemet i fjällen",
     "source": "Naturvårdsverket",
     "source_name": "Naturvårdsverket",
@@ -32423,7 +32423,7 @@
     "desc": "Vägledning från Naturvårdsverket inom kategori: Friluftsliv"
   },
   {
-    "id": "nv_2259460060876417794_-5561372378208861664",
+    "id": "nv_3232656044909939605_6431567969327157382",
     "title": "VägledningKartlägga områden för friluftsliv",
     "source": "Naturvårdsverket",
     "source_name": "Naturvårdsverket",
@@ -32437,7 +32437,7 @@
     "desc": "Vägledning från Naturvårdsverket inom kategori: Friluftsliv"
   },
   {
-    "id": "nv_-7223365444306815577_-5561372378208861664",
+    "id": "nv_8565887570858676449_6431567969327157382",
     "title": "VägledningTillgängliga natur- och kulturområden",
     "source": "Naturvårdsverket",
     "source_name": "Naturvårdsverket",
@@ -32451,21 +32451,7 @@
     "desc": "Vägledning från Naturvårdsverket inom kategori: Friluftsliv"
   },
   {
-    "id": "nv_6807698679744707796_-5561372378208861664",
-    "title": "VägledningNaturum, stöd och riktlinjer",
-    "source": "Naturvårdsverket",
-    "source_name": "Naturvårdsverket",
-    "type": "guide",
-    "icon": "📋",
-    "url": "https://www.naturvardsverket.se/vagledning-och-stod/friluftsliv/naturum-stod-och-riktlinjer/",
-    "cats": [
-      "omstallning",
-      "biodiv"
-    ],
-    "desc": "Vägledning från Naturvårdsverket inom kategori: Friluftsliv"
-  },
-  {
-    "id": "nv_5943177074403863796_-5561372378208861664",
+    "id": "nv_-2781004162616014518_6431567969327157382",
     "title": "VägledningBesöksförvaltning i hela landskapet",
     "source": "Naturvårdsverket",
     "source_name": "Naturvårdsverket",
@@ -32479,7 +32465,21 @@
     "desc": "Vägledning från Naturvårdsverket inom kategori: Friluftsliv"
   },
   {
-    "id": "nv_8789857234642680361_-2926809626905229127",
+    "id": "nv_5782956359791865791_6431567969327157382",
+    "title": "VägledningNaturum, stöd och riktlinjer",
+    "source": "Naturvårdsverket",
+    "source_name": "Naturvårdsverket",
+    "type": "guide",
+    "icon": "📋",
+    "url": "https://www.naturvardsverket.se/vagledning-och-stod/friluftsliv/naturum-stod-och-riktlinjer/",
+    "cats": [
+      "omstallning",
+      "biodiv"
+    ],
+    "desc": "Vägledning från Naturvårdsverket inom kategori: Friluftsliv"
+  },
+  {
+    "id": "nv_-864538451025549290_-7419098428334820243",
     "title": "Vägledning och stöd",
     "source": "Naturvårdsverket",
     "source_name": "Naturvårdsverket",
@@ -32493,35 +32493,7 @@
     "desc": "Vägledning från Naturvårdsverket inom kategori: Förorenade områden"
   },
   {
-    "id": "nv_-9048617359111170443_-2926809626905229127",
-    "title": "TillsynsvägledningFörebygga spridning av farliga ämnen från fritidsbåtar",
-    "source": "Naturvårdsverket",
-    "source_name": "Naturvårdsverket",
-    "type": "guide",
-    "icon": "📋",
-    "url": "https://www.naturvardsverket.se/vagledning-och-stod/branscher-och-verksamheter/skrovsanering-av-batbottenfarg/",
-    "cats": [
-      "omstallning",
-      "klimat"
-    ],
-    "desc": "Vägledning från Naturvårdsverket inom kategori: Förorenade områden"
-  },
-  {
-    "id": "nv_2996758831362370662_-2926809626905229127",
-    "title": "Stöd och informationInventering av förorenade områden",
-    "source": "Naturvårdsverket",
-    "source_name": "Naturvårdsverket",
-    "type": "guide",
-    "icon": "📋",
-    "url": "https://www.naturvardsverket.se/vagledning-och-stod/fororenade-omraden/inventering-av-fororenade-omraden/",
-    "cats": [
-      "omstallning",
-      "klimat"
-    ],
-    "desc": "Vägledning från Naturvårdsverket inom kategori: Förorenade områden"
-  },
-  {
-    "id": "nv_-502297394401403668_-2926809626905229127",
+    "id": "nv_-7663426150610878382_-7419098428334820243",
     "title": "Stöd och informationKrav på miljöprestanda vid statligt finansierade saneringsåtgärder",
     "source": "Naturvårdsverket",
     "source_name": "Naturvårdsverket",
@@ -32535,7 +32507,7 @@
     "desc": "Vägledning från Naturvårdsverket inom kategori: Förorenade områden"
   },
   {
-    "id": "nv_1934445643443110885_-2926809626905229127",
+    "id": "nv_6224947607856605782_-7419098428334820243",
     "title": "VägledningOexploderad ammunition på avvecklade skjutfält",
     "source": "Naturvårdsverket",
     "source_name": "Naturvårdsverket",
@@ -32549,7 +32521,35 @@
     "desc": "Vägledning från Naturvårdsverket inom kategori: Förorenade områden"
   },
   {
-    "id": "nv_-8104044825204954024_-2926809626905229127",
+    "id": "nv_-5203721608952016754_-7419098428334820243",
+    "title": "Stöd och informationInventering av förorenade områden",
+    "source": "Naturvårdsverket",
+    "source_name": "Naturvårdsverket",
+    "type": "guide",
+    "icon": "📋",
+    "url": "https://www.naturvardsverket.se/vagledning-och-stod/fororenade-omraden/inventering-av-fororenade-omraden/",
+    "cats": [
+      "omstallning",
+      "klimat"
+    ],
+    "desc": "Vägledning från Naturvårdsverket inom kategori: Förorenade områden"
+  },
+  {
+    "id": "nv_-6390224808306551285_-7419098428334820243",
+    "title": "TillsynsvägledningFörebygga spridning av farliga ämnen från fritidsbåtar",
+    "source": "Naturvårdsverket",
+    "source_name": "Naturvårdsverket",
+    "type": "guide",
+    "icon": "📋",
+    "url": "https://www.naturvardsverket.se/vagledning-och-stod/branscher-och-verksamheter/skrovsanering-av-batbottenfarg/",
+    "cats": [
+      "omstallning",
+      "klimat"
+    ],
+    "desc": "Vägledning från Naturvårdsverket inom kategori: Förorenade områden"
+  },
+  {
+    "id": "nv_-2500608873619658503_-7419098428334820243",
     "title": "Stöd och informationFörorenade sediment",
     "source": "Naturvårdsverket",
     "source_name": "Naturvårdsverket",
@@ -32563,7 +32563,7 @@
     "desc": "Vägledning från Naturvårdsverket inom kategori: Förorenade områden"
   },
   {
-    "id": "nv_2695609630131024116_-2926809626905229127",
+    "id": "nv_2202883895950014928_-7419098428334820243",
     "title": "Stöd och informationErfarenheter från efterbehandling",
     "source": "Naturvårdsverket",
     "source_name": "Naturvårdsverket",
@@ -32577,21 +32577,7 @@
     "desc": "Vägledning från Naturvårdsverket inom kategori: Förorenade områden"
   },
   {
-    "id": "nv_-2661805676391223181_-2926809626905229127",
-    "title": "TillsynsvägledningFörorenade områden i ett förändrat klimat",
-    "source": "Naturvårdsverket",
-    "source_name": "Naturvårdsverket",
-    "type": "guide",
-    "icon": "📋",
-    "url": "https://www.naturvardsverket.se/vagledning-och-stod/fororenade-omraden/fororenade-omraden-i-ett-forandrat-klimat/",
-    "cats": [
-      "omstallning",
-      "klimat"
-    ],
-    "desc": "Vägledning från Naturvårdsverket inom kategori: Förorenade områden"
-  },
-  {
-    "id": "nv_2765186014408468366_-2926809626905229127",
+    "id": "nv_-5434492255922971301_-7419098428334820243",
     "title": "TillsynsvägledningFörorenat släckvatten från brandsläckande verksamhet",
     "source": "Naturvårdsverket",
     "source_name": "Naturvårdsverket",
@@ -32605,13 +32591,13 @@
     "desc": "Vägledning från Naturvårdsverket inom kategori: Förorenade områden"
   },
   {
-    "id": "nv_3657754794495906984_-2926809626905229127",
-    "title": "TillsynsvägledningPrioriteringsstöd för tillsyn på förorenade områden i riskklass 1 och 2",
+    "id": "nv_4949782548265560374_-7419098428334820243",
+    "title": "TillsynsvägledningFörorenade områden i ett förändrat klimat",
     "source": "Naturvårdsverket",
     "source_name": "Naturvårdsverket",
     "type": "guide",
     "icon": "📋",
-    "url": "https://www.naturvardsverket.se/vagledning-och-stod/fororenade-omraden/prioriteringsstod-for-tillsyn-pa-fororenade-omraden-i-riskklass-1-och-2/",
+    "url": "https://www.naturvardsverket.se/vagledning-och-stod/fororenade-omraden/fororenade-omraden-i-ett-forandrat-klimat/",
     "cats": [
       "omstallning",
       "klimat"
@@ -32619,7 +32605,7 @@
     "desc": "Vägledning från Naturvårdsverket inom kategori: Förorenade områden"
   },
   {
-    "id": "nv_8025390213692518604_-2926809626905229127",
+    "id": "nv_657661558092419878_-7419098428334820243",
     "title": "Stöd och informationRiktvärden för förorenad mark",
     "source": "Naturvårdsverket",
     "source_name": "Naturvårdsverket",
@@ -32633,7 +32619,35 @@
     "desc": "Vägledning från Naturvårdsverket inom kategori: Förorenade områden"
   },
   {
-    "id": "nv_1527285403744686928_-2926809626905229127",
+    "id": "nv_410857632589921478_-7419098428334820243",
+    "title": "TillsynsvägledningPrioriteringsstöd för tillsyn på förorenade områden i riskklass 1 och 2",
+    "source": "Naturvårdsverket",
+    "source_name": "Naturvårdsverket",
+    "type": "guide",
+    "icon": "📋",
+    "url": "https://www.naturvardsverket.se/vagledning-och-stod/fororenade-omraden/prioriteringsstod-for-tillsyn-pa-fororenade-omraden-i-riskklass-1-och-2/",
+    "cats": [
+      "omstallning",
+      "klimat"
+    ],
+    "desc": "Vägledning från Naturvårdsverket inom kategori: Förorenade områden"
+  },
+  {
+    "id": "nv_7658085763373207136_-7419098428334820243",
+    "title": "TillsynsvägledningTillsyn av PFAS-förorenade områden",
+    "source": "Naturvårdsverket",
+    "source_name": "Naturvårdsverket",
+    "type": "guide",
+    "icon": "📋",
+    "url": "https://www.naturvardsverket.se/vagledning-och-stod/fororenade-omraden/tillsyn-av-pfas-fororenade-omraden/",
+    "cats": [
+      "omstallning",
+      "klimat"
+    ],
+    "desc": "Vägledning från Naturvårdsverket inom kategori: Förorenade områden"
+  },
+  {
+    "id": "nv_8728312611471396294_-7419098428334820243",
     "title": "Stöd och informationAtt välja efterbehandlings­åtgärd",
     "source": "Naturvårdsverket",
     "source_name": "Naturvårdsverket",
@@ -32647,21 +32661,7 @@
     "desc": "Vägledning från Naturvårdsverket inom kategori: Förorenade områden"
   },
   {
-    "id": "nv_-2518058092343683769_-2926809626905229127",
-    "title": "TillsynsvägledningAnsvar för avhjälpande av föroreningsskada",
-    "source": "Naturvårdsverket",
-    "source_name": "Naturvårdsverket",
-    "type": "guide",
-    "icon": "📋",
-    "url": "https://www.naturvardsverket.se/vagledning-och-stod/fororenade-omraden/ansvar-for-avhjalpande-av-fororeningsskada/",
-    "cats": [
-      "omstallning",
-      "klimat"
-    ],
-    "desc": "Vägledning från Naturvårdsverket inom kategori: Förorenade områden"
-  },
-  {
-    "id": "boverket_2660159410949175381",
+    "id": "boverket_7229483716655900440",
     "title": "Teman",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -32675,7 +32675,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Teman"
   },
   {
-    "id": "boverket_6560385342895295652",
+    "id": "boverket_-269689982675587447",
     "title": "Barnkonventionen och fysisk planering",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -32689,7 +32689,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Barnkonventionen och fysisk planering"
   },
   {
-    "id": "boverket_-8774820737732188601",
+    "id": "boverket_6498576834700664866",
     "title": "Begreppsbanken",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -32703,7 +32703,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Begreppsbanken"
   },
   {
-    "id": "boverket_1805194004956261474",
+    "id": "boverket_-1052513173068522293",
     "title": "Begreppsbank som API",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -32717,7 +32717,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Begreppsbank som API"
   },
   {
-    "id": "boverket_-4147119894810618315",
+    "id": "boverket_-3215018835181002679",
     "title": "Om begreppsbanken",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -32731,7 +32731,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Om begreppsbanken"
   },
   {
-    "id": "boverket_1238042837915254108",
+    "id": "boverket_-78671587628772896",
     "title": "Tillgänglighetsredogörelse för begreppsbanken",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -32745,7 +32745,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Tillgänglighetsredogörelse för begreppsbanken"
   },
   {
-    "id": "boverket_-4720193630893158562",
+    "id": "boverket_-8271976203348029224",
     "title": "Buller vid idrottsplatser",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -32759,7 +32759,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Buller vid idrottsplatser"
   },
   {
-    "id": "boverket_-6134468955116461675",
+    "id": "boverket_-2168526427997437960",
     "title": "Ekosystemtjänster i den byggda miljön",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -32773,7 +32773,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Ekosystemtjänster i den byggda miljön"
   },
   {
-    "id": "boverket_-4438614366889435232",
+    "id": "boverket_1917908034861497041",
     "title": "Om vägledningen",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -32787,7 +32787,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Om vägledningen"
   },
   {
-    "id": "boverket_-2256815802282094776",
+    "id": "boverket_-3363708296378302622",
     "title": "Centrala begrepp",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -32801,7 +32801,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Centrala begrepp"
   },
   {
-    "id": "boverket_-5937085074164382169",
+    "id": "boverket_-2931420678330879758",
     "title": "Det här är ekosystemtjänster",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -32815,7 +32815,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Det här är ekosystemtjänster"
   },
   {
-    "id": "boverket_6796977920920401991",
+    "id": "boverket_1844059855235396935",
     "title": "Typer av ekosystemtjänster",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -32829,7 +32829,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Typer av ekosystemtjänster"
   },
   {
-    "id": "boverket_6233084701709797536",
+    "id": "boverket_8481820387706711813",
     "title": "Mål för ekosystemtjänster",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -32843,7 +32843,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Mål för ekosystemtjänster"
   },
   {
-    "id": "boverket_6037867415472504769",
+    "id": "boverket_7397454513069072968",
     "title": "Ekosystemtjänster i PBL",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -32857,7 +32857,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Ekosystemtjänster i PBL"
   },
   {
-    "id": "boverket_-9043496533273154318",
+    "id": "boverket_-8545691479917946606",
     "title": "Ekosystemtjänster och allmänna intressen",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -32871,7 +32871,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Ekosystemtjänster och allmänna intressen"
   },
   {
-    "id": "boverket_-6800513338747674759",
+    "id": "boverket_-6524659454792975978",
     "title": "Ekosystemtjänster och krav på tomter",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -32885,7 +32885,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Ekosystemtjänster och krav på tomter"
   },
   {
-    "id": "boverket_2101744498260392743",
+    "id": "boverket_3437880485681507020",
     "title": "Ekosystemtjänster och PBL:s verktyg",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -32899,7 +32899,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Ekosystemtjänster och PBL:s verktyg"
   },
   {
-    "id": "boverket_2787525025379349081",
+    "id": "boverket_-3081654315135003816",
     "title": "Roller och ansvar",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -32913,7 +32913,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Roller och ansvar"
   },
   {
-    "id": "boverket_7951627311055088358",
+    "id": "boverket_1572632771348117317",
     "title": "Därför behöver vi naturen",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -32921,14 +32921,14 @@
     "icon": "🏛️",
     "url": "https://www.boverket.se/sv/PBL-kunskapsbanken/teman/ekosystemtjanster/naturen/",
     "cats": [
-      "biodiv",
       "policy",
+      "biodiv",
       "omstallning"
     ],
     "desc": "PBL-kunskapsbanken från Boverket: Därför behöver vi naturen"
   },
   {
-    "id": "boverket_2160212234097117958",
+    "id": "boverket_6412543591276796634",
     "title": "Grönska ger välbefinnande",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -32936,14 +32936,14 @@
     "icon": "🏛️",
     "url": "https://www.boverket.se/sv/PBL-kunskapsbanken/teman/ekosystemtjanster/naturen/valbefinnande/",
     "cats": [
-      "biodiv",
       "policy",
+      "biodiv",
       "omstallning"
     ],
     "desc": "PBL-kunskapsbanken från Boverket: Grönska ger välbefinnande"
   },
   {
-    "id": "boverket_-8128520004898069936",
+    "id": "boverket_2421076367998856659",
     "title": "Naturens betydelse för klimatanpassning",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -32951,15 +32951,15 @@
     "icon": "🏛️",
     "url": "https://www.boverket.se/sv/PBL-kunskapsbanken/teman/ekosystemtjanster/naturen/betydelse/",
     "cats": [
-      "biodiv",
       "policy",
-      "omstallning",
-      "klimat"
+      "biodiv",
+      "klimat",
+      "omstallning"
     ],
     "desc": "PBL-kunskapsbanken från Boverket: Naturens betydelse för klimatanpassning"
   },
   {
-    "id": "boverket_4397826774332891677",
+    "id": "boverket_4585150937020791139",
     "title": "Parker och grönområden reglerar vatten",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -32967,15 +32967,15 @@
     "icon": "🏛️",
     "url": "https://www.boverket.se/sv/PBL-kunskapsbanken/teman/ekosystemtjanster/naturen/betydelse/reglerar/",
     "cats": [
-      "vatten",
-      "biodiv",
       "policy",
-      "omstallning"
+      "biodiv",
+      "omstallning",
+      "vatten"
     ],
     "desc": "PBL-kunskapsbanken från Boverket: Parker och grönområden reglerar vatten"
   },
   {
-    "id": "boverket_-2973083580676247529",
+    "id": "boverket_-22572160467874681",
     "title": "Grönska reglerar temperaturen",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -32983,14 +32983,14 @@
     "icon": "🏛️",
     "url": "https://www.boverket.se/sv/PBL-kunskapsbanken/teman/ekosystemtjanster/naturen/betydelse/reglerar-temp/",
     "cats": [
-      "biodiv",
       "policy",
+      "biodiv",
       "omstallning"
     ],
     "desc": "PBL-kunskapsbanken från Boverket: Grönska reglerar temperaturen"
   },
   {
-    "id": "boverket_7517603006644187403",
+    "id": "boverket_6755748407809357721",
     "title": "Ras, skred och erosion",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -33004,7 +33004,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Ras, skred och erosion"
   },
   {
-    "id": "boverket_-4560784289358626826",
+    "id": "boverket_4173237610818945977",
     "title": "Biologisk mångfald ger motståndskraft",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -33018,7 +33018,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Biologisk mångfald ger motståndskraft"
   },
   {
-    "id": "boverket_6084150519467416981",
+    "id": "boverket_-5164917820092966333",
     "title": "Attraktiva städer och tätorter",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -33032,7 +33032,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Attraktiva städer och tätorter"
   },
   {
-    "id": "boverket_-6062828077637636721",
+    "id": "boverket_9162742762910207780",
     "title": "Gröna lösningar i praktiken",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -33040,14 +33040,14 @@
     "icon": "🏛️",
     "url": "https://www.boverket.se/sv/PBL-kunskapsbanken/teman/ekosystemtjanster/praktiken/",
     "cats": [
-      "biodiv",
       "policy",
+      "biodiv",
       "omstallning"
     ],
     "desc": "PBL-kunskapsbanken från Boverket: Gröna lösningar i praktiken"
   },
   {
-    "id": "boverket_-3895812006024348186",
+    "id": "boverket_-5526653073018716743",
     "title": "Bra att veta om mark och växter",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -33061,7 +33061,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Bra att veta om mark och växter"
   },
   {
-    "id": "boverket_5052089922634572045",
+    "id": "boverket_660657269258490264",
     "title": "Klimatanpassningar - Dagvattenlösningar",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -33069,15 +33069,15 @@
     "icon": "🏛️",
     "url": "https://www.boverket.se/sv/PBL-kunskapsbanken/teman/ekosystemtjanster/praktiken/klimatanpassningar/",
     "cats": [
-      "vatten",
       "policy",
+      "klimat",
       "omstallning",
-      "klimat"
+      "vatten"
     ],
     "desc": "PBL-kunskapsbanken från Boverket: Klimatanpassningar - Dagvattenlösningar"
   },
   {
-    "id": "boverket_3182510735029293212",
+    "id": "boverket_1004354494320562550",
     "title": "Exempel på dagvattenlösningar",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -33085,14 +33085,14 @@
     "icon": "🏛️",
     "url": "https://www.boverket.se/sv/PBL-kunskapsbanken/teman/ekosystemtjanster/praktiken/klimatanpassningar/exempel/",
     "cats": [
-      "vatten",
       "policy",
-      "omstallning"
+      "omstallning",
+      "vatten"
     ],
     "desc": "PBL-kunskapsbanken från Boverket: Exempel på dagvattenlösningar"
   },
   {
-    "id": "boverket_-7980416590478341474",
+    "id": "boverket_-3181776428781347615",
     "title": "Gröna tak och väggar",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -33100,14 +33100,14 @@
     "icon": "🏛️",
     "url": "https://www.boverket.se/sv/PBL-kunskapsbanken/teman/ekosystemtjanster/praktiken/grona/",
     "cats": [
-      "biodiv",
       "policy",
+      "biodiv",
       "omstallning"
     ],
     "desc": "PBL-kunskapsbanken från Boverket: Gröna tak och väggar"
   },
   {
-    "id": "boverket_7200187205995777392",
+    "id": "boverket_-175916967435277429",
     "title": "Gröna tak",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -33115,14 +33115,14 @@
     "icon": "🏛️",
     "url": "https://www.boverket.se/sv/PBL-kunskapsbanken/teman/ekosystemtjanster/praktiken/grona/grona-tak/",
     "cats": [
-      "biodiv",
       "policy",
+      "biodiv",
       "omstallning"
     ],
     "desc": "PBL-kunskapsbanken från Boverket: Gröna tak"
   },
   {
-    "id": "boverket_7373363126023791659",
+    "id": "boverket_1138717063452012736",
     "title": "Exempel på gröna tak",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -33130,14 +33130,14 @@
     "icon": "🏛️",
     "url": "https://www.boverket.se/sv/PBL-kunskapsbanken/teman/ekosystemtjanster/praktiken/grona/grona-tak/exempel-pa-grona-tak/",
     "cats": [
-      "biodiv",
       "policy",
+      "biodiv",
       "omstallning"
     ],
     "desc": "PBL-kunskapsbanken från Boverket: Exempel på gröna tak"
   },
   {
-    "id": "boverket_-6428005224051066509",
+    "id": "boverket_3453553276966508505",
     "title": "Gröna fasader och väggar",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -33145,14 +33145,14 @@
     "icon": "🏛️",
     "url": "https://www.boverket.se/sv/PBL-kunskapsbanken/teman/ekosystemtjanster/praktiken/grona/vaggar/",
     "cats": [
-      "biodiv",
       "policy",
+      "biodiv",
       "omstallning"
     ],
     "desc": "PBL-kunskapsbanken från Boverket: Gröna fasader och väggar"
   },
   {
-    "id": "boverket_5663606338474608401",
+    "id": "boverket_-8376615183187067624",
     "title": "Exempel på gröna väggar",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -33160,14 +33160,14 @@
     "icon": "🏛️",
     "url": "https://www.boverket.se/sv/PBL-kunskapsbanken/teman/ekosystemtjanster/praktiken/grona/vaggar/ex_vaggar/",
     "cats": [
-      "biodiv",
       "policy",
+      "biodiv",
       "omstallning"
     ],
     "desc": "PBL-kunskapsbanken från Boverket: Exempel på gröna väggar"
   },
   {
-    "id": "boverket_1596490718793683539",
+    "id": "boverket_947233093135962330",
     "title": "Hög biologisk mångfald",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -33181,7 +33181,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Hög biologisk mångfald"
   },
   {
-    "id": "boverket_-2598761904413874782",
+    "id": "boverket_5818129328068893631",
     "title": "Urbana öppna vegetationsytor",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -33195,7 +33195,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Urbana öppna vegetationsytor"
   },
   {
-    "id": "boverket_-5247690452880754491",
+    "id": "boverket_-8657020080972932583",
     "title": "Exempel på urbana ängar",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -33209,7 +33209,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Exempel på urbana ängar"
   },
   {
-    "id": "boverket_-8516349555506840449",
+    "id": "boverket_3992963291755315346",
     "title": "Urbana träd och ekosystemtjänster",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -33223,7 +33223,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Urbana träd och ekosystemtjänster"
   },
   {
-    "id": "boverket_-430681391114688346",
+    "id": "boverket_7774700964345159135",
     "title": "Exempel på flyttade och bevarade träd",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -33237,7 +33237,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Exempel på flyttade och bevarade träd"
   },
   {
-    "id": "boverket_8952799085647747059",
+    "id": "boverket_-1319320444949352095",
     "title": "Buskar och naturlika buskage",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -33245,14 +33245,14 @@
     "icon": "🏛️",
     "url": "https://www.boverket.se/sv/PBL-kunskapsbanken/teman/ekosystemtjanster/praktiken/mangfald/buskar/",
     "cats": [
-      "biodiv",
       "policy",
+      "biodiv",
       "omstallning"
     ],
     "desc": "PBL-kunskapsbanken från Boverket: Buskar och naturlika buskage"
   },
   {
-    "id": "boverket_9196574541853863281",
+    "id": "boverket_5316243230340293122",
     "title": "Exempel på buskage",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -33266,7 +33266,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Exempel på buskage"
   },
   {
-    "id": "boverket_-6080731100680469714",
+    "id": "boverket_-3861168870150532127",
     "title": "Estetik och sociala funktioner",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -33280,7 +33280,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Estetik och sociala funktioner"
   },
   {
-    "id": "boverket_-9184346135085807840",
+    "id": "boverket_8945277950011596041",
     "title": "Reducerar ljud",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -33294,7 +33294,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Reducerar ljud"
   },
   {
-    "id": "boverket_-2163587819393200580",
+    "id": "boverket_1269209621495776824",
     "title": "Platser på tomten och i staden",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -33308,7 +33308,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Platser på tomten och i staden"
   },
   {
-    "id": "boverket_7737301595979715730",
+    "id": "boverket_-5494440093866881634",
     "title": "Tomter",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -33322,7 +33322,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Tomter"
   },
   {
-    "id": "boverket_-7990269726122831809",
+    "id": "boverket_-5785292781567713217",
     "title": "Stärka, stödja eller skydda ekosystemtjänster på tomter",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -33336,7 +33336,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Stärka, stödja eller skydda ekosystemtjänster på tomter"
   },
   {
-    "id": "boverket_7439693677519375817",
+    "id": "boverket_-1867217446760391484",
     "title": "Bjälklag på bostadsgårdar",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -33350,7 +33350,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Bjälklag på bostadsgårdar"
   },
   {
-    "id": "boverket_-2504934158219391008",
+    "id": "boverket_-2658930431095134480",
     "title": "Exempel på bostadsgårdar",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -33364,7 +33364,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Exempel på bostadsgårdar"
   },
   {
-    "id": "boverket_7746498348259798235",
+    "id": "boverket_6153466268245136599",
     "title": "Hårdgjorda ytor",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -33378,7 +33378,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Hårdgjorda ytor"
   },
   {
-    "id": "boverket_-3426207161464134675",
+    "id": "boverket_5901973659321225114",
     "title": "Stärka, stödja eller skydda ekosystemtjänster på hårdgjorda ytor",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -33392,7 +33392,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Stärka, stödja eller skydda ekosystemtjänster på hårdgjorda ytor"
   },
   {
-    "id": "boverket_-7939650812381695882",
+    "id": "boverket_7637725906579836597",
     "title": "Byggnader",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -33406,7 +33406,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Byggnader"
   },
   {
-    "id": "boverket_-4136381388284896569",
+    "id": "boverket_497232313938465399",
     "title": "Stärka, stödja eller skydda ekosystemtjänster på byggnader",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -33420,7 +33420,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Stärka, stödja eller skydda ekosystemtjänster på byggnader"
   },
   {
-    "id": "boverket_4867948029400735995",
+    "id": "boverket_-6500913270124184574",
     "title": "Metod - planering & lov",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -33434,7 +33434,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Metod - planering & lov"
   },
   {
-    "id": "boverket_-6592685031488261557",
+    "id": "boverket_4349541260388225976",
     "title": "Ekosystemtjänster översiktsplan",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -33448,7 +33448,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Ekosystemtjänster översiktsplan"
   },
   {
-    "id": "boverket_-3662688970827871923",
+    "id": "boverket_4925593257738639162",
     "title": "Mål och visioner",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -33462,7 +33462,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Mål och visioner"
   },
   {
-    "id": "boverket_7924772188170714819",
+    "id": "boverket_8615934530783579649",
     "title": "Förutsättningar",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -33476,7 +33476,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Förutsättningar"
   },
   {
-    "id": "boverket_3889702569392481290",
+    "id": "boverket_6362099241379916715",
     "title": "Utred och analysera",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -33490,7 +33490,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Utred och analysera"
   },
   {
-    "id": "boverket_8620795329901518222",
+    "id": "boverket_-5070605742816096937",
     "title": "Avväg mot andra intressen",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -33504,7 +33504,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Avväg mot andra intressen"
   },
   {
-    "id": "boverket_-5037771008600701614",
+    "id": "boverket_-6323200266332657173",
     "title": "Säkerställande",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -33518,7 +33518,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Säkerställande"
   },
   {
-    "id": "boverket_-8269337909298794034",
+    "id": "boverket_5543643512982923318",
     "title": "Genomför och följ upp",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -33532,7 +33532,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Genomför och följ upp"
   },
   {
-    "id": "boverket_-6852698520065186300",
+    "id": "boverket_-1857318841727252550",
     "title": "Ekosystemtjänster detaljplaneläggning",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -33546,7 +33546,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Ekosystemtjänster detaljplaneläggning"
   },
   {
-    "id": "boverket_5699798023153777916",
+    "id": "boverket_6692365750095353627",
     "title": "Planens syfte",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -33560,7 +33560,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Planens syfte"
   },
   {
-    "id": "boverket_-287622918151245104",
+    "id": "boverket_1865573745109671842",
     "title": "Kartlägg förutsättningar",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -33574,7 +33574,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Kartlägg förutsättningar"
   },
   {
-    "id": "boverket_7567073724666936083",
+    "id": "boverket_6954281658369203532",
     "title": "Utred och analysera",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -33588,7 +33588,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Utred och analysera"
   },
   {
-    "id": "boverket_-1448840381314953006",
+    "id": "boverket_-1335064713347437004",
     "title": "Avväg mot andra intressen",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -33602,7 +33602,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Avväg mot andra intressen"
   },
   {
-    "id": "boverket_-2978383786609033308",
+    "id": "boverket_3643838311651983063",
     "title": "Säkerställ",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -33616,7 +33616,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Säkerställ"
   },
   {
-    "id": "boverket_-3473276381175673811",
+    "id": "boverket_5195925865234088276",
     "title": "Planbestämmelser på allmän platsmark",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -33630,7 +33630,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Planbestämmelser på allmän platsmark"
   },
   {
-    "id": "boverket_992022522336488540",
+    "id": "boverket_-2686281558960268064",
     "title": "Ekosystemtjänster på kvartersmark",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -33644,7 +33644,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Ekosystemtjänster på kvartersmark"
   },
   {
-    "id": "boverket_-6526005050084128741",
+    "id": "boverket_-4132471813107910168",
     "title": "Genomför och följ upp",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -33658,7 +33658,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Genomför och följ upp"
   },
   {
-    "id": "boverket_-1928865445655224292",
+    "id": "boverket_-1362576210864602055",
     "title": "Ekosystemtjänster vid lov",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -33672,7 +33672,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Ekosystemtjänster vid lov"
   },
   {
-    "id": "boverket_5478662732973978063",
+    "id": "boverket_-8834778467377399378",
     "title": "Ekosystemtjänster vid förhandsbesked",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -33686,7 +33686,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Ekosystemtjänster vid förhandsbesked"
   },
   {
-    "id": "boverket_-6407361015064680690",
+    "id": "boverket_4293503863750861689",
     "title": "Ekosystemtjänster vid bygglov utanför detaljplan",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -33700,7 +33700,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Ekosystemtjänster vid bygglov utanför detaljplan"
   },
   {
-    "id": "boverket_920036901276395766",
+    "id": "boverket_-2658602533998400922",
     "title": "Ekosystemtjänster vid bygglov inom detaljplan",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -33714,7 +33714,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Ekosystemtjänster vid bygglov inom detaljplan"
   },
   {
-    "id": "boverket_-2889307639993380029",
+    "id": "boverket_228404122251195810",
     "title": "Ekosystemtjänster vid marklov",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -33728,7 +33728,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Ekosystemtjänster vid marklov"
   },
   {
-    "id": "boverket_1968459223750539502",
+    "id": "boverket_-2334440129653368754",
     "title": "Metod - byggande",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -33742,7 +33742,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Metod - byggande"
   },
   {
-    "id": "boverket_-3714492481684087096",
+    "id": "boverket_-5993389070908748361",
     "title": "Att tänka på i din roll",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -33756,7 +33756,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Att tänka på i din roll"
   },
   {
-    "id": "boverket_3142743029570242679",
+    "id": "boverket_5606097151309009691",
     "title": "Olika skeden i byggandet",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -33770,7 +33770,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Olika skeden i byggandet"
   },
   {
-    "id": "boverket_3014756686463133177",
+    "id": "boverket_6317932338650409509",
     "title": "Förstudie",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -33784,7 +33784,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Förstudie"
   },
   {
-    "id": "boverket_-5582433853601623622",
+    "id": "boverket_-4923846839919594849",
     "title": "Programskedet",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -33798,7 +33798,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Programskedet"
   },
   {
-    "id": "boverket_1819174030531885359",
+    "id": "boverket_8139066486914019330",
     "title": "Projektering",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -33812,7 +33812,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Projektering"
   },
   {
-    "id": "boverket_-2109767426910412673",
+    "id": "boverket_3882926784658023766",
     "title": "Produktion och uppföljning",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -33826,7 +33826,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Produktion och uppföljning"
   },
   {
-    "id": "boverket_3755821916323881084",
+    "id": "boverket_8617032349918761060",
     "title": "Ändring av byggnad",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -33840,7 +33840,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Ändring av byggnad"
   },
   {
-    "id": "boverket_-6338845791206731412",
+    "id": "boverket_-7677007923464874634",
     "title": "Metod - förvaltning",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -33854,7 +33854,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Metod - förvaltning"
   },
   {
-    "id": "boverket_-6082636552015788029",
+    "id": "boverket_1729454478301305528",
     "title": "Att tänka på i din roll",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -33868,7 +33868,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Att tänka på i din roll"
   },
   {
-    "id": "boverket_-6085836894133506605",
+    "id": "boverket_-5027947576629531509",
     "title": "Använd mål och vision",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -33882,7 +33882,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Använd mål och vision"
   },
   {
-    "id": "boverket_-2100035147000887593",
+    "id": "boverket_4162166754201351878",
     "title": "Kartlägg förutsättningar",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -33896,7 +33896,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Kartlägg förutsättningar"
   },
   {
-    "id": "boverket_3002931816578221210",
+    "id": "boverket_-769318891919173346",
     "title": "Styr med skötselplanen",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -33910,7 +33910,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Styr med skötselplanen"
   },
   {
-    "id": "boverket_1512739265325455657",
+    "id": "boverket_9060656094852856448",
     "title": "Exempel på förfrågningsunderlag",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -33924,7 +33924,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Exempel på förfrågningsunderlag"
   },
   {
-    "id": "boverket_4093442757510464379",
+    "id": "boverket_-3639278546364635227",
     "title": "Genomför drift",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -33938,7 +33938,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Genomför drift"
   },
   {
-    "id": "boverket_6168905357933257725",
+    "id": "boverket_-692676334142673727",
     "title": "Följ upp och återkoppla",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -33952,7 +33952,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Följ upp och återkoppla"
   },
   {
-    "id": "boverket_1808151703477928487",
+    "id": "boverket_-3246994987341910596",
     "title": "Underlag och verktyg i arbetet med ekosystemtjänster",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -33966,7 +33966,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Underlag och verktyg i arbetet med ekosystemtjänster"
   },
   {
-    "id": "boverket_-8423168441754774984",
+    "id": "boverket_-40769361499342652",
     "title": "Samverkan och dialog",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -33980,7 +33980,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Samverkan och dialog"
   },
   {
-    "id": "boverket_-7087646818245520364",
+    "id": "boverket_-7257932894450518909",
     "title": "Ta fram en grönplan",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -33988,14 +33988,14 @@
     "icon": "🏛️",
     "url": "https://www.boverket.se/sv/PBL-kunskapsbanken/teman/ekosystemtjanster/verktyg/gronplan/",
     "cats": [
-      "biodiv",
       "policy",
+      "biodiv",
       "omstallning"
     ],
     "desc": "PBL-kunskapsbanken från Boverket: Ta fram en grönplan"
   },
   {
-    "id": "boverket_3185415673502818419",
+    "id": "boverket_-9099991499057152374",
     "title": "Exempel på grönplaner",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -34003,14 +34003,14 @@
     "icon": "🏛️",
     "url": "https://www.boverket.se/sv/PBL-kunskapsbanken/teman/ekosystemtjanster/verktyg/gronplan/exempel/",
     "cats": [
-      "biodiv",
       "policy",
+      "biodiv",
       "omstallning"
     ],
     "desc": "PBL-kunskapsbanken från Boverket: Exempel på grönplaner"
   },
   {
-    "id": "boverket_8589740614197801549",
+    "id": "boverket_7669326501172373789",
     "title": "Inventeringar och kartläggningar",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -34024,7 +34024,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Inventeringar och kartläggningar"
   },
   {
-    "id": "boverket_4101622079701169729",
+    "id": "boverket_5031189744819614220",
     "title": "Naturvärdesinventering",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -34032,14 +34032,14 @@
     "icon": "🏛️",
     "url": "https://www.boverket.se/sv/PBL-kunskapsbanken/teman/ekosystemtjanster/verktyg/kartlaggning/naturvardesinventering/",
     "cats": [
-      "biodiv",
       "policy",
+      "biodiv",
       "omstallning"
     ],
     "desc": "PBL-kunskapsbanken från Boverket: Naturvärdesinventering"
   },
   {
-    "id": "boverket_-4202142887762759770",
+    "id": "boverket_-7897219642665895160",
     "title": "Ekosystemtjänstanalys",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -34053,7 +34053,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Ekosystemtjänstanalys"
   },
   {
-    "id": "boverket_-8461599262756827641",
+    "id": "boverket_-4434714275297317774",
     "title": "Ekosystemtjänstmatris ger överblick",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -34067,7 +34067,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Ekosystemtjänstmatris ger överblick"
   },
   {
-    "id": "boverket_-1730870818755323564",
+    "id": "boverket_2388526310779324906",
     "title": "Ekosystemtjänster i certifieringar",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -34081,7 +34081,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Ekosystemtjänster i certifieringar"
   },
   {
-    "id": "boverket_1155097304385946799",
+    "id": "boverket_8693608168359015728",
     "title": "ESTER",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -34095,7 +34095,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: ESTER"
   },
   {
-    "id": "boverket_-7561333039195965829",
+    "id": "boverket_-9068403126609953084",
     "title": "Grönytefaktor",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -34103,14 +34103,14 @@
     "icon": "🏛️",
     "url": "https://www.boverket.se/sv/PBL-kunskapsbanken/teman/ekosystemtjanster/verktyg/gronytefaktor/",
     "cats": [
-      "biodiv",
       "policy",
+      "biodiv",
       "omstallning"
     ],
     "desc": "PBL-kunskapsbanken från Boverket: Grönytefaktor"
   },
   {
-    "id": "boverket_7171060546103044554",
+    "id": "boverket_8572932482442604527",
     "title": "GYF kvartersmark",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -34124,7 +34124,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: GYF kvartersmark"
   },
   {
-    "id": "boverket_890403179956226576",
+    "id": "boverket_1458097938288642331",
     "title": "GYF Stadsdelar",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -34138,7 +34138,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: GYF Stadsdelar"
   },
   {
-    "id": "boverket_-1076882310389700480",
+    "id": "boverket_-7291254339943506716",
     "title": "Frivillig ekologisk kompensation",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -34152,7 +34152,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Frivillig ekologisk kompensation"
   },
   {
-    "id": "boverket_-9176744423992729003",
+    "id": "boverket_-1804896290488911182",
     "title": "Exempel på kommuner",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -34166,7 +34166,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Exempel på kommuner"
   },
   {
-    "id": "boverket_520300657530168467",
+    "id": "boverket_2559854145102098058",
     "title": "Värdering av ekosystemtjänster",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -34180,7 +34180,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Värdering av ekosystemtjänster"
   },
   {
-    "id": "boverket_-7362234057450679106",
+    "id": "boverket_6311335128643682044",
     "title": "Exempel på kostnader",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -34194,7 +34194,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Exempel på kostnader"
   },
   {
-    "id": "boverket_3800790727546093155",
+    "id": "boverket_-5418204140868535822",
     "title": "Dimensionerande mått",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -34208,7 +34208,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Dimensionerande mått"
   },
   {
-    "id": "boverket_-4284819740782851966",
+    "id": "boverket_-3818194714154669539",
     "title": "Värderos",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -34222,7 +34222,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Värderos"
   },
   {
-    "id": "boverket_7782264224814130184",
+    "id": "boverket_-2805651186780093838",
     "title": "Räkna med ekosystemtjänster",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -34236,7 +34236,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Räkna med ekosystemtjänster"
   },
   {
-    "id": "boverket_4108480961891404209",
+    "id": "boverket_5092225199627616572",
     "title": "Reglering av lokalklimat",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -34245,13 +34245,13 @@
     "url": "https://www.boverket.se/sv/PBL-kunskapsbanken/teman/ekosystemtjanster/verktyg/rakna/lokalklimat/",
     "cats": [
       "policy",
-      "omstallning",
-      "klimat"
+      "klimat",
+      "omstallning"
     ],
     "desc": "PBL-kunskapsbanken från Boverket: Reglering av lokalklimat"
   },
   {
-    "id": "boverket_4672073080744689241",
+    "id": "boverket_8291399363168021417",
     "title": "Luftrening",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -34265,7 +34265,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Luftrening"
   },
   {
-    "id": "boverket_3558426562640614116",
+    "id": "boverket_-6365219763238316114",
     "title": "Erosionsskydd",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -34279,7 +34279,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Erosionsskydd"
   },
   {
-    "id": "boverket_-7309472285699410485",
+    "id": "boverket_361174786671162583",
     "title": "Dagvattenhantering",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -34287,14 +34287,14 @@
     "icon": "🏛️",
     "url": "https://www.boverket.se/sv/PBL-kunskapsbanken/teman/ekosystemtjanster/verktyg/rakna/dagvattenhantering/",
     "cats": [
-      "vatten",
       "policy",
-      "omstallning"
+      "omstallning",
+      "vatten"
     ],
     "desc": "PBL-kunskapsbanken från Boverket: Dagvattenhantering"
   },
   {
-    "id": "boverket_814871277515195544",
+    "id": "boverket_-480620141634700277",
     "title": "Reglering av buller",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -34308,7 +34308,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Reglering av buller"
   },
   {
-    "id": "boverket_7943185146184715419",
+    "id": "boverket_3050926701649613533",
     "title": "Vattenrening",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -34316,14 +34316,14 @@
     "icon": "🏛️",
     "url": "https://www.boverket.se/sv/PBL-kunskapsbanken/teman/ekosystemtjanster/verktyg/rakna/vattenrening/",
     "cats": [
-      "vatten",
       "policy",
-      "omstallning"
+      "omstallning",
+      "vatten"
     ],
     "desc": "PBL-kunskapsbanken från Boverket: Vattenrening"
   },
   {
-    "id": "boverket_-5089462093650855644",
+    "id": "boverket_-3744707888583943926",
     "title": "Rekreation",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -34337,7 +34337,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Rekreation"
   },
   {
-    "id": "boverket_2291147003239958605",
+    "id": "boverket_3663088692601997404",
     "title": "Farligt gods",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -34351,7 +34351,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Farligt gods"
   },
   {
-    "id": "boverket_2879803754352825663",
+    "id": "boverket_-5176090534490844152",
     "title": "Godstransporter i fysisk planering",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -34365,7 +34365,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Godstransporter i fysisk planering"
   },
   {
-    "id": "boverket_-4797516818153451533",
+    "id": "boverket_7567196629461392961",
     "title": "Grönplan",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -34373,14 +34373,14 @@
     "icon": "🏛️",
     "url": "https://www.boverket.se/sv/PBL-kunskapsbanken/teman/gronplan/",
     "cats": [
-      "biodiv",
       "policy",
+      "biodiv",
       "omstallning"
     ],
     "desc": "PBL-kunskapsbanken från Boverket: Grönplan"
   },
   {
-    "id": "boverket_5852697675315736144",
+    "id": "boverket_-4651968116713850127",
     "title": "Läsanvisning",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -34394,7 +34394,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Läsanvisning"
   },
   {
-    "id": "boverket_3369920869065546819",
+    "id": "boverket_-8052738059086363180",
     "title": "Centrala begrepp",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -34408,7 +34408,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Centrala begrepp"
   },
   {
-    "id": "boverket_-3788704303127189131",
+    "id": "boverket_-2620385122902192089",
     "title": "Därför behövs grönplanering",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -34416,14 +34416,14 @@
     "icon": "🏛️",
     "url": "https://www.boverket.se/sv/PBL-kunskapsbanken/teman/gronplan/darfor-behovs/",
     "cats": [
-      "biodiv",
       "policy",
+      "biodiv",
       "omstallning"
     ],
     "desc": "PBL-kunskapsbanken från Boverket: Därför behövs grönplanering"
   },
   {
-    "id": "boverket_4974288770836589695",
+    "id": "boverket_8124852644371922261",
     "title": "Människors hälsa och välbefinnande",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -34437,7 +34437,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Människors hälsa och välbefinnande"
   },
   {
-    "id": "boverket_-3190230870078058050",
+    "id": "boverket_2239948430908951309",
     "title": "Anpassning till ett ändrat klimat",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -34446,13 +34446,13 @@
     "url": "https://www.boverket.se/sv/PBL-kunskapsbanken/teman/gronplan/darfor-behovs/andrat_klimat/",
     "cats": [
       "policy",
-      "omstallning",
-      "klimat"
+      "klimat",
+      "omstallning"
     ],
     "desc": "PBL-kunskapsbanken från Boverket: Anpassning till ett ändrat klimat"
   },
   {
-    "id": "boverket_6571131627166400395",
+    "id": "boverket_201788977546842014",
     "title": "Biologisk mångfald",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -34466,7 +34466,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Biologisk mångfald"
   },
   {
-    "id": "boverket_-5997599472964782730",
+    "id": "boverket_4222282475569961206",
     "title": "Lagstiftningen",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -34480,7 +34480,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Lagstiftningen"
   },
   {
-    "id": "boverket_-2312694190612201571",
+    "id": "boverket_4154819451461847212",
     "title": "Nationella mål",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -34494,7 +34494,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Nationella mål"
   },
   {
-    "id": "boverket_-2695273947384118127",
+    "id": "boverket_2212981013533648828",
     "title": "Internationella överenskommelser, mål och strategier",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -34508,7 +34508,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Internationella överenskommelser, mål och strategier"
   },
   {
-    "id": "boverket_-5844249370756774460",
+    "id": "boverket_2707848418091426572",
     "title": "Att arbeta med grönplanering",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -34516,14 +34516,14 @@
     "icon": "🏛️",
     "url": "https://www.boverket.se/sv/PBL-kunskapsbanken/teman/gronplan/att-arbeta/",
     "cats": [
-      "biodiv",
       "policy",
+      "biodiv",
       "omstallning"
     ],
     "desc": "PBL-kunskapsbanken från Boverket: Att arbeta med grönplanering"
   },
   {
-    "id": "boverket_1268526823512554238",
+    "id": "boverket_3844237345889173417",
     "title": "Sammanhang, roll och status",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -34537,7 +34537,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Sammanhang, roll och status"
   },
   {
-    "id": "boverket_-3088757327437417215",
+    "id": "boverket_411626820027240512",
     "title": "Processen",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -34551,7 +34551,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Processen"
   },
   {
-    "id": "boverket_-4470075560280164035",
+    "id": "boverket_-8726443046902850249",
     "title": "Utmaningar",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -34565,7 +34565,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Utmaningar"
   },
   {
-    "id": "boverket_8012572874460562765",
+    "id": "boverket_-5134990785489133661",
     "title": "Dialog och delaktighet",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -34579,7 +34579,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Dialog och delaktighet"
   },
   {
-    "id": "boverket_6437879641892504077",
+    "id": "boverket_8261704538168535931",
     "title": "Riktlinjer i grönplaneringen",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -34587,14 +34587,14 @@
     "icon": "🏛️",
     "url": "https://www.boverket.se/sv/PBL-kunskapsbanken/teman/gronplan/att-arbeta/riktlinjer/",
     "cats": [
-      "biodiv",
       "policy",
+      "biodiv",
       "omstallning"
     ],
     "desc": "PBL-kunskapsbanken från Boverket: Riktlinjer i grönplaneringen"
   },
   {
-    "id": "boverket_-1156462066312250055",
+    "id": "boverket_5438302754406134978",
     "title": "Industribuller",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -34608,7 +34608,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Industribuller"
   },
   {
-    "id": "boverket_-7369459559920779106",
+    "id": "boverket_3457337723263351880",
     "title": "Kulturvärden",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -34622,7 +34622,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Kulturvärden"
   },
   {
-    "id": "boverket_897013595820136552",
+    "id": "boverket_-7328833698878866078",
     "title": "Kulturvärden i teori och praktik",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -34636,7 +34636,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Kulturvärden i teori och praktik"
   },
   {
-    "id": "boverket_2103116323019995899",
+    "id": "boverket_4208739649981499877",
     "title": "Vad är kulturvärde?",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -34650,7 +34650,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Vad är kulturvärde?"
   },
   {
-    "id": "boverket_2415994913395923669",
+    "id": "boverket_-3686822282790088696",
     "title": "Kulturhistorisk värdering och urval",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -34664,7 +34664,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Kulturhistorisk värdering och urval"
   },
   {
-    "id": "boverket_5703228863494761182",
+    "id": "boverket_-8955400275114100382",
     "title": "Metoder att tydliggöra kulturvärden",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -34678,7 +34678,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Metoder att tydliggöra kulturvärden"
   },
   {
-    "id": "boverket_-2638032573475402004",
+    "id": "boverket_-2425420131109584766",
     "title": "Checklista karaktärsdrag",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -34692,7 +34692,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Checklista karaktärsdrag"
   },
   {
-    "id": "boverket_5919587734902480512",
+    "id": "boverket_-6714952540100479252",
     "title": "Underlag kulturvärden",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -34706,7 +34706,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Underlag kulturvärden"
   },
   {
-    "id": "boverket_2389141653235242837",
+    "id": "boverket_-5820985883183721521",
     "title": "Kulturmiljöunderlag - vad är det",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -34720,7 +34720,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Kulturmiljöunderlag - vad är det"
   },
   {
-    "id": "boverket_-2060423892427240223",
+    "id": "boverket_-8125237641052769635",
     "title": "Kommunala kulturmiljöprogram",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -34734,7 +34734,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Kommunala kulturmiljöprogram"
   },
   {
-    "id": "boverket_-3613758248452869350",
+    "id": "boverket_-1478321274676268682",
     "title": "Regionala kulturmiljöprogram",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -34748,7 +34748,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Regionala kulturmiljöprogram"
   },
   {
-    "id": "boverket_-8171012392215207265",
+    "id": "boverket_1952110917911823993",
     "title": "Byggnadsordningar",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -34762,7 +34762,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Byggnadsordningar"
   },
   {
-    "id": "boverket_6378766366393639760",
+    "id": "boverket_6028661153918322886",
     "title": "Exempel översiktsplaner och kulturvärden",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -34776,7 +34776,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Exempel översiktsplaner och kulturvärden"
   },
   {
-    "id": "boverket_-5443115780645431045",
+    "id": "boverket_147594735611705613",
     "title": "Varsamhet och byggnadsvård",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -34790,7 +34790,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Varsamhet och byggnadsvård"
   },
   {
-    "id": "boverket_5362867237255226511",
+    "id": "boverket_4412243251455914853",
     "title": "Energieffektivisering och kulturvärden",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -34805,7 +34805,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Energieffektivisering och kulturvärden"
   },
   {
-    "id": "boverket_-4719978290378953316",
+    "id": "boverket_4143846789903676555",
     "title": "Kulturvärden i klimatförändring",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -34814,13 +34814,13 @@
     "url": "https://www.boverket.se/sv/PBL-kunskapsbanken/teman/kulturvarden/kulturvarden-i-teori-och-praktik/klimatforandring/",
     "cats": [
       "policy",
-      "omstallning",
-      "klimat"
+      "klimat",
+      "omstallning"
     ],
     "desc": "PBL-kunskapsbanken från Boverket: Kulturvärden i klimatförändring"
   },
   {
-    "id": "boverket_-6411813792181569924",
+    "id": "boverket_1637065915617850393",
     "title": "Rättsfall och kulturvärden",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -34834,7 +34834,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Rättsfall och kulturvärden"
   },
   {
-    "id": "boverket_4642766374544965213",
+    "id": "boverket_6155506720292905824",
     "title": "Fönsterbyten - Bygglovsplikt och förvanskningsförbudet",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -34848,7 +34848,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Fönsterbyten - Bygglovsplikt och förvanskningsförbudet"
   },
   {
-    "id": "boverket_3722916725122536756",
+    "id": "boverket_3051277104449722788",
     "title": "Kulturvärden i plan- och bygglagen",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -34862,7 +34862,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Kulturvärden i plan- och bygglagen"
   },
   {
-    "id": "boverket_5158493011572374989",
+    "id": "boverket_-7501139285139316669",
     "title": "Översiktsplan och kulturvärden",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -34876,7 +34876,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Översiktsplan och kulturvärden"
   },
   {
-    "id": "boverket_-2475094742366800061",
+    "id": "boverket_-1534337927270388086",
     "title": "Detaljplan och kulturvärden",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -34890,7 +34890,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Detaljplan och kulturvärden"
   },
   {
-    "id": "boverket_-5035389013999544804",
+    "id": "boverket_2794710848850411462",
     "title": "Varsamhetsbestämmelser",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -34904,7 +34904,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Varsamhetsbestämmelser"
   },
   {
-    "id": "boverket_-7692846521654495952",
+    "id": "boverket_-189583660315568207",
     "title": "Exempel varsamhetsbestämmelse med värdebeskrivning",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -34918,7 +34918,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Exempel varsamhetsbestämmelse med värdebeskrivning"
   },
   {
-    "id": "boverket_7761065513194336081",
+    "id": "boverket_6309846025949490104",
     "title": "Bestämmelser om skydd av kulturvärde och rivningsförbud",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -34932,7 +34932,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Bestämmelser om skydd av kulturvärde och rivningsförbud"
   },
   {
-    "id": "boverket_-7050158601265813297",
+    "id": "boverket_-3075872534172839978",
     "title": "Hänsynsbestämmelser",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -34946,7 +34946,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Hänsynsbestämmelser"
   },
   {
-    "id": "boverket_-8282995668893206997",
+    "id": "boverket_933406700133467702",
     "title": "Planbestämmelser mark",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -34960,7 +34960,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Planbestämmelser mark"
   },
   {
-    "id": "boverket_9045009876266365686",
+    "id": "boverket_-1003399350204324031",
     "title": "Områdesbestämmelser och kulturvärden",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -34974,7 +34974,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Områdesbestämmelser och kulturvärden"
   },
   {
-    "id": "boverket_-3145429853975152564",
+    "id": "boverket_1803889951095067021",
     "title": "Krav på byggnadsverk och tomter",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -34988,7 +34988,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Krav på byggnadsverk och tomter"
   },
   {
-    "id": "boverket_3035746631854487888",
+    "id": "boverket_-3716138956666405588",
     "title": "Ändring av byggnader",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -35002,7 +35002,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Ändring av byggnader"
   },
   {
-    "id": "boverket_-1460835322276462806",
+    "id": "boverket_1663966447712181719",
     "title": "Flyttning av byggnader",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -35016,7 +35016,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Flyttning av byggnader"
   },
   {
-    "id": "boverket_1030384032797660507",
+    "id": "boverket_-4717799886857613593",
     "title": "Hänsyn till omgivningen",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -35030,7 +35030,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Hänsyn till omgivningen"
   },
   {
-    "id": "boverket_2198575286783234782",
+    "id": "boverket_-8841072794818576315",
     "title": "Varsamhetskravet",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -35044,7 +35044,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Varsamhetskravet"
   },
   {
-    "id": "boverket_5891237966641771316",
+    "id": "boverket_2240086319058578799",
     "title": "Förvanskningsförbudet",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -35058,7 +35058,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Förvanskningsförbudet"
   },
   {
-    "id": "boverket_8387850086264207481",
+    "id": "boverket_-8434923255523009689",
     "title": "Underhåll",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -35072,7 +35072,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Underhåll"
   },
   {
-    "id": "boverket_-6153807920567698151",
+    "id": "boverket_-6103767739327226757",
     "title": "Tomter och allmänna platser",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -35086,7 +35086,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Tomter och allmänna platser"
   },
   {
-    "id": "boverket_-7191268668908664055",
+    "id": "boverket_2147758939678124802",
     "title": "Lov, byggande och kulturvärden",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -35100,7 +35100,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Lov, byggande och kulturvärden"
   },
   {
-    "id": "boverket_-5145987556528549140",
+    "id": "boverket_2771657411368768979",
     "title": "Kulturvärden bygglov",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -35114,7 +35114,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Kulturvärden bygglov"
   },
   {
-    "id": "boverket_-1172517891413445045",
+    "id": "boverket_-5013471624520714680",
     "title": "Kulturvärden rivningslov",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -35128,7 +35128,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Kulturvärden rivningslov"
   },
   {
-    "id": "boverket_-8026157281670439892",
+    "id": "boverket_8357756246896390112",
     "title": "Kulturvärden marklov",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -35142,7 +35142,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Kulturvärden marklov"
   },
   {
-    "id": "boverket_-3318923683142544776",
+    "id": "boverket_-7909926749688322924",
     "title": "Kulturvärden i byggprocessen",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -35156,7 +35156,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Kulturvärden i byggprocessen"
   },
   {
-    "id": "boverket_4660086965573784506",
+    "id": "boverket_8634386509657823406",
     "title": "Kontroll av kulturvärden",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -35170,7 +35170,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Kontroll av kulturvärden"
   },
   {
-    "id": "boverket_-5640044347027050695",
+    "id": "boverket_2267060026276735963",
     "title": "Sakkunnig kulturvärden",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -35184,7 +35184,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Sakkunnig kulturvärden"
   },
   {
-    "id": "boverket_91935480793379347",
+    "id": "boverket_-1464925519383397381",
     "title": "Kulturvärden i miljöbalken",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -35198,7 +35198,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Kulturvärden i miljöbalken"
   },
   {
-    "id": "boverket_-2686830652127818619",
+    "id": "boverket_1004502593297583881",
     "title": "Allmänna hänsynsregler och bestämmelser",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -35212,7 +35212,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Allmänna hänsynsregler och bestämmelser"
   },
   {
-    "id": "boverket_6850952142327068237",
+    "id": "boverket_-2620468914276516976",
     "title": "Hushållning med mark och vatten",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -35220,14 +35220,14 @@
     "icon": "🏛️",
     "url": "https://www.boverket.se/sv/PBL-kunskapsbanken/teman/kulturvarden/kulturvarden-i-miljobalken/hushallning-med-mark-och-vatten/",
     "cats": [
-      "vatten",
       "policy",
-      "omstallning"
+      "omstallning",
+      "vatten"
     ],
     "desc": "PBL-kunskapsbanken från Boverket: Hushållning med mark och vatten"
   },
   {
-    "id": "boverket_2879551445218223084",
+    "id": "boverket_3910514250672737154",
     "title": "Riksintressen för kulturmiljövården",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -35241,7 +35241,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Riksintressen för kulturmiljövården"
   },
   {
-    "id": "boverket_7413490336394391738",
+    "id": "boverket_-1638436627559098332",
     "title": "Roller och ansvar",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -35255,7 +35255,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Roller och ansvar"
   },
   {
-    "id": "boverket_-2010103000918809880",
+    "id": "boverket_-5638712585207594902",
     "title": "Påtaglig skada",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -35269,7 +35269,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Påtaglig skada"
   },
   {
-    "id": "boverket_5235281321621456738",
+    "id": "boverket_4323288276438431230",
     "title": "Områdesskydd - kulturreservat",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -35283,7 +35283,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Områdesskydd - kulturreservat"
   },
   {
-    "id": "boverket_-6037028597042951089",
+    "id": "boverket_-4287214861952171710",
     "title": "Landskapsbildsskydd",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -35297,7 +35297,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Landskapsbildsskydd"
   },
   {
-    "id": "boverket_-8955242156030631419",
+    "id": "boverket_-5339735785199352744",
     "title": "Samordning med Kulturmiljölagen",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -35311,7 +35311,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Samordning med Kulturmiljölagen"
   },
   {
-    "id": "boverket_-7617714303006817743",
+    "id": "boverket_6726617617407220681",
     "title": "Fornlämningar",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -35325,7 +35325,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Fornlämningar"
   },
   {
-    "id": "boverket_510094574470841702",
+    "id": "boverket_-7526094781646750419",
     "title": "Fornlämningar i planering och byggande",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -35339,7 +35339,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Fornlämningar i planering och byggande"
   },
   {
-    "id": "boverket_265787465358603641",
+    "id": "boverket_1617435734232609831",
     "title": "Byggnadsminnen",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -35353,7 +35353,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Byggnadsminnen"
   },
   {
-    "id": "boverket_3660936263477049455",
+    "id": "boverket_-4961884295558700152",
     "title": "Kyrkliga kulturminnen",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -35367,7 +35367,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Kyrkliga kulturminnen"
   },
   {
-    "id": "boverket_-730244810783482724",
+    "id": "boverket_-287500767868331558",
     "title": "Byggnadsminnen och kyrkliga kulturminnen i planering och byggande",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -35381,7 +35381,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Byggnadsminnen och kyrkliga kulturminnen i planering och byggande"
   },
   {
-    "id": "boverket_-8575541501885955104",
+    "id": "boverket_-8773081139415022882",
     "title": "Andra styrmedel för kulturvärden",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -35395,7 +35395,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Andra styrmedel för kulturvärden"
   },
   {
-    "id": "boverket_9009970739152574895",
+    "id": "boverket_-2433225930467021730",
     "title": "Kulturmiljömålen",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -35409,7 +35409,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Kulturmiljömålen"
   },
   {
-    "id": "boverket_-7353682263961928954",
+    "id": "boverket_6608760976186281042",
     "title": "Mål för gestaltad livsmiljö",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -35423,7 +35423,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Mål för gestaltad livsmiljö"
   },
   {
-    "id": "boverket_7427457718383803286",
+    "id": "boverket_756992500850116665",
     "title": "Kulturmiljön i miljömålen",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -35437,7 +35437,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Kulturmiljön i miljömålen"
   },
   {
-    "id": "boverket_-7151354539652429455",
+    "id": "boverket_3788300034379855108",
     "title": "Europeiska landskapskonventionen",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -35451,7 +35451,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Europeiska landskapskonventionen"
   },
   {
-    "id": "boverket_-7946742609796326783",
+    "id": "boverket_6959339968334419603",
     "title": "Världsarvskonventionen",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -35465,7 +35465,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Världsarvskonventionen"
   },
   {
-    "id": "boverket_-1805811391368731018",
+    "id": "boverket_-2556040431941884886",
     "title": "Bidrag till kulturmiljövård",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -35479,7 +35479,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Bidrag till kulturmiljövård"
   },
   {
-    "id": "boverket_8108207219451574422",
+    "id": "boverket_464664498325337351",
     "title": "Medborgardialog",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -35493,7 +35493,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Medborgardialog"
   },
   {
-    "id": "boverket_7335189080313695324",
+    "id": "boverket_-5254754566136340722",
     "title": "Parkering",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -35507,7 +35507,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Parkering"
   },
   {
-    "id": "boverket_5907709708308208581",
+    "id": "boverket_69092561466902894",
     "title": "Riskhantering och PBL",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -35521,7 +35521,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Riskhantering och PBL"
   },
   {
-    "id": "boverket_-7774296939920733608",
+    "id": "boverket_-3274371026715420301",
     "title": "Totalförsvaret i fysisk planering",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -35535,7 +35535,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Totalförsvaret i fysisk planering"
   },
   {
-    "id": "boverket_-8774820737732188601",
+    "id": "boverket_6498576834700664866",
     "title": "Begreppsbanken",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -35549,7 +35549,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Begreppsbanken"
   },
   {
-    "id": "boverket_-4720193630893158562",
+    "id": "boverket_-8271976203348029224",
     "title": "Buller från idrottsplatser - en vägledning",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -35563,7 +35563,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Buller från idrottsplatser - en vägledning"
   },
   {
-    "id": "boverket_-6134468955116461675",
+    "id": "boverket_-2168526427997437960",
     "title": "Ekosystemtjänster i den byggda miljön  – vägledning & metod",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -35577,7 +35577,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Ekosystemtjänster i den byggda miljön  – vägledning & metod"
   },
   {
-    "id": "boverket_2879803754352825663",
+    "id": "boverket_-5176090534490844152",
     "title": "Godstransporter i fysisk planering",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -35591,7 +35591,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Godstransporter i fysisk planering"
   },
   {
-    "id": "boverket_-4797516818153451533",
+    "id": "boverket_7567196629461392961",
     "title": "Grönplanera! – En vägledning om kommunal grönplanering",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -35599,14 +35599,14 @@
     "icon": "🏛️",
     "url": "https://www.boverket.se/sv/PBL-kunskapsbanken/teman/gronplan/",
     "cats": [
-      "biodiv",
       "policy",
+      "biodiv",
       "omstallning"
     ],
     "desc": "PBL-kunskapsbanken från Boverket: Grönplanera! – En vägledning om kommunal grönplanering"
   },
   {
-    "id": "boverket_-1156462066312250055",
+    "id": "boverket_5438302754406134978",
     "title": "Omgivningsbuller från industriell verksamhet",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -35620,7 +35620,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Omgivningsbuller från industriell verksamhet"
   },
   {
-    "id": "boverket_-7369459559920779106",
+    "id": "boverket_3457337723263351880",
     "title": "Kulturvärden",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -35634,7 +35634,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Kulturvärden"
   },
   {
-    "id": "boverket_-7774296939920733608",
+    "id": "boverket_-3274371026715420301",
     "title": "Totalförsvaret i fysisk planering",
     "source": "Boverket",
     "source_name": "Boverket PBL",
@@ -35648,7 +35648,7 @@
     "desc": "PBL-kunskapsbanken från Boverket: Totalförsvaret i fysisk planering"
   },
   {
-    "id": "cocity_-4573706844958000961_884278670572248137",
+    "id": "cocity_-3019725192287081485_2776113950191185185",
     "title": "LÄS MER",
     "source": "CoCity",
     "source_name": "CoCity",
@@ -35662,7 +35662,7 @@
     "desc": "Från CoCity Verktyg: LÄS MER"
   },
   {
-    "id": "cocity_2795472471278908320_884278670572248137",
+    "id": "cocity_1124757030063218364_2776113950191185185",
     "title": "LÄS MER",
     "source": "CoCity",
     "source_name": "CoCity",
@@ -35676,7 +35676,7 @@
     "desc": "Från CoCity Verktyg: LÄS MER"
   },
   {
-    "id": "cocity_8849974516898178420_884278670572248137",
+    "id": "cocity_7612843568418683015_2776113950191185185",
     "title": "LÄS MER",
     "source": "CoCity",
     "source_name": "CoCity",
@@ -35690,7 +35690,7 @@
     "desc": "Från CoCity Verktyg: LÄS MER"
   },
   {
-    "id": "cocity_1155097304385946799_884278670572248137",
+    "id": "cocity_8693608168359015728_2776113950191185185",
     "title": "Boverkets hemsida",
     "source": "CoCity",
     "source_name": "CoCity",
@@ -35704,7 +35704,7 @@
     "desc": "Från CoCity Verktyg: Boverkets hemsida"
   },
   {
-    "id": "cocity_-7626806038966403611_-2916495210261146278",
+    "id": "cocity_-1242676206170253093_5386910035226494748",
     "title": "LÄS MER",
     "source": "CoCity",
     "source_name": "CoCity",
@@ -35718,7 +35718,7 @@
     "desc": "Från CoCity Rapporter och vägledningar: LÄS MER"
   },
   {
-    "id": "ma_-7424833531528695799_308748573526454393",
+    "id": "ma_8842759246019107146_-5127034773155097685",
     "title": "Millennium Assessment: Access Ecosystem and Human Well-Being ebook",
     "source": "Millennium Assessment",
     "source_name": "Millennium Ecosystem Assessment",
@@ -35732,7 +35732,7 @@
     "desc": "Millennium Ecosystem Assessment - Condition section: Access Ecosystem and Human Well-Being ebook"
   },
   {
-    "id": "ma_7256333162209682461_308748573526454393",
+    "id": "ma_-3452395417055659995_-5127034773155097685",
     "title": "Millennium Assessment: areas of rapid land cover change",
     "source": "Millennium Assessment",
     "source_name": "Millennium Ecosystem Assessment",
@@ -35746,7 +35746,7 @@
     "desc": "Millennium Ecosystem Assessment - Condition section: areas of rapid land cover change"
   },
   {
-    "id": "ma_3762168687466836276_308748573526454393",
+    "id": "ma_1248763045221475957_-5127034773155097685",
     "title": "Millennium Assessment: Contents, Foreword, Preface",
     "source": "Millennium Assessment",
     "source_name": "Millennium Ecosystem Assessment",
@@ -35760,7 +35760,7 @@
     "desc": "Millennium Ecosystem Assessment - Condition section: Contents, Foreword, Preface"
   },
   {
-    "id": "ma_-4967912538747066673_308748573526454393",
+    "id": "ma_6020334581268087366_-5127034773155097685",
     "title": "Millennium Assessment: 01. MA Conceptual Framework",
     "source": "Millennium Assessment",
     "source_name": "Millennium Ecosystem Assessment",
@@ -35774,7 +35774,7 @@
     "desc": "Millennium Ecosystem Assessment - Condition section: 01. MA Conceptual Framework"
   },
   {
-    "id": "ma_-1084840026437847785_308748573526454393",
+    "id": "ma_2420350902406936515_-5127034773155097685",
     "title": "Millennium Assessment: 02. Analytical Approaches for Assessing Ecosystems and Human Well-being",
     "source": "Millennium Assessment",
     "source_name": "Millennium Ecosystem Assessment",
@@ -35788,7 +35788,7 @@
     "desc": "Millennium Ecosystem Assessment - Condition section: 02. Analytical Approaches for Assessing Ecosystems and Human Well-being"
   },
   {
-    "id": "ma_-8703521911064276757_308748573526454393",
+    "id": "ma_8701757714459887898_-5127034773155097685",
     "title": "Millennium Assessment: 03. Drivers of Change",
     "source": "Millennium Assessment",
     "source_name": "Millennium Ecosystem Assessment",
@@ -35802,7 +35802,7 @@
     "desc": "Millennium Ecosystem Assessment - Condition section: 03. Drivers of Change"
   },
   {
-    "id": "ma_-7582365665456373099_308748573526454393",
+    "id": "ma_7937929254804162246_-5127034773155097685",
     "title": "Millennium Assessment: 04. Biodiversity",
     "source": "Millennium Assessment",
     "source_name": "Millennium Ecosystem Assessment",
@@ -35816,7 +35816,7 @@
     "desc": "Millennium Ecosystem Assessment - Condition section: 04. Biodiversity"
   },
   {
-    "id": "ma_-4398793144979117884_308748573526454393",
+    "id": "ma_-2527926288468485218_-5127034773155097685",
     "title": "Millennium Assessment: 05. Ecosystem Change and Human Wellbeing",
     "source": "Millennium Assessment",
     "source_name": "Millennium Ecosystem Assessment",
@@ -35830,7 +35830,7 @@
     "desc": "Millennium Ecosystem Assessment - Condition section: 05. Ecosystem Change and Human Wellbeing"
   },
   {
-    "id": "ma_-1199844115388135816_308748573526454393",
+    "id": "ma_-4240327138937329464_-5127034773155097685",
     "title": "Millennium Assessment: 06. Vulnerable People and Places",
     "source": "Millennium Assessment",
     "source_name": "Millennium Ecosystem Assessment",
@@ -35844,7 +35844,7 @@
     "desc": "Millennium Ecosystem Assessment - Condition section: 06. Vulnerable People and Places"
   },
   {
-    "id": "ma_-9169397634775143627_4156612761558810473",
+    "id": "ma_312395704044362174_442652813510191950",
     "title": "Millennium Assessment: Contents, Foreword, Preface",
     "source": "Millennium Assessment",
     "source_name": "Millennium Ecosystem Assessment",
@@ -35858,7 +35858,7 @@
     "desc": "Millennium Ecosystem Assessment - Scenarios section: Contents, Foreword, Preface"
   },
   {
-    "id": "ma_-5180775535657108777_4156612761558810473",
+    "id": "ma_-1379884397194586773_442652813510191950",
     "title": "Millennium Assessment: 01. MA Conceptual Framework",
     "source": "Millennium Assessment",
     "source_name": "Millennium Ecosystem Assessment",
@@ -35872,7 +35872,7 @@
     "desc": "Millennium Ecosystem Assessment - Scenarios section: 01. MA Conceptual Framework"
   },
   {
-    "id": "ma_2520052653517542767_4156612761558810473",
+    "id": "ma_1535049193172137736_442652813510191950",
     "title": "Millennium Assessment: 02. Global Scenarios in Historical Perspective",
     "source": "Millennium Assessment",
     "source_name": "Millennium Ecosystem Assessment",
@@ -35886,7 +35886,7 @@
     "desc": "Millennium Ecosystem Assessment - Scenarios section: 02. Global Scenarios in Historical Perspective"
   },
   {
-    "id": "ma_-7850493197020660535_4156612761558810473",
+    "id": "ma_-705340954442556921_442652813510191950",
     "title": "Millennium Assessment: 03. Ecology in Global Scenarios",
     "source": "Millennium Assessment",
     "source_name": "Millennium Ecosystem Assessment",
@@ -35900,7 +35900,7 @@
     "desc": "Millennium Ecosystem Assessment - Scenarios section: 03. Ecology in Global Scenarios"
   },
   {
-    "id": "ma_-2391491707587138152_4156612761558810473",
+    "id": "ma_6131086931012046114_442652813510191950",
     "title": "Millennium Assessment: 04. State of Art in Describing Future Changes in Ecosystem \n\t\t\t\t\tServices",
     "source": "Millennium Assessment",
     "source_name": "Millennium Ecosystem Assessment",
@@ -35914,7 +35914,7 @@
     "desc": "Millennium Ecosystem Assessment - Scenarios section: 04. State of Art in Describing Future Changes in Ecosystem \n\t\t\t\t\tServices"
   },
   {
-    "id": "ma_-8158807216543715994_4156612761558810473",
+    "id": "ma_-7750015633413529084_442652813510191950",
     "title": "Millennium Assessment: 05. Rationale and Logics of the Scenarios",
     "source": "Millennium Assessment",
     "source_name": "Millennium Ecosystem Assessment",
@@ -35928,7 +35928,7 @@
     "desc": "Millennium Ecosystem Assessment - Scenarios section: 05. Rationale and Logics of the Scenarios"
   },
   {
-    "id": "ma_-7429574149039460712_4156612761558810473",
+    "id": "ma_-6213641343501694981_442652813510191950",
     "title": "Millennium Assessment: 06. Methodology for Developing the MA Scenarios",
     "source": "Millennium Assessment",
     "source_name": "Millennium Ecosystem Assessment",
@@ -35942,7 +35942,7 @@
     "desc": "Millennium Ecosystem Assessment - Scenarios section: 06. Methodology for Developing the MA Scenarios"
   },
   {
-    "id": "ma_6158343034946314758_4156612761558810473",
+    "id": "ma_8248694421894596834_442652813510191950",
     "title": "Millennium Assessment: 07. Drivers of Change in Ecosystem Conditions and Services",
     "source": "Millennium Assessment",
     "source_name": "Millennium Ecosystem Assessment",
@@ -35956,7 +35956,7 @@
     "desc": "Millennium Ecosystem Assessment - Scenarios section: 07. Drivers of Change in Ecosystem Conditions and Services"
   },
   {
-    "id": "ma_-220496262175467210_4156612761558810473",
+    "id": "ma_-5380366858888386608_442652813510191950",
     "title": "Millennium Assessment: 08. Scenarios",
     "source": "Millennium Assessment",
     "source_name": "Millennium Ecosystem Assessment",
@@ -35970,7 +35970,7 @@
     "desc": "Millennium Ecosystem Assessment - Scenarios section: 08. Scenarios"
   },
   {
-    "id": "ma_-2083690761892770661_4156612761558810473",
+    "id": "ma_7572045655072580286_442652813510191950",
     "title": "Millennium Assessment: 09. Ecosystem Services across Scenarios",
     "source": "Millennium Assessment",
     "source_name": "Millennium Ecosystem Assessment",
@@ -35984,7 +35984,7 @@
     "desc": "Millennium Ecosystem Assessment - Scenarios section: 09. Ecosystem Services across Scenarios"
   },
   {
-    "id": "ma_6270310791673258609_4502191687660550297",
+    "id": "ma_-1293218574563956068_1572805281404420460",
     "title": "Millennium Assessment: Contents, Foreword, Preface",
     "source": "Millennium Assessment",
     "source_name": "Millennium Ecosystem Assessment",
@@ -35998,7 +35998,7 @@
     "desc": "Millennium Ecosystem Assessment - Responses section: Contents, Foreword, Preface"
   },
   {
-    "id": "ma_5032186357493017660_4502191687660550297",
+    "id": "ma_-4337061205073846597_1572805281404420460",
     "title": "Millennium Assessment: 01. MA Conceptual Framework",
     "source": "Millennium Assessment",
     "source_name": "Millennium Ecosystem Assessment",
@@ -36012,7 +36012,7 @@
     "desc": "Millennium Ecosystem Assessment - Responses section: 01. MA Conceptual Framework"
   },
   {
-    "id": "ma_5308116306842421639_4502191687660550297",
+    "id": "ma_6660837313043600312_1572805281404420460",
     "title": "Millennium Assessment: 02. Typology of Responses",
     "source": "Millennium Assessment",
     "source_name": "Millennium Ecosystem Assessment",
@@ -36026,7 +36026,7 @@
     "desc": "Millennium Ecosystem Assessment - Responses section: 02. Typology of Responses"
   },
   {
-    "id": "ma_-4079409789008233830_4502191687660550297",
+    "id": "ma_3978985618876219065_1572805281404420460",
     "title": "Millennium Assessment: 03. Assessing Responses",
     "source": "Millennium Assessment",
     "source_name": "Millennium Ecosystem Assessment",
@@ -36040,7 +36040,7 @@
     "desc": "Millennium Ecosystem Assessment - Responses section: 03. Assessing Responses"
   },
   {
-    "id": "ma_-4079650862721853495_4502191687660550297",
+    "id": "ma_5996322986570580004_1572805281404420460",
     "title": "Millennium Assessment: 04. Recognizing Uncertainties in Evaluating Responses",
     "source": "Millennium Assessment",
     "source_name": "Millennium Ecosystem Assessment",
@@ -36054,7 +36054,7 @@
     "desc": "Millennium Ecosystem Assessment - Responses section: 04. Recognizing Uncertainties in Evaluating Responses"
   },
   {
-    "id": "ma_-2577741856098154095_4502191687660550297",
+    "id": "ma_3633700774468042893_1572805281404420460",
     "title": "Millennium Assessment: 05. Biodiversity",
     "source": "Millennium Assessment",
     "source_name": "Millennium Ecosystem Assessment",
@@ -36068,7 +36068,7 @@
     "desc": "Millennium Ecosystem Assessment - Responses section: 05. Biodiversity"
   },
   {
-    "id": "ma_-8903264011109660705_4502191687660550297",
+    "id": "ma_-6720441878787442356_1572805281404420460",
     "title": "Millennium Assessment: 06. Food and Cultivated Ecosystems",
     "source": "Millennium Assessment",
     "source_name": "Millennium Ecosystem Assessment",
@@ -36082,7 +36082,7 @@
     "desc": "Millennium Ecosystem Assessment - Responses section: 06. Food and Cultivated Ecosystems"
   },
   {
-    "id": "ma_-4862961401059074604_4502191687660550297",
+    "id": "ma_8209017294688728954_1572805281404420460",
     "title": "Millennium Assessment: 07. Water",
     "source": "Millennium Assessment",
     "source_name": "Millennium Ecosystem Assessment",
@@ -36096,7 +36096,7 @@
     "desc": "Millennium Ecosystem Assessment - Responses section: 07. Water"
   },
   {
-    "id": "ma_675310052003938939_4502191687660550297",
+    "id": "ma_-1677108422601762024_1572805281404420460",
     "title": "Millennium Assessment: 08. Wood, Fuel-wood and Non Wood Forest Products",
     "source": "Millennium Assessment",
     "source_name": "Millennium Ecosystem Assessment",
@@ -36110,7 +36110,7 @@
     "desc": "Millennium Ecosystem Assessment - Responses section: 08. Wood, Fuel-wood and Non Wood Forest Products"
   },
   {
-    "id": "ma_-171801594377230512_4502191687660550297",
+    "id": "ma_1003008457557847129_1572805281404420460",
     "title": "Millennium Assessment: 09. Nutrient Management",
     "source": "Millennium Assessment",
     "source_name": "Millennium Ecosystem Assessment",
@@ -36124,7 +36124,7 @@
     "desc": "Millennium Ecosystem Assessment - Responses section: 09. Nutrient Management"
   },
   {
-    "id": "lv_-5829838105249520673",
+    "id": "lv_-4110907743172734702",
     "title": "Lyssna",
     "source": "Livsmedelsverket",
     "source_name": "Livsmedelsverket",
@@ -36138,7 +36138,7 @@
     "desc": "Publikation från Livsmedelsverket: Lyssna"
   },
   {
-    "id": "lv_1440337248309279925",
+    "id": "lv_8571695191413806503",
     "title": "Publikationer",
     "source": "Livsmedelsverket",
     "source_name": "Livsmedelsverket",
@@ -36152,7 +36152,7 @@
     "desc": "Publikation från Livsmedelsverket: Publikationer"
   },
   {
-    "id": "lv_3934683678339843018",
+    "id": "lv_8841321815033158870",
     "title": "Kundtjänst och köpevillkor",
     "source": "Livsmedelsverket",
     "source_name": "Livsmedelsverket",
@@ -36166,7 +36166,7 @@
     "desc": "Publikation från Livsmedelsverket: Kundtjänst och köpevillkor"
   },
   {
-    "id": "lv_-6851964059453259376",
+    "id": "lv_6870602823340790276",
     "title": "Dataskydd och sekretesspolicy",
     "source": "Livsmedelsverket",
     "source_name": "Livsmedelsverket",
@@ -36174,14 +36174,14 @@
     "icon": "🥗",
     "url": "https://www.livsmedelsverket.se/om-oss/publikationer/dataskydd-och-sekretesspolicy/",
     "cats": [
-      "mat",
       "policy",
+      "mat",
       "omstallning"
     ],
     "desc": "Publikation från Livsmedelsverket: Dataskydd och sekretesspolicy"
   },
   {
-    "id": "lv_-3073275397749233829",
+    "id": "lv_-8069746955382208156",
     "title": "Om våra publikationer",
     "source": "Livsmedelsverket",
     "source_name": "Livsmedelsverket",
@@ -36195,7 +36195,7 @@
     "desc": "Publikation från Livsmedelsverket: Om våra publikationer"
   },
   {
-    "id": "lv_-5829838105249520673",
+    "id": "lv_-4110907743172734702",
     "title": "Lyssna",
     "source": "Livsmedelsverket",
     "source_name": "Livsmedelsverket",
@@ -36209,7 +36209,7 @@
     "desc": "Publikation från Livsmedelsverket: Lyssna"
   },
   {
-    "id": "lv_1440337248309279925",
+    "id": "lv_8571695191413806503",
     "title": "Publikationer",
     "source": "Livsmedelsverket",
     "source_name": "Livsmedelsverket",
@@ -36223,7 +36223,7 @@
     "desc": "Publikation från Livsmedelsverket: Publikationer"
   },
   {
-    "id": "lv_3934683678339843018",
+    "id": "lv_8841321815033158870",
     "title": "Kundtjänst och köpevillkor",
     "source": "Livsmedelsverket",
     "source_name": "Livsmedelsverket",
@@ -36237,7 +36237,7 @@
     "desc": "Publikation från Livsmedelsverket: Kundtjänst och köpevillkor"
   },
   {
-    "id": "lv_-6851964059453259376",
+    "id": "lv_6870602823340790276",
     "title": "Dataskydd och sekretesspolicy",
     "source": "Livsmedelsverket",
     "source_name": "Livsmedelsverket",
@@ -36245,14 +36245,14 @@
     "icon": "🥗",
     "url": "https://www.livsmedelsverket.se/om-oss/publikationer/dataskydd-och-sekretesspolicy/",
     "cats": [
-      "mat",
       "policy",
+      "mat",
       "omstallning"
     ],
     "desc": "Publikation från Livsmedelsverket: Dataskydd och sekretesspolicy"
   },
   {
-    "id": "lv_-3073275397749233829",
+    "id": "lv_-8069746955382208156",
     "title": "Om våra publikationer",
     "source": "Livsmedelsverket",
     "source_name": "Livsmedelsverket",
@@ -36266,7 +36266,7 @@
     "desc": "Publikation från Livsmedelsverket: Om våra publikationer"
   },
   {
-    "id": "lv_-5829838105249520673",
+    "id": "lv_-4110907743172734702",
     "title": "Lyssna",
     "source": "Livsmedelsverket",
     "source_name": "Livsmedelsverket",
@@ -36280,7 +36280,7 @@
     "desc": "Publikation från Livsmedelsverket: Lyssna"
   },
   {
-    "id": "lv_1552325593243709999",
+    "id": "lv_8761763325349409663",
     "title": "Relevans",
     "source": "Livsmedelsverket",
     "source_name": "Livsmedelsverket",
@@ -36294,7 +36294,7 @@
     "desc": "Publikation från Livsmedelsverket: Relevans"
   },
   {
-    "id": "lv_1433446511168971225",
+    "id": "lv_827161747591978073",
     "title": "Datum",
     "source": "Livsmedelsverket",
     "source_name": "Livsmedelsverket",
@@ -36308,7 +36308,7 @@
     "desc": "Publikation från Livsmedelsverket: Datum"
   },
   {
-    "id": "lv_8446409971168705753",
+    "id": "lv_-1117942576050819621",
     "title": "Alfabetisk",
     "source": "Livsmedelsverket",
     "source_name": "Livsmedelsverket",
@@ -36322,7 +36322,7 @@
     "desc": "Publikation från Livsmedelsverket: Alfabetisk"
   },
   {
-    "id": "lv_-5763431673008936900",
+    "id": "lv_-2622394520391775607",
     "title": "2025 - Livsmedelsförsörjningen i siffror",
     "source": "Livsmedelsverket",
     "source_name": "Livsmedelsverket",
@@ -36336,7 +36336,7 @@
     "desc": "Publikation från Livsmedelsverket: 2025 - Livsmedelsförsörjningen i siffror"
   },
   {
-    "id": "lv_-2011753546341084805",
+    "id": "lv_1270677850416010115",
     "title": "Handbok för minskat matsvinn – för verksamheter inom vård, skola och omsorg",
     "source": "Livsmedelsverket",
     "source_name": "Livsmedelsverket",
@@ -36350,7 +36350,7 @@
     "desc": "Publikation från Livsmedelsverket: Handbok för minskat matsvinn – för verksamheter inom vård, skola och omsorg"
   },
   {
-    "id": "lv_3262917980283029141",
+    "id": "lv_-9151790731241952124",
     "title": "Kokbok för måltidsmiljön",
     "source": "Livsmedelsverket",
     "source_name": "Livsmedelsverket",
@@ -36358,14 +36358,14 @@
     "icon": "🥗",
     "url": "https://www.livsmedelsverket.se/om-oss/publikationer/handbocker-och-verktyg/kokbok-for-maltidsmiljon/",
     "cats": [
+      "klimat",
       "mat",
-      "omstallning",
-      "klimat"
+      "omstallning"
     ],
     "desc": "Publikation från Livsmedelsverket: Kokbok för måltidsmiljön"
   },
   {
-    "id": "lv_-3090325161581116154",
+    "id": "lv_1247611871828399412",
     "title": "Matvanekollen – Handledning för hälso- och sjukvård",
     "source": "Livsmedelsverket",
     "source_name": "Livsmedelsverket",
@@ -36379,7 +36379,7 @@
     "desc": "Publikation från Livsmedelsverket: Matvanekollen – Handledning för hälso- och sjukvård"
   },
   {
-    "id": "lv_-7415146165939063213",
+    "id": "lv_2660609217308543278",
     "title": "Prata svinniska - riktlinjer",
     "source": "Livsmedelsverket",
     "source_name": "Livsmedelsverket",
@@ -36393,7 +36393,7 @@
     "desc": "Publikation från Livsmedelsverket: Prata svinniska - riktlinjer"
   },
   {
-    "id": "lv_6837937987306674859",
+    "id": "lv_7118304034452705675",
     "title": "L 2023 nr 14 - Kontroll av bekämpningsmedelsrester i livsmedel 2021",
     "source": "Livsmedelsverket",
     "source_name": "Livsmedelsverket",
@@ -36407,7 +36407,7 @@
     "desc": "Publikation från Livsmedelsverket: L 2023 nr 14 - Kontroll av bekämpningsmedelsrester i livsmedel 2021"
   },
   {
-    "id": "lv_177797656323402862",
+    "id": "lv_6273039968450453867",
     "title": "L 2024 nr 12 - Riksmaten Småbarn 2021-24",
     "source": "Livsmedelsverket",
     "source_name": "Livsmedelsverket",
@@ -36421,7 +36421,7 @@
     "desc": "Publikation från Livsmedelsverket: L 2024 nr 12 - Riksmaten Småbarn 2021-24"
   },
   {
-    "id": "lv_-3191534856716453812",
+    "id": "lv_733699531118284045",
     "title": "S 2024 nr 03 - Nationell insamling av information från dricksvattenleverantörer",
     "source": "Livsmedelsverket",
     "source_name": "Livsmedelsverket",
@@ -36435,7 +36435,7 @@
     "desc": "Publikation från Livsmedelsverket: S 2024 nr 03 - Nationell insamling av information från dricksvattenleverantörer"
   },
   {
-    "id": "lv_7610062077672621215",
+    "id": "lv_3603030875698667957",
     "title": "PM 2022 - Ungdomsdialoger om hållbar och hälsosam livsmedelskonsumtion och sockerkonsumtion",
     "source": "Livsmedelsverket",
     "source_name": "Livsmedelsverket",
@@ -36443,14 +36443,14 @@
     "icon": "🥗",
     "url": "https://www.livsmedelsverket.se/om-oss/publikationer/pm/2022/pm-2022---ungdomsdialoger-om-hallbar-och-halsosam-livsmedelskonsumtion-och-sockerkonsumtion/",
     "cats": [
+      "klimat",
       "mat",
-      "omstallning",
-      "klimat"
+      "omstallning"
     ],
     "desc": "Publikation från Livsmedelsverket: PM 2022 - Ungdomsdialoger om hållbar och hälsosam livsmedelskonsumtion och sockerkonsumtion"
   },
   {
-    "id": "lv_-8361934628389972655",
+    "id": "lv_5014671705430107695",
     "title": "Portionsguiden",
     "source": "Livsmedelsverket",
     "source_name": "Livsmedelsverket",
@@ -36464,7 +36464,7 @@
     "desc": "Publikation från Livsmedelsverket: Portionsguiden"
   },
   {
-    "id": "lv_974065804537156609",
+    "id": "lv_6919869665325552882",
     "title": "Portionsguiden - stort anteckningshäfte A5",
     "source": "Livsmedelsverket",
     "source_name": "Livsmedelsverket",
@@ -36478,7 +36478,7 @@
     "desc": "Publikation från Livsmedelsverket: Portionsguiden - stort anteckningshäfte A5"
   },
   {
-    "id": "movium_news_-4334575529218528772",
+    "id": "movium_news_-1689820490629077949",
     "title": "Nyheter",
     "source": "SLU MOVIUM",
     "source_name": "SLU MOVIUM",
@@ -36492,7 +36492,7 @@
     "desc": "Nyhet från SLU MOVIUM: Nyheter"
   },
   {
-    "id": "movium_news_-4334575529218528772",
+    "id": "movium_news_-1689820490629077949",
     "title": "Nyheter",
     "source": "SLU MOVIUM",
     "source_name": "SLU MOVIUM",
@@ -36506,7 +36506,7 @@
     "desc": "Nyhet från SLU MOVIUM: Nyheter"
   },
   {
-    "id": "movium_news_-4334575529218528772",
+    "id": "movium_news_-1689820490629077949",
     "title": "Nyheter",
     "source": "SLU MOVIUM",
     "source_name": "SLU MOVIUM",
@@ -36520,7 +36520,7 @@
     "desc": "Nyhet från SLU MOVIUM: Nyheter"
   },
   {
-    "id": "movium_news_6807942817036388135",
+    "id": "movium_news_-1945154359080223630",
     "title": "Kathryn Gustafson – landskapsarkitekten med hela världen som arbetsfält",
     "source": "SLU MOVIUM",
     "source_name": "SLU MOVIUM",
@@ -36534,7 +36534,7 @@
     "desc": "Nyhet från SLU MOVIUM: Kathryn Gustafson – landskapsarkitekten med hela världen som arbetsfält"
   },
   {
-    "id": "movium_news_-6324600274094359091",
+    "id": "movium_news_2772397312788875982",
     "title": "Nationell kartläggning om kommunal förvaltning av grönytor och träd",
     "source": "SLU MOVIUM",
     "source_name": "SLU MOVIUM",
@@ -36549,7 +36549,7 @@
     "desc": "Nyhet från SLU MOVIUM: Nationell kartläggning om kommunal förvaltning av grönytor och träd"
   },
   {
-    "id": "movium_news_1323626247642865472",
+    "id": "movium_news_-7230085498647686987",
     "title": "Vad kan Sverige lära av dansk naturrestaurering?",
     "source": "SLU MOVIUM",
     "source_name": "SLU MOVIUM",
@@ -36563,7 +36563,7 @@
     "desc": "Nyhet från SLU MOVIUM: Vad kan Sverige lära av dansk naturrestaurering?"
   },
   {
-    "id": "movium_news_1055722918231569603",
+    "id": "movium_news_3157906577624595057",
     "title": "Begravningsplatser kan bli städernas nya lekrum",
     "source": "SLU MOVIUM",
     "source_name": "SLU MOVIUM",
@@ -36577,7 +36577,7 @@
     "desc": "Nyhet från SLU MOVIUM: Begravningsplatser kan bli städernas nya lekrum"
   },
   {
-    "id": "movium_news_-8535487012859636808",
+    "id": "movium_news_-8152717177760259601",
     "title": "Hej Bengt Isling!",
     "source": "SLU MOVIUM",
     "source_name": "SLU MOVIUM",
@@ -36591,7 +36591,7 @@
     "desc": "Nyhet från SLU MOVIUM: Hej Bengt Isling!"
   },
   {
-    "id": "movium_news_-8254113100532942670",
+    "id": "movium_news_-1411113020129508917",
     "title": "Billigaste bokrean!",
     "source": "SLU MOVIUM",
     "source_name": "SLU MOVIUM",
