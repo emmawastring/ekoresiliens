@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-15T07:57:35.316471+00:00",
+  "updated": "2026-03-16T09:19:03.387796+00:00",
   "count": 309,
   "errors": [],
   "events": [
@@ -643,22 +643,6 @@
       "categories": [
         "omstallning",
         "samhalle"
-      ],
-      "free": true
-    },
-    {
-      "id": "76860a9a28c9",
-      "title": "Sportfiskemässan 2025",
-      "date_iso": "2025-03-14",
-      "time": "",
-      "description": "",
-      "url": "https://www.havochvatten.se/om-oss-kontakt-och-karriar/evenemang/kalender/kalender/2025/extern-kalender/2025-03-14-sportfiskemassan-2025.html",
-      "source_id": "hav",
-      "source_name": "Havs- och vattenmyndigheten",
-      "categories": [
-        "vatten",
-        "biodiv",
-        "klimat"
       ],
       "free": true
     },
@@ -1615,7 +1599,7 @@
       "title": "Skogsträdgård och småskalig agroforestry",
       "date_iso": "2025-12-19",
       "time": "",
-      "description": "Vi öppnar för ansökningar till nästa års kurs den 1:e april 2026. Välkommen med din ansökan då!",
+      "description": "Vi öppnar för ansökningar till höstens kurs den 1:e april 2026. Välkommen med din ansökan då!",
       "url": "https://www.holmafolkhogskola.se/profilkurs/skogstradgard-och-smaskalig-agroforestry/",
       "source_id": "holma",
       "source_name": "Holma Folkhögskola",
@@ -2241,16 +2225,18 @@
       "free": true
     },
     {
-      "id": "b9856505197b",
-      "title": "Årsmöte Lokala Hushållningssällskapet Kalix-Töre",
+      "id": "fff4becbd179",
+      "title": "Uppdrag att förenkla regelverk i syfte att minska regelbördan för företag (2024)",
       "date_iso": "2026-03-15",
       "time": "",
-      "description": "Lokala Hushållningssällskapet Kalix-Töre – Bondersbygården\nLokala Hushållningssällskapet Kalix-Töre hälsar välkommen till Årsmöte – Söndag den 15 mars, kl 15.00 på Bondersbygården. Program Sedvanliga årsmötesförhandlingar Vi bjuder på fika – Kom, var med och utveckla verksamheten! Välkommen!",
-      "url": "https://hushallningssallskapet.se/kalender/arsmote-lokala-hushallningssallskapet-kalix-tore-2026/",
-      "source_id": "hushallningssallskapet",
-      "source_name": "Hushållningssällskapet",
+      "description": "",
+      "url": "https://www.havochvatten.se/om-oss-kontakt-och-karriar/om-havs--och-vattenmyndigheten/regeringsuppdrag/uppdrag-att-forenkla-regelverk-i-syfte-att-minska-regelbordan-for-foretag-2024.html",
+      "source_id": "hav",
+      "source_name": "Havs- och vattenmyndigheten",
       "categories": [
-        "omstallning"
+        "vatten",
+        "biodiv",
+        "klimat"
       ],
       "free": true
     },
@@ -3049,22 +3035,6 @@
       "free": true
     },
     {
-      "id": "8e885fcd479e",
-      "title": "Producent och EU:s förpackningsförordning",
-      "date_iso": "2026-04-01",
-      "time": "",
-      "description": "EU:s förordning om förpackningar och förpackningsavfall, PPWR, innebär att det kommit en ny definition av förpackningsproducent som gäller i alla medlemsländer. Vid detta tillfälle kommer Naturvårdsverket gå igenom vad detta innebär för dig som omfattas av definitionen och vilka krav du behöver leva upp till i och med att PPWR träder ikraft.",
-      "url": "https://www.naturvardsverket.se/om-oss/aktuellt/kalendarium/2026/april/producent-och-eus-forpackningsforordning/",
-      "source_id": "naturvardsverket",
-      "source_name": "Naturvårdsverket",
-      "categories": [
-        "omstallning",
-        "klimat",
-        "biodiv"
-      ],
-      "free": true
-    },
-    {
       "id": "4f1db6d8e6b1",
       "title": "Tillverkare och EU:s förpackningsförordning",
       "date_iso": "2026-04-01",
@@ -3087,6 +3057,22 @@
       "time": "",
       "description": "EU:s förordning om förpackningar och förpackningsavfall, PPWR, innebär förändringar för systemen för återanvändning. På detta webbinarium går Naturvårdsverket igenom vad som gäller för aktörer som är ansvariga för eller deltagare av system för återanvändbara förpackningar.",
       "url": "https://www.naturvardsverket.se/om-oss/aktuellt/kalendarium/2026/april/system-for-ateranvandning-och-eus-forpackningsforordning/",
+      "source_id": "naturvardsverket",
+      "source_name": "Naturvårdsverket",
+      "categories": [
+        "omstallning",
+        "klimat",
+        "biodiv"
+      ],
+      "free": true
+    },
+    {
+      "id": "8e885fcd479e",
+      "title": "Producent och EU:s förpackningsförordning",
+      "date_iso": "2026-04-01",
+      "time": "",
+      "description": "EU:s förordning om förpackningar och förpackningsavfall, PPWR, innebär att det kommit en ny definition av förpackningsproducent som gäller i alla medlemsländer. Vid detta tillfälle kommer Naturvårdsverket gå igenom vad detta innebär för dig som omfattas av definitionen och vilka krav du behöver leva upp till i och med att PPWR träder ikraft.",
+      "url": "https://www.naturvardsverket.se/om-oss/aktuellt/kalendarium/2026/april/producent-och-eus-forpackningsforordning/",
       "source_id": "naturvardsverket",
       "source_name": "Naturvårdsverket",
       "categories": [
@@ -3760,6 +3746,20 @@
       "free": true
     },
     {
+      "id": "d873628479f5",
+      "title": "Hönskurs för nybörjare &#8211; med Lokala Hushållningssällskapet Råneå",
+      "date_iso": "2026-05-23",
+      "time": "",
+      "description": "Lokala Hushållningssällskapet Råneå – Råneå medborgarhus, plan 2\nÄr du nyfiken på att skaffa höns – bara över sommaren eller som en del av vardagen året runt? Välkommen till en teoretisk kurs där du får lära dig grunderna i hönshållning. Kaffe/te med kaka finns att tillgå på plats. Utrustning Ta med eget anteckningsmaterial Kursledare André Krutrök • Gratis för m",
+      "url": "https://hushallningssallskapet.se/kalender/honskurs-for-nyborjare-med-lokala-hushallningssallskapet-ranea/",
+      "source_id": "hushallningssallskapet",
+      "source_name": "Hushållningssällskapet",
+      "categories": [
+        "omstallning"
+      ],
+      "free": true
+    },
+    {
       "id": "d15b75bda12b",
       "title": "Dialogmöte limniska ekosystem",
       "date_iso": "2026-05-27",
@@ -4003,7 +4003,7 @@
       "title": "Fröodling – distans",
       "date_iso": "2026-08-03",
       "time": "",
-      "description": "Om du vill studera nästa år öppnar vi för nya ansökningar 1:e april 2026. Välkommen med din ansökan då!",
+      "description": "Om du vill studera hösten 2026 öppnar vi för nya ansökningar 1:e april 2026. Välkommen med din ansökan då!",
       "url": "https://www.holmafolkhogskola.se/profilkurs/froodling-distans/",
       "source_id": "holma",
       "source_name": "Holma Folkhögskola",
