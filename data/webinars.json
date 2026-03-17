@@ -1,6 +1,6 @@
 {
-  "updated": "2026-03-17T08:08:39.658103+00:00",
-  "count": 308,
+  "updated": "2026-03-17T18:00:26.832952+00:00",
+  "count": 329,
   "errors": [],
   "events": [
     {
@@ -711,6 +711,20 @@
       "free": true
     },
     {
+      "id": "34738d71e884",
+      "title": "Mötesplats AKIS 2026 - digitalt",
+      "date_iso": "2025-03-28",
+      "time": "",
+      "description": "",
+      "url": "https://www.landsbygdsnatverket.se/kommandeaktiviteter/kalenderaktiviteter/motesplatsakis2026digitalt.5.2fe5f7f1195bf9aac981bab1.html",
+      "source_id": "landsbygdsnatverket",
+      "source_name": "Landsbygdsnätverket",
+      "categories": [
+        "omstallning"
+      ],
+      "free": true
+    },
+    {
       "id": "55bfcf49272e",
       "title": "Dialogmöte marina ekosystem",
       "date_iso": "2025-03-31",
@@ -1373,6 +1387,20 @@
       "free": true
     },
     {
+      "id": "52329dab355b",
+      "title": "Hur träffsäkra är EU:s inkomststöd till jordbruket?",
+      "date_iso": "2025-10-28",
+      "time": "",
+      "description": "",
+      "url": "https://www.landsbygdsnatverket.se/kommandeaktiviteter/kalenderaktiviteter/hurtraffsakraareusinkomststodtilljordbruket.5.22eab02119a28c4c85929b4.html",
+      "source_id": "landsbygdsnatverket",
+      "source_name": "Landsbygdsnätverket",
+      "categories": [
+        "omstallning"
+      ],
+      "free": true
+    },
+    {
       "id": "b78d6099c527",
       "title": "Nationell konferens om invasiva främmande arter",
       "date_iso": "2025-10-29",
@@ -1389,6 +1417,20 @@
       "free": true
     },
     {
+      "id": "eec0ec313919",
+      "title": "AI till nya nivåer - träff med Landsbygds­kommunikatörerna",
+      "date_iso": "2025-10-30",
+      "time": "",
+      "description": "",
+      "url": "https://www.landsbygdsnatverket.se/kommandeaktiviteter/kalenderaktiviteter/aitillnyanivaertraffmedlandsbygdskommunikatorerna.5.22eab02119a28c4c859c7c0.html",
+      "source_id": "landsbygdsnatverket",
+      "source_name": "Landsbygdsnätverket",
+      "categories": [
+        "omstallning"
+      ],
+      "free": true
+    },
+    {
       "id": "d9f8a2e4922b",
       "title": "Havsforskningsdagarna 2025",
       "date_iso": "2025-11-10",
@@ -1401,6 +1443,20 @@
         "vatten",
         "biodiv",
         "klimat"
+      ],
+      "free": true
+    },
+    {
+      "id": "6b81e7acc5d3",
+      "title": "Webbinarium: Ökad arbets­miljö­säkerhet inom svenskt yrkesfiske",
+      "date_iso": "2025-11-10",
+      "time": "",
+      "description": "",
+      "url": "https://www.landsbygdsnatverket.se/kommandeaktiviteter/kalenderaktiviteter/webbinariumokadarbetsmiljosakerhetinomsvensktyrkesfiske.5.1fa76d8f19a54f3051115e38.html",
+      "source_id": "landsbygdsnatverket",
+      "source_name": "Landsbygdsnätverket",
+      "categories": [
+        "vatten"
       ],
       "free": true
     },
@@ -1485,6 +1541,20 @@
       "free": true
     },
     {
+      "id": "f0f87c1a9256",
+      "title": "ARIA 2025 - livesänd prisceremoni",
+      "date_iso": "2025-11-24",
+      "time": "",
+      "description": "",
+      "url": "https://www.landsbygdsnatverket.se/kommandeaktiviteter/kalenderaktiviteter/aria2025livesandprisceremoni.5.6470708519a94eb69331968d.html",
+      "source_id": "landsbygdsnatverket",
+      "source_name": "Landsbygdsnätverket",
+      "categories": [
+        "omstallning"
+      ],
+      "free": true
+    },
+    {
       "id": "4152a78b48b6",
       "title": "Remiss gällande senarelagt datum för när ändrade fisketider för fiske efter lax och öring i Dalälven ska börja gälla.",
       "date_iso": "2025-11-26",
@@ -1532,6 +1602,34 @@
       "free": true
     },
     {
+      "id": "ee28fcfd43ac",
+      "title": "Webbinarium om restaurering av betesmarker",
+      "date_iso": "2025-12-01",
+      "time": "",
+      "description": "",
+      "url": "https://www.landsbygdsnatverket.se/kommandeaktiviteter/kalenderaktiviteter/webbinariumomrestaureringavbetesmarker.5.a512ce719ab8f7aabf17e39.html",
+      "source_id": "landsbygdsnatverket",
+      "source_name": "Landsbygdsnätverket",
+      "categories": [
+        "biodiv"
+      ],
+      "free": true
+    },
+    {
+      "id": "e98241840ef7",
+      "title": "Informationsträff om EIP-Agri",
+      "date_iso": "2025-12-02",
+      "time": "",
+      "description": "",
+      "url": "https://www.landsbygdsnatverket.se/kommandeaktiviteter/kalenderaktiviteter/informationstraffomeipagri.5.18d13ac419add044b182801.html",
+      "source_id": "landsbygdsnatverket",
+      "source_name": "Landsbygdsnätverket",
+      "categories": [
+        "mat"
+      ],
+      "free": true
+    },
+    {
       "id": "1b300871a578",
       "title": "Remiss om ändring i HVMFS 2018:11 om befälhavares skyldigheter att rapportera och anmäla yrkesmässigt fiske i havet",
       "date_iso": "2025-12-08",
@@ -1544,6 +1642,20 @@
         "vatten",
         "biodiv",
         "klimat"
+      ],
+      "free": true
+    },
+    {
+      "id": "0ab72f0bc22d",
+      "title": "Nationellt kompetensråd inom det gröna näringslivet",
+      "date_iso": "2025-12-08",
+      "time": "",
+      "description": "",
+      "url": "https://www.landsbygdsnatverket.se/kommandeaktiviteter/kalenderaktiviteter/nationelltkompetensradinomdetgronanaringslivet.5.18d13ac419add044b18170c2.html",
+      "source_id": "landsbygdsnatverket",
+      "source_name": "Landsbygdsnätverket",
+      "categories": [
+        "omstallning"
       ],
       "free": true
     },
@@ -1580,6 +1692,34 @@
       "free": true
     },
     {
+      "id": "4fe47c865505",
+      "title": "Nordic Seafood Summit 2026",
+      "date_iso": "2025-12-17",
+      "time": "",
+      "description": "",
+      "url": "https://www.landsbygdsnatverket.se/kommandeaktiviteter/kalenderaktiviteter/nordicseafoodsummit2026.5.54cad4fa19b251dbd4b6f4f.html",
+      "source_id": "landsbygdsnatverket",
+      "source_name": "Landsbygdsnätverket",
+      "categories": [
+        "omstallning"
+      ],
+      "free": true
+    },
+    {
+      "id": "b36b09737c03",
+      "title": "Nationella vattenbruks­konferensen 2026",
+      "date_iso": "2025-12-17",
+      "time": "",
+      "description": "",
+      "url": "https://www.landsbygdsnatverket.se/kommandeaktiviteter/kalenderaktiviteter/nationellavattenbrukskonferensen2026.5.54cad4fa19b251dbd4b6eeb.html",
+      "source_id": "landsbygdsnatverket",
+      "source_name": "Landsbygdsnätverket",
+      "categories": [
+        "vatten"
+      ],
+      "free": true
+    },
+    {
       "id": "e85591aadfa1",
       "title": "Bygga nytt eller bygga om?",
       "date_iso": "2025-12-19",
@@ -1610,6 +1750,20 @@
       "free": true
     },
     {
+      "id": "80581ea04a66",
+      "title": "AKIS Live: Från nej till ja – många vägar till finansiering inom gröna och blå näringar",
+      "date_iso": "2026-01-08",
+      "time": "",
+      "description": "",
+      "url": "https://www.landsbygdsnatverket.se/kommandeaktiviteter/kalenderaktiviteter/akislivefrannejtilljamangavagartillfinansieringinomgronaochblanaringar.5.715de5b19b9142b1b3bd1e.html",
+      "source_id": "landsbygdsnatverket",
+      "source_name": "Landsbygdsnätverket",
+      "categories": [
+        "omstallning"
+      ],
+      "free": true
+    },
+    {
       "id": "678b5b368268",
       "title": "Miljöövervakningsdagarna 2026",
       "date_iso": "2026-01-09",
@@ -1636,6 +1790,20 @@
       "source_name": "Holma Folkhögskola",
       "categories": [
         "mat"
+      ],
+      "free": true
+    },
+    {
+      "id": "bbd28dfb5b51",
+      "title": "Blå Leaderträff",
+      "date_iso": "2026-01-21",
+      "time": "",
+      "description": "",
+      "url": "https://www.landsbygdsnatverket.se/kommandeaktiviteter/kalenderaktiviteter/blaleadertraff.5.7042d9df19bd95c496a5eb5.html",
+      "source_id": "landsbygdsnatverket",
+      "source_name": "Landsbygdsnätverket",
+      "categories": [
+        "omstallning"
       ],
       "free": true
     },
@@ -1697,6 +1865,20 @@
       "categories": [
         "vatten",
         "biodiv",
+        "klimat"
+      ],
+      "free": true
+    },
+    {
+      "id": "3f77ce8be558",
+      "title": "Webbinarium om stöd och ersättningar framöver som minskar växtnäringsläckaget från jordbruket",
+      "date_iso": "2026-02-03",
+      "time": "",
+      "description": "",
+      "url": "https://www.landsbygdsnatverket.se/kommandeaktiviteter/kalenderaktiviteter/webbinariumomstodochersattningarframoversomminskarvaxtnaringslackagetfranjordbruket.5.46ae4116195bf598eee6c740.html",
+      "source_id": "landsbygdsnatverket",
+      "source_name": "Landsbygdsnätverket",
+      "categories": [
         "klimat"
       ],
       "free": true
@@ -1823,6 +2005,20 @@
       "free": true
     },
     {
+      "id": "f0c6b52a7454",
+      "title": "Nationellt kompetensråd inom det gröna näringslivet",
+      "date_iso": "2026-02-09",
+      "time": "",
+      "description": "",
+      "url": "https://www.landsbygdsnatverket.se/kommandeaktiviteter/kalenderaktiviteter/nationelltkompetensradinomdetgronanaringslivet.5.2a74f3a919c2174bc2583a1.html",
+      "source_id": "landsbygdsnatverket",
+      "source_name": "Landsbygdsnätverket",
+      "categories": [
+        "omstallning"
+      ],
+      "free": true
+    },
+    {
       "id": "81b08723d40c",
       "title": "Årsmöte och föreläsning av Christina Schaffer den 8 mars",
       "date_iso": "2026-02-10",
@@ -1850,6 +2046,34 @@
       "categories": [
         "omstallning",
         "mat"
+      ],
+      "free": true
+    },
+    {
+      "id": "db6722e1bb6b",
+      "title": "Östersjödagarna - Almedalen",
+      "date_iso": "2026-02-10",
+      "time": "",
+      "description": "",
+      "url": "https://www.landsbygdsnatverket.se/kommandeaktiviteter/kalenderaktiviteter/ostersjodagarnaalmedalen.5.3c405d1919c4581999b111d.html",
+      "source_id": "landsbygdsnatverket",
+      "source_name": "Landsbygdsnätverket",
+      "categories": [
+        "vatten"
+      ],
+      "free": true
+    },
+    {
+      "id": "91f2c2022ab6",
+      "title": "Upptakt för Sjömatens dag 2026 och resan mot Sjömat 365",
+      "date_iso": "2026-02-11",
+      "time": "",
+      "description": "",
+      "url": "https://www.landsbygdsnatverket.se/kommandeaktiviteter/kalenderaktiviteter/upptaktforsjomatensdag2026ochresanmotsjomat365.5.3c405d1919c4581999b2609.html",
+      "source_id": "landsbygdsnatverket",
+      "source_name": "Landsbygdsnätverket",
+      "categories": [
+        "vatten"
       ],
       "free": true
     },
@@ -1884,6 +2108,20 @@
       "free": true
     },
     {
+      "id": "96bac4cf374d",
+      "title": "Slantar som gör skillnad - Leaders roll för framtidens landsbygder - AKIS Live",
+      "date_iso": "2026-02-17",
+      "time": "",
+      "description": "",
+      "url": "https://www.landsbygdsnatverket.se/kommandeaktiviteter/kalenderaktiviteter/slantarsomgorskillnadleadersrollforframtidenslandsbygderakislive.5.12051fb419c698e142abb2.html",
+      "source_id": "landsbygdsnatverket",
+      "source_name": "Landsbygdsnätverket",
+      "categories": [
+        "omstallning"
+      ],
+      "free": true
+    },
+    {
       "id": "2a4392604e18",
       "title": "Akvatisk ÅGP-träff 2026",
       "date_iso": "2026-02-18",
@@ -1911,21 +2149,6 @@
       "categories": [
         "vatten",
         "biodiv",
-        "klimat"
-      ],
-      "free": true
-    },
-    {
-      "id": "b890b9314abc",
-      "title": "Omställnings Bar",
-      "date_iso": "2026-02-27",
-      "time": "",
-      "description": "En serie program inför Toppenmötet - Omställningskonferens 2026.\nPremiär 5 mars",
-      "url": "https://omstallningskanalen.se/programserier",
-      "source_id": "omstallningskanalen",
-      "source_name": "Omställningskanalen",
-      "categories": [
-        "omstallning",
         "klimat"
       ],
       "free": true
@@ -2090,21 +2313,6 @@
       "free": true
     },
     {
-      "id": "00c166a05c58",
-      "title": "Nära Maten",
-      "date_iso": "2026-03-05",
-      "time": "",
-      "description": "Vi samlar rörelsen för ett civilt och idéburet matsystem i Västra Götaland \nNära maten är ett pilotprojekt inom Omställningsnätverket som ska utforska hur ett alternativt, folkburet livsmedelssystem kan se ut.",
-      "url": "https://omstallningskanalen.se/programserier",
-      "source_id": "omstallningskanalen",
-      "source_name": "Omställningskanalen",
-      "categories": [
-        "omstallning",
-        "klimat"
-      ],
-      "free": true
-    },
-    {
       "id": "bb5233ccce8b",
       "title": "Västergötland – En dag för omställning i Skaraborg",
       "date_iso": "2026-03-07",
@@ -2147,6 +2355,34 @@
         "vatten",
         "biodiv",
         "klimat"
+      ],
+      "free": true
+    },
+    {
+      "id": "851dedf8e7e9",
+      "title": "Lunchkafé för livskraftiga landsbygder:Platssäkring i praktiken - vad krävs för att fatta geografiskt träffsäkra beslut?",
+      "date_iso": "2026-03-10",
+      "time": "",
+      "description": "",
+      "url": "https://www.landsbygdsnatverket.se/kommandeaktiviteter/kalenderaktiviteter/lunchkafeforlivskraftigalandsbygderplatssakringipraktikenvadkravsforattfattageografiskttraffsakrabeslut.5.2981570119cd5b9323f384.html",
+      "source_id": "landsbygdsnatverket",
+      "source_name": "Landsbygdsnätverket",
+      "categories": [
+        "omstallning"
+      ],
+      "free": true
+    },
+    {
+      "id": "8e731d435404",
+      "title": "Lunchkafé för livskraftiga landsbygder: Vänd på tänket! För smartare service i landsbygder",
+      "date_iso": "2026-03-10",
+      "time": "",
+      "description": "",
+      "url": "https://www.landsbygdsnatverket.se/kommandeaktiviteter/kalenderaktiviteter/lunchkafeforlivskraftigalandsbygdervandpatanketforsmartareserviceilandsbygder.5.2981570119cd5b9323f3a0.html",
+      "source_id": "landsbygdsnatverket",
+      "source_name": "Landsbygdsnätverket",
+      "categories": [
+        "omstallning"
       ],
       "free": true
     },
@@ -2213,16 +2449,32 @@
       "free": true
     },
     {
-      "id": "650af4b65173",
-      "title": "Effektiv kväveanvändning för hög lönsamhet och små förluster",
-      "date_iso": "2026-03-17",
+      "id": "9fdbc746d9ce",
+      "title": "Statusjakten 2030: Från samhällshjälte till framtidens karriärval - AKIS Live",
+      "date_iso": "2026-03-16",
       "time": "",
-      "description": "Plats: Digitalt",
-      "url": "https://jordbruksverket.se/om-jordbruksverket/kurser-och-seminarier",
-      "source_id": "jordbruksverket",
-      "source_name": "Jordbruksverket",
+      "description": "",
+      "url": "https://www.landsbygdsnatverket.se/kommandeaktiviteter/kalenderaktiviteter/statusjakten2030fransamhallshjaltetillframtidenskarriarvalakislive.5.603f70b719cd5b3b9415886.html",
+      "source_id": "landsbygdsnatverket",
+      "source_name": "Landsbygdsnätverket",
       "categories": [
         "omstallning"
+      ],
+      "free": true
+    },
+    {
+      "id": "6af20f3ac27e",
+      "title": "Konferens om havs- och kustzonsplanering i Sverige.",
+      "date_iso": "2026-03-17",
+      "time": "",
+      "description": "",
+      "url": "https://www.havochvatten.se/om-oss-kontakt-och-karriar/evenemang/kalender/kalender/2026/extern-kalender-2026/2026-03-17-konferens-om-havs--och-kustzonsplanering-i-sverige..html",
+      "source_id": "hav",
+      "source_name": "Havs- och vattenmyndigheten",
+      "categories": [
+        "vatten",
+        "biodiv",
+        "klimat"
       ],
       "free": true
     },
@@ -2277,6 +2529,20 @@
       "url": "https://jordbruksverket.se/om-jordbruksverket/kurser-och-seminarier",
       "source_id": "jordbruksverket",
       "source_name": "Jordbruksverket",
+      "categories": [
+        "omstallning"
+      ],
+      "free": true
+    },
+    {
+      "id": "41d0c2166408",
+      "title": "Föredrag med Susanna Prytz - Vad ska jag göra med skörden?",
+      "date_iso": "2026-03-18",
+      "time": "",
+      "description": "100 SEK",
+      "url": "https://www.sv.se/kurser-och-evenemang/tradgard-hus-och-hem/tradgard/foredrag-med-susanna-prytz-vad-ska-jag-gora-med-skorden-64114",
+      "source_id": "sv_tradgard",
+      "source_name": "SV Studieförbundet",
       "categories": [
         "omstallning"
       ],
@@ -2965,12 +3231,12 @@
       "free": true
     },
     {
-      "id": "4f1db6d8e6b1",
-      "title": "Tillverkare och EU:s förpackningsförordning",
+      "id": "8e885fcd479e",
+      "title": "Producent och EU:s förpackningsförordning",
       "date_iso": "2026-04-01",
       "time": "",
-      "description": "Under detta webbinarium få du som tillverkare av förpackningar en djupare redogörelse för hur du kommer påverkas och vilka krav du behöver leva upp till i och med att EU:s förordning om förpackningar och förpackningsavfall, PPWR, träder ikraft.",
-      "url": "https://www.naturvardsverket.se/om-oss/aktuellt/kalendarium/2026/april/tillverkare-och-eus-forpackningsforordning/",
+      "description": "EU:s förordning om förpackningar och förpackningsavfall, PPWR, innebär att det kommit en ny definition av förpackningsproducent som gäller i alla medlemsländer. Vid detta tillfälle kommer Naturvårdsverket gå igenom vad detta innebär för dig som omfattas av definitionen och vilka krav du behöver leva upp till i och med att PPWR träder ikraft.",
+      "url": "https://www.naturvardsverket.se/om-oss/aktuellt/kalendarium/2026/april/producent-och-eus-forpackningsforordning/",
       "source_id": "naturvardsverket",
       "source_name": "Naturvårdsverket",
       "categories": [
@@ -2981,12 +3247,12 @@
       "free": true
     },
     {
-      "id": "8e885fcd479e",
-      "title": "Producent och EU:s förpackningsförordning",
+      "id": "4f1db6d8e6b1",
+      "title": "Tillverkare och EU:s förpackningsförordning",
       "date_iso": "2026-04-01",
       "time": "",
-      "description": "EU:s förordning om förpackningar och förpackningsavfall, PPWR, innebär att det kommit en ny definition av förpackningsproducent som gäller i alla medlemsländer. Vid detta tillfälle kommer Naturvårdsverket gå igenom vad detta innebär för dig som omfattas av definitionen och vilka krav du behöver leva upp till i och med att PPWR träder ikraft.",
-      "url": "https://www.naturvardsverket.se/om-oss/aktuellt/kalendarium/2026/april/producent-och-eus-forpackningsforordning/",
+      "description": "Under detta webbinarium få du som tillverkare av förpackningar en djupare redogörelse för hur du kommer påverkas och vilka krav du behöver leva upp till i och med att EU:s förordning om förpackningar och förpackningsavfall, PPWR, träder ikraft.",
+      "url": "https://www.naturvardsverket.se/om-oss/aktuellt/kalendarium/2026/april/tillverkare-och-eus-forpackningsforordning/",
       "source_id": "naturvardsverket",
       "source_name": "Naturvårdsverket",
       "categories": [
@@ -3186,6 +3452,20 @@
       "id": "38741ad4416b",
       "title": "Gynna jordbruksfåglar!",
       "date_iso": "2026-04-15",
+      "time": "",
+      "description": "Plats: Digitalt",
+      "url": "https://jordbruksverket.se/om-jordbruksverket/kurser-och-seminarier",
+      "source_id": "jordbruksverket",
+      "source_name": "Jordbruksverket",
+      "categories": [
+        "omstallning"
+      ],
+      "free": true
+    },
+    {
+      "id": "52efdafd2a68",
+      "title": "Bedömning av markens mikroliv",
+      "date_iso": "2026-04-16",
       "time": "",
       "description": "Plats: Digitalt",
       "url": "https://jordbruksverket.se/om-jordbruksverket/kurser-och-seminarier",
@@ -3531,20 +3811,6 @@
       "free": true
     },
     {
-      "id": "73921ebb8104",
-      "title": "Buketter och bakverk – gör en bukett i grenkonstruktion",
-      "date_iso": "2026-05-07",
-      "time": "",
-      "description": "380 SEK",
-      "url": "https://www.sv.se/kurser-och-evenemang/tradgard-hus-och-hem/tradgard/buketter-och-bakverk-gor-en-bukett-i-grenkonstruktion-47075",
-      "source_id": "sv_tradgard",
-      "source_name": "SV Studieförbundet",
-      "categories": [
-        "omstallning"
-      ],
-      "free": true
-    },
-    {
       "id": "8946116c752e",
       "title": "PrepAlliance Partner Meeting #1: Extreme Weather and Practical Preparedness",
       "date_iso": "2026-05-07",
@@ -3584,6 +3850,20 @@
       "source_name": "Holma Folkhögskola",
       "categories": [
         "omstallning"
+      ],
+      "free": true
+    },
+    {
+      "id": "d5b4eab4c6b2",
+      "title": "Permakultur, distanskurs med praktiskt moment i Vilhelmina",
+      "date_iso": "2026-05-11",
+      "time": "",
+      "description": "1 895 SEK",
+      "url": "https://www.sv.se/kurser-och-evenemang/tradgard-hus-och-hem/tradgard/permakultur-distanskurs-med-praktiskt-moment-i-vilhelmina-79148",
+      "source_id": "sv_tradgard",
+      "source_name": "SV Studieförbundet",
+      "categories": [
+        "skogstradgard"
       ],
       "free": true
     },
@@ -3663,7 +3943,7 @@
       "title": "Storfågelkonferensen",
       "date_iso": "2026-05-19",
       "time": "",
-      "description": "Hushållningssällskapet Halland och Länsstyrelsen i Hallands län – Lilla Böslid, Eldsberga\nVarmt välkommen till en kostnadsfri konferens om storfågel i odlingslandskapet. Antalet gäss, svanar och tranor har ökat kraftigt de senaste decennierna. Det har skapat utmaningar för lantbruket och samtidigt öppnat möjligheter för jakt. Den 19 maj 14:00-19:00 lyfter vi frågor om viltskador, ersättn",
+      "description": "Hushållningssällskapet Halland och Länsstyrelsen i Hallands län – Lilla Böslid, Eldsberga\nVarmt välkommen till en kostnadsfri konferens om storfågel i odlingslandskapet. Antalet gäss, svanar och tranor har ökat kraftigt de senaste decennierna. Det har skapat utmaningar för lantbruket, då de på många ställen orsakat stora skador på växande gröda. Samtidigt öppnar detta möjligheter för jak",
       "url": "https://hushallningssallskapet.se/kalender/storfagelkonferensen/",
       "source_id": "hushallningssallskapet",
       "source_name": "Hushållningssällskapet",
@@ -3817,20 +4097,6 @@
       "categories": [
         "omstallning",
         "klimat"
-      ],
-      "free": true
-    },
-    {
-      "id": "8c3accc4ac77",
-      "title": "Örter och kryddor i trädgården",
-      "date_iso": "2026-06-07",
-      "time": "",
-      "description": "1 800 SEK",
-      "url": "https://www.sv.se/kurser-och-evenemang/tradgard-hus-och-hem/tradgard/orter-och-kryddor-i-tradgarden-204248",
-      "source_id": "sv_tradgard",
-      "source_name": "SV Studieförbundet",
-      "categories": [
-        "skog"
       ],
       "free": true
     },
@@ -4056,6 +4322,20 @@
       "free": true
     },
     {
+      "id": "e4b899f48955",
+      "title": "Ekoresa lantbruk",
+      "date_iso": "2026-08-27",
+      "time": "",
+      "description": "Plats: Bohuslän",
+      "url": "https://jordbruksverket.se/om-jordbruksverket/kurser-och-seminarier",
+      "source_id": "jordbruksverket",
+      "source_name": "Jordbruksverket",
+      "categories": [
+        "omstallning"
+      ],
+      "free": true
+    },
+    {
       "id": "c134265757dd",
       "title": "Delåtgärdsprogram för effektiv vattenförvaltning (2025)",
       "date_iso": "2026-08-29",
@@ -4251,20 +4531,6 @@
       "free": true
     },
     {
-      "id": "ac20d05bfd6b",
-      "title": "Kransar och kaffe - gör en krans med torkade blommor",
-      "date_iso": "2026-10-04",
-      "time": "",
-      "description": "380 SEK",
-      "url": "https://www.sv.se/kurser-och-evenemang/tradgard-hus-och-hem/tradgard/kransar-och-kaffe-gor-en-krans-med-torkade-blommor-47082",
-      "source_id": "sv_tradgard",
-      "source_name": "SV Studieförbundet",
-      "categories": [
-        "omstallning"
-      ],
-      "free": true
-    },
-    {
       "id": "5bf30102fe87",
       "title": "Lilla Böslid demodag 2026",
       "date_iso": "2026-10-08",
@@ -4325,6 +4591,20 @@
       "free": true
     },
     {
+      "id": "c9790d16b6a3",
+      "title": "Ta hand om din skörd -Syrning och mustning",
+      "date_iso": "2026-10-24",
+      "time": "",
+      "description": "1 800 SEK",
+      "url": "https://www.sv.se/kurser-och-evenemang/tradgard-hus-och-hem/tradgard/ta-hand-om-din-skord-syrning-och-mustning-204318",
+      "source_id": "sv_tradgard",
+      "source_name": "SV Studieförbundet",
+      "categories": [
+        "omstallning"
+      ],
+      "free": true
+    },
+    {
       "id": "922be78732bb",
       "title": "Nationell biogaskonferens Ystad – förhandsinfo",
       "date_iso": "2026-11-03",
@@ -4333,6 +4613,20 @@
       "url": "https://hushallningssallskapet.se/kalender/nationell-biogaskonferens/",
       "source_id": "hushallningssallskapet",
       "source_name": "Hushållningssällskapet",
+      "categories": [
+        "omstallning"
+      ],
+      "free": true
+    },
+    {
+      "id": "2edba52f6041",
+      "title": "FoU-dagarna 2026 – ekologisk produktion",
+      "date_iso": "2026-11-12",
+      "time": "",
+      "description": "Plats: Digitalt",
+      "url": "https://jordbruksverket.se/om-jordbruksverket/kurser-och-seminarier",
+      "source_id": "jordbruksverket",
+      "source_name": "Jordbruksverket",
       "categories": [
         "omstallning"
       ],
