@@ -6,7 +6,10 @@
       "icon": "🌱",
       "desc": "Svensk ideell förening för fröodling och bevarande av kulturväxter. Ger ut årsbok med fröbibliotek.",
       "url": "https://sesam.nu",
-      "cats": ["mat", "biodiv"],
+      "cats": [
+        "mat",
+        "biodiv"
+      ],
       "location": "Sverige"
     },
     {
@@ -15,7 +18,11 @@
       "icon": "🌿",
       "desc": "Nationellt nätverk för permakultur i Sverige. Arrangerar kurser, träffar och sprider kunskap om permakulturdesign.",
       "url": "https://permakultur.se",
-      "cats": ["skogstradgard", "mat", "omstallning"],
+      "cats": [
+        "skogstradgard",
+        "mat",
+        "omstallning"
+      ],
       "location": "Sverige"
     },
     {
@@ -24,7 +31,10 @@
       "icon": "🌳",
       "desc": "Förening för skogsträdgårdsintresserade i Sverige. Delar erfarenheter och kunskap om skogsträdgårdsodling.",
       "url": "https://skogstradgard.se",
-      "cats": ["skogstradgard", "mat"],
+      "cats": [
+        "skogstradgard",
+        "mat"
+      ],
       "location": "Sverige"
     },
     {
@@ -33,7 +43,11 @@
       "icon": "🦅",
       "desc": "Sveriges största miljöorganisation med 300 000 medlemmar. Arbetar för biologisk mångfald och klimat.",
       "url": "https://www.naturskyddsforeningen.se",
-      "cats": ["biodiv", "klimat", "omstallning"],
+      "cats": [
+        "biodiv",
+        "klimat",
+        "omstallning"
+      ],
       "location": "Sverige"
     },
     {
@@ -42,7 +56,11 @@
       "icon": "🔄",
       "desc": "Nätverk för lokala omställningsgrupper i Sverige inspirerade av Transition Towns-rörelsen.",
       "url": "https://omstallning.net",
-      "cats": ["omstallning", "mat", "beredskap"],
+      "cats": [
+        "omstallning",
+        "mat",
+        "beredskap"
+      ],
       "location": "Sverige"
     },
     {
@@ -51,7 +69,11 @@
       "icon": "🌾",
       "desc": "Nätverk och kunskapsplattform för regenerativt jordbruk och kolinlagring i mark.",
       "url": "https://svenskkolinlagring.se",
-      "cats": ["mat", "klimat", "omstallning"],
+      "cats": [
+        "mat",
+        "klimat",
+        "omstallning"
+      ],
       "location": "Sverige"
     },
     {
@@ -60,7 +82,11 @@
       "icon": "🌲",
       "desc": "Nätverk och kunskapskälla för agroforestry – integrering av träd i jordbruk och betesmark.",
       "url": "https://agroforestry.se",
-      "cats": ["skogstradgard", "mat", "skog"],
+      "cats": [
+        "skogstradgard",
+        "mat",
+        "skog"
+      ],
       "location": "Sverige"
     },
     {
@@ -69,7 +95,11 @@
       "icon": "🏡",
       "desc": "Folkhögskola med inriktning på ekologi, permakultur och hållbart lantbruk.",
       "url": "https://www.holmafolkhogskola.se",
-      "cats": ["omstallning", "mat", "skogstradgard"],
+      "cats": [
+        "omstallning",
+        "mat",
+        "skogstradgard"
+      ],
       "location": "Skåne"
     },
     {
@@ -78,7 +108,10 @@
       "icon": "🥕",
       "desc": "Nätverk av lokala Facebook-grupper för direktförsäljning av mat från producent till konsument.",
       "url": "https://www.reko-ring.se",
-      "cats": ["mat", "omstallning"],
+      "cats": [
+        "mat",
+        "omstallning"
+      ],
       "location": "Sverige"
     },
     {
@@ -87,7 +120,9 @@
       "icon": "🪴",
       "desc": "Community för odlare i Sverige – forum, råd och erfarenhetsutbyte kring odling.",
       "url": "https://odlingsnätverket.se",
-      "cats": ["mat"],
+      "cats": [
+        "mat"
+      ],
       "location": "Sverige"
     },
     {
@@ -96,7 +131,10 @@
       "icon": "🍽️",
       "desc": "Del av internationell rörelse för god, ren och rättvis mat. Arbetar för biologisk mångfald i matkultur.",
       "url": "https://slowfood.se",
-      "cats": ["mat", "biodiv"],
+      "cats": [
+        "mat",
+        "biodiv"
+      ],
       "location": "Sverige"
     },
     {
@@ -105,7 +143,10 @@
       "icon": "🌍",
       "desc": "Medborgarrörelse som samlar medborgare för att diskutera och besluta om klimatpolitik.",
       "url": "https://klimatriksdagen.se",
-      "cats": ["klimat", "omstallning"],
+      "cats": [
+        "klimat",
+        "omstallning"
+      ],
       "location": "Sverige"
     },
     {
@@ -114,7 +155,10 @@
       "icon": "♻️",
       "desc": "Regionalt nätverk för hållbar utveckling i Skåne med fokus på omställning och resiliens.",
       "url": "https://www.hutskane.se",
-      "cats": ["omstallning", "klimat"],
+      "cats": [
+        "omstallning",
+        "klimat"
+      ],
       "location": "Skåne"
     },
     {
@@ -123,7 +167,10 @@
       "icon": "🌿",
       "desc": "Mötesplats för ekologisk hållbarhet i Göteborg med utställningar, kurser och evenemang.",
       "url": "https://www.ekocentrum.se",
-      "cats": ["omstallning", "mat"],
+      "cats": [
+        "omstallning",
+        "mat"
+      ],
       "location": "Göteborg"
     },
     {
@@ -132,7 +179,11 @@
       "icon": "🌳",
       "desc": "Plats och community för skogsträdgård, permakultur och biologisk mångfald.",
       "url": "https://underekarna.se",
-      "cats": ["skogstradgard", "biodiv", "mat"],
+      "cats": [
+        "skogstradgard",
+        "biodiv",
+        "mat"
+      ],
       "location": "Sverige"
     },
     {
@@ -141,7 +192,10 @@
       "icon": "🔄",
       "desc": "Community för alternativa livsstilar, hållbarhet och omställning i Sverige.",
       "url": "https://www.alternativ.nu",
-      "cats": ["omstallning", "mat"],
+      "cats": [
+        "omstallning",
+        "mat"
+      ],
       "location": "Sverige"
     },
     {
@@ -150,7 +204,10 @@
       "icon": "🌻",
       "desc": "Löst nätverk av fröräddare och fröodlare i Sverige som utbyter frön och kunskap.",
       "url": "https://sesam.nu",
-      "cats": ["mat", "biodiv"],
+      "cats": [
+        "mat",
+        "biodiv"
+      ],
       "location": "Sverige"
     },
     {
@@ -159,7 +216,10 @@
       "icon": "🌾",
       "desc": "Förening för biodynamisk odling och lantbruk i Sverige.",
       "url": "https://biodynamic.se",
-      "cats": ["mat", "omstallning"],
+      "cats": [
+        "mat",
+        "omstallning"
+      ],
       "location": "Sverige"
     },
     {
@@ -168,7 +228,10 @@
       "icon": "🌺",
       "desc": "Riksförbund för trädgårdsodlare med lokalföreningar och kurser runt om i Sverige.",
       "url": "https://www.tradgard.org",
-      "cats": ["mat", "biodiv"],
+      "cats": [
+        "mat",
+        "biodiv"
+      ],
       "location": "Sverige"
     },
     {
@@ -177,7 +240,34 @@
       "icon": "🛡️",
       "desc": "Nätverk för civilt beredskapsarbete och samhällsresiliens på lokal nivå.",
       "url": "https://www.msb.se/frivilliga",
-      "cats": ["beredskap", "omstallning"],
+      "cats": [
+        "beredskap",
+        "omstallning"
+      ],
+      "location": "Sverige"
+    },
+    {
+      "name": "Omställningskanalen",
+      "type": "rörelse",
+      "icon": "📡",
+      "desc": "Svensk kanal och community för omställningsrörelsen – inspiration och kunskap för ett hållbart samhälle.",
+      "url": "https://omstallningskanalen.se",
+      "cats": [
+        "omstallning",
+        "beredskap"
+      ],
+      "location": "Sverige"
+    },
+    {
+      "name": "Landsbygdsnätverket",
+      "type": "nätverk",
+      "icon": "🏞️",
+      "desc": "Nationellt nätverk för landsbygdsutveckling, gröna näringar och Leader-program i Sverige.",
+      "url": "https://www.landsbygdsnatverket.se",
+      "cats": [
+        "omstallning",
+        "mat"
+      ],
       "location": "Sverige"
     }
   ]
