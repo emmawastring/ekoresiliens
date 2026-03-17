@@ -269,6 +269,30 @@
         "mat"
       ],
       "location": "Sverige"
+    },
+    {
+      "name": "Nötverket",
+      "type": "forening",
+      "icon": "🌰",
+      "desc": "Förening och kunskapsnätverk för nötodling i Sverige. Arrangerar kurser, exkursioner och sprider kunskap om nötträd.",
+      "url": "https://notverket.se",
+      "cats": [
+        "mat",
+        "skogstradgard"
+      ],
+      "location": "Sverige"
+    },
+    {
+      "name": "Svenska Nötter – Forum",
+      "type": "forum",
+      "icon": "💬",
+      "desc": "Nötverkets diskussionsforum för nötodlare. Frågor, erfarenheter och råd kring nötträd och nötodling.",
+      "url": "https://svenskanotter.se/forum/",
+      "cats": [
+        "mat",
+        "skogstradgard"
+      ],
+      "location": "Sverige"
     }
   ]
 }

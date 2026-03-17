@@ -44,6 +44,7 @@ from scrapers.jordbruksverket import JordbruksverketScraper
 from scrapers.svenskkolinlagring import SvenskKolinlagringScraper
 from scrapers.sv_tradgard import SVTradgardScraper
 from scrapers.landsbygdsnatverket import LandsbygdsnatverketScraper
+from scrapers.notverket import NotverketScraper
 from scrapers.holma import HolmaScraper
 from scrapers.hushallningssallskapet import HushallningssallskapetScraper
 from scrapers.hutskane import HutSkaneScraper
@@ -100,6 +101,7 @@ SCRAPERS = [
     SvenskKolinlagringScraper(),
     SVTradgardScraper(),
     LandsbygdsnatverketScraper(),
+    NotverketScraper(),
     HolmaScraper(),
     HushallningssallskapetScraper(),
     HutSkaneScraper(),
