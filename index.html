@@ -521,6 +521,56 @@ footer a:hover{text-decoration:underline;}
   </div>
 </div>
 
+
+<!-- ════════════════════════════════════ -->
+<!-- TAB 3 – GEMENSKAP                   -->
+<!-- ════════════════════════════════════ -->
+<div class="tab-panel" id="panel-gemenskap">
+  <div class="main-wrap">
+    <aside>
+      <div class="filter-card">
+        <div class="filter-title">🔍 Sök &amp; Filtrera</div>
+        <input class="search-box" type="text" placeholder="Sök förening, nätverk..." id="gemSearch" oninput="renderGem()">
+        <div id="gemVisibleCount" style="font-size:.8rem;color:var(--bark);margin:.4rem 0">–</div>
+        <div class="filter-group">
+          <div class="filter-group-label" onclick="toggleFilterGroup(this)">Typ</div>
+          <div class="filter-group-body">
+            <div class="chip-group" id="gemTypeChips">
+              <div class="chip active" data-gemtype="all"        onclick="selectGemType(this)">Alla</div>
+              <div class="chip"        data-gemtype="forening"   onclick="selectGemType(this)">Förening</div>
+              <div class="chip"        data-gemtype="nätverk"    onclick="selectGemType(this)">Nätverk</div>
+              <div class="chip"        data-gemtype="kooperativ" onclick="selectGemType(this)">Kooperativ</div>
+              <div class="chip"        data-gemtype="community"  onclick="selectGemType(this)">Community</div>
+              <div class="chip"        data-gemtype="rörelse"    onclick="selectGemType(this)">Rörelse</div>
+            </div>
+          </div>
+        </div>
+        <div class="filter-group">
+          <div class="filter-group-label" onclick="toggleFilterGroup(this)">Kategori</div>
+          <div class="filter-group-body">
+            <div class="chip-group" id="gemCatChips">
+              <div class="chip active" data-cat="all"           onclick="selectCat(this,'gemCatChips')">Alla</div>
+              <div class="chip"        data-cat="omstallning"   onclick="selectCat(this,'gemCatChips')">Omställning</div>
+              <div class="chip"        data-cat="mat"           onclick="selectCat(this,'gemCatChips')">Mat &amp; Odling</div>
+              <div class="chip"        data-cat="skog"          onclick="selectCat(this,'gemCatChips')">Skog</div>
+              <div class="chip"        data-cat="biodiv"        onclick="selectCat(this,'gemCatChips')">Biologisk mångfald</div>
+              <div class="chip"        data-cat="klimat"        onclick="selectCat(this,'gemCatChips')">Klimat</div>
+              <div class="chip"        data-cat="beredskap"     onclick="selectCat(this,'gemCatChips')">Beredskap</div>
+              <div class="chip"        data-cat="skogstradgard" onclick="selectCat(this,'gemCatChips')">Skogsträdgård</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </aside>
+    <main>
+      <div id="gemContent" class="kb-grid"></div>
+      <div id="gemEmpty" style="display:none;text-align:center;padding:3rem">
+        <div class="icon">🤝</div>
+        <p>Inga träffar</p>
+      </div>
+    </main>
+  </div>
+</div>
 <footer>
   <p>Ekoresiliens är en oberoende samlingstjänst för gröna evenemang och kunskapsresurser.<br>
   Skapad av <a href="https://github.com/emmawastring">Emma Wastring</a> (<a href="https://geekyfarmers.com/" target="_blank" rel="noopener">Geeky Farmers</a>) &nbsp;|&nbsp;
