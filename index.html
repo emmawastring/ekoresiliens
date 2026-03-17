@@ -275,6 +275,7 @@ footer a:hover{text-decoration:underline;}
   <div class="tab-bar">
     <button class="tab-btn active" onclick="switchTab('webbinarier')" id="tab-webbinarier">Evenemang</button>
     <button class="tab-btn" onclick="switchTab('kunskapsbank')" id="tab-kunskapsbank">Kunskapsbank</button>
+    <button class="tab-btn" onclick="switchTab('gemenskap')" id="tab-gemenskap">Gemenskap</button>
   </div>
 </div>
 
@@ -668,8 +669,66 @@ function fmtDate(iso) {
 // ═══════════════════════════════════════════
 // INIT – hämta båda JSON-filerna parallellt
 // ═══════════════════════════════════════════
+// ═══════════════════════════════════════════
+// GEMENSKAP
+// ═══════════════════════════════════════════
+let allGem = [];
+let activeGemType = 'all', activeGemCat = [];
+
+async function loadGem() {
+  try {
+    const r = await fetch('data/gemenskap.json');
+    const json = await r.json();
+    allGem = json.orgs || [];
+    renderGem();
+  } catch(e) { console.warn('gemenskap.json saknas', e); }
+}
+
+function selectGemType(el) {
+  document.querySelectorAll('#gemTypeChips .chip').forEach(c => c.classList.remove('active'));
+  el.classList.add('active');
+  activeGemType = el.dataset.gemtype;
+  renderGem();
+}
+
+function renderGem() {
+  const q = (document.getElementById('gemSearch')?.value || '').toLowerCase();
+  let f = allGem.filter(g => {
+    if (activeGemType !== 'all' && g.type !== activeGemType) return false;
+    if (activeGemCat.length > 0 && !activeGemCat.some(ac => (g.cats||[]).includes(ac))) return false;
+    if (q && !g.name.toLowerCase().includes(q) && !(g.desc||'').toLowerCase().includes(q)) return false;
+    return true;
+  });
+  const cont  = document.getElementById('gemContent');
+  const empty = document.getElementById('gemEmpty');
+  const cnt   = document.getElementById('gemVisibleCount');
+  if (cnt) cnt.textContent = f.length + ' organisationer';
+  if (!f.length) { cont.innerHTML = ''; empty.style.display = 'block'; return; }
+  empty.style.display = 'none';
+  cont.innerHTML = f.map(g => `
+    <a class="kb-card" href="${g.url}" target="_blank" rel="noopener noreferrer">
+      <div style="height:80px;background:linear-gradient(135deg,#f5f0e8 0%,#faf7f2 100%);display:flex;align-items:center;justify-content:center;padding:0.8rem;border-bottom:1px solid var(--mist);">
+        <img src="${getFaviconUrl(g.url)}" alt="" style="max-width:50px;max-height:50px;object-fit:contain;" onerror="this.style.display='none'">
+      </div>
+      <div class="kb-card-top">
+        <span class="kb-icon">${g.icon || '🤝'}</span>
+        <span class="kb-type-badge" style="background:#e8f0e8;color:#2d6a2d;border:1px solid #b5d0b5">${g.type || 'förening'}</span>
+      </div>
+      <div class="kb-title">${g.name}</div>
+      <div class="kb-desc">${g.desc || ''}</div>
+      <div class="kb-tags">${(g.cats||[]).map(t=>`<span class="tag cat-${t}">${tl(t)}</span>`).join('')}</div>
+      <div class="kb-footer">
+        <span class="kb-source-small">${g.location || ''}</span>
+        <span class="kb-link-hint">Besök →</span>
+      </div>
+    </a>`).join('');
+}
+
+// Koppla gemCatChips till activeGemCat
+const _origSelectCat = selectCat;
+
 async function init() {
-  await Promise.all([loadWebinars(), loadKB()]);
+  await Promise.all([loadWebinars(), loadKB(), loadGem()]);
 }
 
 async function loadWebinars() {
@@ -854,6 +913,7 @@ function selectCat(el, groupId) {
     el.classList.add('active');
     if (groupId === 'catChips')   { activeCat   = []; applyFilters(); }
     if (groupId === 'kbCatChips') { activeKBCat = []; renderKB(); }
+    if (groupId === 'gemCatChips') { activeGemCat = []; renderGem(); }
   } else {
     // Avmarkera Alla
     document.querySelector('#' + groupId + ' .chip[data-cat="all"]').classList.remove('active');
@@ -867,6 +927,7 @@ function selectCat(el, groupId) {
     }
     if (groupId === 'catChips')   { activeCat   = active; applyFilters(); }
     if (groupId === 'kbCatChips') { activeKBCat = active; renderKB(); }
+    if (groupId === 'gemCatChips') { activeGemCat = active; renderGem(); }
   }
 }
 function selectTime(el) {

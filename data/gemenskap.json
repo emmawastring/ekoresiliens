@@ -1,0 +1,184 @@
+{
+  "orgs": [
+    {
+      "name": "Sesam – Fröföreningen",
+      "type": "forening",
+      "icon": "🌱",
+      "desc": "Svensk ideell förening för fröodling och bevarande av kulturväxter. Ger ut årsbok med fröbibliotek.",
+      "url": "https://sesam.nu",
+      "cats": ["mat", "biodiv"],
+      "location": "Sverige"
+    },
+    {
+      "name": "Permakultur Sverige",
+      "type": "nätverk",
+      "icon": "🌿",
+      "desc": "Nationellt nätverk för permakultur i Sverige. Arrangerar kurser, träffar och sprider kunskap om permakulturdesign.",
+      "url": "https://permakultur.se",
+      "cats": ["skogstradgard", "mat", "omstallning"],
+      "location": "Sverige"
+    },
+    {
+      "name": "Skogsträdgårdsföreningen",
+      "type": "forening",
+      "icon": "🌳",
+      "desc": "Förening för skogsträdgårdsintresserade i Sverige. Delar erfarenheter och kunskap om skogsträdgårdsodling.",
+      "url": "https://skogstradgard.se",
+      "cats": ["skogstradgard", "mat"],
+      "location": "Sverige"
+    },
+    {
+      "name": "Naturskyddsföreningen",
+      "type": "forening",
+      "icon": "🦅",
+      "desc": "Sveriges största miljöorganisation med 300 000 medlemmar. Arbetar för biologisk mångfald och klimat.",
+      "url": "https://www.naturskyddsforeningen.se",
+      "cats": ["biodiv", "klimat", "omstallning"],
+      "location": "Sverige"
+    },
+    {
+      "name": "Omställningsnätverket",
+      "type": "nätverk",
+      "icon": "🔄",
+      "desc": "Nätverk för lokala omställningsgrupper i Sverige inspirerade av Transition Towns-rörelsen.",
+      "url": "https://omstallning.net",
+      "cats": ["omstallning", "mat", "beredskap"],
+      "location": "Sverige"
+    },
+    {
+      "name": "Svensk Kolinlagring",
+      "type": "nätverk",
+      "icon": "🌾",
+      "desc": "Nätverk och kunskapsplattform för regenerativt jordbruk och kolinlagring i mark.",
+      "url": "https://svenskkolinlagring.se",
+      "cats": ["mat", "klimat", "omstallning"],
+      "location": "Sverige"
+    },
+    {
+      "name": "Agroforestry Sverige",
+      "type": "nätverk",
+      "icon": "🌲",
+      "desc": "Nätverk och kunskapskälla för agroforestry – integrering av träd i jordbruk och betesmark.",
+      "url": "https://agroforestry.se",
+      "cats": ["skogstradgard", "mat", "skog"],
+      "location": "Sverige"
+    },
+    {
+      "name": "Holma Folkhögskola",
+      "type": "community",
+      "icon": "🏡",
+      "desc": "Folkhögskola med inriktning på ekologi, permakultur och hållbart lantbruk.",
+      "url": "https://www.holmafolkhogskola.se",
+      "cats": ["omstallning", "mat", "skogstradgard"],
+      "location": "Skåne"
+    },
+    {
+      "name": "REKO-ringar Sverige",
+      "type": "nätverk",
+      "icon": "🥕",
+      "desc": "Nätverk av lokala Facebook-grupper för direktförsäljning av mat från producent till konsument.",
+      "url": "https://www.reko-ring.se",
+      "cats": ["mat", "omstallning"],
+      "location": "Sverige"
+    },
+    {
+      "name": "Odlingsnätverket",
+      "type": "nätverk",
+      "icon": "🪴",
+      "desc": "Community för odlare i Sverige – forum, råd och erfarenhetsutbyte kring odling.",
+      "url": "https://odlingsnätverket.se",
+      "cats": ["mat"],
+      "location": "Sverige"
+    },
+    {
+      "name": "Slow Food Sverige",
+      "type": "forening",
+      "icon": "🍽️",
+      "desc": "Del av internationell rörelse för god, ren och rättvis mat. Arbetar för biologisk mångfald i matkultur.",
+      "url": "https://slowfood.se",
+      "cats": ["mat", "biodiv"],
+      "location": "Sverige"
+    },
+    {
+      "name": "Klimatriksdagen",
+      "type": "rörelse",
+      "icon": "🌍",
+      "desc": "Medborgarrörelse som samlar medborgare för att diskutera och besluta om klimatpolitik.",
+      "url": "https://klimatriksdagen.se",
+      "cats": ["klimat", "omstallning"],
+      "location": "Sverige"
+    },
+    {
+      "name": "Hållbar Utveckling Skåne (HUT)",
+      "type": "nätverk",
+      "icon": "♻️",
+      "desc": "Regionalt nätverk för hållbar utveckling i Skåne med fokus på omställning och resiliens.",
+      "url": "https://www.hutskane.se",
+      "cats": ["omstallning", "klimat"],
+      "location": "Skåne"
+    },
+    {
+      "name": "Ekocentrum",
+      "type": "community",
+      "icon": "🌿",
+      "desc": "Mötesplats för ekologisk hållbarhet i Göteborg med utställningar, kurser och evenemang.",
+      "url": "https://www.ekocentrum.se",
+      "cats": ["omstallning", "mat"],
+      "location": "Göteborg"
+    },
+    {
+      "name": "Under Ekarna",
+      "type": "community",
+      "icon": "🌳",
+      "desc": "Plats och community för skogsträdgård, permakultur och biologisk mångfald.",
+      "url": "https://underekarna.se",
+      "cats": ["skogstradgard", "biodiv", "mat"],
+      "location": "Sverige"
+    },
+    {
+      "name": "Alternativ.nu",
+      "type": "rörelse",
+      "icon": "🔄",
+      "desc": "Community för alternativa livsstilar, hållbarhet och omställning i Sverige.",
+      "url": "https://www.alternativ.nu",
+      "cats": ["omstallning", "mat"],
+      "location": "Sverige"
+    },
+    {
+      "name": "Svenska Fröräddarna",
+      "type": "nätverk",
+      "icon": "🌻",
+      "desc": "Löst nätverk av fröräddare och fröodlare i Sverige som utbyter frön och kunskap.",
+      "url": "https://sesam.nu",
+      "cats": ["mat", "biodiv"],
+      "location": "Sverige"
+    },
+    {
+      "name": "Biodynamiska föreningen",
+      "type": "forening",
+      "icon": "🌾",
+      "desc": "Förening för biodynamisk odling och lantbruk i Sverige.",
+      "url": "https://biodynamic.se",
+      "cats": ["mat", "omstallning"],
+      "location": "Sverige"
+    },
+    {
+      "name": "Riksförbundet Svensk Trädgård",
+      "type": "forening",
+      "icon": "🌺",
+      "desc": "Riksförbund för trädgårdsodlare med lokalföreningar och kurser runt om i Sverige.",
+      "url": "https://www.tradgard.org",
+      "cats": ["mat", "biodiv"],
+      "location": "Sverige"
+    },
+    {
+      "name": "Civila beredskapsrörelsen",
+      "type": "rörelse",
+      "icon": "🛡️",
+      "desc": "Nätverk för civilt beredskapsarbete och samhällsresiliens på lokal nivå.",
+      "url": "https://www.msb.se/frivilliga",
+      "cats": ["beredskap", "omstallning"],
+      "location": "Sverige"
+    }
+  ]
+}
