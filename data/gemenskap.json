@@ -293,6 +293,30 @@
         "skogstradgard"
       ],
       "location": "Sverige"
+    },
+    {
+      "name": "Alternativ.nu – Forum",
+      "type": "forum",
+      "icon": "💬",
+      "desc": "Diskussionsforum för alternativa livsstilar med kategorier som Odling, Djur, Mat & tillvaratagande, Bygga & Bo och Hantverk.",
+      "url": "https://www.alternativ.nu/index.php",
+      "cats": [
+        "mat",
+        "omstallning",
+        "skogstradgard"
+      ],
+      "location": "Sverige"
+    },
+    {
+      "name": "Samarbetet",
+      "type": "community",
+      "icon": "🤲",
+      "desc": "Ekosystem av konstplatser, odlingar och självorganiserade initiativ i Sverige. Delar resurser och kopplar ihop communities.",
+      "url": "https://www.samarbetet.org/cp/KpsRtN3ZS7fTtnzXP",
+      "cats": [
+        "omstallning"
+      ],
+      "location": "Göteborg"
     }
   ]
 }
