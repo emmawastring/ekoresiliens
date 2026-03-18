@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-17T20:38:25.332934+00:00",
+  "updated": "2026-03-17T21:49:59.298507+00:00",
   "count": 339,
   "errors": [],
   "events": [
@@ -2991,6 +2991,21 @@
       "free": true
     },
     {
+      "id": "56d399e27f53",
+      "title": "Nötträd på Trädgårdsmässan i Stockholm",
+      "date_iso": "2026-03-26",
+      "time": "",
+      "description": "",
+      "url": "https://notverket.se/event/nottrad-pa-tradgardsmassan-i-stockholm/",
+      "source_id": "notverket",
+      "source_name": "Nötverket",
+      "categories": [
+        "mat",
+        "skogstradgard"
+      ],
+      "free": true
+    },
+    {
       "id": "7e97038f4511",
       "title": "Resultat efter avverkning enligt variationsrikt skogsbruk",
       "date_iso": "2026-03-26",
@@ -3261,12 +3276,12 @@
       "free": true
     },
     {
-      "id": "4f1db6d8e6b1",
-      "title": "Tillverkare och EU:s förpackningsförordning",
+      "id": "8e885fcd479e",
+      "title": "Producent och EU:s förpackningsförordning",
       "date_iso": "2026-04-01",
       "time": "",
-      "description": "Under detta webbinarium få du som tillverkare av förpackningar en djupare redogörelse för hur du kommer påverkas och vilka krav du behöver leva upp till i och med att EU:s förordning om förpackningar och förpackningsavfall, PPWR, träder ikraft.",
-      "url": "https://www.naturvardsverket.se/om-oss/aktuellt/kalendarium/2026/april/tillverkare-och-eus-forpackningsforordning/",
+      "description": "EU:s förordning om förpackningar och förpackningsavfall, PPWR, innebär att det kommit en ny definition av förpackningsproducent som gäller i alla medlemsländer. Vid detta tillfälle kommer Naturvårdsverket gå igenom vad detta innebär för dig som omfattas av definitionen och vilka krav du behöver leva upp till i och med att PPWR träder ikraft.",
+      "url": "https://www.naturvardsverket.se/om-oss/aktuellt/kalendarium/2026/april/producent-och-eus-forpackningsforordning/",
       "source_id": "naturvardsverket",
       "source_name": "Naturvårdsverket",
       "categories": [
@@ -3277,12 +3292,12 @@
       "free": true
     },
     {
-      "id": "8e885fcd479e",
-      "title": "Producent och EU:s förpackningsförordning",
+      "id": "4f1db6d8e6b1",
+      "title": "Tillverkare och EU:s förpackningsförordning",
       "date_iso": "2026-04-01",
       "time": "",
-      "description": "EU:s förordning om förpackningar och förpackningsavfall, PPWR, innebär att det kommit en ny definition av förpackningsproducent som gäller i alla medlemsländer. Vid detta tillfälle kommer Naturvårdsverket gå igenom vad detta innebär för dig som omfattas av definitionen och vilka krav du behöver leva upp till i och med att PPWR träder ikraft.",
-      "url": "https://www.naturvardsverket.se/om-oss/aktuellt/kalendarium/2026/april/producent-och-eus-forpackningsforordning/",
+      "description": "Under detta webbinarium få du som tillverkare av förpackningar en djupare redogörelse för hur du kommer påverkas och vilka krav du behöver leva upp till i och med att EU:s förordning om förpackningar och förpackningsavfall, PPWR, träder ikraft.",
+      "url": "https://www.naturvardsverket.se/om-oss/aktuellt/kalendarium/2026/april/tillverkare-och-eus-forpackningsforordning/",
       "source_id": "naturvardsverket",
       "source_name": "Naturvårdsverket",
       "categories": [
@@ -3898,6 +3913,21 @@
       "free": true
     },
     {
+      "id": "e0a3ff7aea0c",
+      "title": "Öppet hus Holma Folkhögkola – Nötträd av alla storlekar",
+      "date_iso": "2026-05-09",
+      "time": "",
+      "description": "",
+      "url": "https://notverket.se/event/oppet-hus-holma-folkhogkola-nottrad-av-alla-storlekar/",
+      "source_id": "notverket",
+      "source_name": "Nötverket",
+      "categories": [
+        "mat",
+        "skogstradgard"
+      ],
+      "free": true
+    },
+    {
       "id": "5ffc0d7807a1",
       "title": "Öppet hus 2026",
       "date_iso": "2026-05-09",
@@ -4305,6 +4335,21 @@
       "free": true
     },
     {
+      "id": "bdfaa86be5e6",
+      "title": "Nötkurs på Skurups Folkhögskola (sommarkurs en vecka heltid på plats)",
+      "date_iso": "2026-07-06",
+      "time": "",
+      "description": "",
+      "url": "https://notverket.se/event/notkurs-pa-skurups-folkhogskskola/",
+      "source_id": "notverket",
+      "source_name": "Nötverket",
+      "categories": [
+        "mat",
+        "skogstradgard"
+      ],
+      "free": true
+    },
+    {
       "id": "776f4c9c64fe",
       "title": "Prognos för beställningsbemyndiganden (2026)",
       "date_iso": "2026-07-24",
@@ -4440,6 +4485,21 @@
       "free": true
     },
     {
+      "id": "0573326a2a08",
+      "title": "Bussresa från Halland till Solbacka hasselodling i Vollsjö",
+      "date_iso": "2026-09-03",
+      "time": "",
+      "description": "",
+      "url": "https://notverket.se/event/bussresa-fran-halland-till-solbacka-hasselodling-i-vollsjo/",
+      "source_id": "notverket",
+      "source_name": "Nötverket",
+      "categories": [
+        "mat",
+        "skogstradgard"
+      ],
+      "free": true
+    },
+    {
       "id": "a844dc364374",
       "title": "Skördefest 2026",
       "date_iso": "2026-09-12",
@@ -4464,6 +4524,21 @@
       "source_name": "Hushållningssällskapet",
       "categories": [
         "omstallning"
+      ],
+      "free": true
+    },
+    {
+      "id": "7981f8023655",
+      "title": "Studieresa nötodling (från Kalmar till Halland)",
+      "date_iso": "2026-09-16",
+      "time": "",
+      "description": "",
+      "url": "https://notverket.se/event/studieresa-notodling-fran-kalmar-till-halland/",
+      "source_id": "notverket",
+      "source_name": "Nötverket",
+      "categories": [
+        "mat",
+        "skogstradgard"
       ],
       "free": true
     },
@@ -4561,6 +4636,21 @@
       "free": true
     },
     {
+      "id": "1aa0a22957be",
+      "title": "Nötnätverksträff på Holma",
+      "date_iso": "2026-10-04",
+      "time": "",
+      "description": "",
+      "url": "https://notverket.se/event/notnatverkstraff-pa-holma/",
+      "source_id": "notverket",
+      "source_name": "Nötverket",
+      "categories": [
+        "mat",
+        "skogstradgard"
+      ],
+      "free": true
+    },
+    {
       "id": "5bf30102fe87",
       "title": "Lilla Böslid demodag 2026",
       "date_iso": "2026-10-08",
@@ -4571,6 +4661,21 @@
       "source_name": "Hushållningssällskapet",
       "categories": [
         "omstallning"
+      ],
+      "free": true
+    },
+    {
+      "id": "4e1fbc268ed8",
+      "title": "Valnötsfestival Torup – Malmö",
+      "date_iso": "2026-10-10",
+      "time": "",
+      "description": "",
+      "url": "https://notverket.se/event/valnotsfestival-torup-malmo/",
+      "source_id": "notverket",
+      "source_name": "Nötverket",
+      "categories": [
+        "mat",
+        "skogstradgard"
       ],
       "free": true
     },
@@ -4645,6 +4750,21 @@
       "source_name": "Hushållningssällskapet",
       "categories": [
         "omstallning"
+      ],
+      "free": true
+    },
+    {
+      "id": "65d112ff910b",
+      "title": "Nordens Godaste Nöt",
+      "date_iso": "2026-11-07",
+      "time": "",
+      "description": "",
+      "url": "https://notverket.se/event/nordens-godaste-not/",
+      "source_id": "notverket",
+      "source_name": "Nötverket",
+      "categories": [
+        "mat",
+        "skogstradgard"
       ],
       "free": true
     },
@@ -4987,126 +5107,6 @@
       "source_name": "SV Studieförbundet",
       "categories": [
         "mat"
-      ],
-      "free": true
-    },
-    {
-      "id": "14eac6977283",
-      "title": "Nötträd på Trädgårdsmässan i Stockholm",
-      "date_iso": "",
-      "time": "",
-      "description": "",
-      "url": "https://notverket.se/event/nottrad-pa-tradgardsmassan-i-stockholm/",
-      "source_id": "notverket",
-      "source_name": "Nötverket",
-      "categories": [
-        "mat",
-        "skogstradgard"
-      ],
-      "free": true
-    },
-    {
-      "id": "44d90c176aa5",
-      "title": "Öppet hus Holma Folkhögkola – Nötträd av alla storlekar",
-      "date_iso": "",
-      "time": "",
-      "description": "",
-      "url": "https://notverket.se/event/oppet-hus-holma-folkhogkola-nottrad-av-alla-storlekar/",
-      "source_id": "notverket",
-      "source_name": "Nötverket",
-      "categories": [
-        "mat",
-        "skogstradgard"
-      ],
-      "free": true
-    },
-    {
-      "id": "26b51b49588c",
-      "title": "Nötkurs på Skurups Folkhögskola (sommarkurs en vecka heltid på plats)",
-      "date_iso": "",
-      "time": "",
-      "description": "",
-      "url": "https://notverket.se/event/notkurs-pa-skurups-folkhogskskola/",
-      "source_id": "notverket",
-      "source_name": "Nötverket",
-      "categories": [
-        "mat",
-        "skogstradgard"
-      ],
-      "free": true
-    },
-    {
-      "id": "2887b3c7f74d",
-      "title": "Bussresa från Halland till Solbacka hasselodling i Vollsjö",
-      "date_iso": "",
-      "time": "",
-      "description": "",
-      "url": "https://notverket.se/event/bussresa-fran-halland-till-solbacka-hasselodling-i-vollsjo/",
-      "source_id": "notverket",
-      "source_name": "Nötverket",
-      "categories": [
-        "mat",
-        "skogstradgard"
-      ],
-      "free": true
-    },
-    {
-      "id": "279c4f775932",
-      "title": "Studieresa nötodling (från Kalmar till Halland)",
-      "date_iso": "",
-      "time": "",
-      "description": "",
-      "url": "https://notverket.se/event/studieresa-notodling-fran-kalmar-till-halland/",
-      "source_id": "notverket",
-      "source_name": "Nötverket",
-      "categories": [
-        "mat",
-        "skogstradgard"
-      ],
-      "free": true
-    },
-    {
-      "id": "dcc13817247f",
-      "title": "Nötnätverksträff på Holma",
-      "date_iso": "",
-      "time": "",
-      "description": "",
-      "url": "https://notverket.se/event/notnatverkstraff-pa-holma/",
-      "source_id": "notverket",
-      "source_name": "Nötverket",
-      "categories": [
-        "mat",
-        "skogstradgard"
-      ],
-      "free": true
-    },
-    {
-      "id": "105001c11292",
-      "title": "Valnötsfestival Torup – Malmö",
-      "date_iso": "",
-      "time": "",
-      "description": "",
-      "url": "https://notverket.se/event/valnotsfestival-torup-malmo/",
-      "source_id": "notverket",
-      "source_name": "Nötverket",
-      "categories": [
-        "mat",
-        "skogstradgard"
-      ],
-      "free": true
-    },
-    {
-      "id": "0c7b392bd697",
-      "title": "Nordens Godaste Nöt",
-      "date_iso": "",
-      "time": "",
-      "description": "",
-      "url": "https://notverket.se/event/nordens-godaste-not/",
-      "source_id": "notverket",
-      "source_name": "Nötverket",
-      "categories": [
-        "mat",
-        "skogstradgard"
       ],
       "free": true
     }
