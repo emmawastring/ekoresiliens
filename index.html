@@ -728,7 +728,7 @@ let activeGemType = 'all', activeGemCat = [];
 
 async function loadGem() {
   try {
-    const r = await fetch('data/gemenskap.json');
+    const r = await fetch('https://emmawastring.github.io/ekoresiliens/data/gemenskap.json');
     const json = await r.json();
     allGem = json.orgs || [];
     renderGem();
