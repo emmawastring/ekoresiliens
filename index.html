@@ -784,7 +784,7 @@ async function init() {
 
 async function loadWebinars() {
   try {
-    const res = await fetch('data/webinars.json?cb=' + Date.now());
+    const res = await fetch('https://emmawastring.github.io/ekoresiliens/data/webinars.json?cb=' + Date.now());
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const json = await res.json();
     allWebinars = json.events || [];
@@ -814,7 +814,7 @@ async function loadWebinars() {
 
 async function loadKB() {
   try {
-    const res = await fetch('data/knowledge_resources.json?cb=' + Date.now());
+    const res = await fetch('https://emmawastring.github.io/ekoresiliens/data/knowledge_resources.json?cb=' + Date.now());
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     allKB = await res.json();
     const statK = document.getElementById('statKB'); if (statK) statK.textContent = allKB.length;
