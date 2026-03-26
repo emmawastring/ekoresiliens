@@ -36799,5 +36799,828 @@
       "biodiv"
     ],
     "desc": "Nyhet från SLU MOVIUM: Billigaste bokrean!"
+  },
+  {
+    "id": "kurs_cykelanalys_introduktion_till_livscykelanalys_lca_",
+    "source": "Kursresurser",
+    "source_name": "Kursresurser",
+    "type": "guide",
+    "icon": "📋",
+    "title": "Introduktion till LivsCykelAnalys (LCA)",
+    "desc": "",
+    "cats": [
+      "omstallning",
+      "klimat"
+    ],
+    "url": "https://www.boverket.se/sv/byggande/hallbart-byggande-och-forvaltning/livscykelanalys/introduktion-till-livscykelanalys-lca/",
+    "year": 2025
+  },
+  {
+    "id": "kurs_erktyg_miljovarudeklaration_for_byggprodukter_epd_",
+    "source": "Kursresurser",
+    "source_name": "Kursresurser",
+    "type": "guide",
+    "icon": "📋",
+    "title": "Om miljövarudeklarationer (EPD)",
+    "desc": "",
+    "cats": [
+      "omstallning",
+      "policy"
+    ],
+    "url": "https://www.boverket.se/sv/byggande/hallbart-byggande-och-forvaltning/livscykelanalys/miljodata-och-lca-verktyg/miljovarudeklaration-for-byggprodukter-epd/",
+    "year": 2025
+  },
+  {
+    "id": "kurs_https___www_environdec_com_home",
+    "source": "Kursresurser",
+    "source_name": "Kursresurser",
+    "type": "databas",
+    "icon": "🗄️",
+    "title": "EPD International – EPD-katalog",
+    "desc": "",
+    "cats": [
+      "omstallning",
+      "policy"
+    ],
+    "url": "https://www.environdec.com/home",
+    "year": 2025
+  },
+  {
+    "id": "kurs_https___biokol_org_",
+    "source": "Kursresurser",
+    "source_name": "Kursresurser",
+    "type": "guide",
+    "icon": "🌱",
+    "title": "Biokol – Rest till Bäst",
+    "desc": "",
+    "cats": [
+      "omstallning",
+      "klimat",
+      "mat"
+    ],
+    "url": "https://biokol.org/",
+    "year": 2025
+  },
+  {
+    "id": "kurs_tps___biokol_org_publikationer_pdf_biokolhandboken",
+    "source": "Kursresurser",
+    "source_name": "Kursresurser",
+    "type": "rapport",
+    "icon": "📄",
+    "title": "Biokolshandboken",
+    "desc": "",
+    "cats": [
+      "omstallning",
+      "klimat",
+      "mat"
+    ],
+    "url": "https://biokol.org/publikationer/pdf/biokolhandboken",
+    "year": 2025
+  },
+  {
+    "id": "kurs_20_september_the_10_steps_to_a_circular_econo_html",
+    "source": "Kursresurser",
+    "source_name": "Kursresurser",
+    "type": "artikel",
+    "icon": "📰",
+    "title": "10 steps to a circular economy",
+    "desc": "",
+    "cats": [
+      "omstallning"
+    ],
+    "url": "https://www.lombardodier.com/contents/corporate-news/responsible-capital/2020/september/the-10-steps-to-a-circular-econo.html",
+    "year": 2025
+  },
+  {
+    "id": "kurs_llenmacarthurfoundation_org_topics_cities_overview",
+    "source": "Kursresurser",
+    "source_name": "Kursresurser",
+    "type": "guide",
+    "icon": "🌍",
+    "title": "Cirkulära städer – Ellen MacArthur Foundation",
+    "desc": "",
+    "cats": [
+      "omstallning"
+    ],
+    "url": "https://www.ellenmacarthurfoundation.org/topics/cities/overview",
+    "year": 2025
+  },
+  {
+    "id": "kurs_https___www_sustainablesites_org_rating_system",
+    "source": "Kursresurser",
+    "source_name": "Kursresurser",
+    "type": "guide",
+    "icon": "🌿",
+    "title": "Sustainable Sites Initiative",
+    "desc": "",
+    "cats": [
+      "omstallning",
+      "biodiv"
+    ],
+    "url": "https://www.sustainablesites.org/rating-system",
+    "year": 2025
+  },
+  {
+    "id": "kurs_https___www_varvsstaden_se_upcycling",
+    "source": "Kursresurser",
+    "source_name": "Kursresurser",
+    "type": "artikel",
+    "icon": "♻️",
+    "title": "Varvsstaden Upcycling och Materialbanken",
+    "desc": "",
+    "cats": [
+      "omstallning"
+    ],
+    "url": "https://www.varvsstaden.se/upcycling",
+    "year": 2025
+  },
+  {
+    "id": "kurs_https___www_youtube_com_watch_v_nbevjwtxs4w",
+    "source": "Kursresurser",
+    "source_name": "Kursresurser",
+    "type": "film",
+    "icon": "🎬",
+    "title": "Basics of circularity (film)",
+    "desc": "",
+    "cats": [
+      "omstallning"
+    ],
+    "url": "https://www.youtube.com/watch?v=NBEvJwTxs4w",
+    "year": 2025
+  },
+  {
+    "id": "kurs_https___youtu_be_o3byrtttx9m",
+    "source": "Kursresurser",
+    "source_name": "Kursresurser",
+    "type": "film",
+    "icon": "🎬",
+    "title": "Film om cirkulär ekonomi",
+    "desc": "",
+    "cats": [
+      "omstallning"
+    ],
+    "url": "https://youtu.be/o3ByrTTtx9M",
+    "year": 2025
+  },
+  {
+    "id": "kurs_aneras_sverige_planeringsfragor_ekosystemtjanster_",
+    "source": "Kursresurser",
+    "source_name": "Kursresurser",
+    "type": "guide",
+    "icon": "📋",
+    "title": "Boverkets länksida om Ekosystemtjänster",
+    "desc": "",
+    "cats": [
+      "biodiv",
+      "klimat"
+    ],
+    "url": "https://www.boverket.se/sv/samhallsplanering/sa-planeras-sverige/planeringsfragor/ekosystemtjanster/",
+    "year": 2025
+  },
+  {
+    "id": "kurs_com_s_stockholmvaxer_12_stadens_grona_och_blaa_rum",
+    "source": "Kursresurser",
+    "source_name": "Kursresurser",
+    "type": "film",
+    "icon": "🎙️",
+    "title": "Stockholm växer – Stadens gröna och blåa rum (podd)",
+    "desc": "",
+    "cats": [
+      "omstallning",
+      "vatten"
+    ],
+    "url": "https://play.acast.com/s/stockholmvaxer/12-stadens-grona-och-blaa-rum",
+    "year": 2025
+  },
+  {
+    "id": "kurs_lay_se_serie_219435_ur_samtiden_lat_staden_gronska",
+    "source": "Kursresurser",
+    "source_name": "Kursresurser",
+    "type": "film",
+    "icon": "🎬",
+    "title": "Låt staden grönska! UR samtiden",
+    "desc": "",
+    "cats": [
+      "biodiv",
+      "klimat"
+    ],
+    "url": "https://urplay.se/serie/219435-ur-samtiden-lat-staden-gronska",
+    "year": 2025
+  },
+  {
+    "id": "kurs_skapsbanken_teman_gronplan_att_arbeta_delaktighet_",
+    "source": "Kursresurser",
+    "source_name": "Kursresurser",
+    "type": "guide",
+    "icon": "📋",
+    "title": "Delaktighetstrappan – Boverket",
+    "desc": "",
+    "cats": [
+      "omstallning"
+    ],
+    "url": "https://www.boverket.se/sv/PBL-kunskapsbanken/teman/gronplan/att-arbeta/delaktighet/",
+    "year": 2025
+  },
+  {
+    "id": "kurs_e_atgarder_metoder_kunskapsinhamtning_placemaking_",
+    "source": "Kursresurser",
+    "source_name": "Kursresurser",
+    "type": "guide",
+    "icon": "📋",
+    "title": "Place-making – Boverket",
+    "desc": "",
+    "cats": [
+      "omstallning"
+    ],
+    "url": "https://www.boverket.se/sv/samhallsplanering/stadsutveckling/brottsforebyggande-och-trygghetsskapande-atgarder/metoder/kunskapsinhamtning/placemaking/",
+    "year": 2025
+  },
+  {
+    "id": "kurs_erad_samhallsplanering_jubileumsparken_i_goteborg_",
+    "source": "Kursresurser",
+    "source_name": "Kursresurser",
+    "type": "artikel",
+    "icon": "📰",
+    "title": "Jubileumsparken Göteborg – Boverket",
+    "desc": "",
+    "cats": [
+      "omstallning",
+      "biodiv"
+    ],
+    "url": "https://www.boverket.se/sv/samhallsplanering/stadsutveckling/brottsforebyggande-och-trygghetsskapande-atgarder/hur-har-andra-gjort/deltagarbaserad-samhallsplanering/jubileumsparken-i-goteborg/",
+    "year": 2025
+  },
+  {
+    "id": "kurs_https___www_330300rule_com_",
+    "source": "Kursresurser",
+    "source_name": "Kursresurser",
+    "type": "guide",
+    "icon": "🌳",
+    "title": "3-30-300 Rule – officiell hemsida",
+    "desc": "",
+    "cats": [
+      "skog",
+      "biodiv",
+      "klimat"
+    ],
+    "url": "https://www.330300rule.com/",
+    "year": 2025
+  },
+  {
+    "id": "kurs_lingsplan_klimatanpassning_stockholm_2022_2025_pdf",
+    "source": "Kursresurser",
+    "source_name": "Kursresurser",
+    "type": "rapport",
+    "icon": "📄",
+    "title": "Klimatanpassning Stockholm – Handlingsplan",
+    "desc": "",
+    "cats": [
+      "klimat"
+    ],
+    "url": "https://miljobarometern.stockholm.se/content/docs/tema/klimat/klimatanpassning/Handlingsplan-klimatanpassning-Stockholm-2022-2025.pdf",
+    "year": 2025
+  },
+  {
+    "id": "kurs_https___canopy_itreetools_org_",
+    "source": "Kursresurser",
+    "source_name": "Kursresurser",
+    "type": "verktyg",
+    "icon": "🛠️",
+    "title": "iTree Canopy – krontäckningsgrad",
+    "desc": "",
+    "cats": [
+      "skog",
+      "klimat"
+    ],
+    "url": "https://canopy.itreetools.org/",
+    "year": 2025
+  },
+  {
+    "id": "kurs_https___www_itreetools_org_tools_i_tree_eco",
+    "source": "Kursresurser",
+    "source_name": "Kursresurser",
+    "type": "verktyg",
+    "icon": "🛠️",
+    "title": "iTree Eco – träddata",
+    "desc": "",
+    "cats": [
+      "skog",
+      "klimat"
+    ],
+    "url": "https://www.itreetools.org/tools/i-tree-eco",
+    "year": 2025
+  },
+  {
+    "id": "kurs_https___stadsatlas_malmo_se_temakartor__map_trad",
+    "source": "Kursresurser",
+    "source_name": "Kursresurser",
+    "type": "verktyg",
+    "icon": "🗺️",
+    "title": "Karta över Malmös träd",
+    "desc": "",
+    "cats": [
+      "skog",
+      "biodiv"
+    ],
+    "url": "https://stadsatlas.malmo.se/temakartor/#map=trad",
+    "year": 2025
+  },
+  {
+    "id": "kurs_gning_av_tradartsdiversitet_i_nordiska_stader_html",
+    "source": "Kursresurser",
+    "source_name": "Kursresurser",
+    "type": "rapport",
+    "icon": "📄",
+    "title": "Kartläggning av trädartsdiversitet i nordiska städer",
+    "desc": "",
+    "cats": [
+      "skog",
+      "biodiv"
+    ],
+    "url": "https://pub.norden.org/temanord2025-521/4-kartlaggning-av-tradartsdiversitet-i-nordiska-stader.html",
+    "year": 2025
+  },
+  {
+    "id": "kurs_https___www_smhi_se_klimat_klimatlaget",
+    "source": "Kursresurser",
+    "source_name": "Kursresurser",
+    "type": "databas",
+    "icon": "🌡️",
+    "title": "Klimatläget – SMHI",
+    "desc": "",
+    "cats": [
+      "klimat"
+    ],
+    "url": "https://www.smhi.se/klimat/klimatlaget",
+    "year": 2025
+  },
+  {
+    "id": "kurs_ncalc_org___55_594_12_9827_16_2024_07_18_14_15_1_3",
+    "source": "Kursresurser",
+    "source_name": "Kursresurser",
+    "type": "verktyg",
+    "icon": "🛠️",
+    "title": "SunCalc – sol- och ljusanalys",
+    "desc": "",
+    "cats": [
+      "klimat"
+    ],
+    "url": "https://www.suncalc.org/#/55.594,12.9827,16/2024.07.18/14:15/1/3",
+    "year": 2025
+  },
+  {
+    "id": "kurs_https___www_treecitiesoftheworld_org_",
+    "source": "Kursresurser",
+    "source_name": "Kursresurser",
+    "type": "databas",
+    "icon": "🌳",
+    "title": "Tree Cities of the World",
+    "desc": "",
+    "cats": [
+      "skog",
+      "biodiv"
+    ],
+    "url": "https://www.treecitiesoftheworld.org/",
+    "year": 2025
+  },
+  {
+    "id": "kurs_https___vattenatlas_se_",
+    "source": "Kursresurser",
+    "source_name": "Kursresurser",
+    "type": "verktyg",
+    "icon": "🗺️",
+    "title": "Vattenatlas – vattendata för Skåne",
+    "desc": "",
+    "cats": [
+      "vatten"
+    ],
+    "url": "https://vattenatlas.se/",
+    "year": 2025
+  },
+  {
+    "id": "kurs_isapp_msb_se_apps_varmekarteringar_hamta_data_html",
+    "source": "Kursresurser",
+    "source_name": "Kursresurser",
+    "type": "verktyg",
+    "icon": "🗺️",
+    "title": "Värmekartering MSB (GIS)",
+    "desc": "",
+    "cats": [
+      "klimat"
+    ],
+    "url": "https://gisapp.msb.se/apps/varmekarteringar/hamta-data.html",
+    "year": 2025
+  },
+  {
+    "id": "kurs_ttps___www_mcf_se_sv_publikationer_varmekartering_",
+    "source": "Kursresurser",
+    "source_name": "Kursresurser",
+    "type": "rapport",
+    "icon": "📄",
+    "title": "Värmekartering MCF – broschyr",
+    "desc": "",
+    "cats": [
+      "klimat"
+    ],
+    "url": "https://www.mcf.se/sv/publikationer/varmekartering/",
+    "year": 2025
+  },
+  {
+    "id": "kurs_https___www_youtube_com_watch_v_zsch_ngzpqs",
+    "source": "Kursresurser",
+    "source_name": "Kursresurser",
+    "type": "film",
+    "icon": "🎬",
+    "title": "Kurzgesagt – Trädens växtfysiologi (film)",
+    "desc": "",
+    "cats": [
+      "skog",
+      "biodiv"
+    ],
+    "url": "https://www.youtube.com/watch?v=ZSch_NgZpQs",
+    "year": 2025
+  },
+  {
+    "id": "kurs_https___www_youtube_com_watch_v_awixiorchmi",
+    "source": "Kursresurser",
+    "source_name": "Kursresurser",
+    "type": "film",
+    "icon": "🎬",
+    "title": "Nature Based Neighbourhood Augustenborg (film)",
+    "desc": "",
+    "cats": [
+      "omstallning",
+      "vatten",
+      "biodiv"
+    ],
+    "url": "https://www.youtube.com/watch?v=AWixIorChmI",
+    "year": 2025
+  },
+  {
+    "id": "kurs_https___www_youtube_com_watch_v_onz_cmfdgrs",
+    "source": "Kursresurser",
+    "source_name": "Kursresurser",
+    "type": "film",
+    "icon": "🎬",
+    "title": "This is the State of the Global Climate 2025 – WMO (film)",
+    "desc": "",
+    "cats": [
+      "klimat"
+    ],
+    "url": "https://www.youtube.com/watch?v=Onz-cMFdgRs",
+    "year": 2025
+  },
+  {
+    "id": "kurs_https___gronatakhandboken_se_",
+    "source": "Kursresurser",
+    "source_name": "Kursresurser",
+    "type": "guide",
+    "icon": "📗",
+    "title": "Gröna Takhandboken",
+    "desc": "",
+    "cats": [
+      "vatten",
+      "biodiv",
+      "klimat"
+    ],
+    "url": "https://gronatakhandboken.se/",
+    "year": 2025
+  },
+  {
+    "id": "kurs_o_bluegreencitylab_se__query__categories__sort_by_",
+    "source": "Kursresurser",
+    "source_name": "Kursresurser",
+    "type": "databas",
+    "icon": "🗄️",
+    "title": "Blågröna Systemguiden",
+    "desc": "",
+    "cats": [
+      "vatten",
+      "biodiv"
+    ],
+    "url": "https://demo.bluegreencitylab.se/?query=&categories=&sort_by=",
+    "year": 2025
+  },
+  {
+    "id": "kurs_https___bluegreengrey_edges_se_",
+    "source": "Kursresurser",
+    "source_name": "Kursresurser",
+    "type": "guide",
+    "icon": "📗",
+    "title": "Blue Green Grey – Edges",
+    "desc": "",
+    "cats": [
+      "vatten",
+      "biodiv",
+      "klimat"
+    ],
+    "url": "https://bluegreengrey.edges.se/",
+    "year": 2025
+  },
+  {
+    "id": "kurs_https___klimakvarter_dk_projekt_skt_kjelds_plads_",
+    "source": "Kursresurser",
+    "source_name": "Kursresurser",
+    "type": "artikel",
+    "icon": "📰",
+    "title": "Klimakvarteren – Skt Kjelds Plads",
+    "desc": "",
+    "cats": [
+      "vatten",
+      "klimat"
+    ],
+    "url": "https://klimakvarter.dk/projekt/skt-kjelds-plads/",
+    "year": 2025
+  },
+  {
+    "id": "kurs_https___klimakvarter_dk_projekt_tasinge_plads_",
+    "source": "Kursresurser",
+    "source_name": "Kursresurser",
+    "type": "artikel",
+    "icon": "📰",
+    "title": "Klimakvarteren – Tåsinge Plads",
+    "desc": "",
+    "cats": [
+      "vatten",
+      "klimat"
+    ],
+    "url": "https://klimakvarter.dk/projekt/tasinge-plads/",
+    "year": 2025
+  },
+  {
+    "id": "kurs___www_baramineraler_se_kunskapsbank__kunskapspaket",
+    "source": "Kursresurser",
+    "source_name": "Kursresurser",
+    "type": "databas",
+    "icon": "🗄️",
+    "title": "Kunskapsbank Bara Mineraler",
+    "desc": "",
+    "cats": [
+      "vatten",
+      "omstallning"
+    ],
+    "url": "https://www.baramineraler.se/kunskapsbank/#kunskapspaket",
+    "year": 2025
+  },
+  {
+    "id": "kurs_https___vaguiden_se_soda_muds_",
+    "source": "Kursresurser",
+    "source_name": "Kursresurser",
+    "type": "guide",
+    "icon": "📋",
+    "title": "MUDS – Multifunktionella Urbana Dagvattensystem (VA-guiden)",
+    "desc": "",
+    "cats": [
+      "vatten"
+    ],
+    "url": "https://vaguiden.se/soda/muds/",
+    "year": 2025
+  },
+  {
+    "id": "kurs_https___vaguiden_se_soda_film_och_podd",
+    "source": "Kursresurser",
+    "source_name": "Kursresurser",
+    "type": "film",
+    "icon": "🎬",
+    "title": "VA-guiden SODA – film och podd",
+    "desc": "",
+    "cats": [
+      "vatten"
+    ],
+    "url": "https://vaguiden.se/soda/film-och-podd",
+    "year": 2025
+  },
+  {
+    "id": "kurs_https___www_youtube_com_watch_v_ygvqb0ehddm",
+    "source": "Kursresurser",
+    "source_name": "Kursresurser",
+    "type": "film",
+    "icon": "🎬",
+    "title": "Allt du inte visste om dagvatten i städer (film)",
+    "desc": "",
+    "cats": [
+      "vatten"
+    ],
+    "url": "https://www.youtube.com/watch?v=ygvQb0EHddM",
+    "year": 2025
+  },
+  {
+    "id": "kurs_https___www_youtube_com_watch_v_nzf_flzcamy",
+    "source": "Kursresurser",
+    "source_name": "Kursresurser",
+    "type": "film",
+    "icon": "🎬",
+    "title": "Att skapa mervärden i dagvattendammar (film)",
+    "desc": "",
+    "cats": [
+      "vatten",
+      "biodiv"
+    ],
+    "url": "https://www.youtube.com/watch?v=NZf_FlzCAMY",
+    "year": 2025
+  },
+  {
+    "id": "kurs_https___www_youtube_com_watch_v_sksyuwpjzjk",
+    "source": "Kursresurser",
+    "source_name": "Kursresurser",
+    "type": "film",
+    "icon": "🎬",
+    "title": "Multifunktionella urbana dagvattenlösningar (film)",
+    "desc": "",
+    "cats": [
+      "vatten"
+    ],
+    "url": "https://www.youtube.com/watch?v=SkSyuWPjzjk",
+    "year": 2025
+  },
+  {
+    "id": "kurs_https___www_youtube_com_watch_v_7obpboo_ox4",
+    "source": "Kursresurser",
+    "source_name": "Kursresurser",
+    "type": "film",
+    "icon": "🎬",
+    "title": "Multifunktionella urbana växtbäddar SLU (film)",
+    "desc": "",
+    "cats": [
+      "vatten",
+      "biodiv"
+    ],
+    "url": "https://www.youtube.com/watch?v=7oBpBoO_ox4",
+    "year": 2025
+  },
+  {
+    "id": "kurs_https___www_youtube_com_watch_v_af97oe1qkte",
+    "source": "Kursresurser",
+    "source_name": "Kursresurser",
+    "type": "film",
+    "icon": "🎬",
+    "title": "The World's Best Vertical Forest (film)",
+    "desc": "",
+    "cats": [
+      "biodiv",
+      "klimat"
+    ],
+    "url": "https://www.youtube.com/watch?v=Af97oE1qktE",
+    "year": 2025
+  },
+  {
+    "id": "kurs_https___www_youtube_com_watch_v_ncnchzudey4",
+    "source": "Kursresurser",
+    "source_name": "Kursresurser",
+    "type": "film",
+    "icon": "🎬",
+    "title": "Vatten rinner neråt – hur svårt kan det vara? (film)",
+    "desc": "",
+    "cats": [
+      "vatten"
+    ],
+    "url": "https://www.youtube.com/watch?v=NcNChZUdeY4",
+    "year": 2025
+  },
+  {
+    "id": "kurs_https___www_youtube_com_watch_v_c67nmaczuac",
+    "source": "Kursresurser",
+    "source_name": "Kursresurser",
+    "type": "film",
+    "icon": "🎬",
+    "title": "IPBES – Mapping Biodiversity Globally (film)",
+    "desc": "",
+    "cats": [
+      "biodiv"
+    ],
+    "url": "https://www.youtube.com/watch?v=c67nmaCzuAc",
+    "year": 2025
+  },
+  {
+    "id": "kurs__biologisk_mangfald_naturrestaureringsforordningen",
+    "source": "Kursresurser",
+    "source_name": "Kursresurser",
+    "type": "guide",
+    "icon": "📋",
+    "title": "Att restaurera natur – Jordbruksverket",
+    "desc": "",
+    "cats": [
+      "biodiv",
+      "policy"
+    ],
+    "url": "https://jordbruksverket.se/vaxter/odling/biologisk-mangfald/naturrestaureringsforordningen",
+    "year": 2025
+  },
+  {
+    "id": "kurs_tionell_forteckning_over_invasiva_frammande_arter_",
+    "source": "Kursresurser",
+    "source_name": "Kursresurser",
+    "type": "databas",
+    "icon": "🗄️",
+    "title": "Nationell förteckning invasiva arter – Naturvårdsverket",
+    "desc": "",
+    "cats": [
+      "biodiv"
+    ],
+    "url": "https://www.naturvardsverket.se/amnesomraden/invasiva-frammande-arter/aktuellt/nationell-forteckning-over-invasiva-frammande-arter/",
+    "year": 2025
+  },
+  {
+    "id": "kurs_https___www_slu_se_tradflytt_",
+    "source": "Kursresurser",
+    "source_name": "Kursresurser",
+    "type": "artikel",
+    "icon": "📰",
+    "title": "Vad händer i ett träd som flyttas? – SLU",
+    "desc": "",
+    "cats": [
+      "skog",
+      "biodiv"
+    ],
+    "url": "https://www.slu.se/tradflytt/",
+    "year": 2025
+  },
+  {
+    "id": "kurs_n_se_artiklar_vad_innebar_naturrestaureringslagen_",
+    "source": "Kursresurser",
+    "source_name": "Kursresurser",
+    "type": "artikel",
+    "icon": "📰",
+    "title": "Vad innebär naturrestaureringslagen – Naturskyddsföreningen",
+    "desc": "",
+    "cats": [
+      "biodiv",
+      "policy"
+    ],
+    "url": "https://www.naturskyddsforeningen.se/artiklar/vad-innebar-naturrestaureringslagen/",
+    "year": 2025
+  },
+  {
+    "id": "kurs_radarter_har_stor_betydelse_insektslivet_i_en_stad",
+    "source": "Kursresurser",
+    "source_name": "Kursresurser",
+    "type": "artikel",
+    "icon": "📰",
+    "title": "Val av trädarter har stor betydelse för insektslivet – CEC LU",
+    "desc": "",
+    "cats": [
+      "biodiv",
+      "skog"
+    ],
+    "url": "https://www.cec.lu.se/sv/artikel/val-av-tradarter-har-stor-betydelse-insektslivet-i-en-stad",
+    "year": 2025
+  },
+  {
+    "id": "kurs_https___stadskupan_se_hur_hogt_kan_bin_flyga_",
+    "source": "Kursresurser",
+    "source_name": "Kursresurser",
+    "type": "artikel",
+    "icon": "📰",
+    "title": "Hur högt kan bin flyga? – Stadskupan",
+    "desc": "",
+    "cats": [
+      "biodiv"
+    ],
+    "url": "https://stadskupan.se/hur-hogt-kan-bin-flyga/",
+    "year": 2025
+  },
+  {
+    "id": "kurs_https___www_youtube_com_watch_v_nl9xyu2nnmc_t_60s",
+    "source": "Kursresurser",
+    "source_name": "Kursresurser",
+    "type": "film",
+    "icon": "🎬",
+    "title": "Fem orsaker till förlust av biologisk mångfald (film)",
+    "desc": "",
+    "cats": [
+      "biodiv"
+    ],
+    "url": "https://www.youtube.com/watch?v=nl9XyU2nNmc&t=60s",
+    "year": 2025
+  },
+  {
+    "id": "kurs_https___www_youtube_com_watch_v_g1eun3p5o7g",
+    "source": "Kursresurser",
+    "source_name": "Kursresurser",
+    "type": "film",
+    "icon": "🎬",
+    "title": "Grön infrastruktur Naturvårdsverket (film)",
+    "desc": "",
+    "cats": [
+      "biodiv",
+      "klimat"
+    ],
+    "url": "https://www.youtube.com/watch?v=G1eUN3P5O7g",
+    "year": 2025
+  },
+  {
+    "id": "kurs_https___www_youtube_com_watch_v_mb59t_jb5za",
+    "source": "Kursresurser",
+    "source_name": "Kursresurser",
+    "type": "film",
+    "icon": "🎬",
+    "title": "Svamparnas planet (film)",
+    "desc": "",
+    "cats": [
+      "biodiv",
+      "skog"
+    ],
+    "url": "https://www.youtube.com/watch?v=Mb59T_JB5zA",
+    "year": 2025
   }
 ]
