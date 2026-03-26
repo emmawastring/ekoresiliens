@@ -47,6 +47,8 @@ from scrapers.landsbygdsnatverket import LandsbygdsnatverketScraper
 from scrapers.notverket import NotverketScraper
 from scrapers.studieframjandet import StudieframjandetScraper
 from scrapers.rus import RUSScraper
+from scrapers.naturskyddsforeningen import NaturskyddsforeningenScraper
+from scrapers.lu_scrapers import LULandScraper, LUCSUSScraper, LUHallbarhetScraper
 from scrapers.holma import HolmaScraper
 from scrapers.hushallningssallskapet import HushallningssallskapetScraper
 from scrapers.hutskane import HutSkaneScraper
@@ -106,6 +108,10 @@ SCRAPERS = [
     NotverketScraper(),
     StudieframjandetScraper(),
     RUSScraper(),
+    NaturskyddsforeningenScraper(),
+    LULandScraper(),
+    LUCSUSScraper(),
+    LUHallbarhetScraper(),
     HolmaScraper(),
     HushallningssallskapetScraper(),
     HutSkaneScraper(),
