@@ -1,6 +1,6 @@
 {
-  "updated": "2026-04-05T08:11:10.924337+00:00",
-  "count": 414,
+  "updated": "2026-04-06T07:22:54.331653+00:00",
+  "count": 415,
   "errors": [],
   "events": [
     {
@@ -2633,12 +2633,12 @@
       "free": true
     },
     {
-      "id": "088f408c79d3",
-      "title": "Information om investeringsstöd för avloppsberedskap",
+      "id": "8e885fcd479e",
+      "title": "Producent och EU:s förpackningsförordning",
       "date_iso": "2026-04-01",
       "time": "",
-      "description": "Under detta webbinarium informerar Naturvårdsverket om vårt nya investeringsstöd för avloppsberedskap. Du kommer få information om vem som kan söka, för vad du kan söka och hur både ansöknings- och urvalsprocessen kommer att gå till.",
-      "url": "https://www.naturvardsverket.se/om-oss/aktuellt/kalendarium/2026/april/information-om-investeringsstod-for-avloppsberedskap/",
+      "description": "EU:s förordning om förpackningar och förpackningsavfall, PPWR, innebär att det kommit en ny definition av förpackningsproducent som gäller i alla medlemsländer. Vid detta tillfälle kommer Naturvårdsverket gå igenom vad detta innebär för dig som omfattas av definitionen och vilka krav du behöver leva upp till i och med att PPWR träder ikraft.",
+      "url": "https://www.naturvardsverket.se/om-oss/aktuellt/kalendarium/2026/april/producent-och-eus-forpackningsforordning/",
       "source_id": "naturvardsverket",
       "source_name": "Naturvårdsverket",
       "categories": [
@@ -2649,12 +2649,12 @@
       "free": true
     },
     {
-      "id": "8e885fcd479e",
-      "title": "Producent och EU:s förpackningsförordning",
+      "id": "088f408c79d3",
+      "title": "Information om investeringsstöd för avloppsberedskap",
       "date_iso": "2026-04-01",
       "time": "",
-      "description": "EU:s förordning om förpackningar och förpackningsavfall, PPWR, innebär att det kommit en ny definition av förpackningsproducent som gäller i alla medlemsländer. Vid detta tillfälle kommer Naturvårdsverket gå igenom vad detta innebär för dig som omfattas av definitionen och vilka krav du behöver leva upp till i och med att PPWR träder ikraft.",
-      "url": "https://www.naturvardsverket.se/om-oss/aktuellt/kalendarium/2026/april/producent-och-eus-forpackningsforordning/",
+      "description": "Under detta webbinarium informerar Naturvårdsverket om vårt nya investeringsstöd för avloppsberedskap. Du kommer få information om vem som kan söka, för vad du kan söka och hur både ansöknings- och urvalsprocessen kommer att gå till.",
+      "url": "https://www.naturvardsverket.se/om-oss/aktuellt/kalendarium/2026/april/information-om-investeringsstod-for-avloppsberedskap/",
       "source_id": "naturvardsverket",
       "source_name": "Naturvårdsverket",
       "categories": [
@@ -2724,34 +2724,6 @@
       "free": true
     },
     {
-      "id": "bdf6a78243ec",
-      "title": "Norrländska vibbar vid Långviksträsk",
-      "date_iso": "2026-04-05",
-      "time": "",
-      "description": "",
-      "url": "https://www.naturskyddsforeningen.se/engagera-dig/kalender/norrlandska-vibbar-vid-langvikstrask-ingaro-2026-04-05/",
-      "source_id": "naturskyddsforeningen",
-      "source_name": "Naturskyddsföreningen",
-      "categories": [
-        "biodiv"
-      ],
-      "free": true
-    },
-    {
-      "id": "459a6e98ef09",
-      "title": "Artrally",
-      "date_iso": "2026-04-05",
-      "time": "",
-      "description": "",
-      "url": "https://www.naturskyddsforeningen.se/engagera-dig/kalender/artrally-varnamo-2026-04-05/",
-      "source_id": "naturskyddsforeningen",
-      "source_name": "Naturskyddsföreningen",
-      "categories": [
-        "biodiv"
-      ],
-      "free": true
-    },
-    {
       "id": "86f017ca4a0f",
       "title": "Skogsgruppsmöte",
       "date_iso": "2026-04-06",
@@ -2794,20 +2766,6 @@
       "free": true
     },
     {
-      "id": "20b386a133c6",
-      "title": "Oljekatastrofen i Hanöbukten: vad vi vet, vad som är osäkert, och vad som krävs",
-      "date_iso": "2026-04-07",
-      "time": "",
-      "description": "",
-      "url": "https://www.naturskyddsforeningen.se/engagera-dig/kalender/oljekatastrofen-i-hanobukten-vad-vi-vet-vad-som-ar-osakert-och-vad-som-kravs-landskrona-2026-04-07/",
-      "source_id": "naturskyddsforeningen",
-      "source_name": "Naturskyddsföreningen",
-      "categories": [
-        "biodiv"
-      ],
-      "free": true
-    },
-    {
       "id": "8080978430e6",
       "title": "Information från Mat- och jordbruksnätverket",
       "date_iso": "2026-04-07",
@@ -2818,6 +2776,20 @@
       "source_name": "Naturskyddsföreningen",
       "categories": [
         "mat"
+      ],
+      "free": true
+    },
+    {
+      "id": "20b386a133c6",
+      "title": "Oljekatastrofen i Hanöbukten: vad vi vet, vad som är osäkert, och vad som krävs",
+      "date_iso": "2026-04-07",
+      "time": "",
+      "description": "",
+      "url": "https://www.naturskyddsforeningen.se/engagera-dig/kalender/oljekatastrofen-i-hanobukten-vad-vi-vet-vad-som-ar-osakert-och-vad-som-kravs-landskrona-2026-04-07/",
+      "source_id": "naturskyddsforeningen",
+      "source_name": "Naturskyddsföreningen",
+      "categories": [
+        "biodiv"
       ],
       "free": true
     },
@@ -2902,6 +2874,48 @@
       "source_name": "Naturskyddsföreningen",
       "categories": [
         "biodiv"
+      ],
+      "free": true
+    },
+    {
+      "id": "cd9f16237154",
+      "title": "Fågel- \\u0026 blomvandringar onsdagar",
+      "date_iso": "2026-04-08",
+      "time": "",
+      "description": "",
+      "url": "https://www.naturskyddsforeningen.se/engagera-dig/kalender/fagel-blomvandringar-onsdagar-norrkoping-2026-04-08/",
+      "source_id": "naturskyddsforeningen",
+      "source_name": "Naturskyddsföreningen",
+      "categories": [
+        "biodiv"
+      ],
+      "free": true
+    },
+    {
+      "id": "514862bcd110",
+      "title": "Fågeluflykter runt Vuollerim",
+      "date_iso": "2026-04-08",
+      "time": "",
+      "description": "",
+      "url": "https://www.naturskyddsforeningen.se/engagera-dig/kalender/fageluflykter-runt-vuollerim-vuollerim-2026-04-08/",
+      "source_id": "naturskyddsforeningen",
+      "source_name": "Naturskyddsföreningen",
+      "categories": [
+        "biodiv"
+      ],
+      "free": true
+    },
+    {
+      "id": "b617046f2fb8",
+      "title": "Föredrag med Stig-Olof Holm: Den svenska skogsindustrins klimatpåverkan",
+      "date_iso": "2026-04-08",
+      "time": "",
+      "description": "",
+      "url": "https://www.naturskyddsforeningen.se/engagera-dig/kalender/foredrag-med-stig-olof-holm-den-svenska-skogsindustrins-klimatpaverkan-2026-04-08/",
+      "source_id": "naturskyddsforeningen",
+      "source_name": "Naturskyddsföreningen",
+      "categories": [
+        "skog"
       ],
       "free": true
     },
@@ -3015,6 +3029,21 @@
       "source_name": "SV Studieförbundet",
       "categories": [
         "skog"
+      ],
+      "free": true
+    },
+    {
+      "id": "a3e775253f4a",
+      "title": "Fermentering är en urgammal konserveringsmetod som inte bara är prisvärd utan även god, hälsosam och klimatsmart.",
+      "date_iso": "2026-04-13",
+      "time": "17:30 - 21:30",
+      "description": "Plats: Östersund",
+      "url": "https://www.studieframjandet.se/jamtlands-lan/gustav-arrangemang/kurser/2026/mars/sotningskurs-i-ostersund/",
+      "source_id": "studieframjandet",
+      "source_name": "Studiefrämjandet",
+      "categories": [
+        "mat",
+        "biodiv"
       ],
       "free": true
     },
@@ -3368,20 +3397,6 @@
       "source_name": "Jordbruksverket",
       "categories": [
         "omstallning"
-      ],
-      "free": true
-    },
-    {
-      "id": "3ffd8ffbeb37",
-      "title": "Konstkollo för barn 8- 13 år på Basis konstskola",
-      "date_iso": "2026-04-15",
-      "time": "18:00 - 19:30",
-      "description": "Plats: Distans",
-      "url": "https://www.studieframjandet.se/uppsala-lan/gustav-arrangemang/kalenderhandelser/2026/april/bandutveckling---forberedelser-infor-nemis-pa-festival/",
-      "source_id": "studieframjandet",
-      "source_name": "Studiefrämjandet",
-      "categories": [
-        "mat"
       ],
       "free": true
     },
@@ -3923,8 +3938,8 @@
       "free": true
     },
     {
-      "id": "7e875e9a421f",
-      "title": "Vill du lära dig hur man gör dina egna praliner - välkommen på pralinkurs!\\r\\n",
+      "id": "e0cd79640ae0",
+      "title": "Genom den här kursen kan du sota/rengöra din EGEN anläggning!",
       "date_iso": "2026-04-25",
       "time": "09:30 - 15:30",
       "description": "Plats: Östersund",
@@ -3932,7 +3947,8 @@
       "source_id": "studieframjandet",
       "source_name": "Studiefrämjandet",
       "categories": [
-        "mat"
+        "mat",
+        "biodiv"
       ],
       "free": true
     },
@@ -3961,21 +3977,6 @@
       "source_name": "SV Studieförbundet",
       "categories": [
         "skog"
-      ],
-      "free": true
-    },
-    {
-      "id": "3ec1ad19a9de",
-      "title": "Genom den här kursen kan du sota/rengöra din EGEN anläggning!",
-      "date_iso": "2026-04-27",
-      "time": "17:30 - 21:30",
-      "description": "Plats: Östersund",
-      "url": "https://www.studieframjandet.se/jamtlands-lan/gustav-arrangemang/kurser/2026/april/sotningskurs-i-ostersund/",
-      "source_id": "studieframjandet",
-      "source_name": "Studiefrämjandet",
-      "categories": [
-        "mat",
-        "biodiv"
       ],
       "free": true
     },
@@ -4142,35 +4143,6 @@
       "free": true
     },
     {
-      "id": "2754e9d41c89",
-      "title": "Vill du lära dig hur man gör dina egna praliner - välkommen på pralinkurs!\\r\\n",
-      "date_iso": "2026-05-02",
-      "time": "09:30 - 15:30",
-      "description": "Plats: Östersund",
-      "url": "https://www.studieframjandet.se/jamtlands-lan/gustav-arrangemang/kurser/2026/maj/syrad-magi---en-kurs-i-fermentering/",
-      "source_id": "studieframjandet",
-      "source_name": "Studiefrämjandet",
-      "categories": [
-        "mat",
-        "biodiv"
-      ],
-      "free": true
-    },
-    {
-      "id": "08318bfa9961",
-      "title": "En kväll för dig som gillar vilt och vill höja mat-upplevelsen med olika viner till överkomliga priser.",
-      "date_iso": "2026-05-04",
-      "time": "18:00 - 20:30",
-      "description": "Plats: Essunga",
-      "url": "https://www.studieframjandet.se/vastra-gotalands-lan/gustav-arrangemang/kurser/2026/maj/vaxter-halsa-och-atbart/",
-      "source_id": "studieframjandet",
-      "source_name": "Studiefrämjandet",
-      "categories": [
-        "mat"
-      ],
-      "free": true
-    },
-    {
       "id": "289ba45f4b2e",
       "title": "Uppstart av nytt nätverk för rådgivare inom ekologiskt lantbruk",
       "date_iso": "2026-05-05",
@@ -4300,6 +4272,20 @@
       "free": true
     },
     {
+      "id": "dafe8e751344",
+      "title": "En hands-on kurs för dig som vill förstå och få kunskap att hantera råvaran på riktigt och för att i framtiden själv kunna ta hand om ditt eget kött och göra mer hållbara val. Lär dig att stycka med instruktör och få med dig köttet hem, nu kan du bjuda på egenstyckad gris på grillen i sommar.",
+      "date_iso": "2026-05-07",
+      "time": "18:30 - 21:00",
+      "description": "Plats: Stockholm",
+      "url": "https://www.studieframjandet.se/stockholms-lan/gustav-arrangemang/kurser/2026/maj/forhoj-smaken-pa-viltet-med-passande-viner-torsdag-kvall-7-maj---jagareforbundet-lidingo/",
+      "source_id": "studieframjandet",
+      "source_name": "Studiefrämjandet",
+      "categories": [
+        "mat"
+      ],
+      "free": true
+    },
+    {
       "id": "38b41dfbbab7",
       "title": "Årsstämma Hushållningssällskapet Västernorrland 2026",
       "date_iso": "2026-05-07",
@@ -4401,6 +4387,20 @@
       "free": true
     },
     {
+      "id": "fcddf1b6d2f9",
+      "title": "Vad kan du äta i skog och mark? Lär dig grunderna för att kunna plocka och \\r\\ntillaga växter för matlagning eller som läkeörter.",
+      "date_iso": "2026-05-09",
+      "time": "11:00 - 15:00",
+      "description": "Plats: Ydre",
+      "url": "https://www.studieframjandet.se/ostergotlands-lan/gustav-arrangemang/kalenderhandelser/2026/maj/guidad-visning-pa-naas-gardsbryggeri-och-brostorps-gardsmejeri/",
+      "source_id": "studieframjandet",
+      "source_name": "Studiefrämjandet",
+      "categories": [
+        "mat"
+      ],
+      "free": true
+    },
+    {
       "id": "5ffc0d7807a1",
       "title": "Öppet hus 2026",
       "date_iso": "2026-05-09",
@@ -4481,7 +4481,8 @@
       "source_id": "studieframjandet",
       "source_name": "Studiefrämjandet",
       "categories": [
-        "mat"
+        "mat",
+        "biodiv"
       ],
       "free": true
     },
@@ -4829,6 +4830,20 @@
       "free": true
     },
     {
+      "id": "8237752a1d62",
+      "title": "Följ med på guidad tur till våtmark i Vinberga - Ramdala",
+      "date_iso": "2026-05-24",
+      "time": "10:00 - 13:00",
+      "description": "Plats: Lyckeby",
+      "url": "https://www.studieframjandet.se/blekinge-lan/gustav-arrangemang/kalenderhandelser/2026/maj/hlr--och-forsta-hjalpen-hund---workshop-/",
+      "source_id": "studieframjandet",
+      "source_name": "Studiefrämjandet",
+      "categories": [
+        "mat"
+      ],
+      "free": true
+    },
+    {
       "id": "08fb4d5e4c2c",
       "title": "Skapa och bind - midsommarkrans steg för steg",
       "date_iso": "2026-05-26",
@@ -4869,6 +4884,20 @@
         "vatten",
         "biodiv",
         "klimat"
+      ],
+      "free": true
+    },
+    {
+      "id": "fb80c4785c73",
+      "title": "Svenska Turist Föreningen Östra Blekinge tar oss med på en vandring på Hasslö. Lätt vandring cirka 5 km.",
+      "date_iso": "2026-05-27",
+      "time": "18:00 - 19:00",
+      "description": "Plats: Jämshög",
+      "url": "https://www.studieframjandet.se/blekinge-lan/gustav-arrangemang/kalenderhandelser/2026/maj/forelasning-om-berikning-for-din-hund-med-jessica-wennfalk/",
+      "source_id": "studieframjandet",
+      "source_name": "Studiefrämjandet",
+      "categories": [
+        "mat"
       ],
       "free": true
     },
@@ -4941,8 +4970,7 @@
       "source_id": "studieframjandet",
       "source_name": "Studiefrämjandet",
       "categories": [
-        "mat",
-        "biodiv"
+        "mat"
       ],
       "free": true
     },
@@ -4991,26 +5019,12 @@
       "free": true
     },
     {
-      "id": "addd984c35eb",
-      "title": "Följ med STF Höglandet på guidade visningar hos två lokala tillverkare.",
+      "id": "91547ed1d7e9",
+      "title": "Vill du lära dig hur man gör dina egna praliner - välkommen på pralinkurs!\\r\\n",
       "date_iso": "2026-06-06",
       "time": "lördag  18:00",
       "description": "Plats: Bollnäs",
       "url": "https://www.studieframjandet.se/gavleborgs-lan/gustav-arrangemang/kalenderhandelser/2026/juni/naturskyddsforeningen-hanebo/",
-      "source_id": "studieframjandet",
-      "source_name": "Studiefrämjandet",
-      "categories": [
-        "mat"
-      ],
-      "free": true
-    },
-    {
-      "id": "109d10a013d6",
-      "title": "Svenska Turist Föreningen Östra Blekinge tar oss med på en båttur och vandring på Långören. På Långören går vi en vandring på ca 3 km.",
-      "date_iso": "2026-06-07",
-      "time": "10:30 - 14:00",
-      "description": "Plats: Karlskrona",
-      "url": "https://www.studieframjandet.se/blekinge-lan/gustav-arrangemang/kalenderhandelser/2026/juni/guidad-vandring-pa-hasslo/",
       "source_id": "studieframjandet",
       "source_name": "Studiefrämjandet",
       "categories": [
@@ -5049,12 +5063,12 @@
       "free": true
     },
     {
-      "id": "9ac0f2d4c161",
-      "title": "Svenska Turist Föreningen Östra Blekinge tar oss med på en vandring på Tromtö. Medellätt vandring på ca 5 km",
+      "id": "dd62a135b7be",
+      "title": "Under en och samma dag går tusentals människor på blomstervandringar och blomsteraktiviteter i Sverige, Norge, Finland, Island, Danmark, Färöarna och Grönland.",
       "date_iso": "2026-06-14",
-      "time": "09:15 - 13:00",
-      "description": "Plats: Olofström",
-      "url": "https://www.studieframjandet.se/blekinge-lan/gustav-arrangemang/kalenderhandelser/2026/juni/de-vilda-blommornas-dag-i-lehtins-myr-och-skalmershult/",
+      "time": "09:00 - 15:00",
+      "description": "Plats: Karlskrona",
+      "url": "https://www.studieframjandet.se/blekinge-lan/gustav-arrangemang/kalenderhandelser/2026/juni/guidad-vandringbattur-till-langoren/",
       "source_id": "studieframjandet",
       "source_name": "Studiefrämjandet",
       "categories": [
@@ -5240,20 +5254,6 @@
       "free": true
     },
     {
-      "id": "78992f6fdee6",
-      "title": "Vi har avtalat med Länsstyrelsen att ansvara för slåttern i Mulatorp! Området är naturreservat, och vi vill inte att slåtter-ängen ska växa igen!!",
-      "date_iso": "2026-08-01",
-      "time": "09:00 - 13:00",
-      "description": "Plats: Olofström",
-      "url": "https://www.studieframjandet.se/blekinge-lan/gustav-arrangemang/kalenderhandelser/2026/augusti/angens-dag-i-komperskulla/",
-      "source_id": "studieframjandet",
-      "source_name": "Studiefrämjandet",
-      "categories": [
-        "mat"
-      ],
-      "free": true
-    },
-    {
       "id": "3d9cb8320ef3",
       "title": "Fröodling – distans",
       "date_iso": "2026-08-03",
@@ -5283,6 +5283,20 @@
       "free": true
     },
     {
+      "id": "f83db4b8974e",
+      "title": "Vi kommer att behöva rensa sly invid och i slåtterängen, och kanske jämna till Vildsvinens eventuella framfart i ängen.",
+      "date_iso": "2026-08-15",
+      "time": "08:30 - 13:00",
+      "description": "Plats: Olofström",
+      "url": "https://www.studieframjandet.se/blekinge-lan/gustav-arrangemang/kalenderhandelser/2026/augusti/slatter-i-mulatorp/",
+      "source_id": "studieframjandet",
+      "source_name": "Studiefrämjandet",
+      "categories": [
+        "mat"
+      ],
+      "free": true
+    },
+    {
       "id": "aefdff876a2c",
       "title": "Hantverk fördjupning",
       "date_iso": "2026-08-17",
@@ -5291,6 +5305,20 @@
       "url": "https://www.holmafolkhogskola.se/profilkurs/hantverk-fordjupning/",
       "source_id": "holma",
       "source_name": "Holma Folkhögskola",
+      "categories": [
+        "mat"
+      ],
+      "free": true
+    },
+    {
+      "id": "1614ba40f3b8",
+      "title": "På ängens dag samlas årligen medlemmar på ett hundratal platser runt om i landet, för att göra en praktisk naturvårdsinsats.",
+      "date_iso": "2026-08-23",
+      "time": "10:30 - 14:00",
+      "description": "Plats: Karlskrona",
+      "url": "https://www.studieframjandet.se/blekinge-lan/gustav-arrangemang/kalenderhandelser/2026/augusti/guidad-vandring-pa-tromto/",
+      "source_id": "studieframjandet",
+      "source_name": "Studiefrämjandet",
       "categories": [
         "mat"
       ],
@@ -5681,20 +5709,6 @@
       "categories": [
         "mat",
         "skogstradgard"
-      ],
-      "free": true
-    },
-    {
-      "id": "28e05608bfc4",
-      "title": "Vi lär oss grunderna i specialsök.",
-      "date_iso": "2026-11-07",
-      "time": "08:30 - 13:00",
-      "description": "Plats: Olofström",
-      "url": "https://www.studieframjandet.se/blekinge-lan/gustav-arrangemang/kalenderhandelser/2026/november/slybekampning-i-mulatorp/",
-      "source_id": "studieframjandet",
-      "source_name": "Studiefrämjandet",
-      "categories": [
-        "mat"
       ],
       "free": true
     },
