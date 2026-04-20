@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-19T07:12:01.725020+00:00",
+  "updated": "2026-04-20T07:57:32.082093+00:00",
   "count": 377,
   "errors": [],
   "events": [
@@ -2334,21 +2334,6 @@
       "free": true
     },
     {
-      "id": "2743080e2a6f",
-      "title": "Mästarband 40 år – ny utställning på Universitetsbiblioteket",
-      "date_iso": "2026-03-27",
-      "time": "",
-      "description": "",
-      "url": "https://www.lu.se/evenemang/mastarband-40-ar-ny-utstallning-pa-universitetsbiblioteket",
-      "source_id": "lu_hallbarhet",
-      "source_name": "Lunds universitet",
-      "categories": [
-        "klimat",
-        "omstallning"
-      ],
-      "free": true
-    },
-    {
       "id": "d58673ccf497",
       "title": "Scenprogram Trädgårdsmässan Nordiska Trädgårdar",
       "date_iso": "2026-03-28",
@@ -2497,8 +2482,8 @@
       "free": true
     },
     {
-      "id": "053e4909de82",
-      "title": "Potatisuppropet älskar Fröuppropet",
+      "id": "1040f1024774",
+      "title": "Potatisuppropet <3 Fröuppropet",
       "date_iso": "2026-04-10",
       "time": "",
       "description": "I år skalar vi ut Potatisuppropet och lyfter upp fröerna! Kort och gott: Potatisuppropet ❤ Fröuppropet!",
@@ -2540,16 +2525,17 @@
       "free": true
     },
     {
-      "id": "80eb141a3013",
-      "title": "RÄDDA LÅNGSJÖNS GRODOR 13-19 April",
+      "id": "a56ddc22dadc",
+      "title": "Civilsamhällets krisrespons",
       "date_iso": "2026-04-13",
       "time": "",
-      "description": "",
-      "url": "https://www.naturskyddsforeningen.se/engagera-dig/kalender/radda-langsjons-grodor-13-19-april-2026-04-13/",
-      "source_id": "naturskyddsforeningen",
-      "source_name": "Naturskyddsföreningen",
+      "description": "Tio digitala kraftsamlingar mellan 19 april och 6 maj",
+      "url": "https://omstallningskanalen.se/programserier",
+      "source_id": "omstallningskanalen",
+      "source_name": "Omställningskanalen",
       "categories": [
-        "biodiv"
+        "omstallning",
+        "klimat"
       ],
       "free": true
     },
@@ -2594,20 +2580,6 @@
       "source_name": "Jordbruksverket",
       "categories": [
         "omstallning"
-      ],
-      "free": true
-    },
-    {
-      "id": "e33da2b2d557",
-      "title": "RÄDDA LÅNGSJÖNS GRODOR 13-19 April",
-      "date_iso": "2026-04-14",
-      "time": "",
-      "description": "",
-      "url": "https://www.naturskyddsforeningen.se/engagera-dig/kalender/radda-langsjons-grodor-13-19-april-huddinge-2026-04-14/",
-      "source_id": "naturskyddsforeningen",
-      "source_name": "Naturskyddsföreningen",
-      "categories": [
-        "biodiv"
       ],
       "free": true
     },
@@ -2712,183 +2684,16 @@
       "free": true
     },
     {
-      "id": "bbc69579444d",
-      "title": "Länsstämma utanför Strömstad",
-      "date_iso": "2026-04-18",
-      "time": "",
-      "description": "",
-      "url": "https://www.naturskyddsforeningen.se/engagera-dig/kalender/lansstamma-utanfor-stromstad-goteborg-2026-04-18/",
-      "source_id": "naturskyddsforeningen",
-      "source_name": "Naturskyddsföreningen",
-      "categories": [
-        "biodiv"
-      ],
-      "free": true
-    },
-    {
-      "id": "34277546d69f",
-      "title": "Öppet Fågeltorn",
+      "id": "dbb43b6d797a",
+      "title": "Seminar: Idylle Dramatique",
       "date_iso": "2026-04-19",
       "time": "",
       "description": "",
-      "url": "https://www.naturskyddsforeningen.se/engagera-dig/kalender/oppet-fageltorn-grabo-2026-04-19/",
-      "source_id": "naturskyddsforeningen",
-      "source_name": "Naturskyddsföreningen",
+      "url": "https://www.lu.se/evenemang/seminar-idylle-dramatique",
+      "source_id": "lu_hallbarhet",
+      "source_name": "Lunds universitet",
       "categories": [
-        "biodiv"
-      ],
-      "free": true
-    },
-    {
-      "id": "d9a707122bba",
-      "title": "Vandring på Ramlamossen i Herrljunga",
-      "date_iso": "2026-04-19",
-      "time": "",
-      "description": "",
-      "url": "https://www.naturskyddsforeningen.se/engagera-dig/kalender/vandring-pa-ramlamossen-i-herrljunga-vargarda-2026-04-19/",
-      "source_id": "naturskyddsforeningen",
-      "source_name": "Naturskyddsföreningen",
-      "categories": [
-        "biodiv"
-      ],
-      "free": true
-    },
-    {
-      "id": "3c6976849ede",
-      "title": "INSTÄLLT – Orrspel på Konungsö mosse, söder om Tre brunnar",
-      "date_iso": "2026-04-19",
-      "time": "",
-      "description": "",
-      "url": "https://www.naturskyddsforeningen.se/engagera-dig/kalender/installt-orrspel-pa-konungso-mosse-soder-om-tre-brunnar-2026-04-19/",
-      "source_id": "naturskyddsforeningen",
-      "source_name": "Naturskyddsföreningen",
-      "categories": [
-        "biodiv"
-      ],
-      "free": true
-    },
-    {
-      "id": "ee61baba5b31",
-      "title": "Utflykt till Hornborgasjön ingår i studiecirkel",
-      "date_iso": "2026-04-19",
-      "time": "",
-      "description": "",
-      "url": "https://www.naturskyddsforeningen.se/engagera-dig/kalender/utflykt-till-hornborgasjon-ingar-i-studiecirkel-2026-04-19/",
-      "source_id": "naturskyddsforeningen",
-      "source_name": "Naturskyddsföreningen",
-      "categories": [
-        "biodiv"
-      ],
-      "free": true
-    },
-    {
-      "id": "5d9414fbb593",
-      "title": "Vandring i Hårssjön-Rambo mosse naturreservat, Mölndal",
-      "date_iso": "2026-04-19",
-      "time": "",
-      "description": "",
-      "url": "https://www.naturskyddsforeningen.se/engagera-dig/kalender/vandring-i-harssjon-rambo-mosse-naturreservat-molndal-molndal-2026-04-19/",
-      "source_id": "naturskyddsforeningen",
-      "source_name": "Naturskyddsföreningen",
-      "categories": [
-        "biodiv"
-      ],
-      "free": true
-    },
-    {
-      "id": "dd11905abe92",
-      "title": "Skräpplockardag i Bollebygd",
-      "date_iso": "2026-04-19",
-      "time": "",
-      "description": "",
-      "url": "https://www.naturskyddsforeningen.se/engagera-dig/kalender/skrapplockardag-i-bollebygd-bollebygd-2026-04-19/",
-      "source_id": "naturskyddsforeningen",
-      "source_name": "Naturskyddsföreningen",
-      "categories": [
-        "biodiv"
-      ],
-      "free": true
-    },
-    {
-      "id": "8a300ef77608",
-      "title": "Fågellivet på Nöbbelövs mosse",
-      "date_iso": "2026-04-19",
-      "time": "",
-      "description": "",
-      "url": "https://www.naturskyddsforeningen.se/engagera-dig/kalender/fagellivet-pa-nobbelovs-mosse-lund-2026-04-19/",
-      "source_id": "naturskyddsforeningen",
-      "source_name": "Naturskyddsföreningen",
-      "categories": [
-        "biodiv"
-      ],
-      "free": true
-    },
-    {
-      "id": "4758809fc286",
-      "title": "Länsstämma i Kristianstad",
-      "date_iso": "2026-04-19",
-      "time": "",
-      "description": "",
-      "url": "https://www.naturskyddsforeningen.se/engagera-dig/kalender/lansstamma-i-kristianstad-kristianstad-2026-04-19/",
-      "source_id": "naturskyddsforeningen",
-      "source_name": "Naturskyddsföreningen",
-      "categories": [
-        "biodiv"
-      ],
-      "free": true
-    },
-    {
-      "id": "29aa7b9c24d6",
-      "title": "Träff vid Hyttens kvarn",
-      "date_iso": "2026-04-19",
-      "time": "",
-      "description": "",
-      "url": "https://www.naturskyddsforeningen.se/engagera-dig/kalender/traff-vid-hyttens-kvarn-eksjo-2026-04-19/",
-      "source_id": "naturskyddsforeningen",
-      "source_name": "Naturskyddsföreningen",
-      "categories": [
-        "biodiv"
-      ],
-      "free": true
-    },
-    {
-      "id": "a5a492808854",
-      "title": "Länsstämma",
-      "date_iso": "2026-04-19",
-      "time": "",
-      "description": "",
-      "url": "https://www.naturskyddsforeningen.se/engagera-dig/kalender/lansstamma-mullsjo-2026-04-19/",
-      "source_id": "naturskyddsforeningen",
-      "source_name": "Naturskyddsföreningen",
-      "categories": [
-        "biodiv"
-      ],
-      "free": true
-    },
-    {
-      "id": "1712fc77a66a",
-      "title": "Trädgårdsmässa Smedjebacken",
-      "date_iso": "2026-04-19",
-      "time": "",
-      "description": "Falubygdens Hushållningsgille\nInbjudan till medlemmar i Falubygdens Hushållningsgille Välkomna med på en gemensam resa till Trädgårdsmässan i Smedjebacken! Läs mer här: https://www.facebook.com/sodradalarnasmassa/?locale=sv_SE Tid Söndagen den 19 april 2026. Plats Vi samlas på Lugnetparkeringen kl. 09.00 och fyller det antal bil",
-      "url": "https://hushallningssallskapet.se/kalender/tradgardsmassa-smedjebacken/",
-      "source_id": "hushallningssallskapet",
-      "source_name": "Hushållningssällskapet",
-      "categories": [
-        "omstallning"
-      ],
-      "free": true
-    },
-    {
-      "id": "c508036ea770",
-      "title": "Årsmöte Folkare Hushållningsgille",
-      "date_iso": "2026-04-19",
-      "time": "",
-      "description": "Folkare Hushållningsgille\nMedlemmar i Folkare Hushållningsgille kallas till årsmöte. Tid Söndagen den 19 april 2026, kl. 15.00. Plats HIP-gården i By. Program –  Sedvanliga årsmötesförhandlingar. –  Eftermiddagskaffe. –  Möjlighet att besöka By vävstuga. Välkomna! Styrelsen Folkare Hushållningsgille",
-      "url": "https://hushallningssallskapet.se/kalender/arsmote-folkare-hushallningsgille-2/",
-      "source_id": "hushallningssallskapet",
-      "source_name": "Hushållningssällskapet",
-      "categories": [
+        "klimat",
         "omstallning"
       ],
       "free": true
@@ -2904,6 +2709,105 @@
       "source_name": "SV Studieförbundet",
       "categories": [
         "mat"
+      ],
+      "free": true
+    },
+    {
+      "id": "72bf97b38e54",
+      "title": "Möte Skogsgruppen – fysiskt",
+      "date_iso": "2026-04-20",
+      "time": "",
+      "description": "",
+      "url": "https://www.naturskyddsforeningen.se/engagera-dig/kalender/mote-skogsgruppen-fysiskt-2026-04-20/",
+      "source_id": "naturskyddsforeningen",
+      "source_name": "Naturskyddsföreningen",
+      "categories": [
+        "skog"
+      ],
+      "free": true
+    },
+    {
+      "id": "ef6c898739c0",
+      "title": "Vardagshjältar med vingar",
+      "date_iso": "2026-04-20",
+      "time": "",
+      "description": "",
+      "url": "https://www.naturskyddsforeningen.se/engagera-dig/kalender/vardagshjaltar-med-vingar-2026-04-20/",
+      "source_id": "naturskyddsforeningen",
+      "source_name": "Naturskyddsföreningen",
+      "categories": [
+        "biodiv"
+      ],
+      "free": true
+    },
+    {
+      "id": "c0a732f03e13",
+      "title": "Stendammsmossen",
+      "date_iso": "2026-04-20",
+      "time": "",
+      "description": "",
+      "url": "https://www.naturskyddsforeningen.se/engagera-dig/kalender/stendammsmossen-vasterlanda-2026-04-20/",
+      "source_id": "naturskyddsforeningen",
+      "source_name": "Naturskyddsföreningen",
+      "categories": [
+        "biodiv"
+      ],
+      "free": true
+    },
+    {
+      "id": "1f74f1954ede",
+      "title": "Tidernas Fartfest: om en Grön omställning ur kurs!",
+      "date_iso": "2026-04-20",
+      "time": "",
+      "description": "",
+      "url": "https://www.naturskyddsforeningen.se/engagera-dig/kalender/tidernas-fartfest-om-en-gron-omstallning-ur-kurs-vindeln-2026-04-20/",
+      "source_id": "naturskyddsforeningen",
+      "source_name": "Naturskyddsföreningen",
+      "categories": [
+        "biodiv"
+      ],
+      "free": true
+    },
+    {
+      "id": "a77d326c28d2",
+      "title": "Klimatet inför valet – strategier för en verksam och rättvis klimatpolitik – föreläsning med Mikael Karlsson",
+      "date_iso": "2026-04-20",
+      "time": "",
+      "description": "",
+      "url": "https://www.naturskyddsforeningen.se/engagera-dig/kalender/klimatet-infor-valet-strategier-for-en-verksam-och-rattvis-klimatpolitik-forelasning-med-mikael-karlsson-bromma-2026-04-20/",
+      "source_id": "naturskyddsforeningen",
+      "source_name": "Naturskyddsföreningen",
+      "categories": [
+        "klimat"
+      ],
+      "free": true
+    },
+    {
+      "id": "2c27bba2db31",
+      "title": "Digital nätverksträff: Vad händer inom skogsjuridiken?",
+      "date_iso": "2026-04-20",
+      "time": "",
+      "description": "",
+      "url": "https://www.naturskyddsforeningen.se/engagera-dig/kalender/digital-natverkstraff-vad-hander-inom-skogsjuridiken-2026-04-20/",
+      "source_id": "naturskyddsforeningen",
+      "source_name": "Naturskyddsföreningen",
+      "categories": [
+        "skog"
+      ],
+      "free": true
+    },
+    {
+      "id": "43e0401852c0",
+      "title": "Guldkorn som växer",
+      "date_iso": "2026-04-20",
+      "time": "",
+      "description": "Här hittar du avsnitt från tidigare år som växer och frodas.",
+      "url": "https://omstallningskanalen.se/programserier",
+      "source_id": "omstallningskanalen",
+      "source_name": "Omställningskanalen",
+      "categories": [
+        "omstallning",
+        "klimat"
       ],
       "free": true
     },
@@ -2933,6 +2837,104 @@
       "source_name": "Jordbruksverket",
       "categories": [
         "omstallning"
+      ],
+      "free": true
+    },
+    {
+      "id": "800d7843ad3a",
+      "title": "Fagning av Komstad ängar",
+      "date_iso": "2026-04-21",
+      "time": "",
+      "description": "",
+      "url": "https://www.naturskyddsforeningen.se/engagera-dig/kalender/fagning-av-komstad-angar-2026-04-21/",
+      "source_id": "naturskyddsforeningen",
+      "source_name": "Naturskyddsföreningen",
+      "categories": [
+        "biodiv"
+      ],
+      "free": true
+    },
+    {
+      "id": "b07e7d3b612e",
+      "title": "Miniserie: Livsmedelsberedskap på bordet – så kan du bidra!",
+      "date_iso": "2026-04-21",
+      "time": "",
+      "description": "",
+      "url": "https://www.naturskyddsforeningen.se/engagera-dig/kalender/miniserie-livsmedelsberedskap-pa-bordet-sa-kan-du-bidra-2026-04-21/",
+      "source_id": "naturskyddsforeningen",
+      "source_name": "Naturskyddsföreningen",
+      "categories": [
+        "biodiv"
+      ],
+      "free": true
+    },
+    {
+      "id": "00cfa36398a5",
+      "title": "Climate Fresk – Maten i Malmö",
+      "date_iso": "2026-04-21",
+      "time": "",
+      "description": "",
+      "url": "https://www.naturskyddsforeningen.se/engagera-dig/kalender/climate-fresk-maten-i-malmo-malmo-2026-04-21/",
+      "source_id": "naturskyddsforeningen",
+      "source_name": "Naturskyddsföreningen",
+      "categories": [
+        "mat"
+      ],
+      "free": true
+    },
+    {
+      "id": "1d3f88ed5a5b",
+      "title": "Climate Fresk – Workshop",
+      "date_iso": "2026-04-21",
+      "time": "",
+      "description": "",
+      "url": "https://www.naturskyddsforeningen.se/engagera-dig/kalender/climate-fresk-workshop-lyckeby-2026-04-21/",
+      "source_id": "naturskyddsforeningen",
+      "source_name": "Naturskyddsföreningen",
+      "categories": [
+        "mat"
+      ],
+      "free": true
+    },
+    {
+      "id": "eabd366c3cf7",
+      "title": "Fågelskådning Leonardsberg",
+      "date_iso": "2026-04-21",
+      "time": "",
+      "description": "",
+      "url": "https://www.naturskyddsforeningen.se/engagera-dig/kalender/fagelskadning-leonardsberg-norrkoping-2026-04-21/",
+      "source_id": "naturskyddsforeningen",
+      "source_name": "Naturskyddsföreningen",
+      "categories": [
+        "biodiv"
+      ],
+      "free": true
+    },
+    {
+      "id": "3d243ac06ae8",
+      "title": "Skogsträff i Norrköping",
+      "date_iso": "2026-04-21",
+      "time": "",
+      "description": "",
+      "url": "https://www.naturskyddsforeningen.se/engagera-dig/kalender/skogstraff-i-norrkoping-norrkoping-2026-04-21/",
+      "source_id": "naturskyddsforeningen",
+      "source_name": "Naturskyddsföreningen",
+      "categories": [
+        "skog"
+      ],
+      "free": true
+    },
+    {
+      "id": "3ec45d171386",
+      "title": "Jenny Olsson: Svensk rovdjursförvaltning – odemokratisk och oetisk",
+      "date_iso": "2026-04-21",
+      "time": "",
+      "description": "",
+      "url": "https://www.naturskyddsforeningen.se/engagera-dig/kalender/jenny-olsson-svensk-rovdjursforvaltning-odemokratisk-och-oetisk-hofors-2026-04-21/",
+      "source_id": "naturskyddsforeningen",
+      "source_name": "Naturskyddsföreningen",
+      "categories": [
+        "biodiv"
       ],
       "free": true
     },
@@ -3183,7 +3185,7 @@
       "title": "Västergötland – Bygghelg Gudhem",
       "date_iso": "2026-04-24",
       "time": "",
-      "description": "Västergötland Bygghelg Gudhem 25 Apr-26 Falköping",
+      "description": "Västergötland Bygghelg Gudhem 25 Apr-26 – 26 Apr-26 Falköping",
       "url": "https://www.alternativ.nu/index.php?topic=203762.0",
       "source_id": "alternativnu",
       "source_name": "Alternativ.nu",
