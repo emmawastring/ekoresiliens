@@ -1,6 +1,6 @@
 {
-  "updated": "2026-04-20T07:57:32.082093+00:00",
-  "count": 377,
+  "updated": "2026-04-21T07:28:07.683679+00:00",
+  "count": 388,
   "errors": [],
   "events": [
     {
@@ -1988,8 +1988,8 @@
       "free": true
     },
     {
-      "id": "b890b9314abc",
-      "title": "Omställnings Bar",
+      "id": "9c128eb50fb6",
+      "title": "OmställningsBar",
       "date_iso": "2026-02-27",
       "time": "",
       "description": "En serie program inför Toppenmötet - Omställningskonferens 2026.\nPremiär 5 mars",
@@ -2329,23 +2329,6 @@
       "source_name": "Svensk Kolinlagring",
       "categories": [
         "omstallning",
-        "mat"
-      ],
-      "free": true
-    },
-    {
-      "id": "d58673ccf497",
-      "title": "Scenprogram Trädgårdsmässan Nordiska Trädgårdar",
-      "date_iso": "2026-03-28",
-      "time": "",
-      "description": "Tid: 28 mars 2026  11:30 - 12:00 Var: Kunskapsscenen, A01:41 Läs mer här på Nordiska trädgårdar Evenemanget arrangeras av: Permakultur Sverige - Under ekarna",
-      "url": "https://www.underekarna.se/p%C3%A5-g%C3%A5ng/",
-      "source_id": "underekarna",
-      "source_name": "Under Ekarna",
-      "categories": [
-        "skog",
-        "agroforestry",
-        "beredskap",
         "mat"
       ],
       "free": true
@@ -2713,90 +2696,6 @@
       "free": true
     },
     {
-      "id": "72bf97b38e54",
-      "title": "Möte Skogsgruppen – fysiskt",
-      "date_iso": "2026-04-20",
-      "time": "",
-      "description": "",
-      "url": "https://www.naturskyddsforeningen.se/engagera-dig/kalender/mote-skogsgruppen-fysiskt-2026-04-20/",
-      "source_id": "naturskyddsforeningen",
-      "source_name": "Naturskyddsföreningen",
-      "categories": [
-        "skog"
-      ],
-      "free": true
-    },
-    {
-      "id": "ef6c898739c0",
-      "title": "Vardagshjältar med vingar",
-      "date_iso": "2026-04-20",
-      "time": "",
-      "description": "",
-      "url": "https://www.naturskyddsforeningen.se/engagera-dig/kalender/vardagshjaltar-med-vingar-2026-04-20/",
-      "source_id": "naturskyddsforeningen",
-      "source_name": "Naturskyddsföreningen",
-      "categories": [
-        "biodiv"
-      ],
-      "free": true
-    },
-    {
-      "id": "c0a732f03e13",
-      "title": "Stendammsmossen",
-      "date_iso": "2026-04-20",
-      "time": "",
-      "description": "",
-      "url": "https://www.naturskyddsforeningen.se/engagera-dig/kalender/stendammsmossen-vasterlanda-2026-04-20/",
-      "source_id": "naturskyddsforeningen",
-      "source_name": "Naturskyddsföreningen",
-      "categories": [
-        "biodiv"
-      ],
-      "free": true
-    },
-    {
-      "id": "1f74f1954ede",
-      "title": "Tidernas Fartfest: om en Grön omställning ur kurs!",
-      "date_iso": "2026-04-20",
-      "time": "",
-      "description": "",
-      "url": "https://www.naturskyddsforeningen.se/engagera-dig/kalender/tidernas-fartfest-om-en-gron-omstallning-ur-kurs-vindeln-2026-04-20/",
-      "source_id": "naturskyddsforeningen",
-      "source_name": "Naturskyddsföreningen",
-      "categories": [
-        "biodiv"
-      ],
-      "free": true
-    },
-    {
-      "id": "a77d326c28d2",
-      "title": "Klimatet inför valet – strategier för en verksam och rättvis klimatpolitik – föreläsning med Mikael Karlsson",
-      "date_iso": "2026-04-20",
-      "time": "",
-      "description": "",
-      "url": "https://www.naturskyddsforeningen.se/engagera-dig/kalender/klimatet-infor-valet-strategier-for-en-verksam-och-rattvis-klimatpolitik-forelasning-med-mikael-karlsson-bromma-2026-04-20/",
-      "source_id": "naturskyddsforeningen",
-      "source_name": "Naturskyddsföreningen",
-      "categories": [
-        "klimat"
-      ],
-      "free": true
-    },
-    {
-      "id": "2c27bba2db31",
-      "title": "Digital nätverksträff: Vad händer inom skogsjuridiken?",
-      "date_iso": "2026-04-20",
-      "time": "",
-      "description": "",
-      "url": "https://www.naturskyddsforeningen.se/engagera-dig/kalender/digital-natverkstraff-vad-hander-inom-skogsjuridiken-2026-04-20/",
-      "source_id": "naturskyddsforeningen",
-      "source_name": "Naturskyddsföreningen",
-      "categories": [
-        "skog"
-      ],
-      "free": true
-    },
-    {
       "id": "43e0401852c0",
       "title": "Guldkorn som växer",
       "date_iso": "2026-04-20",
@@ -2812,17 +2711,17 @@
       "free": true
     },
     {
-      "id": "562c07f2d2a9",
-      "title": "Öppen grundläggande hållbarhets- och miljöutbildning på Ekocentrum",
-      "date_iso": "2026-04-21",
+      "id": "145486dd5131",
+      "title": "Träffas på Toppenmötet",
+      "date_iso": "2026-04-20",
       "time": "",
-      "description": "",
-      "url": "https://www.ekocentrum.se/events/oppen-grundlaggande-hallbarhets-och-miljoutbildning-pa-ekocentrum-3-2026-02-25-2026-04-22/",
-      "source_id": "ekocentrum",
-      "source_name": "Ekocentrum",
+      "description": "Här träffar du spännande iindivider som kommer att medverka vid Toppenmötet - Omställningskonferens 2026 (25-27 sep i Fisksätra/Saltsjöbaden)",
+      "url": "https://omstallningskanalen.se/programserier",
+      "source_id": "omstallningskanalen",
+      "source_name": "Omställningskanalen",
       "categories": [
-        "biodiv",
-        "mat"
+        "omstallning",
+        "klimat"
       ],
       "free": true
     },
@@ -2911,6 +2810,20 @@
       "free": true
     },
     {
+      "id": "7e1733c787b6",
+      "title": "Café Planet: Aktivt hopp",
+      "date_iso": "2026-04-21",
+      "time": "",
+      "description": "",
+      "url": "https://www.naturskyddsforeningen.se/engagera-dig/kalender/cafe-planet-aktivt-hopp-jonkoping-2026-04-21/",
+      "source_id": "naturskyddsforeningen",
+      "source_name": "Naturskyddsföreningen",
+      "categories": [
+        "biodiv"
+      ],
+      "free": true
+    },
+    {
       "id": "3d243ac06ae8",
       "title": "Skogsträff i Norrköping",
       "date_iso": "2026-04-21",
@@ -2931,6 +2844,48 @@
       "time": "",
       "description": "",
       "url": "https://www.naturskyddsforeningen.se/engagera-dig/kalender/jenny-olsson-svensk-rovdjursforvaltning-odemokratisk-och-oetisk-hofors-2026-04-21/",
+      "source_id": "naturskyddsforeningen",
+      "source_name": "Naturskyddsföreningen",
+      "categories": [
+        "biodiv"
+      ],
+      "free": true
+    },
+    {
+      "id": "b8d4c5e4fa11",
+      "title": "Fågelkvällar i Sollefteå",
+      "date_iso": "2026-04-21",
+      "time": "",
+      "description": "",
+      "url": "https://www.naturskyddsforeningen.se/engagera-dig/kalender/fagelkvallar-i-solleftea-solleftea-2026-04-21/",
+      "source_id": "naturskyddsforeningen",
+      "source_name": "Naturskyddsföreningen",
+      "categories": [
+        "biodiv"
+      ],
+      "free": true
+    },
+    {
+      "id": "e12c975d2b83",
+      "title": "Vildare rosor i en naturlik trädgård",
+      "date_iso": "2026-04-21",
+      "time": "",
+      "description": "",
+      "url": "https://www.naturskyddsforeningen.se/engagera-dig/kalender/vildare-rosor-i-en-naturlik-tradgard-vadstena-2026-04-21/",
+      "source_id": "naturskyddsforeningen",
+      "source_name": "Naturskyddsföreningen",
+      "categories": [
+        "skog"
+      ],
+      "free": true
+    },
+    {
+      "id": "cdac1e22322c",
+      "title": "En kväll i myskoxens tecken",
+      "date_iso": "2026-04-21",
+      "time": "",
+      "description": "",
+      "url": "https://www.naturskyddsforeningen.se/engagera-dig/kalender/en-kvall-i-myskoxens-tecken-funasdalen-2026-04-21/",
       "source_id": "naturskyddsforeningen",
       "source_name": "Naturskyddsföreningen",
       "categories": [
@@ -2995,16 +2950,30 @@
       "free": true
     },
     {
-      "id": "9f8250b7a90e",
-      "title": "Ätliga vilda växter – vårens skafferi på Sjöviks Folkhögskola",
+      "id": "b5180113746d",
+      "title": "Vårvandring runt Kvinnestadsjön Anmälan senast 19 april",
       "date_iso": "2026-04-22",
       "time": "",
-      "description": "295 SEK",
-      "url": "https://www.sv.se/kurser-och-evenemang/tradgard-hus-och-hem/tradgard/atliga-vilda-vaxter-varens-skafferi-pa-sjoviks-folkhogskola-64212",
-      "source_id": "sv_tradgard",
-      "source_name": "SV Studieförbundet",
+      "description": "",
+      "url": "https://www.naturskyddsforeningen.se/engagera-dig/kalender/varvandring-runt-kvinnestadsjon-anmalan-senast-19-april-vargarda-2026-04-22/",
+      "source_id": "naturskyddsforeningen",
+      "source_name": "Naturskyddsföreningen",
       "categories": [
-        "omstallning"
+        "biodiv"
+      ],
+      "free": true
+    },
+    {
+      "id": "07bb532492c6",
+      "title": "Vårvandring runt Kvinnestadssjön",
+      "date_iso": "2026-04-22",
+      "time": "",
+      "description": "",
+      "url": "https://www.naturskyddsforeningen.se/engagera-dig/kalender/varvandring-runt-kvinnestadssjon-2026-04-22/",
+      "source_id": "naturskyddsforeningen",
+      "source_name": "Naturskyddsföreningen",
+      "categories": [
+        "biodiv"
       ],
       "free": true
     },
@@ -3273,6 +3242,20 @@
       "url": "https://www.sv.se/kurser-och-evenemang/tradgard-hus-och-hem/tradgard/varmarknad-med-musikunderhallning-forelasning-om-dahlior-61374",
       "source_id": "sv_tradgard",
       "source_name": "SV Studieförbundet",
+      "categories": [
+        "omstallning"
+      ],
+      "free": true
+    },
+    {
+      "id": "dc70a5e20c3b",
+      "title": "Lamm- och kalvgosardag",
+      "date_iso": "2026-04-26",
+      "time": "",
+      "description": "Husby Hushållningsgille\nInbjudan till medlemmar i Husby Hushållningsgille Tid Söndagen den 26 april 2026, kl. 11.00-13.00. Plats Hos Leif Hedlund och Gunilla Heybroek i Djusa, Dala-Husby. Medtag gärna fikakorg! Varmt välkomna! Styrelsen Husby Hushållningsgille",
+      "url": "https://hushallningssallskapet.se/kalender/lamm-och-kalvgosardag/",
+      "source_id": "hushallningssallskapet",
+      "source_name": "Hushållningssällskapet",
       "categories": [
         "omstallning"
       ],
@@ -3651,6 +3634,20 @@
       "free": true
     },
     {
+      "id": "f95716eb8e5c",
+      "title": "Fältvandring majsensilage del 1",
+      "date_iso": "2026-05-07",
+      "time": "",
+      "description": "Gröna Möten och Rådgivarna Sjuhärad – Levins Lantbruk AB i Hyssna\nVälkommen till en träff med fokus på odling av majsensilage! Majs är en snabbt växande gröda i Sjuhärad. Samtidigt finns det många frågor kring odling och utfodring av majs. Under denna träff samlar vi lantbrukare och rådgivare för att utbyta kunskap och erfarenheter kring bland annat sortval, sådd,",
+      "url": "https://hushallningssallskapet.se/kalender/faltvandring-majsensilage-del-1/",
+      "source_id": "hushallningssallskapet",
+      "source_name": "Hushållningssällskapet",
+      "categories": [
+        "omstallning"
+      ],
+      "free": true
+    },
+    {
       "id": "50f28c207246",
       "title": "Potatiisupprop och fröer i fokus",
       "date_iso": "2026-05-08",
@@ -3699,6 +3696,20 @@
       "time": "",
       "description": "Albinsson & Sjöberg – Emmaboda Flygbana\nDen 8-9 maj är det dags för sydöstra Sveriges skogs- och entreprenadsmässa. Hushållningssällskapet Kalmar Kronoberg Blekinge kommer att vara på plats i monter U32. Kom gärna förbi och prata med oss.",
       "url": "https://hushallningssallskapet.se/kalender/emmaboda-skog-maskin/",
+      "source_id": "hushallningssallskapet",
+      "source_name": "Hushållningssällskapet",
+      "categories": [
+        "omstallning"
+      ],
+      "free": true
+    },
+    {
+      "id": "2c632703e0d7",
+      "title": "Besök hos Glada utegrisar i Brantestad",
+      "date_iso": "2026-05-08",
+      "time": "",
+      "description": "Asta hushållningsgille – Glada utegrisar i Brantestad\nFredag den 8 maj besöker vi Siv och Håkan Jonsson på gården. Här lever grisarna naturligt utomhus året om. På gården finns även ett slakteri, styckning och gårdsbutik. Håkan berättar om företaget och den senaste satsningen på egen charktillverkning. Program 17.45 Samling för dig som vill handla i gå",
+      "url": "https://hushallningssallskapet.se/kalender/besok-hos-glada-utegrisar-i-brantestad/",
       "source_id": "hushallningssallskapet",
       "source_name": "Hushållningssällskapet",
       "categories": [
@@ -3756,6 +3767,20 @@
       "time": "17:00 - 21:30",
       "description": "Plats: Färjestaden",
       "url": "https://www.studieframjandet.se/kalmar-lan/gustav-arrangemang/kurser/2026/maj/styckningskurs--stycka-din-egen-grillgris-till-sommaren2/",
+      "source_id": "studieframjandet",
+      "source_name": "Studiefrämjandet",
+      "categories": [
+        "mat"
+      ],
+      "free": true
+    },
+    {
+      "id": "6f39418e065e",
+      "title": "En kurs för dig med valp mellan 3-6 månader! Lär er de första grunderna mot en konfliktfri vardag och en relation byggd på samarbete, trygghet och kommunikation för dig och din hund.",
+      "date_iso": "2026-05-12",
+      "time": "17:30 - 20:00",
+      "description": "Plats: Lyckeby",
+      "url": "https://www.studieframjandet.se/blekinge-lan/gustav-arrangemang/kurser/2026/april/-demokratin-dor-i-hettan---intresseanmalan-studiecirkel/",
       "source_id": "studieframjandet",
       "source_name": "Studiefrämjandet",
       "categories": [
@@ -3849,6 +3874,20 @@
       "free": true
     },
     {
+      "id": "bb110b560961",
+      "title": "Fältvandring med tema växtskydd",
+      "date_iso": "2026-05-13",
+      "time": "",
+      "description": "Hushållningssällskapet Västra\nOnsdag 13 maj kl. 13:00 bjuder vi in till en fältvandring hos Ulf och Sofia Broo i Månstorp (Halvfara). Temat för dagen är hur du kan utveckla din växtskyddsstrategi och få bättre resultat i fält. Program i korthet: Genomgång av en normal lantbruksspruta – teknik, funktion. Vad erbjuder en modern sp",
+      "url": "https://hushallningssallskapet.se/kalender/faltvandring-med-tema-vaxtskydd/",
+      "source_id": "hushallningssallskapet",
+      "source_name": "Hushållningssällskapet",
+      "categories": [
+        "omstallning"
+      ],
+      "free": true
+    },
+    {
       "id": "fe6bd1136bef",
       "title": "Seniorkurs – Odling, skörd och gemenskap",
       "date_iso": "2026-05-15",
@@ -3900,6 +3939,20 @@
       "url": "https://www.sv.se/kurser-och-evenemang/tradgard-hus-och-hem/tradgard/odla-i-sand-foredrag-64213",
       "source_id": "sv_tradgard",
       "source_name": "SV Studieförbundet",
+      "categories": [
+        "mat"
+      ],
+      "free": true
+    },
+    {
+      "id": "f399afed2a64",
+      "title": "Välkommen till Morö backe 4H och deras hantverkscafé – en stund för skapande, gemenskap och inspiration mitt i veckan",
+      "date_iso": "2026-05-18",
+      "time": "18:00 - 20:00",
+      "description": "Plats: Strängnäs",
+      "url": "https://www.studieframjandet.se/sormlands-lan/gustav-arrangemang/kalenderhandelser/2026/maj/forelasning-med-veterinar-line-fran-strangnas-veterinarpraktik-/",
+      "source_id": "studieframjandet",
+      "source_name": "Studiefrämjandet",
       "categories": [
         "mat"
       ],
@@ -4027,6 +4080,20 @@
       "time": "",
       "description": "Arrangörer är HIR Skåne, Hushållningssällskapet Skåne och Österlens Försöksring. \nTema på fältvandringarna är som traditionen bjuder: Aktuellt i fält. Vi träffas för att diskutera aktuella insatser i de olika grödorna och passar även på att besöka intressanta fältförsök på Sandbygård.  Medverkar gör växtodlingsrådgivare på HIR Skåne. Tisdagen den 14 april kl. 13 Onsdagen den 6 ma",
       "url": "https://hushallningssallskapet.se/kalender/varens-tredje-faltvandring-pa-sandbygard/",
+      "source_id": "hushallningssallskapet",
+      "source_name": "Hushållningssällskapet",
+      "categories": [
+        "omstallning"
+      ],
+      "free": true
+    },
+    {
+      "id": "9dd29da0a3d6",
+      "title": "Webbinarium &#8211; Hur ökar jag min vinstmarginal i lantbruket och varför?",
+      "date_iso": "2026-05-20",
+      "time": "",
+      "description": "Hushållningssällskapet Kalmar Kronoberg Blekinge\nHur stor behöver vinsten i ett lantbruksföretag vara för att hantera risker, men framförallt för att kunna vara ett av framtidens konkurrenskraftiga företag? Vilken vinst behöver man för att nå sina mål? Hur gör jag som företagsledare resan för att öka vinstmarginalen dit jag vill vara? Ove Karlsson",
+      "url": "https://hushallningssallskapet.se/kalender/webbinarium-hur-okar-jag-min-vinstmarginal-i-lantbruket-och-varfor/",
       "source_id": "hushallningssallskapet",
       "source_name": "Hushållningssällskapet",
       "categories": [
@@ -4178,6 +4245,20 @@
       "free": true
     },
     {
+      "id": "f5365bc67415",
+      "title": "Webbinarium – Certifiering i skogsbruket, vad betyder det för skogsägaren?",
+      "date_iso": "2026-05-26",
+      "time": "",
+      "description": "Hushållningssällskapet Kalmar Kronoberg Blekinge\nVi går igenom certifieringskrav för skogsägare som är med i FSC- och PEFC-systemen. Det finns mycket att välja på och idag måste entreprenörer gå kurser i detta för att få arbeta på certifierad mark, men skogsägarna behöver inte alls vara insatta, än. Simon Halling Ekmåne, Skogsrådgivare Hushållning",
+      "url": "https://hushallningssallskapet.se/kalender/webbinarium-certifiering-i-skogsbruket-vad-betyder-det-for-skogsagaren/",
+      "source_id": "hushallningssallskapet",
+      "source_name": "Hushållningssällskapet",
+      "categories": [
+        "omstallning"
+      ],
+      "free": true
+    },
+    {
       "id": "d15b75bda12b",
       "title": "Dialogmöte limniska ekosystem",
       "date_iso": "2026-05-27",
@@ -4215,6 +4296,20 @@
       "time": "",
       "description": "Hushållningssällskapet/HS Konsult AB\nBrynmiljöer finns i gränslanden mellan skogsmarken och öppna jordbruksmarker eller betesmarker. På denna kurs berättar Frida Hedin och Olof Olsson från Hushållningssällskapet om vilka värden du kan ta vara på i brynzonerna – både för natur- och kulturmiljö, samt produktion. Du får även lära dig om r",
       "url": "https://hushallningssallskapet.se/kalender/faltkurs-om-mangfaldsbryn/",
+      "source_id": "hushallningssallskapet",
+      "source_name": "Hushållningssällskapet",
+      "categories": [
+        "omstallning"
+      ],
+      "free": true
+    },
+    {
+      "id": "330d8dda1231",
+      "title": "Webbinarium – Får som nybörjare, hur startar jag med får?",
+      "date_iso": "2026-05-27",
+      "time": "",
+      "description": "Hushållningssällskapet Kalmar Kronoberg Blekinge\nDet finns mycket att tänka på när man skaffar får. Vi går igenom viktiga delar och var man kan hitta mer tillförlitlig information. Vi pratar om vilken administration som är viktig och lite kort om utfordring. Malin Hultman, Lantbruksrådgivare på Hushållningssällskapet Västra Exklusivt för våra medl",
+      "url": "https://hushallningssallskapet.se/kalender/webbinarium-far-som-nyborjare-hur-startar-jag-med-far/",
       "source_id": "hushallningssallskapet",
       "source_name": "Hushållningssällskapet",
       "categories": [
@@ -4268,16 +4363,30 @@
       "free": true
     },
     {
-      "id": "00c89f9f5636",
-      "title": "På onsdagskvällar är medlemmar i Olofströms BK varmt välkomna till allmän träning på klubben. Här tränar vi tillsammans, oavsett erfarenhet eller nivå, och alla träningsgrenar inom hundsport är välkomna. Målet är att skapa en miljö där du får möjlighet att utvecklas, finslipa dina färdigheter och samtidigt inspireras.",
-      "date_iso": "2026-06-03",
-      "time": "18:00 - 19:00",
-      "description": "Plats: Jämshög",
-      "url": "https://www.studieframjandet.se/blekinge-lan/gustav-arrangemang/kalenderhandelser/2026/juni/allman-utveckling-inom-hund---bara-kom/",
-      "source_id": "studieframjandet",
-      "source_name": "Studiefrämjandet",
+      "id": "5f995a0ed202",
+      "title": "Föreläsning med Emelie Birgersson från Äppelträdets trädgård",
+      "date_iso": "2026-06-01",
+      "time": "",
+      "description": "",
+      "url": "https://www.sv.se/kurser-och-evenemang/tradgard-hus-och-hem/tradgard/forelasning-med-emelie-birgersson-fran-appeltradets-tradgard-15295",
+      "source_id": "sv_tradgard",
+      "source_name": "SV Studieförbundet",
       "categories": [
-        "mat"
+        "skog"
+      ],
+      "free": true
+    },
+    {
+      "id": "1e18b205b891",
+      "title": "Webbinarium – Kalmarstallet, för dig som går i stallbyggnadstankar",
+      "date_iso": "2026-06-02",
+      "time": "",
+      "description": "Hushållningssällskapet Kalmar Kronoberg Blekinge\nKalmarstallet – snabbt, smidigt och kostnadseffektivt. Är du nyfiken, häng med på ett webbinarie med information och frågestund. Våra byggrådgivare pratar om produkten och dess ingående anpassningar och utformning. Vi välkomnar frågor och diskussioner kring era förutsättningar. Henrik Karlsson och K",
+      "url": "https://hushallningssallskapet.se/kalender/webbinarium-kalmarstallet-for-dig-som-gar-i-stallbyggnadstankar/",
+      "source_id": "hushallningssallskapet",
+      "source_name": "Hushållningssällskapet",
+      "categories": [
+        "omstallning"
       ],
       "free": true
     },
@@ -4292,6 +4401,20 @@
       "source_name": "LU Land",
       "categories": [
         "klimat",
+        "omstallning"
+      ],
+      "free": true
+    },
+    {
+      "id": "bbce4922e9b0",
+      "title": "Webbinarium – Nya lagar och EU-regler, bra för skogsägaren att veta",
+      "date_iso": "2026-06-03",
+      "time": "",
+      "description": "Hushållningssällskapet Kalmar Kronoberg Blekinge\nVi går igenom nya lagar som kommer, lagförslag och den senaste rättsliga utvecklingen. Simon Halling Ekmåne, Skogsrådgivare Hushållningssällskapet Kalmar Kronoberg Blekinge Exklusivt för våra medlemmar Våra webbinarier är en del av medlemsförmånerna hos Hushållningssällskapet Kalmar Kronoberg Blekin",
+      "url": "https://hushallningssallskapet.se/kalender/webbinarium-nya-lagar-och-eu-regler-bra-for-skogsagaren-att-veta/",
+      "source_id": "hushallningssallskapet",
+      "source_name": "Hushållningssällskapet",
+      "categories": [
         "omstallning"
       ],
       "free": true
@@ -4436,20 +4559,6 @@
       "source_name": "Hushållningssällskapet",
       "categories": [
         "omstallning"
-      ],
-      "free": true
-    },
-    {
-      "id": "bfd1916c9933",
-      "title": "Svenska Turist Föreningen Östra Blekinge tar oss med på en vandring på Tromtö. Medellätt vandring på ca 5 km",
-      "date_iso": "2026-06-17",
-      "time": "18:00 - 19:00",
-      "description": "Plats: Jämshög",
-      "url": "https://www.studieframjandet.se/blekinge-lan/gustav-arrangemang/kalenderhandelser/2026/juni/allman-utveckling-inom-hund---bara-kom3/",
-      "source_id": "studieframjandet",
-      "source_name": "Studiefrämjandet",
-      "categories": [
-        "mat"
       ],
       "free": true
     },
@@ -4628,6 +4737,20 @@
       "free": true
     },
     {
+      "id": "43bbaeda48d3",
+      "title": "Från Mississippi till Eric Clapton",
+      "date_iso": "2026-07-11",
+      "time": "07:00 - 19:00",
+      "description": "Plats: Valdemarsvik",
+      "url": "https://www.studieframjandet.se/orebro-lan/gustav-arrangemang/kalenderhandelser/2026/juli/fjarilsresa-till-ostergotland-11-juli/",
+      "source_id": "studieframjandet",
+      "source_name": "Studiefrämjandet",
+      "categories": [
+        "mat"
+      ],
+      "free": true
+    },
+    {
       "id": "776f4c9c64fe",
       "title": "Prognos för beställningsbemyndiganden (2026)",
       "date_iso": "2026-07-24",
@@ -4656,20 +4779,6 @@
         "vatten",
         "biodiv",
         "klimat"
-      ],
-      "free": true
-    },
-    {
-      "id": "78992f6fdee6",
-      "title": "Vi har avtalat med Länsstyrelsen att ansvara för slåttern i Mulatorp! Området är naturreservat, och vi vill inte att slåtter-ängen ska växa igen!!",
-      "date_iso": "2026-08-01",
-      "time": "09:00 - 13:00",
-      "description": "Plats: Olofström",
-      "url": "https://www.studieframjandet.se/blekinge-lan/gustav-arrangemang/kalenderhandelser/2026/augusti/angens-dag-i-komperskulla/",
-      "source_id": "studieframjandet",
-      "source_name": "Studiefrämjandet",
-      "categories": [
-        "mat"
       ],
       "free": true
     },
@@ -4709,6 +4818,20 @@
       "time": "",
       "description": "Hushållningssällskapet Sjuhärad, Sparbankerna Sjuhärad – Rådde Gård, Länghem\nBoka onsdagen 26 augusti för årets Grovfoderdag på Rådde redan nu. Efter förra årets succé kan vi lova en spännande och lärorik dag med: föreläsningar om senaste rönen och erfarenheter inom grovfoder och vallodling i år med fokus på majs flera fältvandringsstationer med forskare, växtodlingsrådgivar",
       "url": "https://hushallningssallskapet.se/kalender/grovfoderdag-pa-radde/",
+      "source_id": "hushallningssallskapet",
+      "source_name": "Hushållningssällskapet",
+      "categories": [
+        "omstallning"
+      ],
+      "free": true
+    },
+    {
+      "id": "acae29a744e2",
+      "title": "Webbinarium – Vilken sorts foder ska jag ge min häst och varför?",
+      "date_iso": "2026-08-26",
+      "time": "",
+      "description": "Hushållningssällskapet Kalmar Kronoberg Blekinge\nVälkommen till en föreläsning om betydelsen av att anpassa foderstaten till min häst för bra välmående och bästa prestation. Emily Larsson, Dressyrryttare, Vallfoderproducent och Foderrådgivare Exklusivt för våra medlemmar Våra webbinarier är en del av medlemsförmånerna hos Hushållningssällskapet Ka",
+      "url": "https://hushallningssallskapet.se/kalender/webbinarium-vilken-sorts-foder-ska-jag-ge-min-hast-och-varfor/",
       "source_id": "hushallningssallskapet",
       "source_name": "Hushållningssällskapet",
       "categories": [
@@ -4839,6 +4962,20 @@
       "time": "",
       "description": "Hushållningssällskapet Kalmar Kronoberg Blekinge\nOnsdag den 16 september erbjuds en studieresa till försöksodlingen i Lilla Böslid i Halland samt besök vid två plantskolor som bland annat säljer nötträd. Det finns en lång tradition av nötodling både i Kalmar län, längs den halländska kusten och i Skåne. Under 2025 etablerades därför nötodlingar me",
       "url": "https://hushallningssallskapet.se/kalender/notodlingar/",
+      "source_id": "hushallningssallskapet",
+      "source_name": "Hushållningssällskapet",
+      "categories": [
+        "omstallning"
+      ],
+      "free": true
+    },
+    {
+      "id": "e0ea92fae89d",
+      "title": "Webbinarium – Tema vatten, Naturvårdsingenjörerna",
+      "date_iso": "2026-09-16",
+      "time": "",
+      "description": "Hushållningssällskapet Kalmar Kronoberg Blekinge\nVälkommen till en inspirerande träff med fokus på vatten! Naturvårdsingenjörerna AB presenterar sitt arbete med framtidens vattenlösningar. Vi lyfter frågor kring bevattningsdammar och delar aktuella perspektiv på vatten. Träffen avslutas med en genomgång av vilka stöd som finns för vattenåtgärder s",
+      "url": "https://hushallningssallskapet.se/kalender/webbinarium-tema-vatten-naturvardsingenjorerna/",
       "source_id": "hushallningssallskapet",
       "source_name": "Hushållningssällskapet",
       "categories": [
@@ -5113,6 +5250,20 @@
       "source_name": "Studiefrämjandet",
       "categories": [
         "mat"
+      ],
+      "free": true
+    },
+    {
+      "id": "7367bb00bd80",
+      "title": "Webbinarium – Gillesförsök, resultat",
+      "date_iso": "2026-11-11",
+      "time": "",
+      "description": "Hushållningssällskapet Kalmar Kronoberg Blekinge\nEn presentation av vår försöksverksamhet på Torslunda. En genomgång görs också av gillesförsöken som har gjorts under året, framförallt rågvete och vete i Edsbruk och Mönsterås. Jan-Olov Karlsson, Försöksledare och rådgivare Torslunda Exklusivt för våra medlemmar Våra webbinarier är en del av medlem",
+      "url": "https://hushallningssallskapet.se/kalender/webbinarium-gillesforsok-resultat/",
+      "source_id": "hushallningssallskapet",
+      "source_name": "Hushållningssällskapet",
+      "categories": [
+        "omstallning"
       ],
       "free": true
     },
