@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-18T10:12:37.583188+00:00",
-  "count": 405,
+  "updated": "2026-06-19T10:18:44.536456+00:00",
+  "count": 406,
   "errors": [],
   "events": [
     {
@@ -2900,35 +2900,6 @@
       "free": true
     },
     {
-      "id": "2edcd7fbdc55",
-      "title": "Lövmarknaden",
-      "date_iso": "2026-06-18",
-      "time": "",
-      "description": "",
-      "url": "https://www.naturskyddsforeningen.se/engagera-dig/kalender/lovmarknaden-karlskrona-2026-06-18/",
-      "source_id": "naturskyddsforeningen",
-      "source_name": "Naturskyddsföreningen",
-      "categories": [
-        "biodiv"
-      ],
-      "free": true
-    },
-    {
-      "id": "07ff3827497b",
-      "title": "LUCSUS seminar: Carbon farming as a climate measure – insights from the emerging voluntary market for soil carbon credits",
-      "date_iso": "2026-06-18",
-      "time": "",
-      "description": "",
-      "url": "https://www.lucsus.lu.se/calendar/lucsus-seminar-carbon-farming-climate-measure-insights-emerging-voluntary-market-soil-carbon-credits",
-      "source_id": "lucsus",
-      "source_name": "LUCSUS",
-      "categories": [
-        "omstallning",
-        "klimat"
-      ],
-      "free": true
-    },
-    {
       "id": "2f1c3a78ad09",
       "title": "Minnesvandring till Mestoslinkka",
       "date_iso": "2026-06-21",
@@ -3125,12 +3096,40 @@
       "free": true
     },
     {
+      "id": "6d998082509a",
+      "title": "Studiebesök med Aska hushållningsgille",
+      "date_iso": "2026-06-23",
+      "time": "",
+      "description": "Aska Hushållningsgille – Måltidscentrum, Norrsten 218, Motala\nVälkomna på ett intressant studiebesök på Motala kommuns Måltidscentrum i Norrsten! Måltidscentrumet invigdes 2024 och lagar mat till många av kommunens verksamheter. Tomas Hemmingsson berättar om verksamheten idag och tankar framåt. Välkomna! Styrelsen",
+      "url": "https://hushallningssallskapet.se/kalender/studiebesok-med-aska-hushallningsgille/",
+      "source_id": "hushallningssallskapet",
+      "source_name": "Hushållningssällskapet",
+      "categories": [
+        "omstallning"
+      ],
+      "free": true
+    },
+    {
       "id": "38bc528886a1",
       "title": "Floravandring Allarp",
       "date_iso": "2026-06-24",
       "time": "",
       "description": "",
       "url": "https://www.naturskyddsforeningen.se/engagera-dig/kalender/floravandring-allarp-kristianstad-2026-06-24/",
+      "source_id": "naturskyddsforeningen",
+      "source_name": "Naturskyddsföreningen",
+      "categories": [
+        "biodiv"
+      ],
+      "free": true
+    },
+    {
+      "id": "2424fb6ab59a",
+      "title": "Spårlyft för Inlandssverige – Omställningen går på räls!",
+      "date_iso": "2026-06-24",
+      "time": "",
+      "description": "",
+      "url": "https://www.naturskyddsforeningen.se/engagera-dig/kalender/sparlyft-for-inlandssverige-omstallningen-gar-pa-rals-arvidsjaur-2026-06-24/",
       "source_id": "naturskyddsforeningen",
       "source_name": "Naturskyddsföreningen",
       "categories": [
@@ -3255,7 +3254,7 @@
       "title": "Fältvandring om småbiotoper och reläodling – vinst för både natur och produktion",
       "date_iso": "2026-06-26",
       "time": "",
-      "description": "Ekologiska Lantbrukarna i Uppland\nEkologiska Lantbrukarna i Uppland tillsammans med Greppa näringen bjuder in till fältvandring hos Owe Pettersson, Norrbäck Sala. Följ med på en inspirerande fältvandring hos Owe Pettersson som har lång erfarenhet av reläodling och andra åtgärder som både stärker produktionen och gynnar biologisk mån",
+      "description": "Greppa Näringen\nEkologiska Lantbrukarna i Uppland tillsammans med Greppa näringen bjuder in till fältvandring hos Owe Pettersson, Norrbäck Sala. Följ med på en inspirerande fältvandring hos Owe Pettersson som har lång erfarenhet av reläodling och andra åtgärder som både stärker produktionen och gynnar biologisk mån",
       "url": "https://hushallningssallskapet.se/kalender/faltvandring-om-smabiotoper-och-relaodling-vinst-for-bade-natur-och-produktion/",
       "source_id": "hushallningssallskapet",
       "source_name": "Hushållningssällskapet",
@@ -3594,6 +3593,20 @@
       "free": true
     },
     {
+      "id": "bc6660b909d9",
+      "title": "Försöksresa med HIR rådgivare",
+      "date_iso": "2026-07-02",
+      "time": "",
+      "description": "Hushållningssällskapet Västra\nHäng med våra HIR rådgivare på resa genom vårat område för att titta de mest intressanta fältförsöken bland årets försökserier. Vi bjuder på fika och det kommer finnas möjlighet att äta lunch längs resan. Startplats: Logården utanför Grästorp Tid: 2 juli 9.00- 14.00 Sista anmälningsdag: 29 juni Kont",
+      "url": "https://hushallningssallskapet.se/kalender/forsoksresa-med-hir-radgivare/",
+      "source_id": "hushallningssallskapet",
+      "source_name": "Hushållningssällskapet",
+      "categories": [
+        "omstallning"
+      ],
+      "free": true
+    },
+    {
       "id": "f52335b3f1ed",
       "title": "Skörda, förvara, lagra – Färsna gård Norrtälje",
       "date_iso": "2026-07-03",
@@ -3679,6 +3692,20 @@
       "free": true
     },
     {
+      "id": "316bfe22dcec",
+      "title": "Barbro kommer till Hudiksvall",
+      "date_iso": "2026-07-08",
+      "time": "18:00 - 21:00",
+      "description": "Plats: Gävle",
+      "url": "https://www.studieframjandet.se/gavleborgs-lan/gustav-arrangemang/kurser/2026/juli/eftersoksutbildning-i-gavle-/",
+      "source_id": "studieframjandet",
+      "source_name": "Studiefrämjandet",
+      "categories": [
+        "mat"
+      ],
+      "free": true
+    },
+    {
       "id": "f9c189e9e4d7",
       "title": "Sommarskogsdag i Härnum",
       "date_iso": "2026-07-11",
@@ -3735,6 +3762,20 @@
       "free": true
     },
     {
+      "id": "946eeef44ff7",
+      "title": "Denna valpkurs är en ny spännande kombination av traditionell valpkurs kombinerat med inslag av hundsporten Nose Work.",
+      "date_iso": "2026-07-22",
+      "time": "17:30 - 21:00",
+      "description": "Plats: Karlshamn",
+      "url": "https://www.studieframjandet.se/blekinge-lan/gustav-arrangemang/kalenderhandelser/2026/juli/fagelskadning---vadarkvall-1-pa-krakenabben/",
+      "source_id": "studieframjandet",
+      "source_name": "Studiefrämjandet",
+      "categories": [
+        "mat"
+      ],
+      "free": true
+    },
+    {
       "id": "349075938814",
       "title": "Sommarresa",
       "date_iso": "2026-07-22",
@@ -3781,12 +3822,12 @@
       "free": true
     },
     {
-      "id": "d4c1c6bd20e0",
-      "title": "Västblekinge Ornitologiska förening fyller 50år 2026 och har haft denna serie av kvällar på Kråkenabben nästan samtliga år sedan starten. Välkommen du också!",
+      "id": "3f4d80f3f67e",
+      "title": "Tillsammans med Ringamåla hembygdsförening och Länsstyrelsen anordnas traditionsenligt slåtter med lie. Området är naturreservat, och vi vill inte att slåtter-ängen ska växa igen!",
       "date_iso": "2026-07-25",
       "time": "09:00 - 14:00",
       "description": "Plats: Karlshamn",
-      "url": "https://www.studieframjandet.se/blekinge-lan/gustav-arrangemang/kalenderhandelser/2026/juli/slatter-i-ire/",
+      "url": "https://www.studieframjandet.se/blekinge-lan/gustav-arrangemang/kalenderhandelser/2026/juli/slatter-i-ire-naturreservat/",
       "source_id": "studieframjandet",
       "source_name": "Studiefrämjandet",
       "categories": [
@@ -3834,6 +3875,20 @@
       "source_name": "Jordbruksverket",
       "categories": [
         "omstallning"
+      ],
+      "free": true
+    },
+    {
+      "id": "2a25a5dc79a5",
+      "title": "Konstkurs för barn",
+      "date_iso": "2026-08-05",
+      "time": "17:30 - 19:00",
+      "description": "Plats: Getinge",
+      "url": "https://www.studieframjandet.se/hallands-lan/gustav-arrangemang/kurser/2026/augusti/agility-fortsattning/",
+      "source_id": "studieframjandet",
+      "source_name": "Studiefrämjandet",
+      "categories": [
+        "mat"
       ],
       "free": true
     },
@@ -3894,20 +3949,6 @@
       "free": true
     },
     {
-      "id": "b5e4dd90bf36",
-      "title": "Vi tränar tillsammans under positiva förutsättningar.",
-      "date_iso": "2026-08-09",
-      "time": "16:00 - 18:30",
-      "description": "Plats: Mullsjö",
-      "url": "https://www.studieframjandet.se/jonkopings-lan/gustav-arrangemang/kurser/2026/augusti/sparutveckling-mullsjo-brukshundklubb/",
-      "source_id": "studieframjandet",
-      "source_name": "Studiefrämjandet",
-      "categories": [
-        "mat"
-      ],
-      "free": true
-    },
-    {
       "id": "6076fa6b4875",
       "title": "Spannmåls­fältvandring på Öjebyn Agro Park",
       "date_iso": "2026-08-11",
@@ -3922,25 +3963,11 @@
       "free": true
     },
     {
-      "id": "ec6f12413ed2",
-      "title": "För många hundägare så blir unghundstiden en ganska jobbig tid. Kanske är det inte lika lätt att träna allmänlydnaden när hunden blir mer utåtriktad och det som man tyckte den var bra på tidigare kan kännas som bortblåst. Att ha en unghund-vad innebär det?",
-      "date_iso": "2026-08-11",
-      "time": "18:00 - 20:15",
-      "description": "Plats: Avesta",
-      "url": "https://www.studieframjandet.se/dalarnas-lan/gustav-arrangemang/kurser/2026/augusti/tavlingskurs-mot-startappell-klass---aveska-bhk/",
-      "source_id": "studieframjandet",
-      "source_name": "Studiefrämjandet",
-      "categories": [
-        "mat"
-      ],
-      "free": true
-    },
-    {
       "id": "94f70dd777ae",
       "title": "Fältvandring i ekologisk grönsaksodling &#8211; Björnhyltans Trädgård i Ambjörnarp",
       "date_iso": "2026-08-11",
       "time": "",
-      "description": "Hushållningssällskapet Västra\nVälkommen på fältvandring till Björnhyltans Trädgård. Här har Peder och Lotta Wendefors odlat grönsaker för försäljning i 24 år. Frilandsodlingen som förut varit av mer traditionell karaktär är idag en ca 2000 m2 stor odling enligt konceptet Market gardening med fasta bäddar. På Björnhyltans finns o",
+      "description": "Hushållningssällskapet Västra\nVälkommen på fältvandring till Björnhyltans Trädgård! Här har Peder och Lotta Wendefors odlat grönsaker för försäljning i 24 år. Idag bedrivs odlingen på ca 2000 m² enligt Market gardening-koncept med fasta bäddar men har förut varit av mer tradirionell karaktär. Vi kommer att få höra om hur man upp",
       "url": "https://hushallningssallskapet.se/kalender/faltvandring-i-ekologisk-gronsaksodling-bjornhyltans-tradgard-i-ambjornarp/",
       "source_id": "hushallningssallskapet",
       "source_name": "Hushållningssällskapet",
@@ -4603,20 +4630,6 @@
       "free": true
     },
     {
-      "id": "5eb2ffd89bd2",
-      "title": "Välkomna på kurs där hundens nos är i fokus!",
-      "date_iso": "2026-09-10",
-      "time": "18:00 - 21:00",
-      "description": "Plats: Stockholm",
-      "url": "https://www.studieframjandet.se/stockholms-lan/gustav-arrangemang/kurser/2026/september/somnad-for-nyborjare-torsdag-ht-2026/",
-      "source_id": "studieframjandet",
-      "source_name": "Studiefrämjandet",
-      "categories": [
-        "mat"
-      ],
-      "free": true
-    },
-    {
       "id": "a844dc364374",
       "title": "Skördefest 2026",
       "date_iso": "2026-09-12",
@@ -4985,6 +4998,20 @@
       "free": true
     },
     {
+      "id": "5cb30a294726",
+      "title": "Vi kommer att behöva rensa sly invid och i slåtterängen, och kanske jämna till Vildsvinens eventuella framfart i ängen.",
+      "date_iso": "2026-10-04",
+      "time": "06:00 - 12:00",
+      "description": "Plats: Karlshamn",
+      "url": "https://www.studieframjandet.se/blekinge-lan/gustav-arrangemang/kalenderhandelser/2026/oktober/euro-bird-watch2/",
+      "source_id": "studieframjandet",
+      "source_name": "Studiefrämjandet",
+      "categories": [
+        "mat"
+      ],
+      "free": true
+    },
+    {
       "id": "66b4e992e587",
       "title": "Beredskap för livsmedelsproducenter",
       "date_iso": "2026-10-07",
@@ -5302,20 +5329,6 @@
       "categories": [
         "mat",
         "skogstradgard"
-      ],
-      "free": true
-    },
-    {
-      "id": "ae4ab44c9570",
-      "title": "Följ med och delta tillsammans med Naturskyddsföreningen i Ronneby på en slåtterdag på Ires blomsterrika ängsmarker.",
-      "date_iso": "2026-11-07",
-      "time": "08:30 - 13:00",
-      "description": "Plats: Olofström",
-      "url": "https://www.studieframjandet.se/blekinge-lan/gustav-arrangemang/kalenderhandelser/2026/november/slybekampning-i-mulatorp/",
-      "source_id": "studieframjandet",
-      "source_name": "Studiefrämjandet",
-      "categories": [
-        "mat"
       ],
       "free": true
     },
