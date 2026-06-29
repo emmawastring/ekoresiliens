@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-28T08:49:53.229551+00:00",
-  "count": 330,
+  "updated": "2026-06-29T10:34:22.766361+00:00",
+  "count": 413,
   "errors": [],
   "events": [
     {
@@ -32,6 +32,21 @@
         "agroforestry",
         "mat",
         "skog"
+      ],
+      "free": true
+    },
+    {
+      "id": "46193b91af68",
+      "title": "Öppen grundläggande hållbarhets- och miljöutbildning på Ekocentrum",
+      "date_iso": "2023-02-06",
+      "time": "",
+      "description": "",
+      "url": "https://www.ekocentrum.se/events/oppen-grundlaggande-hallbarhets-och-miljoutbildning-pa-ekocentrum-2/",
+      "source_id": "ekocentrum",
+      "source_name": "Ekocentrum",
+      "categories": [
+        "biodiv",
+        "mat"
       ],
       "free": true
     },
@@ -2813,20 +2828,6 @@
       "free": true
     },
     {
-      "id": "d413c6894aae",
-      "title": "Snokläger Småland",
-      "date_iso": "2026-06-26",
-      "time": "",
-      "description": "",
-      "url": "https://www.naturskyddsforeningen.se/engagera-dig/kalender/snoklager-smaland-stockaryd-2026-06-26/",
-      "source_id": "naturskyddsforeningen",
-      "source_name": "Naturskyddsföreningen",
-      "categories": [
-        "biodiv"
-      ],
-      "free": true
-    },
-    {
       "id": "48b9c2cd4338",
       "title": "Wet Star in the Desert – Julia Karla",
       "date_iso": "2026-06-26",
@@ -2838,20 +2839,6 @@
       "categories": [
         "klimat",
         "omstallning"
-      ],
-      "free": true
-    },
-    {
-      "id": "ce0c30cce698",
-      "title": "Sommarnattens juveler",
-      "date_iso": "2026-06-27",
-      "time": "",
-      "description": "",
-      "url": "https://www.naturskyddsforeningen.se/engagera-dig/kalender/sommarnattens-juveler-skovde-2026-06-27/",
-      "source_id": "naturskyddsforeningen",
-      "source_name": "Naturskyddsföreningen",
-      "categories": [
-        "biodiv"
       ],
       "free": true
     },
@@ -2870,170 +2857,58 @@
       "free": true
     },
     {
-      "id": "634960d9c831",
-      "title": "Kurs i lieslåtter",
-      "date_iso": "2026-06-28",
-      "time": "",
-      "description": "",
-      "url": "https://www.naturskyddsforeningen.se/engagera-dig/kalender/kurs-i-lieslatter-orsa-2026-06-28/",
-      "source_id": "naturskyddsforeningen",
-      "source_name": "Naturskyddsföreningen",
-      "categories": [
-        "biodiv"
-      ],
-      "free": true
-    },
-    {
-      "id": "91df4236b904",
-      "title": "Bussresa till Voxnadalens Biosfärområde",
-      "date_iso": "2026-06-28",
-      "time": "",
-      "description": "",
-      "url": "https://www.naturskyddsforeningen.se/engagera-dig/kalender/bussresa-till-voxnadalens-biosfaromrade-2026-06-28/",
-      "source_id": "naturskyddsforeningen",
-      "source_name": "Naturskyddsföreningen",
-      "categories": [
-        "biodiv"
-      ],
-      "free": true
-    },
-    {
-      "id": "696ff6e2b3a5",
-      "title": "Görvälnkilen: Grimstaskogen",
-      "date_iso": "2026-06-28",
-      "time": "",
-      "description": "",
-      "url": "https://www.naturskyddsforeningen.se/engagera-dig/kalender/gorvalnkilen-grimstaskogen-stockholm-2026-06-28/",
-      "source_id": "naturskyddsforeningen",
-      "source_name": "Naturskyddsföreningen",
-      "categories": [
-        "skog"
-      ],
-      "free": true
-    },
-    {
-      "id": "87bb9cf31281",
-      "title": "Lieslåtter kurs",
-      "date_iso": "2026-06-28",
-      "time": "",
-      "description": "",
-      "url": "https://www.naturskyddsforeningen.se/engagera-dig/kalender/lieslatter-kurs-2026-06-28/",
-      "source_id": "naturskyddsforeningen",
-      "source_name": "Naturskyddsföreningen",
-      "categories": [
-        "biodiv"
-      ],
-      "free": true
-    },
-    {
-      "id": "03f206da4918",
-      "title": "Floraväktardag",
-      "date_iso": "2026-06-28",
-      "time": "",
-      "description": "",
-      "url": "https://www.naturskyddsforeningen.se/engagera-dig/kalender/floravaktardag-sidensjo-2026-06-28/",
-      "source_id": "naturskyddsforeningen",
-      "source_name": "Naturskyddsföreningen",
-      "categories": [
-        "biodiv"
-      ],
-      "free": true
-    },
-    {
-      "id": "a5ce6e0b2c38",
-      "title": "OBS! Pålamalm – turen är inställd pga vädret!",
-      "date_iso": "2026-06-28",
-      "time": "",
-      "description": "",
-      "url": "https://www.naturskyddsforeningen.se/engagera-dig/kalender/obs-palamalm-turen-ar-installd-pga-vadret-tullinge-2026-06-28/",
-      "source_id": "naturskyddsforeningen",
-      "source_name": "Naturskyddsföreningen",
-      "categories": [
-        "biodiv"
-      ],
-      "free": true
-    },
-    {
-      "id": "c34cff817459",
-      "title": "Tusen trädgårdar – besök vår stadsodling",
-      "date_iso": "2026-06-28",
-      "time": "",
-      "description": "",
-      "url": "https://www.naturskyddsforeningen.se/engagera-dig/kalender/tusen-tradgardar-besok-var-stadsodling-trollhattan-2026-06-28/",
-      "source_id": "naturskyddsforeningen",
-      "source_name": "Naturskyddsföreningen",
-      "categories": [
-        "skog"
-      ],
-      "free": true
-    },
-    {
-      "id": "f04eb000e62c",
-      "title": "Studiebesök på Molnby, Vallentuna",
-      "date_iso": "2026-06-28",
-      "time": "",
-      "description": "",
-      "url": "https://www.naturskyddsforeningen.se/engagera-dig/kalender/studiebesok-pa-molnby-vallentuna-vallentuna-2026-06-28/",
-      "source_id": "naturskyddsforeningen",
-      "source_name": "Naturskyddsföreningen",
-      "categories": [
-        "biodiv"
-      ],
-      "free": true
-    },
-    {
-      "id": "26b2303506e1",
-      "title": "Natursnokarna – Prova på fiske med metspö och kastspö",
-      "date_iso": "2026-06-28",
-      "time": "",
-      "description": "",
-      "url": "https://www.naturskyddsforeningen.se/engagera-dig/kalender/natursnokarna-prova-pa-fiske-med-metspo-och-kastspo-2026-06-28/",
-      "source_id": "naturskyddsforeningen",
-      "source_name": "Naturskyddsföreningen",
-      "categories": [
-        "biodiv"
-      ],
-      "free": true
-    },
-    {
-      "id": "782a24769877",
-      "title": "GUIDNING AV CIKADAPARKEN OCH FJÄRILSTRÄDGÅRDEN 28 JUNI",
-      "date_iso": "2026-06-28",
-      "time": "",
-      "description": "",
-      "url": "https://www.naturskyddsforeningen.se/engagera-dig/kalender/guidning-av-cikadaparken-och-fjarilstradgarden-28-juni-huddinge-2026-06-28/",
-      "source_id": "naturskyddsforeningen",
-      "source_name": "Naturskyddsföreningen",
-      "categories": [
-        "skog"
-      ],
-      "free": true
-    },
-    {
-      "id": "335f91afd621",
-      "title": "Upptäck Erik-Larsgårdens kultur och natur",
-      "date_iso": "2026-06-28",
-      "time": "",
-      "description": "",
-      "url": "https://www.naturskyddsforeningen.se/engagera-dig/kalender/upptack-erik-larsgardens-kultur-och-natur-torsaker-2026-06-28/",
-      "source_id": "naturskyddsforeningen",
-      "source_name": "Naturskyddsföreningen",
-      "categories": [
-        "biodiv"
-      ],
-      "free": true
-    },
-    {
-      "id": "fc1d50d9e92b",
-      "title": "Kursen riktar sig till dig som vill ha en följsam och engagerad hund i vardagen. För hundar från 6 månader.",
+      "id": "edf5d644916b",
+      "title": "Resa till Mosel / Luxemburg",
       "date_iso": "2026-06-29",
-      "time": "09:00 - 15:00",
-      "description": "Plats: Eskilstuna",
-      "url": "https://www.studieframjandet.se/sormlands-lan/gustav-arrangemang/kalenderhandelser/2026/juni/prova-pa-att-spela-traditionella-instrument2/",
-      "source_id": "studieframjandet",
-      "source_name": "Studiefrämjandet",
+      "time": "",
+      "description": "Kinne hushållningsgille\nFölj med på en inspirerande studieresa till Moseldalen och Luxemburg där vi får möta engagerade djurproducenter och ta del av utvecklingen mot lokalproducerade och vidareförädlade livsmedel. Genom gårds- och företagsbesök får vi inblick i allt från ekologiskt lantbruk och mejeriverksamhet till vinod",
+      "url": "https://hushallningssallskapet.se/kalender/resa-till-mosel-luxemburg/",
+      "source_id": "hushallningssallskapet",
+      "source_name": "Hushållningssällskapet",
       "categories": [
-        "mat"
+        "omstallning"
+      ],
+      "free": true
+    },
+    {
+      "id": "82d3e76e5ee9",
+      "title": "Fältvandring: Följ med på spade-safari – markstrukturanalys i praktiken",
+      "date_iso": "2026-06-29",
+      "time": "",
+      "description": "Hir Skåne – Ämnaröd Åkerslund, 241 91 Eslöv (ca 1 km nordöst om Kungshult)\nEn bra markstruktur är avgörande för hög bördighet. En bra markstruktur möjliggör att bruka marken med mindre jordbearbetning. Under goda förhållanden kan ren direktsådd, helt utan föregående jordbearbetning, fungera bra. Spaddiagnosen är den viktigaste praktiska metoden för att bedöma markstrukture",
+      "url": "https://hushallningssallskapet.se/kalender/faltvandring-folj-med-pa-spade-safari-markstrukturanalys-i-praktiken/",
+      "source_id": "hushallningssallskapet",
+      "source_name": "Hushållningssällskapet",
+      "categories": [
+        "omstallning"
+      ],
+      "free": true
+    },
+    {
+      "id": "b9cee9f441a2",
+      "title": "Grovfoder till häst",
+      "date_iso": "2026-06-29",
+      "time": "",
+      "description": "HIR Skåne bjuder in dig som är hästhållare till en fullspäckad kväll om grovfoder till häst. Är du hästägare eller hästföretagare som vill optimera dina hästars hälsa och prestation? Vi går bland annat igenom vad som kan påverka grovfoderkvaliteten, vad du ska ha i åtanke när du köper grovfoder, hur",
+      "url": "https://hushallningssallskapet.se/kalender/grovfoder-till-hast-4/",
+      "source_id": "hushallningssallskapet",
+      "source_name": "Hushållningssällskapet",
+      "categories": [
+        "omstallning"
+      ],
+      "free": true
+    },
+    {
+      "id": "e8158c7389df",
+      "title": "Östbo häradsgille: Medlemsaktivitet",
+      "date_iso": "2026-06-29",
+      "time": "",
+      "description": "Östbo häradsgille – Högafors, Kvarnaberg, Vaggeryd\nVälkomna på medlemsträff med Östbo Häradsgille i Högafors vid Kvarnaberg, Vaggeryd. Vi kommer att kolla på vad årets kulturmiljöpristagare gör och har gjort med kvarn, hjulverkstad och smedja. Datum: 29 juni Klockan: 18:00 Plats: Högafors, Vaggeryd Program Guidning och rundtur. Gillet bjuder på gril",
+      "url": "https://hushallningssallskapet.se/kalender/ostbo-haradsgille-medlemsaktivitet/",
+      "source_id": "hushallningssallskapet",
+      "source_name": "Hushållningssällskapet",
+      "categories": [
+        "omstallning"
       ],
       "free": true
     },
@@ -3054,6 +2929,20 @@
       "free": true
     },
     {
+      "id": "f52e84669cf8",
+      "title": "Nyfiken på att lära dig att konservera mat? Här är kursen för dig!",
+      "date_iso": "2026-06-30",
+      "time": "08:00 - 11:00",
+      "description": "Plats: Aspås",
+      "url": "https://www.studieframjandet.se/jamtlands-lan/gustav-arrangemang/kurser/2026/juni/tillverkning-av-mejeriprodukter-till-husbehov-i-en-fabod/",
+      "source_id": "studieframjandet",
+      "source_name": "Studiefrämjandet",
+      "categories": [
+        "mat"
+      ],
+      "free": true
+    },
+    {
       "id": "695adf4bded6",
       "title": "Odling av gamla kultursorter – Trädgårdsarbete 2",
       "date_iso": "2026-06-30",
@@ -3064,6 +2953,34 @@
       "source_name": "Naturskyddsföreningen",
       "categories": [
         "skog"
+      ],
+      "free": true
+    },
+    {
+      "id": "5374ca6a5bd1",
+      "title": "Bekämpa invasiva växter",
+      "date_iso": "2026-06-30",
+      "time": "",
+      "description": "",
+      "url": "https://www.naturskyddsforeningen.se/engagera-dig/kalender/bekampa-invasiva-vaxter-borlange-2026-06-30/",
+      "source_id": "naturskyddsforeningen",
+      "source_name": "Naturskyddsföreningen",
+      "categories": [
+        "biodiv"
+      ],
+      "free": true
+    },
+    {
+      "id": "b1400fbcf94d",
+      "title": "Integrerat växtskydd i grönsaksodling",
+      "date_iso": "2026-06-30",
+      "time": "",
+      "description": "HIR Skåne\nVälkomna på fältvandring.  Vi kommer diskutera nya och gamla, praktiska och teoretiska metoder hur kan vi på ett effektivt och miljömässigt sätt hantera skadegörare och ogräs i grönsaksodling. Vi tittar på rotfruktsfält där vi testat olika tekniker på temat. Timing Appliceringsteknik Tröskelvärden O",
+      "url": "https://hushallningssallskapet.se/kalender/integrerat-vaxtskydd-i-gronsaksodling/",
+      "source_id": "hushallningssallskapet",
+      "source_name": "Hushållningssällskapet",
+      "categories": [
+        "omstallning"
       ],
       "free": true
     },
@@ -3082,6 +2999,48 @@
       "free": true
     },
     {
+      "id": "a8d3e5f2013f",
+      "title": "Drömmen om en våtmark",
+      "date_iso": "2026-07-01",
+      "time": "",
+      "description": "",
+      "url": "https://www.naturskyddsforeningen.se/engagera-dig/kalender/drommen-om-en-vatmark-halmstad-2026-07-01/",
+      "source_id": "naturskyddsforeningen",
+      "source_name": "Naturskyddsföreningen",
+      "categories": [
+        "vatten"
+      ],
+      "free": true
+    },
+    {
+      "id": "a6fd7d87c14f",
+      "title": "Svantes blomstervandring",
+      "date_iso": "2026-07-01",
+      "time": "",
+      "description": "",
+      "url": "https://www.naturskyddsforeningen.se/engagera-dig/kalender/svantes-blomstervandring-2026-07-01/",
+      "source_id": "naturskyddsforeningen",
+      "source_name": "Naturskyddsföreningen",
+      "categories": [
+        "biodiv"
+      ],
+      "free": true
+    },
+    {
+      "id": "785a46a14bdf",
+      "title": "Brunnby Lantbrukardagar",
+      "date_iso": "2026-07-01",
+      "time": "",
+      "description": "Hushållningssällskapet/HS Konsult AB – Brunnby gård 1, Västerås\nVälkomna till sommarens mässa! Onsdag den 1 juli 2026, kl. 09.00-17.00 Torsdag den 2 juli 2026, kl. 09.00-17.00 Mellansveriges största mötesplats för aktiva lantbrukare firar 20 år! Utställare, program och biljetter hittar du på Brunnby Lantbrukardagar Vi ses på Brunnby! Våra medarrangörer:",
+      "url": "https://hushallningssallskapet.se/kalender/brunnby-lantbrukardagar-2/",
+      "source_id": "hushallningssallskapet",
+      "source_name": "Hushållningssällskapet",
+      "categories": [
+        "omstallning"
+      ],
+      "free": true
+    },
+    {
       "id": "da04156e90b7",
       "title": "Kurs – minimerad bearbetning och conservation agriculture 2 jul 2026 Heagårds Egendom 304, 305 91 Halmstad",
       "date_iso": "2026-07-02",
@@ -3093,6 +3052,132 @@
       "categories": [
         "omstallning",
         "mat"
+      ],
+      "free": true
+    },
+    {
+      "id": "005f553cbd0e",
+      "title": "Hellasgården – Naturen är kuren",
+      "date_iso": "2026-07-02",
+      "time": "",
+      "description": "",
+      "url": "https://www.naturskyddsforeningen.se/engagera-dig/kalender/hellasgarden-naturen-ar-kuren-nacka-2026-07-02/",
+      "source_id": "naturskyddsforeningen",
+      "source_name": "Naturskyddsföreningen",
+      "categories": [
+        "biodiv"
+      ],
+      "free": true
+    },
+    {
+      "id": "32df15767081",
+      "title": "Brunnby Lantbrukardagar",
+      "date_iso": "2026-07-02",
+      "time": "",
+      "description": "Hushållningssällskapet/HS Konsult AB – Brunnby gård 1, Västerås\nVälkomna till sommarens mässa! Onsdag den 1 juli 2026, kl. 09.00-17.00 Torsdag den 2 juli 2026, kl. 09.00-17.00 Mellansveriges största mötesplats för aktiva lantbrukare firar 20 år! Utställare, program och biljetter hittar du på Brunnby Lantbrukardagar Vi ses på Brunnby! Våra medarrangörer:",
+      "url": "https://hushallningssallskapet.se/kalender/brunnby-lantbrukardagar-3/",
+      "source_id": "hushallningssallskapet",
+      "source_name": "Hushållningssällskapet",
+      "categories": [
+        "omstallning"
+      ],
+      "free": true
+    },
+    {
+      "id": "bc6660b909d9",
+      "title": "Försöksresa med HIR rådgivare",
+      "date_iso": "2026-07-02",
+      "time": "",
+      "description": "Hushållningssällskapet Västra\nHäng med våra HIR rådgivare på resa genom vårat område för att titta de mest intressanta fältförsöken bland årets försökserier. Vi bjuder på fika och det kommer finnas möjlighet att äta lunch längs resan. Startplats: Logården utanför Grästorp Tid: 2 juli 9.00- 14.00 Sista anmälningsdag: 29 juni Kont",
+      "url": "https://hushallningssallskapet.se/kalender/forsoksresa-med-hir-radgivare/",
+      "source_id": "hushallningssallskapet",
+      "source_name": "Hushållningssällskapet",
+      "categories": [
+        "omstallning"
+      ],
+      "free": true
+    },
+    {
+      "id": "da926f34715b",
+      "title": "Slåttergille på 15 ängar",
+      "date_iso": "2026-07-04",
+      "time": "",
+      "description": "",
+      "url": "https://www.naturskyddsforeningen.se/engagera-dig/kalender/slattergille-pa-15-angar-2026-07-04/",
+      "source_id": "naturskyddsforeningen",
+      "source_name": "Naturskyddsföreningen",
+      "categories": [
+        "biodiv"
+      ],
+      "free": true
+    },
+    {
+      "id": "8f7c0263d849",
+      "title": "Utflykt till ängsblommorna vid Fäbods",
+      "date_iso": "2026-07-04",
+      "time": "",
+      "description": "",
+      "url": "https://www.naturskyddsforeningen.se/engagera-dig/kalender/utflykt-till-angsblommorna-vid-fabods-2026-07-04/",
+      "source_id": "naturskyddsforeningen",
+      "source_name": "Naturskyddsföreningen",
+      "categories": [
+        "biodiv"
+      ],
+      "free": true
+    },
+    {
+      "id": "f6b2d2630689",
+      "title": "Bekämpning av jättebalsamin i Stora Höga",
+      "date_iso": "2026-07-04",
+      "time": "",
+      "description": "",
+      "url": "https://www.naturskyddsforeningen.se/engagera-dig/kalender/bekampning-av-jattebalsamin-i-stora-hoga-2026-07-04/",
+      "source_id": "naturskyddsforeningen",
+      "source_name": "Naturskyddsföreningen",
+      "categories": [
+        "biodiv"
+      ],
+      "free": true
+    },
+    {
+      "id": "9108fd04fd99",
+      "title": "En fäbodvalls historia och natur",
+      "date_iso": "2026-07-04",
+      "time": "",
+      "description": "",
+      "url": "https://www.naturskyddsforeningen.se/engagera-dig/kalender/en-fabodvalls-historia-och-natur-2026-07-04/",
+      "source_id": "naturskyddsforeningen",
+      "source_name": "Naturskyddsföreningen",
+      "categories": [
+        "biodiv"
+      ],
+      "free": true
+    },
+    {
+      "id": "425bf336ef21",
+      "title": "Slåtteräng och bastardsvärmare",
+      "date_iso": "2026-07-05",
+      "time": "",
+      "description": "",
+      "url": "https://www.naturskyddsforeningen.se/engagera-dig/kalender/slatterang-och-bastardsvarmare-tommarp-2026-07-05/",
+      "source_id": "naturskyddsforeningen",
+      "source_name": "Naturskyddsföreningen",
+      "categories": [
+        "biodiv"
+      ],
+      "free": true
+    },
+    {
+      "id": "d906a2d51d60",
+      "title": "Vild och odlad mångfald i trädgården",
+      "date_iso": "2026-07-05",
+      "time": "",
+      "description": "",
+      "url": "https://www.naturskyddsforeningen.se/engagera-dig/kalender/vild-och-odlad-mangfald-i-tradgarden-2026-07-05/",
+      "source_id": "naturskyddsforeningen",
+      "source_name": "Naturskyddsföreningen",
+      "categories": [
+        "skog"
       ],
       "free": true
     },
@@ -3126,6 +3211,62 @@
       "free": true
     },
     {
+      "id": "b12798619a99",
+      "title": "Floravandring",
+      "date_iso": "2026-07-06",
+      "time": "",
+      "description": "",
+      "url": "https://www.naturskyddsforeningen.se/engagera-dig/kalender/floravandring-froson-2026-07-06/",
+      "source_id": "naturskyddsforeningen",
+      "source_name": "Naturskyddsföreningen",
+      "categories": [
+        "biodiv"
+      ],
+      "free": true
+    },
+    {
+      "id": "71cce033f81d",
+      "title": "Slåtter, Örsbråten, Ödenäs",
+      "date_iso": "2026-07-06",
+      "time": "",
+      "description": "",
+      "url": "https://www.naturskyddsforeningen.se/engagera-dig/kalender/slatter-orsbraten-odenas-2026-07-06/",
+      "source_id": "naturskyddsforeningen",
+      "source_name": "Naturskyddsföreningen",
+      "categories": [
+        "biodiv"
+      ],
+      "free": true
+    },
+    {
+      "id": "1b29b655c2d5",
+      "title": "Utflykt till Kopparholmarna via Arkösund",
+      "date_iso": "2026-07-07",
+      "time": "",
+      "description": "",
+      "url": "https://www.naturskyddsforeningen.se/engagera-dig/kalender/utflykt-till-kopparholmarna-via-arkosund-arkosund-2026-07-07/",
+      "source_id": "naturskyddsforeningen",
+      "source_name": "Naturskyddsföreningen",
+      "categories": [
+        "biodiv"
+      ],
+      "free": true
+    },
+    {
+      "id": "cc3e808ee8af",
+      "title": "Fältkurs Berga: Placering och utformning av småbiotoper",
+      "date_iso": "2026-07-07",
+      "time": "",
+      "description": "Hushållningssällskapet/HS Konsult AB – Berga Naturbruksgymnasium, Berga skolväg 1, Västerhaninge.\nEn kurs för dig som är intresserad av åtgärder som ökar den biologiska mångfalden, som är väl anpassade till produktionen – som samtidigt kan minska mängden skadegörare i fält och öka pollineringen av grödor. Tillsammans kartlägger vi gårdens förutsättningar och diskuterar möjliga åtgärder anpassade",
+      "url": "https://hushallningssallskapet.se/kalender/faltkurs-berga-placering-och-utformning-av-smabiotoper-i-odlingslandskapet/",
+      "source_id": "hushallningssallskapet",
+      "source_name": "Hushållningssällskapet",
+      "categories": [
+        "omstallning"
+      ],
+      "free": true
+    },
+    {
       "id": "b01ac91c298d",
       "title": "Fältvandring i ekologisk demo­odling och sort­försök",
       "date_iso": "2026-07-08",
@@ -3134,6 +3275,20 @@
       "url": "https://jordbruksverket.se/om-jordbruksverket/kurser-och-seminarier",
       "source_id": "jordbruksverket",
       "source_name": "Jordbruksverket",
+      "categories": [
+        "omstallning"
+      ],
+      "free": true
+    },
+    {
+      "id": "f9c189e9e4d7",
+      "title": "Sommarskogsdag i Härnum",
+      "date_iso": "2026-07-11",
+      "time": "",
+      "description": "Tjust hushållningsgille\nVi besöker en 55-årig granskog som just nu är under avverkning och kommer att gå en runda på olika skogsslingor. Dagen arrangeras i samarbete med Södras Förtroenderåd och LRF Västra Ed. Allt sker utomhus, så kläder efter väder. Mat kommer att serveras under dagen. Plats: Härnum utanför Edsbruk Tid:",
+      "url": "https://hushallningssallskapet.se/kalender/sommarskogsdag-i-harnum/",
+      "source_id": "hushallningssallskapet",
+      "source_name": "Hushållningssällskapet",
       "categories": [
         "omstallning"
       ],
@@ -3150,6 +3305,48 @@
       "source_name": "SV Studieförbundet",
       "categories": [
         "skogstradgard"
+      ],
+      "free": true
+    },
+    {
+      "id": "a74789e1c547",
+      "title": "Sommarmöte",
+      "date_iso": "2026-07-15",
+      "time": "",
+      "description": "Kinne hushållningsgille – Stenhyveln Gössäter\nOnsdagen den 15 juli kl. 17:00 på Kulturhuset Stenhyveln, Gössäter Kinne hushållningsgille bjuder härmed in dig till årets sommarmöte i Gössäter. Vi börjar med en kort promenad på ca 800 meter till ”oljekoken” där vi blir guidade och får höra om hur man under kriget utvann olja ur skiffern. Möjlighe",
+      "url": "https://hushallningssallskapet.se/kalender/kinne-sommarmote-2026/",
+      "source_id": "hushallningssallskapet",
+      "source_name": "Hushållningssällskapet",
+      "categories": [
+        "omstallning"
+      ],
+      "free": true
+    },
+    {
+      "id": "27062c3d4ae4",
+      "title": "Fältvandring med LRF Åtvidaberg på Grävsätters gård",
+      "date_iso": "2026-07-16",
+      "time": "",
+      "description": "Välkommen på fältvandring hos Karl och Linnea Gruvebäck på Grävsätters gård i Hannäs, tillsammans med LRF Åtvidaberg. Karl och Linnea tog över gården för drygt två år sedan och driver idag mjölkproduktion och växtodling. Under kvällen berättar de om sitt generationsskifte och delar sina tankar om hu",
+      "url": "https://hushallningssallskapet.se/kalender/faltvandring-med-lrf-atvidaberg-pa-gravsatters-gard/",
+      "source_id": "hushallningssallskapet",
+      "source_name": "Hushållningssällskapet",
+      "categories": [
+        "omstallning"
+      ],
+      "free": true
+    },
+    {
+      "id": "541fa6673b19",
+      "title": "Östra häradsgille: Jordgubbsfest",
+      "date_iso": "2026-07-17",
+      "time": "",
+      "description": "Östra häradsgille – Lemnhults kyrka\nJordgubbsfest! Välkommen till Lemnhult fredag 17/7 kl 18. Samling vid Lemnhults kyrka. Vi får guidning av Mats Gerebrink och ska se på Kyrkoruinen och Jättabacken. Gillet bjuder förstås på jordgubbar! Ta med egen fikakorg och fällstol. Välkommen!",
+      "url": "https://hushallningssallskapet.se/kalender/ostra-haradsgille-jordgubbsfest-2/",
+      "source_id": "hushallningssallskapet",
+      "source_name": "Hushållningssällskapet",
+      "categories": [
+        "omstallning"
       ],
       "free": true
     },
@@ -3176,6 +3373,20 @@
       "url": "https://www.sv.se/kurser-och-evenemang/tradgard-hus-och-hem/tradgard/liekurs-60785",
       "source_id": "sv_tradgard",
       "source_name": "SV Studieförbundet",
+      "categories": [
+        "omstallning"
+      ],
+      "free": true
+    },
+    {
+      "id": "349075938814",
+      "title": "Sommarresa",
+      "date_iso": "2026-07-22",
+      "time": "",
+      "description": "Kumla-Hallsberg-Ekeby hushållningsgille & Kumla Hallsbergs LRF\nKumla-Hallsberg-Ekeby hushållningsgille och Kumla Hallsbergs LRF inbjuder till Sommarresa. Tid Onsdagen den 22 juli 2026. Plats Avresa från Lantmännens silo i Kumla, kl. 07.30. Program Kl. 07.30 Avresa med buss från Lantm ännens silo i Kumla. ca 08.20    Kaffe och smörgås på Dinners i Arboga. ca 09.",
+      "url": "https://hushallningssallskapet.se/kalender/sommarresa-2/",
+      "source_id": "hushallningssallskapet",
+      "source_name": "Hushållningssällskapet",
       "categories": [
         "omstallning"
       ],
@@ -3210,20 +3421,6 @@
         "vatten",
         "biodiv",
         "klimat"
-      ],
-      "free": true
-    },
-    {
-      "id": "d4c1c6bd20e0",
-      "title": "Västblekinge Ornitologiska förening fyller 50år 2026 och har haft denna serie av kvällar på Kråkenabben nästan samtliga år sedan starten. Välkommen du också!",
-      "date_iso": "2026-07-25",
-      "time": "09:00 - 14:00",
-      "description": "Plats: Karlshamn",
-      "url": "https://www.studieframjandet.se/blekinge-lan/gustav-arrangemang/kalenderhandelser/2026/juli/slatter-i-ire/",
-      "source_id": "studieframjandet",
-      "source_name": "Studiefrämjandet",
-      "categories": [
-        "mat"
       ],
       "free": true
     },
@@ -3270,6 +3467,20 @@
       "free": true
     },
     {
+      "id": "e0c4f6c80caf",
+      "title": "Bondens egen marknad Luleå 2026",
+      "date_iso": "2026-08-01",
+      "time": "",
+      "description": "Hushållningssällskapet Norrbotten-Västerbotten – Storgatan från Smedjegatan upp till Nytorget, Luleå.\nLuleå, vi är tillbaka! Varmt välkommen till Bondens egen marknad – där du handlar direkt av dem som odlat, fött upp eller förädlat maten. Varje lördag under augusti och september har du möjlighet att köpa grönsaker, honung, fisk, ost och andra mejeriprodukter, kött och bröd direkt från våra lokala",
+      "url": "https://hushallningssallskapet.se/kalender/bondens-egen-marknad-lulea-2026/",
+      "source_id": "hushallningssallskapet",
+      "source_name": "Hushållningssällskapet",
+      "categories": [
+        "omstallning"
+      ],
+      "free": true
+    },
+    {
       "id": "3d9cb8320ef3",
       "title": "Fröodling – distans",
       "date_iso": "2026-08-03",
@@ -3281,6 +3492,21 @@
       "categories": [
         "agroforestry",
         "mat"
+      ],
+      "free": true
+    },
+    {
+      "id": "2bdd6234b040",
+      "title": "Trädgårdsvisning med Uppsticklingarna",
+      "date_iso": "2026-08-04",
+      "time": "18:00 - 20:00",
+      "description": "Plats: Falkenberg",
+      "url": "https://www.studieframjandet.se/hallands-lan/gustav-arrangemang/kalenderhandelser/2026/augusti/gron-titt/",
+      "source_id": "studieframjandet",
+      "source_name": "Studiefrämjandet",
+      "categories": [
+        "mat",
+        "biodiv"
       ],
       "free": true
     },
@@ -3299,6 +3525,34 @@
       "free": true
     },
     {
+      "id": "b79f4251da86",
+      "title": "Mo häradsgille: Sommarutflykt för medlemmar och icke-medlemmar",
+      "date_iso": "2026-08-05",
+      "time": "",
+      "description": "Mo häradsgille\nMo härads gille ska ut och resa den 5 augusti. Alla är välkomna att följa med både medlemmar och ickemedlemmar. Vi gör ett besök på Labbarps gård i Bankeryd , där vi också dricker förmiddagskaffe. Sen tittar vi på penselmuseet i hembygdsföreningen. Lunchen intar vi på restaurang  wiew i Brandstorp.",
+      "url": "https://hushallningssallskapet.se/kalender/mo-haradsgille-sommarutflykt-for-medlemmar-och-icke-medlemmar/",
+      "source_id": "hushallningssallskapet",
+      "source_name": "Hushållningssällskapet",
+      "categories": [
+        "omstallning"
+      ],
+      "free": true
+    },
+    {
+      "id": "d76a086684b4",
+      "title": "Bärodlarträff på Torslunda",
+      "date_iso": "2026-08-07",
+      "time": "",
+      "description": "Hushållningssällskapet Kalmar Kronoberg Blekinge – Torslunda Försöksstation, Ölands Skogsby 106B\nVälkommen till bärodlarträff på Torslunda försöksstation fredag den 7 augusti kl. 09-12 med visning av demo- odling av jordgubbar och hallon (long cane) med biologiskt växtskydd. Kalmarsundsgubbens bärodlarförening har i samband med träffen också årsmöte. Nya strategier mot skadedjur Jordgubbsodlare",
+      "url": "https://hushallningssallskapet.se/kalender/barodlartraff-pa-torslunda/",
+      "source_id": "hushallningssallskapet",
+      "source_name": "Hushållningssällskapet",
+      "categories": [
+        "omstallning"
+      ],
+      "free": true
+    },
+    {
       "id": "dc0efb810abd",
       "title": "Trädbeskärning, Bottarve",
       "date_iso": "2026-08-08",
@@ -3309,6 +3563,34 @@
       "source_name": "SV Studieförbundet",
       "categories": [
         "skog"
+      ],
+      "free": true
+    },
+    {
+      "id": "87c8268ead29",
+      "title": "Bondens egen marknad Umeå 2026",
+      "date_iso": "2026-08-08",
+      "time": "",
+      "description": "Hushållningssällskapet Norrbotten-Västerbotten – Kungsgatan mellan Mimerskolan och Vänortsparken, Umeå\nVälkommen till Bondens egen marknad i Umeå – där du handlar direkt av dem som odlat, fött upp eller förädlat maten. Under nio lördagar, från 8 augusti till 3 oktober, fylls Kungsgatan vid Vänortsparken med nyskördade grönsaker, blommor, hantverksmässigt producerade ostar, kött, fisk, bär, sylt, s",
+      "url": "https://hushallningssallskapet.se/kalender/bondens-egen-marknad-umea-2026/",
+      "source_id": "hushallningssallskapet",
+      "source_name": "Hushållningssällskapet",
+      "categories": [
+        "omstallning"
+      ],
+      "free": true
+    },
+    {
+      "id": "c2b16de0f39d",
+      "title": "Bondens egen marknad Luleå 2026",
+      "date_iso": "2026-08-08",
+      "time": "",
+      "description": "Hushållningssällskapet Norrbotten-Västerbotten – Storgatan från Smedjegatan upp till Nytorget, Luleå.\nLuleå, vi är tillbaka! Varmt välkommen till Bondens egen marknad – där du handlar direkt av dem som odlat, fött upp eller förädlat maten. Varje lördag under augusti och september har du möjlighet att köpa grönsaker, honung, fisk, ost och andra mejeriprodukter, kött och bröd direkt från våra lokala",
+      "url": "https://hushallningssallskapet.se/kalender/bondens-egen-marknad-lulea-2026-2/",
+      "source_id": "hushallningssallskapet",
+      "source_name": "Hushållningssällskapet",
+      "categories": [
+        "omstallning"
       ],
       "free": true
     },
@@ -3341,6 +3623,20 @@
       "free": true
     },
     {
+      "id": "94f70dd777ae",
+      "title": "Fältvandring i ekologisk grönsaksodling &#8211; Björnhyltans Trädgård i Ambjörnarp",
+      "date_iso": "2026-08-11",
+      "time": "",
+      "description": "Hushållningssällskapet Västra\nVälkommen på fältvandring till Björnhyltans Trädgård! Här har Peder och Lotta Wendefors odlat grönsaker för försäljning i 24 år. Idag bedrivs odlingen på ca 2000 m² enligt Market gardening-koncept med fasta bäddar men har förut varit av mer tradirionell karaktär. Vi kommer att få höra om hur man upp",
+      "url": "https://hushallningssallskapet.se/kalender/faltvandring-i-ekologisk-gronsaksodling-bjornhyltans-tradgard-i-ambjornarp/",
+      "source_id": "hushallningssallskapet",
+      "source_name": "Hushållningssällskapet",
+      "categories": [
+        "omstallning"
+      ],
+      "free": true
+    },
+    {
       "id": "4006670616fb",
       "title": "Spannmåls­fältvandring sortförsök EKO",
       "date_iso": "2026-08-12",
@@ -3351,6 +3647,119 @@
       "source_name": "Jordbruksverket",
       "categories": [
         "mat"
+      ],
+      "free": true
+    },
+    {
+      "id": "08a77c1fa84b",
+      "title": "Västbo Häradsgille: Medlemsutflykt",
+      "date_iso": "2026-08-12",
+      "time": "",
+      "description": "Västbo häradsgille – Schedingsnäs gård\nMedlemsutflykt 12 augusti  kl 18,00 till fam. Liljenberg, Schedingsnäs gård, Forsheda. Vi träffas på gården! PROGRAM: Bajro från Drönarstation AB, Reftele demonstrerar  hur drönare används i praktiken. Vi besöker ett äldre hus med gamla bruksföremål och får presentation av gården av familjen. Härads",
+      "url": "https://hushallningssallskapet.se/kalender/vastbo-haradsgille-medlemsutflykt/",
+      "source_id": "hushallningssallskapet",
+      "source_name": "Hushållningssällskapet",
+      "categories": [
+        "omstallning"
+      ],
+      "free": true
+    },
+    {
+      "id": "ef947c3e9003",
+      "title": "Bussresa till Bredared",
+      "date_iso": "2026-08-13",
+      "time": "",
+      "description": "Orust Tjörns hushållningsgille\nTorsdag 13 augusti Vi vill bjuda in dig till en resa där vi besöker Unos djur, Holmryds gårdsmejeri och Vängavikens Gröna vid Anten. Tag gärna med några vänner! Påstigning sker längs väg 160: 7:15 Henån 7:25 Vräland 7:35 Varekil 7:45 Myggenäs Program 9.30 Kaffe och fralla på Unos djur , med guide so",
+      "url": "https://hushallningssallskapet.se/kalender/bussresa-bredared/",
+      "source_id": "hushallningssallskapet",
+      "source_name": "Hushållningssällskapet",
+      "categories": [
+        "omstallning"
+      ],
+      "free": true
+    },
+    {
+      "id": "90f31c2e4aae",
+      "title": "Medstugedagen 2026",
+      "date_iso": "2026-08-14",
+      "time": "",
+      "description": "Hushållningssällskapet Jämtland – Medstugans egendom\nVälkommen till en dag på Medstugans egendom! Under dagen kommer ni att få uppleva flera aktiviteter kring budskapet ”Bo, leva, verka” i Medstugan. Denna dag är för de som bor och verkar i eller kring Medstugan, och är en del i Hushållningssällskapet Jämtlands projekt ”Medstugan Living Lab”. Mer info",
+      "url": "https://hushallningssallskapet.se/kalender/medstugedagen-2026/",
+      "source_id": "hushallningssallskapet",
+      "source_name": "Hushållningssällskapet",
+      "categories": [
+        "omstallning"
+      ],
+      "free": true
+    },
+    {
+      "id": "a836897ba9b0",
+      "title": "En studiecirkel för dig som vill lära dig odla dina egna frön och bli mer självförsörjande i din trädgård samtidigt som du spar pengar och får en mer klimatsmart trädgård.",
+      "date_iso": "2026-08-15",
+      "time": "10:00 - 12:00",
+      "description": "Plats: Klippan",
+      "url": "https://www.studieframjandet.se/skane-lan/gustav-arrangemang/kurser/2026/augusti/halsovandring-lugn-av-naturen-med-stina-frisk/",
+      "source_id": "studieframjandet",
+      "source_name": "Studiefrämjandet",
+      "categories": [
+        "mat",
+        "biodiv"
+      ],
+      "free": true
+    },
+    {
+      "id": "757854c761c3",
+      "title": "Handla på Gullmarsfjordens plantskola",
+      "date_iso": "2026-08-15",
+      "time": "",
+      "description": "Munkedals hushållningsgille – Gullmarsfjordens plantskola\nLördag 15 augusti kl 10-14 hos Tommy Ahnby En höjdpunkt på odlingssäsongen! För våra medlemmar i ett hushållningsgille – ett inköpstillfälle hos Tommy. Här har du chans att hitta massor med ovanliga träd och buskar, men också ett urval av perenner. På Bohusläns-Dals hemsida ​stabod.se​ hittar du Tom",
+      "url": "https://hushallningssallskapet.se/kalender/gullmarsfjordens-plantskola/",
+      "source_id": "hushallningssallskapet",
+      "source_name": "Hushållningssällskapet",
+      "categories": [
+        "omstallning"
+      ],
+      "free": true
+    },
+    {
+      "id": "e85f2ebaf7c5",
+      "title": "Bondens egen marknad Umeå 2026",
+      "date_iso": "2026-08-15",
+      "time": "",
+      "description": "Hushållningssällskapet Norrbotten-Västerbotten – Kungsgatan mellan Mimerskolan och Vänortsparken, Umeå\nVälkommen till Bondens egen marknad i Umeå – där du handlar direkt av dem som odlat, fött upp eller förädlat maten. Under nio lördagar, från 8 augusti till 3 oktober, fylls Kungsgatan vid Vänortsparken med nyskördade grönsaker, blommor, hantverksmässigt producerade ostar, kött, fisk, bär, sylt, s",
+      "url": "https://hushallningssallskapet.se/kalender/bondens-egen-marknad-umea-2026-2/",
+      "source_id": "hushallningssallskapet",
+      "source_name": "Hushållningssällskapet",
+      "categories": [
+        "omstallning"
+      ],
+      "free": true
+    },
+    {
+      "id": "aacf7652c4b8",
+      "title": "Stubbrace i Kungälv",
+      "date_iso": "2026-08-15",
+      "time": "",
+      "description": "Kungälvsbygdens hushållningsgille – Guddeby Gård\nLördag 15 aug, Guddeby Gård Välkommen till en folkfest med endast 50 kr i inträde för vuxna. Barn upp till 12 är går in gratis. Vi bjuder på trimmade traktorer, fyrmannaband på scenen, foodtrucks, café med korv och popcorn, gratis hoppborgar, jänkebilar och mycket mer. Förra året var vi 3000 persone",
+      "url": "https://hushallningssallskapet.se/kalender/stubbrace-kungalv/",
+      "source_id": "hushallningssallskapet",
+      "source_name": "Hushållningssällskapet",
+      "categories": [
+        "omstallning"
+      ],
+      "free": true
+    },
+    {
+      "id": "ee23ef5da234",
+      "title": "Bondens egen marknad Luleå 2026",
+      "date_iso": "2026-08-15",
+      "time": "",
+      "description": "Hushållningssällskapet Norrbotten-Västerbotten – Storgatan från Smedjegatan upp till Nytorget, Luleå.\nLuleå, vi är tillbaka! Varmt välkommen till Bondens egen marknad – där du handlar direkt av dem som odlat, fött upp eller förädlat maten. Varje lördag under augusti och september har du möjlighet att köpa grönsaker, honung, fisk, ost och andra mejeriprodukter, kött och bröd direkt från våra lokala",
+      "url": "https://hushallningssallskapet.se/kalender/bondens-egen-marknad-lulea-2026-3/",
+      "source_id": "hushallningssallskapet",
+      "source_name": "Hushållningssällskapet",
+      "categories": [
+        "omstallning"
       ],
       "free": true
     },
@@ -3397,6 +3806,34 @@
       "free": true
     },
     {
+      "id": "bf474ccfdc95",
+      "title": "Fältvandring i ekologisk grönsaksodling – Systrarnas Frukt och Grönt i Uddevalla",
+      "date_iso": "2026-08-18",
+      "time": "",
+      "description": "Hushållningssällskapet Västra\nSystrarnas Frukt och Grönt är en ekologisk grönsaksodling på en familjegård i Utby utanför Uddevalla. Verksamheten drivs av Alexandra Cabot, som startade odlingen 2022 när hon flyttade hem till gården. Idag omfattar odlingen cirka 5 000 kvm grönsaksodling samt en testodling med frukt-, bär- och nött",
+      "url": "https://hushallningssallskapet.se/kalender/faltvandring-i-ekologisk-gronsaksodling-systrarnas-frukt-och-gront-i-uddevalla/",
+      "source_id": "hushallningssallskapet",
+      "source_name": "Hushållningssällskapet",
+      "categories": [
+        "omstallning"
+      ],
+      "free": true
+    },
+    {
+      "id": "41de6934db16",
+      "title": "Kurs om vilda pollinerande insekter",
+      "date_iso": "2026-08-18",
+      "time": "",
+      "description": "Länsstyrelsen Stockholm – Färsna gård 1\nVälkommen till en fältkurs om vilda pollinerande insekter där du får lära dig om humlor, solitärbin, fjärilar och blomflugor samt om konkreta åtgärder för att gynna dem på din gård. Anna Douhan Sundahl, agronom och lantmästare från Hushållningssällskapet håller i kursen. Hon lyfter fram de ekosystem",
+      "url": "https://hushallningssallskapet.se/kalender/kurs-om-vilda-pollinerande-insekter-2/",
+      "source_id": "hushallningssallskapet",
+      "source_name": "Hushållningssällskapet",
+      "categories": [
+        "omstallning"
+      ],
+      "free": true
+    },
+    {
       "id": "520c9825368c",
       "title": "Nordiskt nätverks­möte för rådgivare inom ekologisk mjölk­produktion",
       "date_iso": "2026-08-19",
@@ -3407,6 +3844,20 @@
       "source_name": "Jordbruksverket",
       "categories": [
         "mat"
+      ],
+      "free": true
+    },
+    {
+      "id": "6603a9960cbc",
+      "title": "Inspirationsdag &#8211; mer grönsaksodling i Värmland!",
+      "date_iso": "2026-08-19",
+      "time": "",
+      "description": "Hushållningssällskapet Västra\nVälkommen till en inspirationsdag för dig som är nyfiken på yrkesmässig grönsaksodling. Oavsett om du redan odlar för försäljning, funderar på att ta steget eller befinner dig någonstans däremellan, är du varmt välkommen. Det finns i dag många mindre grönsaksodlare i Värmland som befinner sig i grän",
+      "url": "https://hushallningssallskapet.se/kalender/inspirationsdag-mer-gronsaksodling-i-varmland/",
+      "source_id": "hushallningssallskapet",
+      "source_name": "Hushållningssällskapet",
+      "categories": [
+        "omstallning"
       ],
       "free": true
     },
@@ -3434,8 +3885,35 @@
       "source_id": "studieframjandet",
       "source_name": "Studiefrämjandet",
       "categories": [
-        "mat",
-        "biodiv"
+        "omstallning"
+      ],
+      "free": true
+    },
+    {
+      "id": "646226dd6e5c",
+      "title": "Bondens egen marknad Umeå 2026",
+      "date_iso": "2026-08-22",
+      "time": "",
+      "description": "Hushållningssällskapet Norrbotten-Västerbotten – Kungsgatan mellan Mimerskolan och Vänortsparken, Umeå\nVälkommen till Bondens egen marknad i Umeå – där du handlar direkt av dem som odlat, fött upp eller förädlat maten. Under nio lördagar, från 8 augusti till 3 oktober, fylls Kungsgatan vid Vänortsparken med nyskördade grönsaker, blommor, hantverksmässigt producerade ostar, kött, fisk, bär, sylt, s",
+      "url": "https://hushallningssallskapet.se/kalender/bondens-egen-marknad-umea-2026-3/",
+      "source_id": "hushallningssallskapet",
+      "source_name": "Hushållningssällskapet",
+      "categories": [
+        "omstallning"
+      ],
+      "free": true
+    },
+    {
+      "id": "42affad71716",
+      "title": "Bondens egen marknad Luleå 2026",
+      "date_iso": "2026-08-22",
+      "time": "",
+      "description": "Hushållningssällskapet Norrbotten-Västerbotten – Storgatan från Smedjegatan upp till Nytorget, Luleå.\nLuleå, vi är tillbaka! Varmt välkommen till Bondens egen marknad – där du handlar direkt av dem som odlat, fött upp eller förädlat maten. Varje lördag under augusti och september har du möjlighet att köpa grönsaker, honung, fisk, ost och andra mejeriprodukter, kött och bröd direkt från våra lokala",
+      "url": "https://hushallningssallskapet.se/kalender/bondens-egen-marknad-lulea-2026-4/",
+      "source_id": "hushallningssallskapet",
+      "source_name": "Hushållningssällskapet",
+      "categories": [
+        "omstallning"
       ],
       "free": true
     },
@@ -3483,6 +3961,20 @@
       "free": true
     },
     {
+      "id": "33d63d5f63f5",
+      "title": "Fullbokad. Anmäl dej gärna som reserv!\\r\\nVi bygger vidare på det vi lärde oss i valpkursen och kommer att arbeta med lek och samarbete, följsamhet, inkallning, sitt kvar/stadga, stoppkommando, hundmöten, passivitet och nosaktivitet.",
+      "date_iso": "2026-08-26",
+      "time": "18:00 - 20:15",
+      "description": "Plats: Eksjö",
+      "url": "https://www.studieframjandet.se/jonkopings-lan/gustav-arrangemang/kurser/2026/augusti/rallylydnad-nyborjare-eksjo-brukshundklubb/",
+      "source_id": "studieframjandet",
+      "source_name": "Studiefrämjandet",
+      "categories": [
+        "mat"
+      ],
+      "free": true
+    },
+    {
       "id": "73334931f1ba",
       "title": "LU Land föreläsning: Kartläggning av trädslag i södra Sveriges skogar med hjälp av satellitdata och maskininlärning",
       "date_iso": "2026-08-26",
@@ -3493,6 +3985,76 @@
       "source_name": "LU Land",
       "categories": [
         "klimat",
+        "omstallning"
+      ],
+      "free": true
+    },
+    {
+      "id": "466af700fba2",
+      "title": "Grovfoderdag på Rådde",
+      "date_iso": "2026-08-26",
+      "time": "",
+      "description": "Hushållningssällskapet Sjuhärad, Lantmännen, Sparbanken Sjuhärad, Mjöbäcks Sparbank, Ulricehamns Sparbank, Sparbanken Tranemo, Sparbanken Alingsås – Rådde Gård, Länghem\n– En inspirationsdag för dig som har intresse för växtodling, djurhållning och foderproduktion. Vi träffas på Rådde gård för att ta del av och diskutera de senaste rönen och praktiska verktygen inom grovfoderproduktion. Under dagen",
+      "url": "https://hushallningssallskapet.se/kalender/grovfoderdag-pa-radde/",
+      "source_id": "hushallningssallskapet",
+      "source_name": "Hushållningssällskapet",
+      "categories": [
+        "omstallning"
+      ],
+      "free": true
+    },
+    {
+      "id": "2f48aa7585e8",
+      "title": "Värmland: ERFA-grupp för mjölkgårdar med robot",
+      "date_iso": "2026-08-26",
+      "time": "",
+      "description": "Hushållningssällskapet Västra\nVill du utveckla produktionen på din mjölkgård med robot tillsammans med andra i samma situation? Den här ERFA-gruppen ger dig som är mjölkföretagare i Värmland möjlighet att utbyta erfarenheter, diskutera utmaningar och hitta konkreta lösningar i din vardag. Vi startar med en digital träff där vi l",
+      "url": "https://hushallningssallskapet.se/kalender/varmland-erfa-grupp-for-mjolkgardar-med-robot/",
+      "source_id": "hushallningssallskapet",
+      "source_name": "Hushållningssällskapet",
+      "categories": [
+        "omstallning"
+      ],
+      "free": true
+    },
+    {
+      "id": "acae29a744e2",
+      "title": "Webbinarium – Vilken sorts foder ska jag ge min häst och varför?",
+      "date_iso": "2026-08-26",
+      "time": "",
+      "description": "Hushållningssällskapet Kalmar Kronoberg Blekinge\nVälkommen till en föreläsning om betydelsen av att anpassa foderstaten till min häst för bra välmående och bästa prestation. Emily Larsson, Dressyrryttare, Vallfoderproducent och Foderrådgivare Exklusivt för våra medlemmar Våra webbinarier är en del av medlemsförmånerna hos Hushållningssällskapet Ka",
+      "url": "https://hushallningssallskapet.se/kalender/webbinarium-vilken-sorts-foder-ska-jag-ge-min-hast-och-varfor/",
+      "source_id": "hushallningssallskapet",
+      "source_name": "Hushållningssällskapet",
+      "categories": [
+        "omstallning"
+      ],
+      "free": true
+    },
+    {
+      "id": "8dee1cb04eda",
+      "title": "Grönsaksfermentering med Surtanten – kurs och föreläsning på Nordvik",
+      "date_iso": "2026-08-26",
+      "time": "",
+      "description": "Hushållningssällskapet Västernorrland i samarbete med Maskinring Norrland – Nordvik Utbildningar AB\nVälkommen till en inspirerande dag om fermentering, hållbar matförädling och beredskap på Nordvik den 26 augusti! Tillsammans med Jenny Neikell , mer känd som Surtanten , får du lära dig hur fermentering kan användas för att skapa smakrika, hållbara och lagringsdugliga produkter av grönsaker. Fermen",
+      "url": "https://hushallningssallskapet.se/kalender/gronsaksfermentering-med-surtanten-kurs-och-forelasning-pa-nordvik/",
+      "source_id": "hushallningssallskapet",
+      "source_name": "Hushållningssällskapet",
+      "categories": [
+        "omstallning"
+      ],
+      "free": true
+    },
+    {
+      "id": "54aaec748ce8",
+      "title": "Gårdsbesök Björfjäll, Henån",
+      "date_iso": "2026-08-26",
+      "time": "",
+      "description": "Orust Tjörns hushållningsgille – Björfjäll Henån\nOnsdag 26 augusti kl 18:00 Simon Olsson visar sin nybyggda ladugård för mjölkkor och beskriver produktionen. Ladugården har solceller på taket och batteri. Medtag egen fika. Vid frågor ring Bernt Samuelsson 070 717 07 51. Välkomna! Styrelsen",
+      "url": "https://hushallningssallskapet.se/kalender/bjorfjall/",
+      "source_id": "hushallningssallskapet",
+      "source_name": "Hushållningssällskapet",
+      "categories": [
         "omstallning"
       ],
       "free": true
@@ -3555,6 +4117,34 @@
       "free": true
     },
     {
+      "id": "1f905c4d207e",
+      "title": "Hållbar hästhållning – utfodring, bete och vallstrategier",
+      "date_iso": "2026-08-27",
+      "time": "",
+      "description": "Hushållningssällskapet Västra\nGruppaktivitet inom Greppa Näringen Välkommen till en inspirerande kväll för dig som vill utveckla en mer hållbar och resurseffektiv hästhållning. Under träffen varvar vi praktiska exempel från gården med kunskap om utfodring, betesdrift och vallodling. Du får konkreta tips som kan bidra till bättre",
+      "url": "https://hushallningssallskapet.se/kalender/hallbar-hasthallning-smart-utfodring-bete-och-vallodling/",
+      "source_id": "hushallningssallskapet",
+      "source_name": "Hushållningssällskapet",
+      "categories": [
+        "omstallning"
+      ],
+      "free": true
+    },
+    {
+      "id": "cc159d9c3ed1",
+      "title": "Studiebesök på Bosgården",
+      "date_iso": "2026-08-27",
+      "time": "",
+      "description": "Falbygdens hushållningsgille – Bosgårdens egendom\nStudiebesök på Bosgårdens ekologiska lantbruk i Hornborga, som fick Gillets premium. Bosgården driver ett ekologiskt lantbruk med tvåhundra köttdjur av rasen Aberdeen Angus. Gården erbjuder även aktiviteter såsom skjutbio, vandring, fågelskådning, kulturhistoria, fiske, grill & gym. Vi besöker Bosgå",
+      "url": "https://hushallningssallskapet.se/kalender/bosgarden/",
+      "source_id": "hushallningssallskapet",
+      "source_name": "Hushållningssällskapet",
+      "categories": [
+        "omstallning"
+      ],
+      "free": true
+    },
+    {
       "id": "c134265757dd",
       "title": "Delåtgärdsprogram för effektiv vattenförvaltning (2025)",
       "date_iso": "2026-08-29",
@@ -3567,6 +4157,76 @@
         "vatten",
         "biodiv",
         "klimat"
+      ],
+      "free": true
+    },
+    {
+      "id": "684806e4c8e3",
+      "title": "Hästpremiering Norrbotten 2026",
+      "date_iso": "2026-08-29",
+      "time": "",
+      "description": "Årets hästpremiering i Norrbotten sker lördagen den 29 augusti på Luleå Ridklubb. Premieringsförrättare är Elisabeth Ljungstorp. Klicka här och läs mer om vad som gäller för årets premiering. Kontakt Om du har frågor angående premieringen är du välkommen att höra av dig. Helene Skogqvist Telefon: 07",
+      "url": "https://hushallningssallskapet.se/kalender/hastpremiering-norrbotten-2026/",
+      "source_id": "hushallningssallskapet",
+      "source_name": "Hushållningssällskapet",
+      "categories": [
+        "omstallning"
+      ],
+      "free": true
+    },
+    {
+      "id": "0bf09ab1b2d8",
+      "title": "Bondens egen marknad Umeå 2026",
+      "date_iso": "2026-08-29",
+      "time": "",
+      "description": "Hushållningssällskapet Norrbotten-Västerbotten – Kungsgatan mellan Mimerskolan och Vänortsparken, Umeå\nVälkommen till Bondens egen marknad i Umeå – där du handlar direkt av dem som odlat, fött upp eller förädlat maten. Under nio lördagar, från 8 augusti till 3 oktober, fylls Kungsgatan vid Vänortsparken med nyskördade grönsaker, blommor, hantverksmässigt producerade ostar, kött, fisk, bär, sylt, s",
+      "url": "https://hushallningssallskapet.se/kalender/bondens-egen-marknad-umea-2026-4/",
+      "source_id": "hushallningssallskapet",
+      "source_name": "Hushållningssällskapet",
+      "categories": [
+        "omstallning"
+      ],
+      "free": true
+    },
+    {
+      "id": "c74d7c5f23b3",
+      "title": "Landsbygdens Sommarmöte",
+      "date_iso": "2026-08-29",
+      "time": "",
+      "description": "Upplevelser för alla Välkommen till en dag med fokus på de gröna näringarna! Under Landsbygdens Sommarmöte får du bland annat uppleva demonstrationer, djuruppvisningar, scensamtal, lokalproducerad mat och mycket annat. Här hittar du något för alla vare sig du är liten eller stor företagare, eller un",
+      "url": "https://hushallningssallskapet.se/kalender/landsbygdens-sommarmote/",
+      "source_id": "hushallningssallskapet",
+      "source_name": "Hushållningssällskapet",
+      "categories": [
+        "omstallning"
+      ],
+      "free": true
+    },
+    {
+      "id": "bb73f26caf24",
+      "title": "Bondens egen marknad Luleå 2026",
+      "date_iso": "2026-08-29",
+      "time": "",
+      "description": "Hushållningssällskapet Norrbotten-Västerbotten – Storgatan från Smedjegatan upp till Nytorget, Luleå.\nLuleå, vi är tillbaka! Varmt välkommen till Bondens egen marknad – där du handlar direkt av dem som odlat, fött upp eller förädlat maten. Varje lördag under augusti och september har du möjlighet att köpa grönsaker, honung, fisk, ost och andra mejeriprodukter, kött och bröd direkt från våra lokala",
+      "url": "https://hushallningssallskapet.se/kalender/bondens-egen-marknad-lulea-2026-5/",
+      "source_id": "hushallningssallskapet",
+      "source_name": "Hushållningssällskapet",
+      "categories": [
+        "omstallning"
+      ],
+      "free": true
+    },
+    {
+      "id": "683422673ea3",
+      "title": "Hästpremiering Västerbotten 2026",
+      "date_iso": "2026-08-30",
+      "time": "",
+      "description": "Årets hästpremiering i Västerbotten sker söndagen den 30 augusti på Hippologum i Umeå. Premieringsförrättare är Elisabeth Ljungstorp. Klicka här och läs mer om vad som gäller för årets premiering. Kontakt Om du har frågor angående premieringen är du välkommen att höra av dig. Helene Skogqvist Telefo",
+      "url": "https://hushallningssallskapet.se/kalender/hastpremiering-vasterbotten-2026/",
+      "source_id": "hushallningssallskapet",
+      "source_name": "Hushållningssällskapet",
+      "categories": [
+        "omstallning"
       ],
       "free": true
     },
@@ -3586,16 +4246,16 @@
       "free": true
     },
     {
-      "id": "4f72f0342a48",
-      "title": "I denna studiecirkel får du under tre dagar lära dig grunderna i mjölkförädling och tillverka produkter såsom; filmjölk, färskost, skärost samt stekost. Och tänk dig att du får lära dig allt detta i en fäbod, där kossorna betar precis runt husknuten!",
+      "id": "6639e9762da8",
+      "title": "Fältvandring &#8211; Skilleby Trädgård",
       "date_iso": "2026-08-31",
-      "time": "14:00 - 16:30",
-      "description": "Plats: Stallarholmen",
-      "url": "https://www.studieframjandet.se/sormlands-lan/gustav-arrangemang/kurser/2026/augusti/sytraff-i-colorwash-teknik-i-stallarholmen/",
-      "source_id": "studieframjandet",
-      "source_name": "Studiefrämjandet",
+      "time": "",
+      "description": "Länsstyrelsen \nVälkommen på fältvandring hos Skilleby trädgård! Skilleby trädgård har ett system med fasta odlingsbäddar där fleråriga grödor som fruktträd och bärbuskar integreras med ettåriga grönsaksgrödor för att dra nytta av de biologiska synergieffekter som förstärks när en större mångfald av olika växter od",
+      "url": "https://hushallningssallskapet.se/kalender/faltvandring-skilleby-tradgard/",
+      "source_id": "hushallningssallskapet",
+      "source_name": "Hushållningssällskapet",
       "categories": [
-        "mat"
+        "omstallning"
       ],
       "free": true
     },
@@ -3622,6 +4282,20 @@
       "url": "https://jordbruksverket.se/om-jordbruksverket/kurser-och-seminarier",
       "source_id": "jordbruksverket",
       "source_name": "Jordbruksverket",
+      "categories": [
+        "omstallning"
+      ],
+      "free": true
+    },
+    {
+      "id": "597104f0e345",
+      "title": "Potatis- och hortofältdagen 2026",
+      "date_iso": "2026-09-02",
+      "time": "",
+      "description": "HIR Skåne\nUpptäck framtidens odlingstekniker, innovationer och lösningar – från frö till skörd! Välkommen till Potatis- och Hortofältdagen 2026 – Sveriges självklara mötesplats för alla som arbetar med potatis-, grönsaks- och bärodling. Årets tema är etablering , och HIR Skåne bjuder tillsammans med sina utst",
+      "url": "https://hushallningssallskapet.se/kalender/potatis-och-hortofaltdagen-2026/",
+      "source_id": "hushallningssallskapet",
+      "source_name": "Hushållningssällskapet",
       "categories": [
         "omstallning"
       ],
@@ -3701,6 +4375,20 @@
       "free": true
     },
     {
+      "id": "e0cd9c5469b6",
+      "title": "Resa till Gotland 4-8 september",
+      "date_iso": "2026-09-04",
+      "time": "",
+      "description": "Hushållningssällskapet Dalarna Gävleborg\nInbjudan till medlemmar i Hushållningssällskapet Dalarna Gävleborg Välkomna till Gotland 4–8 september 2026! Våra resor 2019 och 2022 blev mycket uppskattade och många har efterfrågat en ny möjlighet att besöka ön. I år har vi lagt resan i samband med den årliga Skördefestivalen och även förlängt de",
+      "url": "https://hushallningssallskapet.se/kalender/resa-till-gotland-4-8-september/",
+      "source_id": "hushallningssallskapet",
+      "source_name": "Hushållningssällskapet",
+      "categories": [
+        "omstallning"
+      ],
+      "free": true
+    },
+    {
       "id": "48f04906e9f7",
       "title": "Nötodlardag på Solbacka nötodling",
       "date_iso": "2026-09-05",
@@ -3716,8 +4404,8 @@
       "free": true
     },
     {
-      "id": "063e606aac95",
-      "title": "Vill du lära dig hur man gör dina egna praliner - välkommen på pralinkurs!\\r\\n",
+      "id": "66b6db221775",
+      "title": "Under fem kvällar går vi igenom grunderna i stickning och du får lära dig lägga upp, sticka räta och aviga maskor, maska av, göra ökningar och hoptagningar.\\r\\nLär dig grunderna genom att sticka provlappar. Du kanske vill få hjälp att komma igång med ett enklare stickprojekt?\\r\\n",
       "date_iso": "2026-09-05",
       "time": "09:30 - 15:30",
       "description": "Plats: Östersund",
@@ -3731,8 +4419,36 @@
       "free": true
     },
     {
-      "id": "d3326876b9c8",
-      "title": "Under fem kvällar går vi igenom grunderna i stickning och du får lära dig lägga upp, sticka räta och aviga maskor, maska av, göra ökningar och hoptagningar.\\r\\nLär dig grunderna genom att sticka provlappar. Du kanske vill få hjälp att komma igång med ett enklare stickprojekt?\\r\\n",
+      "id": "8ef89f757358",
+      "title": "Bondens egen marknad Umeå 2026",
+      "date_iso": "2026-09-05",
+      "time": "",
+      "description": "Hushållningssällskapet Norrbotten-Västerbotten – Kungsgatan mellan Mimerskolan och Vänortsparken, Umeå\nVälkommen till Bondens egen marknad i Umeå – där du handlar direkt av dem som odlat, fött upp eller förädlat maten. Under nio lördagar, från 8 augusti till 3 oktober, fylls Kungsgatan vid Vänortsparken med nyskördade grönsaker, blommor, hantverksmässigt producerade ostar, kött, fisk, bär, sylt, s",
+      "url": "https://hushallningssallskapet.se/kalender/bondens-egen-marknad-umea-2026-5/",
+      "source_id": "hushallningssallskapet",
+      "source_name": "Hushållningssällskapet",
+      "categories": [
+        "omstallning"
+      ],
+      "free": true
+    },
+    {
+      "id": "6a16ec149950",
+      "title": "Bondens egen marknad Luleå 2026",
+      "date_iso": "2026-09-05",
+      "time": "",
+      "description": "Hushållningssällskapet Norrbotten-Västerbotten – Storgatan från Smedjegatan upp till Nytorget, Luleå.\nLuleå, vi är tillbaka! Varmt välkommen till Bondens egen marknad – där du handlar direkt av dem som odlat, fött upp eller förädlat maten. Varje lördag under augusti och september har du möjlighet att köpa grönsaker, honung, fisk, ost och andra mejeriprodukter, kött och bröd direkt från våra lokala",
+      "url": "https://hushallningssallskapet.se/kalender/bondens-egen-marknad-lulea-2026-6/",
+      "source_id": "hushallningssallskapet",
+      "source_name": "Hushållningssällskapet",
+      "categories": [
+        "omstallning"
+      ],
+      "free": true
+    },
+    {
+      "id": "50d5c7ee993c",
+      "title": "Den här kursen riktar sig till dig som vill bygga en trygg och hållbar relation med din valp från start. Vi har fokus på samarbete, förståelse och glädje – och på att ge dig som förare en stabil verktygslåda att använda i vardagen",
       "date_iso": "2026-09-08",
       "time": "17:30 - 21:00",
       "description": "Plats: Östersund",
@@ -3741,6 +4457,62 @@
       "source_name": "Studiefrämjandet",
       "categories": [
         "mat"
+      ],
+      "free": true
+    },
+    {
+      "id": "094245b19643",
+      "title": "Majsdag på Helgegården",
+      "date_iso": "2026-09-08",
+      "time": "",
+      "description": "Hushållningssällskapet Skåne – Hitta hit - parkering\nVälkommen till Hushållningssällskapet Skånes Majsdag på Helgegården den 8 september! Det kommer att presenteras rekordmånga sorter, sortblandningar, gödselstrategier och ekonomi med med majs i foderstaten. Detaljerat program och information om anmälan kommer längre fram. Arrangörerna Skånska Vallför",
+      "url": "https://hushallningssallskapet.se/kalender/majsdag-pa-helgegarden/",
+      "source_id": "hushallningssallskapet",
+      "source_name": "Hushållningssällskapet",
+      "categories": [
+        "omstallning"
+      ],
+      "free": true
+    },
+    {
+      "id": "29eade225c00",
+      "title": "Fältvandring hos Forsberg Gris &#038; Grönt",
+      "date_iso": "2026-09-08",
+      "time": "",
+      "description": "Länsstyrelsen \nVälkommen på fältvandring hos Forsberg Gris & Grönt med fokus på frilandsgrönsaker. Grönsaksodling på friland med lite extra fokus på lagringsgrönsaker. Vi diskuterar växtföljd, växtskydd och tittar på hur man kan bygga enkla, funktionella lager för kål, potatis, rotsaker och lök. Medverkande: Ylva",
+      "url": "https://hushallningssallskapet.se/kalender/faltvandring-hos-forsberg-gris-gront/",
+      "source_id": "hushallningssallskapet",
+      "source_name": "Hushållningssällskapet",
+      "categories": [
+        "omstallning"
+      ],
+      "free": true
+    },
+    {
+      "id": "b100d7192c14",
+      "title": "Fältdag med majs och framtidens foder",
+      "date_iso": "2026-09-09",
+      "time": "",
+      "description": "Hushållningssällskapet Kalmar Kronoberg Blekinge – Ogestad Gård, Gamleby\nHushållningssällskapet och KWS bjuder in till Fältdag med majs och framtidens foder. 9 september 2026 | Ogestad Gård i Gamleby Under dagen visar vi demonstrationsodlingar med majs och foderbetor samt delar aktuella erfarenheter kring sortval, etablering och framtidens foderproduktion. Fältdagen rikt",
+      "url": "https://hushallningssallskapet.se/kalender/faltdag-med-majs-och-framtidens-foder/",
+      "source_id": "hushallningssallskapet",
+      "source_name": "Hushållningssällskapet",
+      "categories": [
+        "omstallning"
+      ],
+      "free": true
+    },
+    {
+      "id": "0e8b54d9594a",
+      "title": "Medlemswebbinar: Mat som stärker – i vardag och kris",
+      "date_iso": "2026-09-09",
+      "time": "",
+      "description": "Hushållningssällskapet Västra\nWebbinariet fokuserar på hur vardagsnära, näringsriktig mat kan bidra till bättre hälsa, trygghet och handlingsförmåga. Tonen är opolitisk och praktisk, med fokus på lösningar som fungerar i verkligheten. Syftet är att ge konkreta, användbara kunskaper om hur man med enkla val kan stärka både hälsa",
+      "url": "https://hushallningssallskapet.se/kalender/mat-som-starker/",
+      "source_id": "hushallningssallskapet",
+      "source_name": "Hushållningssällskapet",
+      "categories": [
+        "omstallning"
       ],
       "free": true
     },
@@ -3774,6 +4546,48 @@
       "free": true
     },
     {
+      "id": "1a9ebc0ecd10",
+      "title": "Äpplets dag &#038; skördemarknad 2026",
+      "date_iso": "2026-09-12",
+      "time": "",
+      "description": "Folkfesten är tillbaka – välkommen till 2026 års Äpplets dag-firande och skördemarknad på Öjebyn Agro Park! Kom och upplev en dag fylld med inspirerande aktiviteter, lokala smakupplevelser och praktisk kunskap inom äppelodling och grönsaksförädling. Mer information och program kommer närmare evenema",
+      "url": "https://hushallningssallskapet.se/kalender/applets-dag-skordemarknad-2026/",
+      "source_id": "hushallningssallskapet",
+      "source_name": "Hushållningssällskapet",
+      "categories": [
+        "omstallning"
+      ],
+      "free": true
+    },
+    {
+      "id": "58abc5d420c5",
+      "title": "Bondens egen marknad Umeå 2026",
+      "date_iso": "2026-09-12",
+      "time": "",
+      "description": "Hushållningssällskapet Norrbotten-Västerbotten – Kungsgatan mellan Mimerskolan och Vänortsparken, Umeå\nVälkommen till Bondens egen marknad i Umeå – där du handlar direkt av dem som odlat, fött upp eller förädlat maten. Under nio lördagar, från 8 augusti till 3 oktober, fylls Kungsgatan vid Vänortsparken med nyskördade grönsaker, blommor, hantverksmässigt producerade ostar, kött, fisk, bär, sylt, s",
+      "url": "https://hushallningssallskapet.se/kalender/bondens-egen-marknad-umea-2026-6/",
+      "source_id": "hushallningssallskapet",
+      "source_name": "Hushållningssällskapet",
+      "categories": [
+        "omstallning"
+      ],
+      "free": true
+    },
+    {
+      "id": "aefe1bb79b67",
+      "title": "Bondens egen marknad Luleå 2026",
+      "date_iso": "2026-09-12",
+      "time": "",
+      "description": "Hushållningssällskapet Norrbotten-Västerbotten – Storgatan från Smedjegatan upp till Nytorget, Luleå.\nLuleå, vi är tillbaka! Varmt välkommen till Bondens egen marknad – där du handlar direkt av dem som odlat, fött upp eller förädlat maten. Varje lördag under augusti och september har du möjlighet att köpa grönsaker, honung, fisk, ost och andra mejeriprodukter, kött och bröd direkt från våra lokala",
+      "url": "https://hushallningssallskapet.se/kalender/bondens-egen-marknad-lulea-2026-7/",
+      "source_id": "hushallningssallskapet",
+      "source_name": "Hushållningssällskapet",
+      "categories": [
+        "omstallning"
+      ],
+      "free": true
+    },
+    {
       "id": "0b794eb3bda4",
       "title": "Forskningssatsning om avloppsvatten",
       "date_iso": "2026-09-14",
@@ -3790,8 +4604,8 @@
       "free": true
     },
     {
-      "id": "41f276fb9398",
-      "title": "Trädgårdsvisning med Uppsticklingarna",
+      "id": "41aa8c086746",
+      "title": "Vill du lära dig hur man gör dina egna praliner - välkommen på pralinkurs!\\r\\n",
       "date_iso": "2026-09-15",
       "time": "18:00 - 20:30",
       "description": "Plats: Hammerdal",
@@ -3799,8 +4613,35 @@
       "source_id": "studieframjandet",
       "source_name": "Studiefrämjandet",
       "categories": [
-        "mat",
-        "biodiv"
+        "mat"
+      ],
+      "free": true
+    },
+    {
+      "id": "76e6e49f738e",
+      "title": "Vardagslydnad för dig och din hund!",
+      "date_iso": "2026-09-15",
+      "time": "10:00 - 12:00",
+      "description": "Plats: Ödeshög",
+      "url": "https://www.studieframjandet.se/ostergotlands-lan/gustav-arrangemang/kurser/2026/september/kul-med-hund-for-daglediga-odeshogs-kennelklubb/",
+      "source_id": "studieframjandet",
+      "source_name": "Studiefrämjandet",
+      "categories": [
+        "mat"
+      ],
+      "free": true
+    },
+    {
+      "id": "0db54251e92d",
+      "title": "Kursen för dig som satt grunderna och vill träna på banor. Vi bygger banor efter er nivå. Träningen går ut på distanshandling och öronfokus hos hunden.",
+      "date_iso": "2026-09-15",
+      "time": "18:00 - 21:00",
+      "description": "Plats: Smålandsstenar",
+      "url": "https://www.studieframjandet.se/jonkopings-lan/gustav-arrangemang/kurser/2026/september/uppletandekurs-smalandsstenar-brukshundklubb/",
+      "source_id": "studieframjandet",
+      "source_name": "Studiefrämjandet",
+      "categories": [
+        "mat"
       ],
       "free": true
     },
@@ -3830,6 +4671,48 @@
       "categories": [
         "mat",
         "skogstradgard"
+      ],
+      "free": true
+    },
+    {
+      "id": "73b0c986fe5c",
+      "title": "Träff med tema nötodlingar 16 september",
+      "date_iso": "2026-09-16",
+      "time": "",
+      "description": "Hushållningssällskapet Kalmar Kronoberg Blekinge\nOnsdag den 16 september erbjuds en studieresa till försöksodlingen i Lilla Böslid i Halland samt besök vid två plantskolor som bland annat säljer nötträd. Det finns en lång tradition av nötodling både i Kalmar län, längs den halländska kusten och i Skåne. Under 2025 etablerades därför nötodlingar me",
+      "url": "https://hushallningssallskapet.se/kalender/notodlingar/",
+      "source_id": "hushallningssallskapet",
+      "source_name": "Hushållningssällskapet",
+      "categories": [
+        "omstallning"
+      ],
+      "free": true
+    },
+    {
+      "id": "e0ea92fae89d",
+      "title": "Webbinarium – Tema vatten, Naturvårdsingenjörerna",
+      "date_iso": "2026-09-16",
+      "time": "",
+      "description": "Hushållningssällskapet Kalmar Kronoberg Blekinge\nVälkommen till en inspirerande träff med fokus på vatten! Naturvårdsingenjörerna AB presenterar sitt arbete med framtidens vattenlösningar. Vi lyfter frågor kring bevattningsdammar och delar aktuella perspektiv på vatten. Träffen avslutas med en genomgång av vilka stöd som finns för vattenåtgärder s",
+      "url": "https://hushallningssallskapet.se/kalender/webbinarium-tema-vatten-naturvardsingenjorerna/",
+      "source_id": "hushallningssallskapet",
+      "source_name": "Hushållningssällskapet",
+      "categories": [
+        "omstallning"
+      ],
+      "free": true
+    },
+    {
+      "id": "098cad60f10a",
+      "title": "Våffelkväll i Bondersbyn med Lokala Hushållningssällskapet Kalix-Töre",
+      "date_iso": "2026-09-16",
+      "time": "",
+      "description": "Lokala Hushållningssällskapet Kalix-Töre – BONDERSBYGÅRDEN\nVi bjuder in till en trevlig medlemskväll där vi samlas för att prata, umgås och njuta av nygräddade våfflor med tillbehör. Anmälan senast 14/9 till: Jaana, 070-287 83 42",
+      "url": "https://hushallningssallskapet.se/kalender/vaffelkvall-i-bondersbyn-med-lokala-hushallningssallskapet-kalix-tore/",
+      "source_id": "hushallningssallskapet",
+      "source_name": "Hushållningssällskapet",
+      "categories": [
+        "omstallning"
       ],
       "free": true
     },
@@ -3864,6 +4747,48 @@
       "free": true
     },
     {
+      "id": "5a60b8017efc",
+      "title": "Bondens egen marknad Umeå 2026",
+      "date_iso": "2026-09-19",
+      "time": "",
+      "description": "Hushållningssällskapet Norrbotten-Västerbotten – Kungsgatan mellan Mimerskolan och Vänortsparken, Umeå\nVälkommen till Bondens egen marknad i Umeå – där du handlar direkt av dem som odlat, fött upp eller förädlat maten. Under nio lördagar, från 8 augusti till 3 oktober, fylls Kungsgatan vid Vänortsparken med nyskördade grönsaker, blommor, hantverksmässigt producerade ostar, kött, fisk, bär, sylt, s",
+      "url": "https://hushallningssallskapet.se/kalender/bondens-egen-marknad-umea-2026-7/",
+      "source_id": "hushallningssallskapet",
+      "source_name": "Hushållningssällskapet",
+      "categories": [
+        "omstallning"
+      ],
+      "free": true
+    },
+    {
+      "id": "582f6f2fa4cf",
+      "title": "Bondens egen marknad Luleå 2026",
+      "date_iso": "2026-09-19",
+      "time": "",
+      "description": "Hushållningssällskapet Norrbotten-Västerbotten\nLuleå, vi är tillbaka! Varmt välkommen till Bondens egen marknad – där du handlar direkt av dem som odlat, fött upp eller förädlat maten. Varje lördag under augusti och september har du möjlighet att köpa grönsaker, honung, fisk, ost och andra mejeriprodukter, kött och bröd direkt från våra lokala p",
+      "url": "https://hushallningssallskapet.se/kalender/bondens-egen-marknad-lulea-2026-8/",
+      "source_id": "hushallningssallskapet",
+      "source_name": "Hushållningssällskapet",
+      "categories": [
+        "omstallning"
+      ],
+      "free": true
+    },
+    {
+      "id": "d91738c42a4c",
+      "title": "På våra syträffar lär du dig att skapa färgglada mönster med textillappar och att sy ihop dem till ett vackert täcke. Vi ordnar 6 träffar under hösten. Ta med symaskinen till de sista träffarna eller sy ihop hemma.",
+      "date_iso": "2026-09-21",
+      "time": "18:00 - 20:30",
+      "description": "Plats: Umeå",
+      "url": "https://www.studieframjandet.se/vasterbottens-lan/gustav-arrangemang/kurser/2026/september/vegetarisk-matlagning/",
+      "source_id": "studieframjandet",
+      "source_name": "Studiefrämjandet",
+      "categories": [
+        "mat"
+      ],
+      "free": true
+    },
+    {
       "id": "b70bf9438bfc",
       "title": "Välkommen till en kväll där örtmedicinaren Ann-Louise Fransson kommer att berätta om konserveringsmetoden mjölksyrning, eller fermentering, vilket är samma sak.",
       "date_iso": "2026-09-22",
@@ -3873,8 +4798,36 @@
       "source_id": "studieframjandet",
       "source_name": "Studiefrämjandet",
       "categories": [
-        "mat",
-        "biodiv"
+        "omstallning"
+      ],
+      "free": true
+    },
+    {
+      "id": "52194d814898",
+      "title": "För dig som upplever promenader jobbiga med att hunden drar i koppel och har svårt med hundmöten. Man skäms inför omgivningen över att hunden beter sig på ett sätt som vi egentligen inte vill, och man står handfallen och vet inte vad man ska göra. Nu är det slut med det!",
+      "date_iso": "2026-09-23",
+      "time": "10:00 - 11:30",
+      "description": "Plats: Ödeshög",
+      "url": "https://www.studieframjandet.se/ostergotlands-lan/gustav-arrangemang/kurser/2026/september/hoopers-grundkurs-dagtid-odeshogs-kennelklubb/",
+      "source_id": "studieframjandet",
+      "source_name": "Studiefrämjandet",
+      "categories": [
+        "mat"
+      ],
+      "free": true
+    },
+    {
+      "id": "7a0c58051b6a",
+      "title": "Från konsument till cirkulent – för en resurseffektiv vardag",
+      "date_iso": "2026-09-24",
+      "time": "",
+      "description": "",
+      "url": "https://www.ekocentrum.se/events/fran-konsument-till-cirkulent-for-en-resurseffektiv-vardag-24-september/",
+      "source_id": "ekocentrum",
+      "source_name": "Ekocentrum",
+      "categories": [
+        "biodiv",
+        "mat"
       ],
       "free": true
     },
@@ -3894,6 +4847,20 @@
       "free": true
     },
     {
+      "id": "c9a205ac0456",
+      "title": "Optimera utifrån den mark du har!",
+      "date_iso": "2026-09-24",
+      "time": "",
+      "description": "Hushållningssällskapet Kalmar Kronoberg Blekinge – Bröderna Sibbessons Gård, Skåne\nVälkommen till en inspirerande fältdag där vi visar hur mark och vatten samverkar för att skapa ett mer produktivt, lönsamt och hållbart lantbruk. Under dagen får du ta del av praktiska exempel, demonstrationer och erfarenheter från experter inom dränering, markavvattning, jordhälsa, vattenlagring o",
+      "url": "https://hushallningssallskapet.se/kalender/framtidens-vattenhantering-inspirerande-faltdag-for-lantbrukare/",
+      "source_id": "hushallningssallskapet",
+      "source_name": "Hushållningssällskapet",
+      "categories": [
+        "omstallning"
+      ],
+      "free": true
+    },
+    {
       "id": "ed50640513d8",
       "title": "PrepAlliance Partner Meeting #3: Resource Management and Circular Preparedness",
       "date_iso": "2026-09-25",
@@ -3905,6 +4872,34 @@
       "categories": [
         "omstallning",
         "klimat"
+      ],
+      "free": true
+    },
+    {
+      "id": "5ed8c1b8aaac",
+      "title": "Bondens egen marknad Umeå 2026",
+      "date_iso": "2026-09-26",
+      "time": "",
+      "description": "Hushållningssällskapet Norrbotten-Västerbotten – Kungsgatan mellan Mimerskolan och Vänortsparken, Umeå\nVälkommen till Bondens egen marknad i Umeå – där du handlar direkt av dem som odlat, fött upp eller förädlat maten. Under nio lördagar, från 8 augusti till 3 oktober, fylls Kungsgatan vid Vänortsparken med nyskördade grönsaker, blommor, hantverksmässigt producerade ostar, kött, fisk, bär, sylt, s",
+      "url": "https://hushallningssallskapet.se/kalender/bondens-egen-marknad-umea-2026-8/",
+      "source_id": "hushallningssallskapet",
+      "source_name": "Hushållningssällskapet",
+      "categories": [
+        "omstallning"
+      ],
+      "free": true
+    },
+    {
+      "id": "901f17fe2212",
+      "title": "Bondens egen marknad Luleå 2026",
+      "date_iso": "2026-09-26",
+      "time": "",
+      "description": "Hushållningssällskapet Norrbotten-Västerbotten – Storgatan från Smedjegatan upp till Nytorget, Luleå.\nLuleå, vi är tillbaka! Varmt välkommen till Bondens egen marknad – där du handlar direkt av dem som odlat, fött upp eller förädlat maten. Varje lördag under augusti och september har du möjlighet att köpa grönsaker, honung, fisk, ost och andra mejeriprodukter, kött och bröd direkt från våra lokala",
+      "url": "https://hushallningssallskapet.se/kalender/bondens-egen-marknad-lulea-2026-9/",
+      "source_id": "hushallningssallskapet",
+      "source_name": "Hushållningssällskapet",
+      "categories": [
+        "omstallning"
       ],
       "free": true
     },
@@ -4001,16 +4996,16 @@
       "free": true
     },
     {
-      "id": "bc64f920ffbe",
-      "title": "Kom till fågeltornet vid Munkahusviken där Västblekinge Ornitologiska förenings håller till och delar med sig av sina kunskaper med bland annat artbenämning.",
+      "id": "e3586a55c160",
+      "title": "Bondens egen marknad Umeå 2026",
       "date_iso": "2026-10-03",
-      "time": "06:00 - 12:00",
-      "description": "Plats: Karlshamn",
-      "url": "https://www.studieframjandet.se/blekinge-lan/gustav-arrangemang/kalenderhandelser/2026/oktober/euro-bird-watch/",
-      "source_id": "studieframjandet",
-      "source_name": "Studiefrämjandet",
+      "time": "",
+      "description": "Hushållningssällskapet Norrbotten-Västerbotten – Kungsgatan mellan Mimerskolan och Vänortsparken, Umeå\nVälkommen till Bondens egen marknad i Umeå – där du handlar direkt av dem som odlat, fött upp eller förädlat maten. Under nio lördagar, från 8 augusti till 3 oktober, fylls Kungsgatan vid Vänortsparken med nyskördade grönsaker, blommor, hantverksmässigt producerade ostar, kött, fisk, bär, sylt, s",
+      "url": "https://hushallningssallskapet.se/kalender/bondens-egen-marknad-umea-2026-9/",
+      "source_id": "hushallningssallskapet",
+      "source_name": "Hushållningssällskapet",
       "categories": [
-        "mat"
+        "omstallning"
       ],
       "free": true
     },
@@ -4030,16 +5025,73 @@
       "free": true
     },
     {
-      "id": "2665b7b9a548",
-      "title": "I denna studiecirkel får du under tre dagar lära dig grunderna i mjölkförädling och tillverka produkter såsom; filmjölk, färskost, skärost samt stekost. Och tänk dig att du får lära dig allt detta i en fäbod, där kossorna betar precis runt husknuten!",
+      "id": "be375582e4be",
+      "title": "Kurs om fornlämningar och kulturlämningar som livsmiljöer i jordbrukslandskapet",
       "date_iso": "2026-10-06",
-      "time": "18:00 - 20:30",
-      "description": "Plats: Östersund",
-      "url": "https://www.studieframjandet.se/jamtlands-lan/gustav-arrangemang/kurser/2026/oktober/konserveringskurs/",
+      "time": "",
+      "description": "Länsstyrelsen Stockholm – Vårdinge hembygdsförening\nVälkommen till en fältkurs då vi tittar på olika forn- och kulturlämningar, samt kulturmiljöer i jordbrukslandskapet som livsmiljöer för många arter och hur du bäst vårdar dessa för att bevara kulturvärden och öka den biologiska mångfalden. Vi besöker Vårdinge Hembygdsförening i Mölnbo samt Inga-Lil",
+      "url": "https://hushallningssallskapet.se/kalender/kurs-om-fornlamningar-och-kulturlamningar-som-livsmiljoer-i-jordbrukslandskapet/",
+      "source_id": "hushallningssallskapet",
+      "source_name": "Hushållningssällskapet",
+      "categories": [
+        "omstallning"
+      ],
+      "free": true
+    },
+    {
+      "id": "1f287d7ea5c3",
+      "title": "Vill du lära dig hur man gör dina egna praliner - välkommen på pralinkurs!\\r\\n",
+      "date_iso": "2026-10-07",
+      "time": "18:30 - 20:00",
+      "description": "Plats: Ronneby",
+      "url": "https://www.studieframjandet.se/blekinge-lan/gustav-arrangemang/kalenderhandelser/2026/oktober/mjolksyrning---naturlig-konservering-for-nytta-och-hallbarhet/",
+      "source_id": "studieframjandet",
+      "source_name": "Studiefrämjandet",
+      "categories": [
+        "mat",
+        "biodiv"
+      ],
+      "free": true
+    },
+    {
+      "id": "7acd00fe9865",
+      "title": "Att ekollon är ätbara - och en god källa till mat - är det inte alla som vet. Vill du lära dig hur du gör den här kärva nöten till goda kakor? Kom på vår kurs!",
+      "date_iso": "2026-10-07",
+      "time": "18:00 - 20:15",
+      "description": "Plats: Göteborg",
+      "url": "https://www.studieframjandet.se/vastra-gotalands-lan/gustav-arrangemang/kurser/2026/oktober/mjolksyrefermentera-gronsaker-januari/",
       "source_id": "studieframjandet",
       "source_name": "Studiefrämjandet",
       "categories": [
         "mat"
+      ],
+      "free": true
+    },
+    {
+      "id": "e7659dc70862",
+      "title": "Lilla Böslid demodag 2026",
+      "date_iso": "2026-10-07",
+      "time": "",
+      "description": "Hushållningssällskapet Halland – Lilla Böslid, Eldsberga\nVälkommen till Lilla Böslid demodag 2026! Boka in den 7 oktober för en dag med teknik och upplevelser för dig som är lantbrukare eller intresserad av lantbruk. Årets tema är ” Ny kraft till framtidens lantbruk ”, vilket innebär ett fokus på hållbarhet. På plats hittar du: Maskindemonstrationer Utstä",
+      "url": "https://hushallningssallskapet.se/kalender/lilla-boslid-demodag-2026/",
+      "source_id": "hushallningssallskapet",
+      "source_name": "Hushållningssällskapet",
+      "categories": [
+        "omstallning"
+      ],
+      "free": true
+    },
+    {
+      "id": "66b4e992e587",
+      "title": "Beredskap för livsmedelsproducenter",
+      "date_iso": "2026-10-07",
+      "time": "",
+      "description": "Hushållningssällskapet Västra\nLivsmedelsföretag spelar en avgörande roll för samhällets försörjningsförmåga, men är samtidigt sårbara för olika typer av störningar och elavbrott, vattenbrist, transportproblem eller personalbortfall kan snabbt påverka hela produktionskedjan. I takt med ökade krav på en trygg livsmedelsförsörjning",
+      "url": "https://hushallningssallskapet.se/kalender/beredskap-for-livsmedelsproducenter/",
+      "source_id": "hushallningssallskapet",
+      "source_name": "Hushållningssällskapet",
+      "categories": [
+        "omstallning"
       ],
       "free": true
     },
@@ -4146,35 +5198,6 @@
       "free": true
     },
     {
-      "id": "f3c69b467903",
-      "title": "I denna studiecirkel får du under tre dagar lära dig grunderna i mjölkförädling och tillverka produkter såsom; filmjölk, färskost, skärost samt stekost. Och tänk dig att du får lära dig allt detta i en fäbod, där kossorna betar precis runt husknuten!",
-      "date_iso": "2026-10-13",
-      "time": "18:00 - 20:15",
-      "description": "Plats: Malmö",
-      "url": "https://www.studieframjandet.se/skane-lan/gustav-arrangemang/kurser/2026/oktober/froodling---lar-dig-odla-dina-egna-froer/",
-      "source_id": "studieframjandet",
-      "source_name": "Studiefrämjandet",
-      "categories": [
-        "mat",
-        "biodiv"
-      ],
-      "free": true
-    },
-    {
-      "id": "79accc540852",
-      "title": "Välkommen till en kväll där örtmedicinaren Ann-Louise Fransson kommer att berätta om konserveringsmetoden mjölksyrning, eller fermentering, vilket är samma sak.",
-      "date_iso": "2026-10-13",
-      "time": "18:30 - 20:00",
-      "description": "Plats: Ronneby",
-      "url": "https://www.studieframjandet.se/blekinge-lan/gustav-arrangemang/kalenderhandelser/2026/oktober/vinnare-och-forlorare-i-den-svenska-fagelvarlden/",
-      "source_id": "studieframjandet",
-      "source_name": "Studiefrämjandet",
-      "categories": [
-        "mat"
-      ],
-      "free": true
-    },
-    {
       "id": "422e6f456cc6",
       "title": "Plast som miljöproblem och plastens politik",
       "date_iso": "2026-10-14",
@@ -4206,6 +5229,20 @@
       "free": true
     },
     {
+      "id": "f9fc60ddfd48",
+      "title": "HIR-resa till Holland",
+      "date_iso": "2026-10-18",
+      "time": "",
+      "description": "Följ med på årets HIR-resa! Nu är anmälan öppen till årets HIR‑resa den 18–24 oktober 2026 där vi besöker ett av världens mest innovativa jordbruksländer – Nederländerna. Under veckan får vi unika studiebesök hos ledande aktörer som Lely och Barenbrug, träffa entreprenörer inom växtodling och teknik",
+      "url": "https://hushallningssallskapet.se/kalender/hir-holland/",
+      "source_id": "hushallningssallskapet",
+      "source_name": "Hushållningssällskapet",
+      "categories": [
+        "omstallning"
+      ],
+      "free": true
+    },
+    {
       "id": "0e78df61d73f",
       "title": "Prognoser (2025)",
       "date_iso": "2026-10-20",
@@ -4218,6 +5255,20 @@
         "vatten",
         "biodiv",
         "klimat"
+      ],
+      "free": true
+    },
+    {
+      "id": "7975bb751753",
+      "title": "Träff med tema förädling av sommartryffel",
+      "date_iso": "2026-10-20",
+      "time": "",
+      "description": "Hushållningssällskapet Kalmar Kronoberg Blekinge\nHushållningssällskapet Kalmar Kronoberg Blekinge (HSKKB) i samarbete med Öländska Sällskapet för Tryffel (ÖST) erbjuder en Erfa-grupp för personer intresserade av odling och förädling av sommartryffel (Tuber aestivum). Under året planeras två träffar: Del 1: Fredag den 8 maj. Samling Torslunda försö",
+      "url": "https://hushallningssallskapet.se/kalender/sommartryffel/",
+      "source_id": "hushallningssallskapet",
+      "source_name": "Hushållningssällskapet",
+      "categories": [
+        "omstallning"
       ],
       "free": true
     },
@@ -4237,30 +5288,59 @@
       "free": true
     },
     {
-      "id": "acb25c60a757",
-      "title": "Välkommen till en av vårens kortkurser med tema hållbar mat. Här gör vi under handledning egna naturliga produkter och denna workshop fokuserar på att lära sig att baka enkelt surdegsbröd.",
-      "date_iso": "2026-10-27",
-      "time": "17:30 - 20:30",
-      "description": "Plats: Västra frölunda",
-      "url": "https://www.studieframjandet.se/vastra-gotalands-lan/gustav-arrangemang/kurser/2026/oktober/ekollon-som-mat---bereda-och-baka/",
-      "source_id": "studieframjandet",
-      "source_name": "Studiefrämjandet",
+      "id": "d6b8186e39e2",
+      "title": "Grundkurs i livsmedelshygien för småskaliga livsmedelsförädlare",
+      "date_iso": "2026-10-21",
+      "time": "",
+      "description": "Hushållningssällskapet Västra\nPå uppdrag av Länsstyrelsen i Västra Götaland kommer Hushållningssällskapet Västra att anordna en grundkurs i livsmedelshygien för småskaliga livsmedelsförädlare verksamma i Västra Götaland. En utbildning i två steg: 1. Onsdag 21 oktober 2026, kl 10.00-12.00. Digital utbildning via Teams. 2. Tisdag",
+      "url": "https://hushallningssallskapet.se/kalender/grundkurs-livsmedelshygien/",
+      "source_id": "hushallningssallskapet",
+      "source_name": "Hushållningssällskapet",
       "categories": [
+        "omstallning"
+      ],
+      "free": true
+    },
+    {
+      "id": "c3d4dc847e52",
+      "title": "Ledarskap och arbetsgivarrollen",
+      "date_iso": "2026-10-21",
+      "time": "",
+      "description": "Hushållningssällskapet Västra\nUtveckla ditt ledarskap och skapa en attraktiv arbetsplats Att vara företagare inom de gröna näringarna innebär ofta att kombinera flera roller samtidigt. Du förväntas vara både företagare, arbetsledare, kollega och praktiker. Ett gott ledarskap är avgörande för att skapa engagemang, trivsel och lån",
+      "url": "https://hushallningssallskapet.se/kalender/ledarskap-och-arbetsgivarrollen/",
+      "source_id": "hushallningssallskapet",
+      "source_name": "Hushållningssällskapet",
+      "categories": [
+        "omstallning"
+      ],
+      "free": true
+    },
+    {
+      "id": "db9bdfe2675a",
+      "title": "Från konsument till cirkulent – för en resurseffektiv vardag",
+      "date_iso": "2026-10-22",
+      "time": "",
+      "description": "",
+      "url": "https://www.ekocentrum.se/events/fran-konsument-till-cirkulent-for-en-resurseffektiv-vardag-22-oktober/",
+      "source_id": "ekocentrum",
+      "source_name": "Ekocentrum",
+      "categories": [
+        "biodiv",
         "mat"
       ],
       "free": true
     },
     {
-      "id": "1310eadfea5a",
-      "title": "I den här kursen kommer du att upptäcka hur enkelt, gott och inspirerande vegetarisk mat kan vara. Oavsett om du har tidigare erfarenheter av vegetarisk mat, kommer du att få nya ideer och favoritrecept att ta med hem.",
-      "date_iso": "2026-11-04",
-      "time": "18:00 - 20:15",
-      "description": "Plats: Göteborg",
-      "url": "https://www.studieframjandet.se/vastra-gotalands-lan/gustav-arrangemang/kurser/2026/november/mjolksyrefermentera-gronsaker-januari/",
-      "source_id": "studieframjandet",
-      "source_name": "Studiefrämjandet",
+      "id": "922be78732bb",
+      "title": "Nationell biogaskonferens Ystad – förhandsinfo",
+      "date_iso": "2026-11-03",
+      "time": "",
+      "description": "Hushållningssällskapet – Ystad Saltsjöbad\n2026 års nationella biogaskonferens äger rum på Ystad Saltsjöbad. Kostnaden för att delta kommer att landa på cirka 1 850 kronor exklusive moms. Priset kan komma att justeras någon hundralapp upp eller ner beroende på hur många vi blir. För att säkra din plats kan du anmäla dig redan nu via länken:",
+      "url": "https://hushallningssallskapet.se/kalender/nationell-biogaskonferens/",
+      "source_id": "hushallningssallskapet",
+      "source_name": "Hushållningssällskapet",
       "categories": [
-        "mat"
+        "omstallning"
       ],
       "free": true
     },
@@ -4295,20 +5375,6 @@
       "free": true
     },
     {
-      "id": "ae4ab44c9570",
-      "title": "Följ med och delta tillsammans med Naturskyddsföreningen i Ronneby på en slåtterdag på Ires blomsterrika ängsmarker.",
-      "date_iso": "2026-11-07",
-      "time": "08:30 - 13:00",
-      "description": "Plats: Olofström",
-      "url": "https://www.studieframjandet.se/blekinge-lan/gustav-arrangemang/kalenderhandelser/2026/november/slybekampning-i-mulatorp/",
-      "source_id": "studieframjandet",
-      "source_name": "Studiefrämjandet",
-      "categories": [
-        "mat"
-      ],
-      "free": true
-    },
-    {
       "id": "ba9ab6a97900",
       "title": "Trädgårdsdesign - Forma din egen trädgård",
       "date_iso": "2026-11-09",
@@ -4338,6 +5404,20 @@
       "free": true
     },
     {
+      "id": "7367bb00bd80",
+      "title": "Webbinarium – Gillesförsök, resultat",
+      "date_iso": "2026-11-11",
+      "time": "",
+      "description": "Hushållningssällskapet Kalmar Kronoberg Blekinge\nEn presentation av vår försöksverksamhet på Torslunda. En genomgång görs också av gillesförsöken som har gjorts under året, framförallt rågvete och vete i Edsbruk och Mönsterås. Jan-Olov Karlsson, Försöksledare och rådgivare Torslunda Exklusivt för våra medlemmar Våra webbinarier är en del av medlem",
+      "url": "https://hushallningssallskapet.se/kalender/webbinarium-gillesforsok-resultat/",
+      "source_id": "hushallningssallskapet",
+      "source_name": "Hushållningssällskapet",
+      "categories": [
+        "omstallning"
+      ],
+      "free": true
+    },
+    {
       "id": "2edba52f6041",
       "title": "FoU-dagarna 2026 – ekologisk produktion",
       "date_iso": "2026-11-12",
@@ -4348,6 +5428,50 @@
       "source_name": "Jordbruksverket",
       "categories": [
         "omstallning"
+      ],
+      "free": true
+    },
+    {
+      "id": "314d827d0166",
+      "title": "För odling- och trädgårdsintresserade",
+      "date_iso": "2026-11-12",
+      "time": "18:00 - 19:30",
+      "description": "Plats: Tvååker",
+      "url": "https://www.studieframjandet.se/hallands-lan/gustav-arrangemang/kalenderhandelser/2026/november/ett-blommigt-ledarskap/",
+      "source_id": "studieframjandet",
+      "source_name": "Studiefrämjandet",
+      "categories": [
+        "mat",
+        "biodiv"
+      ],
+      "free": true
+    },
+    {
+      "id": "7cf62586cee1",
+      "title": "Öppen grundläggande hållbarhets- och miljöutbildning på Ekocentrum",
+      "date_iso": "2026-11-17",
+      "time": "",
+      "description": "",
+      "url": "https://www.ekocentrum.se/events/oppen-grundlaggande-hallbarhets-och-miljoutbildning-pa-ekocentrum-24/",
+      "source_id": "ekocentrum",
+      "source_name": "Ekocentrum",
+      "categories": [
+        "biodiv",
+        "mat"
+      ],
+      "free": true
+    },
+    {
+      "id": "760866d225bb",
+      "title": "Välkommen till en workshop i hållbar matlagning. Här gör vi under handledning våra egna naturliga produkter och denna gång fokuserar vi på\\r\\nfermentering av grönsaker.",
+      "date_iso": "2026-11-18",
+      "time": "18:00 - 20:15",
+      "description": "Plats: Göteborg",
+      "url": "https://www.studieframjandet.se/vastra-gotalands-lan/gustav-arrangemang/kurser/2026/november/enkelt-surdegsbrod/",
+      "source_id": "studieframjandet",
+      "source_name": "Studiefrämjandet",
+      "categories": [
+        "mat"
       ],
       "free": true
     },
@@ -4367,6 +5491,21 @@
       "free": true
     },
     {
+      "id": "6494609165c7",
+      "title": "Från konsument till cirkulent – för en resurseffektiv vardag",
+      "date_iso": "2026-11-19",
+      "time": "",
+      "description": "",
+      "url": "https://www.ekocentrum.se/events/fran-konsument-till-cirkulent-for-en-resurseffektiv-vardag-19-november/",
+      "source_id": "ekocentrum",
+      "source_name": "Ekocentrum",
+      "categories": [
+        "biodiv",
+        "mat"
+      ],
+      "free": true
+    },
+    {
       "id": "1d08951d33af",
       "title": "Mat ur jorden – småskalig odling och förädling",
       "date_iso": "2026-11-20",
@@ -4378,6 +5517,20 @@
       "categories": [
         "mat",
         "agroforestry"
+      ],
+      "free": true
+    },
+    {
+      "id": "328d1759d850",
+      "title": "Skånejul 2026",
+      "date_iso": "2026-11-20",
+      "time": "",
+      "description": "Hushållningssällskapet Skåne – Hitta hit\nSkånejul – en äkta skånsk julmässa! Här hittar du hantverk och hemslöjd av bästa kvalitet, hemlagat godis, julkorv, vackra bruksföremål, keramik och hembakat bröd. För att nämna något… Här väntar upplevelser och smaker för hela familjen, mitt i hjärtat av Skåne! Välkommen till Skånejul på Hässleholm",
+      "url": "https://hushallningssallskapet.se/kalender/skanejul-2025/",
+      "source_id": "hushallningssallskapet",
+      "source_name": "Hushållningssällskapet",
+      "categories": [
+        "omstallning"
       ],
       "free": true
     },
@@ -4406,6 +5559,20 @@
       "source_name": "LU Land",
       "categories": [
         "klimat",
+        "omstallning"
+      ],
+      "free": true
+    },
+    {
+      "id": "4508975df55e",
+      "title": "Digital kurs om mångfaldsbryn",
+      "date_iso": "2026-11-26",
+      "time": "",
+      "description": "Länsstyrelsen Stockholm\nVälkommen till en digital kurs om hur du restaurerar och sköter skogsbryn för att gynna biologisk mångfald och kulturvärden. Frida Hedin och Olof Olsson på Hushållningssällskapet berättar om: vilka värden du kan ta vara på i brynzonerna där skogen möter jordbruksmarken – både för natur- och kulturmi",
+      "url": "https://hushallningssallskapet.se/kalender/digital-kurs-om-mangfaldsbryn/",
+      "source_id": "hushallningssallskapet",
+      "source_name": "Hushållningssällskapet",
+      "categories": [
         "omstallning"
       ],
       "free": true
