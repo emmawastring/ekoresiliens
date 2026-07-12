@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-11T07:45:59.128216+00:00",
-  "count": 409,
+  "updated": "2026-07-12T08:06:31.921896+00:00",
+  "count": 408,
   "errors": [],
   "events": [
     {
@@ -1769,6 +1769,21 @@
       "free": true
     },
     {
+      "id": "65a438ae8d51",
+      "title": "Lundensiskt musikliv under tre sekler: Akademiska kapellets instrumentsamling",
+      "date_iso": "2026-02-18",
+      "time": "",
+      "description": "",
+      "url": "https://www.lu.se/evenemang/lundensiskt-musikliv-under-tre-sekler-akademiska-kapellets-instrumentsamling",
+      "source_id": "lu_hallbarhet",
+      "source_name": "Lunds universitet",
+      "categories": [
+        "klimat",
+        "omstallning"
+      ],
+      "free": true
+    },
+    {
       "id": "ffd2f0d5143c",
       "title": "Swedish Climate Symposium Climate Research-Science, Society, Actions",
       "date_iso": "2026-02-19",
@@ -2675,21 +2690,6 @@
       "free": true
     },
     {
-      "id": "48b9c2cd4338",
-      "title": "Wet Star in the Desert – Julia Karla",
-      "date_iso": "2026-06-26",
-      "time": "",
-      "description": "",
-      "url": "https://www.lu.se/evenemang/wet-star-desert-julia-karla",
-      "source_id": "lu_hallbarhet",
-      "source_name": "Lunds universitet",
-      "categories": [
-        "klimat",
-        "omstallning"
-      ],
-      "free": true
-    },
-    {
       "id": "bf1fa59e3934",
       "title": "Återträff i Gudhem, Falköping",
       "date_iso": "2026-06-28",
@@ -2762,132 +2762,6 @@
       "free": true
     },
     {
-      "id": "2d587bedfdb6",
-      "title": "Dagfjärilar och andra nektarälskare",
-      "date_iso": "2026-07-11",
-      "time": "",
-      "description": "",
-      "url": "https://www.naturskyddsforeningen.se/engagera-dig/kalender/dagfjarilar-och-andra-nektaralskare-2026-07-11/",
-      "source_id": "naturskyddsforeningen",
-      "source_name": "Naturskyddsföreningen",
-      "categories": [
-        "biodiv"
-      ],
-      "free": true
-    },
-    {
-      "id": "4618d78c6078",
-      "title": "Vandring längs fågelvägen",
-      "date_iso": "2026-07-11",
-      "time": "",
-      "description": "",
-      "url": "https://www.naturskyddsforeningen.se/engagera-dig/kalender/vandring-langs-fagelvagen-stromsund-2026-07-11/",
-      "source_id": "naturskyddsforeningen",
-      "source_name": "Naturskyddsföreningen",
-      "categories": [
-        "biodiv"
-      ],
-      "free": true
-    },
-    {
-      "id": "0e9ca921b2ea",
-      "title": "Inventering av pollinatörer",
-      "date_iso": "2026-07-11",
-      "time": "",
-      "description": "",
-      "url": "https://www.naturskyddsforeningen.se/engagera-dig/kalender/inventering-av-pollinatorer-vindeln-2026-07-11/",
-      "source_id": "naturskyddsforeningen",
-      "source_name": "Naturskyddsföreningen",
-      "categories": [
-        "biodiv"
-      ],
-      "free": true
-    },
-    {
-      "id": "69a9d0691c5a",
-      "title": "Bekämpa invasiva växter",
-      "date_iso": "2026-07-11",
-      "time": "",
-      "description": "",
-      "url": "https://www.naturskyddsforeningen.se/engagera-dig/kalender/bekampa-invasiva-vaxter-borlange-2026-07-11/",
-      "source_id": "naturskyddsforeningen",
-      "source_name": "Naturskyddsföreningen",
-      "categories": [
-        "biodiv"
-      ],
-      "free": true
-    },
-    {
-      "id": "46f835293c7a",
-      "title": "Slåtter på ytorna närmast gården",
-      "date_iso": "2026-07-11",
-      "time": "",
-      "description": "",
-      "url": "https://www.naturskyddsforeningen.se/engagera-dig/kalender/slatter-pa-ytorna-narmast-garden-asperod-2026-07-11/",
-      "source_id": "naturskyddsforeningen",
-      "source_name": "Naturskyddsföreningen",
-      "categories": [
-        "biodiv"
-      ],
-      "free": true
-    },
-    {
-      "id": "a6d783386337",
-      "title": "Guidad tur på fjärilsslingan",
-      "date_iso": "2026-07-11",
-      "time": "",
-      "description": "",
-      "url": "https://www.naturskyddsforeningen.se/engagera-dig/kalender/guidad-tur-pa-fjarilsslingan-2026-07-11/",
-      "source_id": "naturskyddsforeningen",
-      "source_name": "Naturskyddsföreningen",
-      "categories": [
-        "biodiv"
-      ],
-      "free": true
-    },
-    {
-      "id": "54afbb0a71b7",
-      "title": "Extra årsmöte",
-      "date_iso": "2026-07-11",
-      "time": "",
-      "description": "",
-      "url": "https://www.naturskyddsforeningen.se/engagera-dig/kalender/extra-arsmote-2026-07-11/",
-      "source_id": "naturskyddsforeningen",
-      "source_name": "Naturskyddsföreningen",
-      "categories": [
-        "biodiv"
-      ],
-      "free": true
-    },
-    {
-      "id": "fd3233245edc",
-      "title": "Sommarvandring vid Labro ängar med temat blommor/fåglar/insekter m.m",
-      "date_iso": "2026-07-11",
-      "time": "",
-      "description": "",
-      "url": "https://www.naturskyddsforeningen.se/engagera-dig/kalender/sommarvandring-vid-labro-angar-med-temat-blommor-faglar-insekter-m-m-2026-07-11/",
-      "source_id": "naturskyddsforeningen",
-      "source_name": "Naturskyddsföreningen",
-      "categories": [
-        "mat"
-      ],
-      "free": true
-    },
-    {
-      "id": "3e00ee77f596",
-      "title": "Slåtter, Dammsjöås",
-      "date_iso": "2026-07-11",
-      "time": "",
-      "description": "",
-      "url": "https://www.naturskyddsforeningen.se/engagera-dig/kalender/slatter-dammsjoas-2026-07-11/",
-      "source_id": "naturskyddsforeningen",
-      "source_name": "Naturskyddsföreningen",
-      "categories": [
-        "biodiv"
-      ],
-      "free": true
-    },
-    {
       "id": "0a7a5782a901",
       "title": "Fladdermusläger med fältbiologerna",
       "date_iso": "2026-07-11",
@@ -2898,34 +2772,6 @@
       "source_name": "Naturskyddsföreningen",
       "categories": [
         "biodiv"
-      ],
-      "free": true
-    },
-    {
-      "id": "c2cab5db30e0",
-      "title": "Minnesvandring till Äihämäjärvi",
-      "date_iso": "2026-07-11",
-      "time": "",
-      "description": "",
-      "url": "https://www.naturskyddsforeningen.se/engagera-dig/kalender/minnesvandring-till-aihamajarvi-2026-07-11/",
-      "source_id": "naturskyddsforeningen",
-      "source_name": "Naturskyddsföreningen",
-      "categories": [
-        "biodiv"
-      ],
-      "free": true
-    },
-    {
-      "id": "f9c189e9e4d7",
-      "title": "Sommarskogsdag i Härnum",
-      "date_iso": "2026-07-11",
-      "time": "",
-      "description": "Tjust hushållningsgille\nVi besöker en 55-årig granskog som just nu är under avverkning och kommer att gå en runda på olika skogsslingor. Dagen arrangeras i samarbete med Södras Förtroenderåd och LRF Västra Ed. Allt sker utomhus, så kläder efter väder. Mat kommer att serveras under dagen. Plats: Härnum utanför Edsbruk Tid:",
-      "url": "https://hushallningssallskapet.se/kalender/sommarskogsdag-i-harnum/",
-      "source_id": "hushallningssallskapet",
-      "source_name": "Hushållningssällskapet",
-      "categories": [
-        "omstallning"
       ],
       "free": true
     },
@@ -2972,6 +2818,62 @@
       "free": true
     },
     {
+      "id": "4975ca59f3b0",
+      "title": "Arbetsvecka på Hörjelgården",
+      "date_iso": "2026-07-13",
+      "time": "",
+      "description": "",
+      "url": "https://www.naturskyddsforeningen.se/engagera-dig/kalender/arbetsvecka-pa-horjelgarden-asperod-2026-07-13/",
+      "source_id": "naturskyddsforeningen",
+      "source_name": "Naturskyddsföreningen",
+      "categories": [
+        "biodiv"
+      ],
+      "free": true
+    },
+    {
+      "id": "eb8779bb113f",
+      "title": "Stadsnära kvällsvandring – Häggeberg/Granbäck",
+      "date_iso": "2026-07-14",
+      "time": "",
+      "description": "",
+      "url": "https://www.naturskyddsforeningen.se/engagera-dig/kalender/stadsnara-kvallsvandring-haggeberg-granback-2026-07-14/",
+      "source_id": "naturskyddsforeningen",
+      "source_name": "Naturskyddsföreningen",
+      "categories": [
+        "biodiv"
+      ],
+      "free": true
+    },
+    {
+      "id": "056fa88b3aa0",
+      "title": "Heldagsutflykt till Ängsö Nationalpark",
+      "date_iso": "2026-07-15",
+      "time": "",
+      "description": "",
+      "url": "https://www.naturskyddsforeningen.se/engagera-dig/kalender/heldagsutflykt-till-angso-nationalpark-norrtalje-2026-07-15/",
+      "source_id": "naturskyddsforeningen",
+      "source_name": "Naturskyddsföreningen",
+      "categories": [
+        "biodiv"
+      ],
+      "free": true
+    },
+    {
+      "id": "59a5049d6f55",
+      "title": "Guidning om orkidéer i Lejakärret med Helena Backius",
+      "date_iso": "2026-07-15",
+      "time": "",
+      "description": "",
+      "url": "https://www.naturskyddsforeningen.se/engagera-dig/kalender/guidning-om-orkideer-i-lejakarret-med-helena-backius-2026-07-15/",
+      "source_id": "naturskyddsforeningen",
+      "source_name": "Naturskyddsföreningen",
+      "categories": [
+        "biodiv"
+      ],
+      "free": true
+    },
+    {
       "id": "a74789e1c547",
       "title": "Sommarmöte",
       "date_iso": "2026-07-15",
@@ -2982,6 +2884,34 @@
       "source_name": "Hushållningssällskapet",
       "categories": [
         "omstallning"
+      ],
+      "free": true
+    },
+    {
+      "id": "bba622671e4c",
+      "title": "Floravandring Fjällmossen",
+      "date_iso": "2026-07-16",
+      "time": "",
+      "description": "",
+      "url": "https://www.naturskyddsforeningen.se/engagera-dig/kalender/floravandring-fjallmossen-kristianstad-2026-07-16/",
+      "source_id": "naturskyddsforeningen",
+      "source_name": "Naturskyddsföreningen",
+      "categories": [
+        "biodiv"
+      ],
+      "free": true
+    },
+    {
+      "id": "141abed126fd",
+      "title": "Slåtter, G:a Kyrkogården, Ornunga",
+      "date_iso": "2026-07-16",
+      "time": "",
+      "description": "",
+      "url": "https://www.naturskyddsforeningen.se/engagera-dig/kalender/slatter-ga-kyrkogarden-ornunga-2026-07-16/",
+      "source_id": "naturskyddsforeningen",
+      "source_name": "Naturskyddsföreningen",
+      "categories": [
+        "biodiv"
       ],
       "free": true
     },
@@ -3042,6 +2972,62 @@
       "free": true
     },
     {
+      "id": "6e0934dde819",
+      "title": "Traditionell ängsslåtter vid Årenäs – Bevara mångfalden med lie och räfsa!",
+      "date_iso": "2026-07-18",
+      "time": "",
+      "description": "",
+      "url": "https://www.naturskyddsforeningen.se/engagera-dig/kalender/traditionell-angsslatter-vid-arenas-bevara-mangfalden-med-lie-och-rafsa-2026-07-18/",
+      "source_id": "naturskyddsforeningen",
+      "source_name": "Naturskyddsföreningen",
+      "categories": [
+        "biodiv"
+      ],
+      "free": true
+    },
+    {
+      "id": "b5f9fb2a8f3b",
+      "title": "Röjning av sly Nybygget",
+      "date_iso": "2026-07-18",
+      "time": "",
+      "description": "",
+      "url": "https://www.naturskyddsforeningen.se/engagera-dig/kalender/rojning-av-sly-nybygget-norrkoping-2026-07-18/",
+      "source_id": "naturskyddsforeningen",
+      "source_name": "Naturskyddsföreningen",
+      "categories": [
+        "biodiv"
+      ],
+      "free": true
+    },
+    {
+      "id": "9fc0ba207f56",
+      "title": "Var med och slå Färsnaängen!",
+      "date_iso": "2026-07-18",
+      "time": "",
+      "description": "",
+      "url": "https://www.naturskyddsforeningen.se/engagera-dig/kalender/var-med-och-sla-farsnaangen-norrtalje-2026-07-18/",
+      "source_id": "naturskyddsforeningen",
+      "source_name": "Naturskyddsföreningen",
+      "categories": [
+        "biodiv"
+      ],
+      "free": true
+    },
+    {
+      "id": "23e8d0855aba",
+      "title": "Bekämpa invasiva växter",
+      "date_iso": "2026-07-18",
+      "time": "",
+      "description": "",
+      "url": "https://www.naturskyddsforeningen.se/engagera-dig/kalender/bekampa-invasiva-vaxter-borlange-2026-07-18/",
+      "source_id": "naturskyddsforeningen",
+      "source_name": "Naturskyddsföreningen",
+      "categories": [
+        "biodiv"
+      ],
+      "free": true
+    },
+    {
       "id": "d8d5dad3fd5d",
       "title": "Mjölkens dag",
       "date_iso": "2026-07-18",
@@ -3080,20 +3066,6 @@
       "source_name": "Hushållningssällskapet",
       "categories": [
         "omstallning"
-      ],
-      "free": true
-    },
-    {
-      "id": "943064683510",
-      "title": "Att ta vara på de kläder man redan har hemma är det mest miljövänliga man kan göra, samtidigt som det är bra för plånboken och ett utmärkt tillfälle att öva sömnad. Denna kurs passar både nybörjare och mer vana. \\r\\n\\r\\n",
-      "date_iso": "2026-07-22",
-      "time": "17:30 - 21:00",
-      "description": "Plats: Karlshamn",
-      "url": "https://www.studieframjandet.se/blekinge-lan/gustav-arrangemang/kalenderhandelser/2026/juli/fagelskadning---vadarkvall-1-pa-krakenabben/",
-      "source_id": "studieframjandet",
-      "source_name": "Studiefrämjandet",
-      "categories": [
-        "mat"
       ],
       "free": true
     },
@@ -3158,12 +3130,12 @@
       "free": true
     },
     {
-      "id": "3f4d80f3f67e",
-      "title": "Tillsammans med Ringamåla hembygdsförening och Länsstyrelsen anordnas traditionsenligt slåtter med lie. Området är naturreservat, och vi vill inte att slåtter-ängen ska växa igen!",
+      "id": "d4c1c6bd20e0",
+      "title": "Västblekinge Ornitologiska förening fyller 50år 2026 och har haft denna serie av kvällar på Kråkenabben nästan samtliga år sedan starten. Välkommen du också!",
       "date_iso": "2026-07-25",
       "time": "09:00 - 14:00",
       "description": "Plats: Karlshamn",
-      "url": "https://www.studieframjandet.se/blekinge-lan/gustav-arrangemang/kalenderhandelser/2026/juli/slatter-i-ire-naturreservat/",
+      "url": "https://www.studieframjandet.se/blekinge-lan/gustav-arrangemang/kalenderhandelser/2026/juli/slatter-i-ire/",
       "source_id": "studieframjandet",
       "source_name": "Studiefrämjandet",
       "categories": [
@@ -4419,6 +4391,20 @@
       "free": true
     },
     {
+      "id": "d32a29d01061",
+      "title": "Västblekinge Ornitologiska förening tar oss med på en exkursion till Falsterbo Bird Show och Ljungen i Skåne.",
+      "date_iso": "2026-09-13",
+      "time": "08:00 - 16:00",
+      "description": "Plats: Karlshamn",
+      "url": "https://www.studieframjandet.se/blekinge-lan/gustav-arrangemang/kalenderhandelser/2026/september/exkursion-till-soderasens-nationalpark-i-skane/",
+      "source_id": "studieframjandet",
+      "source_name": "Studiefrämjandet",
+      "categories": [
+        "mat"
+      ],
+      "free": true
+    },
+    {
       "id": "0b794eb3bda4",
       "title": "Forskningssatsning om avloppsvatten",
       "date_iso": "2026-09-14",
@@ -4667,20 +4653,6 @@
       "free": true
     },
     {
-      "id": "79b2665f4679",
-      "title": "Kurs för dig med godkänt anlagsprov som nu vill ta träningen ytterligare ett steg till öppen klass!",
-      "date_iso": "2026-09-24",
-      "time": "17:30 - 20:00",
-      "description": "Plats: Dals långed",
-      "url": "https://www.studieframjandet.se/vastra-gotalands-lan/gustav-arrangemang/kurser/2026/september/kvallskroki-pa-steneby/",
-      "source_id": "studieframjandet",
-      "source_name": "Studiefrämjandet",
-      "categories": [
-        "mat"
-      ],
-      "free": true
-    },
-    {
       "id": "148b3f4a9358",
       "title": "Optimera utifrån den mark du har &#8211; Skåne",
       "date_iso": "2026-09-24",
@@ -4845,6 +4817,20 @@
       "free": true
     },
     {
+      "id": "bc64f920ffbe",
+      "title": "Kom till fågeltornet vid Munkahusviken där Västblekinge Ornitologiska förenings håller till och delar med sig av sina kunskaper med bland annat artbenämning.",
+      "date_iso": "2026-10-03",
+      "time": "06:00 - 12:00",
+      "description": "Plats: Karlshamn",
+      "url": "https://www.studieframjandet.se/blekinge-lan/gustav-arrangemang/kalenderhandelser/2026/oktober/euro-bird-watch/",
+      "source_id": "studieframjandet",
+      "source_name": "Studiefrämjandet",
+      "categories": [
+        "mat"
+      ],
+      "free": true
+    },
+    {
       "id": "e3586a55c160",
       "title": "Bondens egen marknad Umeå 2026",
       "date_iso": "2026-10-03",
@@ -4870,20 +4856,6 @@
       "categories": [
         "mat",
         "skogstradgard"
-      ],
-      "free": true
-    },
-    {
-      "id": "5cb30a294726",
-      "title": "Vi kommer att behöva rensa sly invid och i slåtterängen, och kanske jämna till Vildsvinens eventuella framfart i ängen.",
-      "date_iso": "2026-10-04",
-      "time": "06:00 - 12:00",
-      "description": "Plats: Karlshamn",
-      "url": "https://www.studieframjandet.se/blekinge-lan/gustav-arrangemang/kalenderhandelser/2026/oktober/euro-bird-watch2/",
-      "source_id": "studieframjandet",
-      "source_name": "Studiefrämjandet",
-      "categories": [
-        "mat"
       ],
       "free": true
     },
@@ -5060,6 +5032,20 @@
       "free": true
     },
     {
+      "id": "79accc540852",
+      "title": "Välkommen till en kväll där örtmedicinaren Ann-Louise Fransson kommer att berätta om konserveringsmetoden mjölksyrning, eller fermentering, vilket är samma sak.",
+      "date_iso": "2026-10-13",
+      "time": "18:30 - 20:00",
+      "description": "Plats: Ronneby",
+      "url": "https://www.studieframjandet.se/blekinge-lan/gustav-arrangemang/kalenderhandelser/2026/oktober/vinnare-och-forlorare-i-den-svenska-fagelvarlden/",
+      "source_id": "studieframjandet",
+      "source_name": "Studiefrämjandet",
+      "categories": [
+        "mat"
+      ],
+      "free": true
+    },
+    {
       "id": "422e6f456cc6",
       "title": "Plast som miljöproblem och plastens politik",
       "date_iso": "2026-10-14",
@@ -5207,20 +5193,6 @@
       "free": true
     },
     {
-      "id": "f177f14a7e8f",
-      "title": "Detta är en valpkurs för dig som vill bygga en trygg och stadig grund i relationen med din hund. Vi använder oss av ett belöningsbaserat inlärningssätt. Kursen bygger på boken Bäst Var-dag.",
-      "date_iso": "2026-10-25",
-      "time": "14:00 - 16:15",
-      "description": "Plats: Eksjö",
-      "url": "https://www.studieframjandet.se/jonkopings-lan/gustav-arrangemang/kurser/2026/oktober/unghundskurs-son-em-eksjo-brukshundklubb/",
-      "source_id": "studieframjandet",
-      "source_name": "Studiefrämjandet",
-      "categories": [
-        "mat"
-      ],
-      "free": true
-    },
-    {
       "id": "43e062963894",
       "title": "LU Land föreläsning: Vad data från Svensk fågeltaxering kan lära oss om klimat och hållbar markanvändning",
       "date_iso": "2026-10-28",
@@ -5276,6 +5248,20 @@
       "categories": [
         "mat",
         "skogstradgard"
+      ],
+      "free": true
+    },
+    {
+      "id": "ae4ab44c9570",
+      "title": "Följ med och delta tillsammans med Naturskyddsföreningen i Ronneby på en slåtterdag på Ires blomsterrika ängsmarker.",
+      "date_iso": "2026-11-07",
+      "time": "08:30 - 13:00",
+      "description": "Plats: Olofström",
+      "url": "https://www.studieframjandet.se/blekinge-lan/gustav-arrangemang/kalenderhandelser/2026/november/slybekampning-i-mulatorp/",
+      "source_id": "studieframjandet",
+      "source_name": "Studiefrämjandet",
+      "categories": [
+        "mat"
       ],
       "free": true
     },
