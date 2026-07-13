@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-12T08:06:31.921896+00:00",
+  "updated": "2026-07-13T08:55:58.448919+00:00",
   "count": 408,
   "errors": [],
   "events": [
@@ -2748,62 +2748,6 @@
       "free": true
     },
     {
-      "id": "b636af887175",
-      "title": "Sommarutställning i Sundshuset",
-      "date_iso": "2026-07-06",
-      "time": "",
-      "description": "",
-      "url": "https://www.sv.se/kurser-och-evenemang/tradgard-hus-och-hem/tradgard/sommarutstallning-i-sundshuset-108960",
-      "source_id": "sv_tradgard",
-      "source_name": "SV Studieförbundet",
-      "categories": [
-        "omstallning"
-      ],
-      "free": true
-    },
-    {
-      "id": "0a7a5782a901",
-      "title": "Fladdermusläger med fältbiologerna",
-      "date_iso": "2026-07-11",
-      "time": "",
-      "description": "",
-      "url": "https://www.naturskyddsforeningen.se/engagera-dig/kalender/fladdermuslager-med-faltbiologerna-2026-07-11/",
-      "source_id": "naturskyddsforeningen",
-      "source_name": "Naturskyddsföreningen",
-      "categories": [
-        "biodiv"
-      ],
-      "free": true
-    },
-    {
-      "id": "a6c538987bc3",
-      "title": "Natur nära Åmål",
-      "date_iso": "2026-07-12",
-      "time": "",
-      "description": "",
-      "url": "https://www.naturskyddsforeningen.se/engagera-dig/kalender/natur-nara-amal-amal-2026-07-12/",
-      "source_id": "naturskyddsforeningen",
-      "source_name": "Naturskyddsföreningen",
-      "categories": [
-        "biodiv"
-      ],
-      "free": true
-    },
-    {
-      "id": "fcca15602248",
-      "title": "Kopparholmarna – guidad vandring",
-      "date_iso": "2026-07-12",
-      "time": "",
-      "description": "",
-      "url": "https://www.naturskyddsforeningen.se/engagera-dig/kalender/kopparholmarna-guidad-vandring-norrkoping-2026-07-12/",
-      "source_id": "naturskyddsforeningen",
-      "source_name": "Naturskyddsföreningen",
-      "categories": [
-        "biodiv"
-      ],
-      "free": true
-    },
-    {
       "id": "54279e4dbcd4",
       "title": "Guidad visning i skogsträdgården i Västerlanda",
       "date_iso": "2026-07-13",
@@ -2888,12 +2832,12 @@
       "free": true
     },
     {
-      "id": "bba622671e4c",
-      "title": "Floravandring Fjällmossen",
+      "id": "141abed126fd",
+      "title": "Slåtter, G:a Kyrkogården, Ornunga",
       "date_iso": "2026-07-16",
       "time": "",
       "description": "",
-      "url": "https://www.naturskyddsforeningen.se/engagera-dig/kalender/floravandring-fjallmossen-kristianstad-2026-07-16/",
+      "url": "https://www.naturskyddsforeningen.se/engagera-dig/kalender/slatter-ga-kyrkogarden-ornunga-2026-07-16/",
       "source_id": "naturskyddsforeningen",
       "source_name": "Naturskyddsföreningen",
       "categories": [
@@ -2902,12 +2846,12 @@
       "free": true
     },
     {
-      "id": "141abed126fd",
-      "title": "Slåtter, G:a Kyrkogården, Ornunga",
+      "id": "bba622671e4c",
+      "title": "Floravandring Fjällmossen",
       "date_iso": "2026-07-16",
       "time": "",
       "description": "",
-      "url": "https://www.naturskyddsforeningen.se/engagera-dig/kalender/slatter-ga-kyrkogarden-ornunga-2026-07-16/",
+      "url": "https://www.naturskyddsforeningen.se/engagera-dig/kalender/floravandring-fjallmossen-kristianstad-2026-07-16/",
       "source_id": "naturskyddsforeningen",
       "source_name": "Naturskyddsföreningen",
       "categories": [
@@ -3000,6 +2944,20 @@
       "free": true
     },
     {
+      "id": "f5d1e5f999f0",
+      "title": "Slåtter i Rörvik",
+      "date_iso": "2026-07-18",
+      "time": "",
+      "description": "",
+      "url": "https://www.naturskyddsforeningen.se/engagera-dig/kalender/slatter-i-rorvik-2026-07-18/",
+      "source_id": "naturskyddsforeningen",
+      "source_name": "Naturskyddsföreningen",
+      "categories": [
+        "biodiv"
+      ],
+      "free": true
+    },
+    {
       "id": "9fc0ba207f56",
       "title": "Var med och slå Färsnaängen!",
       "date_iso": "2026-07-18",
@@ -3020,6 +2978,34 @@
       "time": "",
       "description": "",
       "url": "https://www.naturskyddsforeningen.se/engagera-dig/kalender/bekampa-invasiva-vaxter-borlange-2026-07-18/",
+      "source_id": "naturskyddsforeningen",
+      "source_name": "Naturskyddsföreningen",
+      "categories": [
+        "biodiv"
+      ],
+      "free": true
+    },
+    {
+      "id": "9d6270cd5bdf",
+      "title": "Lär dig slå med lie på Nybygget",
+      "date_iso": "2026-07-18",
+      "time": "",
+      "description": "",
+      "url": "https://www.naturskyddsforeningen.se/engagera-dig/kalender/lar-dig-sla-med-lie-pa-nybygget-norrkoping-2026-07-18/",
+      "source_id": "naturskyddsforeningen",
+      "source_name": "Naturskyddsföreningen",
+      "categories": [
+        "biodiv"
+      ],
+      "free": true
+    },
+    {
+      "id": "a9d7b5cfc984",
+      "title": "Guidad vandring på Kopparholmarna",
+      "date_iso": "2026-07-18",
+      "time": "",
+      "description": "",
+      "url": "https://www.naturskyddsforeningen.se/engagera-dig/kalender/guidad-vandring-pa-kopparholmarna-norrkoping-2026-07-18/",
       "source_id": "naturskyddsforeningen",
       "source_name": "Naturskyddsföreningen",
       "categories": [
@@ -5018,6 +5004,20 @@
       "free": true
     },
     {
+      "id": "742d0e84b6f8",
+      "title": "Om jord och trädgård med John Taylor",
+      "date_iso": "2026-10-13",
+      "time": "",
+      "description": "200 SEK",
+      "url": "https://www.sv.se/kurser-och-evenemang/tradgard-hus-och-hem/tradgard/om-jord-och-tradgard-med-john-taylor-204963",
+      "source_id": "sv_tradgard",
+      "source_name": "SV Studieförbundet",
+      "categories": [
+        "skog"
+      ],
+      "free": true
+    },
+    {
       "id": "19d89863e8bc",
       "title": "",
       "date_iso": "2026-10-13",
@@ -5530,6 +5530,38 @@
       "free": true
     },
     {
+      "id": "c910cf6cea17",
+      "title": "Vägledning om kommunala vattentjänstplaner (2026)",
+      "date_iso": "2026-12-31",
+      "time": "",
+      "description": "",
+      "url": "https://www.havochvatten.se/om-oss-kontakt-och-karriar/om-havs--och-vattenmyndigheten/regeringsuppdrag/regeringsuppdrag/2026/vagledning-om-kommunala-vattentjanstplaner-2026.html",
+      "source_id": "hav",
+      "source_name": "Havs- och vattenmyndigheten",
+      "categories": [
+        "vatten",
+        "biodiv",
+        "klimat"
+      ],
+      "free": true
+    },
+    {
+      "id": "1523b0dbed5c",
+      "title": "Förberedelser inför Sveriges tillträde till BBNJ-avtalet (2026)",
+      "date_iso": "2026-12-31",
+      "time": "",
+      "description": "",
+      "url": "https://www.havochvatten.se/om-oss-kontakt-och-karriar/om-havs--och-vattenmyndigheten/regeringsuppdrag/regeringsuppdrag/2026/forberedelser-infor-sveriges-tilltrade-till-bbnj-avtalet-2026.html",
+      "source_id": "hav",
+      "source_name": "Havs- och vattenmyndigheten",
+      "categories": [
+        "vatten",
+        "biodiv",
+        "klimat"
+      ],
+      "free": true
+    },
+    {
       "id": "f87cb6e325c9",
       "title": "Uppdrag om kartläggning av vattenbalanser (2024)",
       "date_iso": "2026-12-31",
@@ -5568,38 +5600,6 @@
       "time": "",
       "description": "",
       "url": "https://www.havochvatten.se/om-oss-kontakt-och-karriar/om-havs--och-vattenmyndigheten/regeringsuppdrag/regeringsuppdrag/2024/uppdrag-att-vidareutveckla-atgardssamordning-for-avrinningsomraden-2024.html",
-      "source_id": "hav",
-      "source_name": "Havs- och vattenmyndigheten",
-      "categories": [
-        "vatten",
-        "biodiv",
-        "klimat"
-      ],
-      "free": true
-    },
-    {
-      "id": "c910cf6cea17",
-      "title": "Vägledning om kommunala vattentjänstplaner (2026)",
-      "date_iso": "2026-12-31",
-      "time": "",
-      "description": "",
-      "url": "https://www.havochvatten.se/om-oss-kontakt-och-karriar/om-havs--och-vattenmyndigheten/regeringsuppdrag/regeringsuppdrag/2026/vagledning-om-kommunala-vattentjanstplaner-2026.html",
-      "source_id": "hav",
-      "source_name": "Havs- och vattenmyndigheten",
-      "categories": [
-        "vatten",
-        "biodiv",
-        "klimat"
-      ],
-      "free": true
-    },
-    {
-      "id": "1523b0dbed5c",
-      "title": "Förberedelser inför Sveriges tillträde till BBNJ-avtalet (2026)",
-      "date_iso": "2026-12-31",
-      "time": "",
-      "description": "",
-      "url": "https://www.havochvatten.se/om-oss-kontakt-och-karriar/om-havs--och-vattenmyndigheten/regeringsuppdrag/regeringsuppdrag/2026/forberedelser-infor-sveriges-tilltrade-till-bbnj-avtalet-2026.html",
       "source_id": "hav",
       "source_name": "Havs- och vattenmyndigheten",
       "categories": [
@@ -5940,12 +5940,12 @@
       "free": true
     },
     {
-      "id": "d693f48cdbf8",
-      "title": "På prov genomföra fiskeriförvaltningsåtgärder som motsvarar en utflyttning av trålgränsen (2022)",
+      "id": "65ac02efad5f",
+      "title": "Uppdrag att utreda sjöfartens miljöpåverkan och behovet av åtgärder i utpekade områden",
       "date_iso": "2027-04-30",
       "time": "",
       "description": "",
-      "url": "https://www.havochvatten.se/om-oss-kontakt-och-karriar/om-havs--och-vattenmyndigheten/regeringsuppdrag/regeringsuppdrag/2022/pa-prov-genomfora-fiskeriforvaltningsatgarder-som-motsvarar-en-utflyttning-av-tralgransen-2022.html",
+      "url": "https://www.havochvatten.se/om-oss-kontakt-och-karriar/om-havs--och-vattenmyndigheten/regeringsuppdrag/regeringsuppdrag/2026/uppdrag-att-utreda-sjofartens-miljopaverkan-och-behovet-av-atgarder-i-utpekade-omraden.html",
       "source_id": "hav",
       "source_name": "Havs- och vattenmyndigheten",
       "categories": [
@@ -5956,12 +5956,12 @@
       "free": true
     },
     {
-      "id": "65ac02efad5f",
-      "title": "Uppdrag att utreda sjöfartens miljöpåverkan och behovet av åtgärder i utpekade områden",
+      "id": "d693f48cdbf8",
+      "title": "På prov genomföra fiskeriförvaltningsåtgärder som motsvarar en utflyttning av trålgränsen (2022)",
       "date_iso": "2027-04-30",
       "time": "",
       "description": "",
-      "url": "https://www.havochvatten.se/om-oss-kontakt-och-karriar/om-havs--och-vattenmyndigheten/regeringsuppdrag/regeringsuppdrag/2026/uppdrag-att-utreda-sjofartens-miljopaverkan-och-behovet-av-atgarder-i-utpekade-omraden.html",
+      "url": "https://www.havochvatten.se/om-oss-kontakt-och-karriar/om-havs--och-vattenmyndigheten/regeringsuppdrag/regeringsuppdrag/2022/pa-prov-genomfora-fiskeriforvaltningsatgarder-som-motsvarar-en-utflyttning-av-tralgransen-2022.html",
       "source_id": "hav",
       "source_name": "Havs- och vattenmyndigheten",
       "categories": [
