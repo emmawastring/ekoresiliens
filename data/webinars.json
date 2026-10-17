@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-16T10:26:42.538147+00:00",
-  "count": 423,
+  "updated": "2026-10-17T09:59:40.394084+00:00",
+  "count": 425,
   "errors": [],
   "events": [
     {
@@ -640,22 +640,6 @@
       "free": true
     },
     {
-      "id": "2e9ea462c9f9",
-      "title": "Workshop - Convention on Migratory Species (CMS)",
-      "date_iso": "2025-04-09",
-      "time": "",
-      "description": "",
-      "url": "https://www.havochvatten.se/om-oss-kontakt-och-karriar/evenemang/kalender/kalender/2025/extern-kalender/2025-04-09-workshop---convention-on-migratory-species-cms.html",
-      "source_id": "hav",
-      "source_name": "Havs- och vattenmyndigheten",
-      "categories": [
-        "vatten",
-        "biodiv",
-        "klimat"
-      ],
-      "free": true
-    },
-    {
       "id": "0474130a4631",
       "title": "Lunchwebbinarium: Från AI till urbana landskap",
       "date_iso": "2025-04-11",
@@ -724,22 +708,6 @@
       "time": "",
       "description": "",
       "url": "https://www.havochvatten.se/om-oss-kontakt-och-karriar/evenemang/kalender/kalender/2025/extern-kalender/2025-09-02-webbinarium-om-tillstand-till-vaxtskyddsmedel-i-vattenskyddsomraden.html",
-      "source_id": "hav",
-      "source_name": "Havs- och vattenmyndigheten",
-      "categories": [
-        "vatten",
-        "biodiv",
-        "klimat"
-      ],
-      "free": true
-    },
-    {
-      "id": "dd128136cefa",
-      "title": "Workshop om möjliga åtgärder mot marint skräp",
-      "date_iso": "2025-09-05",
-      "time": "",
-      "description": "",
-      "url": "https://www.havochvatten.se/om-oss-kontakt-och-karriar/evenemang/kalender/kalender/2025/extern-kalender/2025-09-05-workshop-om-mojliga-atgarder-mot-marint-skrap.html",
       "source_id": "hav",
       "source_name": "Havs- och vattenmyndigheten",
       "categories": [
@@ -1510,6 +1478,21 @@
         "vatten",
         "biodiv",
         "klimat"
+      ],
+      "free": true
+    },
+    {
+      "id": "65a438ae8d51",
+      "title": "Lundensiskt musikliv under tre sekler: Akademiska kapellets instrumentsamling",
+      "date_iso": "2026-02-18",
+      "time": "",
+      "description": "",
+      "url": "https://www.lu.se/evenemang/lundensiskt-musikliv-under-tre-sekler-akademiska-kapellets-instrumentsamling",
+      "source_id": "lu_hallbarhet",
+      "source_name": "Lunds universitet",
+      "categories": [
+        "klimat",
+        "omstallning"
       ],
       "free": true
     },
@@ -2817,34 +2800,6 @@
       "free": true
     },
     {
-      "id": "53ba3ed8152d",
-      "title": "Möjligheter och begränsningar med lövkompost som ett torvfritt odlingssubstrat till plantuppdragning av grönsaker",
-      "date_iso": "2026-10-13",
-      "time": "",
-      "description": "Plats: Digitalt",
-      "url": "https://jordbruksverket.se/om-jordbruksverket/kurser-och-seminarier",
-      "source_id": "jordbruksverket",
-      "source_name": "Jordbruksverket",
-      "categories": [
-        "omstallning"
-      ],
-      "free": true
-    },
-    {
-      "id": "f06a3d17813a",
-      "title": "Nytt verktyg för Beredskapskollen",
-      "date_iso": "2026-10-13",
-      "time": "",
-      "description": "Plats: Digitalt",
-      "url": "https://jordbruksverket.se/om-jordbruksverket/kurser-och-seminarier",
-      "source_id": "jordbruksverket",
-      "source_name": "Jordbruksverket",
-      "categories": [
-        "omstallning"
-      ],
-      "free": true
-    },
-    {
       "id": "3b0002804e66",
       "title": "För att växterna ska trivas",
       "date_iso": "2026-10-13",
@@ -2854,7 +2809,8 @@
       "source_id": "studieframjandet",
       "source_name": "Studiefrämjandet",
       "categories": [
-        "omstallning"
+        "mat",
+        "biodiv"
       ],
       "free": true
     },
@@ -2875,65 +2831,6 @@
       "free": true
     },
     {
-      "id": "d197a7695767",
-      "title": "Filmvisning -Bruka utan att förbruka skogen",
-      "date_iso": "2026-10-16",
-      "time": "",
-      "description": "",
-      "url": "https://www.naturskyddsforeningen.se/engagera-dig/kalender/fargelanda-filmvisning-bruka-utan-att-forbruka-skogen-2026-10-16-5705b/",
-      "source_id": "naturskyddsforeningen",
-      "source_name": "Naturskyddsföreningen",
-      "categories": [
-        "skog"
-      ],
-      "free": true
-    },
-    {
-      "id": "8c568bf821b9",
-      "title": "Human Rights Lunch Online: Companion chatbots and emergent challenges to human rights",
-      "date_iso": "2026-10-16",
-      "time": "",
-      "description": "",
-      "url": "https://www.lu.se/evenemang/human-rights-lunch-online-companion-chatbots-and-emergent-challenges-human-rights",
-      "source_id": "lu_hallbarhet",
-      "source_name": "Lunds universitet",
-      "categories": [
-        "klimat",
-        "omstallning"
-      ],
-      "free": true
-    },
-    {
-      "id": "467d8644a79b",
-      "title": "Trollsåsfesten 2026",
-      "date_iso": "2026-10-16",
-      "time": "",
-      "description": "Hushållningssällskapet Jämtland – Frösö Park Hotel\nLars Trollsås stiftelser bidrar till att utveckla de gröna näringarna och stärka människor och företag som verkar på landsbygden. Det har vi valt att fira på Trollsåsfesten, då vi delar ut stipendier från Lars Trollsås stiftelser för Fjällkons bevarande och Näringslivsstiftelsen. Genom åren har medl",
-      "url": "https://hushallningssallskapet.se/kalender/trollsasfesten-2026/",
-      "source_id": "hushallningssallskapet",
-      "source_name": "Hushållningssällskapet",
-      "categories": [
-        "omstallning"
-      ],
-      "free": true
-    },
-    {
-      "id": "fc1aac45325e",
-      "title": "Uppdrag till Havs- och vattenmyndigheten att sammanställa och redovisa forskningsinsatser angående blåfenad tonfisk",
-      "date_iso": "2026-10-17",
-      "time": "",
-      "description": "",
-      "url": "https://www.havochvatten.se/om-oss-kontakt-och-karriar/om-havs--och-vattenmyndigheten/regeringsuppdrag/regeringsuppdrag/2025/uppdrag-till-havs--och-vattenmyndigheten-att-sammanstalla-och-redovisa-forskningsinsatser-angaende-blafenad-tonfisk.html",
-      "source_id": "hav",
-      "source_name": "Havs- och vattenmyndigheten",
-      "categories": [
-        "vatten",
-        "biodiv",
-        "klimat"
-      ],
-      "free": true
-    },
-    {
       "id": "0caba54f9e3a",
       "title": "Inventeringsdag i granskog för medlemmar",
       "date_iso": "2026-10-17",
@@ -2944,6 +2841,48 @@
       "source_name": "Naturskyddsföreningen",
       "categories": [
         "skog"
+      ],
+      "free": true
+    },
+    {
+      "id": "30b1d2c5561d",
+      "title": "Klimatvandring i Orminge centrum",
+      "date_iso": "2026-10-17",
+      "time": "",
+      "description": "",
+      "url": "https://www.naturskyddsforeningen.se/engagera-dig/kalender/nacka-klimatvandring-i-orminge-centrum-2026-10-17-d81fc/",
+      "source_id": "naturskyddsforeningen",
+      "source_name": "Naturskyddsföreningen",
+      "categories": [
+        "klimat"
+      ],
+      "free": true
+    },
+    {
+      "id": "5110c3652141",
+      "title": "Fältdag i skogen om biologisk mångfald och naturvärden i skogen med Ingemar Södergren, biolog och naturguide",
+      "date_iso": "2026-10-17",
+      "time": "",
+      "description": "",
+      "url": "https://www.naturskyddsforeningen.se/engagera-dig/kalender/knivsta-faltdag-i-skogen-om-biologisk-mangfald-och-naturvarden-i-skogen-med-ingemar-sodergren-biolog-och-naturguide-2026-10-17-d81fc/",
+      "source_id": "naturskyddsforeningen",
+      "source_name": "Naturskyddsföreningen",
+      "categories": [
+        "skog"
+      ],
+      "free": true
+    },
+    {
+      "id": "0ba35e90bf07",
+      "title": "Natursnokarna – tema svamp",
+      "date_iso": "2026-10-17",
+      "time": "",
+      "description": "",
+      "url": "https://www.naturskyddsforeningen.se/engagera-dig/kalender/trollhattan-natursnokarna-tema-svamp-2026-10-17-98eca/",
+      "source_id": "naturskyddsforeningen",
+      "source_name": "Naturskyddsföreningen",
+      "categories": [
+        "biodiv"
       ],
       "free": true
     },
@@ -3018,48 +2957,6 @@
       "free": true
     },
     {
-      "id": "30b1d2c5561d",
-      "title": "Klimatvandring i Orminge centrum",
-      "date_iso": "2026-10-17",
-      "time": "",
-      "description": "",
-      "url": "https://www.naturskyddsforeningen.se/engagera-dig/kalender/nacka-klimatvandring-i-orminge-centrum-2026-10-17-d81fc/",
-      "source_id": "naturskyddsforeningen",
-      "source_name": "Naturskyddsföreningen",
-      "categories": [
-        "klimat"
-      ],
-      "free": true
-    },
-    {
-      "id": "5110c3652141",
-      "title": "Fältdag i skogen om biologisk mångfald och naturvärden i skogen med Ingemar Södergren, biolog och naturguide",
-      "date_iso": "2026-10-17",
-      "time": "",
-      "description": "",
-      "url": "https://www.naturskyddsforeningen.se/engagera-dig/kalender/knivsta-faltdag-i-skogen-om-biologisk-mangfald-och-naturvarden-i-skogen-med-ingemar-sodergren-biolog-och-naturguide-2026-10-17-d81fc/",
-      "source_id": "naturskyddsforeningen",
-      "source_name": "Naturskyddsföreningen",
-      "categories": [
-        "skog"
-      ],
-      "free": true
-    },
-    {
-      "id": "0ba35e90bf07",
-      "title": "Natursnokarna – tema svamp",
-      "date_iso": "2026-10-17",
-      "time": "",
-      "description": "",
-      "url": "https://www.naturskyddsforeningen.se/engagera-dig/kalender/trollhattan-natursnokarna-tema-svamp-2026-10-17-98eca/",
-      "source_id": "naturskyddsforeningen",
-      "source_name": "Naturskyddsföreningen",
-      "categories": [
-        "biodiv"
-      ],
-      "free": true
-    },
-    {
       "id": "c8224f1de6cd",
       "title": "Förläng livet på dina kläder",
       "date_iso": "2026-10-17",
@@ -3070,6 +2967,20 @@
       "source_name": "Naturskyddsföreningen",
       "categories": [
         "biodiv"
+      ],
+      "free": true
+    },
+    {
+      "id": "2e48cadf79a4",
+      "title": "Exkursion – Ett helhetstänk om skog",
+      "date_iso": "2026-10-17",
+      "time": "",
+      "description": "",
+      "url": "https://www.naturskyddsforeningen.se/engagera-dig/kalender/alingsas-exkursion-ett-helhetstank-om-skog-2026-10-17-08a5a/",
+      "source_id": "naturskyddsforeningen",
+      "source_name": "Naturskyddsföreningen",
+      "categories": [
+        "skog"
       ],
       "free": true
     },
@@ -3300,36 +3211,6 @@
       "free": true
     },
     {
-      "id": "38edccc8ea27",
-      "title": "",
-      "date_iso": "2026-10-21",
-      "time": "18:00 - 19:00",
-      "description": "Plats: Distans",
-      "url": "https://www.studieframjandet.se/stockholms-lan/gustav-arrangemang/kalenderhandelser/2026/oktober/maxa-skorden-pa-liten-yta/",
-      "source_id": "studieframjandet",
-      "source_name": "Studiefrämjandet",
-      "categories": [
-        "mat",
-        "biodiv"
-      ],
-      "free": true
-    },
-    {
-      "id": "b9a51c3419b2",
-      "title": "Hur påverkas kroppen av vår kost när man blivit äldre och vad är bra kost.",
-      "date_iso": "2026-10-21",
-      "time": "18:00 - 21:00",
-      "description": "Plats: Katrineholm",
-      "url": "https://www.studieframjandet.se/sormlands-lan/gustav-arrangemang/kalenderhandelser/2026/oktober/min-resa-med-tradgardsliv---tradgardsforeningen-katrineholm/",
-      "source_id": "studieframjandet",
-      "source_name": "Studiefrämjandet",
-      "categories": [
-        "mat",
-        "biodiv"
-      ],
-      "free": true
-    },
-    {
       "id": "ed7e8fe3703e",
       "title": "Att ekollon är ätbara - och en god källa till mat - är det inte alla som vet. Vill du lära dig hur du gör den här kärva nöten till goda kakor? Kom på vår kurs!",
       "date_iso": "2026-10-21",
@@ -3340,6 +3221,20 @@
       "source_name": "Studiefrämjandet",
       "categories": [
         "mat"
+      ],
+      "free": true
+    },
+    {
+      "id": "38edccc8ea27",
+      "title": "",
+      "date_iso": "2026-10-21",
+      "time": "18:00 - 19:00",
+      "description": "Plats: Distans",
+      "url": "https://www.studieframjandet.se/stockholms-lan/gustav-arrangemang/kalenderhandelser/2026/oktober/maxa-skorden-pa-liten-yta/",
+      "source_id": "studieframjandet",
+      "source_name": "Studiefrämjandet",
+      "categories": [
+        "omstallning"
       ],
       "free": true
     },
@@ -3455,6 +3350,21 @@
       "source_name": "Jordbruksverket",
       "categories": [
         "omstallning"
+      ],
+      "free": true
+    },
+    {
+      "id": "ec394156e15f",
+      "title": "Kom och lyssna på Klas Kihlber",
+      "date_iso": "2026-10-22",
+      "time": "18:00 - 19:30",
+      "description": "Plats: Umeå",
+      "url": "https://www.studieframjandet.se/vasterbottens-lan/gustav-arrangemang/kurser/2026/oktober/vardagskunskap-for-livet--sma-fardigheter-som-gor-stor-skillnad/",
+      "source_id": "studieframjandet",
+      "source_name": "Studiefrämjandet",
+      "categories": [
+        "mat",
+        "biodiv"
       ],
       "free": true
     },
@@ -3603,20 +3513,6 @@
       "free": true
     },
     {
-      "id": "d21a3a5bd844",
-      "title": "Visste du att du som djurägare har ansvar för ditt djur oavsett om det är vardag, kris eller krig? Vill du lära dig mer och få med dig tips hem för hur du kan förbereda dig, dina djur och din familj.",
-      "date_iso": "2026-10-26",
-      "time": "18:00 - 20:15",
-      "description": "Plats: Stockholm",
-      "url": "https://www.studieframjandet.se/stockholms-lan/gustav-arrangemang/kalenderhandelser/2026/oktober/workshop--vaga-ta-plats--rost-kropp-och-sceniskt-uttryck/",
-      "source_id": "studieframjandet",
-      "source_name": "Studiefrämjandet",
-      "categories": [
-        "mat"
-      ],
-      "free": true
-    },
-    {
       "id": "19bf3494fdaa",
       "title": "Invigning av kontoret i Lyckeby",
       "date_iso": "2026-10-26",
@@ -3683,6 +3579,21 @@
       "source_name": "Jordbruksverket",
       "categories": [
         "omstallning"
+      ],
+      "free": true
+    },
+    {
+      "id": "638af9e44ef8",
+      "title": "Upptäck vilka grödor som ger mest på liten yta och få praktiska tips om jordförbättring och odlingsmetoder på plats i Sjöbergens koloniområde!",
+      "date_iso": "2026-10-28",
+      "time": "18:00 - 21:00",
+      "description": "Plats: Orsa",
+      "url": "https://www.studieframjandet.se/dalarnas-lan/gustav-arrangemang/kurser/2026/oktober/kurs-i-gronsaksfermentering-kimchi-och-surkal/",
+      "source_id": "studieframjandet",
+      "source_name": "Studiefrämjandet",
+      "categories": [
+        "mat",
+        "biodiv"
       ],
       "free": true
     },
@@ -3809,7 +3720,8 @@
       "source_id": "studieframjandet",
       "source_name": "Studiefrämjandet",
       "categories": [
-        "omstallning"
+        "mat",
+        "biodiv"
       ],
       "free": true
     },
@@ -3926,6 +3838,20 @@
       "free": true
     },
     {
+      "id": "a3a2d900ca9c",
+      "title": "",
+      "date_iso": "2026-11-04",
+      "time": "14:45 - 16:00",
+      "description": "Plats: Stockholm",
+      "url": "https://www.studieframjandet.se/blekinge-lan/gustav-arrangemang/kalenderhandelser/2026/november/spritmuseum---utstallning-dryckeslandet-svreige-stf-sodertorn-/",
+      "source_id": "studieframjandet",
+      "source_name": "Studiefrämjandet",
+      "categories": [
+        "mat"
+      ],
+      "free": true
+    },
+    {
       "id": "dbf9ca7732e4",
       "title": "LU Land frukostseminarium: Ekologisk läskunnighet och biofobi – vad är det och varför spelar det roll?",
       "date_iso": "2026-11-04",
@@ -4008,6 +3934,21 @@
       "source_name": "Alternativ.nu",
       "categories": [
         "omstallning"
+      ],
+      "free": true
+    },
+    {
+      "id": "e6bfb5f099ef",
+      "title": "LUCSUS seminar: New research theme - Artificial Intelligence",
+      "date_iso": "2026-11-05",
+      "time": "",
+      "description": "",
+      "url": "https://www.lucsus.lu.se/calendar/lucsus-seminar-new-research-theme-artificial-intelligence",
+      "source_id": "lucsus",
+      "source_name": "LUCSUS",
+      "categories": [
+        "omstallning",
+        "klimat"
       ],
       "free": true
     },
@@ -4130,6 +4071,20 @@
       "time": "18:00 - 20:30",
       "description": "Plats: Västra frölunda",
       "url": "https://www.studieframjandet.se/vastra-gotalands-lan/gustav-arrangemang/kurser/2026/november/konservering-for-nyborjare-torkning-av-gronsaker-och-frukt-/",
+      "source_id": "studieframjandet",
+      "source_name": "Studiefrämjandet",
+      "categories": [
+        "mat"
+      ],
+      "free": true
+    },
+    {
+      "id": "ec9bff72d055",
+      "title": "I den här inspirerande workshopen får du utforska hur röst, kroppsspråk och sceniskt uttryck kan stärka din kommunikation, öka din trygghet och hjälpa dig att uttrycka dig med större tydlighet och genomslagskraft.",
+      "date_iso": "2026-11-09",
+      "time": "18:30 - 21:00",
+      "description": "Plats: Björna",
+      "url": "https://www.studieframjandet.se/vasternorrlands-lan/gustav-arrangemang/kurser/2026/november/jagarexamen-del-1-teoretiska-delen-av-jagarskolan-i-leding/",
       "source_id": "studieframjandet",
       "source_name": "Studiefrämjandet",
       "categories": [
@@ -4422,6 +4377,21 @@
       "free": true
     },
     {
+      "id": "784f0bf09082",
+      "title": "Hur får du plats med mer – utan att skaffa större odlingsyta? Ett webbinarium för dig som vill skörda mer, odla smartare och låta varje liten bit av odlingsytan jobba.",
+      "date_iso": "2026-11-12",
+      "time": "14:00 - 16:00",
+      "description": "Plats: Stallarholmen",
+      "url": "https://www.studieframjandet.se/sormlands-lan/gustav-arrangemang/kalenderhandelser/2026/november/kosthallning-for-aldre/",
+      "source_id": "studieframjandet",
+      "source_name": "Studiefrämjandet",
+      "categories": [
+        "mat",
+        "biodiv"
+      ],
+      "free": true
+    },
+    {
       "id": "1e277a859cdb",
       "title": "Upptäck konsten att fermentera grönsaker!",
       "date_iso": "2026-11-12",
@@ -4431,8 +4401,22 @@
       "source_id": "studieframjandet",
       "source_name": "Studiefrämjandet",
       "categories": [
-        "mat",
-        "biodiv"
+        "omstallning"
+      ],
+      "free": true
+    },
+    {
+      "id": "872eda92cf56",
+      "title": "LUCSUS seminar: New research theme - Sustainability, security, preparedness & war",
+      "date_iso": "2026-11-12",
+      "time": "",
+      "description": "",
+      "url": "https://www.lucsus.lu.se/calendar/lucsus-seminar-new-research-theme-sustainability-security-preparedness-war",
+      "source_id": "lucsus",
+      "source_name": "LUCSUS",
+      "categories": [
+        "omstallning",
+        "klimat"
       ],
       "free": true
     },
@@ -4620,21 +4604,6 @@
       "free": true
     },
     {
-      "id": "24690332a0ee",
-      "title": "Vardagskunskap är kunskap för livet. Från hållbara matvanor och smart ekonomi till hälsa och praktiska färdigheter – det handlar om att ge människor möjlighet att växa, ta kloka beslut och skapa en hållbar framtid.",
-      "date_iso": "2026-11-18",
-      "time": "18:00 - 19:30",
-      "description": "Plats: Örnsköldsvik",
-      "url": "https://www.studieframjandet.se/vasternorrlands-lan/gustav-arrangemang/kalenderhandelser/2026/november/skogstradgard---forelasning-med-philipp-weiss/",
-      "source_id": "studieframjandet",
-      "source_name": "Studiefrämjandet",
-      "categories": [
-        "mat",
-        "biodiv"
-      ],
-      "free": true
-    },
-    {
       "id": "760866d225bb",
       "title": "Välkommen till en workshop i hållbar matlagning. Här gör vi under handledning våra egna naturliga produkter och denna gång fokuserar vi på\\r\\nfermentering av grönsaker.",
       "date_iso": "2026-11-18",
@@ -4645,6 +4614,20 @@
       "source_name": "Studiefrämjandet",
       "categories": [
         "mat"
+      ],
+      "free": true
+    },
+    {
+      "id": "63f1e5ae5d79",
+      "title": "Kom och lyssna på Klas Kihlber",
+      "date_iso": "2026-11-18",
+      "time": "18:00 - 19:30",
+      "description": "Plats: Örnsköldsvik",
+      "url": "https://www.studieframjandet.se/vasternorrlands-lan/gustav-arrangemang/kalenderhandelser/2026/november/skogstradgard---forelasning-med-philipp-weiss/",
+      "source_id": "studieframjandet",
+      "source_name": "Studiefrämjandet",
+      "categories": [
+        "omstallning"
       ],
       "free": true
     },
@@ -4717,6 +4700,21 @@
       "source_name": "SV Studieförbundet",
       "categories": [
         "omstallning"
+      ],
+      "free": true
+    },
+    {
+      "id": "820aff92b21b",
+      "title": "LUCSUS seminar: New research theme - Time in sustainability transitions",
+      "date_iso": "2026-11-19",
+      "time": "",
+      "description": "",
+      "url": "https://www.lucsus.lu.se/calendar/lucsus-seminar-new-research-theme-time-sustainability-transitions",
+      "source_id": "lucsus",
+      "source_name": "LUCSUS",
+      "categories": [
+        "omstallning",
+        "klimat"
       ],
       "free": true
     },
@@ -4913,8 +4911,7 @@
       "source_id": "studieframjandet",
       "source_name": "Studiefrämjandet",
       "categories": [
-        "mat",
-        "biodiv"
+        "omstallning"
       ],
       "free": true
     },
@@ -4984,6 +4981,21 @@
       "url": "https://www.hutskane.se/kalender/bokcirkel-med-maria-larsson-3/",
       "source_id": "hutskane",
       "source_name": "Hållbar Utveckling Skåne",
+      "categories": [
+        "omstallning",
+        "klimat"
+      ],
+      "free": true
+    },
+    {
+      "id": "8cac521ef4e3",
+      "title": "LUCSUS seminar: New research theme - Justice",
+      "date_iso": "2026-11-26",
+      "time": "",
+      "description": "",
+      "url": "https://www.lucsus.lu.se/calendar/lucsus-seminar-new-research-theme-justice",
+      "source_id": "lucsus",
+      "source_name": "LUCSUS",
       "categories": [
         "omstallning",
         "klimat"
@@ -5180,6 +5192,35 @@
       "free": true
     },
     {
+      "id": "5dd2d0572620",
+      "title": "Johnny Karlsson från Pålsboda tar oss med på en vandring i sin och Pias ca. 1 000 m2 stora trädgård bland sten- och torvpartier, förbi dammar och över bäcken som slingrar sig genom trädgården.",
+      "date_iso": "2026-12-03",
+      "time": "18:00 - 20:30",
+      "description": "Plats: Västerås",
+      "url": "https://www.studieframjandet.se/vastmanlands-lan/gustav-arrangemang/kalenderhandelser/2026/december/vintercafe---skadegorare---platmask/",
+      "source_id": "studieframjandet",
+      "source_name": "Studiefrämjandet",
+      "categories": [
+        "omstallning"
+      ],
+      "free": true
+    },
+    {
+      "id": "82cd23d32050",
+      "title": "LUCSUS seminar: New research theme - Anticipation (visions) + Arts & humanities for sustainability",
+      "date_iso": "2026-12-03",
+      "time": "",
+      "description": "",
+      "url": "https://www.lucsus.lu.se/calendar/lucsus-seminar-new-research-theme-anticipation-visions-arts-humanities-sustainability",
+      "source_id": "lucsus",
+      "source_name": "LUCSUS",
+      "categories": [
+        "omstallning",
+        "klimat"
+      ],
+      "free": true
+    },
+    {
       "id": "038507e26e32",
       "title": "Robusta skogar – Del 1, ungskog",
       "date_iso": "2026-12-03",
@@ -5294,6 +5335,21 @@
       "free": true
     },
     {
+      "id": "46bf289ade9a",
+      "title": "LUCSUS seminar: New research theme - Climate Governance Systems",
+      "date_iso": "2026-12-10",
+      "time": "",
+      "description": "",
+      "url": "https://www.lucsus.lu.se/calendar/lucsus-seminar-new-research-theme-climate-governance-systems",
+      "source_id": "lucsus",
+      "source_name": "LUCSUS",
+      "categories": [
+        "omstallning",
+        "klimat"
+      ],
+      "free": true
+    },
+    {
       "id": "290c080c7fc0",
       "title": "Julfrukost och Öppet Kontor",
       "date_iso": "2026-12-11",
@@ -5382,8 +5438,8 @@
       "free": true
     },
     {
-      "id": "5553e2864a91",
-      "title": "Välkommen till en fördjupande och praktiskt inriktad föreläsning om rädsla hos hund – ett av våra vanligaste och mest komplexa beteendeproblem.",
+      "id": "9b3258f29ced",
+      "title": "Studiefrämjandet i Malmö planerar erbjuda Jägarexamen: Jägarskolan komplett. Är du intresserad?",
       "date_iso": "2026-12-27",
       "time": "söndag  08:00",
       "description": "Plats: Karlskrona",
@@ -5550,20 +5606,6 @@
       "free": true
     },
     {
-      "id": "16b17b512704",
-      "title": "",
-      "date_iso": "2027-01-12",
-      "time": "18:00 - 20:30",
-      "description": "Plats: Örnsköldsvik",
-      "url": "https://www.studieframjandet.se/vasternorrlands-lan/gustav-arrangemang/kurser/2027/januari/jagarexamen-del-1-teoretiska-delen-av-jagarskolan-pa-distans/",
-      "source_id": "studieframjandet",
-      "source_name": "Studiefrämjandet",
-      "categories": [
-        "mat"
-      ],
-      "free": true
-    },
-    {
       "id": "432e198c5fc7",
       "title": "Andra effektiva områdesbaserade bevarandeåtgärder (OECM) (2025)",
       "date_iso": "2027-01-15",
@@ -5588,20 +5630,6 @@
       "url": "https://www.sv.se/kurser-och-evenemang/tradgard-hus-och-hem/tradgard/forelasning-sakra-kort-finns-det-90744",
       "source_id": "sv_tradgard",
       "source_name": "SV Studieförbundet",
-      "categories": [
-        "omstallning"
-      ],
-      "free": true
-    },
-    {
-      "id": "51a15c2a888d",
-      "title": "Hur kan man efterlikna naturens egna ekosystem i sin hemmaodling?",
-      "date_iso": "2027-01-20",
-      "time": "18:00 - 20:30",
-      "description": "Plats: Västerås",
-      "url": "https://www.studieframjandet.se/vastmanlands-lan/gustav-arrangemang/kalenderhandelser/2027/januari/en-vandring-till-bilder-i-var-tradgard-i-palsboda/",
-      "source_id": "studieframjandet",
-      "source_name": "Studiefrämjandet",
       "categories": [
         "omstallning"
       ],
@@ -5659,20 +5687,6 @@
       "url": "https://hushallningssallskapet.se/kalender/lantbrukets-branschdag-2027/",
       "source_id": "hushallningssallskapet",
       "source_name": "Hushållningssällskapet",
-      "categories": [
-        "omstallning"
-      ],
-      "free": true
-    },
-    {
-      "id": "3a2a4e7c2d83",
-      "title": "Den 7 januari 2025 blev det förbjudet att inneha och sprida Obama nungara. Den mask som något senare fick det svenska namnet lövplattmask.",
-      "date_iso": "2027-01-30",
-      "time": "10:00 - 16:00",
-      "description": "Plats: Sala",
-      "url": "https://www.studieframjandet.se/vastmanlands-lan/gustav-arrangemang/kurser/2027/januari/planering-av-din-kokstradgard/",
-      "source_id": "studieframjandet",
-      "source_name": "Studiefrämjandet",
       "categories": [
         "omstallning"
       ],
@@ -6264,6 +6278,21 @@
       "source_name": "SV Studieförbundet",
       "categories": [
         "omstallning"
+      ],
+      "free": true
+    },
+    {
+      "id": "1ac1600f8299",
+      "title": "LUCSUS seminar: New research theme - \"Biocultural diversity, Forests beyond trees\"",
+      "date_iso": "",
+      "time": "",
+      "description": "",
+      "url": "https://www.lucsus.lu.se/calendar/lucsus-seminar-new-research-theme-biocultural-diversity-forests-beyond-trees",
+      "source_id": "lucsus",
+      "source_name": "LUCSUS",
+      "categories": [
+        "omstallning",
+        "klimat"
       ],
       "free": true
     }
